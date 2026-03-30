@@ -1,0 +1,104 @@
+[
+  {
+    "id": "shelter::improvised_insulation",
+    "topic": "Improvised Shelter and Insulation",
+    "category": "shelter_protection",
+    "subcategory": "rapid_shelter",
+    "tags": ["shelter", "insulation", "cold", "rain", "wind"],
+    "summary_en": "A shelter does not need to look strong to work. It needs to keep the body dry, reduce wind, control heat loss, and prevent exposure from getting worse.",
+    "summary_el": "Ένα κατάλυμα δεν χρειάζεται να φαίνεται εντυπωσιακό για να λειτουργεί. Πρέπει να κρατά το σώμα στεγνό, να κόβει τον αέρα, να ελέγχει την απώλεια θερμότητας και να εμποδίζει την έκθεση να χειροτερεύει.",
+    "content_en": "In emergency conditions, shelter logic is simple: get off the ground, out of direct wind, away from leaks, and into a smaller controllable space. Insulation matters as much as walls. Wet ground, drafts, and compressed bedding steal body heat silently. Use layers of cloth, cardboard, dry plant matter, plastic sheeting, blankets, rugs, or any clean dry material to separate people from the ground and from moving air. Ventilation still matters, especially when using heat or cooking nearby. In hot conditions, shade and airflow may matter more than total enclosure. In urban settings, choose the driest and most structurally reliable room you can control, then improve it gradually.",
+    "content_el": "Σε συνθήκες ανάγκης, η λογική του καταλύματος είναι απλή: βγες από το έδαφος, μακριά από τον άμεσο αέρα, μακριά από διαρροές και μέσα σε μικρότερο ελεγχόμενο χώρο. Η μόνωση μετρά όσο και οι τοίχοι. Το βρεγμένο έδαφος, τα ρεύματα αέρα και τα πατημένα στρωσίδια κλέβουν αθόρυβα θερμότητα σώματος. Χρησιμοποίησε στρώσεις από ύφασμα, χαρτόνι, ξηρά φυτικά υλικά, πλαστικό, κουβέρτες, χαλιά ή οποιοδήποτε καθαρό ξηρό υλικό για να χωρίσεις τους ανθρώπους από το έδαφος και από τον κινούμενο αέρα. Ο αερισμός παραμένει σημαντικός, ειδικά αν χρησιμοποιείται θερμότητα ή μαγείρεμα κοντά. Σε ζεστές συνθήκες, η σκιά και η ροή αέρα μπορεί να μετρούν περισσότερο από το πλήρες κλείσιμο. Σε αστικό περιβάλλον, διάλεξε το πιο στεγνό και πιο δομικά αξιόπιστο δωμάτιο που μπορείς να ελέγξεις και βελτίωσέ το σταδιακά.",
+    "steps_en": [
+      "Choose the driest, least exposed space first.",
+      "Build ground insulation before worrying about appearance.",
+      "Block drafts and leaks without trapping unsafe fumes.",
+      "Keep sleeping materials dry and raised if possible.",
+      "Adjust shelter design for heat, cold, or smoke rather than using one setup for every condition."
+    ],
+    "steps_el": [
+      "Διάλεξε πρώτα τον πιο στεγνό και λιγότερο εκτεθειμένο χώρο.",
+      "Φτιάξε μόνωση από το έδαφος πριν σε νοιάξει η εμφάνιση.",
+      "Κόψε ρεύματα και διαρροές χωρίς να παγιδεύεις επικίνδυνους καπνούς.",
+      "Κράτα τα υλικά ύπνου στεγνά και αν γίνεται υπερυψωμένα.",
+      "Προσάρμοσε το κατάλυμα σε ζέστη, κρύο ή καπνό αντί να χρησιμοποιείς το ίδιο στήσιμο για όλα."
+    ],
+    "warnings_en": [
+      "A warm-looking shelter can still fail if the ground is wet and wind reaches the sleeper.",
+      "Poor ventilation around fire, stoves, or smoke creates serious danger.",
+      "Structural weakness matters more than comfort in damaged buildings."
+    ],
+    "warnings_el": [
+      "Ένα κατάλυμα που φαίνεται ζεστό μπορεί πάλι να αποτύχει αν το έδαφος είναι βρεγμένο και ο αέρας φτάνει στον κοιμισμένο.",
+      "Ο κακός αερισμός γύρω από φωτιά, σόμπα ή καπνό δημιουργεί σοβαρό κίνδυνο.",
+      "Η δομική αδυναμία μετρά περισσότερο από την άνεση σε κατεστραμμένα κτίρια."
+    ],
+    "mistakes_en": [
+      "Focusing only on roof cover and ignoring ground heat loss.",
+      "Packing too many people into damp unventilated space.",
+      "Sleeping in the most convenient room instead of the safest one."
+    ],
+    "mistakes_el": [
+      "Να εστιάζεις μόνο στην οροφή και να αγνοείς την απώλεια θερμότητας από το έδαφος.",
+      "Να στριμώχνεις πολλούς ανθρώπους σε υγρό και χωρίς αερισμό χώρο.",
+      "Να κοιμάσαι στο πιο βολικό δωμάτιο αντί για το πιο ασφαλές."
+    ],
+    "related_topics": ["Floods, Storms, and Wildfire Survival", "Firecraft, Heat, and Fuel Discipline", "Heat, Cold, and Smoke Conditions"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Direct repo continuation push."
+  },
+  {
+    "id": "shelter::storm_repair",
+    "topic": "Storm Hardening and Basic Repairs",
+    "category": "shelter_protection",
+    "subcategory": "repair_and_reinforcement",
+    "tags": ["storm", "repair", "reinforcement", "roof", "structure"],
+    "summary_en": "Small shelter failures become major failures during wind and rain. Basic repair work should focus on water entry, loose materials, and parts that can fail progressively.",
+    "summary_el": "Μικρές βλάβες καταλύματος γίνονται μεγάλες μέσα σε άνεμο και βροχή. Οι βασικές επισκευές πρέπει να εστιάζουν σε είσοδο νερού, χαλαρά υλικά και σημεία που αποτυγχάνουν σταδιακά.",
+    "content_en": "A loose sheet, cracked pane, weak latch, or leaking seam can turn a room from shelter into hazard. Before storms or severe wind, inspect the shelter for what can blow off, what can leak, and what can collapse inward. Secure loose coverings, move critical supplies away from leak paths, protect documents and bedding, and reduce unnecessary weight on weak surfaces. Simple repair culture matters: tape, cord, fabric patches, plastic, boards, nails, screws, buckets, and hand tools often preserve habitability long enough to survive a bad weather period. After the storm, inspect again before relaxing. Secondary damage often appears after the loud part ends.",
+    "content_el": "Ένα χαλαρό φύλλο, ένα ραγισμένο τζάμι, ένας αδύναμος σύρτης ή μια διαρροή στη ραφή μπορούν να μετατρέψουν ένα δωμάτιο από κατάλυμα σε κίνδυνο. Πριν από καταιγίδες ή ισχυρό αέρα, έλεγξε το κατάλυμα για ό,τι μπορεί να φύγει, να στάξει ή να καταρρεύσει προς τα μέσα. Στερέωσε χαλαρά καλύμματα, μετακίνησε κρίσιμα αποθέματα μακριά από διαδρομές διαρροής, προστάτεψε έγγραφα και στρωσίδια και μείωσε περιττό βάρος πάνω σε αδύναμες επιφάνειες. Η απλή κουλτούρα επισκευής μετρά: ταινία, σκοινί, μπαλώματα, πλαστικό, σανίδες, καρφιά, βίδες, κουβάδες και χειροκίνητα εργαλεία συχνά διατηρούν τη δυνατότητα κατοίκησης αρκετά ώστε να περάσει μια κακή περίοδος καιρού. Μετά την καταιγίδα, ξαναέλεγξε πριν χαλαρώσεις. Η δευτερογενής ζημιά εμφανίζεται συχνά αφού τελειώσει το δυνατό κομμάτι.",
+    "steps_en": [
+      "Inspect roofline, windows, doors, seams, and loose coverings before severe weather.",
+      "Move water-sensitive supplies and sleeping materials away from likely leak paths.",
+      "Secure or remove materials that can become airborne.",
+      "Keep basic repair tools and patch materials together in one accessible kit.",
+      "Reinspect after the event for hidden structural or water damage."
+    ],
+    "steps_el": [
+      "Έλεγξε στέγη, παράθυρα, πόρτες, ραφές και χαλαρά καλύμματα πριν από έντονο καιρό.",
+      "Μετακίνησε υλικά ευαίσθητα στο νερό και στρωσίδια μακριά από πιθανές διαρροές.",
+      "Στερέωσε ή αφαίρεσε υλικά που μπορούν να πετάξουν στον αέρα.",
+      "Κράτα βασικά εργαλεία επισκευής και υλικά μπαλώματος μαζί σε ένα προσβάσιμο κιτ.",
+      "Ξαναέλεγξε μετά το φαινόμενο για κρυφή δομική ή υδάτινη ζημιά."
+    ],
+    "warnings_en": [
+      "Do not climb onto unstable roofs or damaged upper levels without real necessity.",
+      "Water damage often keeps spreading after rainfall stops.",
+      "Broken glass, exposed nails, and hidden rot create post-storm injury risk."
+    ],
+    "warnings_el": [
+      "Μην ανεβαίνεις σε ασταθείς στέγες ή χαλασμένους ορόφους χωρίς πραγματική ανάγκη.",
+      "Η ζημιά από νερό συχνά συνεχίζει να εξαπλώνεται αφού σταματήσει η βροχή.",
+      "Σπασμένα γυαλιά, εκτεθειμένα καρφιά και κρυφή σήψη δημιουργούν κίνδυνο τραυματισμού μετά την καταιγίδα."
+    ],
+    "mistakes_en": [
+      "Waiting until heavy rain starts before protecting bedding and paper records.",
+      "Leaving loose objects where wind can turn them into hazards.",
+      "Treating small leaks as cosmetic instead of structural warnings."
+    ],
+    "mistakes_el": [
+      "Να περιμένεις να ξεκινήσει δυνατή βροχή πριν προστατέψεις στρωσίδια και χαρτιά.",
+      "Να αφήνεις χαλαρά αντικείμενα εκεί που ο αέρας τα κάνει επικίνδυνα.",
+      "Να θεωρείς μικρές διαρροές αισθητικό θέμα αντί για δομική προειδοποίηση."
+    ],
+    "related_topics": ["Improvised Shelter and Insulation", "Tools, Cordage, and Maintenance Discipline", "Floods, Storms, and Wildfire Survival"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Direct repo continuation push."
+  }
+]
