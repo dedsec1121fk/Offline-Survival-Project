@@ -9,45 +9,32 @@
     "summary_el": "Η επιβίωση αμάχων σε πόλεμο εξαρτάται περισσότερο από τη συνέχεια παρά από ηρωισμούς: πειθαρχία καταλύματος, νερό, αρχεία, λογική μετακίνησης, έλεγχο φημών και διατήρηση της ικανότητας του νοικοκυριού να λειτουργεί από μέρα σε μέρα.",
     "content_en": "War pressures civilians through noise, movement disruption, shortage, fear, damaged infrastructure, and bad information. A useful wartime posture is not constant motion but controlled continuity. Protect the shelter area, identify safer interior spaces, keep documents and medicines ready, maintain quiet routines, and do not move simply because everyone else is moving. Water, sanitation, footwear, light discipline, communication plans, and record keeping become vital because they support repeated survival, not one dramatic moment. Civilian endurance is built from many small preserved functions.",
     "content_el": "Ο πόλεμος πιέζει τους αμάχους με θόρυβο, διακοπή μετακινήσεων, έλλειψη, φόβο, χαλασμένες υποδομές και κακή πληροφορία. Μια χρήσιμη στάση σε πόλεμο δεν είναι η συνεχής κίνηση αλλά η ελεγχόμενη συνέχεια. Προστάτεψε τον χώρο καταλύματος, εντόπισε ασφαλέστερα εσωτερικά σημεία, κράτα έγγραφα και φάρμακα έτοιμα, διατήρησε ήσυχες ρουτίνες και μη μετακινείσαι απλώς επειδή κινούνται όλοι. Νερό, υγιεινή, παπούτσια, πειθαρχία φωτισμού, σχέδια επικοινωνίας και τήρηση αρχείων γίνονται ζωτικά γιατί στηρίζουν επαναλαμβανόμενη επιβίωση και όχι μία δραματική στιγμή. Η αντοχή των αμάχων χτίζεται από πολλές μικρές διατηρημένες λειτουργίες.",
-    "steps_en": [
-      "Identify safer interior shelter positions and fallback movement logic.",
-      "Keep documents, medicine, water, light, and footwear ready together.",
-      "Use short communication and rumor-control discipline.",
-      "Preserve routine wherever possible to stabilize morale and labor.",
-      "Move only with destination logic and realistic route judgment."
-    ],
-    "steps_el": [
-      "Εντόπισε ασφαλέστερες εσωτερικές θέσεις καταλύματος και εφεδρική λογική μετακίνησης.",
-      "Κράτα έγγραφα, φάρμακα, νερό, φως και παπούτσια έτοιμα μαζί.",
-      "Χρησιμοποίησε σύντομη επικοινωνία και πειθαρχία ελέγχου φημών.",
-      "Διατήρησε ρουτίνα όπου γίνεται για σταθερό ηθικό και εργασία.",
-      "Κινήσου μόνο με λογική προορισμού και ρεαλιστική κρίση διαδρομής."
-    ],
-    "warnings_en": [
-      "Noise and rumor can drive worse decisions than the direct threat itself.",
-      "A damaged city punishes poor footwear, poor light, and poor timing.",
-      "Repeated small failures in water, hygiene, and routine can become fatal over time."
-    ],
-    "warnings_el": [
-      "Ο θόρυβος και η φήμη μπορούν να οδηγήσουν σε χειρότερες αποφάσεις από την ίδια την άμεση απειλή.",
-      "Μια κατεστραμμένη πόλη τιμωρεί κακά παπούτσια, κακό φως και κακό timing.",
-      "Επαναλαμβανόμενες μικρές αποτυχίες σε νερό, υγιεινή και ρουτίνα μπορούν να γίνουν θανατηφόρες με τον χρόνο."
-    ],
-    "mistakes_en": [
-      "Moving just because others are moving.",
-      "Neglecting documents and medicine while focusing only on food.",
-      "Allowing panic and rumor to replace direct observation."
-    ],
-    "mistakes_el": [
-      "Να κινείσαι απλώς επειδή κινούνται οι άλλοι.",
-      "Να αμελείς έγγραφα και φάρμακα ενώ κοιτάς μόνο το φαγητό.",
-      "Να αφήνεις πανικό και φήμες να αντικαθιστούν την άμεση παρατήρηση."
-    ],
+    "steps_en": ["Identify safer interior shelter positions and fallback movement logic.","Keep documents, medicine, water, light, and footwear ready together.","Use short communication and rumor-control discipline.","Preserve routine wherever possible to stabilize morale and labor.","Move only with destination logic and realistic route judgment."],
+    "steps_el": ["Εντόπισε ασφαλέστερες εσωτερικές θέσεις καταλύματος και εφεδρική λογική μετακίνησης.","Κράτα έγγραφα, φάρμακα, νερό, φως και παπούτσια έτοιμα μαζί.","Χρησιμοποίησε σύντομη επικοινωνία και πειθαρχία ελέγχου φημών.","Διατήρησε ρουτίνα όπου γίνεται για σταθερό ηθικό και εργασία.","Κινήσου μόνο με λογική προορισμού και ρεαλιστική κρίση διαδρομής."],
+    "warnings_en": ["Noise and rumor can drive worse decisions than the direct threat itself.","A damaged city punishes poor footwear, poor light, and poor timing.","Repeated small failures in water, hygiene, and routine can become fatal over time."],
+    "warnings_el": ["Ο θόρυβος και η φήμη μπορούν να οδηγήσουν σε χειρότερες αποφάσεις από την ίδια την άμεση απειλή.","Μια κατεστραμμένη πόλη τιμωρεί κακά παπούτσια, κακό φως και κακό timing.","Επαναλαμβανόμενες μικρές αποτυχίες σε νερό, υγιεινή και ρουτίνα μπορούν να γίνουν θανατηφόρες με τον χρόνο."],
+    "mistakes_en": ["Moving just because others are moving.","Neglecting documents and medicine while focusing only on food.","Allowing panic and rumor to replace direct observation."],
+    "mistakes_el": ["Να κινείσαι απλώς επειδή κινούνται οι άλλοι.","Να αμελείς έγγραφα και φάρμακα ενώ κοιτάς μόνο το φαγητό.","Να αφήνεις πανικό και φήμες να αντικαθιστούν την άμεση παρατήρηση."],
     "related_topics": ["Lessons from Sieges, Blockades, and Shortages", "Route Planning, Evacuation, and Shelter-in-Place Logic", "Communication Plans and Record Discipline"],
-    "difficulty": "medium",
-    "urgency": "high",
-    "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "Batch repo push completion pass."
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Expanded in-place knowledge pass."
+  },
+  {
+    "id": "wartime::low_profile_routines",
+    "topic": "Low-Profile Daily Routines Under Wartime Instability",
+    "category": "wartime_civilian_survival",
+    "subcategory": "routine_and_exposure",
+    "tags": ["war", "routine", "low-profile", "exposure", "civilian"],
+    "summary_en": "Civilian survival improves when daily routines reduce noise, visible pattern, wasted movement, and unnecessary exposure instead of broadcasting household weakness or resources.",
+    "summary_el": "Η επιβίωση αμάχων βελτιώνεται όταν οι καθημερινές ρουτίνες μειώνουν θόρυβο, ορατό μοτίβο, άσκοπη μετακίνηση και περιττή έκθεση αντί να διαφημίζουν αδυναμία ή πόρους του νοικοκυριού.",
+    "content_en": "Wartime instability punishes predictable households. A good low-profile routine limits visible light at night, reduces repeated unnecessary trips, avoids obvious storage display, and keeps movement purposeful. Noise, habit, and clutter can reveal weakness just as much as direct speech. Low-profile living is not isolation for its own sake. It is control over what others can learn from your pattern. The best routines also reduce internal stress because they make movement, water use, cooking, and communication more deliberate and less reactive.",
+    "content_el": "Η πολεμική αστάθεια τιμωρεί τα προβλέψιμα νοικοκυριά. Μια καλή ρουτίνα χαμηλού προφίλ μειώνει ορατό φως τη νύχτα, περιορίζει επαναλαμβανόμενες άσκοπες διαδρομές, αποφεύγει εμφανή έκθεση αποθεμάτων και κρατά τη μετακίνηση σκόπιμη. Θόρυβος, συνήθεια και ακαταστασία μπορούν να αποκαλύψουν αδυναμία όσο και ο άμεσος λόγος. Η χαμηλού προφίλ διαβίωση δεν είναι απομόνωση για χάρη της απομόνωσης. Είναι έλεγχος του τι μπορούν οι άλλοι να μάθουν από το μοτίβο σου. Οι καλύτερες ρουτίνες μειώνουν και το εσωτερικό στρες επειδή κάνουν μετακίνηση, χρήση νερού, μαγείρεμα και επικοινωνία πιο σκόπιμα και λιγότερο αντιδραστικά.",
+    "steps_en": ["Reduce unnecessary repeated movement and visible pattern.","Keep lighting, noise, and storage display under control.","Plan trips so each outing has multiple useful purposes.","Use routines that preserve calm inside the household while reducing outside exposure.","Review daily habits for what they reveal to others."],
+    "steps_el": ["Μείωσε άσκοπη επαναλαμβανόμενη μετακίνηση και ορατό μοτίβο.","Κράτα υπό έλεγχο φωτισμό, θόρυβο και έκθεση αποθήκευσης.","Σχεδίασε διαδρομές ώστε κάθε έξοδος να έχει πολλούς χρήσιμους σκοπούς.","Χρησιμοποίησε ρουτίνες που διατηρούν ηρεμία μέσα στο νοικοκυριό ενώ μειώνουν την εξωτερική έκθεση.","Έλεγχε τις καθημερινές συνήθειες για το τι αποκαλύπτουν στους άλλους."],
+    "warnings_en": ["Predictable routine can create targeting risk.","Visible abundance can create dependence, pressure, or theft.","Low-profile does not mean neglecting the household's real needs."],
+    "warnings_el": ["Η προβλέψιμη ρουτίνα μπορεί να δημιουργήσει κίνδυνο στόχευσης.","Η ορατή αφθονία μπορεί να φέρει εξάρτηση, πίεση ή κλοπή.","Το χαμηλό προφίλ δεν σημαίνει να αμελείς τις πραγματικές ανάγκες του νοικοκυριού."],
+    "mistakes_en": ["Keeping the same obvious pattern every day.","Using light and noise carelessly at night.","Confusing low-profile living with passivity and lack of planning."],
+    "mistakes_el": ["Να κρατάς το ίδιο εμφανές μοτίβο κάθε μέρα.","Να χρησιμοποιείς φως και θόρυβο απρόσεκτα τη νύχτα.","Να μπερδεύεις τη ζωή χαμηλού προφίλ με παθητικότητα και έλλειψη σχεδίου."],
+    "related_topics": ["High-Surveillance and Digital Dependency Resilience", "Risk Assessment in Unstable Environments", "Wartime Civilian Survival and Continuity"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Expanded in-place knowledge pass."
   }
 ]
