@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -202,10 +203,8 @@ UI = {
     }
 }
 
-
 def clear():
     os.system("clear")
-
 
 def wrap(text, width=WRAP_WIDTH):
     lines = []
@@ -216,10 +215,8 @@ def wrap(text, width=WRAP_WIDTH):
         lines.extend(textwrap.fill(paragraph, width=width).splitlines())
     return "\n".join(lines)
 
-
 def pause(lang):
     input("\n" + UI[lang]["press_enter"])
-
 
 def choose_language():
     while True:
@@ -236,14 +233,11 @@ def choose_language():
         if choice == "2":
             return "el"
 
-
 def safe_mkdir(path):
     os.makedirs(path, exist_ok=True)
 
-
 def normalize(text):
     return " ".join(str(text).lower().strip().split())
-
 
 def load_database():
     entries = []
@@ -291,14 +285,10 @@ def load_database():
             })
     return entries
 
-
 def list_update_logs():
     if not os.path.isdir(UPDATES_DIR):
         return []
-    return sorted(
-        [name for name in os.listdir(UPDATES_DIR) if name.lower().endswith(".txt")]
-    )
-
+    return sorted([name for name in os.listdir(UPDATES_DIR) if name.lower().endswith(".txt")])
 
 def detect_latest_date(entries):
     dates = []
@@ -308,47 +298,21 @@ def detect_latest_date(entries):
             dates.append(date)
     return max(dates) if dates else "n/a"
 
-
 def database_stats(entries):
-    categories = set()
-    topics = set()
-    tags = set()
-    missing = 0
-    high_priority = 0
-    urgent = 0
+    categories = set(); topics = set(); tags = set(); missing = 0; high_priority = 0; urgent = 0
     for item in entries:
-        categories.add(item.get("category", ""))
-        topics.add(item.get("topic", ""))
-        for tag in item.get("tags", []) or []:
-            tags.add(str(tag))
-        if any(field not in item or item.get(field) in ("", None) for field in REQUIRED_FIELDS):
-            missing += 1
-        if normalize(item.get("priority", "")) == "high":
-            high_priority += 1
-        if normalize(item.get("urgency", "")) in {"high", "critical"}:
-            urgent += 1
-    return {
-        "files": len([name for name in os.listdir(DB_DIR) if name.endswith(".json")]) if os.path.isdir(DB_DIR) else 0,
-        "entries": len(entries),
-        "categories": len([x for x in categories if x]),
-        "topics": len([x for x in topics if x]),
-        "tags": len([x for x in tags if x]),
-        "updates": len(list_update_logs()),
-        "latest": detect_latest_date(entries),
-        "high_priority": high_priority,
-        "urgent": urgent,
-        "missing": missing,
-    }
-
+        categories.add(item.get("category", "")); topics.add(item.get("topic", ""))
+        for tag in item.get("tags", []) or []: tags.add(str(tag))
+        if any(field not in item or item.get(field) in ("", None) for field in REQUIRED_FIELDS): missing += 1
+        if normalize(item.get("priority", "")) == "high": high_priority += 1
+        if normalize(item.get("urgency", "")) in {"high", "critical"}: urgent += 1
+    return {"files": len([name for name in os.listdir(DB_DIR) if name.endswith(".json")]) if os.path.isdir(DB_DIR) else 0, "entries": len(entries), "categories": len([x for x in categories if x]), "topics": len([x for x in topics if x]), "tags": len([x for x in tags if x]), "updates": len(list_update_logs()), "latest": detect_latest_date(entries), "high_priority": high_priority, "urgent": urgent, "missing": missing}
 
 def integrity_check(entries):
-    missing = []
-    id_counter = Counter()
-    topic_pairs = Counter()
+    missing = []; id_counter = Counter(); topic_pairs = Counter()
     for item in entries:
         missing_fields = [field for field in REQUIRED_FIELDS if field not in item or item.get(field) in ("", None)]
-        if missing_fields:
-            missing.append((item.get("id", "unknown"), missing_fields))
+        if missing_fields: missing.append((item.get("id", "unknown"), missing_fields))
         id_counter[item.get("id", "")] += 1
         pair = (normalize(item.get("topic", "")), normalize(item.get("subcategory", "")))
         topic_pairs[pair] += 1
@@ -356,116 +320,68 @@ def integrity_check(entries):
     dupe_topics = [pair for pair, count in topic_pairs.items() if pair[0] and count > 1]
     return missing, dupe_ids, dupe_topics
 
-
 def get_text(item, lang, field_base):
-    field = f"{field_base}_{lang}"
-    value = item.get(field, "")
-    if isinstance(value, list):
-        return value
+    field = f"{field_base}_{lang}"; value = item.get(field, "")
+    if isinstance(value, list): return value
     return value
 
-
 def entry_blob_for_search(item):
-    pieces = [
-        item.get("topic", ""),
-        item.get("category", ""),
-        item.get("subcategory", ""),
-        " ".join(item.get("tags", []) or []),
-        item.get("summary_en", ""),
-        item.get("summary_el", ""),
-        item.get("content_en", ""),
-        item.get("content_el", ""),
-        " ".join(item.get("steps_en", []) or []),
-        " ".join(item.get("steps_el", []) or []),
-    ]
+    pieces = [item.get("topic", ""), item.get("category", ""), item.get("subcategory", ""), " ".join(item.get("tags", []) or []), item.get("summary_en", ""), item.get("summary_el", ""), item.get("content_en", ""), item.get("content_el", ""), " ".join(item.get("steps_en", []) or []), " ".join(item.get("steps_el", []) or [])]
     return normalize(" ".join(pieces))
-
 
 def score_entry(item, query, mode):
     q = normalize(query)
-    if not q:
-        return 0.0
+    if not q: return 0.0
     score = 0.0
-    topic = normalize(item.get("topic", ""))
-    category = normalize(item.get("category", ""))
-    subcategory = normalize(item.get("subcategory", ""))
-    tags = [normalize(tag) for tag in item.get("tags", []) or []]
-    blob = entry_blob_for_search(item)
-
+    topic = normalize(item.get("topic", "")); category = normalize(item.get("category", "")); subcategory = normalize(item.get("subcategory", "")); tags = [normalize(tag) for tag in item.get("tags", []) or []]; blob = entry_blob_for_search(item)
     if mode == "tag":
-        if q in tags:
-            score += 150
+        if q in tags: score += 150
         for tag in tags:
-            if q in tag:
-                score += 90
+            if q in tag: score += 90
             score += difflib.SequenceMatcher(None, q, tag).ratio() * 40
     elif mode == "category":
-        if q == category:
-            score += 150
-        if q in category:
-            score += 90
+        if q == category: score += 150
+        if q in category: score += 90
         score += difflib.SequenceMatcher(None, q, category).ratio() * 40
     elif mode == "topic":
-        if q == topic:
-            score += 170
-        if q in topic:
-            score += 100
+        if q == topic: score += 170
+        if q in topic: score += 100
         score += difflib.SequenceMatcher(None, q, topic).ratio() * 50
     else:
-        if q == topic:
-            score += 200
-        if q in topic:
-            score += 120
-        if q == category or q == subcategory:
-            score += 100
-        if q in category or q in subcategory:
-            score += 70
-        if q in tags:
-            score += 80
-        if q in blob:
-            score += 60
+        if q == topic: score += 200
+        if q in topic: score += 120
+        if q == category or q == subcategory: score += 100
+        if q in category or q in subcategory: score += 70
+        if q in tags: score += 80
+        if q in blob: score += 60
         score += difflib.SequenceMatcher(None, q, topic).ratio() * 35
         score += difflib.SequenceMatcher(None, q, blob[:500]).ratio() * 20
-
-    if normalize(item.get("priority", "")) == "high":
-        score += 5
-    if normalize(item.get("urgency", "")) in {"high", "critical"}:
-        score += 5
+    if normalize(item.get("priority", "")) == "high": score += 5
+    if normalize(item.get("urgency", "")) in {"high", "critical"}: score += 5
     return score
-
 
 def search_entries(entries, query, mode="keyword"):
     ranked = []
     for item in entries:
         score = score_entry(item, query, mode)
-        if score >= 30:
-            ranked.append((score, item))
+        if score >= 30: ranked.append((score, item))
     ranked.sort(key=lambda pair: (-pair[0], pair[1].get("topic", "")))
     return ranked
 
-
 def related_entries(entries, item):
-    related_names = {normalize(name) for name in item.get("related_topics", []) or []}
-    results = []
+    related_names = {normalize(name) for name in item.get("related_topics", []) or []}; results = []
     for other in entries:
-        if other.get("id") == item.get("id"):
-            continue
+        if other.get("id") == item.get("id"): continue
         topic = normalize(other.get("topic", ""))
-        if topic in related_names:
-            results.append(other)
+        if topic in related_names: results.append(other)
     return results
 
-
 def print_header(title):
-    print("=" * WRAP_WIDTH)
-    print(title)
-    print("=" * WRAP_WIDTH)
-
+    print("=" * WRAP_WIDTH); print(title); print("=" * WRAP_WIDTH)
 
 def print_entry(item, lang, index_label=None):
     title = item.get("topic", "")
-    if index_label:
-        title = f"{index_label} - {title}"
+    if index_label: title = f"{index_label} - {title}"
     print_header(title)
     print(f"{UI[lang]['category']}: {item.get('category', '')}")
     print(f"{UI[lang]['subcategory']}: {item.get('subcategory', '')}")
@@ -473,327 +389,179 @@ def print_entry(item, lang, index_label=None):
     print(f"{UI[lang]['priority']}: {item.get('priority', '')} | {UI[lang]['urgency']}: {item.get('urgency', '')} | {UI[lang]['difficulty']}: {item.get('difficulty', '')}")
     print(f"{UI[lang]['last_updated']}: {item.get('last_updated', '')}")
     print(f"{UI[lang]['update_note']}: {item.get('update_note', '')}")
-    print()
-    print(f"[{UI[lang]['summary']}]")
-    print(wrap(get_text(item, lang, "summary")))
-    print()
-    print(f"[{UI[lang]['steps']}]")
-    for step in get_text(item, lang, "steps") or []:
-        print("- " + wrap(step))
-    print()
-    print(f"[{UI[lang]['warnings']}]")
-    for line in get_text(item, lang, "warnings") or []:
-        print("- " + wrap(line))
-    print()
-    print(f"[{UI[lang]['mistakes']}]")
-    for line in get_text(item, lang, "mistakes") or []:
-        print("- " + wrap(line))
-    print()
-    print(f"[{UI[lang]['topic']}]")
-    print(wrap(get_text(item, lang, "content")))
-    print()
-    rel = item.get("related_topics", []) or []
-    print(f"{UI[lang]['related']}: {', '.join(rel) if rel else '-'}")
-
+    print(); print(f"[{UI[lang]['summary']}]" ); print(wrap(get_text(item, lang, "summary"))); print(); print(f"[{UI[lang]['steps']}]" )
+    for step in get_text(item, lang, "steps") or []: print("- " + wrap(step))
+    print(); print(f"[{UI[lang]['warnings']}]" )
+    for line in get_text(item, lang, "warnings") or []: print("- " + wrap(line))
+    print(); print(f"[{UI[lang]['mistakes']}]" )
+    for line in get_text(item, lang, "mistakes") or []: print("- " + wrap(line))
+    print(); print(f"[{UI[lang]['topic']}]" ); print(wrap(get_text(item, lang, "content"))); print(); rel = item.get("related_topics", []) or []; print(f"{UI[lang]['related']}: {', '.join(rel) if rel else '-'}")
 
 def export_entries(entries_to_export, lang, file_label):
     safe_mkdir(EXPORT_DIR)
     safe_name = "".join(c if c.isalnum() or c in ("_", "-", " ") else "_" for c in file_label).strip() or "export"
     path = os.path.join(EXPORT_DIR, f"{safe_name}.txt")
     with open(path, "w", encoding="utf-8") as handle:
-        handle.write(f"{APP_NAME} Export\n")
-        handle.write(f"Language: {'English' if lang == 'en' else 'Greek'}\n")
-        handle.write(f"Created: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        handle.write("=" * WRAP_WIDTH + "\n\n")
+        handle.write(f"{APP_NAME} Export\n"); handle.write(f"Language: {'English' if lang == 'en' else 'Greek'}\n"); handle.write(f"Created: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"); handle.write("=" * WRAP_WIDTH + "\n\n")
         for idx, item in enumerate(entries_to_export, 1):
-            handle.write(f"{idx}. {item.get('topic', '')}\n")
-            handle.write(f"{UI[lang]['category']}: {item.get('category', '')}\n")
-            handle.write(f"{UI[lang]['subcategory']}: {item.get('subcategory', '')}\n")
-            handle.write(f"{UI[lang]['tags']}: {', '.join(item.get('tags', []) or [])}\n")
-            handle.write(f"{UI[lang]['priority']}: {item.get('priority', '')} | {UI[lang]['urgency']}: {item.get('urgency', '')} | {UI[lang]['difficulty']}: {item.get('difficulty', '')}\n")
-            handle.write(f"{UI[lang]['summary']}:\n{get_text(item, lang, 'summary')}\n\n")
-            handle.write(f"{UI[lang]['topic']}:\n{get_text(item, lang, 'content')}\n\n")
-            handle.write(f"{UI[lang]['steps']}:\n")
-            for step in get_text(item, lang, "steps") or []:
-                handle.write(f"- {step}\n")
+            handle.write(f"{idx}. {item.get('topic', '')}\n"); handle.write(f"{UI[lang]['category']}: {item.get('category', '')}\n"); handle.write(f"{UI[lang]['subcategory']}: {item.get('subcategory', '')}\n"); handle.write(f"{UI[lang]['tags']}: {', '.join(item.get('tags', []) or [])}\n"); handle.write(f"{UI[lang]['priority']}: {item.get('priority', '')} | {UI[lang]['urgency']}: {item.get('urgency', '')} | {UI[lang]['difficulty']}: {item.get('difficulty', '')}\n"); handle.write(f"{UI[lang]['summary']}:\n{get_text(item, lang, 'summary')}\n\n"); handle.write(f"{UI[lang]['topic']}:\n{get_text(item, lang, 'content')}\n\n"); handle.write(f"{UI[lang]['steps']}:\n")
+            for step in get_text(item, lang, "steps") or []: handle.write(f"- {step}\n")
             handle.write(f"\n{UI[lang]['warnings']}:\n")
-            for line in get_text(item, lang, "warnings") or []:
-                handle.write(f"- {line}\n")
+            for line in get_text(item, lang, "warnings") or []: handle.write(f"- {line}\n")
             handle.write(f"\n{UI[lang]['mistakes']}:\n")
-            for line in get_text(item, lang, "mistakes") or []:
-                handle.write(f"- {line}\n")
+            for line in get_text(item, lang, "mistakes") or []: handle.write(f"- {line}\n")
             handle.write("\n" + "=" * WRAP_WIDTH + "\n\n")
     return path
 
-
 def show_ranked_results(entries, ranked, lang):
-    clear()
-    print_header(f"{len(ranked)} {UI[lang]['results_found']}")
+    clear(); print_header(f"{len(ranked)} {UI[lang]['results_found']}")
     for idx, (score, item) in enumerate(ranked, 1):
         summary = get_text(item, lang, "summary") or get_text(item, "en", "summary")
         summary = summary[:140] + ("..." if len(summary) > 140 else "")
-        print(f"{idx}. {item.get('topic', '')}  [{item.get('category', '')}]  ({UI[lang]['result_rank']}: {score:.1f})")
-        print("   " + summary)
-    print()
-    choice = input(UI[lang]["select_result"] + ": ").strip()
-    if not choice:
-        return
+        print(f"{idx}. {item.get('topic', '')}  [{item.get('category', '')}]  ({UI[lang]['result_rank']}: {score:.1f})"); print("   " + summary)
+    print(); choice = input(UI[lang]["select_result"] + ": ").strip()
+    if not choice: return
     if choice.isdigit():
         num = int(choice)
-        if 1 <= num <= len(ranked):
-            navigate_entries(entries, [item for _, item in ranked], num - 1, lang)
-
+        if 1 <= num <= len(ranked): navigate_entries(entries, [item for _, item in ranked], num - 1, lang)
 
 def navigate_entries(all_entries, result_items, start_index, lang):
     index = start_index
     while 0 <= index < len(result_items):
-        clear()
-        current = result_items[index]
-        print_entry(current, lang, index_label=f"{UI[lang]['read_entry_header']} {index + 1}/{len(result_items)}")
-        print()
-        print(UI[lang]["reader_actions"])
-        command = input("> ").strip().lower()
+        clear(); current = result_items[index]; print_entry(current, lang, index_label=f"{UI[lang]['read_entry_header']} {index + 1}/{len(result_items)}"); print(); print(UI[lang]["reader_actions"]); command = input("> ").strip().lower()
         if command == "n":
-            if index < len(result_items) - 1:
-                index += 1
+            if index < len(result_items) - 1: index += 1
         elif command == "p":
-            if index > 0:
-                index -= 1
+            if index > 0: index -= 1
         elif command == "r":
             rel = related_entries(all_entries, current)
-            if not rel:
-                continue
+            if not rel: continue
             print()
-            for num, item in enumerate(rel, 1):
-                print(f"{num}. {item.get('topic', '')} [{item.get('category', '')}]")
+            for num, item in enumerate(rel, 1): print(f"{num}. {item.get('topic', '')} [{item.get('category', '')}]")
             pick = input(UI[lang]["select_related"] + ": ").strip()
             if pick.isdigit():
                 rel_num = int(pick)
                 if 1 <= rel_num <= len(rel):
                     target = rel[rel_num - 1]
-                    if target in result_items:
-                        index = result_items.index(target)
+                    if target in result_items: index = result_items.index(target)
                     else:
-                        result_items.append(target)
-                        index = len(result_items) - 1
+                        result_items.append(target); index = len(result_items) - 1
         elif command == "e":
             try:
-                path = export_entries([current], lang, current.get("topic", "entry"))
-                print(f"\n{UI[lang]['export_done']} {path}")
+                path = export_entries([current], lang, current.get("topic", "entry")); print(f"\n{UI[lang]['export_done']} {path}")
             except Exception as exc:
                 print(f"\n{UI[lang]['export_fail']} {exc}")
             pause(lang)
-        elif command == "g":
-            do_group_export(all_entries, result_items, current, lang)
-        elif command == "b" or command == "":
-            return
-
+        elif command == "g": do_group_export(all_entries, result_items, current, lang)
+        elif command == "b" or command == "": return
 
 def do_group_export(all_entries, current_results, current_item, lang):
-    print()
-    choice = input(UI[lang]["group_export_prompt"] + ": ").strip()
-    if choice == "1":
-        items = current_results
-        label = "current_results"
-    elif choice == "2":
-        items = [x for x in all_entries if normalize(x.get("category", "")) == normalize(current_item.get("category", ""))]
-        label = f"category_{current_item.get('category', '')}"
-    elif choice == "3":
-        items = [x for x in all_entries if normalize(x.get("topic", "")) == normalize(current_item.get("topic", ""))]
-        label = f"topic_{current_item.get('topic', '')}"
-    else:
-        return
+    print(); choice = input(UI[lang]["group_export_prompt"] + ": ").strip()
+    if choice == "1": items = current_results; label = "current_results"
+    elif choice == "2": items = [x for x in all_entries if normalize(x.get("category", "")) == normalize(current_item.get("category", ""))]; label = f"category_{current_item.get('category', '')}"
+    elif choice == "3": items = [x for x in all_entries if normalize(x.get("topic", "")) == normalize(current_item.get("topic", ""))]; label = f"topic_{current_item.get('topic', '')}"
+    else: return
     try:
-        path = export_entries(items, lang, label)
-        print(f"\n{UI[lang]['group_export_done']} {path}")
+        path = export_entries(items, lang, label); print(f"\n{UI[lang]['group_export_done']} {path}")
     except Exception as exc:
         print(f"\n{UI[lang]['export_fail']} {exc}")
     pause(lang)
 
-
 def browse_categories(entries, lang):
-    categories = sorted({item.get("category", "") for item in entries if item.get("category")})
-    clear()
-    print_header(UI[lang]["categories"])
+    categories = sorted({item.get("category", "") for item in entries if item.get("category")}); clear(); print_header(UI[lang]["categories"])
     for idx, category in enumerate(categories, 1):
-        count = sum(1 for item in entries if item.get("category", "") == category)
-        print(f"{idx}. {category} ({count})")
+        count = sum(1 for item in entries if item.get("category", "") == category); print(f"{idx}. {category} ({count})")
     choice = input("\n" + UI[lang]["choose_category"] + ": ").strip()
     if choice.isdigit():
         num = int(choice)
         if 1 <= num <= len(categories):
-            category = categories[num - 1]
-            ranked = [(100.0, item) for item in entries if item.get("category", "") == category]
-            show_ranked_results(entries, ranked, lang)
-
+            category = categories[num - 1]; ranked = [(100.0, item) for item in entries if item.get("category", "") == category]; show_ranked_results(entries, ranked, lang)
 
 def browse_topics(entries, lang):
     topic_map = {}
-    for item in entries:
-        topic_map.setdefault(item.get("topic", ""), []).append(item)
-    topics = sorted(topic_map.keys())
-    clear()
-    print_header(UI[lang]["topics"])
-    for idx, topic in enumerate(topics, 1):
-        print(f"{idx}. {topic} ({len(topic_map[topic])})")
+    for item in entries: topic_map.setdefault(item.get("topic", ""), []).append(item)
+    topics = sorted(topic_map.keys()); clear(); print_header(UI[lang]["topics"])
+    for idx, topic in enumerate(topics, 1): print(f"{idx}. {topic} ({len(topic_map[topic])})")
     choice = input("\n" + UI[lang]["choose_topic"] + ": ").strip()
     if choice.isdigit():
         num = int(choice)
         if 1 <= num <= len(topics):
-            topic = topics[num - 1]
-            ranked = [(100.0, item) for item in topic_map[topic]]
-            show_ranked_results(entries, ranked, lang)
-
+            topic = topics[num - 1]; ranked = [(100.0, item) for item in topic_map[topic]]; show_ranked_results(entries, ranked, lang)
 
 def show_stats(entries, lang):
-    stats = database_stats(entries)
-    clear()
-    print_header(UI[lang]["stats_title"])
-    print(f"{UI[lang]['stats_files']}: {stats['files']}")
-    print(f"{UI[lang]['stats_entries']}: {stats['entries']}")
-    print(f"{UI[lang]['stats_categories']}: {stats['categories']}")
-    print(f"{UI[lang]['stats_topics']}: {stats['topics']}")
-    print(f"{UI[lang]['stats_tags']}: {stats['tags']}")
-    print(f"{UI[lang]['stats_updates']}: {stats['updates']}")
-    print(f"{UI[lang]['stats_latest']}: {stats['latest']}")
-    print(f"{UI[lang]['stats_high_priority']}: {stats['high_priority']}")
-    print(f"{UI[lang]['stats_urgent']}: {stats['urgent']}")
-    print(f"{UI[lang]['stats_missing_summary']}: {stats['missing']}")
-    pause(lang)
-
+    stats = database_stats(entries); clear(); print_header(UI[lang]["stats_title"])
+    print(f"{UI[lang]['stats_files']}: {stats['files']}"); print(f"{UI[lang]['stats_entries']}: {stats['entries']}"); print(f"{UI[lang]['stats_categories']}: {stats['categories']}"); print(f"{UI[lang]['stats_topics']}: {stats['topics']}"); print(f"{UI[lang]['stats_tags']}: {stats['tags']}"); print(f"{UI[lang]['stats_updates']}: {stats['updates']}"); print(f"{UI[lang]['stats_latest']}: {stats['latest']}"); print(f"{UI[lang]['stats_high_priority']}: {stats['high_priority']}"); print(f"{UI[lang]['stats_urgent']}: {stats['urgent']}"); print(f"{UI[lang]['stats_missing_summary']}: {stats['missing']}"); pause(lang)
 
 def show_update_logs(lang):
-    logs = list_update_logs()
-    clear()
-    print_header(UI[lang]["update_logs"])
-    for idx, name in enumerate(logs, 1):
-        print(f"{idx}. {name}")
+    logs = list_update_logs(); clear(); print_header(UI[lang]["update_logs"])
+    for idx, name in enumerate(logs, 1): print(f"{idx}. {name}")
     choice = input("\n" + UI[lang]["choose_log"] + ": ").strip()
-    if not choice:
-        return
+    if not choice: return
     if choice.isdigit():
         num = int(choice)
         if 1 <= num <= len(logs):
-            path = os.path.join(UPDATES_DIR, logs[num - 1])
-            clear()
-            print_header(logs[num - 1])
-            with open(path, "r", encoding="utf-8") as handle:
-                print(handle.read())
+            path = os.path.join(UPDATES_DIR, logs[num - 1]); clear(); print_header(logs[num - 1])
+            with open(path, "r", encoding="utf-8") as handle: print(handle.read())
             pause(lang)
 
-
 def run_integrity(entries, lang):
-    missing, dupe_ids, dupe_topics = integrity_check(entries)
-    clear()
-    print_header(UI[lang]["integrity_title"])
-    print(f"{UI[lang]['integrity_entries_checked']}: {len(entries)}\n")
+    missing, dupe_ids, dupe_topics = integrity_check(entries); clear(); print_header(UI[lang]["integrity_title"]); print(f"{UI[lang]['integrity_entries_checked']}: {len(entries)}\n")
     if not missing and not dupe_ids and not dupe_topics:
-        print(UI[lang]["integrity_ok"])
-        pause(lang)
-        return
+        print(UI[lang]["integrity_ok"]); pause(lang); return
     if missing:
         print(UI[lang]["integrity_missing"] + ":")
-        for item_id, fields in missing[:25]:
-            print(f"- {item_id}: {', '.join(fields)}")
-        if len(missing) > 25:
-            print(f"... +{len(missing) - 25} more")
+        for item_id, fields in missing[:25]: print(f"- {item_id}: {', '.join(fields)}")
+        if len(missing) > 25: print(f"... +{len(missing) - 25} more")
         print()
     if dupe_ids:
         print(UI[lang]["integrity_dupe_ids"] + ":")
-        for value in dupe_ids[:25]:
-            print(f"- {value}")
-        if len(dupe_ids) > 25:
-            print(f"... +{len(dupe_ids) - 25} more")
+        for value in dupe_ids[:25]: print(f"- {value}")
+        if len(dupe_ids) > 25: print(f"... +{len(dupe_ids) - 25} more")
         print()
     if dupe_topics:
         print(UI[lang]["integrity_dupe_topics"] + ":")
-        for topic, subcategory in dupe_topics[:25]:
-            print(f"- {topic} / {subcategory}")
-        if len(dupe_topics) > 25:
-            print(f"... +{len(dupe_topics) - 25} more")
+        for topic, subcategory in dupe_topics[:25]: print(f"- {topic} / {subcategory}")
+        if len(dupe_topics) > 25: print(f"... +{len(dupe_topics) - 25} more")
     pause(lang)
-
 
 def run_search(entries, lang, mode):
-    label_map = {
-        "keyword": UI[lang]["search_term"],
-        "tag": UI[lang]["tag_term"],
-        "category": UI[lang]["category_term"],
-        "topic": UI[lang]["topic_term"],
-    }
+    label_map = {"keyword": UI[lang]["search_term"], "tag": UI[lang]["tag_term"], "category": UI[lang]["category_term"], "topic": UI[lang]["topic_term"]}
     query = input(label_map[mode] + ": ").strip()
-    if not query:
-        return
+    if not query: return
     ranked = search_entries(entries, query, mode=mode)
     if not ranked:
-        print(UI[lang]["no_results"])
-        pause(lang)
-        return
+        print(UI[lang]["no_results"]); pause(lang); return
     show_ranked_results(entries, ranked, lang)
 
-
 def print_help(lang):
-    clear()
-    print_header(UI[lang]["help_title"])
-    print(wrap(UI[lang]["help_body"]))
-    print()
-    print(wrap(UI[lang]["dependency_msg"]))
-    pause(lang)
-
+    clear(); print_header(UI[lang]["help_title"]); print(wrap(UI[lang]["help_body"])); print(); print(wrap(UI[lang]["dependency_msg"])); pause(lang)
 
 def main():
-    lang = choose_language()
-    safe_mkdir(DB_DIR)
-    safe_mkdir(UPDATES_DIR)
-    entries = load_database()
-
+    lang = choose_language(); safe_mkdir(DB_DIR); safe_mkdir(UPDATES_DIR); entries = load_database()
     while True:
-        clear()
-        print_header(UI[lang]["welcome"])
-        print(UI[lang]["dependency_msg"])
-        print()
+        clear(); print_header(UI[lang]["welcome"]); print(UI[lang]["dependency_msg"]); print()
         if not entries:
-            print(UI[lang]["empty_db"])
-            print()
+            print(UI[lang]["empty_db"]); print()
         print(UI[lang]["main_menu"])
-        for line in UI[lang]["menu_items"]:
-            print(line)
+        for line in UI[lang]["menu_items"]: print(line)
         choice = input("\n" + UI[lang]["prompt"] + ": ").strip().lower()
-
-        if choice == "1":
-            run_search(entries, lang, "keyword")
-        elif choice == "2":
-            run_search(entries, lang, "tag")
-        elif choice == "3":
-            run_search(entries, lang, "category")
-        elif choice == "4":
-            run_search(entries, lang, "topic")
-        elif choice == "5":
-            browse_categories(entries, lang)
-        elif choice == "6":
-            browse_topics(entries, lang)
-        elif choice == "7":
-            show_stats(entries, lang)
-        elif choice == "8":
-            show_update_logs(lang)
-        elif choice == "9":
-            run_integrity(entries, lang)
-        elif choice == "10":
-            print_help(lang)
+        if choice == "1": run_search(entries, lang, "keyword")
+        elif choice == "2": run_search(entries, lang, "tag")
+        elif choice == "3": run_search(entries, lang, "category")
+        elif choice == "4": run_search(entries, lang, "topic")
+        elif choice == "5": browse_categories(entries, lang)
+        elif choice == "6": browse_topics(entries, lang)
+        elif choice == "7": show_stats(entries, lang)
+        elif choice == "8": show_update_logs(lang)
+        elif choice == "9": run_integrity(entries, lang)
+        elif choice == "10": print_help(lang)
         elif choice == "reload":
-            print(UI[lang]["reloading"])
-            entries = load_database()
-            pause(lang)
-        elif choice == "lang":
-            lang = "el" if lang == "en" else "en"
+            print(UI[lang]["reloading"]); entries = load_database(); pause(lang)
+        elif choice == "lang": lang = "el" if lang == "en" else "en"
         elif choice == "0":
-            clear()
-            print(UI[lang]["exit_text"])
-            break
+            clear(); print(UI[lang]["exit_text"]); break
         else:
-            print(UI[lang]["invalid"])
-            pause(lang)
-
+            print(UI[lang]["invalid"]); pause(lang)
 
 if __name__ == "__main__":
     try:

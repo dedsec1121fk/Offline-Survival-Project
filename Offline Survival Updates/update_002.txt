@@ -1,0 +1,29 @@
+update_002.txt
+Date: 2026-03-30
+Update batch: 002
+
+Validation and continuation notes
+- Confirmed exact required names:
+  Offline Survival.py
+  Offline Survival Database/
+  Offline Survival Updates/
+- Confirmed the database uses clear file names by topic area.
+- Confirmed bilingual content is combined in the same project rather than split into separate language editions.
+- Confirmed the main script does not attempt to upgrade pip and does not require root.
+- Confirmed export path targets Android internal storage Downloads/Offline Survival
+
+Search/read/export notes
+- Search ranking prioritizes exact topic and category matches, then partial matches, then fuzzy similarity.
+- Reader mode supports next/previous navigation and related-topic jumps.
+- Export mode creates plain TXT output suitable for offline reference or printing.
+
+Integrity notes
+- Basic validation checks were included in the script.
+- Database design uses a consistent field schema across files.
+- Future work should keep stable IDs and avoid renaming files casually so continuation remains clean.
+
+Recommended next engineering improvements
+- Add alias dictionaries for more Greek search flexibility.
+- Add category landing summaries and compact checklists.
+- Add optional pagination helpers for very large databases.
+- Add optional emergency quick mode for fastest access to bleeding, water, heat, and evacuation topics.

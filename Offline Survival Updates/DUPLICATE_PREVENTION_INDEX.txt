@@ -1,0 +1,71 @@
+DUPLICATE_PREVENTION_INDEX.txt
+Prepared: 2026-03-30
+
+Purpose
+This index exists to reduce future overlap. Before adding new entries, compare proposed topics with this list and merge if the subject is already substantially covered.
+
+Already covered core subjects
+- Automation Failure and AI-Controlled System Disruption | file=ai_takeover_preparedness.json | subcategory=ai_system_dependence | related=High-Surveillance and Digital Dependency Resilience, Knowledge Preservation and Family Archive Design, Communication Plans and Record Discipline
+- Household Food Planning and Staple Crops | file=agriculture_and_food_production.json | subcategory=staple_planning | related=Food Preservation Under Scarcity, Household Organization and Work Rotation, Knowledge Preservation and Family Archive Design
+- Circulation, Breathing, and Body Heat | file=anatomy_biology.json | subcategory=core_physiology | related=Diarrhea, Vomiting, and Rehydration, Heat, Cold, and Smoke Conditions, Child and Elder Survival Considerations
+- Child and Elder Survival Considerations | file=anatomy_biology.json | subcategory=vulnerable_groups | related=Family Preparedness and Daily Hardship Routines, Antiseptics, Medicine Storage, and General Caution, Circulation, Breathing, and Body Heat
+- Communication Plans and Record Discipline | file=communication_and_information.json | subcategory=family_and_group_plans | related=Power Outage Lighting and Device Preservation, Knowledge Preservation and Family Archive Design, Risk Assessment in Unstable Environments
+- Rumor Control and Information Verification | file=communication_and_information.json | subcategory=verification_and_resilience | related=Communication Plans and Record Discipline, High-Surveillance and Digital Dependency Resilience, Leadership, Conflict Prevention, and Morale
+- Floods, Storms, and Wildfire Survival | file=disasters_and_weather.json | subcategory=flood_storm_fire | related=Route Planning, Evacuation, and Shelter-in-Place Logic, Improvised Shelter and Insulation, Water Collection and Purification
+- Heat, Cold, and Smoke Conditions | file=disasters_and_weather.json | subcategory=environmental_exposure | related=Circulation, Breathing, and Body Heat, Improvised Shelter and Insulation, Water Storage and Rationing
+- Camp Sanitation and Waste Control | file=diseases_and_sanitation.json | subcategory=sanitation_systems | related=Diarrhea, Vomiting, and Rehydration, Water Collection and Purification, Bleeding Control and Wound Care
+- Diarrhea, Vomiting, and Rehydration | file=diseases_and_sanitation.json | subcategory=illness_and_hydration | related=Water Collection and Purification, Camp Sanitation and Waste Control, Antiseptics, Medicine Storage, and General Caution
+- High-Surveillance and Digital Dependency Resilience | file=dystopian_resilience.json | subcategory=digital_dependency | related=Communication Plans and Record Discipline, Power Outage Lighting and Device Preservation, Knowledge Preservation and Family Archive Design
+- Power Outage Lighting and Device Preservation | file=energy_and_power_outages.json | subcategory=power_management | related=Communication Plans and Record Discipline, Knowledge Preservation and Family Archive Design, Firecraft, Heat, and Fuel Discipline
+- Firecraft, Heat, and Fuel Discipline | file=fire_heat_cooking.json | subcategory=fire_building | related=Emergency Cooking with Limited Fuel, Improvised Shelter and Insulation, Power Outage Lighting and Device Preservation
+- Emergency Cooking with Limited Fuel | file=fire_heat_cooking.json | subcategory=low_fuel_cooking | related=Food Preservation Under Scarcity, Firecraft, Heat, and Fuel Discipline, Household Food Planning and Staple Crops
+- Bleeding Control and Wound Care | file=first_aid_and_field_care.json | subcategory=bleeding_and_wounds | related=Camp Sanitation and Waste Control, Antiseptics, Medicine Storage, and General Caution, Fractures, Sprains, and Casualty Movement
+- Fractures, Sprains, and Casualty Movement | file=first_aid_and_field_care.json | subcategory=fractures_and_transport | related=Bleeding Control and Wound Care, Panic Control and Mental Grounding, Floods, Storms, and Wildfire Survival
+- Nutrition Under Scarcity | file=food_nutrition_preservation.json | subcategory=nutrition_priorities | related=Emergency Cooking with Limited Fuel, Food Preservation Under Scarcity, Household Food Planning and Staple Crops
+- Food Preservation Under Scarcity | file=food_nutrition_preservation.json | subcategory=preservation_methods | related=Emergency Cooking with Limited Fuel, Nutrition Under Scarcity, Household Food Planning and Staple Crops
+- Lessons from Sieges, Blockades, and Shortages | file=history_lessons.json | subcategory=civilian_survival_lessons | related=Communication Plans and Record Discipline, Camp Sanitation and Waste Control, Household Food Planning and Staple Crops
+- Knowledge Preservation and Family Archive Design | file=knowledge_preservation.json | subcategory=archives_and_reference | related=Communication Plans and Record Discipline, High-Surveillance and Digital Dependency Resilience, Household Organization and Work Rotation
+- Route Planning, Evacuation, and Shelter-in-Place Logic | file=movement_navigation_evacuation.json | subcategory=planning_and_decision | related=Communication Plans and Record Discipline, Risk Assessment in Unstable Environments, Floods, Storms, and Wildfire Survival
+- Movement with Vulnerable People and Observation Awareness | file=movement_navigation_evacuation.json | subcategory=quiet_and_safe_movement | related=Route Planning, Evacuation, and Shelter-in-Place Logic, Child and Elder Survival Considerations, Panic Control and Mental Grounding
+- Antiseptics, Medicine Storage, and General Caution | file=pharmacology_basics.json | subcategory=storage_and_safety | related=Diarrhea, Vomiting, and Rehydration, Bleeding Control and Wound Care, Child and Elder Survival Considerations
+- Antibiotics and Medication Scarcity Planning | file=pharmacology_basics.json | subcategory=antibiotics_and_planning | related=Camp Sanitation and Waste Control, Bleeding Control and Wound Care, Antiseptics, Medicine Storage, and General Caution
+- Panic Control and Mental Grounding | file=psychology_and_group_resilience.json | subcategory=panic_and_stress | related=Leadership, Conflict Prevention, and Morale, Family Preparedness and Daily Hardship Routines, Risk Assessment in Unstable Environments
+- Leadership, Conflict Prevention, and Morale | file=psychology_and_group_resilience.json | subcategory=group_dynamics | related=Panic Control and Mental Grounding, Communication Plans and Record Discipline, Household Organization and Work Rotation
+- Household Organization and Work Rotation | file=rebuilding_community.json | subcategory=organization_and_labor | related=Leadership, Conflict Prevention, and Morale, Household Food Planning and Staple Crops, Knowledge Preservation and Family Archive Design
+- Improvised Shelter and Insulation | file=shelter.json | subcategory=rapid_shelter | related=Storm Hardening and Basic Repairs, Firecraft, Heat, and Fuel Discipline, Floods, Storms, and Wildfire Survival
+- Storm Hardening and Basic Repairs | file=shelter.json | subcategory=repair_and_reinforcement | related=Improvised Shelter and Insulation, Tools, Cordage, and Maintenance Discipline, Floods, Storms, and Wildfire Survival
+- Survival Priorities Under Pressure | file=survival_foundations.json | subcategory=mindset_and_priorities | related=Risk Assessment in Unstable Environments, Family Preparedness and Daily Hardship Routines, Water Collection and Purification
+- Risk Assessment in Unstable Environments | file=survival_foundations.json | subcategory=situational_awareness | related=Survival Priorities Under Pressure, Family Preparedness and Daily Hardship Routines, Communication Plans and Record Discipline
+- Family Preparedness and Daily Hardship Routines | file=survival_foundations.json | subcategory=household_preparedness | related=Survival Priorities Under Pressure, Panic Control and Mental Grounding, Communication Plans and Record Discipline
+- Tools, Cordage, and Maintenance Discipline | file=tools_repairs_and_maintenance.json | subcategory=tool_care | related=Storm Hardening and Basic Repairs, Household Organization and Work Rotation, Knowledge Preservation and Family Archive Design
+- Wartime Civilian Survival and Continuity | file=wartime_civilian_survival.json | subcategory=wartime_civilian_survival | related=Lessons from Sieges, Blockades, and Shortages, Route Planning, Evacuation, and Shelter-in-Place Logic, Communication Plans and Record Discipline
+- Water Collection and Purification | file=water.json | subcategory=collection_and_treatment | related=Water Storage and Rationing, Diarrhea, Vomiting, and Rehydration, Camp Sanitation and Waste Control
+- Water Storage and Rationing | file=water.json | subcategory=storage_and_use | related=Water Collection and Purification, Family Preparedness and Daily Hardship Routines, Diarrhea, Vomiting, and Rehydration
+
+Merge rules for future work
+1. If a new entry only repeats high-level advice already present in another file, expand the stronger existing entry instead of adding a new one.
+2. If a new entry differs only by wording but not practical outcome, merge it.
+3. If a new entry is a regional or advanced special case, link it to the broader existing topic rather than duplicating the base guidance.
+4. Keep water, sanitation, and disease content tightly cross-referenced to avoid repeated hygiene text.
+5. Keep psychology, leadership, and household routine content distinct:
+   - panic = immediate stabilization
+   - leadership = group order and fairness
+   - routine = daily continuity
+6. Keep dystopian / surveillance / AI-resilience content distinct:
+   - digital dependency = paper/manual fallback
+   - automation failure = human-operated continuity
+7. Keep history entries lesson-focused; do not duplicate story background without extracting practical lessons.
+
+Known overlap zones already handled
+- Water safety is split between purification and rationing/storage rather than duplicated.
+- Medical infection risk is split across wound care, sanitation, and medicine caution.
+- Movement logic is split between deciding to move and how to move safely.
+- Digital resilience is split between communications, knowledge preservation, and dystopian fallback systems.
+- Household stability is split across preparedness routines, leadership, and work rotation.
+
+Do not add near-duplicate future files with names such as:
+- basic_survival_tips.json
+- emergency_general_advice.json
+- first_aid_basics_2.json
+- water_basics_extra.json
+Instead expand the relevant existing files.

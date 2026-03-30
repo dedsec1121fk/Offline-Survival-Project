@@ -1,0 +1,65 @@
+DATABASE_COVERAGE.txt
+Coverage review date: 2026-03-30
+
+Strong coverage
+- Survival foundations: priorities, risk assessment, household routine discipline.
+- Water: collection, purification, storage, rationing.
+- Fire / cooking / heat: fuel discipline, low-fuel cooking.
+- Shelter: improvised shelter, insulation, storm repair.
+- Medicine / first aid / sanitation: bleeding, wound care, fracture handling, diarrhea/rehydration, sanitation systems, medicine storage caution.
+- Psychology / social dynamics: panic control, leadership, conflict reduction.
+- Movement / navigation: evacuation logic, movement with vulnerable people.
+- Communication / information resilience: paper plans, records, rumor control.
+- Tools / repairs / outages: maintenance, battery and lighting discipline.
+- Food production / agriculture: staple crop planning.
+- Disasters: floods, storms, wildfire, heat, cold, smoke.
+- Historical / wartime lessons: sieges, shortages, wartime civilian continuity.
+- Dystopian / AI / surveillance resilience: digital dependency, automation failure fallback.
+- Rebuilding / preservation: household organization, archive design.
+
+Moderate coverage
+- Pharmacology: strong on caution, storage, scarcity logic; still not a medication reference compendium.
+- Anatomy / biology: strong on survival-useful physiology; still needs deeper body-system expansion and disease pattern coverage.
+- Community rebuilding: present but still expandable into governance, apprenticeship, workshop systems, and education frameworks.
+
+Weak or incomplete areas
+- Edible and poisonous plants by region
+- Fishing and trapping basics
+- Detailed anatomy by organ system
+- Detailed biology of infection, immunity, healing stages
+- More disaster-specific response matrices (earthquake, drought, blackout city survival, prolonged smoke events)
+- Detailed menstrual hygiene, infant feeding under hardship, elder chronic disease continuity
+- Broader agricultural cycles, compost systems, irrigation methods, seed saving by crop
+- Expanded community medicine and field clinic organization
+- Offline reference appendices such as measurements, symptom indexes, and quick triage tables
+
+Recommended expansion principle
+Add depth where it increases practical utility, not just file count. Prefer:
+1. more detailed reference entries,
+2. broader but non-duplicative coverage,
+3. stronger cross-linking between medical, sanitation, and logistics topics,
+4. more structured rebuilding knowledge.
+
+Current database files
+- ai_takeover_preparedness.json: 1 entries | Automation Failure and AI-Controlled System Disruption
+- agriculture_and_food_production.json: 1 entries | Household Food Planning and Staple Crops
+- anatomy_biology.json: 2 entries | Circulation, Breathing, and Body Heat, Child and Elder Survival Considerations
+- communication_and_information.json: 2 entries | Communication Plans and Record Discipline, Rumor Control and Information Verification
+- disasters_and_weather.json: 2 entries | Floods, Storms, and Wildfire Survival, Heat, Cold, and Smoke Conditions
+- diseases_and_sanitation.json: 2 entries | Camp Sanitation and Waste Control, Diarrhea, Vomiting, and Rehydration
+- dystopian_resilience.json: 1 entries | High-Surveillance and Digital Dependency Resilience
+- energy_and_power_outages.json: 1 entries | Power Outage Lighting and Device Preservation
+- fire_heat_cooking.json: 2 entries | Firecraft, Heat, and Fuel Discipline, Emergency Cooking with Limited Fuel
+- first_aid_and_field_care.json: 2 entries | Bleeding Control and Wound Care, Fractures, Sprains, and Casualty Movement
+- food_nutrition_preservation.json: 2 entries | Nutrition Under Scarcity, Food Preservation Under Scarcity
+- history_lessons.json: 1 entries | Lessons from Sieges, Blockades, and Shortages
+- knowledge_preservation.json: 1 entries | Knowledge Preservation and Family Archive Design
+- movement_navigation_evacuation.json: 2 entries | Route Planning, Evacuation, and Shelter-in-Place Logic, Movement with Vulnerable People and Observation Awareness
+- pharmacology_basics.json: 2 entries | Antiseptics, Medicine Storage, and General Caution, Antibiotics and Medication Scarcity Planning
+- psychology_and_group_resilience.json: 2 entries | Panic Control and Mental Grounding, Leadership, Conflict Prevention, and Morale
+- rebuilding_community.json: 1 entries | Household Organization and Work Rotation
+- shelter.json: 2 entries | Improvised Shelter and Insulation, Storm Hardening and Basic Repairs
+- survival_foundations.json: 3 entries | Survival Priorities Under Pressure, Risk Assessment in Unstable Environments, Family Preparedness and Daily Hardship Routines
+- tools_repairs_and_maintenance.json: 1 entries | Tools, Cordage, and Maintenance Discipline
+- wartime_civilian_survival.json: 1 entries | Wartime Civilian Survival and Continuity
+- water.json: 2 entries | Water Collection and Purification, Water Storage and Rationing
