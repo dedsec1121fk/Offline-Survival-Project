@@ -1,0 +1,14 @@
+update_019.txt
+Date: 2026-03-30
+Update batch: 019
+
+What this pass changed
+- Expanded diseases_and_sanitation.json in place
+  - added Preventing Diarrheal Illness After Disaster
+
+Source direction for this pass
+- CDC emergency water, hygiene, wound, and diarrheal-illness guidance
+
+Why this matters
+- This pass starts feeding source-backed free public guidance directly into the project instead of relying only on internally written expansion.
+- It improves post-disaster sanitation logic using free public health guidance.
