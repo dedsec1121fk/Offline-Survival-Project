@@ -1,0 +1,53 @@
+[
+  {
+    "id": "movement::route_planning",
+    "topic": "Route Planning, Evacuation, and Shelter-in-Place Logic",
+    "category": "movement_navigation_evacuation",
+    "subcategory": "planning_and_decision",
+    "tags": ["movement", "route", "evacuation", "navigation", "shelter-in-place"],
+    "summary_en": "The hard decision is not only how to move, but whether moving is safer than staying. Good movement logic compares current danger, route risk, destination value, and the condition of the people traveling.",
+    "summary_el": "Η δύσκολη απόφαση δεν είναι μόνο πώς να μετακινηθείς, αλλά αν η μετακίνηση είναι ασφαλέστερη από την παραμονή. Η σωστή λογική συγκρίνει τον τωρινό κίνδυνο, τον κίνδυνο διαδρομής, την αξία του προορισμού και την κατάσταση των ανθρώπων που ταξιδεύουν.",
+    "content_en": "People often evacuate too late or too emotionally. A better method is to ask four questions: what is the current threat if we stay, what is the threat if we move, what do we gain at the destination, and can the weakest person in the group survive the route? Movement in crisis is expensive in water, calories, visibility, and judgment. Shelter-in-place is often stronger when the current location is structurally safe, supplied, and low-profile. Evacuation becomes stronger when fire, flooding, structural failure, violence, contamination, or supply collapse make staying worse than the route. Good route planning uses alternates, quiet timing, known waypoints, and realistic pacing.",
+    "content_el": "Οι άνθρωποι συχνά εκκενώνουν πολύ αργά ή πολύ συναισθηματικά. Καλύτερη μέθοδος είναι να ρωτήσεις τέσσερα πράγματα: ποια είναι η τωρινή απειλή αν μείνουμε, ποια είναι η απειλή αν κινηθούμε, τι κερδίζουμε στον προορισμό και αν ο πιο αδύναμος άνθρωπος της ομάδας μπορεί να αντέξει τη διαδρομή. Η μετακίνηση σε κρίση είναι ακριβή σε νερό, θερμίδες, ορατότητα και κρίση. Η παραμονή συχνά είναι ισχυρότερη όταν η τωρινή τοποθεσία είναι δομικά ασφαλής, έχει εφόδια και παραμένει χαμηλού προφίλ. Η εκκένωση γίνεται ισχυρότερη όταν φωτιά, πλημμύρα, δομική αστοχία, βία, μόλυνση ή κατάρρευση προμηθειών κάνουν την παραμονή χειρότερη από τη διαδρομή. Ο καλός σχεδιασμός χρησιμοποιεί εναλλακτικές, ήσυχο χρόνο κίνησης, γνωστά σημεία και ρεαλιστικό ρυθμό.",
+    "steps_en": [
+      "Compare the danger of staying with the danger of moving.",
+      "Plan a main route, backup route, and abort point.",
+      "Move according to the slowest and weakest member of the group.",
+      "Carry only what preserves survival value.",
+      "Leave with written contacts, destination logic, and water plan."
+    ],
+    "steps_el": [
+      "Σύγκρινε τον κίνδυνο παραμονής με τον κίνδυνο μετακίνησης.",
+      "Σχεδίασε κύρια διαδρομή, εφεδρική διαδρομή και σημείο ακύρωσης.",
+      "Κινήσου με ρυθμό του πιο αργού και πιο αδύναμου μέλους της ομάδας.",
+      "Πάρε μόνο ό,τι διατηρεί αξία επιβίωσης.",
+      "Φύγε με γραπτές επαφές, λογική προορισμού και σχέδιο νερού."
+    ],
+    "warnings_en": [
+      "Movement under panic burns resources quickly.",
+      "The destination may be less useful than imagination suggests.",
+      "A route that works for one healthy adult may fail for a family group."
+    ],
+    "warnings_el": [
+      "Η μετακίνηση μέσα σε πανικό καίει πόρους γρήγορα.",
+      "Ο προορισμός μπορεί να είναι λιγότερο χρήσιμος απ’ όσο δείχνει η φαντασία.",
+      "Μια διαδρομή που δουλεύει για έναν υγιή ενήλικα μπορεί να αποτύχει για οικογενειακή ομάδα."
+    ],
+    "mistakes_en": [
+      "Leaving without destination logic.",
+      "Carrying too much and slowing the whole group.",
+      "Confusing action with progress."
+    ],
+    "mistakes_el": [
+      "Να φεύγεις χωρίς λογική προορισμού.",
+      "Να κουβαλάς υπερβολικά πολλά και να καθυστερείς όλη την ομάδα.",
+      "Να μπερδεύεις τη δράση με την πρόοδο."
+    ],
+    "related_topics": ["Floods, Storms, and Wildfire Survival", "Risk Assessment in Unstable Environments", "Communication Plans and Record Discipline"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  }
+]

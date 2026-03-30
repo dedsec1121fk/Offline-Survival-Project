@@ -1,0 +1,54 @@
+[
+  {
+    "id": "energy::power_lighting",
+    "topic": "Power Outage Lighting and Device Preservation",
+    "category": "energy_power_outages",
+    "subcategory": "power_management",
+    "tags": ["power", "battery", "lighting", "devices", "blackout"],
+    "summary_en": "In blackout conditions, electricity becomes a priority problem, not a convenience problem. Protecting battery life and lighting discipline preserves communication, navigation, and decision quality.",
+    "summary_el": "Σε συνθήκες μπλακ άουτ, το ρεύμα γίνεται πρόβλημα προτεραιότητας, όχι άνεσης. Η προστασία μπαταρίας και η πειθαρχία φωτισμού διατηρούν επικοινωνία, προσανατολισμό και ποιότητα αποφάσεων.",
+    "content_en": "A household often wastes power in the first day of outage because everyone uses devices as if restoration is near. A better approach is to rank electrical needs: medical need, communication, navigation/light, reference data, then everything else. Lower brightness, reduce background apps, avoid needless entertainment use, and charge only according to plan. Keep multiple small lights if possible rather than relying on one bright source. Light discipline also affects security. Bright visible windows at night advertise activity and consume energy fast. Charge when power appears, but think in terms of maintaining function rather than topping everything to 100 percent for comfort.",
+    "content_el": "Ένα νοικοκυριό συχνά σπαταλά ρεύμα την πρώτη μέρα διακοπής επειδή όλοι χρησιμοποιούν συσκευές σαν να έρχεται άμεσα αποκατάσταση. Καλύτερη προσέγγιση είναι να βάλεις ιεράρχηση: ιατρική ανάγκη, επικοινωνία, προσανατολισμός/φως, δεδομένα αναφοράς, και μετά όλα τα υπόλοιπα. Χαμήλωσε φωτεινότητα, μείωσε εφαρμογές στο παρασκήνιο, απόφυγε άσκοπη ψυχαγωγική χρήση και φόρτιζε μόνο με σχέδιο. Κράτα πολλά μικρά φώτα αν γίνεται αντί να βασίζεσαι σε μία πολύ φωτεινή πηγή. Η πειθαρχία φωτός επηρεάζει και την ασφάλεια. Φωτεινά ορατά παράθυρα τη νύχτα διαφημίζουν δραστηριότητα και καίνε ενέργεια γρήγορα. Φόρτιζε όταν εμφανίζεται ρεύμα, αλλά σκέψου με όρους διατήρησης λειτουργίας και όχι άνεσης."
+,
+    "steps_en": [
+      "Rank device and power needs before charging anything.",
+      "Use low brightness and airplane/offline modes where practical.",
+      "Preserve at least one communication device and one reference device.",
+      "Use small focused lights instead of flooding a room with light.",
+      "Recharge opportunistically but according to plan."
+    ],
+    "steps_el": [
+      "Ιεράρχησε ανάγκες συσκευών και ρεύματος πριν φορτίσεις οτιδήποτε.",
+      "Χρησιμοποίησε χαμηλή φωτεινότητα και λειτουργίες airplane/offline όπου γίνεται.",
+      "Διατήρησε τουλάχιστον μία συσκευή επικοινωνίας και μία συσκευή αναφοράς.",
+      "Χρησιμοποίησε μικρά εστιασμένα φώτα αντί να πλημμυρίζεις το δωμάτιο με φως.",
+      "Επαναφόρτιζε ευκαιριακά αλλά με σχέδιο."
+    ],
+    "warnings_en": [
+      "One dead phone can become loss of maps, notes, and contacts, not just loss of communication.",
+      "Visible nighttime light can attract attention.",
+      "Battery panic causes waste. Measured use preserves function longer."
+    ],
+    "warnings_el": [
+      "Ένα άδειο κινητό μπορεί να σημαίνει απώλεια χαρτών, σημειώσεων και επαφών, όχι μόνο επικοινωνίας.",
+      "Το ορατό νυχτερινό φως μπορεί να τραβήξει προσοχή.",
+      "Ο πανικός για μπαταρία φέρνει σπατάλη. Η μετρημένη χρήση κρατά τη λειτουργία περισσότερο."
+    ],
+    "mistakes_en": [
+      "Using entertainment first and planning later.",
+      "Charging everything equally instead of by importance.",
+      "Assuming power restoration will come before reserves run out."
+    ],
+    "mistakes_el": [
+      "Να χρησιμοποιείς πρώτα ψυχαγωγία και να σχεδιάζεις μετά.",
+      "Να φορτίζεις τα πάντα το ίδιο αντί με βάση τη σημασία.",
+      "Να υποθέτεις ότι το ρεύμα θα επανέλθει πριν αδειάσουν τα αποθέματα."
+    ],
+    "related_topics": ["Communication Plans and Record Discipline", "Knowledge Preservation and Family Archive Design", "High-Surveillance and Digital Dependency Resilience"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  }
+]

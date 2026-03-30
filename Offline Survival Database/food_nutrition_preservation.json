@@ -1,0 +1,104 @@
+[
+  {
+    "id": "food::scarcity_nutrition",
+    "topic": "Nutrition Under Scarcity",
+    "category": "food_nutrition_preservation",
+    "subcategory": "nutrition_priorities",
+    "tags": ["food", "nutrition", "scarcity", "calories", "strength"],
+    "summary_en": "In food shortage, survival depends on protecting function, not chasing ideal diet. The priority is safe calories, hydration, predictable meals, and protecting the most vulnerable first.",
+    "summary_el": "Σε έλλειψη τροφής, η επιβίωση εξαρτάται από τη διατήρηση της λειτουργικότητας, όχι από το ιδανικό διαιτολόγιο. Η προτεραιότητα είναι ασφαλείς θερμίδες, ενυδάτωση, προβλέψιμα γεύματα και προστασία των πιο ευάλωτων πρώτα.",
+    "content_en": "When food becomes scarce, households often make two bad mistakes: they eat emotionally and unevenly at first, then they ration too late. A better system is to count what exists, estimate days of supply, group food by perishability, and establish consistent meal rhythm early. Staple foods that store well and combine with water and heat—grains, legumes, oils, preserved items, and simple shelf-stable foods—matter because they preserve work capacity. Nutritional perfection is less important than keeping people able to think, move, and recover. Children, sick people, pregnant women, and people doing heavy labor may need different allocation than healthy adults. Hidden hunger also matters: even when calories exist, weakness rises if protein, salt, and micronutrients disappear for too long.",
+    "content_el": "Όταν η τροφή λιγοστεύει, τα νοικοκυριά κάνουν συχνά δύο κακά λάθη: τρώνε συναισθηματικά και άνισα στην αρχή και μετά κάνουν οικονομία πολύ αργά. Καλύτερο σύστημα είναι να μετράς τι υπάρχει, να εκτιμάς ημέρες αποθέματος, να χωρίζεις την τροφή ανά ευπάθεια στη φθορά και να βάζεις από νωρίς σταθερό ρυθμό γευμάτων. Βασικές τροφές που αποθηκεύονται καλά και συνδυάζονται με νερό και θερμότητα—δημητριακά, όσπρια, λάδια, διατηρημένα τρόφιμα και απλές ανθεκτικές τροφές—μετρούν γιατί διατηρούν την ικανότητα για εργασία. Η διατροφική τελειότητα είναι λιγότερο σημαντική από το να κρατάς τους ανθρώπους ικανούς να σκέφτονται, να κινούνται και να ανακάμπτουν. Παιδιά, άρρωστοι, έγκυες και άτομα που κάνουν βαριά εργασία μπορεί να χρειάζονται διαφορετική κατανομή από υγιείς ενήλικες. Η κρυφή πείνα επίσης μετρά: ακόμη κι όταν υπάρχουν θερμίδες, η αδυναμία ανεβαίνει αν χαθούν για πολύ καιρό πρωτεΐνη, αλάτι και βασικά θρεπτικά στοιχεία.",
+    "steps_en": [
+      "Count current food honestly and write down an estimated number of days.",
+      "Use the most perishable food first unless it is needed for morale or medical reasons.",
+      "Set simple predictable meal times instead of constant snacking.",
+      "Protect water, fuel, and cookware because food utility depends on them.",
+      "Adjust rations by vulnerability and workload, not only by equal division."
+    ],
+    "steps_el": [
+      "Μέτρα ειλικρινά την τρέχουσα τροφή και γράψε μια εκτίμηση ημερών.",
+      "Χρησιμοποίησε πρώτα τα πιο ευπαθή τρόφιμα εκτός αν χρειάζονται για ηθικό ή ιατρικούς λόγους.",
+      "Βάλε απλές και προβλέψιμες ώρες γευμάτων αντί για συνεχές τσιμπολόγημα.",
+      "Προστάτεψε νερό, καύσιμο και σκεύη γιατί από αυτά εξαρτάται η αξία της τροφής.",
+      "Προσάρμοσε τις μερίδες με βάση την ευαλωτότητα και το φορτίο εργασίας, όχι μόνο την τυπική ισότητα."
+    ],
+    "warnings_en": [
+      "Skipping food entirely to save stock can reduce judgment, morale, and work ability faster than expected.",
+      "Spoiled food can injure a household already weakened by scarcity.",
+      "Heavy labor without enough calories and fluids creates preventable collapse."
+    ],
+    "warnings_el": [
+      "Η πλήρης αποχή από τροφή για οικονομία μπορεί να ρίξει κρίση, ηθικό και ικανότητα εργασίας πιο γρήγορα απ’ όσο περιμένεις.",
+      "Χαλασμένη τροφή μπορεί να βλάψει ένα νοικοκυριό ήδη αποδυναμωμένο από τη στέρηση.",
+      "Βαριά εργασία χωρίς αρκετές θερμίδες και υγρά οδηγεί σε αποτρέψιμη κατάρρευση."
+    ],
+    "mistakes_en": [
+      "Eating the most convenient food first instead of by spoilage and usefulness.",
+      "Ignoring salt, hydration, and protein while focusing only on fullness.",
+      "Letting ration decisions become emotional arguments."
+    ],
+    "mistakes_el": [
+      "Να τρως πρώτα την πιο βολική τροφή αντί με βάση τη φθορά και τη χρησιμότητα.",
+      "Να αγνοείς αλάτι, ενυδάτωση και πρωτεΐνη και να κοιτάς μόνο το αίσθημα πληρότητας.",
+      "Να αφήνεις τις αποφάσεις μερίδων να γίνονται συναισθηματικός καβγάς."
+    ],
+    "related_topics": ["Emergency Cooking with Limited Fuel", "Water Storage and Rationing", "Household Food Planning and Staple Crops"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  },
+  {
+    "id": "food::preservation",
+    "topic": "Food Preservation Under Scarcity",
+    "category": "food_nutrition_preservation",
+    "subcategory": "preservation_methods",
+    "tags": ["food", "preservation", "drying", "smoking", "storage"],
+    "summary_en": "Preservation is a force multiplier. It turns short-lived food into time, stability, and planning room.",
+    "summary_el": "Η συντήρηση είναι πολλαπλασιαστής ισχύος. Μετατρέπει τη βραχύβια τροφή σε χρόνο, σταθερότητα και περιθώριο σχεδιασμού.",
+    "content_en": "Scarcity becomes much worse when households lose food to heat, moisture, insects, rodents, or delay. Basic preservation means protecting food from water, air, contamination, pests, and wasteful handling. Drying works by removing moisture; salting slows spoilage; cool dark storage protects many staples; careful container discipline reduces pest loss. Fuel use matters too. Some foods are best cooked in batches and reused safely, while others should be dried or stored whole until needed. Labeling and rotation prevent hidden loss. The point is not advanced culinary technique. The point is keeping usable food usable for longer.",
+    "content_el": "Η στέρηση χειροτερεύει πολύ όταν το νοικοκυριό χάνει τροφή από ζέστη, υγρασία, έντομα, τρωκτικά ή καθυστέρηση. Η βασική συντήρηση σημαίνει προστασία της τροφής από νερό, αέρα, μόλυνση, παράσιτα και άσκοπο χειρισμό. Το στέγνωμα δουλεύει αφαιρώντας υγρασία· το αλάτισμα επιβραδύνει τη φθορά· η δροσερή σκοτεινή αποθήκευση προστατεύει πολλές βασικές τροφές· και η προσεκτική πειθαρχία δοχείων μειώνει απώλειες από παράσιτα. Μετρά και η χρήση καυσίμου. Μερικές τροφές είναι καλύτερα να μαγειρεύονται σε παρτίδες και να επαναχρησιμοποιούνται με ασφάλεια, ενώ άλλες πρέπει να αποθηκεύονται ολόκληρες ή αποξηραμένες μέχρι να χρειαστούν. Η επισήμανση και η περιστροφή αποτρέπουν κρυφές απώλειες. Ο στόχος δεν είναι εξελιγμένη μαγειρική. Ο στόχος είναι να μείνει η χρήσιμη τροφή χρήσιμη για περισσότερο καιρό.",
+    "steps_en": [
+      "Keep food dry, sealed, shaded, and protected from pests.",
+      "Rotate older stock first and label when possible.",
+      "Use drying, salting, or cool storage where appropriate.",
+      "Avoid repeated opening of bulk containers.",
+      "Inspect stores often for moisture, insects, mold, or rodent damage."
+    ],
+    "steps_el": [
+      "Κράτα την τροφή στεγνή, κλειστή, σε σκιά και προστατευμένη από παράσιτα.",
+      "Χρησιμοποίησε πρώτα το παλιότερο απόθεμα και βάλε σημειώσεις όπου γίνεται.",
+      "Χρησιμοποίησε στέγνωμα, αλάτισμα ή δροσερή αποθήκευση όπου ταιριάζει.",
+      "Απέφυγε το συνεχές άνοιγμα μεγάλων δοχείων.",
+      "Έλεγχε συχνά αποθέματα για υγρασία, έντομα, μούχλα ή ζημιά από τρωκτικά."
+    ],
+    "warnings_en": [
+      "Mold, foul smell, or obvious pest contamination are danger signs.",
+      "Warm damp storage quietly destroys reserves.",
+      "Poor handling can waste more food than actual shortage."
+    ],
+    "warnings_el": [
+      "Μούχλα, δυσοσμία ή εμφανής μόλυνση από παράσιτα είναι σημάδια κινδύνου.",
+      "Η ζεστή υγρή αποθήκευση καταστρέφει αθόρυβα τα αποθέματα.",
+      "Ο κακός χειρισμός μπορεί να σπαταλήσει περισσότερη τροφή από την ίδια την έλλειψη."
+    ],
+    "mistakes_en": [
+      "Storing food directly on damp floor surfaces.",
+      "Mixing old and new stock without tracking it.",
+      "Leaving containers partly open because access feels easier."
+    ],
+    "mistakes_el": [
+      "Να αποθηκεύεις τροφή απευθείας σε υγρό πάτωμα.",
+      "Να ανακατεύεις παλιό και νέο απόθεμα χωρίς καταγραφή.",
+      "Να αφήνεις δοχεία μισάνοιχτα επειδή η πρόσβαση φαίνεται πιο εύκολη."
+    ],
+    "related_topics": ["Nutrition Under Scarcity", "Household Food Planning and Staple Crops", "Camp Sanitation and Waste Control"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  }
+]

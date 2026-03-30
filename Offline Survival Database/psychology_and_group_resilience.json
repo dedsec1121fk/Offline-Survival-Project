@@ -1,0 +1,104 @@
+[
+  {
+    "id": "psychology::panic_control",
+    "topic": "Panic Control and Mental Grounding",
+    "category": "psychology_group_resilience",
+    "subcategory": "panic_and_stress",
+    "tags": ["panic", "stress", "morale", "grounding", "crisis"],
+    "summary_en": "Panic narrows judgment, speeds waste, and turns small problems into dangerous ones. Grounding methods restore usable thinking long before they restore comfort.",
+    "summary_el": "Ο πανικός στενεύει την κρίση, επιταχύνει τη σπατάλη και μετατρέπει μικρά προβλήματα σε επικίνδυνα. Οι μέθοδοι γείωσης επαναφέρουν χρήσιμη σκέψη πολύ πριν φέρουν άνεση.",
+    "content_en": "Under crisis pressure, people often confuse urgency with speed. They talk too much, move too much, use too many supplies, and stop observing clearly. Panic control is therefore practical, not emotional luxury. A grounded person breathes slower, names the immediate problem, identifies the next small action, and resists catastrophic imagination. Groups can stabilize quickly by using short instructions, a calm voice, eye contact, simple tasks, and visible routine. Children and exhausted adults borrow calm from the environment around them. The goal is not to deny fear. The goal is to prevent fear from taking command of decision making.",
+    "content_el": "Κάτω από πίεση κρίσης, οι άνθρωποι συχνά μπερδεύουν το επείγον με την ταχύτητα. Μιλούν υπερβολικά, κινούνται υπερβολικά, ξοδεύουν υπερβολικά εφόδια και σταματούν να παρατηρούν καθαρά. Ο έλεγχος πανικού λοιπόν είναι πρακτικός, όχι συναισθηματική πολυτέλεια. Ένα γειωμένο άτομο αναπνέει πιο αργά, ονομάζει το άμεσο πρόβλημα, εντοπίζει την επόμενη μικρή ενέργεια και αντιστέκεται στην καταστροφική φαντασία. Οι ομάδες μπορούν να σταθεροποιηθούν γρήγορα με σύντομες οδηγίες, ήρεμη φωνή, οπτική επαφή, απλά καθήκοντα και ορατή ρουτίνα. Παιδιά και εξαντλημένοι ενήλικες δανείζονται ηρεμία από το περιβάλλον τους. Ο στόχος δεν είναι να αρνηθείς τον φόβο. Ο στόχος είναι να μην αφήσεις τον φόβο να πάρει τη διοίκηση των αποφάσεων.",
+    "steps_en": [
+      "Slow breathing and speak in short concrete sentences.",
+      "Name the next single useful action.",
+      "Reduce noise, crowding, and conflicting instructions.",
+      "Give distressed people small achievable tasks.",
+      "Return to routine as soon as the immediate danger is controlled."
+    ],
+    "steps_el": [
+      "Επιβράδυνε την αναπνοή και μίλα με σύντομες συγκεκριμένες φράσεις.",
+      "Ονόμασε την επόμενη μία χρήσιμη ενέργεια.",
+      "Μείωσε θόρυβο, στρίμωγμα και αντικρουόμενες οδηγίες.",
+      "Δώσε σε αγχωμένους ανθρώπους μικρά εφικτά καθήκοντα.",
+      "Επέστρεψε στη ρουτίνα μόλις ελεγχθεί ο άμεσος κίνδυνος."
+    ],
+    "warnings_en": [
+      "Shouting, shame, and chaos usually intensify panic instead of stopping it.",
+      "A calm tone can matter more than a perfect explanation.",
+      "Exhaustion, dehydration, and low blood sugar worsen panic response."
+    ],
+    "warnings_el": [
+      "Οι φωνές, η ντροπή και το χάος συνήθως δυναμώνουν τον πανικό αντί να τον σταματούν.",
+      "Ένας ήρεμος τόνος μπορεί να μετρά περισσότερο από την τέλεια εξήγηση.",
+      "Η εξάντληση, η αφυδάτωση και το χαμηλό σάκχαρο χειροτερεύουν την αντίδραση πανικού."
+    ],
+    "mistakes_en": [
+      "Trying to solve every future problem in the middle of immediate danger.",
+      "Giving long speeches when people need short direction.",
+      "Assuming panic is weakness rather than a normal stress reaction."
+    ],
+    "mistakes_el": [
+      "Να προσπαθείς να λύσεις όλα τα μελλοντικά προβλήματα μέσα στον άμεσο κίνδυνο.",
+      "Να δίνεις μεγάλους λόγους όταν οι άνθρωποι χρειάζονται σύντομη κατεύθυνση.",
+      "Να θεωρείς τον πανικό αδυναμία αντί για φυσιολογική αντίδραση στρες."
+    ],
+    "related_topics": ["Family Preparedness and Daily Hardship Routines", "Leadership, Conflict Prevention, and Morale", "Risk Assessment in Unstable Environments"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  },
+  {
+    "id": "psychology::leadership_morale",
+    "topic": "Leadership, Conflict Prevention, and Morale",
+    "category": "psychology_group_resilience",
+    "subcategory": "group_dynamics",
+    "tags": ["leadership", "morale", "conflict", "group", "trust"],
+    "summary_en": "Groups last longer when leadership is steady, fair, and visible. Morale is not optimism alone; it is trust that work, rules, and burden are being shared honestly.",
+    "summary_el": "Οι ομάδες αντέχουν περισσότερο όταν η ηγεσία είναι σταθερή, δίκαιη και ορατή. Το ηθικό δεν είναι μόνο αισιοδοξία· είναι εμπιστοσύνη ότι δουλειά, κανόνες και βάρος μοιράζονται τίμια.",
+    "content_en": "Crisis groups break down less from hardship itself than from perceived unfairness, confusion, and unspoken resentment. A good leader keeps instructions short, explains enough to maintain trust, shares discomfort visibly, and uses routine to reduce arguments. Conflict prevention begins before arguments start: clear work rotation, known priorities, simple standards for food, water, sleep, noise, hygiene, and security, and a habit of correcting small issues early. Morale grows when people see progress, usefulness, and fairness. Even under collapse conditions, disciplined honesty and predictable rules are stronger than fear-based control.",
+    "content_el": "Οι ομάδες διαλύονται λιγότερο από την ίδια τη δυσκολία και περισσότερο από την αίσθηση αδικίας, τη σύγχυση και τη σιωπηλή πίκρα. Ένας καλός ηγέτης κρατά τις οδηγίες σύντομες, εξηγεί αρκετά ώστε να διατηρεί εμπιστοσύνη, μοιράζεται ορατά τη δυσκολία και χρησιμοποιεί τη ρουτίνα για να μειώνει καβγάδες. Η πρόληψη σύγκρουσης αρχίζει πριν ξεσπάσει ο καβγάς: καθαρή εναλλαγή εργασιών, γνωστές προτεραιότητες, απλά πρότυπα για φαγητό, νερό, ύπνο, θόρυβο, υγιεινή και ασφάλεια, και συνήθεια να διορθώνονται νωρίς τα μικρά προβλήματα. Το ηθικό μεγαλώνει όταν οι άνθρωποι βλέπουν πρόοδο, χρησιμότητα και δικαιοσύνη. Ακόμη και σε συνθήκες κατάρρευσης, η πειθαρχημένη ειλικρίνεια και οι προβλέψιμοι κανόνες είναι ισχυρότερα από τον έλεγχο μέσω φόβου.",
+    "steps_en": [
+      "Make roles, standards, and priorities visible to the group.",
+      "Rotate unpleasant work when possible.",
+      "Correct small tensions before they become identity conflicts.",
+      "Use brief check-ins to surface problems early.",
+      "Protect morale by showing progress, not by making false promises."
+    ],
+    "steps_el": [
+      "Κάνε ρόλους, κανόνες και προτεραιότητες ορατά στην ομάδα.",
+      "Εναλλάσσετε δυσάρεστες δουλειές όπου γίνεται.",
+      "Διόρθωνε μικρές εντάσεις πριν γίνουν συγκρούσεις ταυτότητας και στρατοπέδων.",
+      "Χρησιμοποίησε σύντομους ελέγχους για να εμφανίζονται νωρίς τα προβλήματα.",
+      "Προστάτεψε το ηθικό δείχνοντας πρόοδο, όχι δίνοντας ψεύτικες υποσχέσεις."
+    ],
+    "warnings_en": [
+      "Hidden favoritism poisons morale quickly.",
+      "Groups under stress notice unfair burden-sharing immediately.",
+      "Fear-based obedience may work briefly but weakens trust fast."
+    ],
+    "warnings_el": [
+      "Η κρυφή εύνοια δηλητηριάζει γρήγορα το ηθικό.",
+      "Οι ομάδες υπό στρες αντιλαμβάνονται αμέσως την άδικη κατανομή βάρους.",
+      "Η υπακοή μέσω φόβου μπορεί να δουλέψει για λίγο αλλά καταστρέφει γρήγορα την εμπιστοσύνη."
+    ],
+    "mistakes_en": [
+      "Letting one capable person carry everything.",
+      "Avoiding conflict so long that resentment hardens.",
+      "Talking about unity while daily practice feels unfair."
+    ],
+    "mistakes_el": [
+      "Να αφήνεις ένα ικανό άτομο να σηκώνει τα πάντα.",
+      "Να αποφεύγεις τη σύγκρουση τόσο πολύ ώστε η πίκρα να σκληραίνει.",
+      "Να μιλάς για ενότητα ενώ η καθημερινή πράξη φαίνεται άδικη."
+    ],
+    "related_topics": ["Panic Control and Mental Grounding", "Household Organization and Work Rotation", "Communication Plans and Record Discipline"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  }
+]

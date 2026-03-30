@@ -1,0 +1,53 @@
+[
+  {
+    "id": "knowledge::archive_design",
+    "topic": "Knowledge Preservation and Family Archive Design",
+    "category": "knowledge_preservation",
+    "subcategory": "archives_and_reference",
+    "tags": ["knowledge", "archive", "books", "records", "offline"],
+    "summary_en": "A family archive is a survival tool. It preserves instructions, contacts, identities, medicine notes, maps, and practical memory when digital systems fail or people become exhausted.",
+    "summary_el": "Ένα οικογενειακό αρχείο είναι εργαλείο επιβίωσης. Διατηρεί οδηγίες, επαφές, ταυτότητες, σημειώσεις φαρμάκων, χάρτες και πρακτική μνήμη όταν αποτυγχάνουν τα ψηφιακά συστήματα ή οι άνθρωποι εξαντλούνται.",
+    "content_en": "Useful knowledge disappears faster than people expect. Phones die, accounts lock, notebooks get wet, and key details vanish exactly when stress is highest. A resilient archive keeps the most important information in formats that can be read by tired humans under poor light. That means short instructions, indexes, contact lists, medicine records, family identity copies, maps, maintenance notes, and simple references for water, health, food, and movement. One master archive should exist, but not as a single fragile point. Copies, waterproofing, and separation by category reduce catastrophic loss. A good archive is not clutter; it is organized memory.",
+    "content_el": "Η χρήσιμη γνώση χάνεται γρηγορότερα απ’ όσο περιμένουν οι άνθρωποι. Τα κινητά σβήνουν, οι λογαριασμοί κλειδώνουν, τα τετράδια βρέχονται και οι κρίσιμες λεπτομέρειες εξαφανίζονται ακριβώς όταν το στρες είναι υψηλότερο. Ένα ανθεκτικό αρχείο κρατά τις πιο σημαντικές πληροφορίες σε μορφές που διαβάζονται από κουρασμένους ανθρώπους με κακό φως. Αυτό σημαίνει σύντομες οδηγίες, ευρετήρια, λίστες επαφών, αρχεία φαρμάκων, αντίγραφα ταυτότητας οικογένειας, χάρτες, σημειώσεις συντήρησης και απλές αναφορές για νερό, υγεία, τροφή και μετακίνηση. Ένα κύριο αρχείο πρέπει να υπάρχει, αλλά όχι ως ένα μόνο εύθραυστο σημείο. Αντίγραφα, αδιαβροχοποίηση και διαχωρισμός ανά κατηγορία μειώνουν την καταστροφική απώλεια. Ένα καλό αρχείο δεν είναι ακαταστασία· είναι οργανωμένη μνήμη.",
+    "steps_en": [
+      "Create a short indexed family archive with the most important instructions and records.",
+      "Keep paper copies of identities, contacts, medicines, routes, and emergency notes.",
+      "Use simple headings and readable formatting for stress conditions.",
+      "Protect the archive from water, heat, and casual loss.",
+      "Update it when medicines, locations, or routines change."
+    ],
+    "steps_el": [
+      "Φτιάξε ένα σύντομο οργανωμένο οικογενειακό αρχείο με τις πιο σημαντικές οδηγίες και καταγραφές.",
+      "Κράτα χαρτί με ταυτότητες, επαφές, φάρμακα, διαδρομές και σημειώσεις ανάγκης.",
+      "Χρησιμοποίησε απλούς τίτλους και ευανάγνωστη μορφή για συνθήκες στρες.",
+      "Προστάτεψε το αρχείο από νερό, ζέστη και ακούσια απώλεια.",
+      "Ενημέρωνέ το όταν αλλάζουν φάρμακα, τοποθεσίες ή ρουτίνες."
+    ],
+    "warnings_en": [
+      "A disorganized archive becomes dead weight under stress.",
+      "Sensitive information should be protected from unnecessary exposure.",
+      "One copy is better than none, but one copy is still fragile."
+    ],
+    "warnings_el": [
+      "Ένα ανοργάνωτο αρχείο γίνεται άχρηστο βάρος μέσα στο στρες.",
+      "Οι ευαίσθητες πληροφορίες πρέπει να προστατεύονται από περιττή έκθεση.",
+      "Ένα αντίγραφο είναι καλύτερο από κανένα, αλλά παραμένει εύθραυστο."
+    ],
+    "mistakes_en": [
+      "Keeping everything only on one phone or one account.",
+      "Writing long unstructured notes instead of usable instructions.",
+      "Failing to refresh the archive after major life changes."
+    ],
+    "mistakes_el": [
+      "Να κρατάς τα πάντα μόνο σε ένα κινητό ή έναν λογαριασμό.",
+      "Να γράφεις μεγάλες αδόμητες σημειώσεις αντί για χρήσιμες οδηγίες.",
+      "Να μην ανανεώνεις το αρχείο μετά από μεγάλες αλλαγές ζωής."
+    ],
+    "related_topics": ["Communication Plans and Record Discipline", "High-Surveillance and Digital Dependency Resilience", "Power Outage Lighting and Device Preservation"],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  }
+]
