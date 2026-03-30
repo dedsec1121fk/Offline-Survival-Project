@@ -1,0 +1,53 @@
+[
+  {
+    "id": "wartime::continuity",
+    "topic": "Wartime Civilian Survival and Continuity",
+    "category": "wartime_civilian_survival",
+    "subcategory": "wartime_civilian_survival",
+    "tags": ["war", "civilian", "continuity", "shelter", "records"],
+    "summary_en": "Civilian survival in war depends on continuity more than heroics: shelter discipline, water, records, movement logic, rumor control, and preserving the household's ability to function from one day to the next.",
+    "summary_el": "Η επιβίωση αμάχων σε πόλεμο εξαρτάται περισσότερο από τη συνέχεια παρά από ηρωισμούς: πειθαρχία καταλύματος, νερό, αρχεία, λογική μετακίνησης, έλεγχο φημών και διατήρηση της ικανότητας του νοικοκυριού να λειτουργεί από μέρα σε μέρα.",
+    "content_en": "War pressures civilians through noise, movement disruption, shortage, fear, damaged infrastructure, and bad information. A useful wartime posture is not constant motion but controlled continuity. Protect the shelter area, identify safer interior spaces, keep documents and medicines ready, maintain quiet routines, and do not move simply because everyone else is moving. Water, sanitation, footwear, light discipline, communication plans, and record keeping become vital because they support repeated survival, not one dramatic moment. Civilian endurance is built from many small preserved functions.",
+    "content_el": "Ο πόλεμος πιέζει τους αμάχους με θόρυβο, διακοπή μετακινήσεων, έλλειψη, φόβο, χαλασμένες υποδομές και κακή πληροφορία. Μια χρήσιμη στάση σε πόλεμο δεν είναι η συνεχής κίνηση αλλά η ελεγχόμενη συνέχεια. Προστάτεψε τον χώρο καταλύματος, εντόπισε ασφαλέστερα εσωτερικά σημεία, κράτα έγγραφα και φάρμακα έτοιμα, διατήρησε ήσυχες ρουτίνες και μη μετακινείσαι απλώς επειδή κινούνται όλοι. Νερό, υγιεινή, παπούτσια, πειθαρχία φωτισμού, σχέδια επικοινωνίας και τήρηση αρχείων γίνονται ζωτικά γιατί στηρίζουν επαναλαμβανόμενη επιβίωση και όχι μία δραματική στιγμή. Η αντοχή των αμάχων χτίζεται από πολλές μικρές διατηρημένες λειτουργίες.",
+    "steps_en": [
+      "Identify safer interior shelter positions and fallback movement logic.",
+      "Keep documents, medicine, water, light, and footwear ready together.",
+      "Use short communication and rumor-control discipline.",
+      "Preserve routine wherever possible to stabilize morale and labor.",
+      "Move only with destination logic and realistic route judgment."
+    ],
+    "steps_el": [
+      "Εντόπισε ασφαλέστερες εσωτερικές θέσεις καταλύματος και εφεδρική λογική μετακίνησης.",
+      "Κράτα έγγραφα, φάρμακα, νερό, φως και παπούτσια έτοιμα μαζί.",
+      "Χρησιμοποίησε σύντομη επικοινωνία και πειθαρχία ελέγχου φημών.",
+      "Διατήρησε ρουτίνα όπου γίνεται για σταθερό ηθικό και εργασία.",
+      "Κινήσου μόνο με λογική προορισμού και ρεαλιστική κρίση διαδρομής."
+    ],
+    "warnings_en": [
+      "Noise and rumor can drive worse decisions than the direct threat itself.",
+      "A damaged city punishes poor footwear, poor light, and poor timing.",
+      "Repeated small failures in water, hygiene, and routine can become fatal over time."
+    ],
+    "warnings_el": [
+      "Ο θόρυβος και η φήμη μπορούν να οδηγήσουν σε χειρότερες αποφάσεις από την ίδια την άμεση απειλή.",
+      "Μια κατεστραμμένη πόλη τιμωρεί κακά παπούτσια, κακό φως και κακό timing.",
+      "Επαναλαμβανόμενες μικρές αποτυχίες σε νερό, υγιεινή και ρουτίνα μπορούν να γίνουν θανατηφόρες με τον χρόνο."
+    ],
+    "mistakes_en": [
+      "Moving just because others are moving.",
+      "Neglecting documents and medicine while focusing only on food.",
+      "Allowing panic and rumor to replace direct observation."
+    ],
+    "mistakes_el": [
+      "Να κινείσαι απλώς επειδή κινούνται οι άλλοι.",
+      "Να αμελείς έγγραφα και φάρμακα ενώ κοιτάς μόνο το φαγητό.",
+      "Να αφήνεις πανικό και φήμες να αντικαθιστούν την άμεση παρατήρηση."
+    ],
+    "related_topics": ["Lessons from Sieges, Blockades, and Shortages", "Route Planning, Evacuation, and Shelter-in-Place Logic", "Communication Plans and Record Discipline"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push completion pass."
+  }
+]

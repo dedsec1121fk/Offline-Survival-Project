@@ -1,0 +1,53 @@
+[
+  {
+    "id": "rebuild::work_rotation",
+    "topic": "Household Organization and Work Rotation",
+    "category": "rebuilding_community",
+    "subcategory": "organization_and_labor",
+    "tags": ["community", "work", "rotation", "organization", "rebuilding"],
+    "summary_en": "Rebuilding begins long before a town looks rebuilt. It starts when labor, knowledge, and responsibility are organized so that exhaustion does not destroy continuity.",
+    "summary_el": "Η ανοικοδόμηση αρχίζει πολύ πριν μια περιοχή φαίνεται ξαναχτισμένη. Ξεκινά όταν εργασία, γνώση και ευθύνη οργανώνονται έτσι ώστε η εξάντληση να μην καταστρέψει τη συνέχεια.",
+    "content_en": "A household or small group lasts longer when essential labor is mapped clearly: water, food, hygiene, watch, maintenance, child care, elder care, cooking, records, and repair. Work rotation matters because fixed burden on one competent person leads to silent collapse. Rebuilding also depends on apprenticeship: every critical task should be teachable, repeatable, and not locked inside one person's head. Community recovery grows from routine competence, not only heroic effort. Fair visible labor standards reduce resentment and make mutual aid more stable.",
+    "content_el": "Ένα νοικοκυριό ή μια μικρή ομάδα αντέχει περισσότερο όταν η βασική εργασία χαρτογραφείται καθαρά: νερό, τροφή, υγιεινή, επιτήρηση, συντήρηση, φροντίδα παιδιών, φροντίδα ηλικιωμένων, μαγείρεμα, αρχεία και επισκευές. Η εναλλαγή εργασίας μετρά γιατί το σταθερό βάρος σε ένα ικανό άτομο οδηγεί σε σιωπηλή κατάρρευση. Η ανοικοδόμηση εξαρτάται επίσης από μαθητεία: κάθε κρίσιμη δουλειά πρέπει να διδάσκεται, να επαναλαμβάνεται και να μη μένει κλειδωμένη στο μυαλό ενός μόνο ανθρώπου. Η ανάκαμψη κοινότητας μεγαλώνει από ρουτίνα και ικανότητα, όχι μόνο από ηρωική προσπάθεια. Ορατά δίκαια πρότυπα εργασίας μειώνουν πίκρα και κάνουν τη mutual aid πιο σταθερή.",
+    "steps_en": [
+      "List essential daily and weekly jobs clearly.",
+      "Rotate unpleasant work and train backups for critical tasks.",
+      "Record methods so knowledge survives fatigue and turnover.",
+      "Match work to health, skill, and vulnerability.",
+      "Review the labor system before resentment builds."
+    ],
+    "steps_el": [
+      "Γράψε καθαρά τις βασικές καθημερινές και εβδομαδιαίες δουλειές.",
+      "Εναλλάσσετε δυσάρεστη εργασία και εκπαιδεύστε εφεδρείες για κρίσιμες δουλειές.",
+      "Καταγράψτε μεθόδους ώστε η γνώση να επιβιώνει από κούραση και αλλαγές ανθρώπων.",
+      "Ταίριαξε εργασία με υγεία, δεξιότητα και ευαλωτότητα.",
+      "Έλεγξε το σύστημα εργασίας πριν χτιστεί πίκρα."
+    ],
+    "warnings_en": [
+      "One exhausted expert is a structural weakness.",
+      "Work systems fail when invisible labor is ignored.",
+      "Rebuilding without records causes repeated mistakes."
+    ],
+    "warnings_el": [
+      "Ένας εξαντλημένος ειδικός είναι δομική αδυναμία.",
+      "Τα συστήματα εργασίας αποτυγχάνουν όταν αγνοείται η αόρατη εργασία.",
+      "Η ανοικοδόμηση χωρίς αρχεία προκαλεί επαναλαμβανόμενα λάθη."
+    ],
+    "mistakes_en": [
+      "Letting the most competent person do everything.",
+      "Failing to train others in repair and maintenance.",
+      "Treating child care or sanitation as secondary labor."
+    ],
+    "mistakes_el": [
+      "Να αφήνεις τον πιο ικανό να κάνει τα πάντα.",
+      "Να μην εκπαιδεύεις άλλους σε επισκευή και συντήρηση.",
+      "Να θεωρείς τη φροντίδα παιδιών ή την υγιεινή δευτερεύουσα εργασία."
+    ],
+    "related_topics": ["Leadership, Conflict Prevention, and Morale", "Knowledge Preservation and Family Archive Design", "Household Food Planning and Staple Crops"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push completion pass."
+  }
+]

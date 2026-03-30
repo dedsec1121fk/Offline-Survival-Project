@@ -1,0 +1,53 @@
+[
+  {
+    "id": "tools::maintenance_discipline",
+    "topic": "Tools, Cordage, and Maintenance Discipline",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "tool_care",
+    "tags": ["tools", "repair", "maintenance", "cordage", "sharpening"],
+    "summary_en": "Tools preserve shelter, water systems, cooking ability, and mobility. In scarcity, tool care often matters as much as acquiring more tools.",
+    "summary_el": "Τα εργαλεία διατηρούν κατάλυμα, συστήματα νερού, δυνατότητα μαγειρέματος και κινητικότητα. Σε έλλειψη, η φροντίδα εργαλείων μετρά συχνά όσο και η απόκτηση περισσότερων εργαλείων.",
+    "content_en": "A dull blade, frayed rope, loose handle, or missing fastener can turn a simple repair into failure. Maintenance discipline means cleaning, drying, sorting, sharpening, and storing tools so they are ready when pressure rises. Cordage should be protected from rot, sharp abrasion, and careless knots; cutting tools need safe handling and edge care; simple repair materials should be kept together in one place. A repair culture is efficient because it preserves shelter, containers, clothing, doors, packs, and water systems instead of constantly consuming replacements.",
+    "content_el": "Μια στομωμένη λάμα, ένα φθαρμένο σχοινί, μια χαλαρή λαβή ή ένα χαμένο στήριγμα μπορούν να μετατρέψουν μια απλή επισκευή σε αποτυχία. Η πειθαρχία συντήρησης σημαίνει καθάρισμα, στέγνωμα, ταξινόμηση, ακόνισμα και αποθήκευση εργαλείων ώστε να είναι έτοιμα όταν ανεβαίνει η πίεση. Τα σχοινιά πρέπει να προστατεύονται από σήψη, κοφτή τριβή και άσκοπους κόμπους· τα κοπτικά εργαλεία θέλουν ασφαλή χειρισμό και φροντίδα κόψης· και τα απλά υλικά επισκευής πρέπει να μένουν μαζί σε ένα σημείο. Η κουλτούρα επισκευής είναι αποδοτική γιατί διατηρεί κατάλυμα, δοχεία, ρούχα, πόρτες, σακίδια και συστήματα νερού αντί να καταναλώνει συνεχώς αντικαταστάσεις.",
+    "steps_en": [
+      "Clean and dry tools after use.",
+      "Store cordage, blades, fasteners, and repair materials in organized kits.",
+      "Inspect for wear before a crisis forces urgent use.",
+      "Sharpen and tighten tools on schedule.",
+      "Teach safe handling and basic repair skills across the household."
+    ],
+    "steps_el": [
+      "Καθάριζε και στέγνωνε τα εργαλεία μετά τη χρήση.",
+      "Αποθήκευε σχοινιά, λάμες, συνδέσμους και υλικά επισκευής σε οργανωμένα κιτ.",
+      "Έλεγχε για φθορά πριν μια κρίση σε αναγκάσει σε επείγουσα χρήση.",
+      "Ακόνιζε και έσφιγγε εργαλεία με πρόγραμμα.",
+      "Δίδαξε ασφαλή χειρισμό και βασικές δεξιότητες επισκευής σε όλο το νοικοκυριό."
+    ],
+    "warnings_en": [
+      "Neglected tools fail at the worst moment.",
+      "Unsafe cutting-tool habits create preventable injuries.",
+      "Disorganized repair supplies waste time when conditions are already bad."
+    ],
+    "warnings_el": [
+      "Τα παραμελημένα εργαλεία αποτυγχάνουν στη χειρότερη στιγμή.",
+      "Οι κακές συνήθειες σε κοπτικά εργαλεία δημιουργούν αποτρέψιμους τραυματισμούς.",
+      "Τα ανοργάνωτα υλικά επισκευής σπαταλούν χρόνο όταν οι συνθήκες είναι ήδη κακές."
+    ],
+    "mistakes_en": [
+      "Leaving tools wet, dirty, or scattered.",
+      "Using the wrong cordage or knot for load and environment.",
+      "Treating maintenance as nonessential until failure occurs."
+    ],
+    "mistakes_el": [
+      "Να αφήνεις εργαλεία βρεγμένα, βρόμικα ή σκορπισμένα.",
+      "Να χρησιμοποιείς λάθος σχοινί ή κόμπο για φορτίο και περιβάλλον.",
+      "Να θεωρείς τη συντήρηση μη απαραίτητη μέχρι να γίνει η αποτυχία."
+    ],
+    "related_topics": ["Storm Hardening and Basic Repairs", "Household Organization and Work Rotation", "Knowledge Preservation and Family Archive Design"],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push completion pass."
+  }
+]
