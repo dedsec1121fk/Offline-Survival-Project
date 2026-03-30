@@ -1,0 +1,53 @@
+[
+  {
+    "id": "food::gathering_safety",
+    "topic": "Local Ecology and Food Gathering Safety",
+    "category": "food_gathering_and_ecology",
+    "subcategory": "gathering_risk_checks",
+    "tags": ["ecology", "foraging", "plants", "safety", "food"],
+    "summary_en": "Food gathering becomes dangerous when confidence exceeds identification skill. The safest rule is to gather conservatively, verify carefully, and never let hunger erase caution.",
+    "summary_el": "Η συλλογή τροφής γίνεται επικίνδυνη όταν η αυτοπεποίθηση ξεπερνά την ικανότητα αναγνώρισης. Ο ασφαλέστερος κανόνας είναι να συλλέγεις συντηρητικά, να επιβεβαιώνεις προσεκτικά και να μην αφήνεις ποτέ την πείνα να σβήνει την προσοχή.",
+    "content_en": "Local ecology matters because survival foods change by region, season, altitude, water access, and disturbance. A plant or gathering site that is useful in one place may be dangerous or empty in another. Safe gathering begins with recognition discipline: know the exact plant or resource, avoid contaminated ground, avoid roadsides and polluted runoff, and do not mix unknown items into one harvest. Small test-free sampling is not a safe substitute for identification. Gathering should also include ecosystem logic: protect future growth, avoid destroying the site, and keep notes on where and when useful species appear. The goal is repeatable safe gathering, not desperate guesswork.",
+    "content_el": "Η τοπική οικολογία μετρά γιατί οι τροφές επιβίωσης αλλάζουν ανά περιοχή, εποχή, υψόμετρο, πρόσβαση σε νερό και διαταραχή εδάφους. Ένα φυτό ή ένα σημείο συλλογής που είναι χρήσιμο σε ένα μέρος μπορεί να είναι επικίνδυνο ή άδειο σε άλλο. Η ασφαλής συλλογή αρχίζει με πειθαρχία αναγνώρισης: γνώριζε ακριβώς το φυτό ή τον πόρο, απέφυγε μολυσμένο έδαφος, απέφυγε άκρες δρόμων και ρυπασμένες απορροές και μην ανακατεύεις άγνωστα αντικείμενα στην ίδια συγκομιδή. Η μικρή δοκιμή δεν είναι ασφαλές υποκατάστατο της αναγνώρισης. Η συλλογή πρέπει επίσης να περιλαμβάνει λογική οικοσυστήματος: προστάτεψε τη μελλοντική ανάπτυξη, μην καταστρέφεις το σημείο και κράτα σημειώσεις για το πού και πότε εμφανίζονται χρήσιμα είδη. Ο στόχος είναι επαναλαμβανόμενη ασφαλής συλλογή, όχι απελπισμένο μάντεμα.",
+    "steps_en": [
+      "Gather only items you can identify with high confidence.",
+      "Avoid polluted, sprayed, roadside, or questionable gathering zones.",
+      "Keep unknown items separate from known safe food.",
+      "Record location, season, and yield for future use.",
+      "Harvest in a way that does not destroy future growth."
+    ],
+    "steps_el": [
+      "Συνέλεγε μόνο ό,τι μπορείς να αναγνωρίσεις με μεγάλη βεβαιότητα.",
+      "Απόφυγε μολυσμένες, ψεκασμένες, παραδρόμιες ή αμφίβολες ζώνες συλλογής.",
+      "Κράτα άγνωστα αντικείμενα χωριστά από γνωστή ασφαλή τροφή.",
+      "Κατέγραψε τοποθεσία, εποχή και απόδοση για μελλοντική χρήση.",
+      "Συγκόμιζε με τρόπο που δεν καταστρέφει τη μελλοντική ανάπτυξη."
+    ],
+    "warnings_en": [
+      "Hunger and overconfidence are a dangerous combination.",
+      "Contaminated soil or water can make otherwise useful plants unsafe.",
+      "Misidentification can injure multiple people if mixed into one meal."
+    ],
+    "warnings_el": [
+      "Η πείνα και η υπερβολική αυτοπεποίθηση είναι επικίνδυνος συνδυασμός.",
+      "Μολυσμένο έδαφος ή νερό μπορούν να κάνουν επικίνδυνα ακόμη και χρήσιμα φυτά.",
+      "Η λανθασμένη αναγνώριση μπορεί να βλάψει πολλούς ανθρώπους αν μπει σε ένα γεύμα."
+    ],
+    "mistakes_en": [
+      "Collecting by guess or vague resemblance.",
+      "Gathering from roadside or runoff areas.",
+      "Mixing unknown and known species in the same bag."
+    ],
+    "mistakes_el": [
+      "Να συλλέγεις με μάντεμα ή αόριστη ομοιότητα.",
+      "Να συλλέγεις από άκρες δρόμων ή σημεία απορροής.",
+      "Να ανακατεύεις άγνωστα και γνωστά είδη στην ίδια σακούλα."
+    ],
+    "related_topics": ["Household Food Planning and Staple Crops", "Food Preservation Under Scarcity", "Water Collection and Purification"],
+    "difficulty": "high",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Standalone expansion pass."
+  }
+]
