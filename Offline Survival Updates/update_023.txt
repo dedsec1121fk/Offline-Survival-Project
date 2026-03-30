@@ -1,0 +1,16 @@
+update_023.txt
+Date: 2026-03-30
+Update batch: 023
+
+What this pass changed
+- Added respiratory_distress_patterns_under_crisis.json
+- Added child_survival_medicine_under_scarcity.json
+- Added elder_decline_patterns_under_crisis.json
+- Added floodwater_cleanup_and_reentry.json
+- Added low_fuel_household_meal_planning.json
+- Added household_skill_mapping_and_apprenticeship.json
+
+Why this matters
+- This was a broad size-and-depth expansion pass.
+- It increased medical, disaster, food, and rebuilding coverage in one run.
+- The new files are operational and scenario-focused rather than filler text.
