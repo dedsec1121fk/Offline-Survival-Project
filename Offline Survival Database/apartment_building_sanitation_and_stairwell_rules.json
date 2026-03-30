@@ -1,0 +1,53 @@
+[
+  {
+    "id": "urban::building_rules",
+    "topic": "Apartment Building Sanitation and Stairwell Rules",
+    "category": "urban_blackout_survival",
+    "subcategory": "building_level_coordination",
+    "tags": ["building", "stairs", "sanitation", "neighbors", "urban"],
+    "summary_en": "In a stressed apartment building, common areas become either a support system or a risk multiplier. Stairwells, shared water points, waste areas, and hallway behavior need simple rules.",
+    "summary_el": "Σε ένα πιεσμένο κτίριο διαμερισμάτων, οι κοινόχρηστοι χώροι γίνονται είτε σύστημα υποστήριξης είτε πολλαπλασιαστής κινδύνου. Κλιμακοστάσια, κοινά σημεία νερού, χώροι αποβλήτων και συμπεριφορά διαδρόμου χρειάζονται απλούς κανόνες.",
+    "content_en": "Urban survival weakens when every apartment behaves as if common space has no rules. Stairwells become dangerous if cluttered, dark, wet, or blocked by storage. Shared water points become contamination risks when raw and clean containers mix. Hallways become conflict zones when noise, waste, and unclear expectations build resentment. Even minimal building-level coordination can preserve function: keep stairs clear, define waste handling, limit night noise and visible light, agree on simple water etiquette, and identify who may need extra help moving supplies. A building does not need full harmony to become safer; it needs a few rules people can actually follow.",
+    "content_el": "Η αστική επιβίωση αδυνατίζει όταν κάθε διαμέρισμα συμπεριφέρεται σαν ο κοινόχρηστος χώρος να μην έχει κανόνες. Τα κλιμακοστάσια γίνονται επικίνδυνα όταν γεμίζουν πράγματα, σκοτεινιάζουν, βρέχονται ή μπλοκάρονται από αποθήκευση. Τα κοινά σημεία νερού γίνονται κίνδυνος μόλυνσης όταν μπλέκονται ακατέργαστα και καθαρά δοχεία. Οι διάδρομοι γίνονται ζώνες σύγκρουσης όταν θόρυβος, απόβλητα και ασαφείς προσδοκίες χτίζουν πίκρα. Ακόμη και ελάχιστος συντονισμός σε επίπεδο κτιρίου μπορεί να διατηρήσει λειτουργία: κράτα τις σκάλες καθαρές, όρισε διαχείριση αποβλήτων, περιόρισε νυχτερινό θόρυβο και ορατό φως, συμφώνησε απλή εθιμοτυπία νερού και εντόπισε ποιος ίσως χρειάζεται επιπλέον βοήθεια για μεταφορά προμηθειών. Ένα κτίριο δεν χρειάζεται τέλεια αρμονία για να γίνει ασφαλέστερο· χρειάζεται λίγους κανόνες που οι άνθρωποι μπορούν πράγματι να ακολουθήσουν.",
+    "steps_en": [
+      "Keep stairwells clear, lit as needed, and free of avoidable hazards.",
+      "Separate clean-water and dirty-water activity in common spaces.",
+      "Set simple hallway rules for noise, waste, and nighttime light.",
+      "Identify vulnerable residents who may need support with stairs or supplies.",
+      "Use short practical agreements instead of long building politics."
+    ],
+    "steps_el": [
+      "Κράτα τα κλιμακοστάσια καθαρά, φωτισμένα όσο χρειάζεται και χωρίς περιττούς κινδύνους.",
+      "Χώρισε δραστηριότητες καθαρού και βρόμικου νερού στους κοινόχρηστους χώρους.",
+      "Βάλε απλούς κανόνες διαδρόμου για θόρυβο, απόβλητα και νυχτερινό φως.",
+      "Εντόπισε ευάλωτους ενοίκους που ίσως χρειάζονται βοήθεια με σκάλες ή προμήθειες.",
+      "Χρησιμοποίησε σύντομες πρακτικές συμφωνίες αντί για μακροσκελή πολυκατοικιακή πολιτική."
+    ],
+    "warnings_en": [
+      "Blocked stairs become evacuation traps.",
+      "Shared space conflict can rise faster than actual resource shortage.",
+      "Common water areas need more discipline than private kitchens."
+    ],
+    "warnings_el": [
+      "Οι μπλοκαρισμένες σκάλες γίνονται παγίδες εκκένωσης.",
+      "Η σύγκρουση σε κοινόχρηστους χώρους μπορεί να ανέβει γρηγορότερα από την ίδια την έλλειψη πόρων.",
+      "Τα κοινά σημεία νερού θέλουν περισσότερη πειθαρχία από μια ιδιωτική κουζίνα."
+    ],
+    "mistakes_en": [
+      "Treating building common areas as nobody's responsibility.",
+      "Storing items in stairwells because they seem temporarily convenient.",
+      "Letting neighbor tension grow without practical rules."
+    ],
+    "mistakes_el": [
+      "Να αντιμετωπίζεις τους κοινόχρηστους χώρους σαν ευθύνη κανενός.",
+      "Να αποθηκεύεις αντικείμενα στις σκάλες επειδή φαίνονται προσωρινά βολικά.",
+      "Να αφήνεις την ένταση μεταξύ γειτόνων να μεγαλώνει χωρίς πρακτικούς κανόνες."
+    ],
+    "related_topics": ["Urban Blackout and Apartment Survival", "Community Kitchen and Water Rules for Small Groups", "Camp Sanitation and Waste Control"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Standalone expansion pass."
+  }
+]
