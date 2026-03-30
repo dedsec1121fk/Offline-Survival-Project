@@ -1,0 +1,25 @@
+[
+  {
+    "id": "medical::ors_preparation_use",
+    "topic": "Oral Rehydration Preparation and Use",
+    "category": "medicine_first_aid",
+    "subcategory": "oral_rehydration_support",
+    "tags": ["ORS", "oral rehydration", "diarrhea", "dehydration", "fluids"],
+    "summary_en": "Oral rehydration is one of the highest-value low-resource medical tools because it can treat dehydration by mouth when the person is still able to drink and absorb fluid.",
+    "summary_el": "Η στοματική επανυδάτωση είναι ένα από τα πιο πολύτιμα εργαλεία ιατρικής με λίγους πόρους γιατί μπορεί να αντιμετωπίσει την αφυδάτωση από το στόμα όταν ο άνθρωπος ακόμη μπορεί να πιει και να απορροφήσει υγρά.",
+    "content_en": "Oral rehydration works best when it is treated as a disciplined process rather than a single drink. The aim is to replace both fluid and lost salts during diarrhea, vomiting, heat stress, or exhaustion. Give small repeated amounts instead of one large volume. Match the pace to what the person can tolerate. Continue after the first visible improvement because dehydration often rebounds when people stop too early. Track urine, alertness, dizziness, thirst, and ability to keep fluid down. Rehydration is strongest when paired with safe water, symptom observation, and protection from further heat or bowel loss.",
+    "content_el": "Η στοματική επανυδάτωση δουλεύει καλύτερα όταν αντιμετωπίζεται ως πειθαρχημένη διαδικασία και όχι ως ένα μόνο ποτό. Ο στόχος είναι να αναπληρώνονται και υγρά και χαμένα άλατα σε διάρροια, εμετό, θερμικό στρες ή εξάντληση. Δίνε μικρές επαναλαμβανόμενες ποσότητες αντί για έναν μεγάλο όγκο. Ταίριαξε τον ρυθμό με αυτό που μπορεί να ανεχθεί ο άνθρωπος. Συνέχισε και μετά την πρώτη ορατή βελτίωση γιατί η αφυδάτωση συχνά επιστρέφει όταν οι άνθρωποι σταματούν πολύ νωρίς. Παρακολούθησε ούρα, εγρήγορση, ζάλη, δίψα και ικανότητα διατήρησης υγρών. Η επανυδάτωση αποδίδει καλύτερα όταν συνδυάζεται με ασφαλές νερό, παρατήρηση συμπτωμάτων και προστασία από περαιτέρω ζέστη ή απώλεια από το έντερο.",
+    "steps_en": ["Use safe water when preparing oral rehydration solution.","Give small repeated sips instead of large rushed drinks.","Pause briefly if nausea rises, then restart gently.","Continue rehydration beyond the first visible improvement.","Watch urine, weakness, alertness, and vomiting tolerance closely."],
+    "steps_el": ["Χρησιμοποίησε ασφαλές νερό όταν ετοιμάζεις στοματικό διάλυμα επανυδάτωσης.","Δίνε μικρές επαναλαμβανόμενες γουλιές αντί για μεγάλα βιαστικά ποτά.","Κάνε σύντομη παύση αν ανεβαίνει η ναυτία και μετά ξανάρχισε ήπια.","Συνέχισε την επανυδάτωση και πέρα από την πρώτη ορατή βελτίωση.","Παρακολούθησε στενά ούρα, αδυναμία, εγρήγορση και ανοχή στον εμετό."],
+    "warnings_en": ["Fast large drinking can worsen vomiting.","Unsafe water can defeat the purpose of rehydration.","A person who becomes more confused or stops passing urine is worsening, not simply tired."],
+    "warnings_el": ["Το γρήγορο πολύ ποτό μπορεί να χειροτερέψει τον εμετό.","Το ακατάλληλο νερό μπορεί να ακυρώσει τον σκοπό της επανυδάτωσης.","Ένας άνθρωπος που γίνεται πιο συγχυσμένος ή σταματά να βγάζει ούρα χειροτερεύει, δεν είναι απλώς κουρασμένος."],
+    "mistakes_en": ["Treating rehydration like a race.","Stopping as soon as the person feels a little better.","Ignoring salt loss while focusing only on plain water."],
+    "mistakes_el": ["Να αντιμετωπίζεις την επανυδάτωση σαν αγώνα ταχύτητας.","Να σταματάς μόλις ο άνθρωπος νιώσει λίγο καλύτερα.","Να αγνοείς την απώλεια αλάτων και να κοιτάς μόνο το σκέτο νερό."],
+    "related_topics": ["Diarrhea, Vomiting, and Rehydration", "Dehydration and Heat Injury Management", "Rehydration Solutions, Fever Control, and Pain Relief Basics"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Expanded from WHO ORS guidance and CDC rehydration communication material."
+  }
+]
