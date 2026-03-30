@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sanitation::personal_hygiene_wounds",
+    "topic": "Personal Hygiene and Wound Protection During Emergency",
+    "category": "hygiene_sanitation",
+    "subcategory": "personal_hygiene_and_wounds",
+    "tags": ["hygiene", "wounds", "handwashing", "disaster", "cleanliness"],
+    "summary_en": "In emergency conditions, personal hygiene is not cosmetic. It is a direct disease-prevention system, especially for hands, teeth, skin, and open wounds.",
+    "summary_el": "Σε συνθήκες ανάγκης, η προσωπική υγιεινή δεν είναι αισθητική. Είναι άμεσο σύστημα πρόληψης ασθενειών, ειδικά για χέρια, δόντια, δέρμα και ανοιχτά τραύματα.",
+    "content_en": "When water is limited or contaminated, people often stop routine hygiene and only react once illness is visible. That delay is costly. Hand cleaning remains one of the highest-value disease controls during emergency conditions. Use soap and safe water whenever possible, especially before food work, before feeding children, after toilet use, and before and after caring for wounds or sick people. If soap and water are unavailable and hands are not visibly dirty, alcohol-based hand sanitizer can help. Wounds need extra protection: keep them clean, covered, and away from contaminated floodwater, dirty standing water, sewage, or brackish water. Personal hygiene decisions must be made with risk in mind, not only with convenience.",
+    "content_el": "Όταν το νερό είναι περιορισμένο ή μολυσμένο, οι άνθρωποι συχνά σταματούν τη βασική υγιεινή και αντιδρούν μόνο όταν η ασθένεια γίνει ορατή. Αυτή η καθυστέρηση κοστίζει. Ο καθαρισμός χεριών παραμένει ένας από τους πιο πολύτιμους ελέγχους ασθένειας σε συνθήκες ανάγκης. Χρησιμοποίησε σαπούνι και ασφαλές νερό όπου γίνεται, ειδικά πριν από δουλειές τροφής, πριν ταΐσεις παιδιά, μετά την τουαλέτα και πριν και μετά τη φροντίδα τραυμάτων ή αρρώστων. Αν σαπούνι και νερό δεν υπάρχουν και τα χέρια δεν είναι εμφανώς βρόμικα, το αλκοολούχο αντισηπτικό μπορεί να βοηθήσει. Τα τραύματα χρειάζονται επιπλέον προστασία: κράτα τα καθαρά, καλυμμένα και μακριά από μολυσμένο πλημμυρικό νερό, βρόμικα στάσιμα νερά, λύματα ή υφάλμυρο νερό. Οι αποφάσεις προσωπικής υγιεινής πρέπει να γίνονται με βάση τον κίνδυνο και όχι μόνο τη βολή.",
+    "steps_en": ["Wash hands with soap and safe water at key contamination moments.","Use alcohol-based sanitizer when appropriate and hands are not visibly dirty.","Use only clean water for tooth brushing and direct body-entry hygiene.","Keep wounds clean, covered, and away from contaminated water.","Treat hygiene as part of treatment, not as an optional comfort task."],
+    "steps_el": ["Πλύνε χέρια με σαπούνι και ασφαλές νερό στις βασικές στιγμές μόλυνσης.","Χρησιμοποίησε αλκοολούχο αντισηπτικό όπου ταιριάζει και τα χέρια δεν είναι εμφανώς βρόμικα.","Χρησιμοποίησε μόνο καθαρό νερό για βούρτσισμα δοντιών και υγιεινή που μπαίνει άμεσα στο σώμα.","Κράτα τραύματα καθαρά, καλυμμένα και μακριά από μολυσμένο νερό.","Αντιμετώπισε την υγιεινή ως μέρος της θεραπείας και όχι ως προαιρετική εργασία άνεσης."],
+    "warnings_en": ["Hands that look clean may still spread illness.","Floodwater and dirty standing water are both contamination risks.","Unprotected wounds can become infection entry points fast."],
+    "warnings_el": ["Χέρια που φαίνονται καθαρά μπορεί πάλι να μεταδίδουν ασθένεια.","Το πλημμυρικό νερό και τα βρόμικα στάσιμα νερά είναι και τα δύο κίνδυνοι μόλυνσης.","Τα απροστάτευτα τραύματα μπορούν να γίνουν γρήγορα πύλες μόλυνσης."],
+    "mistakes_en": ["Reducing hygiene too early because water is scarce.","Using questionable water for brushing teeth or wound care.","Leaving wounds uncovered during dirty cleanup work."],
+    "mistakes_el": ["Να μειώνεις την υγιεινή πολύ νωρίς επειδή το νερό είναι λίγο.","Να χρησιμοποιείς αμφίβολο νερό για βούρτσισμα δοντιών ή φροντίδα τραυμάτων.","Να αφήνεις τα τραύματα ακάλυπτα κατά τη διάρκεια βρόμικης εργασίας καθαρισμού."],
+    "related_topics": ["Preventing Diarrheal Illness After Disaster", "Camp Sanitation and Waste Control", "Wound Monitoring and Infection Warning Notes"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Expanded from CDC personal hygiene and wound-protection emergency guidance."
+  }
+]
