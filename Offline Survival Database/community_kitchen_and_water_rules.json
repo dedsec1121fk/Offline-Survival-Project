@@ -1,0 +1,53 @@
+[
+  {
+    "id": "community::kitchen_water_rules",
+    "topic": "Community Kitchen and Water Rules for Small Groups",
+    "category": "rebuilding_community",
+    "subcategory": "shared_rules_and_sanitation",
+    "tags": ["community", "kitchen", "water", "rules", "sanitation"],
+    "summary_en": "Small groups stay healthier and calmer when shared food and water follow simple visible rules. Clear rules reduce waste, unfairness, and contamination.",
+    "summary_el": "Οι μικρές ομάδες μένουν πιο υγιείς και ήρεμες όταν η κοινή τροφή και το νερό ακολουθούν απλούς ορατούς κανόνες. Οι καθαροί κανόνες μειώνουν σπατάλη, αδικία και μόλυνση.",
+    "content_en": "A shared kitchen becomes dangerous when nobody knows who washed what, which water is clean, who used the last fuel, or whether leftovers are still safe. Small-group continuity improves when there are explicit rules: raw water and safe water stay separate, cooking and washing areas stay distinct, one person logs supplies, one person checks cleanup, and meal timing follows a predictable rhythm. Shared rules are not bureaucracy for its own sake. They preserve trust and prevent disease when households start operating like a small community instead of separate individuals.",
+    "content_el": "Μια κοινή κουζίνα γίνεται επικίνδυνη όταν κανείς δεν ξέρει ποιος έπλυνε τι, ποιο νερό είναι καθαρό, ποιος χρησιμοποίησε το τελευταίο καύσιμο ή αν τα περισσεύματα είναι ακόμη ασφαλή. Η συνέχεια μικρής ομάδας βελτιώνεται όταν υπάρχουν ρητοί κανόνες: ακατέργαστο και ασφαλές νερό μένουν χωριστά, μαγείρεμα και πλύσιμο μένουν διακριτά, ένα άτομο καταγράφει προμήθειες, ένα άτομο ελέγχει καθαριότητα και τα γεύματα ακολουθούν προβλέψιμο ρυθμό. Οι κοινόχρηστοι κανόνες δεν είναι γραφειοκρατία για χάρη της γραφειοκρατίας. Διατηρούν εμπιστοσύνη και προλαμβάνουν ασθένεια όταν τα νοικοκυριά αρχίζουν να λειτουργούν σαν μικρή κοινότητα αντί σαν χωρισμένα άτομα.",
+    "steps_en": [
+      "Mark safe-water and raw-water containers clearly.",
+      "Separate cooking, cleaning, and waste areas.",
+      "Assign meal, cleanup, and supply-check roles visibly.",
+      "Use predictable meal times and leftover rules.",
+      "Log shared stock so rationing feels fair and factual."
+    ],
+    "steps_el": [
+      "Σήμανε καθαρά τα δοχεία ασφαλούς και ακατέργαστου νερού.",
+      "Χώρισε χώρους μαγειρέματος, καθαρισμού και αποβλήτων.",
+      "Δώσε ορατά ρόλους για γεύμα, καθάρισμα και έλεγχο προμηθειών.",
+      "Χρησιμοποίησε προβλέψιμες ώρες γευμάτων και κανόνες για περισσεύματα.",
+      "Κατέγραφε κοινό απόθεμα ώστε η οικονομία να φαίνεται δίκαιη και πραγματική."
+    ],
+    "warnings_en": [
+      "Shared kitchens spread disease quickly when container discipline fails.",
+      "Unclear rules create resentment as fast as they create waste.",
+      "A community system must be simple enough to follow when people are tired."
+    ],
+    "warnings_el": [
+      "Οι κοινές κουζίνες μεταδίδουν γρήγορα ασθένεια όταν χαλά η πειθαρχία δοχείων.",
+      "Οι ασαφείς κανόνες δημιουργούν πίκρα τόσο γρήγορα όσο και σπατάλη.",
+      "Ένα κοινοτικό σύστημα πρέπει να είναι αρκετά απλό ώστε να ακολουθείται όταν οι άνθρωποι είναι κουρασμένοι."
+    ],
+    "mistakes_en": [
+      "Letting everyone improvise their own kitchen rules.",
+      "Mixing safe and unsafe water tools.",
+      "Leaving shared food decisions undocumented."
+    ],
+    "mistakes_el": [
+      "Να αφήνεις τον καθένα να αυτοσχεδιάζει τους δικούς του κανόνες κουζίνας.",
+      "Να ανακατεύεις εργαλεία ασφαλούς και ακατάλληλου νερού.",
+      "Να αφήνεις αποφάσεις κοινής τροφής χωρίς καταγραφή."
+    ],
+    "related_topics": ["Camp Sanitation and Waste Control", "Household Organization and Work Rotation", "Water Storage and Rationing"],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Standalone expansion pass."
+  }
+]
