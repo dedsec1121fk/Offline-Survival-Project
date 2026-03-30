@@ -1,0 +1,53 @@
+[
+  {
+    "id": "medical::dehydration_heat",
+    "topic": "Dehydration and Heat Injury Management",
+    "category": "medicine_first_aid",
+    "subcategory": "heat_and_fluid_failure",
+    "tags": ["dehydration", "heat", "exhaustion", "hydration", "medical"],
+    "summary_en": "Heat injury often begins as reduced judgment, irritability, weakness, and poor coordination before collapse becomes obvious. Early action preserves far more life than late rescue.",
+    "summary_el": "Η θερμική βλάβη αρχίζει συχνά ως πτώση κρίσης, εκνευρισμός, αδυναμία και κακός συντονισμός πριν γίνει φανερή η κατάρρευση. Η έγκαιρη αντίδραση σώζει πολύ περισσότερη ζωή από την καθυστερημένη διάσωση.",
+    "content_en": "Dehydration and heat injury are not only desert problems. They appear in urban outages, heavy work, smoke conditions, high-humidity apartments, long stair climbs, and any setting where water loss and heat load outrun recovery. Early signs include thirst, dry mouth, headache, unusual fatigue, poor concentration, irritability, and reduced urine. Worsening signs include dizziness, confusion, rapid pulse, vomiting, inability to continue work, hot skin, and collapse. Management begins with stopping work, moving to cooler conditions, reducing clothing and heat load, restoring fluids carefully, and monitoring for worsening mental status. People often fail by pushing through the first warning signs because they want to finish the task. That delay can turn a manageable condition into a medical emergency.",
+    "content_el": "Η αφυδάτωση και η θερμική βλάβη δεν είναι μόνο πρόβλημα ερήμου. Εμφανίζονται σε αστικά μπλακ άουτ, βαριά εργασία, συνθήκες καπνού, διαμερίσματα με υγρασία, μεγάλες ανόδους σκάλας και κάθε κατάσταση όπου η απώλεια νερού και το θερμικό φορτίο ξεπερνούν την ανάρρωση. Τα πρώιμα σημάδια περιλαμβάνουν δίψα, ξηροστομία, πονοκέφαλο, ασυνήθιστη κόπωση, πτώση συγκέντρωσης, εκνευρισμό και μειωμένα ούρα. Τα επιδεινούμενα σημάδια περιλαμβάνουν ζάλη, σύγχυση, γρήγορο σφυγμό, εμετό, αδυναμία συνέχισης εργασίας, καυτό δέρμα και κατάρρευση. Η αντιμετώπιση αρχίζει με διακοπή εργασίας, μετακίνηση σε πιο δροσερές συνθήκες, μείωση ρούχων και θερμικού φορτίου, προσεκτική αποκατάσταση υγρών και παρακολούθηση για επιδείνωση νοητικής κατάστασης. Οι άνθρωποι συχνά αποτυγχάνουν επειδή προσπαθούν να αντέξουν τα πρώτα προειδοποιητικά σημάδια για να τελειώσουν τη δουλειά. Αυτή η καθυστέρηση μπορεί να μετατρέψει μια διαχειρίσιμη κατάσταση σε ιατρικό επείγον.",
+    "steps_en": [
+      "Stop work early when heat symptoms begin instead of waiting for collapse.",
+      "Move to shade, airflow, or cooler indoor space.",
+      "Loosen clothing and reduce direct heat exposure.",
+      "Replace fluids steadily and watch for mental-status change.",
+      "Reduce workload for the rest of the day, not only for a few minutes."
+    ],
+    "steps_el": [
+      "Σταμάτα νωρίς τη δουλειά όταν αρχίζουν τα σημάδια θερμότητας αντί να περιμένεις κατάρρευση.",
+      "Πήγαινε σε σκιά, ρεύμα αέρα ή πιο δροσερό εσωτερικό χώρο.",
+      "Χαλάρωσε ρούχα και μείωσε την άμεση έκθεση σε θερμότητα.",
+      "Αναπλήρωνε υγρά σταθερά και παρακολούθησε για αλλαγή νοητικής κατάστασης.",
+      "Μείωσε το φορτίο εργασίας για το υπόλοιπο της ημέρας, όχι μόνο για λίγα λεπτά."
+    ],
+    "warnings_en": [
+      "Confusion, collapse, or persistent vomiting are danger signs.",
+      "A person who says they are fine may already be impaired by heat.",
+      "Recovery is incomplete if the person returns immediately to the same heat load."
+    ],
+    "warnings_el": [
+      "Σύγχυση, κατάρρευση ή επίμονος εμετός είναι σημάδια κινδύνου.",
+      "Ένας άνθρωπος που λέει ότι είναι καλά μπορεί ήδη να έχει επηρεαστεί από τη ζέστη.",
+      "Η ανάρρωση είναι ατελής αν ο άνθρωπος επιστρέψει αμέσως στο ίδιο θερμικό φορτίο."
+    ],
+    "mistakes_en": [
+      "Treating early heat signs as weakness or laziness.",
+      "Trying to finish heavy work before resting and cooling.",
+      "Replacing fluids too late or too irregularly."
+    ],
+    "mistakes_el": [
+      "Να θεωρείς τα πρώιμα σημάδια ζέστης αδυναμία ή τεμπελιά.",
+      "Να προσπαθείς να τελειώσεις βαριά δουλειά πριν ξεκουραστείς και δροσιστείς.",
+      "Να αναπληρώνεις υγρά πολύ αργά ή πολύ άτακτα."
+    ],
+    "related_topics": ["Heat, Cold, and Smoke Conditions", "Water Storage and Rationing", "Symptom Logs and Daily Health Checks"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "High-detail knowledge expansion."
+  }
+]
