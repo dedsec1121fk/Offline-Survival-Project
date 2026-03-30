@@ -1,0 +1,53 @@
+[
+  {
+    "id": "urban::apartment_blackout",
+    "topic": "Urban Blackout and Apartment Survival",
+    "category": "urban_blackout_survival",
+    "subcategory": "apartment_continuity",
+    "tags": ["urban", "blackout", "apartment", "water", "stairs"],
+    "summary_en": "Apartment survival during blackout depends on water, stair movement, sanitation, light discipline, and neighbor awareness more than on dramatic gear.",
+    "summary_el": "Η επιβίωση σε διαμέρισμα κατά τη διακοπή ρεύματος εξαρτάται περισσότερο από νερό, κίνηση στις σκάλες, υγιεινή, πειθαρχία φωτισμού και επίγνωση γειτόνων παρά από θεαματικό εξοπλισμό.",
+    "content_en": "An urban apartment becomes difficult quickly when water pressure drops, elevators fail, refrigerators warm, hallways darken, and information degrades. The first hours matter: fill containers, protect device battery, secure shoes and lights near the exit, reduce unnecessary door opening, and decide whether the building is safer to stay in or to leave. Stair movement becomes tiring and risky, especially for families, elders, or anyone hauling water. Indoor sanitation, waste storage, and ventilation also become more important as services weaken. Apartment survival rewards early organization, not late improvisation.",
+    "content_el": "Ένα αστικό διαμέρισμα γίνεται γρήγορα δύσκολο όταν πέφτει η πίεση νερού, σταματούν τα ασανσέρ, ζεσταίνονται τα ψυγεία, σκοτεινιάζουν οι διάδρομοι και χαλά η πληροφορία. Οι πρώτες ώρες μετρούν: γέμισε δοχεία, προστάτεψε μπαταρία συσκευών, κράτα παπούτσια και φώτα κοντά στην έξοδο, μείωσε τα άσκοπα ανοίγματα πόρτας και αποφάσισε αν το κτίριο είναι ασφαλέστερο για παραμονή ή για αποχώρηση. Η κίνηση στις σκάλες γίνεται κουραστική και επικίνδυνη, ειδικά για οικογένειες, ηλικιωμένους ή όποιον κουβαλά νερό. Η εσωτερική υγιεινή, η αποθήκευση αποβλήτων και ο αερισμός γίνονται επίσης πιο σημαντικά όσο αδυνατίζουν οι υπηρεσίες. Η επιβίωση σε διαμέρισμα ανταμείβει την έγκαιρη οργάνωση, όχι τον καθυστερημένο αυτοσχεδιασμό.",
+    "steps_en": [
+      "Fill all clean containers early while pressure still exists.",
+      "Keep shoes, lights, keys, documents, and one charged device ready near the exit.",
+      "Use stairs carefully and plan water-hauling trips instead of making many wasteful trips.",
+      "Protect refrigerator contents by limiting opening and using food order discipline.",
+      "Track building safety, water access, sanitation, and neighbor conditions daily."
+    ],
+    "steps_el": [
+      "Γέμισε νωρίς όλα τα καθαρά δοχεία όσο υπάρχει ακόμη πίεση.",
+      "Κράτα παπούτσια, φώτα, κλειδιά, έγγραφα και μία φορτισμένη συσκευή έτοιμα κοντά στην έξοδο.",
+      "Χρησιμοποίησε τις σκάλες προσεκτικά και σχεδίασε μεταφορές νερού αντί για πολλές άσκοπες διαδρομές.",
+      "Προστάτεψε τα τρόφιμα ψυγείου περιορίζοντας τα ανοίγματα και βάζοντας σειρά κατανάλωσης.",
+      "Παρακολούθησε καθημερινά ασφάλεια κτιρίου, πρόσβαση σε νερό, υγιεινή και κατάσταση γειτόνων."
+    ],
+    "warnings_en": [
+      "High floors multiply fatigue, water burden, and evacuation difficulty.",
+      "Dark stairwells and poor footwear create preventable injury risk.",
+      "Urban neighbors can become either mutual aid or conflict depending on discipline and trust."
+    ],
+    "warnings_el": [
+      "Οι ψηλοί όροφοι πολλαπλασιάζουν κόπωση, βάρος νερού και δυσκολία εκκένωσης.",
+      "Σκοτεινές σκάλες και κακά παπούτσια δημιουργούν αποτρέψιμο κίνδυνο τραυματισμού.",
+      "Οι αστικοί γείτονες μπορούν να γίνουν είτε αμοιβαία βοήθεια είτε σύγκρουση ανάλογα με την πειθαρχία και την εμπιστοσύνη."
+    ],
+    "mistakes_en": [
+      "Waiting until water pressure fully fails before filling containers.",
+      "Assuming elevator return is near and postponing stair planning.",
+      "Ignoring sanitation and waste because the apartment still feels familiar."
+    ],
+    "mistakes_el": [
+      "Να περιμένεις να πέσει τελείως η πίεση νερού πριν γεμίσεις δοχεία.",
+      "Να υποθέτεις ότι το ασανσέρ θα επιστρέψει σύντομα και να αναβάλεις τον σχεδιασμό σκάλας.",
+      "Να αγνοείς υγιεινή και απόβλητα επειδή το διαμέρισμα ακόμη φαίνεται οικείο."
+    ],
+    "related_topics": ["Water Storage and Rationing", "Power Outage Lighting and Device Preservation", "Camp Sanitation and Waste Control"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Standalone expansion pass."
+  }
+]
