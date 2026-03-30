@@ -1,0 +1,21 @@
+[
+  {
+    "id": "fire::household_safety_burn_prevention",
+    "topic": "Household Fire Safety and Burn Prevention",
+    "category": "fire_heat_cooking",
+    "subcategory": "fire_safety",
+    "tags": ["fire", "burn", "safety", "household", "prevention"],
+    "summary_en": "In hardship, fire is both a survival asset and a fast-moving destroyer. Burn prevention and household fire control matter as much as starting a fire in the first place.",
+    "summary_el": "Σε συνθήκες δυσκολίας, η φωτιά είναι και εργαλείο επιβίωσης και γρήγορος καταστροφέας. Η πρόληψη εγκαυμάτων και ο έλεγχος οικιακής φωτιάς μετρούν όσο και το άναμμα της φωτιάς από την αρχή.",
+    "content_en": "As households improvise cooking, heating, and lighting, burn and fire risk rises. Crowded rooms, unstable stoves, children near heat, fuel stored badly, and rushed night use all create preventable danger. Fire safety means spacing, stable surfaces, controlled fuel handling, clear child rules, ready extinguishing options, and calm reaction when something ignites. Burn prevention is strongest when hot surfaces, pots, lamps, and flames are treated as system hazards rather than normal background objects.",
+    "content_el": "Καθώς τα νοικοκυριά αυτοσχεδιάζουν σε μαγείρεμα, θέρμανση και φωτισμό, ο κίνδυνος εγκαύματος και φωτιάς ανεβαίνει. Συνωστισμένα δωμάτια, ασταθείς εστίες, παιδιά κοντά στη θερμότητα, κακή αποθήκευση καυσίμου και βιαστική νυχτερινή χρήση δημιουργούν αποτρέψιμο κίνδυνο. Η ασφάλεια φωτιάς σημαίνει αποστάσεις, σταθερές επιφάνειες, ελεγχόμενο χειρισμό καυσίμου, καθαρούς κανόνες για παιδιά, έτοιμες επιλογές κατάσβεσης και ήρεμη αντίδραση όταν κάτι αρπάξει. Η πρόληψη εγκαυμάτων αποδίδει καλύτερα όταν θερμές επιφάνειες, κατσαρόλες, λάμπες και φλόγες αντιμετωπίζονται ως κίνδυνοι συστήματος και όχι ως κανονικά αντικείμενα φόντου.",
+    "steps_en": ["Keep flames and hot surfaces on stable, controlled areas.","Protect children and tired adults from accidental contact zones.","Store fuels away from active heat and traffic paths.","Keep basic extinguishing materials or methods ready.","Treat every night fire task as higher risk than daytime use."],
+    "steps_el": ["Κράτα φλόγες και ζεστές επιφάνειες σε σταθερά, ελεγχόμενα σημεία.","Προστάτεψε παιδιά και κουρασμένους ενήλικες από ζώνες τυχαίας επαφής.","Αποθήκευσε καύσιμα μακριά από ενεργή θερμότητα και διαδρομές κίνησης.","Κράτα έτοιμα βασικά μέσα ή μεθόδους κατάσβεσης.","Αντιμετώπισε κάθε νυχτερινή δουλειά φωτιάς ως πιο επικίνδυνη από τη χρήση ημέρας."],
+    "warnings_en": ["Improvised heat sources multiply burn risk fast.","Night use and fatigue create preventable fire accidents.","One household fire can erase water, food, shelter, and records at once."],
+    "warnings_el": ["Οι αυτοσχέδιες πηγές θερμότητας πολλαπλασιάζουν γρήγορα τον κίνδυνο εγκαύματος.","Η νυχτερινή χρήση και η κόπωση δημιουργούν αποτρέψιμα ατυχήματα φωτιάς.","Μια οικιακή φωτιά μπορεί να σβήσει μαζί νερό, τροφή, κατάλυμα και αρχεία."],
+    "mistakes_en": ["Treating fire safety as common sense instead of a system.","Allowing crowding and loose materials near flame.","Using unstable or rushed setups during fatigue."],
+    "mistakes_el": ["Να αντιμετωπίζεις την ασφάλεια φωτιάς ως κοινή λογική αντί για σύστημα.","Να επιτρέπεις συνωστισμό και χαλαρά υλικά κοντά στη φλόγα.","Να χρησιμοποιείς ασταθείς ή βιαστικές εγκαταστάσεις σε κόπωση."],
+    "related_topics": ["Emergency Cooking with Limited Fuel", "Improvised Lighting and Night Work Discipline", "Floodwater Cleanup and Reentry"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Broad database expansion pass."
+  }
+]
