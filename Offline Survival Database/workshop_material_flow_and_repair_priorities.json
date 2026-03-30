@@ -1,0 +1,53 @@
+[
+  {
+    "id": "repair::material_flow",
+    "topic": "Workshop Material Flow and Repair Priorities",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "repair_prioritization",
+    "tags": ["workshop", "materials", "repair", "priorities", "workflow"],
+    "summary_en": "A repair workshop becomes far more useful when it knows what to fix first, what to cannibalize, and what to leave alone until parts and labor are available.",
+    "summary_el": "Ένα εργαστήριο επισκευών γίνεται πολύ πιο χρήσιμο όταν ξέρει τι να φτιάξει πρώτο, τι να αποσυναρμολογήσει για εξαρτήματα και τι να αφήσει για αργότερα μέχρι να υπάρχουν μέρη και εργασία.",
+    "content_en": "Repair effort is wasted when every broken item gets equal attention. The practical question is not 'Can this be repaired?' but 'Does repairing this preserve water, shelter, food, sanitation, movement, communication, or safety?' A good workshop workflow sorts jobs by survival value, required tools, missing parts, and labor cost. Some items should be repaired immediately, some should be stripped for useful parts, and some should be deferred until capacity improves. Material flow matters too: incoming salvage, sorted storage, repair queue, completed items, and discard should not all mix in the same space. Clear flow reduces confusion and keeps scarce workshop time useful.",
+    "content_el": "Η προσπάθεια επισκευής σπαταλιέται όταν κάθε χαλασμένο αντικείμενο παίρνει την ίδια προσοχή. Η πρακτική ερώτηση δεν είναι «Μπορεί να επισκευαστεί;» αλλά «Η επισκευή του διατηρεί νερό, κατάλυμα, τροφή, υγιεινή, μετακίνηση, επικοινωνία ή ασφάλεια;» Ένα καλό workflow εργαστηρίου ταξινομεί δουλειές με βάση αξία επιβίωσης, απαιτούμενα εργαλεία, ελλείποντα μέρη και κόστος εργασίας. Μερικά αντικείμενα πρέπει να επισκευάζονται αμέσως, μερικά να γδύνονται για χρήσιμα μέρη και μερικά να μετατίθενται μέχρι να βελτιωθεί η δυνατότητα. Μετρά και η ροή υλικών: εισερχόμενη διάσωση, ταξινομημένη αποθήκευση, ουρά επισκευής, ολοκληρωμένα αντικείμενα και απόρριψη δεν πρέπει να ανακατεύονται στον ίδιο χώρο. Η καθαρή ροή μειώνει σύγχυση και κρατά χρήσιμο τον σπάνιο χρόνο εργαστηρίου.",
+    "steps_en": [
+      "Rank repairs by survival value rather than sentiment.",
+      "Separate immediate repair, salvage-for-parts, and defer categories.",
+      "Keep incoming salvage, parts storage, active repair, and discard physically separate.",
+      "Track missing parts and tool needs before starting complex jobs.",
+      "Review the repair queue regularly so low-value clutter does not dominate labor."
+    ],
+    "steps_el": [
+      "Ιεράρχησε επισκευές με βάση την αξία επιβίωσης και όχι το συναίσθημα.",
+      "Χώρισε κατηγορίες άμεσης επισκευής, διάσωσης για μέρη και αναβολής.",
+      "Κράτα χωριστά εισερχόμενη διάσωση, αποθήκευση μερών, ενεργή επισκευή και απόρριψη.",
+      "Κατέγραψε τα ελλείποντα μέρη και τις ανάγκες εργαλείων πριν αρχίσεις σύνθετες δουλειές.",
+      "Έλεγχε τακτικά την ουρά επισκευών ώστε το χαμηλής αξίας χάος να μη τρώει όλη την εργασία."
+    ],
+    "warnings_en": [
+      "Emotion can waste workshop time on low-value items.",
+      "Mixed workflow areas hide tools and parts and increase injury risk.",
+      "Cannibalizing the wrong item may destroy future repair options."
+    ],
+    "warnings_el": [
+      "Το συναίσθημα μπορεί να σπαταλήσει χρόνο εργαστηρίου σε αντικείμενα χαμηλής αξίας.",
+      "Οι μικτοί χώροι workflow κρύβουν εργαλεία και μέρη και αυξάνουν τον κίνδυνο τραυματισμού.",
+      "Η αποσυναρμολόγηση του λάθος αντικειμένου μπορεί να καταστρέψει μελλοντικές επιλογές επισκευής."
+    ],
+    "mistakes_en": [
+      "Fixing whatever is emotionally visible instead of what is operationally important.",
+      "Keeping all salvage in one pile.",
+      "Starting complex repairs without checking parts and time."
+    ],
+    "mistakes_el": [
+      "Να φτιάχνεις ό,τι είναι συναισθηματικά μπροστά αντί για ό,τι είναι επιχειρησιακά σημαντικό.",
+      "Να κρατάς όλη τη διάσωση σε έναν σωρό.",
+      "Να αρχίζεις σύνθετες επισκευές χωρίς έλεγχο μερών και χρόνου."
+    ],
+    "related_topics": ["Workshop, Spare Parts, and Salvage Discipline", "Tools, Cordage, and Maintenance Discipline", "Household Organization and Work Rotation"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Standalone expansion pass."
+  }
+]
