@@ -1,0 +1,53 @@
+[
+  {
+    "id": "medical::quick_triage",
+    "topic": "Quick Triage and First-Priority Casualty Sorting",
+    "category": "medicine_first_aid",
+    "subcategory": "triage_quick_reference",
+    "tags": ["triage", "casualty", "priority", "medical", "sorting"],
+    "summary_en": "Triage under pressure is about deciding who needs attention first so limited hands, time, and supplies save the most life and function.",
+    "summary_el": "Η διαλογή τραυματιών υπό πίεση αφορά το να αποφασίσεις ποιος χρειάζεται προσοχή πρώτος ώστε περιορισμένα χέρια, χρόνος και υλικά να σώσουν τη μέγιστη ζωή και λειτουργία.",
+    "content_en": "In an emergency with multiple sick or injured people, chaos grows fast if everyone is treated in order of shouting or emotion. A simple triage mindset is: who has a life threat that can be helped now, who can wait safely for a short time, who needs only simple support, and who is unlikely to improve with the resources available right now. This is painful but necessary. Triage is not lack of compassion; it is disciplined use of scarce capacity. Reassess often because priorities change as bleeding slows, breathing worsens, shock deepens, or help arrives.",
+    "content_el": "Σε ένα επείγον με πολλούς άρρωστους ή τραυματίες, το χάος μεγαλώνει γρήγορα αν όλοι αντιμετωπίζονται με σειρά φωνών ή συναισθήματος. Μια απλή νοοτροπία διαλογής είναι: ποιος έχει απειλή ζωής που μπορεί να βοηθηθεί τώρα, ποιος μπορεί να περιμένει με ασφάλεια για λίγο, ποιος χρειάζεται μόνο απλή υποστήριξη και ποιος είναι απίθανο να βελτιωθεί με τους πόρους που υπάρχουν αυτή τη στιγμή. Αυτό είναι επώδυνο αλλά αναγκαίο. Η διαλογή δεν είναι έλλειψη συμπόνιας· είναι πειθαρχημένη χρήση σπάνιας δυνατότητας. Επανεκτίμησε συχνά γιατί οι προτεραιότητες αλλάζουν καθώς μειώνεται η αιμορραγία, χειροτερεύει η αναπνοή, βαθαίνει το σοκ ή φτάνει βοήθεια.",
+    "steps_en": [
+      "Look first for breathing failure, major bleeding, unconsciousness, and inability to move or respond.",
+      "Treat life threats that can be addressed quickly with available skill and supplies.",
+      "Separate immediate, delayed, minimal, and expectant priorities in your notes or verbally.",
+      "Recheck every casualty after each intervention or change in condition.",
+      "Keep triage communication short and factual."
+    ],
+    "steps_el": [
+      "Κοίτα πρώτα για αναπνευστική ανεπάρκεια, μεγάλη αιμορραγία, απώλεια συνείδησης και αδυναμία κίνησης ή αντίδρασης.",
+      "Αντιμετώπισε απειλές ζωής που μπορούν να βελτιωθούν γρήγορα με διαθέσιμη ικανότητα και υλικά.",
+      "Χώρισε προφορικά ή σε χαρτί άμεσες, καθυστερημένες, ελάχιστες και αναμενόμενες προτεραιότητες.",
+      "Ξαναέλεγξε κάθε τραυματία μετά από κάθε παρέμβαση ή αλλαγή κατάστασης.",
+      "Κράτα την επικοινωνία διαλογής σύντομη και πραγματική."
+    ],
+    "warnings_en": [
+      "Emotion can distort triage order if no one names priorities clearly.",
+      "A casualty who looks quiet may still be deteriorating quickly.",
+      "Triage decisions should be revisited as conditions change."
+    ],
+    "warnings_el": [
+      "Το συναίσθημα μπορεί να παραμορφώσει τη σειρά διαλογής αν κανείς δεν ονομάζει καθαρά τις προτεραιότητες.",
+      "Ένας τραυματίας που φαίνεται ήσυχος μπορεί πάλι να χειροτερεύει γρήγορα.",
+      "Οι αποφάσεις διαλογής πρέπει να επανεξετάζονται καθώς αλλάζουν οι συνθήκες."
+    ],
+    "mistakes_en": [
+      "Treating the loudest person first without checking true life threat.",
+      "Failing to recheck people after the first pass.",
+      "Using so much time on one casualty that several others deteriorate."
+    ],
+    "mistakes_el": [
+      "Να φροντίζεις πρώτο τον πιο θορυβώδη χωρίς να ελέγχεις τον πραγματικό κίνδυνο ζωής.",
+      "Να μην ξαναελέγχεις ανθρώπους μετά το πρώτο πέρασμα.",
+      "Να ξοδεύεις τόσο πολύ χρόνο σε έναν τραυματία ώστε να χειροτερεύουν πολλοί άλλοι."
+    ],
+    "related_topics": ["Bleeding Control and Wound Care", "Fractures, Sprains, and Casualty Movement", "Circulation, Breathing, and Body Heat"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Standalone expansion pass."
+  }
+]
