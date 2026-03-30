@@ -1,0 +1,25 @@
+[
+  {
+    "id": "disaster::flood_cleanup_reentry",
+    "topic": "Floodwater Cleanup and Reentry",
+    "category": "weather_disasters",
+    "subcategory": "post_flood_recovery",
+    "tags": ["flood", "cleanup", "reentry", "contamination", "disaster"],
+    "summary_en": "The danger after flooding often comes from reentry, contamination, unstable surfaces, and dirty cleanup rather than from the visible water alone.",
+    "summary_el": "Ο κίνδυνος μετά από πλημμύρα συχνά έρχεται από την επανείσοδο, τη μόλυνση, τις ασταθείς επιφάνειες και τον βρόμικο καθαρισμό και όχι μόνο από το ίδιο το ορατό νερό.",
+    "content_en": "Floodwater leaves behind mud, contamination, hidden sharp debris, weakened floors, mold risk, damaged utilities, and false confidence. The cleanup phase should be treated as hazard work, not normal housework. Reentry should begin with careful observation, footwear, hand protection, light, ventilation where appropriate, and a plan for separating dirty zones from safer zones. Items that stayed dry and protected may be salvageable; soaked porous items, uncertain food, and contaminated soft materials often become health risks instead. Cleanup is most effective when it is staged: hazard check first, removal of contaminated waste next, cleaning and drying after that, and only then routine reorganization.",
+    "content_el": "Το πλημμυρικό νερό αφήνει πίσω λάσπη, μόλυνση, κρυφά κοφτερά αντικείμενα, αδύναμα πατώματα, κίνδυνο μούχλας, χαλασμένες παροχές και ψεύτικη αυτοπεποίθηση. Η φάση καθαρισμού πρέπει να αντιμετωπίζεται ως εργασία κινδύνου και όχι ως κανονική δουλειά σπιτιού. Η επανείσοδος πρέπει να ξεκινά με προσεκτική παρατήρηση, παπούτσια, προστασία χεριών, φως, αερισμό όπου ταιριάζει και σχέδιο διαχωρισμού βρόμικων ζωνών από ασφαλέστερες. Αντικείμενα που έμειναν στεγνά και προστατευμένα ίσως σώζονται· μουσκεμένα πορώδη αντικείμενα, αβέβαιη τροφή και μολυσμένα μαλακά υλικά συχνά γίνονται κίνδυνοι υγείας. Ο καθαρισμός αποδίδει περισσότερο όταν γίνεται σε στάδια: πρώτα έλεγχος κινδύνων, μετά απομάκρυνση μολυσμένων αποβλήτων, έπειτα καθάρισμα και στέγνωμα, και μόνο τότε κανονική αναδιοργάνωση.",
+    "steps_en": ["Reenter slowly with light, footwear, and hand protection.","Treat flood residue as contaminated until proven otherwise.","Separate dirty cleanup zones from cleaner living or food areas.","Discard unsafe food and badly contaminated soft materials.","Stage cleanup: hazard check, waste removal, cleaning, drying, then reorganization."],
+    "steps_el": ["Μπες ξανά αργά με φως, παπούτσια και προστασία χεριών.","Αντιμετώπισε τα υπολείμματα πλημμύρας ως μολυσμένα μέχρι να αποδειχθεί το αντίθετο.","Χώρισε βρόμικες ζώνες καθαρισμού από καθαρότερες ζώνες διαβίωσης ή τροφής.","Πέτα ακατάλληλη τροφή και πολύ μολυσμένα μαλακά υλικά.","Κάνε τον καθαρισμό σε στάδια: έλεγχος κινδύνων, απομάκρυνση αποβλήτων, καθάρισμα, στέγνωμα και μετά αναδιοργάνωση."],
+    "warnings_en": ["The quiet building after a flood can still be dangerous.","Wet contamination spreads easily through footwear, hands, and cloth.","Rushing reentry often creates secondary injuries and illness."],
+    "warnings_el": ["Το ήσυχο κτίριο μετά από πλημμύρα μπορεί πάλι να είναι επικίνδυνο.","Η υγρή μόλυνση απλώνεται εύκολα μέσω παπουτσιών, χεριών και υφάσματος.","Η βιαστική επανείσοδος συχνά δημιουργεί δευτερογενείς τραυματισμούς και ασθένεια."],
+    "mistakes_en": ["Treating post-flood cleanup as ordinary housework.","Walking dirty contamination into living or food areas.","Keeping unsafe food or saturated materials out of hope."],
+    "mistakes_el": ["Να αντιμετωπίζεις τον καθαρισμό μετά από πλημμύρα ως συνηθισμένη δουλειά σπιτιού.","Να μεταφέρεις βρόμικη μόλυνση σε χώρους διαβίωσης ή τροφής.","Να κρατάς ακατάλληλη τροφή ή μούσκεμα υλικά από ελπίδα."],
+    "related_topics": ["Safe Food and Cleanup After Disaster", "Preventing Diarrheal Illness After Disaster", "Personal Hygiene and Wound Protection During Emergency"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Large expansion batch."
+  }
+]
