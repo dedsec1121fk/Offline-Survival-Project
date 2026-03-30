@@ -1,0 +1,25 @@
+[
+  {
+    "id": "animals::fodder_winter_care",
+    "topic": "Fodder Storage and Winter Animal Care",
+    "category": "agriculture_food_production",
+    "subcategory": "animal_feed_resilience",
+    "tags": ["fodder", "winter", "animals", "feed", "care"],
+    "summary_en": "Animal survival through winter depends less on last-minute rescue and more on whether feed, shelter, water access, and labor were prepared before cold pressure arrives.",
+    "summary_el": "Η επιβίωση των ζώων μέσα στον χειμώνα εξαρτάται λιγότερο από την τελευταία στιγμή διάσωσης και περισσότερο από το αν προετοιμάστηκαν τροφή, κατάλυμα, πρόσβαση σε νερό και εργασία πριν φτάσει η πίεση του κρύου.",
+    "content_en": "Cold season reveals whether animal care was planned honestly. Fodder must stay dry, protected from waste and pests, and rationed according to herd size and season length. Winter animal care also depends on shelter from wind, reliable access to water, reduced energy loss, and realistic herd numbers. Animals that lose condition slowly can still fail later when weather intensifies or feed quality drops. A resilient winter system therefore watches body condition, feed use rate, water access, and shelter performance continuously. The goal is not merely to survive one storm but to carry animals through the whole pressure period without hidden decline.",
+    "content_el": "Η κρύα εποχή δείχνει αν η φροντίδα ζώων σχεδιάστηκε ειλικρινά. Η ζωοτροφή πρέπει να μένει στεγνή, προστατευμένη από σπατάλη και παράσιτα και να μοιράζεται με βάση το μέγεθος του κοπαδιού και τη διάρκεια της εποχής. Η χειμερινή φροντίδα ζώων εξαρτάται επίσης από προστασία από άνεμο, αξιόπιστη πρόσβαση σε νερό, μείωση ενεργειακής απώλειας και ρεαλιστικό αριθμό ζώων. Ζώα που χάνουν κατάσταση αργά μπορεί παρ’ όλα αυτά να αποτύχουν αργότερα όταν ο καιρός σκληρύνει ή πέσει η ποιότητα τροφής. Ένα ανθεκτικό χειμερινό σύστημα παρακολουθεί συνεχώς σωματική κατάσταση, ρυθμό κατανάλωσης τροφής, πρόσβαση σε νερό και απόδοση καταλύματος. Ο στόχος δεν είναι απλώς να επιβιώσεις μιας καταιγίδας αλλά να περάσεις ολόκληρη την περίοδο πίεσης χωρίς κρυφή πτώση.",
+    "steps_en": ["Store fodder dry and protected from waste.","Match herd size to realistic winter feed and water reserves.","Protect animals from wind and unnecessary heat loss.","Watch body condition and feed use rate continuously.","Plan winter care as a season system, not a storm-by-storm reaction."],
+    "steps_el": ["Αποθήκευσε ζωοτροφή στεγνή και προστατευμένη από σπατάλη.","Ταίριαξε το μέγεθος του κοπαδιού με ρεαλιστικά χειμερινά αποθέματα τροφής και νερού.","Προστάτεψε τα ζώα από άνεμο και άσκοπη απώλεια θερμότητας.","Παρακολούθησε συνεχώς σωματική κατάσταση και ρυθμό κατανάλωσης τροφής.","Σχεδίασε τη χειμερινή φροντίδα ως σύστημα εποχής και όχι ως αντίδραση καταιγίδα-καταιγίδα."],
+    "warnings_en": ["Wet or wasted fodder destroys resilience fast.","Animals can decline slowly until recovery is no longer easy.","Water access is as important as feed during cold periods."],
+    "warnings_el": ["Η βρεγμένη ή σπαταλημένη ζωοτροφή διαλύει γρήγορα την ανθεκτικότητα.","Τα ζώα μπορούν να πέφτουν αργά μέχρι η ανάρρωση να μην είναι πια εύκολη.","Η πρόσβαση σε νερό είναι τόσο σημαντική όσο και η τροφή στις κρύες περιόδους."],
+    "mistakes_en": ["Estimating winter feed too optimistically.","Ignoring shelter quality while focusing only on fodder amount.","Waiting for obvious collapse before reducing herd burden."],
+    "mistakes_el": ["Να εκτιμάς τη χειμερινή τροφή υπερβολικά αισιόδοξα.","Να αγνοείς την ποιότητα καταλύματος ενώ κοιτάς μόνο την ποσότητα τροφής.","Να περιμένεις ορατή κατάρρευση πριν μειώσεις το βάρος του κοπαδιού."],
+    "related_topics": ["Animal Gathering, Handling, and Feed Basics", "Mountain Garden Planning and Microclimate Use", "Seed Stock Rotation and Crop Failure Prevention"],
+    "difficulty": "high",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Mountain and practical survival expansion batch."
+  }
+]
