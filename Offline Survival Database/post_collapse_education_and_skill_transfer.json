@@ -1,0 +1,53 @@
+[
+  {
+    "id": "community::education_transfer",
+    "topic": "Post-Collapse Education and Skill Transfer",
+    "category": "rebuilding_community",
+    "subcategory": "education_and_apprenticeship",
+    "tags": ["education", "skills", "apprenticeship", "children", "continuity"],
+    "summary_en": "A community does not rebuild only with supplies. It rebuilds when knowledge is taught on purpose, repeated, and passed to the next person before fatigue, injury, or death can erase it.",
+    "summary_el": "Μια κοινότητα δεν ξαναχτίζεται μόνο με εφόδια. Ξαναχτίζεται όταν η γνώση διδάσκεται σκόπιμα, επαναλαμβάνεται και περνά στον επόμενο άνθρωπο πριν τη σβήσουν κούραση, τραυματισμός ή θάνατος.",
+    "content_en": "Skill transfer is survival infrastructure. Without it, one skilled mechanic, cook, medic, grower, or organizer becomes a fragile single point of failure. Post-collapse education does not need formal classrooms first. It needs repetition, practical demonstration, written notes, and apprenticeship. Children and adults should learn through useful work: water discipline, tool care, food preparation, first aid basics, hygiene routines, record keeping, and repair logic. A good system teaches not only what to do but why. This makes adaptation possible when conditions change. Teaching under hardship must stay simple, short, and regular enough to survive tired people and bad days.",
+    "content_el": "Η μεταφορά δεξιοτήτων είναι υποδομή επιβίωσης. Χωρίς αυτήν, ένας ικανός μηχανικός, μάγειρας, υγειονομικός, καλλιεργητής ή οργανωτής γίνεται εύθραυστο μοναδικό σημείο αποτυχίας. Η εκπαίδευση μετά από κατάρρευση δεν χρειάζεται πρώτα επίσημες τάξεις. Χρειάζεται επανάληψη, πρακτική επίδειξη, γραπτές σημειώσεις και μαθητεία. Παιδιά και ενήλικες πρέπει να μαθαίνουν μέσα από χρήσιμη εργασία: πειθαρχία νερού, φροντίδα εργαλείων, προετοιμασία τροφής, βασικές πρώτες βοήθειες, ρουτίνες υγιεινής, τήρηση αρχείων και λογική επισκευής. Ένα καλό σύστημα διδάσκει όχι μόνο τι να κάνεις αλλά και γιατί. Αυτό κάνει δυνατή την προσαρμογή όταν αλλάζουν οι συνθήκες. Η διδασκαλία μέσα στη δυσκολία πρέπει να μένει απλή, σύντομη και αρκετά τακτική ώστε να αντέχει σε κουρασμένους ανθρώπους και κακές μέρες.",
+    "steps_en": [
+      "Identify skills the household or group depends on most.",
+      "Pair experienced people with learners through real tasks.",
+      "Write short instructions and keep them where work happens.",
+      "Repeat key routines until more than one person can perform them.",
+      "Teach children age-appropriate useful tasks early."
+    ],
+    "steps_el": [
+      "Εντόπισε τις δεξιότητες από τις οποίες εξαρτάται περισσότερο το νοικοκυριό ή η ομάδα.",
+      "Ταίριαξε έμπειρους ανθρώπους με μαθητευόμενους μέσα από πραγματικές δουλειές.",
+      "Γράψε σύντομες οδηγίες και κράτησέ τες εκεί που γίνεται η εργασία.",
+      "Επανάλαβε βασικές ρουτίνες μέχρι να μπορούν να τις κάνουν περισσότεροι από ένας.",
+      "Δίδαξε νωρίς στα παιδιά κατάλληλες χρήσιμες εργασίες για την ηλικία τους."
+    ],
+    "warnings_en": [
+      "Unshared skill is fragile skill.",
+      "A community that only works when one person is present is not resilient.",
+      "Teaching collapses if it depends on ideal time that never comes."
+    ],
+    "warnings_el": [
+      "Η αμοίραστη δεξιότητα είναι εύθραυστη δεξιότητα.",
+      "Μια κοινότητα που δουλεύει μόνο όταν είναι παρόν ένα άτομο δεν είναι ανθεκτική.",
+      "Η διδασκαλία καταρρέει αν εξαρτάται από ιδανικό χρόνο που δεν έρχεται ποτέ."
+    ],
+    "mistakes_en": [
+      "Assuming people will learn by watching without guided repetition.",
+      "Keeping procedures only in one expert's head.",
+      "Treating education as future luxury instead of current resilience work."
+    ],
+    "mistakes_el": [
+      "Να υποθέτεις ότι οι άνθρωποι θα μάθουν απλώς κοιτάζοντας χωρίς καθοδηγημένη επανάληψη.",
+      "Να κρατάς διαδικασίες μόνο στο μυαλό ενός ειδικού.",
+      "Να αντιμετωπίζεις την εκπαίδευση ως μελλοντική πολυτέλεια αντί για τωρινή εργασία ανθεκτικότητας."
+    ],
+    "related_topics": ["Household Organization and Work Rotation", "Knowledge Preservation and Family Archive Design", "Workshop, Spare Parts, and Salvage Discipline"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Standalone expansion pass."
+  }
+]
