@@ -1,0 +1,36 @@
+update_018.txt
+Date: 2026-03-30
+Update batch: 018
+
+What this pass changed
+- Rebuilt and expanded core medical files in place instead of leaving them thin.
+- medical_quick_triage.json now contains:
+  - Quick Triage and First-Priority Casualty Sorting
+  - Airway and Breathing Observation in Low-Resource Care
+  - Shock Progression and Recognition
+  - Scene Control and Casualty Flow in Small Emergencies
+- symptom_log_and_daily_health_checks.json now contains:
+  - Symptom Logs and Daily Health Checks
+  - Wound Monitoring and Infection Warning Notes
+  - Medication Timing Charts and Dose Discipline
+- dehydration_and_heat_injury_management.json now contains:
+  - Dehydration and Heat Injury Management
+  - Oral Rehydration Logic and Small-Sip Recovery
+  - Heat Work-Rest Cycles and Recovery Discipline
+- pharmacology_basics.json now contains:
+  - Antiseptics, Medicine Storage, and General Caution
+  - Antibiotics and Medication Scarcity Planning
+  - Rehydration Solutions, Fever Control, and Pain Relief Basics
+  - Fever Patterns and Meaning
+
+Why this matters
+- The medical system now has more continuity across assessment, tracking, supportive care, and progression awareness.
+- This restores depth where previous files had become too thin.
+- The medical side is becoming more like a survival field-care system and less like isolated notes.
+
+Still needs more medical depth
+- Child-specific medical differences under scarcity
+- Elder decline patterns under heat, dehydration, and infection
+- Respiratory distress pattern comparison
+- Pain interpretation and functional significance
+- Multi-patient household care rotation
