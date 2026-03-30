@@ -1,0 +1,30 @@
+update_004.txt
+Date: 2026-03-30
+Update batch: 004
+
+What this pass changed
+- Added communication_relay_and_handover.json
+  - Offline Note Relay and Message Handover Discipline
+- Added solar_charging_priorities.json
+  - Solar Charging Priorities and Low-Power Routine
+
+Why this pass matters
+- Communication failure is often a handover failure, not only a hardware failure.
+- Small-scale power systems fail when demand discipline is weaker than charging supply.
+- These additions make the package more operational for blackouts, disrupted movement, and fragile infrastructure.
+
+What improved
+- Better offline message relay procedures for households and small groups.
+- Better charging logic for solar panels, power banks, and constrained electrical windows.
+- Better continuity between communication planning and energy discipline.
+
+Notes on method
+- A low-level Git integration permission block prevented in-place modification of existing files in this pass.
+- The new knowledge was therefore added as standalone database files directly on main.
+- This preserves the content in the repository immediately without waiting on the lower-level write path.
+
+Still needs more depth
+- More medical quick-reference pages.
+- More apartment and blackout-city survival detail.
+- More agriculture, food acquisition, and regional adaptation.
+- More cross-linked quick lookup indexes.
