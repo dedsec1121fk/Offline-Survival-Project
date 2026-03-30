@@ -1,0 +1,25 @@
+[
+  {
+    "id": "animals::gather_handle_feed",
+    "topic": "Animal Gathering, Handling, and Feed Basics",
+    "category": "agriculture_food_production",
+    "subcategory": "animal_care_and_handling",
+    "tags": ["animals", "handling", "feed", "gathering", "livestock"],
+    "summary_en": "Keeping animals alive under hardship is a systems problem: gathering them safely, reducing panic, protecting water, protecting feed, and matching care to labor reality.",
+    "summary_el": "Το να κρατάς ζωντανά τα ζώα μέσα στη δυσκολία είναι πρόβλημα συστήματος: ασφαλής συγκέντρωση, μείωση πανικού, προστασία νερού, προστασία τροφής και ταίριασμα της φροντίδας με την πραγματικότητα της εργασίας.",
+    "content_en": "Animals under stress burn energy, injure themselves, break containment, foul water, and waste feed when handled badly. Practical gathering and handling begins with calm movement, predictable routes, separation of aggressive or unstable animals, clean water access, and feed discipline. Mountain and rural survival often depend on animals not only for food but for manure, transport, warning, and continuity of work. A bad animal-care system can therefore damage the whole household. Feed planning must consider season, storage, weather, forage limits, and how much labor the household can truly spare. The useful question is not only how to keep animals alive today, but how to avoid losing them through panic, dehydration, exposure, or poor feed planning later.",
+    "content_el": "Τα ζώα υπό στρες καίνε ενέργεια, τραυματίζονται, σπάνε περιφράξεις, λερώνουν το νερό και σπαταλούν τροφή όταν ο χειρισμός τους είναι κακός. Η πρακτική συγκέντρωση και διαχείριση αρχίζει με ήρεμη κίνηση, προβλέψιμες διαδρομές, διαχωρισμό επιθετικών ή ασταθών ζώων, πρόσβαση σε καθαρό νερό και πειθαρχία τροφής. Η ορεινή και αγροτική επιβίωση συχνά εξαρτάται από τα ζώα όχι μόνο για τροφή αλλά και για κοπριά, μεταφορά, προειδοποίηση και συνέχεια εργασίας. Ένα κακό σύστημα φροντίδας ζώων μπορεί λοιπόν να βλάψει ολόκληρο το νοικοκυριό. Ο σχεδιασμός τροφής πρέπει να υπολογίζει εποχή, αποθήκευση, καιρό, όρια βοσκής και πόση εργασία μπορεί πραγματικά να διαθέσει το νοικοκυριό. Η χρήσιμη ερώτηση δεν είναι μόνο πώς να κρατήσεις τα ζώα ζωντανά σήμερα, αλλά πώς να μην τα χάσεις αργότερα από πανικό, αφυδάτωση, έκθεση ή κακό σχέδιο τροφής.",
+    "steps_en": ["Move animals calmly along familiar paths where possible.","Separate unstable, sick, or aggressive animals early.","Protect clean water and prevent fouling around troughs and containers.","Store feed dry, protected, and rationed with season in mind.","Match herd size to real water, feed, and labor capacity."],
+    "steps_el": ["Κίνησε τα ζώα ήρεμα σε γνώριμες διαδρομές όπου γίνεται.","Χώρισε νωρίς ασταθή, άρρωστα ή επιθετικά ζώα.","Προστάτεψε καθαρό νερό και απέτρεψε ρύπανση γύρω από ποτίστρες και δοχεία.","Αποθήκευσε τροφή στεγνή, προστατευμένη και με λογική μερίδων ανά εποχή.","Ταίριαξε το μέγεθος του κοπαδιού με την πραγματική ικανότητα νερού, τροφής και εργασίας."],
+    "warnings_en": ["Panicked animals can injure themselves and handlers quickly.","Bad feed storage can destroy winter resilience.","More animals than the system can water or feed become a survival liability."],
+    "warnings_el": ["Τα πανικοβλημένα ζώα μπορούν να τραυματίσουν γρήγορα τον εαυτό τους και τους χειριστές.","Η κακή αποθήκευση τροφής μπορεί να καταστρέψει τη χειμερινή ανθεκτικότητα.","Περισσότερα ζώα από όσα μπορεί να ποτίσει ή να ταΐσει το σύστημα γίνονται βάρος επιβίωσης."],
+    "mistakes_en": ["Handling animals with noise and chaos.","Keeping feed unprotected from moisture, pests, or waste.","Expanding animal numbers beyond real carrying capacity."],
+    "mistakes_el": ["Να χειρίζεσαι ζώα με θόρυβο και χάος.","Να κρατάς τροφή απροστάτευτη από υγρασία, παράσιτα ή σπατάλη.","Να αυξάνεις ζώα πέρα από την πραγματική φέρουσα ικανότητα."],
+    "related_topics": ["Village Water Storage and Distribution", "Seed Stock Rotation and Crop Failure Prevention", "Household Organization and Work Rotation"],
+    "difficulty": "high",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Mountain and practical survival expansion batch."
+  }
+]
