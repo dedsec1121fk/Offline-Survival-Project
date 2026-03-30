@@ -1,0 +1,104 @@
+[
+  {
+    "id": "sanitation::camp_hygiene",
+    "topic": "Camp Sanitation and Waste Control",
+    "category": "hygiene_sanitation",
+    "subcategory": "sanitation_systems",
+    "tags": ["sanitation", "waste", "latrine", "disease", "hygiene"],
+    "summary_en": "Sanitation is survival infrastructure. When waste, dirty water, cooking space, and sleeping space overlap, disease spreads faster than most households can recover.",
+    "summary_el": "Η υγιεινή είναι υποδομή επιβίωσης. Όταν απόβλητα, βρόμικο νερό, χώρος μαγειρέματος και χώρος ύπνου μπλέκονται, η ασθένεια εξαπλώνεται γρηγορότερα απ’ όσο αντέχουν τα περισσότερα νοικοκυριά.",
+    "content_en": "The practical goal is separation and routine. Human waste, gray water, washing, food preparation, water collection, and sleeping areas should not share the same dirty flow. Create a clear toilet area, hand-cleaning point, food-cleaning routine, and waste-disposal rule. Clean containers and utensils on schedule, not only when they look bad. Control flies, rodents, stagnant water, and soiled fabrics early. In difficult conditions, one person or a rotating team should own sanitation discipline, because jobs assigned to 'everyone' are often done by no one.",
+    "content_el": "Ο πρακτικός στόχος είναι ο διαχωρισμός και η ρουτίνα. Ανθρώπινα απόβλητα, γκρίζο νερό, πλύσιμο, προετοιμασία τροφής, συλλογή νερού και χώρος ύπνου δεν πρέπει να ακολουθούν την ίδια βρόμικη διαδρομή. Δημιούργησε καθαρό χώρο τουαλέτας, σημείο καθαρισμού χεριών, ρουτίνα καθαρισμού τροφίμων και κανόνα απόρριψης αποβλήτων. Καθάριζε δοχεία και σκεύη με πρόγραμμα, όχι μόνο όταν φαίνονται άσχημα. Έλεγξε μύγες, τρωκτικά, στάσιμα νερά και βρόμικα υφάσματα νωρίς. Σε δύσκολες συνθήκες, ένα άτομο ή μια εκ περιτροπής ομάδα πρέπει να έχει την ευθύνη της υγιεινής, γιατί οι δουλειές που ανήκουν σε «όλους» συχνά δεν γίνονται από κανέναν.",
+    "steps_en": [
+      "Separate toilet, washing, cooking, sleeping, and water-storage zones.",
+      "Keep a visible hand-cleaning point near the toilet and food area.",
+      "Remove waste on schedule and keep food sealed from pests.",
+      "Clean containers, knives, boards, and cups with deliberate routine.",
+      "Assign sanitation responsibility clearly."
+    ],
+    "steps_el": [
+      "Χώρισε ζώνες τουαλέτας, πλυσίματος, μαγειρέματος, ύπνου και αποθήκευσης νερού.",
+      "Κράτα εμφανές σημείο καθαρισμού χεριών κοντά στην τουαλέτα και στον χώρο φαγητού.",
+      "Απομάκρυνε τα απόβλητα με πρόγραμμα και κράτα τα τρόφιμα κλειστά από παράσιτα.",
+      "Καθάριζε δοχεία, μαχαίρια, επιφάνειες και ποτήρια με σταθερή ρουτίνα.",
+      "Δώσε ξεκάθαρα την ευθύνη υγιεινής."
+    ],
+    "warnings_en": [
+      "Visible cleanliness does not always mean microbiological safety.",
+      "Children's waste still spreads disease and needs hygienic handling.",
+      "Once diarrhea spreads through a group, recovery becomes much harder."
+    ],
+    "warnings_el": [
+      "Η ορατή καθαριότητα δεν σημαίνει πάντα μικροβιολογική ασφάλεια.",
+      "Τα απόβλητα παιδιών μεταδίδουν επίσης ασθένειες και θέλουν υγιεινό χειρισμό.",
+      "Όταν η διάρροια απλωθεί σε ομάδα, η ανάκαμψη γίνεται πολύ δυσκολότερη."
+    ],
+    "mistakes_en": [
+      "Putting the latrine or waste dump too close to food or water.",
+      "Using the same cloth for dishes, hands, and contaminated surfaces.",
+      "Treating hygiene as optional because the group feels tired."
+    ],
+    "mistakes_el": [
+      "Να βάζεις τουαλέτα ή σκουπιδότοπο πολύ κοντά σε φαγητό ή νερό.",
+      "Να χρησιμοποιείς το ίδιο πανί για πιάτα, χέρια και μολυσμένες επιφάνειες.",
+      "Να θεωρείς την υγιεινή προαιρετική επειδή η ομάδα είναι κουρασμένη."
+    ],
+    "related_topics": ["Water Collection and Purification", "Bleeding Control and Wound Care", "Diarrhea, Vomiting, and Rehydration"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Direct repo continuation push."
+  },
+  {
+    "id": "sanitation::rehydration",
+    "topic": "Diarrhea, Vomiting, and Rehydration",
+    "category": "hygiene_sanitation",
+    "subcategory": "illness_and_hydration",
+    "tags": ["diarrhea", "vomiting", "rehydration", "illness", "water"],
+    "summary_en": "Diarrhea and vomiting drain water, salts, and strength quickly. The core response is steady rehydration, isolation of contamination, and close monitoring for worsening signs.",
+    "summary_el": "Η διάρροια και οι εμετοί αφαιρούν γρήγορα νερό, άλατα και δύναμη. Η βασική αντίδραση είναι σταθερή επανυδάτωση, απομόνωση της μόλυνσης και στενή παρακολούθηση για επιδείνωση.",
+    "content_en": "Many people worsen because they stop drinking, drink unsafe fluid, or try to replace losses too fast. Small frequent sips are often better tolerated than large volumes at once. Oral rehydration solution is especially valuable because it restores both water and salts. Track urine, weakness, confusion, dizziness, and ability to keep fluids down. Separate the sick person's cup, utensils, and cleaning tools. Clean bedding, hands, and nearby surfaces repeatedly. In children, elders, and already weak people, dehydration can become dangerous very quickly.",
+    "content_el": "Πολλοί χειροτερεύουν επειδή σταματούν να πίνουν, πίνουν ακατάλληλο υγρό ή προσπαθούν να αναπληρώσουν πολύ γρήγορα τις απώλειες. Οι μικρές συχνές γουλιές γίνονται συχνά πιο εύκολα ανεκτές από μεγάλες ποσότητες μονομιάς. Το διάλυμα επανυδάτωσης είναι ιδιαίτερα πολύτιμο επειδή αποκαθιστά και νερό και άλατα. Παρακολούθησε ούρα, αδυναμία, σύγχυση, ζάλη και δυνατότητα διατήρησης υγρών. Χώρισε το ποτήρι, τα σκεύη και τα υλικά καθαρισμού του αρρώστου. Καθάριζε επανειλημμένα κλινοσκεπάσματα, χέρια και κοντινές επιφάνειες. Σε παιδιά, ηλικιωμένους και ήδη εξασθενημένους ανθρώπους, η αφυδάτωση γίνεται πολύ γρήγορα επικίνδυνη.",
+    "steps_en": [
+      "Give small frequent sips of safe fluid and use oral rehydration when available.",
+      "Watch for reduced urine, extreme weakness, confusion, or inability to keep fluid down.",
+      "Separate utensils and waste handling from the rest of the group.",
+      "Clean hands and contaminated surfaces often.",
+      "Reintroduce simple digestible food gradually."
+    ],
+    "steps_el": [
+      "Δίνε μικρές συχνές γουλιές από ασφαλές υγρό και χρησιμοποίησε επανυδάτωση όπου υπάρχει.",
+      "Παρακολούθησε για λίγα ούρα, μεγάλη αδυναμία, σύγχυση ή αδυναμία διατήρησης υγρών.",
+      "Χώρισε σκεύη και διαχείριση αποβλήτων από την υπόλοιπη ομάδα.",
+      "Καθάριζε συχνά χέρια και μολυσμένες επιφάνειες.",
+      "Επανέφερε σταδιακά απλή και εύπεπτη τροφή."
+    ],
+    "warnings_en": [
+      "Blood in stool, severe confusion, or persistent collapse needs higher care if possible.",
+      "Unsafe water can worsen the illness instead of helping.",
+      "Weakness may continue even after vomiting or stool frequency improves."
+    ],
+    "warnings_el": [
+      "Αίμα στα κόπρανα, έντονη σύγχυση ή επίμονη κατάρρευση χρειάζονται ανώτερη φροντίδα αν είναι δυνατό.",
+      "Το ακατάλληλο νερό μπορεί να χειροτερέψει την ασθένεια αντί να βοηθήσει.",
+      "Η αδυναμία μπορεί να συνεχιστεί ακόμη κι όταν μειώνονται οι εμετοί ή οι κενώσεις."
+    ],
+    "mistakes_en": [
+      "Giving too much too fast and triggering more vomiting.",
+      "Stopping fluids because food feels more important.",
+      "Letting the illness spread into a whole-house sanitation problem."
+    ],
+    "mistakes_el": [
+      "Να δίνεις πάρα πολύ γρήγορα και να προκαλείς περισσότερο εμετό.",
+      "Να σταματάς τα υγρά επειδή το φαγητό φαίνεται πιο σημαντικό.",
+      "Να αφήνεις την ασθένεια να γίνει πρόβλημα υγιεινής όλου του σπιτιού."
+    ],
+    "related_topics": ["Water Storage and Rationing", "Camp Sanitation and Waste Control", "Antiseptics, Medicine Storage, and General Caution"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Direct repo continuation push."
+  }
+]
