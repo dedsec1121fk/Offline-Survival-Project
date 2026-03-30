@@ -1,0 +1,21 @@
+[
+  {
+    "id": "movement::terrain_route_selection",
+    "topic": "Terrain Awareness and Route Selection",
+    "category": "movement_navigation_evacuation",
+    "subcategory": "terrain_judgment",
+    "tags": ["terrain", "route", "movement", "navigation", "selection"],
+    "summary_en": "A route is never just a line on a map. Ground conditions, visibility, elevation, bottlenecks, cover, water, and fatigue all change what a route really costs.",
+    "summary_el": "Μια διαδρομή δεν είναι ποτέ μόνο μια γραμμή σε χάρτη. Οι συνθήκες εδάφους, η ορατότητα, το υψόμετρο, τα στενά περάσματα, η κάλυψη, το νερό και η κόπωση αλλάζουν όλα το πραγματικό κόστος της.",
+    "content_en": "Good movement depends on reading terrain as a living problem rather than a static picture. A short route over bad ground may be slower, noisier, and more injurious than a slightly longer route over stable ground. Open exposure, mud, stairs, rubble, steep slope, flood residue, loose rock, and narrow choke points all create different burdens. Route selection must also consider who is moving: a fit adult, a family with children, an injured person, or a loaded group. Safe movement improves when the terrain is judged by friction, concealment, water access, injury risk, and reversal options if the route must be abandoned.",
+    "content_el": "Η καλή μετακίνηση εξαρτάται από το να διαβάζεις το έδαφος ως ζωντανό πρόβλημα και όχι ως στατική εικόνα. Μια σύντομη διαδρομή πάνω σε κακό έδαφος μπορεί να είναι πιο αργή, πιο θορυβώδης και πιο τραυματιστική από μια λίγο μεγαλύτερη διαδρομή πάνω σε σταθερό έδαφος. Η ανοιχτή έκθεση, η λάσπη, οι σκάλες, τα συντρίμμια, οι απότομες κλίσεις, τα υπολείμματα πλημμύρας, οι χαλαρές πέτρες και τα στενά περάσματα δημιουργούν διαφορετικά βάρη. Η επιλογή διαδρομής πρέπει επίσης να υπολογίζει ποιος κινείται: ένας fit ενήλικας, μια οικογένεια με παιδιά, ένας τραυματισμένος ή μια φορτωμένη ομάδα. Η ασφαλής κίνηση βελτιώνεται όταν το έδαφος κρίνεται από την τριβή, την απόκρυψη, την πρόσβαση σε νερό, τον κίνδυνο τραυματισμού και τις επιλογές αναστροφής αν η διαδρομή πρέπει να εγκαταλειφθεί.",
+    "steps_en": ["Compare routes by terrain burden, not only distance.","Avoid choke points and unstable surfaces where possible.","Choose a route that matches the weakest or most loaded person.","Keep a fallback option if terrain worsens or becomes exposed.","Reassess route quality as weather and light change."],
+    "steps_el": ["Σύγκρινε διαδρομές με βάση το βάρος του εδάφους και όχι μόνο την απόσταση.","Απόφυγε στενά περάσματα και ασταθείς επιφάνειες όπου γίνεται.","Διάλεξε διαδρομή που ταιριάζει στον πιο αδύναμο ή πιο φορτωμένο άνθρωπο.","Κράτα εφεδρική επιλογή αν το έδαφος χειροτερέψει ή εκτεθεί.","Ξαναέλεγξε την ποιότητα διαδρομής καθώς αλλάζουν καιρός και φως."],
+    "warnings_en": ["The shortest route is not always the safest or fastest.","Bad terrain multiplies fatigue and injury risk.","A route chosen for one person may fail for a group."],
+    "warnings_el": ["Η πιο σύντομη διαδρομή δεν είναι πάντα η ασφαλέστερη ή η ταχύτερη.","Το κακό έδαφος πολλαπλασιάζει κόπωση και κίνδυνο τραυματισμού.","Μια διαδρομή που επιλέχθηκε για έναν άνθρωπο μπορεί να αποτύχει για ομάδα."],
+    "mistakes_en": ["Choosing routes by map simplicity alone.","Ignoring stairs, rubble, mud, or steepness until movement begins.","Failing to plan a fallback route."],
+    "mistakes_el": ["Να διαλέγεις διαδρομές μόνο από την απλότητα στον χάρτη.","Να αγνοείς σκάλες, συντρίμμια, λάσπη ή κλίση μέχρι να ξεκινήσει η κίνηση.","Να μην σχεδιάζεις εφεδρική διαδρομή."],
+    "related_topics": ["Route Planning, Evacuation, and Shelter-in-Place Logic", "Night Movement and Checkpoint Awareness", "Risk Assessment in Unstable Environments"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Broad database expansion pass."
+  }
+]
