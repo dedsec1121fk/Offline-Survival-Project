@@ -1,0 +1,25 @@
+[
+  {
+    "id": "knowledge::preserve_books_maps_writing",
+    "topic": "Preserving Books, Maps, and Written Knowledge",
+    "category": "knowledge_preservation",
+    "subcategory": "written_material_preservation",
+    "tags": ["books", "maps", "knowledge", "preservation", "writing"],
+    "summary_en": "Written knowledge survives only when it is protected physically, organized clearly, and copied before damage or loss becomes irreversible.",
+    "summary_el": "Η γραπτή γνώση επιβιώνει μόνο όταν προστατεύεται σωματικά, οργανώνεται καθαρά και αντιγράφεται πριν η ζημιά ή η απώλεια γίνουν μη αναστρέψιμες.",
+    "content_en": "Knowledge preservation is not only about owning books. It is about keeping critical material readable and retrievable under hard conditions. Maps, repair notes, medicine references, planting records, water rules, names, addresses, and procedures all need physical protection from moisture, dirt, insects, fire, and careless handling. Important material should be grouped by urgency and use, not only by topic. The most valuable written archive is the one people can actually find and use during stress. Copies matter because loss is common under movement, flooding, smoke, conflict, and fatigue. Handwritten summaries of the most essential knowledge are often more practical than large unindexed piles of paper.",
+    "content_el": "Η διατήρηση γνώσης δεν αφορά μόνο το να έχεις βιβλία. Αφορά το να κρατάς το κρίσιμο υλικό αναγνώσιμο και προσβάσιμο σε δύσκολες συνθήκες. Χάρτες, σημειώσεις επισκευών, ιατρικές αναφορές, αρχεία φύτευσης, κανόνες νερού, ονόματα, διευθύνσεις και διαδικασίες όλα χρειάζονται φυσική προστασία από υγρασία, βρωμιά, έντομα, φωτιά και απρόσεκτο χειρισμό. Το σημαντικό υλικό πρέπει να ομαδοποιείται με βάση επείγον και χρήση, όχι μόνο με βάση θέμα. Το πιο πολύτιμο γραπτό αρχείο είναι εκείνο που οι άνθρωποι μπορούν πράγματι να βρουν και να χρησιμοποιήσουν μέσα στο στρες. Τα αντίγραφα μετρούν γιατί η απώλεια είναι συχνή σε μετακινήσεις, πλημμύρες, καπνό, σύγκρουση και κόπωση. Οι χειρόγραφες περιλήψεις της πιο ουσιώδους γνώσης είναι συχνά πιο πρακτικές από μεγάλες αταξινόμητες στοίβες χαρτιού.",
+    "steps_en": ["Protect critical paper from moisture, dirt, tearing, and fire risk.","Group material by urgency and practical use.","Create simple handwritten copies of the most essential knowledge.","Keep maps, medical notes, and repair instructions easy to retrieve.","Review and rotate the most-used materials so they stay readable."],
+    "steps_el": ["Προστάτεψε το κρίσιμο χαρτί από υγρασία, βρωμιά, σκίσιμο και κίνδυνο φωτιάς.","Ομαδοποίησε το υλικό με βάση επείγον και πρακτική χρήση.","Φτιάξε απλά χειρόγραφα αντίγραφα της πιο ουσιώδους γνώσης.","Κράτα χάρτες, ιατρικές σημειώσεις και οδηγίες επισκευής εύκολα προσβάσιμα.","Έλεγχε και ανανέωνε το πιο χρησιμοποιημένο υλικό ώστε να μένει αναγνώσιμο."],
+    "warnings_en": ["Unindexed paper can be almost as useless as lost paper.","A single damaged copy is a fragile system.","Knowledge piles become dead weight if nobody can find the right page under stress."],
+    "warnings_el": ["Το αταξινόμητο χαρτί μπορεί να είναι σχεδόν τόσο άχρηστο όσο και το χαμένο χαρτί.","Ένα μόνο κατεστραμμένο αντίγραφο είναι εύθραυστο σύστημα.","Οι στοίβες γνώσης γίνονται νεκρό βάρος αν κανείς δεν μπορεί να βρει τη σωστή σελίδα μέσα στο στρες."],
+    "mistakes_en": ["Storing all critical knowledge in one unprotected place.","Keeping too much material without indexing or summarizing it.","Assuming digital memory will always remain available."],
+    "mistakes_el": ["Να αποθηκεύεις όλη την κρίσιμη γνώση σε ένα απροστάτευτο σημείο.","Να κρατάς υπερβολικό υλικό χωρίς ταξινόμηση ή περίληψη.","Να υποθέτεις ότι η ψηφιακή μνήμη θα παραμένει πάντα διαθέσιμη."],
+    "related_topics": ["Knowledge Preservation and Family Archive Design", "Family Document Cache and Portable Records Discipline", "Household Skill Mapping and Apprenticeship"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Large human-biology and survival expansion batch."
+  }
+]
