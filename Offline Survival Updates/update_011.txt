@@ -1,0 +1,24 @@
+update_011.txt
+Date: 2026-03-30
+Update batch: 011
+
+What this pass changed
+- Replaced Offline Survival.py again with a stronger main script.
+- Added bookmark support.
+- Added smarter multi-token search ranking and fuzzy suggestions.
+- Made the default reader easier by starting with an overview section.
+- Added direct section jumping inside the reader.
+- Moved script-created runtime files into ~/Offline Survival.
+- Runtime storage now includes bookmarks and exports under the user's Termux home.
+
+Why this matters
+- Bookmarks make repeated study and fast recall easier.
+- Search is now smarter for phrases, topic matches, token combinations, and close suggestions.
+- Reader flow is easier under stress because it surfaces summary, actions, and warnings first.
+- The script now uses a dedicated Termux-home folder for its own working files.
+
+Still needs more work
+- More dense quick indexes and emergency shortcuts.
+- More expansion of existing knowledge files, not only new standalone additions.
+- More region-specific ecology and survival adaptation.
+- More advanced medical quick references and disaster tables.
