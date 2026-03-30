@@ -1,0 +1,25 @@
+[
+  {
+    "id": "medical::elder_decline_patterns",
+    "topic": "Elder Decline Patterns Under Crisis",
+    "category": "medicine_first_aid",
+    "subcategory": "elder_specific_care",
+    "tags": ["elderly", "decline", "medicine", "heat", "dehydration"],
+    "summary_en": "Older adults may deteriorate through quieter, slower-seeming patterns that are easy to miss until function drops sharply. Crisis medicine must look for early drift, not only for dramatic collapse.",
+    "summary_el": "Οι ηλικιωμένοι μπορεί να χειροτερεύουν μέσα από πιο ήσυχα και φαινομενικά πιο αργά μοτίβα που χάνονται εύκολα μέχρι να πέσει απότομα η λειτουργία. Η ιατρική κρίσης πρέπει να ψάχνει για πρώιμη μετατόπιση και όχι μόνο για θεαματική κατάρρευση.",
+    "content_en": "Older adults often enter crisis with lower reserve, chronic disease, medication dependence, balance issues, weaker thirst signals, and slower recovery after stress. This means decline may first appear as unusual tiredness, reduced appetite, small confusion, less walking, poor balance, dizziness, or quiet withdrawal rather than dramatic complaint. Heat, dehydration, infection, sleep loss, medication disruption, and minor injuries can combine into major decline faster than families expect. An elder-focused survival medical system checks mobility, fluids, medication continuity, mental clarity, warmth, and bowel or urinary changes earlier and more often than a healthy adult system would.",
+    "content_el": "Οι ηλικιωμένοι συχνά μπαίνουν στην κρίση με μικρότερο απόθεμα, χρόνια νοσήματα, εξάρτηση από φάρμακα, προβλήματα ισορροπίας, ασθενέστερα σήματα δίψας και πιο αργή ανάρρωση μετά από στρες. Αυτό σημαίνει ότι η επιδείνωση μπορεί πρώτα να φανεί ως ασυνήθιστη κόπωση, μειωμένη όρεξη, μικρή σύγχυση, λιγότερο περπάτημα, κακή ισορροπία, ζάλη ή ήσυχη απόσυρση και όχι ως θεαματικό παράπονο. Η ζέστη, η αφυδάτωση, η λοίμωξη, η έλλειψη ύπνου, η διακοπή φαρμάκων και οι μικροτραυματισμοί μπορούν να συνδυαστούν σε μεγάλη πτώση πιο γρήγορα απ’ όσο περιμένουν οι οικογένειες. Ένα σύστημα ιατρικής επιβίωσης για ηλικιωμένους ελέγχει κινητικότητα, υγρά, συνέχεια φαρμάκων, νοητική καθαρότητα, ζεστασιά και αλλαγές σε έντερο ή ούρηση νωρίτερα και συχνότερα απ’ ό,τι θα έκανε ένα σύστημα για υγιή ενήλικα.",
+    "steps_en": ["Check mobility, fluids, urination, medication continuity, and mental clarity daily.","Treat small confusion, dizziness, or quiet withdrawal as medical warning signs.","Reduce heat, exertion, carrying load, and fall risk early.","Protect sleep and routine because disruption hits older adults hard.","Write observations down because slow decline is easy to normalize."],
+    "steps_el": ["Έλεγχε καθημερινά κινητικότητα, υγρά, ούρηση, συνέχεια φαρμάκων και νοητική καθαρότητα.","Αντιμετώπισε μικρή σύγχυση, ζάλη ή ήσυχη απόσυρση ως ιατρικά προειδοποιητικά σημάδια.","Μείωσε νωρίς ζέστη, προσπάθεια, βάρος μεταφοράς και κίνδυνο πτώσης.","Προστάτεψε ύπνο και ρουτίνα γιατί η διαταραχή χτυπά δυνατά τους ηλικιωμένους.","Γράφε παρατηρήσεις γιατί η αργή πτώση εύκολα θεωρείται φυσιολογική."],
+    "warnings_en": ["Quiet decline is common in elders.","A minor infection or fluid loss can produce major functional drop.","Falls become more likely when weakness and confusion combine."],
+    "warnings_el": ["Η ήσυχη πτώση είναι συχνή στους ηλικιωμένους.","Μια μικρή λοίμωξη ή απώλεια υγρών μπορεί να προκαλέσει μεγάλη πτώση λειτουργίας.","Οι πτώσεις γίνονται πιο πιθανές όταν συνδυάζονται αδυναμία και σύγχυση."],
+    "mistakes_en": ["Normalizing new confusion or weakness as just old age.","Letting medication continuity break during disruption.","Expecting elders to keep the same pace as healthy adults."],
+    "mistakes_el": ["Να θεωρείς νέα σύγχυση ή αδυναμία απλώς γηρατειά.","Να αφήνεις να σπάει η συνέχεια φαρμάκων στη διαταραχή.","Να περιμένεις από ηλικιωμένους να κρατούν τον ίδιο ρυθμό με υγιείς ενήλικες."],
+    "related_topics": ["Child and Elder Survival Considerations", "Symptom Logs and Daily Health Checks", "Dehydration and Heat Injury Management"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Large expansion batch."
+  }
+]
