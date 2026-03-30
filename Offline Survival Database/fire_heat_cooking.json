@@ -1,0 +1,104 @@
+[
+  {
+    "id": "fire::fuel_discipline",
+    "topic": "Firecraft, Heat, and Fuel Discipline",
+    "category": "fire_heat_cooking",
+    "subcategory": "fire_building",
+    "tags": ["fire", "heat", "fuel", "light", "cooking"],
+    "summary_en": "Fire is not only heat. It is light, morale, cooking ability, drying ability, and often the difference between workable and unworkable night conditions.",
+    "summary_el": "Η φωτιά δεν είναι μόνο θερμότητα. Είναι φως, ηθικό, δυνατότητα μαγειρέματος, δυνατότητα στεγνώματος και συχνά η διαφορά ανάμεσα σε λειτουργική και μη λειτουργική νύχτα.",
+    "content_en": "Useful fire depends less on drama and more on preparation. Dry tinder, staged kindling, protected fuel, and wind control matter more than trying to force flame with poor materials. In hardship, fuel is a reserve, not an endless background resource. Fire use should therefore match need: heating bodies, boiling water, drying wet items, cooking in batches, and preserving morale under darkness. Build small efficient fires where possible, protect flame from wind and moisture, and keep alternative ignition methods dry. In enclosed spaces, remember that heat without safe airflow becomes a different kind of danger.",
+    "content_el": "Η χρήσιμη φωτιά εξαρτάται λιγότερο από το θέαμα και περισσότερο από την προετοιμασία. Στεγνό προσάναμμα, σταδιακή μικρή καύσιμη ύλη, προστατευμένο καύσιμο και έλεγχος αέρα μετρούν περισσότερο από το να προσπαθείς να επιβάλεις φλόγα με κακά υλικά. Σε δυσκολία, το καύσιμο είναι απόθεμα, όχι ατελείωτος πόρος στο φόντο. Η χρήση φωτιάς πρέπει λοιπόν να ταιριάζει στην ανάγκη: θέρμανση σωμάτων, βράσιμο νερού, στέγνωμα βρεγμένων αντικειμένων, μαγείρεμα σε παρτίδες και διατήρηση ηθικού μέσα στο σκοτάδι. Φτιάχνε μικρές αποδοτικές φωτιές όπου γίνεται, προστάτευε τη φλόγα από αέρα και υγρασία και κράτα στεγνές εναλλακτικές μεθόδους ανάμματος. Σε κλειστούς χώρους, θυμήσου ότι η θερμότητα χωρίς ασφαλή αερισμό γίνεται άλλος τύπος κινδύνου.",
+    "steps_en": [
+      "Prepare tinder, kindling, and larger fuel before lighting.",
+      "Protect fuel from rain and ground moisture.",
+      "Use the smallest effective fire for the goal.",
+      "Preserve backup ignition methods in dry storage.",
+      "Ventilate safely when using heat near shelter."
+    ],
+    "steps_el": [
+      "Ετοίμασε προσάναμμα, μικρή καύσιμη ύλη και μεγαλύτερο καύσιμο πριν ανάψεις.",
+      "Προστάτεψε το καύσιμο από βροχή και υγρασία εδάφους.",
+      "Χρησιμοποίησε τη μικρότερη αποτελεσματική φωτιά για τον στόχο.",
+      "Κράτα εφεδρικές μεθόδους ανάμματος σε στεγνή αποθήκευση.",
+      "Φρόντισε ασφαλή αερισμό όταν χρησιμοποιείς θερμότητα κοντά σε κατάλυμα."
+    ],
+    "warnings_en": [
+      "Fuel disappears faster than expected when fire is used carelessly.",
+      "Wet clothing, wind, and bad site choice waste heat quickly.",
+      "Smoke and fumes can injure people even when the fire feels controlled."
+    ],
+    "warnings_el": [
+      "Το καύσιμο εξαφανίζεται γρηγορότερα απ’ όσο περιμένεις όταν η φωτιά χρησιμοποιείται απρόσεκτα.",
+      "Βρεγμένα ρούχα, αέρας και κακή θέση σπαταλούν γρήγορα τη θερμότητα.",
+      "Καπνός και αναθυμιάσεις μπορούν να τραυματίσουν ανθρώπους ακόμη κι όταν η φωτιά φαίνεται ελεγχόμενη."
+    ],
+    "mistakes_en": [
+      "Lighting before materials are prepared.",
+      "Using large fires where small efficient fires would work.",
+      "Failing to protect dry tinder and ignition from moisture."
+    ],
+    "mistakes_el": [
+      "Να ανάβεις πριν προετοιμαστούν τα υλικά.",
+      "Να χρησιμοποιείς μεγάλες φωτιές εκεί που θα αρκούσαν μικρές αποδοτικές.",
+      "Να μην προστατεύεις στεγνό προσάναμμα και μέσα ανάμματος από υγρασία."
+    ],
+    "related_topics": ["Emergency Cooking with Limited Fuel", "Improvised Shelter and Insulation", "Power Outage Lighting and Device Preservation"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  },
+  {
+    "id": "fire::low_fuel_cooking",
+    "topic": "Emergency Cooking with Limited Fuel",
+    "category": "fire_heat_cooking",
+    "subcategory": "low_fuel_cooking",
+    "tags": ["cooking", "fuel", "batch", "heat", "scarcity"],
+    "summary_en": "Low-fuel cooking is a planning problem. The goal is to get the most safe food, boiled water, and useful heat from the least fuel.",
+    "summary_el": "Το μαγείρεμα με λίγο καύσιμο είναι πρόβλημα σχεδιασμού. Ο στόχος είναι να πάρεις τη μέγιστη ασφαλή τροφή, βρασμένο νερό και χρήσιμη θερμότητα με το ελάχιστο καύσιμο.",
+    "content_en": "Fuel scarcity rewards preparation before flame. Soak where appropriate, cut food smaller when useful, cook in batches, keep lids on, use retained heat when safe, and combine tasks so one fire serves multiple purposes. A pot that boils water, softens food, dries cloth nearby, and raises morale is more efficient than repeated small unplanned burns. Cooking should fit the fuel budget, not the old habit. Foods that take too long may need different timing or different method. The point is practical output, not tradition.",
+    "content_el": "Η έλλειψη καυσίμου ανταμείβει την προετοιμασία πριν από τη φλόγα. Μούλιασε όπου ταιριάζει, κόψε την τροφή μικρότερη όταν βοηθά, μαγείρεψε σε παρτίδες, κράτα καπάκια στα σκεύη, χρησιμοποίησε διατήρηση θερμότητας όταν είναι ασφαλές και συνδύασε εργασίες ώστε μία φωτιά να υπηρετεί πολλούς σκοπούς. Μια κατσαρόλα που βράζει νερό, μαλακώνει τροφή, στεγνώνει ύφασμα κοντά και ανεβάζει το ηθικό είναι πιο αποδοτική από πολλές μικρές άσκοπες καύσεις. Το μαγείρεμα πρέπει να ταιριάζει στον προϋπολογισμό καυσίμου, όχι στην παλιά συνήθεια. Τροφές που απαιτούν υπερβολικό χρόνο ίσως χρειάζονται άλλο timing ή άλλη μέθοδο. Ο στόχος είναι πρακτικό αποτέλεσμα, όχι παράδοση.",
+    "steps_en": [
+      "Prepare ingredients before lighting the fire.",
+      "Cook in batches and combine boiling, cooking, and drying tasks.",
+      "Use lids and heat retention to save fuel.",
+      "Choose foods that match the actual fuel budget.",
+      "Avoid repeated small burns for scattered tasks."
+    ],
+    "steps_el": [
+      "Προετοίμασε υλικά πριν ανάψεις τη φωτιά.",
+      "Μαγείρεψε σε παρτίδες και συνδύασε βράσιμο, μαγείρεμα και στέγνωμα.",
+      "Χρησιμοποίησε καπάκια και διατήρηση θερμότητας για οικονομία καυσίμου.",
+      "Διάλεξε τροφές που ταιριάζουν στον πραγματικό προϋπολογισμό καυσίμου.",
+      "Απέφυγε πολλές μικρές καύσεις για σκόρπιες δουλειές."
+    ],
+    "warnings_en": [
+      "Poor planning wastes more fuel than the food itself requires.",
+      "Indoor cooking without airflow adds smoke danger.",
+      "Hard-to-cook foods may become poor choices during fuel crisis."
+    ],
+    "warnings_el": [
+      "Ο κακός σχεδιασμός σπαταλά περισσότερο καύσιμο απ’ όσο απαιτεί το ίδιο το φαγητό.",
+      "Το εσωτερικό μαγείρεμα χωρίς αερισμό προσθέτει κίνδυνο καπνού.",
+      "Τροφές που θέλουν πολύ βράσιμο μπορεί να γίνουν κακή επιλογή σε κρίση καυσίμου."
+    ],
+    "mistakes_en": [
+      "Lighting fire before ingredients and tools are ready.",
+      "Using precious fuel for comfort cooking instead of strategic cooking.",
+      "Letting heat escape with open pots and repeated checking."
+    ],
+    "mistakes_el": [
+      "Να ανάβεις φωτιά πριν είναι έτοιμα υλικά και εργαλεία.",
+      "Να χρησιμοποιείς πολύτιμο καύσιμο για άνεση αντί για στρατηγικό μαγείρεμα.",
+      "Να αφήνεις τη θερμότητα να φεύγει με ανοιχτές κατσαρόλες και συνεχές άνοιγμα."
+    ],
+    "related_topics": ["Nutrition Under Scarcity", "Food Preservation Under Scarcity", "Firecraft, Heat, and Fuel Discipline"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  }
+]

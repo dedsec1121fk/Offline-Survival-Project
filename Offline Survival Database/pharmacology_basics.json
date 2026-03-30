@@ -1,0 +1,104 @@
+[
+  {
+    "id": "pharmacology::storage_safety",
+    "topic": "Antiseptics, Medicine Storage, and General Caution",
+    "category": "pharmacology_basics",
+    "subcategory": "storage_and_safety",
+    "tags": ["medicine", "storage", "antiseptic", "safety", "dosage"],
+    "summary_en": "Medicine helps only when identity, storage, timing, and purpose stay clear. In hardship, bad storage and bad assumptions can turn useful medicine into risk.",
+    "summary_el": "Το φάρμακο βοηθά μόνο όταν μένουν καθαρά η ταυτότητα, η αποθήκευση, ο χρόνος και ο σκοπός. Σε δυσκολία, η κακή αποθήκευση και οι λάθος υποθέσεις μπορούν να μετατρέψουν χρήσιμο φάρμακο σε κίνδυνο.",
+    "content_en": "Practical pharmacology begins with discipline, not with collecting many products. Medicines should be clearly labeled, kept dry, protected from heat and casual confusion, and tracked on paper where possible. Antiseptics, pain relief, fever control, rehydration materials, and essential chronic-disease medicines often matter more than random stock. The purpose of field storage is continuity: knowing what the medicine is for, how much is left, who depends on it, and what happens if it runs low. Mixing containers, forgetting dates, or guessing dosage under stress creates preventable harm.",
+    "content_el": "Η πρακτική φαρμακολογία αρχίζει με πειθαρχία, όχι με το να μαζεύεις πολλά προϊόντα. Τα φάρμακα πρέπει να έχουν καθαρή σήμανση, να μένουν στεγνά, προστατευμένα από ζέστη και από αχρείαστη σύγχυση, και όπου γίνεται να καταγράφονται σε χαρτί. Αντισηπτικά, ανακούφιση πόνου, έλεγχος πυρετού, υλικά επανυδάτωσης και βασικά φάρμακα χρόνιων νοσημάτων συχνά μετρούν περισσότερο από τυχαίο στοκ. Ο στόχος της αποθήκευσης πεδίου είναι η συνέχεια: να ξέρεις για τι είναι το φάρμακο, πόσο έχει απομείνει, ποιος εξαρτάται από αυτό και τι γίνεται αν λιγοστέψει. Το να ανακατεύεις δοχεία, να ξεχνάς ημερομηνίες ή να μαντεύεις δόση κάτω από στρες δημιουργεί αποτρέψιμη βλάβη.",
+    "steps_en": [
+      "Keep medicines labeled, dry, sorted, and protected from heat.",
+      "Track essential medicines and rehydration supplies on paper.",
+      "Separate internal medicines from cleaning chemicals and antiseptics.",
+      "Review stock before crisis rather than during collapse.",
+      "Use the right medicine for the right purpose; do not guess."
+    ],
+    "steps_el": [
+      "Κράτα τα φάρμακα σημειωμένα, στεγνά, ταξινομημένα και προστατευμένα από ζέστη.",
+      "Κατέγραφε τα βασικά φάρμακα και τα υλικά επανυδάτωσης σε χαρτί.",
+      "Χώρισε φάρμακα εσωτερικής χρήσης από χημικά καθαρισμού και αντισηπτικά.",
+      "Έλεγξε το απόθεμα πριν από την κρίση και όχι μέσα στην κατάρρευση.",
+      "Χρησιμοποίησε το σωστό φάρμακο για το σωστό σκοπό· μην μαντεύεις."
+    ],
+    "warnings_en": [
+      "Heat, moisture, and confusion ruin medicine value quickly.",
+      "Guessing dosage or identity is dangerous.",
+      "Expired or damaged medicines may be less effective or unreliable."
+    ],
+    "warnings_el": [
+      "Η ζέστη, η υγρασία και η σύγχυση χαλάνε γρήγορα την αξία των φαρμάκων.",
+      "Το να μαντεύεις δόση ή ταυτότητα είναι επικίνδυνο.",
+      "Ληγμένα ή χαλασμένα φάρμακα μπορεί να είναι λιγότερο αποτελεσματικά ή αναξιόπιστα."
+    ],
+    "mistakes_en": [
+      "Mixing pills into unmarked containers.",
+      "Keeping medicine where children or confused adults can misuse it.",
+      "Waiting until stock is nearly gone before planning replacement or conservation."
+    ],
+    "mistakes_el": [
+      "Να βάζεις χάπια σε ασημείωτα δοχεία.",
+      "Να κρατάς φάρμακα εκεί που παιδιά ή μπερδεμένοι ενήλικες μπορούν να τα χρησιμοποιήσουν λάθος.",
+      "Να περιμένεις να σχεδόν τελειώσει το απόθεμα πριν σχεδιάσεις αντικατάσταση ή οικονομία."
+    ],
+    "related_topics": ["Bleeding Control and Wound Care", "Diarrhea, Vomiting, and Rehydration", "Child and Elder Survival Considerations"],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  },
+  {
+    "id": "pharmacology::antibiotics_planning",
+    "topic": "Antibiotics and Medication Scarcity Planning",
+    "category": "pharmacology_basics",
+    "subcategory": "antibiotics_and_planning",
+    "tags": ["antibiotics", "scarcity", "planning", "infection", "medicine"],
+    "summary_en": "Scarcity planning means knowing that antibiotics are not universal fixes. Clean wound care, sanitation, and early observation remain critical even when medicines exist.",
+    "summary_el": "Ο σχεδιασμός σπάνιων φαρμάκων σημαίνει να ξέρεις ότι τα αντιβιοτικά δεν είναι λύση για όλα. Καθαρή φροντίδα τραύματος, υγιεινή και έγκαιρη παρατήρηση παραμένουν κρίσιμα ακόμη και όταν υπάρχουν φάρμακα.",
+    "content_en": "In hardship, people may overvalue antibiotics and undervalue the basics that prevent infection. A medicine stock should be planned around real dependence and realistic limits. Sanitation, wound cleaning, hand hygiene, hydration, and observation often prevent deterioration that medicine alone cannot fix. Scarcity planning means protecting essential stock from waste, confusion, and casual use; recording who depends on what; and understanding that inappropriate use can leave a household with less medicine when a real need appears.",
+    "content_el": "Σε δυσκολία, οι άνθρωποι μπορεί να υπερτιμούν τα αντιβιοτικά και να υποτιμούν τα βασικά που προλαμβάνουν τη μόλυνση. Ένα απόθεμα φαρμάκων πρέπει να σχεδιάζεται γύρω από πραγματική εξάρτηση και ρεαλιστικά όρια. Η υγιεινή, το καθάρισμα τραυμάτων, ο καθαρισμός χεριών, η ενυδάτωση και η παρατήρηση συχνά προλαμβάνουν επιδείνωση που το φάρμακο μόνο του δεν διορθώνει. Ο σχεδιασμός σπανιότητας σημαίνει να προστατεύεις κρίσιμο απόθεμα από σπατάλη, σύγχυση και επιπόλαιη χρήση, να καταγράφεις ποιος εξαρτάται από τι και να καταλαβαίνεις ότι η ακατάλληλη χρήση μπορεί να αφήσει το νοικοκυριό με λιγότερο φάρμακο όταν εμφανιστεί πραγματική ανάγκη.",
+    "steps_en": [
+      "Prioritize prevention, cleanliness, and early observation.",
+      "Keep a written list of essential medicines and who depends on them.",
+      "Avoid casual or repeated unnecessary use of scarce stock.",
+      "Watch wounds and illness progression carefully instead of assuming medicine solved the problem.",
+      "Plan replacement or conservation before the stock becomes critical."
+    ],
+    "steps_el": [
+      "Δώσε προτεραιότητα σε πρόληψη, καθαριότητα και έγκαιρη παρατήρηση.",
+      "Κράτα γραπτή λίστα βασικών φαρμάκων και ποιος εξαρτάται από αυτά.",
+      "Απέφυγε την επιπόλαιη ή επαναλαμβανόμενη άσκοπη χρήση σπάνιου αποθέματος.",
+      "Παρακολούθησε προσεκτικά τραύματα και πορεία ασθένειας αντί να υποθέτεις ότι το φάρμακο έλυσε το πρόβλημα.",
+      "Σχεδίασε αντικατάσταση ή οικονομία πριν το απόθεμα γίνει κρίσιμο."
+    ],
+    "warnings_en": [
+      "Medicine misuse can create future shortage for real emergencies.",
+      "Reduced symptoms do not always mean danger is over.",
+      "Infection control starts before medicines are ever opened."
+    ],
+    "warnings_el": [
+      "Η κακή χρήση φαρμάκου μπορεί να δημιουργήσει μελλοντική έλλειψη για αληθινά επείγοντα.",
+      "Η μείωση συμπτωμάτων δεν σημαίνει πάντα ότι πέρασε ο κίνδυνος.",
+      "Ο έλεγχος μόλυνσης αρχίζει πριν ανοίξει οποιοδήποτε φάρμακο."
+    ],
+    "mistakes_en": [
+      "Assuming any fever or wound automatically needs antibiotic use.",
+      "Ignoring sanitation while protecting medicine stock.",
+      "Using stock without written tracking."
+    ],
+    "mistakes_el": [
+      "Να θεωρείς ότι κάθε πυρετός ή τραύμα χρειάζεται αυτόματα αντιβιοτικό.",
+      "Να αγνοείς την υγιεινή ενώ προστατεύεις το απόθεμα φαρμάκων.",
+      "Να χρησιμοποιείς απόθεμα χωρίς γραπτή καταγραφή."
+    ],
+    "related_topics": ["Camp Sanitation and Waste Control", "Bleeding Control and Wound Care", "Antiseptics, Medicine Storage, and General Caution"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  }
+]

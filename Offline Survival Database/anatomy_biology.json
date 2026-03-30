@@ -1,0 +1,104 @@
+[
+  {
+    "id": "anatomy::core_physiology",
+    "topic": "Circulation, Breathing, and Body Heat",
+    "category": "anatomy_biology",
+    "subcategory": "core_physiology",
+    "tags": ["anatomy", "circulation", "breathing", "heat", "physiology"],
+    "summary_en": "Survival medicine becomes clearer when you understand three basics: blood must move, air must move, and body heat must stay within workable range.",
+    "summary_el": "Η ιατρική επιβίωσης γίνεται πιο καθαρή όταν καταλαβαίνεις τρία βασικά: το αίμα πρέπει να κυκλοφορεί, ο αέρας πρέπει να κινείται και η θερμότητα του σώματος πρέπει να μένει σε λειτουργικό εύρος.",
+    "content_en": "Circulation delivers oxygen and nutrients. Breathing brings in oxygen and removes carbon dioxide. Body heat regulation keeps enzymes, muscles, and thinking working. Many emergencies harm one or more of these systems at once: bleeding reduces circulation, smoke harms breathing, dehydration weakens both circulation and temperature control, and cold slows the whole body. When assessing a person under stress, do not think first in complex diagnosis. Think first in function: are they breathing effectively, is circulation likely failing, are they dangerously hot or cold, and are those problems worsening? This functional approach helps prioritize treatment under poor conditions.",
+    "content_el": "Η κυκλοφορία μεταφέρει οξυγόνο και θρεπτικά στοιχεία. Η αναπνοή φέρνει οξυγόνο και απομακρύνει διοξείδιο του άνθρακα. Η ρύθμιση της θερμότητας κρατά ένζυμα, μύες και σκέψη λειτουργικά. Πολλά επείγοντα βλάπτουν ένα ή περισσότερα από αυτά τα συστήματα μαζί: η αιμορραγία ρίχνει την κυκλοφορία, ο καπνός βλάπτει την αναπνοή, η αφυδάτωση αποδυναμώνει και την κυκλοφορία και τον έλεγχο θερμοκρασίας, και το κρύο επιβραδύνει ολόκληρο το σώμα. Όταν εκτιμάς έναν άνθρωπο υπό πίεση, μην σκέφτεσαι πρώτα περίπλοκη διάγνωση. Σκέψου πρώτα λειτουργία: αναπνέει αποτελεσματικά, μάλλον καταρρέει η κυκλοφορία, είναι επικίνδυνα ζεστός ή κρύος, και αυτά χειροτερεύουν; Αυτή η λειτουργική προσέγγιση βοηθά στην προτεραιοποίηση φροντίδας σε δύσκολες συνθήκες.",
+    "steps_en": [
+      "Check breathing effort, mental clarity, skin temperature, and signs of circulation failure.",
+      "Control bleeding, improve air quality, and reduce heat loss or overheating early.",
+      "Reassess after every intervention.",
+      "Watch for worsening confusion, weakness, or abnormal skin color.",
+      "Treat function first, detail second."
+    ],
+    "steps_el": [
+      "Έλεγξε προσπάθεια αναπνοής, καθαρότητα σκέψης, θερμοκρασία δέρματος και σημάδια πτώσης κυκλοφορίας.",
+      "Έλεγξε αιμορραγία, βελτίωσε τον αέρα και μείωσε νωρίς απώλεια θερμότητας ή υπερθέρμανση.",
+      "Ξαναέλεγξε μετά από κάθε παρέμβαση.",
+      "Παρακολούθησε για επιδείνωση σύγχυσης, αδυναμίας ή ανώμαλου χρώματος δέρματος.",
+      "Θεράπευσε πρώτα τη λειτουργία, μετά τη λεπτομέρεια."
+    ],
+    "warnings_en": [
+      "A person can look quiet and still be deteriorating quickly.",
+      "Cold, smoke, dehydration, and shock reinforce each other.",
+      "Mental confusion is often a body warning, not only an emotional one."
+    ],
+    "warnings_el": [
+      "Ένας άνθρωπος μπορεί να φαίνεται ήσυχος και πάλι να χειροτερεύει γρήγορα.",
+      "Κρύο, καπνός, αφυδάτωση και σοκ ενισχύουν το ένα το άλλο.",
+      "Η νοητική σύγχυση είναι συχνά προειδοποίηση του σώματος, όχι μόνο συναίσθημα."
+    ],
+    "mistakes_en": [
+      "Focusing on minor detail while breathing or heat status worsens.",
+      "Assuming calm appearance means real stability.",
+      "Neglecting hydration during exertion, heat, or illness."
+    ],
+    "mistakes_el": [
+      "Να κολλάς σε μικρή λεπτομέρεια ενώ χειροτερεύει η αναπνοή ή η θερμοκρασία.",
+      "Να θεωρείς ότι η ήρεμη εμφάνιση σημαίνει πραγματική σταθερότητα.",
+      "Να αμελείς την ενυδάτωση σε κόπωση, ζέστη ή ασθένεια."
+    ],
+    "related_topics": ["Bleeding Control and Wound Care", "Heat, Cold, and Smoke Conditions", "Diarrhea, Vomiting, and Rehydration"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  },
+  {
+    "id": "anatomy::vulnerable_groups",
+    "topic": "Child and Elder Survival Considerations",
+    "category": "anatomy_biology",
+    "subcategory": "vulnerable_groups",
+    "tags": ["children", "elderly", "vulnerable", "physiology", "care"],
+    "summary_en": "Children and elders often decline sooner than healthy adults during dehydration, infection, cold, heat, and disrupted routine. Their care needs earlier adjustment, not later emergency reaction.",
+    "summary_el": "Τα παιδιά και οι ηλικιωμένοι συχνά πέφτουν νωρίτερα από υγιείς ενήλικες σε αφυδάτωση, μόλυνση, κρύο, ζέστη και διαταραχή ρουτίνας. Η φροντίδα τους θέλει πιο έγκαιρη προσαρμογή, όχι καθυστερημένη αντίδραση πανικού.",
+    "content_en": "Small bodies and older bodies often have less reserve. Children dehydrate faster, lose heat faster, and may not describe symptoms clearly. Older people may have chronic illness, weaker balance, reduced thirst, slower recovery, and medication dependence. Both groups benefit from routine, monitoring, warmth, hydration planning, simpler movement expectations, and closer observation for confusion or decline. In crisis, fairness does not mean identical treatment. It means protection matched to risk.",
+    "content_el": "Τα μικρά σώματα και τα μεγαλύτερα σώματα έχουν συχνά μικρότερα αποθέματα αντοχής. Τα παιδιά αφυδατώνονται γρηγορότερα, χάνουν θερμότητα γρηγορότερα και μπορεί να μην περιγράφουν καθαρά τα συμπτώματα. Οι ηλικιωμένοι μπορεί να έχουν χρόνια νόσο, πιο αδύναμη ισορροπία, μειωμένη δίψα, πιο αργή ανάρρωση και εξάρτηση από φάρμακα. Και οι δύο ομάδες ωφελούνται από ρουτίνα, παρακολούθηση, ζεστασιά, σχέδιο ενυδάτωσης, απλούστερες απαιτήσεις κίνησης και στενότερη παρατήρηση για σύγχυση ή πτώση. Σε κρίση, δικαιοσύνη δεν σημαίνει ίδια μεταχείριση. Σημαίνει προστασία που ταιριάζει στον κίνδυνο.",
+    "steps_en": [
+      "Monitor fluids, warmth, bowel illness, and fatigue more closely.",
+      "Reduce travel burden and exposure for vulnerable people.",
+      "Keep medicine records and routines visible.",
+      "Watch for confusion, unusual quietness, or rapid decline.",
+      "Adjust rations, rest, and workload according to actual vulnerability."
+    ],
+    "steps_el": [
+      "Παρακολούθησε πιο στενά υγρά, ζεστασιά, εντερική ασθένεια και κόπωση.",
+      "Μείωσε βάρος μετακίνησης και έκθεση για τους ευάλωτους.",
+      "Κράτα ορατά αρχεία φαρμάκων και ρουτίνες.",
+      "Παρακολούθησε για σύγχυση, ασυνήθιστη ησυχία ή γρήγορη πτώση.",
+      "Προσάρμοσε μερίδες, ανάπαυση και φόρτο με βάση την πραγματική ευαλωτότητα."
+    ],
+    "warnings_en": [
+      "Vulnerable people may decline quietly before collapse becomes obvious.",
+      "A normal adult workload can be dangerous for children or elders.",
+      "Skipping medications or hydration may cause cascading problems."
+    ],
+    "warnings_el": [
+      "Οι ευάλωτοι μπορεί να πέφτουν ήσυχα πριν γίνει φανερή η κατάρρευση.",
+      "Ένα φυσιολογικό φορτίο ενήλικα μπορεί να είναι επικίνδυνο για παιδιά ή ηλικιωμένους.",
+      "Η παράλειψη φαρμάκων ή ενυδάτωσης μπορεί να φέρει αλυσιδωτά προβλήματα."
+    ],
+    "mistakes_en": [
+      "Expecting the weakest person to adapt to the strongest person's pace.",
+      "Missing subtle decline because there is no routine check.",
+      "Treating medication schedules casually."
+    ],
+    "mistakes_el": [
+      "Να περιμένεις από τον πιο αδύναμο να ακολουθεί τον ρυθμό του πιο δυνατού.",
+      "Να χάνεις τη λεπτή επιδείνωση επειδή δεν υπάρχει τακτικός έλεγχος.",
+      "Να αντιμετωπίζεις χαλαρά τα ωράρια φαρμάκων."
+    ],
+    "related_topics": ["Family Preparedness and Daily Hardship Routines", "Antiseptics, Medicine Storage, and General Caution", "Circulation, Breathing, and Body Heat"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Batch repo push expansion."
+  }
+]
