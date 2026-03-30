@@ -1,0 +1,25 @@
+[
+  {
+    "id": "movement::protective_actions_logic",
+    "topic": "Protective Actions: Evacuation and Shelter Logic",
+    "category": "movement_navigation_evacuation",
+    "subcategory": "protective_action_decisions",
+    "tags": ["evacuation", "shelter", "protective action", "movement", "planning"],
+    "summary_en": "A protective action decision is not only 'go or stay.' It is a structured choice about which option best protects life, function, and control under the specific hazard.",
+    "summary_el": "Μια απόφαση προστατευτικής ενέργειας δεν είναι μόνο «φεύγω ή μένω». Είναι δομημένη επιλογή για το ποια λύση προστατεύει καλύτερα ζωή, λειτουργία και έλεγχο μέσα στον συγκεκριμένο κίνδυνο.",
+    "content_en": "Evacuation and shelter-in-place are both protective actions, but each becomes safer or more dangerous depending on the threat, the building, the route, the timing, and the condition of the people involved. Good decision-making asks: what danger grows if we stay, what danger grows if we move, what does the route really require, and can the weakest person in the group endure it? Evacuation may protect against flood, fire spread, structural risk, or contamination. Sheltering may protect against exposure, traffic chaos, uncertain destinations, and movement risk. The best survival logic is not motion by default. It is choosing the action that reduces the total hazard load.",
+    "content_el": "Η εκκένωση και η παραμονή σε καταφύγιο είναι και οι δύο προστατευτικές ενέργειες, αλλά καθεμία γίνεται ασφαλέστερη ή πιο επικίνδυνη ανάλογα με την απειλή, το κτίριο, τη διαδρομή, το timing και την κατάσταση των ανθρώπων που εμπλέκονται. Η καλή λήψη απόφασης ρωτά: ποιος κίνδυνος μεγαλώνει αν μείνουμε, ποιος κίνδυνος μεγαλώνει αν κινηθούμε, τι απαιτεί πραγματικά η διαδρομή και αν ο πιο αδύναμος άνθρωπος της ομάδας μπορεί να την αντέξει. Η εκκένωση μπορεί να προστατεύει από πλημμύρα, εξάπλωση φωτιάς, δομικό κίνδυνο ή μόλυνση. Η παραμονή μπορεί να προστατεύει από έκθεση, κυκλοφοριακό χάος, αβέβαιους προορισμούς και κίνδυνο μετακίνησης. Η καλύτερη λογική επιβίωσης δεν είναι η κίνηση από συνήθεια. Είναι η επιλογή της ενέργειας που μειώνει το συνολικό φορτίο κινδύνου.",
+    "steps_en": ["Compare the danger of staying with the danger of moving.","Assess route quality, timing, and the condition of the weakest person.","Choose evacuation only when it clearly improves protection.","Choose sheltering only when the location is safer than the route and destination uncertainty.","Review the decision again if the hazard changes."],
+    "steps_el": ["Σύγκρινε τον κίνδυνο παραμονής με τον κίνδυνο μετακίνησης.","Εκτίμησε ποιότητα διαδρομής, timing και την κατάσταση του πιο αδύναμου ανθρώπου.","Επίλεξε εκκένωση μόνο όταν βελτιώνει καθαρά την προστασία.","Επίλεξε παραμονή μόνο όταν η τοποθεσία είναι ασφαλέστερη από τη διαδρομή και την αβεβαιότητα προορισμού.","Ξαναέλεγξε την απόφαση αν αλλάξει ο κίνδυνος."],
+    "warnings_en": ["Movement itself can become a hazard.","Sheltering in the wrong place can trap a household inside a worsening risk.","The best decision can change as conditions change."],
+    "warnings_el": ["Η ίδια η μετακίνηση μπορεί να γίνει κίνδυνος.","Η παραμονή στο λάθος σημείο μπορεί να παγιδεύσει ένα νοικοκυριό μέσα σε κίνδυνο που χειροτερεύει.","Η καλύτερη απόφαση μπορεί να αλλάξει καθώς αλλάζουν οι συνθήκες."],
+    "mistakes_en": ["Treating movement as automatically better than staying.","Treating staying as automatically safer because it feels familiar.","Ignoring the limits of children, elders, sick people, or heavy load."],
+    "mistakes_el": ["Να αντιμετωπίζεις τη μετακίνηση ως αυτόματα καλύτερη από την παραμονή.","Να αντιμετωπίζεις την παραμονή ως αυτόματα ασφαλέστερη επειδή είναι γνώριμη.","Να αγνοείς τα όρια παιδιών, ηλικιωμένων, αρρώστων ή μεγάλου φορτίου."],
+    "related_topics": ["Route Planning, Evacuation, and Shelter-in-Place Logic", "Floods, Storms, and Wildfire Survival", "Risk Assessment in Unstable Environments"],
+    "difficulty": "high",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Expanded from FEMA evacuation and shelter-in-place guidance."
+  }
+]
