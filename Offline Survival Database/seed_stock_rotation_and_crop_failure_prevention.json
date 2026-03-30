@@ -1,0 +1,25 @@
+[
+  {
+    "id": "agriculture::seed_rotation_crop_failure",
+    "topic": "Seed Stock Rotation and Crop Failure Prevention",
+    "category": "agriculture_food_production",
+    "subcategory": "seed_and_crop_resilience",
+    "tags": ["seed", "crop failure", "rotation", "agriculture", "resilience"],
+    "summary_en": "A food system fails faster when seed planning is treated casually. Seed stock has to be protected, rotated, diversified, and matched to realistic growing conditions.",
+    "summary_el": "Ένα σύστημα τροφής αποτυγχάνει γρηγορότερα όταν ο σχεδιασμός σπόρων αντιμετωπίζεται χαλαρά. Το απόθεμα σπόρων πρέπει να προστατεύεται, να περιστρέφεται, να διαφοροποιείται και να ταιριάζει σε ρεαλιστικές συνθήκες καλλιέργειας.",
+    "content_en": "Crop failure often begins months earlier than the visible loss. Poor seed storage, overconfidence in one crop, failure to keep reserve seed, ignoring soil condition, and planting beyond water reality all set up later hunger. A resilient seed system does not rely on one harvest, one variety, or one season going perfectly. It protects seed from moisture and pests, keeps reserve stock separate from planting stock, records what performed well, and avoids using every viable seed in one gamble. Crop failure prevention is not luck. It is disciplined redundancy.",
+    "content_el": "Η αποτυχία καλλιέργειας συχνά αρχίζει μήνες νωρίτερα από την ορατή απώλεια. Η κακή αποθήκευση σπόρων, η υπερβολική εμπιστοσύνη σε μία καλλιέργεια, η έλλειψη εφεδρικών σπόρων, η αμέλεια του εδάφους και η φύτευση πέρα από την πραγματικότητα του νερού όλα προετοιμάζουν μελλοντική πείνα. Ένα ανθεκτικό σύστημα σπόρων δεν βασίζεται σε μία συγκομιδή, μία ποικιλία ή μια τέλεια εποχή. Προστατεύει τους σπόρους από υγρασία και παράσιτα, κρατά χωριστό το εφεδρικό απόθεμα από το απόθεμα φύτευσης, καταγράφει τι απέδωσε καλά και αποφεύγει να ρίχνει κάθε βιώσιμο σπόρο σε ένα μόνο στοίχημα. Η πρόληψη αποτυχίας καλλιέργειας δεν είναι τύχη. Είναι πειθαρχημένη εφεδρεία.",
+    "steps_en": ["Store seed dry, protected, and clearly labeled.","Keep reserve seed separate from planting seed.","Diversify crops and avoid betting everything on one option.","Record what performs well in local conditions.","Review crop plans against real water, soil, and labor limits."],
+    "steps_el": ["Αποθήκευσε σπόρους στεγνά, προστατευμένα και με καθαρή σήμανση.","Κράτα χωριστά εφεδρικούς σπόρους από τους σπόρους φύτευσης.","Διαφοροποίησε καλλιέργειες και μην τα ποντάρεις όλα σε μία επιλογή.","Κατέγραψε τι αποδίδει καλά στις τοπικές συνθήκες.","Έλεγξε τα σχέδια καλλιέργειας με βάση πραγματικά όρια νερού, εδάφους και εργασίας."],
+    "warnings_en": ["Using all seed at once creates future vulnerability.","One successful season can create dangerous overconfidence.","Bad storage can destroy seed quietly before planting time."],
+    "warnings_el": ["Η χρήση όλου του σπόρου μαζί δημιουργεί μελλοντική ευαλωτότητα.","Μία επιτυχημένη χρονιά μπορεί να δημιουργήσει επικίνδυνη υπερβολική αυτοπεποίθηση.","Η κακή αποθήκευση μπορεί να καταστρέψει αθόρυβα τον σπόρο πριν από τη φύτευση."],
+    "mistakes_en": ["Treating reserve seed like surplus food.","Planting beyond realistic irrigation or labor ability.","Ignoring performance records and repeating failed choices."],
+    "mistakes_el": ["Να αντιμετωπίζεις τον εφεδρικό σπόρο σαν περίσσευμα τροφής.","Να φυτεύεις πέρα από ρεαλιστική άρδευση ή ικανότητα εργασίας.","Να αγνοείς αρχεία απόδοσης και να επαναλαμβάνεις αποτυχημένες επιλογές."],
+    "related_topics": ["Household Food Planning and Staple Crops", "Seed Saving and Small-Scale Irrigation", "Village Water Storage and Distribution"],
+    "difficulty": "high",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Large human-biology and survival expansion batch."
+  }
+]
