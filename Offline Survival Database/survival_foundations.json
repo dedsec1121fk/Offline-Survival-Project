@@ -4,182 +4,75 @@
     "topic": "Survival Priorities Under Pressure",
     "category": "survival_foundations",
     "subcategory": "mindset_and_priorities",
-    "tags": [
-      "survival",
-      "priorities",
-      "mindset",
-      "decision-making",
-      "risk"
-    ],
-    "summary_en": "Under acute stress, survival improves when you force priorities into a stable order: immediate danger, air and bleeding, shelter and temperature, water, medical problems, security, communication, and only then comfort. A simple order prevents panic-driven waste of time and calories.",
-    "summary_el": "Υπό οξύ στρες, η επιβίωση βελτιώνεται όταν βάζεις τις προτεραιότητες σε σταθερή σειρά: άμεσος κίνδυνος, αέρας και αιμορραγία, καταφύγιο και θερμοκρασία, νερό, ιατρικά προβλήματα, ασφάλεια, επικοινωνία και μόνο μετά άνεση. Μια απλή σειρά αποτρέπει τον πανικό και τη σπατάλη χρόνου και δυνάμεων.",
-    "content_en": "People often die from disorder before they die from total lack of resources. In an emergency, the mind jumps to dramatic ideas such as travel, conflict, or searching widely for supplies, but the first useful move is usually slower and more disciplined: stop, observe, breathe, identify the most immediate life threat, and solve the smallest critical problem first. A soaked body in cold wind may need shelter before food. A badly bleeding person needs pressure before transport. A family in a blackout may need water containers filled and phones rationed before discussing long-term plans. Use a repeating loop: what can kill us in minutes, what can hurt us in hours, what will weaken us in days, and what must be preserved for weeks. This loop works in wilderness, apartment outages, wartime disruption, and civil collapse because it keeps attention on function instead of fear.",
-    "content_el": "Οι άνθρωποι συχνά χάνονται από αταξία πριν χαθούν από πλήρη έλλειψη πόρων. Σε μια κρίση, το μυαλό πηδά σε δραματικές ιδέες όπως μετακίνηση, σύγκρουση ή αδιάκοπη αναζήτηση προμηθειών, όμως η πρώτη χρήσιμη κίνηση είναι συνήθως πιο αργή και πειθαρχημένη: σταμάτα, παρατήρησε, ανάπνευσε, βρες τον πιο άμεσο κίνδυνο για τη ζωή και λύσε πρώτα το μικρότερο κρίσιμο πρόβλημα. Ένα βρεγμένο σώμα σε κρύο αέρα μπορεί να χρειάζεται καταφύγιο πριν από φαγητό. Ένας άνθρωπος με δυνατή αιμορραγία χρειάζεται πίεση πριν από μεταφορά. Μια οικογένεια σε μπλακ άουτ μπορεί να χρειάζεται να γεμίσει δοχεία νερού και να κάνει οικονομία στην μπαταρία πριν συζητήσει μακροπρόθεσμα σχέδια. Χρησιμοποίησε επαναλαμβανόμενο κύκλο: τι μπορεί να μας σκοτώσει σε λεπτά, τι μπορεί να μας βλάψει σε ώρες, τι θα μας αποδυναμώσει σε ημέρες και τι πρέπει να διατηρηθεί για εβδομάδες. Αυτός ο κύκλος δουλεύει σε βουνό, σε διαμέρισμα χωρίς ρεύμα, σε πόλεμο και σε κοινωνική κατάρρευση επειδή κρατά την προσοχή στη λειτουργία και όχι στον φόβο.",
-    "steps_en": [
-      "Stop unnecessary movement for one minute and scan for immediate danger: fire, collapse, hostile exposure, severe bleeding, contaminated air, or freezing/worsening weather.",
-      "Name the next three priorities out loud or on paper. This reduces confusion in groups and forces agreement.",
-      "Assign simple roles if you are not alone: medical, shelter, water, watch, communication, child/elder care.",
-      "Protect heat, water, and light-producing tools early. Losing them often turns a hard situation into a collapse.",
-      "Reassess every few hours or after any major change such as rain, injury, relocation, or loss of supplies."
-    ],
-    "steps_el": [
-      "Σταμάτα τις άσκοπες κινήσεις για ένα λεπτό και έλεγξε για άμεσο κίνδυνο: φωτιά, κατάρρευση, έκθεση σε απειλή, βαριά αιμορραγία, μολυσμένο αέρα ή παγωνιά/επιδείνωση καιρού.",
-      "Ονόμασε τις επόμενες τρεις προτεραιότητες δυνατά ή σε χαρτί. Αυτό μειώνει τη σύγχυση στις ομάδες και επιβάλλει συμφωνία.",
-      "Δώσε απλούς ρόλους αν δεν είσαι μόνος: ιατρική φροντίδα, καταφύγιο, νερό, επιτήρηση, επικοινωνία, φροντίδα παιδιών/ηλικιωμένων.",
-      "Προστάτεψε νωρίς τη θερμότητα, το νερό και τα μέσα φωτισμού. Η απώλειά τους συχνά μετατρέπει μια δύσκολη κατάσταση σε κατάρρευση.",
-      "Επανεκτίμησε κάθε λίγες ώρες ή μετά από μεγάλη αλλαγή όπως βροχή, τραυματισμό, μετακίνηση ή απώλεια προμηθειών."
-    ],
-    "warnings_en": [
-      "Do not let hunger distract you from cold, bleeding, dehydration, or unsafe air.",
-      "Fast movement without a plan burns water, calories, and attention.",
-      "Children, sick people, and elders deteriorate faster than healthy adults."
-    ],
-    "warnings_el": [
-      "Μην αφήνεις την πείνα να σε αποσπά από το κρύο, την αιμορραγία, την αφυδάτωση ή τον επικίνδυνο αέρα.",
-      "Η γρήγορη μετακίνηση χωρίς σχέδιο καίει νερό, θερμίδες και προσοχή.",
-      "Παιδιά, άρρωστοι και ηλικιωμένοι χειροτερεύουν πιο γρήγορα από υγιείς ενήλικες."
-    ],
-    "mistakes_en": [
-      "Immediately starting large tasks without checking for the actual life threat.",
-      "Arguing about long-term strategy before stabilizing heat, water, and injury control.",
-      "Using all batteries, clean water, or fuel in the first day because stress makes scarcity feel permanent."
-    ],
-    "mistakes_el": [
-      "Να ξεκινάς μεγάλες ενέργειες χωρίς να ελέγχεις ποιος είναι ο πραγματικός κίνδυνος ζωής.",
-      "Να τσακώνεσαι για μακροπρόθεσμη στρατηγική πριν σταθεροποιήσεις θερμότητα, νερό και τραύματα.",
-      "Να ξοδεύεις όλες τις μπαταρίες, το καθαρό νερό ή το καύσιμο την πρώτη μέρα επειδή το στρες κάνει τη στέρηση να φαίνεται μόνιμη."
-    ],
-    "related_topics": [
-      "Risk Assessment in Unstable Environments",
-      "Family Preparedness and Daily Hardship Routines",
-      "Water Collection and Purification"
-    ],
-    "difficulty": "low",
-    "urgency": "high",
-    "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "Initial production build."
+    "tags": ["survival", "priorities", "mindset", "decision-making", "risk"],
+    "summary_en": "Under acute stress, survival improves when you force priorities into a stable order: immediate danger, air and bleeding, shelter and temperature, water, medical problems, security, communication, and only then comfort.",
+    "summary_el": "Υπό οξύ στρες, η επιβίωση βελτιώνεται όταν βάζεις τις προτεραιότητες σε σταθερή σειρά: άμεσος κίνδυνος, αέρας και αιμορραγία, καταφύγιο και θερμοκρασία, νερό, ιατρικά προβλήματα, ασφάλεια, επικοινωνία και μόνο μετά άνεση.",
+    "content_en": "People often die from disorder before they die from total lack of resources. In an emergency, the mind jumps to dramatic ideas such as travel, conflict, or searching widely for supplies, but the first useful move is usually slower and more disciplined: stop, observe, breathe, identify the most immediate life threat, and solve the smallest critical problem first. A soaked body in cold wind may need shelter before food. A badly bleeding person needs pressure before transport. A family in a blackout may need water containers filled and phones rationed before discussing long-term plans. Use a repeating loop: what can kill us in minutes, what can hurt us in hours, what will weaken us in days, and what must be preserved for weeks.",
+    "content_el": "Οι άνθρωποι συχνά χάνονται από αταξία πριν χαθούν από πλήρη έλλειψη πόρων. Σε μια κρίση, το μυαλό πηδά σε δραματικές ιδέες όπως μετακίνηση, σύγκρουση ή αδιάκοπη αναζήτηση προμηθειών, όμως η πρώτη χρήσιμη κίνηση είναι συνήθως πιο αργή και πειθαρχημένη: σταμάτα, παρατήρησε, ανάπνευσε, βρες τον πιο άμεσο κίνδυνο για τη ζωή και λύσε πρώτα το μικρότερο κρίσιμο πρόβλημα. Ένα βρεγμένο σώμα σε κρύο αέρα μπορεί να χρειάζεται καταφύγιο πριν από φαγητό. Ένας άνθρωπος με δυνατή αιμορραγία χρειάζεται πίεση πριν από μεταφορά. Μια οικογένεια σε μπλακ άουτ μπορεί να χρειάζεται να γεμίσει δοχεία νερού και να κάνει οικονομία στην μπαταρία πριν συζητήσει μακροπρόθεσμα σχέδια. Χρησιμοποίησε επαναλαμβανόμενο κύκλο: τι μπορεί να μας σκοτώσει σε λεπτά, τι μπορεί να μας βλάψει σε ώρες, τι θα μας αποδυναμώσει σε ημέρες και τι πρέπει να διατηρηθεί για εβδομάδες.",
+    "steps_en": ["Stop unnecessary movement for one minute and scan for immediate danger.","Name the next three priorities out loud or on paper.","Assign simple roles if you are not alone.","Protect heat, water, and light-producing tools early.","Reassess every few hours or after major change."],
+    "steps_el": ["Σταμάτα τις άσκοπες κινήσεις για ένα λεπτό και έλεγξε για άμεσο κίνδυνο.","Ονόμασε τις επόμενες τρεις προτεραιότητες δυνατά ή σε χαρτί.","Δώσε απλούς ρόλους αν δεν είσαι μόνος.","Προστάτεψε νωρίς τη θερμότητα, το νερό και τα μέσα φωτισμού.","Επανεκτίμησε κάθε λίγες ώρες ή μετά από μεγάλη αλλαγή."],
+    "warnings_en": ["Do not let hunger distract you from cold, bleeding, dehydration, or unsafe air.","Fast movement without a plan burns water, calories, and attention.","Children, sick people, and elders deteriorate faster than healthy adults."],
+    "warnings_el": ["Μην αφήνεις την πείνα να σε αποσπά από το κρύο, την αιμορραγία, την αφυδάτωση ή τον επικίνδυνο αέρα.","Η γρήγορη μετακίνηση χωρίς σχέδιο καίει νερό, θερμίδες και προσοχή.","Παιδιά, άρρωστοι και ηλικιωμένοι χειροτερεύουν πιο γρήγορα από υγιείς ενήλικες."],
+    "mistakes_en": ["Immediately starting large tasks without checking for the actual life threat.","Arguing about long-term strategy before stabilizing heat, water, and injury control.","Using all batteries, clean water, or fuel in the first day because stress makes scarcity feel permanent."],
+    "mistakes_el": ["Να ξεκινάς μεγάλες ενέργειες χωρίς να ελέγχεις ποιος είναι ο πραγματικός κίνδυνος ζωής.","Να τσακώνεσαι για μακροπρόθεσμη στρατηγική πριν σταθεροποιήσεις θερμότητα, νερό και τραύματα.","Να ξοδεύεις όλες τις μπαταρίες, το καθαρό νερό ή το καύσιμο την πρώτη μέρα επειδή το στρες κάνει τη στέρηση να φαίνεται μόνιμη."],
+    "related_topics": ["Risk Assessment in Unstable Environments", "Family Preparedness and Daily Hardship Routines", "Water Collection and Purification"],
+    "difficulty": "low","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Expanded in-place knowledge pass."
   },
   {
     "id": "survival_foundations::risk_assessment",
     "topic": "Risk Assessment in Unstable Environments",
     "category": "survival_foundations",
     "subcategory": "situational_awareness",
-    "tags": [
-      "risk",
-      "situational-awareness",
-      "security",
-      "movement",
-      "planning"
-    ],
-    "summary_en": "Good risk assessment is not guessing what feels scary. It is comparing probability, severity, and exposure. A smaller danger that is constant, like cold drafts, unsafe water, poor sanitation, or visible routines, often deserves more attention than dramatic low-probability fears.",
-    "summary_el": "Η σωστή εκτίμηση κινδύνου δεν είναι να μαντεύεις τι φαίνεται τρομακτικό. Είναι να συγκρίνεις πιθανότητα, σοβαρότητα και έκθεση. Ένας μικρότερος αλλά συνεχής κίνδυνος, όπως το κρύο, το ακατάλληλο νερό, η κακή υγιεινή ή οι προβλέψιμες συνήθειες, συχνά αξίζει μεγαλύτερη προσοχή από έναν δραματικό αλλά σπάνιο φόβο.",
-    "content_en": "In unstable environments, people either underestimate the routine dangers or overreact to rumors. Both are costly. Build a simple risk picture every day. Look at exposure first: who can see you, what can fail, what you depend on, what happens if one item breaks, and whether your route, shelter, or routine can be predicted. Then look at severity: if the problem happens, is it uncomfortable, disabling, or fatal? Finally look at control: what can you reduce today with little cost? This method helps in war zones, blackouts, occupied cities, and rural hardship because it turns vague fear into concrete adjustments such as storing water low and cool, reducing visible light at night, changing travel timing, keeping documents in duplicate, or insulating sleeping areas better. The best risk reductions are usually quiet, boring, and repeated.",
-    "content_el": "Σε ασταθή περιβάλλοντα οι άνθρωποι είτε υποτιμούν τους καθημερινούς κινδύνους είτε υπεραντιδρούν σε φήμες. Και τα δύο κοστίζουν. Χτίσε κάθε μέρα μια απλή εικόνα κινδύνου. Κοίτα πρώτα την έκθεση: ποιος μπορεί να σε δει, τι μπορεί να χαλάσει, από τι εξαρτάσαι, τι γίνεται αν σπάσει ένα μόνο αντικείμενο και αν η διαδρομή, το κατάλυμα ή η ρουτίνα σου είναι προβλέψιμα. Μετά κοίτα τη σοβαρότητα: αν συμβεί το πρόβλημα, είναι απλώς ενοχλητικό, σε αχρηστεύει ή σε σκοτώνει; Τέλος κοίτα τον έλεγχο: τι μπορείς να μειώσεις σήμερα με μικρό κόστος; Αυτή η μέθοδος βοηθά σε πόλεμο, μπλακ άουτ, κατοχή πόλης και αγροτική δυσκολία επειδή μετατρέπει τον αόριστο φόβο σε συγκεκριμένες προσαρμογές όπως αποθήκευση νερού χαμηλά και δροσερά, μείωση ορατού φωτός τη νύχτα, αλλαγή χρόνου μετακίνησης, διπλά αντίγραφα εγγράφων ή καλύτερη μόνωση στον χώρο ύπνου. Οι καλύτερες μειώσεις κινδύνου είναι συνήθως ήσυχες, βαρετές και επαναλαμβανόμενες.",
-    "steps_en": [
-      "List the top five things your household depends on right now: water source, medicine, fuel, charger, route, person, income, or outside aid.",
-      "For each one, ask what happens if it fails for 24 hours, 7 days, and 30 days.",
-      "Reduce single points of failure first: duplicate documents, backup containers, alternate route, spare light, paper contacts, extra sanitation supplies.",
-      "Review visible habits that expose you, such as regular departure time, bright windows, or loud generator use.",
-      "Update the list after any move, injury, weather event, or policy change."
-    ],
-    "steps_el": [
-      "Γράψε τα πέντε βασικά πράγματα από τα οποία εξαρτάται τώρα το νοικοκυριό: πηγή νερού, φάρμακα, καύσιμο, φορτιστής, διαδρομή, πρόσωπο, εισόδημα ή εξωτερική βοήθεια.",
-      "Για το καθένα, ρώτησε τι γίνεται αν λείψει για 24 ώρες, 7 μέρες και 30 μέρες.",
-      "Μείωσε πρώτα τα μοναδικά σημεία αποτυχίας: διπλά έγγραφα, εφεδρικά δοχεία, εναλλακτική διαδρομή, δεύτερο φως, χαρτί με επαφές, επιπλέον είδη υγιεινής.",
-      "Έλεγξε συνήθειες που σε εκθέτουν, όπως σταθερή ώρα αναχώρησης, φωτεινά παράθυρα ή θορυβώδης γεννήτρια.",
-      "Ενημέρωσε τη λίστα μετά από κάθε μετακίνηση, τραυματισμό, καιρικό γεγονός ή αλλαγή κανονισμών."
-    ],
-    "warnings_en": [
-      "Visible predictability can be more dangerous than lack of speed.",
-      "Do not build plans around rumors unless they are verified by multiple trusted sources.",
-      "A plan that depends on one person staying healthy is fragile."
-    ],
-    "warnings_el": [
-      "Η ορατή προβλεψιμότητα μπορεί να είναι πιο επικίνδυνη από την έλλειψη ταχύτητας.",
-      "Μην χτίζεις σχέδια πάνω σε φήμες αν δεν επιβεβαιώνονται από πολλαπλές αξιόπιστες πηγές.",
-      "Ένα σχέδιο που εξαρτάται από το να μείνει υγιής μόνο ένας άνθρωπος είναι εύθραυστο."
-    ],
-    "mistakes_en": [
-      "Focusing only on dramatic threats such as attack while ignoring water contamination or exposure.",
-      "Changing many variables at once, which makes it hard to know what improved the situation.",
-      "Confusing secrecy with resilience; hidden but fragile systems still fail."
-    ],
-    "mistakes_el": [
-      "Να εστιάζεις μόνο σε δραματικές απειλές όπως επίθεση και να αγνοείς μολυσμένο νερό ή έκθεση στο κρύο.",
-      "Να αλλάζεις πολλές μεταβλητές μαζί, με αποτέλεσμα να μη φαίνεται τι όντως βελτίωσε την κατάσταση.",
-      "Να μπερδεύεις τη μυστικότητα με την ανθεκτικότητα· ένα κρυφό αλλά εύθραυστο σύστημα πάλι αποτυγχάνει."
-    ],
-    "related_topics": [
-      "Survival Priorities Under Pressure",
-      "Family Preparedness and Daily Hardship Routines",
-      "Communication Plans and Record Discipline"
-    ],
-    "difficulty": "medium",
-    "urgency": "high",
-    "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "Initial production build."
+    "tags": ["risk", "situational-awareness", "security", "movement", "planning"],
+    "summary_en": "Good risk assessment is not guessing what feels scary. It is comparing probability, severity, and exposure.",
+    "summary_el": "Η σωστή εκτίμηση κινδύνου δεν είναι να μαντεύεις τι φαίνεται τρομακτικό. Είναι να συγκρίνεις πιθανότητα, σοβαρότητα και έκθεση.",
+    "content_en": "In unstable environments, people either underestimate routine dangers or overreact to rumors. Build a simple risk picture every day. Look at exposure first: who can see you, what can fail, what you depend on, what happens if one item breaks, and whether your route, shelter, or routine can be predicted. Then look at severity: if the problem happens, is it uncomfortable, disabling, or fatal? Finally look at control: what can you reduce today with little cost? This method turns vague fear into concrete adjustments such as storing water low and cool, reducing visible light, changing travel timing, and insulating sleeping areas better.",
+    "content_el": "Σε ασταθή περιβάλλοντα οι άνθρωποι είτε υποτιμούν τους καθημερινούς κινδύνους είτε υπεραντιδρούν σε φήμες. Χτίσε κάθε μέρα μια απλή εικόνα κινδύνου. Κοίτα πρώτα την έκθεση: ποιος μπορεί να σε δει, τι μπορεί να χαλάσει, από τι εξαρτάσαι, τι γίνεται αν σπάσει ένα μόνο αντικείμενο και αν η διαδρομή, το κατάλυμα ή η ρουτίνα σου είναι προβλέψιμα. Μετά κοίτα τη σοβαρότητα: αν συμβεί το πρόβλημα, είναι απλώς ενοχλητικό, σε αχρηστεύει ή σε σκοτώνει; Τέλος κοίτα τον έλεγχο: τι μπορείς να μειώσεις σήμερα με μικρό κόστος; Αυτή η μέθοδος μετατρέπει τον αόριστο φόβο σε συγκεκριμένες προσαρμογές όπως αποθήκευση νερού χαμηλά και δροσερά, μείωση ορατού φωτός, αλλαγή χρόνου μετακίνησης και καλύτερη μόνωση στον χώρο ύπνου.",
+    "steps_en": ["List the top five things your household depends on right now.","For each one, ask what happens if it fails for 24 hours, 7 days, and 30 days.","Reduce single points of failure first.","Review visible habits that expose you.","Update the list after any move, injury, weather event, or policy change."],
+    "steps_el": ["Γράψε τα πέντε βασικά πράγματα από τα οποία εξαρτάται τώρα το νοικοκυριό.","Για το καθένα, ρώτησε τι γίνεται αν λείψει για 24 ώρες, 7 μέρες και 30 μέρες.","Μείωσε πρώτα τα μοναδικά σημεία αποτυχίας.","Έλεγξε συνήθειες που σε εκθέτουν.","Ενημέρωσε τη λίστα μετά από κάθε μετακίνηση, τραυματισμό, καιρικό γεγονός ή αλλαγή κανονισμών."],
+    "warnings_en": ["Visible predictability can be more dangerous than lack of speed.","Do not build plans around rumors unless verified.","A plan that depends on one person staying healthy is fragile."],
+    "warnings_el": ["Η ορατή προβλεψιμότητα μπορεί να είναι πιο επικίνδυνη από την έλλειψη ταχύτητας.","Μην χτίζεις σχέδια πάνω σε φήμες αν δεν επιβεβαιώνονται.","Ένα σχέδιο που εξαρτάται από το να μείνει υγιής μόνο ένας άνθρωπος είναι εύθραυστο."],
+    "mistakes_en": ["Focusing only on dramatic threats while ignoring exposure or contamination.","Changing many variables at once.","Confusing secrecy with resilience."],
+    "mistakes_el": ["Να εστιάζεις μόνο σε δραματικές απειλές και να αγνοείς έκθεση ή μόλυνση.","Να αλλάζεις πολλές μεταβλητές μαζί.","Να μπερδεύεις τη μυστικότητα με την ανθεκτικότητα."],
+    "related_topics": ["Survival Priorities Under Pressure", "Family Preparedness and Daily Hardship Routines", "Communication Plans and Record Discipline"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Expanded in-place knowledge pass."
   },
   {
     "id": "survival_foundations::family_routines",
     "topic": "Family Preparedness and Daily Hardship Routines",
     "category": "survival_foundations",
     "subcategory": "household_preparedness",
-    "tags": [
-      "family",
-      "routine",
-      "children",
-      "preparedness",
-      "discipline"
-    ],
-    "summary_en": "Hardship becomes survivable when the household has repeatable routines. Routines reduce decision fatigue, stop duplication of effort, and calm children and exhausted adults. In unstable conditions, a boring schedule is a survival tool.",
-    "summary_el": "Οι δυσκολίες γίνονται πιο διαχειρίσιμες όταν το νοικοκυριό έχει επαναλαμβανόμενες ρουτίνες. Οι ρουτίνες μειώνουν την κόπωση από αποφάσεις, σταματούν τις διπλές δουλειές και ηρεμούν παιδιά και εξαντλημένους ενήλικες. Σε ασταθείς συνθήκες, ένα βαρετό πρόγραμμα είναι εργαλείο επιβίωσης.",
-    "content_en": "A household under pressure bleeds strength through forgotten tasks: no one refills water, batteries are left on, trash accumulates, food is cooked without a plan, and medicine times drift. A daily routine prevents this. Morning should include health check, water check, sanitation check, weather/security check, and task assignment. Midday should handle the hardest physical work while light and body heat are available. Evening should focus on preparing for night: light discipline, charging priorities, tomorrow's water containers, secure clothing and shoes, and checking who needs medication, warmth, or reassurance. Children need truthful but age-appropriate explanations and stable tasks such as sorting items, carrying light loads, or tracking candles and soap. People cope better when they know what happens next.",
-    "content_el": "Ένα πιεσμένο νοικοκυριό χάνει δύναμη από ξεχασμένες δουλειές: κανείς δεν ξαναγεμίζει νερό, οι μπαταρίες μένουν ανοιχτές, τα σκουπίδια συσσωρεύονται, το φαγητό μαγειρεύεται χωρίς σχέδιο και οι ώρες φαρμάκων μετακινούνται. Μια καθημερινή ρουτίνα το αποτρέπει. Το πρωί πρέπει να περιλαμβάνει έλεγχο υγείας, έλεγχο νερού, καθαριότητας, καιρού/ασφάλειας και κατανομή εργασιών. Το μεσημέρι πρέπει να γίνεται η πιο βαριά φυσική δουλειά όσο υπάρχει φως και ζέστη. Το βράδυ πρέπει να προετοιμάζεται η νύχτα: πειθαρχία στο φως, προτεραιότητες φόρτισης, δοχεία νερού για αύριο, ασφαλή ρούχα και παπούτσια και έλεγχος ποιος χρειάζεται φάρμακο, ζεστασιά ή ψυχολογική στήριξη. Τα παιδιά χρειάζονται ειλικρινείς αλλά κατάλληλες εξηγήσεις και σταθερές εργασίες όπως ταξινόμηση αντικειμένων, μεταφορά ελαφριών βαρών ή μέτρημα κεριών και σαπουνιού. Οι άνθρωποι αντέχουν καλύτερα όταν ξέρουν τι ακολουθεί.",
-    "steps_en": [
-      "Make a one-page daily checklist and keep it visible.",
-      "Assign fixed roles but train a backup person for each role.",
-      "Keep morning and evening check-ins short, calm, and predictable.",
-      "Record medicine use, injuries, water level, and any unusual event on paper.",
-      "Review the routine weekly and simplify anything that causes friction."
-    ],
-    "steps_el": [
-      "Φτιάξε ένα μονοσέλιδο ημερήσιο checklist και κράτησέ το σε εμφανές σημείο.",
-      "Δώσε σταθερούς ρόλους αλλά εκπαίδευσε και δεύτερο άτομο για κάθε ρόλο.",
-      "Κράτα τον πρωινό και βραδινό έλεγχο σύντομο, ήρεμο και προβλέψιμο.",
-      "Κατέγραψε σε χαρτί φάρμακα, τραυματισμούς, επίπεδο νερού και κάθε ασυνήθιστο γεγονός.",
-      "Έλεγξε τη ρουτίνα εβδομαδιαία και απλοποίησε ό,τι δημιουργεί τριβή."
-    ],
-    "warnings_en": [
-      "A routine must be flexible enough to adapt to danger, weather, and illness.",
-      "Do not overload one competent person until they collapse.",
-      "Night preparation is often more important than late-night productivity."
-    ],
-    "warnings_el": [
-      "Η ρουτίνα πρέπει να είναι αρκετά ευέλικτη ώστε να προσαρμόζεται σε κίνδυνο, καιρό και ασθένεια.",
-      "Μην φορτώνεις ένα ικανό άτομο μέχρι να καταρρεύσει.",
-      "Η προετοιμασία της νύχτας είναι συχνά σημαντικότερη από την παραγωγικότητα αργά το βράδυ."
-    ],
-    "mistakes_en": [
-      "Turning every day into a crisis meeting instead of a stable work cycle.",
-      "Hiding all information from children, which increases fear and imagination.",
-      "Failing to record supplies and medicine because everyone assumes someone else did it."
-    ],
-    "mistakes_el": [
-      "Να μετατρέπεις κάθε μέρα σε συμβούλιο κρίσης αντί για σταθερό κύκλο εργασίας.",
-      "Να κρύβεις τα πάντα από τα παιδιά, κάτι που αυξάνει τον φόβο και τη φαντασία.",
-      "Να μην καταγράφεις προμήθειες και φάρμακα επειδή όλοι νομίζουν ότι το έκανε κάποιος άλλος."
-    ],
-    "related_topics": [
-      "Survival Priorities Under Pressure",
-      "Panic Control and Mental Grounding",
-      "Communication Plans and Record Discipline"
-    ],
-    "difficulty": "low",
-    "urgency": "medium",
-    "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "Initial production build."
+    "tags": ["family", "routine", "children", "preparedness", "discipline"],
+    "summary_en": "Hardship becomes survivable when the household has repeatable routines. A boring schedule is a survival tool.",
+    "summary_el": "Οι δυσκολίες γίνονται πιο διαχειρίσιμες όταν το νοικοκυριό έχει επαναλαμβανόμενες ρουτίνες. Ένα βαρετό πρόγραμμα είναι εργαλείο επιβίωσης.",
+    "content_en": "A household under pressure bleeds strength through forgotten tasks: no one refills water, batteries are left on, trash accumulates, food is cooked without a plan, and medicine times drift. A daily routine prevents this. Morning should include health check, water check, sanitation check, weather/security check, and task assignment. Evening should focus on preparing for night: light discipline, charging priorities, tomorrow's water containers, secure clothing and shoes, and checking who needs medication, warmth, or reassurance. Children need truthful but age-appropriate explanations and stable tasks.",
+    "content_el": "Ένα πιεσμένο νοικοκυριό χάνει δύναμη από ξεχασμένες δουλειές: κανείς δεν ξαναγεμίζει νερό, οι μπαταρίες μένουν ανοιχτές, τα σκουπίδια συσσωρεύονται, το φαγητό μαγειρεύεται χωρίς σχέδιο και οι ώρες φαρμάκων μετακινούνται. Μια καθημερινή ρουτίνα το αποτρέπει. Το πρωί πρέπει να περιλαμβάνει έλεγχο υγείας, έλεγχο νερού, καθαριότητας, καιρού/ασφάλειας και κατανομή εργασιών. Το βράδυ πρέπει να προετοιμάζεται η νύχτα: πειθαρχία στο φως, προτεραιότητες φόρτισης, δοχεία νερού για αύριο, ασφαλή ρούχα και παπούτσια και έλεγχος ποιος χρειάζεται φάρμακο, ζεστασιά ή ψυχολογική στήριξη. Τα παιδιά χρειάζονται ειλικρινείς αλλά κατάλληλες εξηγήσεις και σταθερές εργασίες.",
+    "steps_en": ["Make a one-page daily checklist and keep it visible.","Assign fixed roles but train a backup person for each role.","Keep morning and evening check-ins short, calm, and predictable.","Record medicine use, injuries, water level, and unusual events.","Review the routine weekly and simplify anything that causes friction."],
+    "steps_el": ["Φτιάξε ένα μονοσέλιδο ημερήσιο checklist και κράτησέ το σε εμφανές σημείο.","Δώσε σταθερούς ρόλους αλλά εκπαίδευσε και δεύτερο άτομο για κάθε ρόλο.","Κράτα τον πρωινό και βραδινό έλεγχο σύντομο, ήρεμο και προβλέψιμο.","Κατέγραψε σε χαρτί φάρμακα, τραυματισμούς, επίπεδο νερού και ασυνήθιστα γεγονότα.","Έλεγξε τη ρουτίνα εβδομαδιαία και απλοποίησε ό,τι δημιουργεί τριβή."],
+    "warnings_en": ["A routine must adapt to danger, weather, and illness.","Do not overload one competent person until they collapse.","Night preparation is often more important than late-night productivity."],
+    "warnings_el": ["Η ρουτίνα πρέπει να προσαρμόζεται σε κίνδυνο, καιρό και ασθένεια.","Μην φορτώνεις ένα ικανό άτομο μέχρι να καταρρεύσει.","Η προετοιμασία της νύχτας είναι συχνά σημαντικότερη από την παραγωγικότητα αργά το βράδυ."],
+    "mistakes_en": ["Turning every day into a crisis meeting.","Hiding all information from children.","Failing to record supplies and medicine because everyone assumes someone else did it."],
+    "mistakes_el": ["Να μετατρέπεις κάθε μέρα σε συμβούλιο κρίσης.","Να κρύβεις τα πάντα από τα παιδιά.","Να μην καταγράφεις προμήθειες και φάρμακα επειδή όλοι νομίζουν ότι το έκανε κάποιος άλλος."],
+    "related_topics": ["Survival Priorities Under Pressure", "Panic Control and Mental Grounding", "Communication Plans and Record Discipline"],
+    "difficulty": "low","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Expanded in-place knowledge pass."
+  },
+  {
+    "id": "survival_foundations::low_profile",
+    "topic": "Low-Profile Survival and Resource Discipline",
+    "category": "survival_foundations",
+    "subcategory": "low_profile_survival",
+    "tags": ["low-profile", "concealment", "resources", "discipline", "household"],
+    "summary_en": "Low-profile survival means reducing the signals that reveal your weakness, patterns, and stock while still meeting real household needs.",
+    "summary_el": "Η επιβίωση χαμηλού προφίλ σημαίνει να μειώνεις τα σημάδια που αποκαλύπτουν αδυναμία, μοτίβα και αποθέματα ενώ συνεχίζεις να καλύπτεις τις πραγματικές ανάγκες του νοικοκυριού.",
+    "content_en": "Many households think concealment only means hiding. In practice, low-profile survival is broader: controlling visible light, noise, repeated movement, waste display, fuel smell, obvious storage, and predictable routine. The goal is not paranoia. The goal is to reduce unnecessary exposure that attracts dependence, pressure, theft, or targeting. Resource discipline supports low-profile living because chaotic use creates visible patterns: frequent trips for water, loud late-night cooking, and careless lighting tell others more than words do. A disciplined household looks quieter, calmer, and less fragile.",
+    "content_el": "Πολλά νοικοκυριά νομίζουν ότι η απόκρυψη σημαίνει μόνο να κρύβεσαι. Στην πράξη, η επιβίωση χαμηλού προφίλ είναι ευρύτερη: έλεγχος ορατού φωτός, θορύβου, επαναλαμβανόμενης μετακίνησης, έκθεσης αποβλήτων, μυρωδιάς καυσίμου, εμφανών αποθεμάτων και προβλέψιμης ρουτίνας. Ο στόχος δεν είναι η παράνοια. Ο στόχος είναι η μείωση της περιττής έκθεσης που τραβά εξάρτηση, πίεση, κλοπή ή στόχευση. Η πειθαρχία πόρων στηρίζει τη ζωή χαμηλού προφίλ γιατί η χαοτική χρήση δημιουργεί ορατά μοτίβα: συχνές διαδρομές για νερό, θορυβώδες νυχτερινό μαγείρεμα και απρόσεκτος φωτισμός λένε στους άλλους περισσότερα απ’ όσα λένε τα λόγια. Ένα πειθαρχημένο νοικοκυριό φαίνεται πιο ήσυχο, πιο ήρεμο και λιγότερο εύθραυστο.",
+    "steps_en": ["Reduce noise, light, and repeated visible trips where possible.","Store supplies so daily living does not display total stock.","Plan resource use so you are not exposing need or abundance every day.","Review routines for what they reveal from outside.","Match concealment with real function rather than fear alone."],
+    "steps_el": ["Μείωσε θόρυβο, φως και επαναλαμβανόμενες ορατές διαδρομές όπου γίνεται.","Αποθήκευσε προμήθειες ώστε η καθημερινή ζωή να μην εκθέτει όλο το απόθεμα.","Σχεδίασε χρήση πόρων ώστε να μην αποκαλύπτεις κάθε μέρα ούτε ανάγκη ούτε αφθονία.","Έλεγξε τις ρουτίνες για το τι αποκαλύπτουν από έξω.","Ταίριαξε την απόκρυψη με πραγματική λειτουργία και όχι μόνο με φόβο."],
+    "warnings_en": ["Visible abundance can draw pressure as fast as visible weakness.","Low-profile living should not become neglect of hygiene or recovery needs.","Predictability is often more dangerous than modest scarcity."],
+    "warnings_el": ["Η ορατή αφθονία μπορεί να τραβήξει πίεση τόσο γρήγορα όσο και η ορατή αδυναμία.","Η ζωή χαμηλού προφίλ δεν πρέπει να γίνει αμέλεια υγιεινής ή ανάρρωσης.","Η προβλεψιμότητα είναι συχνά πιο επικίνδυνη από τη μέτρια στέρηση."],
+    "mistakes_en": ["Treating concealment as only visual hiding.","Repeating the same obvious movement pattern every day.","Making household life noisy and reactive under stress."],
+    "mistakes_el": ["Να αντιμετωπίζεις την απόκρυψη μόνο ως οπτικό κρύψιμο.","Να επαναλαμβάνεις το ίδιο εμφανές μοτίβο κίνησης κάθε μέρα.","Να κάνεις τη ζωή του νοικοκυριού θορυβώδη και αντιδραστική μέσα στο στρες."],
+    "related_topics": ["Risk Assessment in Unstable Environments", "Low-Profile Daily Routines Under Wartime Instability", "Urban Blackout and Apartment Survival"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Expanded in-place knowledge pass."
   }
 ]

@@ -9,46 +9,14 @@
     "summary_el": "Οι καταστροφές τιμωρούν την καθυστέρηση. Η ασφαλέστερη αντίδραση έρχεται όταν έχεις ήδη αποφασίσει πού πας, τι προστατεύεις πρώτο και πότε φεύγεις πριν η μετακίνηση γίνει χάος.",
     "content_en": "Floods, severe storms, and wildfire each destroy security in different ways, but all reward early disciplined action. Floods contaminate water, isolate routes, and trap people in low ground. Storms exploit weak windows, roofs, loose materials, and poor lighting. Wildfire spreads through heat, smoke, panic, and blocked routes. A good disaster response starts with prediction and simplification: move critical records, water, medicines, shoes, clothing, and lights into ready position; know the safest room or departure route; secure loose items; and leave before the route becomes contested by traffic, water, or flame. After the visible event, secondary dangers remain: contaminated water, unstable structures, downed wires, hidden embers, and sanitation failure.",
     "content_el": "Οι πλημμύρες, οι έντονες καταιγίδες και οι πυρκαγιές καταστρέφουν την ασφάλεια με διαφορετικούς τρόπους, αλλά όλες ανταμείβουν την έγκαιρη πειθαρχημένη δράση. Οι πλημμύρες μολύνουν το νερό, αποκόπτουν διαδρομές και παγιδεύουν ανθρώπους σε χαμηλό έδαφος. Οι καταιγίδες χτυπούν αδύναμα παράθυρα, στέγες, χαλαρά υλικά και κακό φωτισμό. Οι πυρκαγιές εξαπλώνονται μέσω θερμότητας, καπνού, πανικού και κλεισμένων δρόμων. Η καλή αντίδραση ξεκινά με πρόβλεψη και απλοποίηση: μετακίνησε έγγραφα, νερό, φάρμακα, παπούτσια, ρούχα και φώτα σε έτοιμη θέση· γνώριζε το ασφαλέστερο δωμάτιο ή τη διαδρομή φυγής· στερέωσε χαλαρά αντικείμενα· και φύγε πριν η διαδρομή μπλοκαριστεί από κίνηση, νερό ή φωτιά. Μετά το ορατό γεγονός, παραμένουν δευτερογενείς κίνδυνοι: μολυσμένο νερό, ασταθείς κατασκευές, πεσμένα καλώδια, κρυφές καύτρες και αποτυχία υγιεινής.",
-    "steps_en": [
-      "Prepare evacuation logic and safe-room logic before the event.",
-      "Move essential items into ready position early.",
-      "Secure loose hazards and protect documents and bedding.",
-      "Leave before the route becomes dangerous, not after.",
-      "Inspect for secondary hazards before resuming normal routine."
-    ],
-    "steps_el": [
-      "Ετοίμασε λογική εκκένωσης και ασφαλούς δωματίου πριν το γεγονός.",
-      "Μετέφερε κρίσιμα αντικείμενα σε θέση ετοιμότητας νωρίς.",
-      "Στερέωσε χαλαρούς κινδύνους και προστάτεψε έγγραφα και στρωσίδια.",
-      "Φύγε πριν γίνει επικίνδυνη η διαδρομή, όχι μετά.",
-      "Έλεγξε για δευτερογενείς κινδύνους πριν επιστρέψεις σε κανονική ρουτίνα."
-    ],
-    "warnings_en": [
-      "The aftermath may be more dangerous than the visible event itself.",
-      "Floodwater is often contaminated and physically hazardous.",
-      "Smoke, heat, and unstable structures can persist after flames or wind drop."
-    ],
-    "warnings_el": [
-      "Το μετά μπορεί να είναι πιο επικίνδυνο από το ίδιο το ορατό γεγονός.",
-      "Το νερό πλημμύρας είναι συχνά μολυσμένο και σωματικά επικίνδυνο.",
-      "Καπνός, θερμότητα και ασταθείς δομές μπορεί να μείνουν και μετά την πτώση της φωτιάς ή του αέρα."
-    ],
-    "mistakes_en": [
-      "Preparing only for the dramatic moment and not for the dirty aftermath.",
-      "Leaving critical papers and medicine in low or exposed places.",
-      "Waiting for certainty instead of acting on clear trend."
-    ],
-    "mistakes_el": [
-      "Να προετοιμάζεσαι μόνο για τη δραματική στιγμή και όχι για το βρόμικο μετά.",
-      "Να αφήνεις κρίσιμα χαρτιά και φάρμακα σε χαμηλά ή εκτεθειμένα σημεία.",
-      "Να περιμένεις βεβαιότητα αντί να ενεργείς πάνω σε καθαρή επιδείνωση."
-    ],
+    "steps_en": ["Prepare evacuation logic and safe-room logic before the event.","Move essential items into ready position early.","Secure loose hazards and protect documents and bedding.","Leave before the route becomes dangerous, not after.","Inspect for secondary hazards before resuming normal routine."],
+    "steps_el": ["Ετοίμασε λογική εκκένωσης και ασφαλούς δωματίου πριν το γεγονός.","Μετέφερε κρίσιμα αντικείμενα σε θέση ετοιμότητας νωρίς.","Στερέωσε χαλαρούς κινδύνους και προστάτεψε έγγραφα και στρωσίδια.","Φύγε πριν γίνει επικίνδυνη η διαδρομή, όχι μετά.","Έλεγξε για δευτερογενείς κινδύνους πριν επιστρέψεις σε κανονική ρουτίνα."],
+    "warnings_en": ["The aftermath may be more dangerous than the visible event itself.","Floodwater is often contaminated and physically hazardous.","Smoke, heat, and unstable structures can persist after flames or wind drop."],
+    "warnings_el": ["Το μετά μπορεί να είναι πιο επικίνδυνο από το ίδιο το ορατό γεγονός.","Το νερό πλημμύρας είναι συχνά μολυσμένο και σωματικά επικίνδυνο.","Καπνός, θερμότητα και ασταθείς δομές μπορεί να μείνουν και μετά την πτώση της φωτιάς ή του αέρα."],
+    "mistakes_en": ["Preparing only for the dramatic moment and not for the dirty aftermath.","Leaving critical papers and medicine in low or exposed places.","Waiting for certainty instead of acting on clear trend."],
+    "mistakes_el": ["Να προετοιμάζεσαι μόνο για τη δραματική στιγμή και όχι για το βρόμικο μετά.","Να αφήνεις κρίσιμα χαρτιά και φάρμακα σε χαμηλά ή εκτεθειμένα σημεία.","Να περιμένεις βεβαιότητα αντί να ενεργείς πάνω σε καθαρή επιδείνωση."],
     "related_topics": ["Route Planning, Evacuation, and Shelter-in-Place Logic", "Storm Hardening and Basic Repairs", "Camp Sanitation and Waste Control"],
-    "difficulty": "medium",
-    "urgency": "high",
-    "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "Batch repo push expansion."
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Expanded in-place knowledge pass."
   },
   {
     "id": "disaster::heat_cold_smoke",
@@ -58,47 +26,34 @@
     "tags": ["heat", "cold", "smoke", "weather", "exposure"],
     "summary_en": "Exposure weakens thinking before it kills the body. Heat, cold, and smoke all reduce performance early, so response has to start before collapse is obvious.",
     "summary_el": "Η έκθεση εξασθενεί τη σκέψη πριν σκοτώσει το σώμα. Ζέστη, κρύο και καπνός μειώνουν νωρίς την απόδοση, άρα η αντίδραση πρέπει να ξεκινά πριν φανεί κατάρρευση.",
-    "content_en": "Heat drives dehydration, bad temper, and mistakes. Cold removes dexterity, morale, and sound judgment. Smoke reduces visibility, breathing comfort, and long-term safety. A practical response layers several small actions: reduce exposure, increase fluids, adjust work-rest cycles, protect clean air and sleep, keep clothing dry, and watch vulnerable people early. In hot weather, shift labor out of peak heat. In cold, protect the ground layer and dry the body. In smoke, reduce outdoor time and create the cleanest indoor air zone possible. Waiting until symptoms become dramatic usually means acting late.",
-    "content_el": "Η ζέστη αυξάνει αφυδάτωση, εκνευρισμό και λάθη. Το κρύο αφαιρεί επιδεξιότητα, ηθικό και σωστή κρίση. Ο καπνός μειώνει ορατότητα, άνεση αναπνοής και μακροπρόθεσμη ασφάλεια. Η πρακτική απάντηση είναι να στρώσεις πολλά μικρά μέτρα: μείωση έκθεσης, περισσότερα υγρά, προσαρμογή κύκλων δουλειάς-ανάπαυσης, προστασία καθαρού αέρα και ύπνου, στεγνά ρούχα και έγκαιρη παρακολούθηση ευάλωτων ανθρώπων. Σε ζέστη, βγάλε τη βαριά εργασία έξω από την αιχμή θερμοκρασίας. Σε κρύο, προστάτεψε το στρώμα του εδάφους και στέγνωσε το σώμα. Σε καπνό, μείωσε τον χρόνο έξω και φτιάξε την καθαρότερη δυνατή εσωτερική ζώνη αέρα. Αν περιμένεις μέχρι να γίνουν τα συμπτώματα δραματικά, συνήθως ενεργείς αργά.",
-    "steps_en": [
-      "Adjust work, rest, water, and clothing to the environment.",
-      "Protect shade, dry layers, or cleaner air depending on the condition.",
-      "Watch for confusion, clumsiness, unusual fatigue, and breathing difficulty.",
-      "Reduce expectations for children, elders, and sick people early.",
-      "Preserve sleep and recovery because exposure accumulates across days."
-    ],
-    "steps_el": [
-      "Προσάρμοσε εργασία, ανάπαυση, νερό και ρούχα στο περιβάλλον.",
-      "Προστάτεψε σκιά, στεγνά στρώματα ή καθαρότερο αέρα ανάλογα με την κατάσταση.",
-      "Παρακολούθησε για σύγχυση, αδεξιότητα, ασυνήθιστη κόπωση και δυσκολία αναπνοής.",
-      "Μείωσε νωρίς τις απαιτήσεις για παιδιά, ηλικιωμένους και αρρώστους.",
-      "Διαφύλαξε ύπνο και ανάρρωση γιατί η έκθεση συσσωρεύεται μέσα στις μέρες."
-    ],
-    "warnings_en": [
-      "Exposure injuries often worsen because people deny them too long.",
-      "Smoke and heat can drain people quietly before they realize it.",
-      "Wet clothing and cold surfaces accelerate decline."
-    ],
-    "warnings_el": [
-      "Οι τραυματισμοί από έκθεση συχνά χειροτερεύουν επειδή οι άνθρωποι τους αρνούνται για πολύ.",
-      "Ο καπνός και η ζέστη μπορούν να αδειάσουν αθόρυβα τον άνθρωπο πριν το καταλάβει.",
-      "Τα βρεγμένα ρούχα και οι κρύες επιφάνειες επιταχύνουν την πτώση."
-    ],
-    "mistakes_en": [
-      "Treating discomfort as weakness instead of warning.",
-      "Scheduling hard work at the worst part of the day.",
-      "Ignoring sleep damage during prolonged exposure."
-    ],
-    "mistakes_el": [
-      "Να θεωρείς τη δυσφορία αδυναμία αντί για προειδοποίηση.",
-      "Να βάζεις βαριά δουλειά στη χειρότερη ώρα της ημέρας.",
-      "Να αγνοείς τη ζημιά στον ύπνο σε παρατεταμένη έκθεση."
-    ],
+    "content_en": "Heat drives dehydration, bad temper, and mistakes. Cold removes dexterity, morale, and sound judgment. Smoke reduces visibility, breathing comfort, and long-term safety. A practical response layers several small actions: reduce exposure, increase fluids, adjust work-rest cycles, protect clean air and sleep, keep clothing dry, and watch vulnerable people early. Waiting until symptoms become dramatic usually means acting late.",
+    "content_el": "Η ζέστη αυξάνει αφυδάτωση, εκνευρισμό και λάθη. Το κρύο αφαιρεί επιδεξιότητα, ηθικό και σωστή κρίση. Ο καπνός μειώνει ορατότητα, άνεση αναπνοής και μακροπρόθεσμη ασφάλεια. Η πρακτική απάντηση είναι να στρώσεις πολλά μικρά μέτρα: μείωση έκθεσης, περισσότερα υγρά, προσαρμογή κύκλων δουλειάς-ανάπαυσης, προστασία καθαρού αέρα και ύπνου, στεγνά ρούχα και έγκαιρη παρακολούθηση ευάλωτων ανθρώπων. Αν περιμένεις μέχρι να γίνουν τα συμπτώματα δραματικά, συνήθως ενεργείς αργά.",
+    "steps_en": ["Adjust work, rest, water, and clothing to the environment.","Protect shade, dry layers, or cleaner air depending on the condition.","Watch for confusion, clumsiness, unusual fatigue, and breathing difficulty.","Reduce expectations for children, elders, and sick people early.","Preserve sleep and recovery because exposure accumulates across days."],
+    "steps_el": ["Προσάρμοσε εργασία, ανάπαυση, νερό και ρούχα στο περιβάλλον.","Προστάτεψε σκιά, στεγνά στρώματα ή καθαρότερο αέρα ανάλογα με την κατάσταση.","Παρακολούθησε για σύγχυση, αδεξιότητα, ασυνήθιστη κόπωση και δυσκολία αναπνοής.","Μείωσε νωρίς τις απαιτήσεις για παιδιά, ηλικιωμένους και αρρώστους.","Διαφύλαξε ύπνο και ανάρρωση γιατί η έκθεση συσσωρεύεται μέσα στις μέρες."],
+    "warnings_en": ["Exposure injuries often worsen because people deny them too long.","Smoke and heat can drain people quietly before they realize it.","Wet clothing and cold surfaces accelerate decline."],
+    "warnings_el": ["Οι τραυματισμοί από έκθεση συχνά χειροτερεύουν επειδή οι άνθρωποι τους αρνούνται για πολύ.","Ο καπνός και η ζέστη μπορούν να αδειάσουν αθόρυβα τον άνθρωπο πριν το καταλάβει.","Τα βρεγμένα ρούχα και οι κρύες επιφάνειες επιταχύνουν την πτώση."],
+    "mistakes_en": ["Treating discomfort as weakness instead of warning.","Scheduling hard work at the worst part of the day.","Ignoring sleep damage during prolonged exposure."],
+    "mistakes_el": ["Να θεωρείς τη δυσφορία αδυναμία αντί για προειδοποίηση.","Να βάζεις βαριά δουλειά στη χειρότερη ώρα της ημέρας.","Να αγνοείς τη ζημιά στον ύπνο σε παρατεταμένη έκθεση."],
     "related_topics": ["Circulation, Breathing, and Body Heat", "Improvised Shelter and Insulation", "Water Storage and Rationing"],
-    "difficulty": "low",
-    "urgency": "high",
-    "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "Batch repo push expansion."
+    "difficulty": "low","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Expanded in-place knowledge pass."
+  },
+  {
+    "id": "disaster::earthquake_aftershock",
+    "topic": "Earthquake and Aftershock Routines",
+    "category": "weather_disasters",
+    "subcategory": "earthquake_response",
+    "tags": ["earthquake", "aftershock", "building", "injury", "disaster"],
+    "summary_en": "Earthquake survival is not only about the shaking. The bigger danger often comes from what breaks afterward: stairs, glass, gas, water lines, panic movement, and unsafe re-entry.",
+    "summary_el": "Η επιβίωση σε σεισμό δεν αφορά μόνο το κούνημα. Ο μεγαλύτερος κίνδυνος έρχεται συχνά από όσα σπάνε μετά: σκάλες, γυαλιά, αέριο, σωλήνες νερού, πανικόβλητη κίνηση και επικίνδυνη επανείσοδο.",
+    "content_en": "An earthquake compresses many risks into minutes: falling objects, broken footing, dust, darkness, trapped exits, fire hazard, and structural uncertainty. Aftershocks multiply danger because people often rush back into unstable spaces too early. A useful routine is to protect from immediate falling hazard, move carefully once the primary shaking stops, check for injury and fire risk, secure footwear and light, and treat every damaged stairwell or interior wall as suspect until proven otherwise. Earthquake discipline is about controlled movement and secondary hazard awareness, not only the first shock itself.",
+    "content_el": "Ένας σεισμός συμπιέζει πολλούς κινδύνους σε λίγα λεπτά: πτώση αντικειμένων, σπασμένο πάτημα, σκόνη, σκοτάδι, μπλοκαρισμένες έξοδοι, κίνδυνο φωτιάς και δομική αβεβαιότητα. Οι μετασεισμοί πολλαπλασιάζουν τον κίνδυνο γιατί οι άνθρωποι συχνά μπαίνουν πίσω πολύ νωρίς σε ασταθείς χώρους. Μια χρήσιμη ρουτίνα είναι να προστατευτείς από τον άμεσο κίνδυνο πτώσης, να κινηθείς προσεκτικά μόλις σταματήσει το κύριο κούνημα, να ελέγξεις τραυματισμό και κίνδυνο φωτιάς, να εξασφαλίσεις παπούτσια και φως και να θεωρείς κάθε χαλασμένο κλιμακοστάσιο ή εσωτερικό τοίχο ύποπτο μέχρι να αποδειχθεί ασφαλές. Η πειθαρχία σεισμού αφορά ελεγχόμενη κίνηση και επίγνωση δευτερογενών κινδύνων, όχι μόνο το πρώτο σοκ.",
+    "steps_en": ["Protect yourself from falling hazards first.","Move carefully only after the main shaking stops.","Check for injury, fire, gas, broken glass, and blocked exits.","Treat aftershocks as expected, not surprising.","Avoid rushed re-entry into visibly damaged spaces."],
+    "steps_el": ["Προστάτεψε πρώτα τον εαυτό σου από κίνδυνο πτώσης αντικειμένων.","Κινήσου προσεκτικά μόνο αφού σταματήσει το κύριο κούνημα.","Έλεγξε για τραυματισμό, φωτιά, αέριο, σπασμένα γυαλιά και μπλοκαρισμένες εξόδους.","Θεώρησε τους μετασεισμούς αναμενόμενους, όχι απρόσμενους.","Απόφυγε βιαστική επανείσοδο σε εμφανώς κατεστραμμένους χώρους."],
+    "warnings_en": ["Aftershock injuries often come from unsafe re-entry and bad footing.","Broken utilities may create more danger than the first shaking.","Darkness and panic multiply staircase risk."],
+    "warnings_el": ["Οι τραυματισμοί από μετασεισμούς έρχονται συχνά από επικίνδυνη επανείσοδο και κακό πάτημα.","Οι χαλασμένες παροχές μπορεί να δημιουργήσουν μεγαλύτερο κίνδυνο από το πρώτο κούνημα.","Το σκοτάδι και ο πανικός πολλαπλασιάζουν τον κίνδυνο σκάλας."],
+    "mistakes_en": ["Running blindly during the main shaking.","Going back inside too early to retrieve things.","Treating one quiet minute as proof the danger is over."],
+    "mistakes_el": ["Να τρέχεις στα τυφλά κατά το κύριο κούνημα.","Να μπαίνεις ξανά πολύ νωρίς μέσα για να πάρεις πράγματα.","Να θεωρείς ένα ήσυχο λεπτό απόδειξη ότι πέρασε ο κίνδυνος."],
+    "related_topics": ["Urban Blackout and Apartment Survival", "Apartment Building Sanitation and Stairwell Rules", "Symptom Logs and Daily Health Checks"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Expanded in-place knowledge pass."
   }
 ]

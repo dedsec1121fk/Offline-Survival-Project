@@ -1,0 +1,22 @@
+update_014.txt
+Date: 2026-03-30
+Update batch: 014
+
+What this pass changed
+- Expanded survival_foundations.json in place
+  - added Low-Profile Survival and Resource Discipline
+- Expanded movement_navigation_evacuation.json in place
+  - added Night Movement and Checkpoint Awareness
+- Expanded disasters_and_weather.json in place
+  - added Earthquake and Aftershock Routines
+- Expanded tools_repairs_and_maintenance.json in place
+  - added Clothing Mending and Patch Repair Under Scarcity
+
+Why this matters
+- These are direct deepening passes inside older core categories from the original prompt.
+- The database now connects basic survival logic more tightly to concealment, movement discipline, earthquake response, and fabric/gear continuity.
+
+Quality notes
+- Added distinct entries rather than filler or near-duplicate text.
+- Preserved bilingual EN/EL structure.
+- Kept the focus on practical field use under real stress.
