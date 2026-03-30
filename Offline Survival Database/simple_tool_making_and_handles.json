@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tools::simple_tool_making",
+    "topic": "Simple Tool Making and Handle Repair",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "basic_tool_construction",
+    "tags": ["tools", "making", "handles", "repair", "wood"],
+    "summary_en": "A survival system becomes stronger when basic tools can be repaired or improvised locally instead of being treated as disposable. Handles, wedges, grips, and simple shaping work matter more than people expect.",
+    "summary_el": "Ένα σύστημα επιβίωσης γίνεται ισχυρότερο όταν τα βασικά εργαλεία μπορούν να επισκευάζονται ή να αυτοσχεδιάζονται τοπικά αντί να αντιμετωπίζονται ως αναλώσιμα. Λαβές, σφήνες, grips και απλή διαμόρφωση μετρούν περισσότερο απ’ όσο νομίζουν οι άνθρωποι.",
+    "content_en": "Many useful tools fail not because the working edge is gone but because the handle, grip, tie, or fit has failed. A practical repair culture knows how to shape simple wooden handles, replace cracked grips, improve balance, secure working ends, and keep tools usable with local material. Tool making at this level is not advanced metallurgy. It is functional field construction: shaping wood, fitting parts, checking strength, preventing blisters, and matching the handle to the work. A repaired tool that works safely and repeatedly is often more valuable than a perfect tool that cannot be replaced.",
+    "content_el": "Πολλά χρήσιμα εργαλεία δεν χαλάνε επειδή χάθηκε η κόψη τους αλλά επειδή απέτυχε η λαβή, το grip, το δέσιμο ή το ταίριασμα. Μια πρακτική κουλτούρα επισκευής ξέρει πώς να διαμορφώνει απλές ξύλινες λαβές, να αντικαθιστά ραγισμένα grips, να βελτιώνει ισορροπία, να στερεώνει λειτουργικά άκρα και να κρατά τα εργαλεία χρήσιμα με τοπικό υλικό. Η κατασκευή εργαλείων σε αυτό το επίπεδο δεν είναι προχωρημένη μεταλλουργία. Είναι λειτουργική κατασκευή πεδίου: διαμόρφωση ξύλου, ταίριασμα μερών, έλεγχος αντοχής, πρόληψη φουσκαλών και ταίριασμα της λαβής με τη δουλειά. Ένα επισκευασμένο εργαλείο που δουλεύει με ασφάλεια και επανάληψη είναι συχνά πιο πολύτιμο από ένα τέλειο εργαλείο που δεν μπορεί να αντικατασταθεί.",
+    "steps_en": ["Check whether the failure is in the handle, fit, grip, or fastening.","Choose material that matches the load and repeated use.","Shape handles for control, not only for appearance.","Test repaired tools under light load before full work.","Keep notes on what local materials last best."],
+    "steps_el": ["Έλεγξε αν η αστοχία είναι στη λαβή, στο ταίριασμα, στο grip ή στη στερέωση.","Διάλεξε υλικό που ταιριάζει στο φορτίο και στην επαναλαμβανόμενη χρήση.","Διαμόρφωσε λαβές για έλεγχο και όχι μόνο για εμφάνιση.","Δοκίμασε τα επισκευασμένα εργαλεία σε μικρό φορτίο πριν από πλήρη εργασία.","Κράτα σημειώσεις για το ποια τοπικά υλικά αντέχουν καλύτερα."],
+    "warnings_en": ["A badly fitted handle can be more dangerous than a broken one.","Comfort matters because pain and blisters reduce work output fast.","Testing under full force too early can cause immediate failure."],
+    "warnings_el": ["Μια κακοταιριασμένη λαβή μπορεί να είναι πιο επικίνδυνη από μια σπασμένη.","Η άνεση μετρά γιατί ο πόνος και οι φουσκάλες ρίχνουν γρήγορα την απόδοση εργασίας.","Η δοκιμή με πλήρη δύναμη πολύ νωρίς μπορεί να προκαλέσει άμεση αστοχία."],
+    "mistakes_en": ["Repairing only for appearance.","Using weak local wood because it is easiest to grab.","Skipping light-load testing."],
+    "mistakes_el": ["Να επισκευάζεις μόνο για εμφάνιση.","Να χρησιμοποιείς αδύναμο τοπικό ξύλο επειδή είναι το πιο εύκολο να βρεθεί.","Να παραλείπεις δοκιμή σε μικρό φορτίο."],
+    "related_topics": ["Tools, Cordage, and Maintenance Discipline", "Workshop, Spare Parts, and Salvage Discipline", "Clothing Mending and Patch Repair Under Scarcity"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Mountain and practical survival expansion batch."
+  }
+]
