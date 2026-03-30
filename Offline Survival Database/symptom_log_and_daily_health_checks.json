@@ -1,0 +1,53 @@
+[
+  {
+    "id": "medical::daily_health_checks",
+    "topic": "Symptom Logs and Daily Health Checks",
+    "category": "medicine_first_aid",
+    "subcategory": "monitoring_and_recording",
+    "tags": ["symptoms", "health", "log", "monitoring", "records"],
+    "summary_en": "Many crises worsen because households notice decline too late. A short daily health check and symptom log turns vague worry into usable medical observation.",
+    "summary_el": "Πολλές κρίσεις χειροτερεύουν επειδή τα νοικοκυριά αντιλαμβάνονται την πτώση πολύ αργά. Ένας σύντομος καθημερινός έλεγχος υγείας και ένα ημερολόγιο συμπτωμάτων μετατρέπουν την αόριστη ανησυχία σε χρήσιμη ιατρική παρατήρηση.",
+    "content_en": "People under stress forget timing, hide symptoms, or assume that quiet decline is normal. A simple written health check reduces this blindness. The goal is not a perfect medical chart. The goal is to notice what is changing: fever trend, diarrhea frequency, vomiting, urine, wound condition, breathing effort, confusion, appetite, sleep, mobility, and medication timing. This is especially useful for children, elders, injured people, and anyone already weak. Good logs support triage, rationing, care decisions, and outside medical handover if help becomes available.",
+    "content_el": "Οι άνθρωποι υπό στρες ξεχνούν χρόνο, κρύβουν συμπτώματα ή υποθέτουν ότι η ήσυχη πτώση είναι φυσιολογική. Ένας απλός γραπτός έλεγχος υγείας μειώνει αυτή την τύφλωση. Ο στόχος δεν είναι τέλειος ιατρικός φάκελος. Ο στόχος είναι να φαίνεται τι αλλάζει: τάση πυρετού, συχνότητα διάρροιας, εμετοί, ούρα, κατάσταση τραύματος, προσπάθεια αναπνοής, σύγχυση, όρεξη, ύπνος, κινητικότητα και ώρα φαρμάκων. Αυτό είναι ιδιαίτερα χρήσιμο για παιδιά, ηλικιωμένους, τραυματισμένους και όποιον είναι ήδη αδύναμος. Τα καλά αρχεία βοηθούν σε διαλογή, οικονομία πόρων, αποφάσεις φροντίδας και παράδοση πληροφοριών σε εξωτερική βοήθεια αν γίνει διαθέσιμη.",
+    "steps_en": [
+      "Use the same daily questions and timing so changes become visible.",
+      "Write down fever, fluids, urine, appetite, breathing, wound condition, and medicine timing.",
+      "Mark sudden changes clearly instead of burying them in long notes.",
+      "Pay special attention to children, elders, and already weak people.",
+      "Bring the log into every care discussion or medical handover."
+    ],
+    "steps_el": [
+      "Χρησιμοποίησε τις ίδιες καθημερινές ερωτήσεις και ώρα ώστε να φαίνονται οι αλλαγές.",
+      "Γράφε πυρετό, υγρά, ούρα, όρεξη, αναπνοή, κατάσταση τραύματος και ώρες φαρμάκων.",
+      "Σημείωνε καθαρά τις ξαφνικές αλλαγές αντί να τις χάνεις σε μεγάλες σημειώσεις.",
+      "Δώσε ιδιαίτερη προσοχή σε παιδιά, ηλικιωμένους και ήδη αδύναμους ανθρώπους.",
+      "Χρησιμοποίησε το ημερολόγιο σε κάθε συζήτηση φροντίδας ή ιατρικής παράδοσης."
+    ],
+    "warnings_en": [
+      "A quiet patient may still be deteriorating.",
+      "Memory under stress is unreliable.",
+      "Medication mistakes increase when timing is not logged."
+    ],
+    "warnings_el": [
+      "Ένας ήσυχος ασθενής μπορεί πάλι να χειροτερεύει.",
+      "Η μνήμη υπό στρες είναι αναξιόπιστη.",
+      "Τα λάθη φαρμάκων αυξάνονται όταν δεν καταγράφεται ο χρόνος."
+    ],
+    "mistakes_en": [
+      "Relying on memory for symptom timing.",
+      "Writing huge unstructured notes instead of short usable observations.",
+      "Stopping checks just because the person looks slightly better."
+    ],
+    "mistakes_el": [
+      "Να βασίζεσαι στη μνήμη για τον χρόνο των συμπτωμάτων.",
+      "Να γράφεις τεράστιες αδόμητες σημειώσεις αντί για σύντομες χρήσιμες παρατηρήσεις.",
+      "Να σταματάς τους ελέγχους μόνο επειδή ο άνθρωπος φαίνεται λίγο καλύτερα."
+    ],
+    "related_topics": ["Quick Triage and First-Priority Casualty Sorting", "Bleeding Control and Wound Care", "Diarrhea, Vomiting, and Rehydration"],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Standalone expansion pass."
+  }
+]
