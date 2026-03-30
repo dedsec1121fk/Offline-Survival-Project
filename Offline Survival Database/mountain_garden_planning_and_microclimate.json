@@ -1,0 +1,25 @@
+[
+  {
+    "id": "agriculture::mountain_garden_microclimate",
+    "topic": "Mountain Garden Planning and Microclimate Use",
+    "category": "agriculture_food_production",
+    "subcategory": "mountain_gardening",
+    "tags": ["garden", "mountain", "microclimate", "soil", "food"],
+    "summary_en": "Mountain gardening depends less on big fields and more on smart placement. Slope, sun, wind, frost pockets, runoff, and stone heat all matter.",
+    "summary_el": "Η ορεινή κηπουρική εξαρτάται λιγότερο από μεγάλα χωράφια και περισσότερο από έξυπνη τοποθέτηση. Η κλίση, ο ήλιος, ο άνεμος, οι παγόλουκκοι, η απορροή και η θερμότητα της πέτρας όλα μετρούν.",
+    "content_en": "Mountain land punishes lazy garden planning. A good mountain garden reads the microclimate first: where cold air pools, where the sun reaches earliest, where wind strips moisture, where runoff gathers, and which stone or wall surfaces hold heat into the evening. Small good spots often outperform larger bad ones. Soil depth, drainage, and walking access matter because mountain work is already labor-heavy. Gardening in mountains is therefore a placement problem before it is a planting problem. Survival food production improves when the household chooses protected, workable, water-manageable locations instead of planting wherever there is simply open ground.",
+    "content_el": "Το ορεινό έδαφος τιμωρεί τον τεμπέλικο σχεδιασμό κήπου. Ένας καλός ορεινός κήπος διαβάζει πρώτα το μικροκλίμα: πού μαζεύεται ο κρύος αέρας, πού φτάνει νωρίτερα ο ήλιος, πού ο άνεμος τραβά υγρασία, πού συγκεντρώνεται η απορροή και ποιες πέτρες ή τοίχοι κρατούν θερμότητα μέχρι το βράδυ. Μικρά καλά σημεία συχνά αποδίδουν περισσότερο από μεγαλύτερα κακά. Το βάθος εδάφους, η αποστράγγιση και η πρόσβαση βάδισης μετρούν γιατί η ορεινή εργασία είναι ήδη βαριά. Η κηπουρική στα βουνά είναι λοιπόν πρώτα πρόβλημα τοποθέτησης και μετά πρόβλημα φύτευσης. Η παραγωγή τροφής βελτιώνεται όταν το νοικοκυριό διαλέγει προστατευμένες, δουλέψιμες και διαχειρίσιμες σε νερό θέσεις αντί να φυτεύει απλώς όπου υπάρχει ανοιχτό έδαφος.",
+    "steps_en": ["Observe sun, wind, runoff, frost pockets, and access before planting.","Use warmer protected edges, walls, and stone heat traps where helpful.","Avoid obvious cold pockets for vulnerable crops.","Match crop choice to real water and labor conditions.","Build small reliable growing zones before expanding."],
+    "steps_el": ["Παρατήρησε ήλιο, άνεμο, απορροή, παγόλουκκους και πρόσβαση πριν από τη φύτευση.","Χρησιμοποίησε θερμότερες προστατευμένες άκρες, τοίχους και παγίδες θερμότητας πέτρας όπου βοηθούν.","Απόφυγε προφανείς ψυχρές λούμπες για ευαίσθητες καλλιέργειες.","Ταίριαξε την επιλογή καλλιέργειας με τις πραγματικές συνθήκες νερού και εργασίας.","Χτίσε πρώτα μικρές αξιόπιστες ζώνες καλλιέργειας πριν επεκταθείς."],
+    "warnings_en": ["Open ground is not automatically good garden ground.","Wind and frost can destroy effort faster than poor seed alone.","A hard-to-reach plot can fail from labor burden even if the soil is decent."],
+    "warnings_el": ["Το ανοιχτό έδαφος δεν είναι αυτόματα καλό έδαφος κήπου.","Ο άνεμος και ο παγετός μπορούν να διαλύσουν την προσπάθεια γρηγορότερα από κακό σπόρο μόνο του.","Ένα δύσκολο στην πρόσβαση χωράφι μπορεί να αποτύχει από το βάρος εργασίας ακόμη κι αν το χώμα είναι καλό."],
+    "mistakes_en": ["Planting before reading the mountain microclimate.","Ignoring runoff and drainage until erosion begins.","Trying to scale too fast on difficult mountain ground."],
+    "mistakes_el": ["Να φυτεύεις πριν διαβάσεις το ορεινό μικροκλίμα.","Να αγνοείς απορροή και αποστράγγιση μέχρι να ξεκινήσει η διάβρωση.","Να προσπαθείς να μεγαλώσεις πολύ γρήγορα σε δύσκολο ορεινό έδαφος."],
+    "related_topics": ["Seed Stock Rotation and Crop Failure Prevention", "Village Water Storage and Distribution", "Household Food Planning and Staple Crops"],
+    "difficulty": "high",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Mountain and practical survival expansion batch."
+  }
+]
