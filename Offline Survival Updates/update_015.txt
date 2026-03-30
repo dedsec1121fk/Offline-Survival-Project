@@ -1,0 +1,24 @@
+update_015.txt
+Date: 2026-03-30
+Update batch: 015
+
+What this pass changed
+- Expanded medical_quick_triage.json in place
+  - added Airway and Breathing Observation in Low-Resource Care
+  - added Scene Control and Casualty Flow in Small Emergencies
+- Expanded symptom_log_and_daily_health_checks.json in place
+  - added Wound Monitoring and Infection Warning Notes
+  - added Medication Timing Charts and Dose Discipline
+- Expanded dehydration_and_heat_injury_management.json in place
+  - added Oral Rehydration Logic and Small-Sip Recovery
+  - added Heat Work-Rest Cycles and Recovery Discipline
+
+Why this matters
+- Medical depth now covers more than the first dramatic minute.
+- The database now supports follow-up care, medication timing discipline, wound trend observation, breathing observation, and heat workload management.
+- This makes the medical side more useful for long hardship, not only for one-time emergencies.
+
+Quality notes
+- Added distinct operational medical entries.
+- Avoided filler and overlap.
+- Preserved bilingual EN/EL parity.

@@ -9,45 +9,51 @@
     "summary_el": "Η θερμική βλάβη αρχίζει συχνά ως πτώση κρίσης, εκνευρισμός, αδυναμία και κακός συντονισμός πριν γίνει φανερή η κατάρρευση. Η έγκαιρη αντίδραση σώζει πολύ περισσότερη ζωή από την καθυστερημένη διάσωση.",
     "content_en": "Dehydration and heat injury are not only desert problems. They appear in urban outages, heavy work, smoke conditions, high-humidity apartments, long stair climbs, and any setting where water loss and heat load outrun recovery. Early signs include thirst, dry mouth, headache, unusual fatigue, poor concentration, irritability, and reduced urine. Worsening signs include dizziness, confusion, rapid pulse, vomiting, inability to continue work, hot skin, and collapse. Management begins with stopping work, moving to cooler conditions, reducing clothing and heat load, restoring fluids carefully, and monitoring for worsening mental status. People often fail by pushing through the first warning signs because they want to finish the task. That delay can turn a manageable condition into a medical emergency.",
     "content_el": "Η αφυδάτωση και η θερμική βλάβη δεν είναι μόνο πρόβλημα ερήμου. Εμφανίζονται σε αστικά μπλακ άουτ, βαριά εργασία, συνθήκες καπνού, διαμερίσματα με υγρασία, μεγάλες ανόδους σκάλας και κάθε κατάσταση όπου η απώλεια νερού και το θερμικό φορτίο ξεπερνούν την ανάρρωση. Τα πρώιμα σημάδια περιλαμβάνουν δίψα, ξηροστομία, πονοκέφαλο, ασυνήθιστη κόπωση, πτώση συγκέντρωσης, εκνευρισμό και μειωμένα ούρα. Τα επιδεινούμενα σημάδια περιλαμβάνουν ζάλη, σύγχυση, γρήγορο σφυγμό, εμετό, αδυναμία συνέχισης εργασίας, καυτό δέρμα και κατάρρευση. Η αντιμετώπιση αρχίζει με διακοπή εργασίας, μετακίνηση σε πιο δροσερές συνθήκες, μείωση ρούχων και θερμικού φορτίου, προσεκτική αποκατάσταση υγρών και παρακολούθηση για επιδείνωση νοητικής κατάστασης. Οι άνθρωποι συχνά αποτυγχάνουν επειδή προσπαθούν να αντέξουν τα πρώτα προειδοποιητικά σημάδια για να τελειώσουν τη δουλειά. Αυτή η καθυστέρηση μπορεί να μετατρέψει μια διαχειρίσιμη κατάσταση σε ιατρικό επείγον.",
-    "steps_en": [
-      "Stop work early when heat symptoms begin instead of waiting for collapse.",
-      "Move to shade, airflow, or cooler indoor space.",
-      "Loosen clothing and reduce direct heat exposure.",
-      "Replace fluids steadily and watch for mental-status change.",
-      "Reduce workload for the rest of the day, not only for a few minutes."
-    ],
-    "steps_el": [
-      "Σταμάτα νωρίς τη δουλειά όταν αρχίζουν τα σημάδια θερμότητας αντί να περιμένεις κατάρρευση.",
-      "Πήγαινε σε σκιά, ρεύμα αέρα ή πιο δροσερό εσωτερικό χώρο.",
-      "Χαλάρωσε ρούχα και μείωσε την άμεση έκθεση σε θερμότητα.",
-      "Αναπλήρωνε υγρά σταθερά και παρακολούθησε για αλλαγή νοητικής κατάστασης.",
-      "Μείωσε το φορτίο εργασίας για το υπόλοιπο της ημέρας, όχι μόνο για λίγα λεπτά."
-    ],
-    "warnings_en": [
-      "Confusion, collapse, or persistent vomiting are danger signs.",
-      "A person who says they are fine may already be impaired by heat.",
-      "Recovery is incomplete if the person returns immediately to the same heat load."
-    ],
-    "warnings_el": [
-      "Σύγχυση, κατάρρευση ή επίμονος εμετός είναι σημάδια κινδύνου.",
-      "Ένας άνθρωπος που λέει ότι είναι καλά μπορεί ήδη να έχει επηρεαστεί από τη ζέστη.",
-      "Η ανάρρωση είναι ατελής αν ο άνθρωπος επιστρέψει αμέσως στο ίδιο θερμικό φορτίο."
-    ],
-    "mistakes_en": [
-      "Treating early heat signs as weakness or laziness.",
-      "Trying to finish heavy work before resting and cooling.",
-      "Replacing fluids too late or too irregularly."
-    ],
-    "mistakes_el": [
-      "Να θεωρείς τα πρώιμα σημάδια ζέστης αδυναμία ή τεμπελιά.",
-      "Να προσπαθείς να τελειώσεις βαριά δουλειά πριν ξεκουραστείς και δροσιστείς.",
-      "Να αναπληρώνεις υγρά πολύ αργά ή πολύ άτακτα."
-    ],
+    "steps_en": ["Stop work early when heat symptoms begin instead of waiting for collapse.","Move to shade, airflow, or cooler indoor space.","Loosen clothing and reduce direct heat exposure.","Replace fluids steadily and watch for mental-status change.","Reduce workload for the rest of the day, not only for a few minutes."],
+    "steps_el": ["Σταμάτα νωρίς τη δουλειά όταν αρχίζουν τα σημάδια θερμότητας αντί να περιμένεις κατάρρευση.","Πήγαινε σε σκιά, ρεύμα αέρα ή πιο δροσερό εσωτερικό χώρο.","Χαλάρωσε ρούχα και μείωσε την άμεση έκθεση σε θερμότητα.","Αναπλήρωνε υγρά σταθερά και παρακολούθησε για αλλαγή νοητικής κατάστασης.","Μείωσε το φορτίο εργασίας για το υπόλοιπο της ημέρας, όχι μόνο για λίγα λεπτά."],
+    "warnings_en": ["Confusion, collapse, or persistent vomiting are danger signs.","A person who says they are fine may already be impaired by heat.","Recovery is incomplete if the person returns immediately to the same heat load."],
+    "warnings_el": ["Σύγχυση, κατάρρευση ή επίμονος εμετός είναι σημάδια κινδύνου.","Ένας άνθρωπος που λέει ότι είναι καλά μπορεί ήδη να έχει επηρεαστεί από τη ζέστη.","Η ανάρρωση είναι ατελής αν ο άνθρωπος επιστρέψει αμέσως στο ίδιο θερμικό φορτίο."],
+    "mistakes_en": ["Treating early heat signs as weakness or laziness.","Trying to finish heavy work before resting and cooling.","Replacing fluids too late or too irregularly."],
+    "mistakes_el": ["Να θεωρείς τα πρώιμα σημάδια ζέστης αδυναμία ή τεμπελιά.","Να προσπαθείς να τελειώσεις βαριά δουλειά πριν ξεκουραστείς και δροσιστείς.","Να αναπληρώνεις υγρά πολύ αργά ή πολύ άτακτα."],
     "related_topics": ["Heat, Cold, and Smoke Conditions", "Water Storage and Rationing", "Symptom Logs and Daily Health Checks"],
-    "difficulty": "medium",
-    "urgency": "high",
-    "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "High-detail knowledge expansion."
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Expanded medical depth pass."
+  },
+  {
+    "id": "medical::oral_rehydration_logic",
+    "topic": "Oral Rehydration Logic and Small-Sip Recovery",
+    "category": "medicine_first_aid",
+    "subcategory": "rehydration_support",
+    "tags": ["oral rehydration", "sips", "vomiting", "diarrhea", "fluids"],
+    "summary_en": "Rehydration fails less from lack of fluid than from giving it badly. Small repeated intake often succeeds where large hurried drinking causes more vomiting or refusal.",
+    "summary_el": "Η επανυδάτωση αποτυγχάνει λιγότερο από έλλειψη υγρού και περισσότερο από κακή χορήγηση. Η μικρή επαναλαμβανόμενη λήψη συχνά πετυχαίνει εκεί που το βιαστικό πολύ ποτό προκαλεί περισσότερο εμετό ή άρνηση.",
+    "content_en": "A sick or overheated person may need fluid urgently but still fail to tolerate large amounts at once. Oral rehydration works best when it is steady, measured, and matched to the person's condition. Small sips, frequent pauses, and patient persistence often outperform one large effort. This matters in vomiting, diarrhea, heat exhaustion, and recovery from heavy work. The goal is not speed alone; it is successful absorption. Track whether thirst eases, urine returns, alertness improves, and dizziness decreases. If each attempt triggers more vomiting or the person's awareness worsens, the situation is more urgent.",
+    "content_el": "Ένας άρρωστος ή υπερθερμασμένος άνθρωπος μπορεί να χρειάζεται επειγόντως υγρά αλλά να μην αντέχει μεγάλες ποσότητες μονομιάς. Η στοματική επανυδάτωση δουλεύει καλύτερα όταν είναι σταθερή, μετρημένη και ταιριασμένη με την κατάσταση του ανθρώπου. Μικρές γουλιές, συχνές παύσεις και υπομονή συχνά αποδίδουν περισσότερο από μία μεγάλη προσπάθεια. Αυτό μετρά σε εμετό, διάρροια, θερμική εξάντληση και ανάρρωση από βαριά εργασία. Ο στόχος δεν είναι μόνο η ταχύτητα· είναι η επιτυχής απορρόφηση. Παρακολούθησε αν μειώνεται η δίψα, επιστρέφουν ούρα, βελτιώνεται η εγρήγορση και πέφτει η ζάλη. Αν κάθε προσπάθεια προκαλεί περισσότερο εμετό ή αν πέφτει η επίγνωση, η κατάσταση είναι πιο επείγουσα.",
+    "steps_en": ["Start with small repeated sips instead of large volumes.","Pause briefly if nausea rises, then restart gently.","Use oral rehydration materials when available, especially in diarrhea or heat stress.","Track urine, alertness, dizziness, and ability to keep fluid down.","Continue rehydration after visible relief, not only until the person says they feel better."],
+    "steps_el": ["Ξεκίνα με μικρές επαναλαμβανόμενες γουλιές αντί για μεγάλες ποσότητες.","Κάνε σύντομη παύση αν ανεβαίνει η ναυτία και μετά ξανάρχισε ήπια.","Χρησιμοποίησε υλικά στοματικής επανυδάτωσης όπου υπάρχουν, ειδικά σε διάρροια ή θερμικό στρες.","Παρακολούθησε ούρα, εγρήγορση, ζάλη και ικανότητα διατήρησης υγρών.","Συνέχισε την επανυδάτωση και μετά τη φανερή ανακούφιση, όχι μόνο μέχρι να πει ο άνθρωπος ότι νιώθει καλύτερα."],
+    "warnings_en": ["Large fast drinking can worsen vomiting or be refused by exhausted people.","Reduced urine and rising confusion suggest worsening dehydration.","Visible improvement can fade quickly if fluids stop too early."],
+    "warnings_el": ["Το πολύ και γρήγορο ποτό μπορεί να χειροτερέψει τον εμετό ή να απορριφθεί από εξαντλημένους ανθρώπους.","Τα λίγα ούρα και η αυξανόμενη σύγχυση δείχνουν επιδείνωση αφυδάτωσης.","Η ορατή βελτίωση μπορεί να χαθεί γρήγορα αν τα υγρά σταματήσουν πολύ νωρίς."],
+    "mistakes_en": ["Treating rehydration like a race.","Stopping after one successful drink and not continuing the process.","Watching thirst but not watching urine and mental state."],
+    "mistakes_el": ["Να αντιμετωπίζεις την επανυδάτωση σαν αγώνα ταχύτητας.","Να σταματάς μετά από ένα πετυχημένο ποτό και να μην συνεχίζεις τη διαδικασία.","Να κοιτάς μόνο τη δίψα και όχι ούρα και νοητική κατάσταση."],
+    "related_topics": ["Diarrhea, Vomiting, and Rehydration", "Dehydration and Heat Injury Management", "Rehydration Solutions, Fever Control, and Pain Relief Basics"],
+    "difficulty": "low","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Expanded medical depth pass."
+  },
+  {
+    "id": "medical::heat_work_rest",
+    "topic": "Heat Work-Rest Cycles and Recovery Discipline",
+    "category": "medicine_first_aid",
+    "subcategory": "heat_workload_management",
+    "tags": ["heat", "work", "rest", "recovery", "discipline"],
+    "summary_en": "In heat, medical prevention is often operational discipline: shorter work blocks, earlier rest, and fluid timing that starts before thirst dominates judgment.",
+    "summary_el": "Στη ζέστη, η ιατρική πρόληψη είναι συχνά επιχειρησιακή πειθαρχία: μικρότερα μπλοκ δουλειάς, νωρίτερη ανάπαυση και ρυθμός υγρών που αρχίζει πριν κυριαρχήσει η δίψα στην κρίση.",
+    "content_en": "Heat illness often grows because people judge effort by willpower rather than by body response. A smarter system uses planned work-rest cycles, shade discipline, lighter task assignment in the hottest periods, and post-work recovery that continues after the task ends. Heavy labor, stair hauling, roof work, outdoor cooking, and smoke cleanup all multiply heat load. Recovery must include cooling, fluids, reduced workload, and observation, because a person who looks improved after ten minutes may still decline later if sent straight back to the same burden.",
+    "content_el": "Η θερμική ασθένεια συχνά μεγαλώνει επειδή οι άνθρωποι κρίνουν την προσπάθεια με βάση τη θέληση και όχι την αντίδραση του σώματος. Ένα πιο έξυπνο σύστημα χρησιμοποιεί προγραμματισμένους κύκλους δουλειάς-ανάπαυσης, πειθαρχία σκιάς, ελαφρύτερες δουλειές στις πιο ζεστές ώρες και ανάρρωση μετά τη δουλειά που συνεχίζεται και μετά το τέλος της προσπάθειας. Η βαριά εργασία, το κουβάλημα σε σκάλες, η δουλειά σε ταράτσες, το υπαίθριο μαγείρεμα και ο καθαρισμός καπνού πολλαπλασιάζουν το θερμικό φορτίο. Η ανάρρωση πρέπει να περιλαμβάνει δροσισμό, υγρά, μικρότερο φόρτο και παρακολούθηση, γιατί ένας άνθρωπος που φαίνεται καλύτερος μετά από δέκα λεπτά μπορεί ακόμη να πέσει αργότερα αν σταλεί κατευθείαν πίσω στο ίδιο βάρος." ,
+    "steps_en": ["Plan lighter tasks during peak heat and heavier tasks earlier or later.","Use regular rest before severe symptoms appear.","Pair hard work with shade, airflow, and fluid replacement.","Do not return people immediately to the same burden after heat symptoms.","Watch the most determined workers closely because they often hide decline."],
+    "steps_el": ["Σχεδίασε ελαφρύτερες δουλειές στις ώρες μεγάλης ζέστης και βαρύτερες νωρίς ή αργότερα.","Χρησιμοποίησε τακτική ανάπαυση πριν εμφανιστούν σοβαρά συμπτώματα.","Σύνδεσε τη βαριά εργασία με σκιά, αέρα και αναπλήρωση υγρών.","Μην επιστρέφεις αμέσως ανθρώπους στο ίδιο βάρος μετά από συμπτώματα ζέστης.","Παρακολούθησε στενά τους πιο πεισματικούς εργάτες γιατί συχνά κρύβουν την πτώση τους."],
+    "warnings_en": ["Determination can hide dangerous decline in hot environments.","A person who improves briefly may still need a reduced day.","Heat load accumulates across repeated tasks, not just one big effort."],
+    "warnings_el": ["Η αποφασιστικότητα μπορεί να κρύψει επικίνδυνη πτώση σε ζεστό περιβάλλον.","Ένας άνθρωπος που βελτιώνεται για λίγο μπορεί πάλι να χρειάζεται ελαφρύτερη μέρα.","Το θερμικό φορτίο συσσωρεύεται σε επαναλαμβανόμενες δουλειές και όχι μόνο σε μία μεγάλη προσπάθεια."],
+    "mistakes_en": ["Planning rest only after symptoms become obvious.","Treating recovery as a few minutes instead of a process.","Judging fitness by attitude instead of function."],
+    "mistakes_el": ["Να σχεδιάζεις ανάπαυση μόνο αφού γίνουν φανερά τα συμπτώματα.","Να αντιμετωπίζεις την ανάρρωση ως λίγα λεπτά αντί για διαδικασία.","Να κρίνεις την αντοχή από τη στάση και όχι από τη λειτουργία."],
+    "related_topics": ["Dehydration and Heat Injury Management", "Dehydration Signs and Water Failure Warning Patterns", "Symptom Logs and Daily Health Checks"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Expanded medical depth pass."
   }
 ]

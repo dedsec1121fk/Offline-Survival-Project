@@ -9,45 +9,51 @@
     "summary_el": "Πολλές κρίσεις χειροτερεύουν επειδή τα νοικοκυριά αντιλαμβάνονται την πτώση πολύ αργά. Ένας σύντομος καθημερινός έλεγχος υγείας και ένα ημερολόγιο συμπτωμάτων μετατρέπουν την αόριστη ανησυχία σε χρήσιμη ιατρική παρατήρηση.",
     "content_en": "People under stress forget timing, hide symptoms, or assume that quiet decline is normal. A simple written health check reduces this blindness. The goal is not a perfect medical chart. The goal is to notice what is changing: fever trend, diarrhea frequency, vomiting, urine, wound condition, breathing effort, confusion, appetite, sleep, mobility, and medication timing. This is especially useful for children, elders, injured people, and anyone already weak. Good logs support triage, rationing, care decisions, and outside medical handover if help becomes available.",
     "content_el": "Οι άνθρωποι υπό στρες ξεχνούν χρόνο, κρύβουν συμπτώματα ή υποθέτουν ότι η ήσυχη πτώση είναι φυσιολογική. Ένας απλός γραπτός έλεγχος υγείας μειώνει αυτή την τύφλωση. Ο στόχος δεν είναι τέλειος ιατρικός φάκελος. Ο στόχος είναι να φαίνεται τι αλλάζει: τάση πυρετού, συχνότητα διάρροιας, εμετοί, ούρα, κατάσταση τραύματος, προσπάθεια αναπνοής, σύγχυση, όρεξη, ύπνος, κινητικότητα και ώρα φαρμάκων. Αυτό είναι ιδιαίτερα χρήσιμο για παιδιά, ηλικιωμένους, τραυματισμένους και όποιον είναι ήδη αδύναμος. Τα καλά αρχεία βοηθούν σε διαλογή, οικονομία πόρων, αποφάσεις φροντίδας και παράδοση πληροφοριών σε εξωτερική βοήθεια αν γίνει διαθέσιμη.",
-    "steps_en": [
-      "Use the same daily questions and timing so changes become visible.",
-      "Write down fever, fluids, urine, appetite, breathing, wound condition, and medicine timing.",
-      "Mark sudden changes clearly instead of burying them in long notes.",
-      "Pay special attention to children, elders, and already weak people.",
-      "Bring the log into every care discussion or medical handover."
-    ],
-    "steps_el": [
-      "Χρησιμοποίησε τις ίδιες καθημερινές ερωτήσεις και ώρα ώστε να φαίνονται οι αλλαγές.",
-      "Γράφε πυρετό, υγρά, ούρα, όρεξη, αναπνοή, κατάσταση τραύματος και ώρες φαρμάκων.",
-      "Σημείωνε καθαρά τις ξαφνικές αλλαγές αντί να τις χάνεις σε μεγάλες σημειώσεις.",
-      "Δώσε ιδιαίτερη προσοχή σε παιδιά, ηλικιωμένους και ήδη αδύναμους ανθρώπους.",
-      "Χρησιμοποίησε το ημερολόγιο σε κάθε συζήτηση φροντίδας ή ιατρικής παράδοσης."
-    ],
-    "warnings_en": [
-      "A quiet patient may still be deteriorating.",
-      "Memory under stress is unreliable.",
-      "Medication mistakes increase when timing is not logged."
-    ],
-    "warnings_el": [
-      "Ένας ήσυχος ασθενής μπορεί πάλι να χειροτερεύει.",
-      "Η μνήμη υπό στρες είναι αναξιόπιστη.",
-      "Τα λάθη φαρμάκων αυξάνονται όταν δεν καταγράφεται ο χρόνος."
-    ],
-    "mistakes_en": [
-      "Relying on memory for symptom timing.",
-      "Writing huge unstructured notes instead of short usable observations.",
-      "Stopping checks just because the person looks slightly better."
-    ],
-    "mistakes_el": [
-      "Να βασίζεσαι στη μνήμη για τον χρόνο των συμπτωμάτων.",
-      "Να γράφεις τεράστιες αδόμητες σημειώσεις αντί για σύντομες χρήσιμες παρατηρήσεις.",
-      "Να σταματάς τους ελέγχους μόνο επειδή ο άνθρωπος φαίνεται λίγο καλύτερα."
-    ],
+    "steps_en": ["Use the same daily questions and timing so changes become visible.","Write down fever, fluids, urine, appetite, breathing, wound condition, and medicine timing.","Mark sudden changes clearly instead of burying them in long notes.","Pay special attention to children, elders, and already weak people.","Bring the log into every care discussion or medical handover."],
+    "steps_el": ["Χρησιμοποίησε τις ίδιες καθημερινές ερωτήσεις και ώρα ώστε να φαίνονται οι αλλαγές.","Γράφε πυρετό, υγρά, ούρα, όρεξη, αναπνοή, κατάσταση τραύματος και ώρες φαρμάκων.","Σημείωνε καθαρά τις ξαφνικές αλλαγές αντί να τις χάνεις σε μεγάλες σημειώσεις.","Δώσε ιδιαίτερη προσοχή σε παιδιά, ηλικιωμένους και ήδη αδύναμους ανθρώπους.","Χρησιμοποίησε το ημερολόγιο σε κάθε συζήτηση φροντίδας ή ιατρικής παράδοσης."],
+    "warnings_en": ["A quiet patient may still be deteriorating.","Memory under stress is unreliable.","Medication mistakes increase when timing is not logged."],
+    "warnings_el": ["Ένας ήσυχος ασθενής μπορεί πάλι να χειροτερεύει.","Η μνήμη υπό στρες είναι αναξιόπιστη.","Τα λάθη φαρμάκων αυξάνονται όταν δεν καταγράφεται ο χρόνος."],
+    "mistakes_en": ["Relying on memory for symptom timing.","Writing huge unstructured notes instead of short usable observations.","Stopping checks just because the person looks slightly better."],
+    "mistakes_el": ["Να βασίζεσαι στη μνήμη για τον χρόνο των συμπτωμάτων.","Να γράφεις τεράστιες αδόμητες σημειώσεις αντί για σύντομες χρήσιμες παρατηρήσεις.","Να σταματάς τους ελέγχους μόνο επειδή ο άνθρωπος φαίνεται λίγο καλύτερα."],
     "related_topics": ["Quick Triage and First-Priority Casualty Sorting", "Bleeding Control and Wound Care", "Diarrhea, Vomiting, and Rehydration"],
-    "difficulty": "low",
-    "urgency": "medium",
-    "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "Standalone expansion pass."
+    "difficulty": "low","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Expanded medical depth pass."
+  },
+  {
+    "id": "medical::wound_monitoring",
+    "topic": "Wound Monitoring and Infection Warning Notes",
+    "category": "medicine_first_aid",
+    "subcategory": "wound_follow_up",
+    "tags": ["wound", "infection", "monitoring", "healing", "records"],
+    "summary_en": "A wound rarely becomes dangerous all at once. It usually changes through pain, heat, redness, swelling, smell, drainage, fever, or loss of function. Notes help you catch that change earlier.",
+    "summary_el": "Ένα τραύμα σπάνια γίνεται επικίνδυνο μονομιάς. Συνήθως αλλάζει μέσω πόνου, ζέστης, κοκκινίλας, πρηξίματος, οσμής, υγρού, πυρετού ή απώλειας λειτουργίας. Οι σημειώσεις σε βοηθούν να το πιάσεις νωρίτερα.",
+    "content_en": "Under hardship, wound care often fails in follow-up rather than in the first cleaning. A wound that looked manageable yesterday may worsen because of repeated dirt exposure, poor rest, weak nutrition, low hygiene, or simple neglect. Good monitoring means looking at the same things in the same order every day: pain level, redness spread, swelling, heat, drainage, smell, tissue color, ability to move the area, and whether fever or weakness is appearing. Notes matter because memory lies under stress. A short daily wound record allows cleaner decisions about rest, cleaning frequency, workload, and urgency.",
+    "content_el": "Σε συνθήκες δυσκολίας, η φροντίδα τραύματος συχνά αποτυγχάνει όχι στο πρώτο καθάρισμα αλλά στην παρακολούθηση. Ένα τραύμα που χθες φαινόταν διαχειρίσιμο μπορεί να χειροτερέψει από επαναλαμβανόμενη βρωμιά, κακή ανάπαυση, αδύναμη διατροφή, χαμηλή υγιεινή ή απλή αμέλεια. Η καλή παρακολούθηση σημαίνει να κοιτάς τα ίδια πράγματα με την ίδια σειρά κάθε μέρα: επίπεδο πόνου, εξάπλωση κοκκινίλας, πρήξιμο, ζέστη, υγρά, οσμή, χρώμα ιστού, ικανότητα κίνησης της περιοχής και αν εμφανίζονται πυρετός ή αδυναμία. Οι σημειώσεις μετρούν γιατί η μνήμη λέει ψέματα μέσα στο στρες. Ένα σύντομο καθημερινό αρχείο τραύματος επιτρέπει καθαρότερες αποφάσεις για ανάπαυση, συχνότητα καθαρισμού, φορτίο εργασίας και επείγον." ,
+    "steps_en": ["Check the wound at a consistent time each day.","Write short notes on pain, redness, swelling, drainage, smell, movement, and fever.","Compare today's wound appearance to yesterday's, not to memory alone.","Reduce contamination and workload if healing stalls or worsens.","Increase urgency if signs spread beyond the wound itself."],
+    "steps_el": ["Έλεγχε το τραύμα σε σταθερή ώρα κάθε μέρα.","Γράφε σύντομες σημειώσεις για πόνο, κοκκινίλα, πρήξιμο, υγρά, οσμή, κίνηση και πυρετό.","Σύγκρινε την εικόνα του τραύματος με τη χθεσινή, όχι μόνο με τη μνήμη.","Μείωσε μόλυνση και φορτίο εργασίας αν η επούλωση σταματά ή χειροτερεύει.","Ανέβασε το επείγον αν τα σημάδια απλώνονται πέρα από το ίδιο το τραύμα."],
+    "warnings_en": ["A wound can look small and still create whole-body illness.","Bad smell, spreading redness, increasing pain, or fever are danger patterns.","Repeated friction and dirt can reverse earlier improvement."],
+    "warnings_el": ["Ένα τραύμα μπορεί να φαίνεται μικρό και πάλι να δημιουργήσει ασθένεια όλου του σώματος.","Κακή οσμή, απλωμένη κοκκινίλα, αυξανόμενος πόνος ή πυρετός είναι μοτίβα κινδύνου.","Η επαναλαμβανόμενη τριβή και η βρωμιά μπορούν να ακυρώσουν προηγούμενη βελτίωση."],
+    "mistakes_en": ["Only checking the wound when it hurts badly.","Assuming yesterday's cleaning guarantees today's safety.","Letting the injured person return to dirty or heavy work too soon."],
+    "mistakes_el": ["Να ελέγχεις το τραύμα μόνο όταν πονά πολύ.","Να θεωρείς ότι το χθεσινό καθάρισμα εγγυάται τη σημερινή ασφάλεια.","Να αφήνεις τον τραυματισμένο να επιστρέφει πολύ νωρίς σε βρόμικη ή βαριά εργασία."],
+    "related_topics": ["Bleeding Control and Wound Care", "Infection Spread, Healing, and Recovery Load", "Symptom Logs and Daily Health Checks"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Expanded medical depth pass."
+  },
+  {
+    "id": "medical::medication_charting",
+    "topic": "Medication Timing Charts and Dose Discipline",
+    "category": "medicine_first_aid",
+    "subcategory": "medicine_tracking",
+    "tags": ["medication", "timing", "dose", "chart", "records"],
+    "summary_en": "Under stress, medicine errors come less from bad intention than from bad timing memory. A simple chart prevents double-dosing, missed doses, and argument-based guesswork.",
+    "summary_el": "Μέσα στο στρες, τα λάθη φαρμάκων έρχονται λιγότερο από κακή πρόθεση και περισσότερο από κακή μνήμη χρόνου. Ένα απλό διάγραμμα αποτρέπει διπλές δόσεις, χαμένες δόσεις και μαντέματα μέσα σε καβγάδες.",
+    "content_en": "In a strained household, several people may give or suggest medicine at different times. Fatigue, darkness, fear, and interrupted sleep make timing memory unreliable. A medication chart solves a major part of this problem by recording the person, the medicine, the time given, the reason, and whether it helped or caused problems. This is especially valuable when more than one caregiver is involved, when a person is sick across multiple days, or when pain and fever fluctuate. The chart is not bureaucracy. It is prevention of confusion.",
+    "content_el": "Σε ένα πιεσμένο νοικοκυριό, πολλά άτομα μπορεί να δίνουν ή να προτείνουν φάρμακο σε διαφορετικές ώρες. Η κούραση, το σκοτάδι, ο φόβος και ο διακοπτόμενος ύπνος κάνουν τη μνήμη χρόνου αναξιόπιστη. Ένα διάγραμμα φαρμάκων λύνει μεγάλο μέρος αυτού του προβλήματος καταγράφοντας το άτομο, το φάρμακο, την ώρα χορήγησης, τον λόγο και αν βοήθησε ή δημιούργησε πρόβλημα. Αυτό είναι ιδιαίτερα χρήσιμο όταν συμμετέχουν περισσότεροι από ένας φροντιστές, όταν ένας άνθρωπος είναι άρρωστος για πολλές μέρες ή όταν ο πόνος και ο πυρετός ανεβοκατεβαίνουν. Το διάγραμμα δεν είναι γραφειοκρατία. Είναι πρόληψη σύγχυσης.",
+    "steps_en": ["Use one paper chart per person or one visible section per patient.","Write medicine name, time, reason, and giver clearly.","Check the chart before giving any new dose.","Note unusual reactions or failure to improve.","Keep the chart physically with the medicine area or patient area."],
+    "steps_el": ["Χρησιμοποίησε ένα χαρτί ανά άτομο ή ένα ορατό τμήμα ανά ασθενή.","Γράφε καθαρά όνομα φαρμάκου, ώρα, λόγο και ποιος το έδωσε.","Έλεγξε το διάγραμμα πριν δώσεις οποιαδήποτε νέα δόση.","Σημείωσε ασυνήθιστες αντιδράσεις ή έλλειψη βελτίωσης.","Κράτα το διάγραμμα μαζί με τα φάρμακα ή στον χώρο του ασθενούς."],
+    "warnings_en": ["Pain and fever medicines are easily overused when nobody tracks them.","Interrupted sleep destroys timing memory.","Charts matter most when more than one caregiver is involved."],
+    "warnings_el": ["Τα φάρμακα πόνου και πυρετού παραχρησιμοποιούνται εύκολα όταν κανείς δεν τα καταγράφει.","Ο διακοπτόμενος ύπνος καταστρέφει τη μνήμη χρόνου.","Τα διαγράμματα μετρούν περισσότερο όταν εμπλέκονται περισσότεροι από ένας φροντιστές."],
+    "mistakes_en": ["Giving medicine first and writing it down later.","Letting different caregivers keep separate memories instead of one shared chart.","Treating the schedule casually once the patient looks a little better."],
+    "mistakes_el": ["Να δίνεις πρώτα το φάρμακο και να το γράφεις αργότερα.","Να αφήνεις διαφορετικούς φροντιστές να κρατούν χωριστές μνήμες αντί για ένα κοινό διάγραμμα.","Να αντιμετωπίζεις χαλαρά το πρόγραμμα μόλις ο ασθενής δείξει λίγη βελτίωση."],
+    "related_topics": ["Antiseptics, Medicine Storage, and General Caution", "Rehydration Solutions, Fever Control, and Pain Relief Basics", "Symptom Logs and Daily Health Checks"],
+    "difficulty": "low","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Expanded medical depth pass."
   }
 ]
