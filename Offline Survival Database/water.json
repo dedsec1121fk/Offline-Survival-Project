@@ -120,5 +120,56 @@
     "priority": "high",
     "last_updated": "2026-03-30",
     "update_note": "Initial production build."
+  },
+  {
+    "id": "water::rainwater_security",
+    "topic": "Rainwater Capture and Container Security",
+    "category": "water",
+    "subcategory": "rain_capture_and_storage",
+    "tags": ["rainwater", "containers", "capture", "rooftop", "storage"],
+    "summary_en": "Rainwater can become one of the safest and most efficient emergency water sources, but only if capture surfaces, first collection, and storage containers are managed carefully.",
+    "summary_el": "Το βρόχινο νερό μπορεί να γίνει μία από τις ασφαλέστερες και πιο αποδοτικές πηγές έκτακτου νερού, αλλά μόνο αν οι επιφάνειες συλλογής, η πρώτη ροή και τα δοχεία αποθήκευσης διαχειρίζονται προσεκτικά.",
+    "content_en": "Rainwater is valuable because it may need less correction than surface runoff, but it is not automatically clean. Dust, bird waste, roof debris, insects, and dirty containers can contaminate it before anyone drinks it. Capture works best when the collection surface is reasonably clean, the first dirty runoff is discarded where practical, and the storage container is protected from hands, animals, sunlight, and standing contamination. Even when the source looks good, the water should still be treated according to actual risk. The real advantage of rain capture is volume and timing: a prepared household can gather large amounts quickly before systems fail further.",
+    "content_el": "Το βρόχινο νερό έχει αξία επειδή μπορεί να θέλει λιγότερη διόρθωση από τα επιφανειακά νερά, αλλά δεν είναι αυτόματα καθαρό. Σκόνη, περιττώματα πουλιών, σκουπίδια στέγης, έντομα και βρόμικα δοχεία μπορούν να το μολύνουν πριν το πιει κάποιος. Η συλλογή δουλεύει καλύτερα όταν η επιφάνεια είναι σχετικά καθαρή, η πρώτη βρόμικη ροή απορρίπτεται όπου γίνεται και το δοχείο προστατεύεται από χέρια, ζώα, ήλιο και σταθερή μόλυνση. Ακόμη κι όταν η πηγή φαίνεται καλή, το νερό πρέπει πάλι να αντιμετωπίζεται ανάλογα με τον πραγματικό κίνδυνο. Το αληθινό πλεονέκτημα της βροχής είναι ο όγκος και ο σωστός χρόνος: ένα προετοιμασμένο νοικοκυριό μπορεί να μαζέψει μεγάλες ποσότητες γρήγορα πριν χαλάσουν περισσότερο τα συστήματα.",
+    "steps_en": [
+      "Prepare clean containers before rain starts.",
+      "Use the cleanest collection surface available and discard early dirty runoff where practical.",
+      "Keep storage containers covered and separate from raw dirty tools.",
+      "Treat captured water according to contamination risk, not optimism.",
+      "Check stored rainwater regularly for insects, sediment, or container damage."
+    ],
+    "steps_el": [
+      "Ετοίμασε καθαρά δοχεία πριν αρχίσει η βροχή.",
+      "Χρησιμοποίησε την πιο καθαρή διαθέσιμη επιφάνεια και απόρριψε την πρώτη βρόμικη ροή όπου γίνεται.",
+      "Κράτα τα δοχεία αποθήκευσης σκεπασμένα και χωριστά από βρόμικα εργαλεία.",
+      "Επεξεργάσου το συλλεγμένο νερό με βάση τον κίνδυνο μόλυνσης, όχι την αισιοδοξία.",
+      "Έλεγχε το αποθηκευμένο βρόχινο νερό για έντομα, ίζημα ή ζημιά δοχείου."
+    ],
+    "warnings_en": [
+      "A clean sky does not guarantee a clean roof or clean container.",
+      "Open containers attract insects and accidental contamination.",
+      "Sunlight and heat degrade some stored water conditions quickly."
+    ],
+    "warnings_el": [
+      "Ένας καθαρός ουρανός δεν εγγυάται καθαρή στέγη ή καθαρό δοχείο.",
+      "Τα ανοιχτά δοχεία τραβούν έντομα και τυχαία μόλυνση.",
+      "Ο ήλιος και η ζέστη χειροτερεύουν γρήγορα ορισμένες συνθήκες αποθήκευσης νερού."
+    ],
+    "mistakes_en": [
+      "Collecting into containers that still smell or hold residue.",
+      "Assuming rooftop rainwater is automatically ready to drink.",
+      "Leaving captured rainwater uncovered in active household spaces."
+    ],
+    "mistakes_el": [
+      "Να συλλέγεις σε δοχεία που ακόμη μυρίζουν ή έχουν υπολείμματα.",
+      "Να θεωρείς ότι το νερό από στέγη είναι αυτόματα έτοιμο για πόση.",
+      "Να αφήνεις το συλλεγμένο βρόχινο νερό ακάλυπτο σε ενεργούς χώρους του σπιτιού."
+    ],
+    "related_topics": ["Water Collection and Purification", "Water Storage and Rationing", "Camp Sanitation and Waste Control"],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Depth expansion pass."
   }
 ]

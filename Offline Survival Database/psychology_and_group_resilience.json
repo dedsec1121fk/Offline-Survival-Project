@@ -100,5 +100,56 @@
     "priority": "high",
     "last_updated": "2026-03-30",
     "update_note": "Batch repo push expansion."
+  },
+  {
+    "id": "psychology::grief_isolation",
+    "topic": "Isolation, Grief, and Emotional Continuity",
+    "category": "psychology_group_resilience",
+    "subcategory": "grief_and_isolation",
+    "tags": ["grief", "isolation", "loneliness", "trauma", "routine"],
+    "summary_en": "Long crisis harms people not only through fear, but through loneliness, grief, and emotional exhaustion. Emotional continuity comes from routine, contact, meaningful work, and truthful companionship.",
+    "summary_el": "Η μακρά κρίση βλάπτει τους ανθρώπους όχι μόνο μέσω φόβου αλλά μέσω μοναξιάς, πένθους και συναισθηματικής εξάντλησης. Η συναισθηματική συνέχεια έρχεται από ρουτίνα, επαφή, χρήσιμη εργασία και ειλικρινή συντροφικότητα.",
+    "content_en": "Isolation weakens judgment and desire to act. Grief can flatten routine, appetite, sleep, and effort. In collapse conditions, people do not need constant motivational speeches; they need stable contact, small useful tasks, permission to speak truthfully, and visible reasons to continue the day. Emotional continuity means preserving enough structure that a person can still wash, eat, rest, work, and communicate even when morale is low. Shared silence, practical help, and predictable check-ins often help more than forced positivity. Protecting children from emotional collapse also means protecting adults from total emotional shutdown.",
+    "content_el": "Η απομόνωση αποδυναμώνει την κρίση και την επιθυμία για δράση. Το πένθος μπορεί να ισοπεδώσει ρουτίνα, όρεξη, ύπνο και προσπάθεια. Σε συνθήκες κατάρρευσης, οι άνθρωποι δεν χρειάζονται συνεχώς εμψυχωτικούς λόγους· χρειάζονται σταθερή επαφή, μικρά χρήσιμα καθήκοντα, άδεια να μιλούν ειλικρινά και ορατούς λόγους να συνεχίσουν την ημέρα. Η συναισθηματική συνέχεια σημαίνει να διατηρείς αρκετή δομή ώστε ένας άνθρωπος να μπορεί ακόμη να πλυθεί, να φάει, να ξεκουραστεί, να δουλέψει και να επικοινωνήσει ακόμη κι όταν το ηθικό είναι χαμηλό. Η κοινή σιωπή, η πρακτική βοήθεια και οι προβλέψιμοι έλεγχοι συχνά βοηθούν περισσότερο από την εξαναγκασμένη θετικότητα. Η προστασία των παιδιών από συναισθηματική κατάρρευση σημαίνει επίσης προστασία των ενηλίκων από πλήρες ψυχικό κλείσιμο.",
+    "steps_en": [
+      "Keep predictable daily human contact, even if brief.",
+      "Give isolated or grieving people small useful roles.",
+      "Protect sleep, washing, eating, and sunlight where possible.",
+      "Use truthful conversation instead of forced positivity.",
+      "Watch for withdrawal so deep that routine completely collapses."
+    ],
+    "steps_el": [
+      "Κράτα προβλέψιμη καθημερινή ανθρώπινη επαφή, έστω και σύντομη.",
+      "Δώσε σε απομονωμένους ή πενθούντες ανθρώπους μικρούς χρήσιμους ρόλους.",
+      "Προστάτεψε ύπνο, πλύσιμο, φαγητό και ήλιο όπου γίνεται.",
+      "Χρησιμοποίησε ειλικρινή συζήτηση αντί για εξαναγκασμένη θετικότητα.",
+      "Παρακολούθησε για απόσυρση τόσο βαθιά ώστε να καταρρέει πλήρως η ρουτίνα."
+    ],
+    "warnings_en": [
+      "Total withdrawal can become a survival risk, not just a mood state.",
+      "Children absorb adult emotional collapse quickly.",
+      "Meaningful work often protects mental endurance better than passive distraction."
+    ],
+    "warnings_el": [
+      "Η πλήρης απόσυρση μπορεί να γίνει κίνδυνος επιβίωσης, όχι μόνο διάθεση.",
+      "Τα παιδιά απορροφούν γρήγορα τη συναισθηματική κατάρρευση των ενηλίκων.",
+      "Η χρήσιμη εργασία προστατεύει συχνά την ψυχική αντοχή καλύτερα από την παθητική απόσπαση."
+    ],
+    "mistakes_en": [
+      "Leaving grieving or isolated people entirely alone for long periods.",
+      "Confusing silence with recovery.",
+      "Demanding cheerfulness instead of protecting function and contact."
+    ],
+    "mistakes_el": [
+      "Να αφήνεις πενθούντες ή απομονωμένους ανθρώπους εντελώς μόνους για μεγάλα διαστήματα.",
+      "Να μπερδεύεις τη σιωπή με ανάρρωση.",
+      "Να απαιτείς χαρά αντί να προστατεύεις λειτουργία και επαφή."
+    ],
+    "related_topics": ["Panic Control and Mental Grounding", "Leadership, Conflict Prevention, and Morale", "Family Preparedness and Daily Hardship Routines"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Depth expansion pass."
   }
 ]
