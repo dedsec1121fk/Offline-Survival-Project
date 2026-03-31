@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skills::camp_kitchen_workflow",
+    "topic": "Emergency Camp Kitchen Workflow and Clean Cooking Order",
+    "category": "food_nutrition_preservation",
+    "subcategory": "camp_kitchen_skill",
+    "tags": ["camp kitchen", "cooking", "workflow", "cleanliness", "order"],
+    "summary_en": "A camp kitchen works best when cooking, water, clean utensils, dirty utensils, waste, and serving order are organized clearly enough to prevent confusion and contamination.",
+    "summary_el": "Μια κουζίνα καταυλισμού δουλεύει καλύτερα όταν μαγείρεμα, νερό, καθαρά σκεύη, βρόμικα σκεύη, απόβλητα και σειρά σερβιρίσματος οργανώνονται αρκετά καθαρά ώστε να αποτρέπουν σύγχυση και μόλυνση.",
+    "content_en": "Many food problems in hardship come from kitchen workflow failure rather than lack of ingredients. A strong camp kitchen separates clean and dirty paths, protects water and utensils from waste splash, and organizes cooking so fuel, timing, and serving all happen in a repeatable order. The useful skill is not only making food. It is moving food from raw preparation to safe serving without creating extra contamination, wasted heat, or crowd chaos. A calm kitchen routine saves fuel, reduces illness, and makes the whole group easier to feed.",
+    "content_el": "Πολλά προβλήματα τροφής στη δυσκολία έρχονται από αποτυχία ροής κουζίνας και όχι από έλλειψη υλικών. Μια ισχυρή κουζίνα καταυλισμού χωρίζει καθαρές και βρόμικες διαδρομές, προστατεύει νερό και σκεύη από πιτσιλιές αποβλήτων και οργανώνει το μαγείρεμα έτσι ώστε καύσιμο, timing και σερβίρισμα να γίνονται σε επαναλαμβανόμενη σειρά. Η χρήσιμη δεξιότητα δεν είναι μόνο να φτιάχνεις φαγητό. Είναι να μεταφέρεις το φαγητό από ωμή προετοιμασία σε ασφαλές σερβίρισμα χωρίς να δημιουργείς επιπλέον μόλυνση, χαμένη θερμότητα ή χάος συνωστισμού. Μια ήρεμη ρουτίνα κουζίνας εξοικονομεί καύσιμο, μειώνει ασθένεια και κάνει όλη την ομάδα πιο εύκολη στο τάισμα.",
+    "steps_en": ["Separate clean water, clean utensils, dirty utensils, and waste areas.","Use a repeatable cooking order instead of chaotic improvisation.","Protect serving and eating from dirty cleanup traffic.","Organize fuel use before cooking begins.","Review what part of the workflow causes repeated delays or contamination."],
+    "steps_el": ["Χώρισε καθαρό νερό, καθαρά σκεύη, βρόμικα σκεύη και ζώνες αποβλήτων.","Χρησιμοποίησε επαναλαμβανόμενη σειρά μαγειρέματος αντί για χαοτικό αυτοσχεδιασμό.","Προστάτεψε σερβίρισμα και φαγητό από βρόμικη κίνηση καθαρισμού.","Οργάνωσε τη χρήση καυσίμου πριν αρχίσει το μαγείρεμα.","Έλεγξε ποιο μέρος της ροής εργασίας δημιουργεί επαναλαμβανόμενες καθυστερήσεις ή μόλυνση."],
+    "warnings_en": ["Kitchen crowding multiplies contamination risk.","A dirty workflow wastes both food and fuel.","Serving order matters when the weak need food first."],
+    "warnings_el": ["Ο συνωστισμός κουζίνας πολλαπλασιάζει τον κίνδυνο μόλυνσης.","Μια βρόμικη ροή εργασίας σπαταλά και τροφή και καύσιμο.","Η σειρά σερβιρίσματος μετρά όταν οι αδύναμοι χρειάζονται πρώτοι φαγητό."],
+    "mistakes_en": ["Cooking and cleaning in one mixed zone.","Leaving serving to happen wherever people gather.","Starting the meal before fuel, tools, and water order are ready."],
+    "mistakes_el": ["Να μαγειρεύεις και να καθαρίζεις σε μία μικτή ζώνη.","Να αφήνεις το σερβίρισμα να γίνεται όπου μαζεύεται ο κόσμος.","Να ξεκινάς το γεύμα πριν είναι έτοιμη η σειρά για καύσιμο, εργαλεία και νερό."],
+    "related_topics": ["Safe Food and Cleanup After Disaster", "Community Kitchen and Water Rules for Small Groups", "Low-Fuel Household Meal Planning"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Actual skill expansion pass."
+  }
+]
