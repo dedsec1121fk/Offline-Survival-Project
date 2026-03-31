@@ -126,21 +126,30 @@ rm -rf ~/Offline-Survival-Project-main && unzip -o "/storage/emulated/0/Download
 
 ---
 
-## Clone the Repository Directly with Git into Termux Home
+## Install and Run with Git Clone in Termux
 
 <details>
 <summary><strong>🇬🇧 English</strong></summary>
 
-If you want the repository directly as a Git directory inside your Termux home, use:
+If you want the repository as a real Git directory inside your Termux home and want to run it immediately after install, use:
 
 ```bash
 pkg install git -y
 cd ~
 git clone https://github.com/dedsec1121fk/Offline-Survival-Project.git
 cd ~/Offline-Survival-Project
+python "Offline Survival.py"
 ```
 
-This creates a real Git working directory in your Termux home storage instead of only extracting a ZIP snapshot.
+If your system uses `python3`, use:
+
+```bash
+pkg install git -y
+cd ~
+git clone https://github.com/dedsec1121fk/Offline-Survival-Project.git
+cd ~/Offline-Survival-Project
+python3 "Offline Survival.py"
+```
 
 If Termux does not yet have storage permission, run:
 
@@ -153,77 +162,30 @@ termux-setup-storage
 <details>
 <summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
-Αν θέλεις το repository απευθείας ως Git directory μέσα στο home του Termux, χρησιμοποίησε:
+Αν θέλεις το repository ως κανονικό Git directory μέσα στο home του Termux και θέλεις να το τρέξεις αμέσως μετά την εγκατάσταση, χρησιμοποίησε:
 
 ```bash
 pkg install git -y
 cd ~
 git clone https://github.com/dedsec1121fk/Offline-Survival-Project.git
 cd ~/Offline-Survival-Project
+python "Offline Survival.py"
 ```
 
-Αυτό δημιουργεί κανονικό Git working directory μέσα στο home storage του Termux αντί για απλό extract από ZIP snapshot.
+Αν το σύστημά σου χρησιμοποιεί `python3`, χρησιμοποίησε:
+
+```bash
+pkg install git -y
+cd ~
+git clone https://github.com/dedsec1121fk/Offline-Survival-Project.git
+cd ~/Offline-Survival-Project
+python3 "Offline Survival.py"
+```
 
 Αν το Termux δεν έχει ακόμη άδεια αποθηκευτικού χώρου, τρέξε:
 
 ```bash
 termux-setup-storage
-```
-
-</details>
-
----
-
-## Run the Script in Termux
-
-<details>
-<summary><strong>🇬🇧 English</strong></summary>
-
-From the repository folder, run:
-
-```bash
-cd ~/Offline-Survival-Project
-python "Offline Survival.py"
-```
-
-If your device uses `python3`, run:
-
-```bash
-cd ~/Offline-Survival-Project
-python3 "Offline Survival.py"
-```
-
-If you used the ZIP method instead of Git clone, then run from:
-
-```bash
-cd ~/Offline-Survival-Project-main
-python "Offline Survival.py"
-```
-
-</details>
-
-<details>
-<summary><strong>🇬🇷 Ελληνικά</strong></summary>
-
-Από τον φάκελο του repository, τρέξε:
-
-```bash
-cd ~/Offline-Survival-Project
-python "Offline Survival.py"
-```
-
-Αν η συσκευή σου χρησιμοποιεί `python3`, τρέξε:
-
-```bash
-cd ~/Offline-Survival-Project
-python3 "Offline Survival.py"
-```
-
-Αν χρησιμοποίησες τη μέθοδο ZIP αντί για Git clone, τότε τρέξε από:
-
-```bash
-cd ~/Offline-Survival-Project-main
-python "Offline Survival.py"
 ```
 
 </details>
