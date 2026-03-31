@@ -1,0 +1,25 @@
+[
+  {
+    "id": "skills::improvised_stretcher_drag_carry",
+    "topic": "Improvised Stretcher, Blanket Drag, and Team Carry Basics",
+    "category": "medicine_first_aid",
+    "subcategory": "casualty_transport_skill",
+    "tags": ["stretcher", "drag", "carry", "casualty", "team"],
+    "summary_en": "Casualty transport becomes safer when the method matches the terrain, patient condition, and number of helpers instead of forcing one carry style for every situation.",
+    "summary_el": "Η μεταφορά τραυματία γίνεται ασφαλέστερη όταν η μέθοδος ταιριάζει σε έδαφος, κατάσταση τραυματία και αριθμό βοηθών αντί να επιβάλλεται ένας τρόπος μεταφοράς για κάθε περίσταση.",
+    "content_en": "An improvised stretcher, blanket drag, or team carry is only useful if it reduces harm instead of adding it. Different methods suit different ground, distances, and patient stability. A blanket drag may work over short controlled terrain when lifting is unsafe or manpower is low. Team carries require shared timing and clearer coordination. Improvised stretchers need attention to support, handholds, and route smoothness. The skill is not only making the device but choosing the right transport method for the real environment.",
+    "content_el": "Ένα αυτοσχέδιο φορείο, τράβηγμα με κουβέρτα ή ομαδική μεταφορά είναι χρήσιμο μόνο αν μειώνει τη βλάβη αντί να την αυξάνει. Διαφορετικές μέθοδοι ταιριάζουν σε διαφορετικό έδαφος, αποστάσεις και σταθερότητα τραυματία. Το τράβηγμα με κουβέρτα μπορεί να δουλέψει σε μικρή ελεγχόμενη απόσταση όταν το σήκωμα είναι ανασφαλές ή το προσωπικό λίγο. Οι ομαδικές μεταφορές χρειάζονται κοινό timing και καθαρότερο συντονισμό. Τα αυτοσχέδια φορεία χρειάζονται προσοχή σε στήριξη, λαβές και ομαλότητα διαδρομής. Η δεξιότητα δεν είναι μόνο να φτιάχνεις το μέσο αλλά να επιλέγεις τη σωστή μέθοδο μεταφοράς για το πραγματικό περιβάλλον.",
+    "steps_en": ["Choose the transport method by terrain, distance, and casualty stability.","Stabilize and pad the patient before movement where possible.","Clear the route before starting the carry or drag.","Use short shared commands for team movement.","Stop and reassess if pain, slipping, or instability increase."],
+    "steps_el": ["Διάλεξε τη μέθοδο μεταφοράς με βάση έδαφος, απόσταση και σταθερότητα τραυματία.","Σταθεροποίησε και επένδυσε τον τραυματία πριν από τη μετακίνηση όπου γίνεται.","Καθάρισε τη διαδρομή πριν αρχίσει το κουβάλημα ή το τράβηγμα.","Χρησιμοποίησε σύντομες κοινές εντολές για ομαδική κίνηση.","Σταμάτα και επανεκτίμησε αν αυξάνονται πόνος, γλίστρημα ή αστάθεια."],
+    "warnings_en": ["The wrong carry method can worsen the injury quickly.","Poor route choice can defeat a good transport method.","Team carries fail when timing and commands are unclear."],
+    "warnings_el": ["Η λάθος μέθοδος μεταφοράς μπορεί να χειροτερέψει γρήγορα τον τραυματισμό.","Η κακή επιλογή διαδρομής μπορεί να ακυρώσει μια καλή μέθοδο μεταφοράς.","Οι ομαδικές μεταφορές αποτυγχάνουν όταν timing και εντολές είναι ασαφή."],
+    "mistakes_en": ["Using the same transport style in every terrain.","Dragging or lifting before the route is checked.","Assuming more force can solve poor coordination."],
+    "mistakes_el": ["Να χρησιμοποιείς τον ίδιο τρόπο μεταφοράς σε κάθε έδαφος.","Να τραβάς ή να σηκώνεις πριν ελεγχθεί η διαδρομή.","Να υποθέτεις ότι περισσότερη δύναμη λύνει τον κακό συντονισμό."],
+    "related_topics": ["Field Splint Padding and Patient Move Preparation", "Fractures, Sprains, and Casualty Movement", "Balance, Coordination, and Fall Prevention Under Fatigue"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Additional survival skills pass."
+  }
+]
