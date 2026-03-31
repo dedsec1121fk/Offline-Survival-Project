@@ -1,0 +1,25 @@
+[
+  {
+    "id": "survival::day_plan_turnaround_energy",
+    "topic": "Day Plan, Turnaround Time, and Energy Budgeting",
+    "category": "survival_foundations",
+    "subcategory": "daily_field_planning",
+    "tags": ["day plan", "turnaround", "energy", "budgeting", "movement"],
+    "summary_en": "A survival day goes better when the group sets a turnaround point, protects energy for return, and treats time and strength as resources that can run out before supplies do.",
+    "summary_el": "Μια μέρα επιβίωσης πηγαίνει καλύτερα όταν η ομάδα ορίζει σημείο επιστροφής, προστατεύει ενέργεια για τον γυρισμό και αντιμετωπίζει χρόνο και δύναμη ως πόρους που μπορούν να τελειώσουν πριν τελειώσουν οι προμήθειες.",
+    "content_en": "Many bad survival decisions begin with a day plan that only imagines success outward and not the cost of return. Turnaround discipline means deciding in advance when to stop pushing farther, even if the goal is close, because daylight, weather, load, and body condition must still cover the way back. Energy budgeting means asking what the day costs in water, calories, recovery, and risk instead of only what it might gain. A strong field plan includes task priority, route reality, a return threshold, and reserve margin for surprise. Groups that protect the return survive longer than groups that only chase the objective.",
+    "content_el": "Πολλές κακές αποφάσεις επιβίωσης αρχίζουν με σχέδιο ημέρας που φαντάζεται μόνο επιτυχία προς τα έξω και όχι το κόστος της επιστροφής. Η πειθαρχία σημείου επιστροφής σημαίνει να αποφασίζεις από πριν πότε σταματάς να σπρώχνεις πιο μακριά, ακόμη κι αν ο στόχος είναι κοντά, επειδή φως ημέρας, καιρός, φορτίο και κατάσταση σώματος πρέπει να καλύπτουν και το γυρισμό. Η προϋπολογισμένη ενέργεια σημαίνει να ρωτάς τι κοστίζει η μέρα σε νερό, θερμίδες, ανάρρωση και κίνδυνο αντί να κοιτάς μόνο τι μπορεί να κερδίσει. Ένα ισχυρό σχέδιο πεδίου περιλαμβάνει προτεραιότητα εργασίας, πραγματικότητα διαδρομής, όριο επιστροφής και περιθώριο εφεδρείας για έκπληξη. Οι ομάδες που προστατεύουν τον γυρισμό επιβιώνουν περισσότερο από τις ομάδες που κυνηγούν μόνο τον στόχο.",
+    "steps_en": ["Set a turnaround time or condition before departure.","Protect water, calories, and daylight for the return leg.","Plan by total cost, not only hoped reward.","Leave reserve margin for delay, weather, and injury.","Stop pushing outward when the return budget is being consumed."],
+    "steps_el": ["Όρισε ώρα ή συνθήκη επιστροφής πριν από την αναχώρηση.","Προστάτεψε νερό, θερμίδες και φως ημέρας για το σκέλος της επιστροφής.","Σχεδίασε με βάση το συνολικό κόστος και όχι μόνο την ελπιζόμενη ανταμοιβή.","Άφησε περιθώριο εφεδρείας για καθυστέρηση, καιρό και τραυματισμό.","Σταμάτα να σπρώχνεις προς τα έξω όταν καταναλώνεται ο προϋπολογισμός επιστροφής."],
+    "warnings_en": ["Most routes feel shorter on the way out than on the way back.","Fatigue makes people overestimate what they can still do safely.","A near objective can still be too far if the return budget is gone."],
+    "warnings_el": ["Οι περισσότερες διαδρομές φαίνονται πιο μικρές στο πήγαινε απ’ ό,τι στην επιστροφή.","Η κόπωση κάνει τους ανθρώπους να υπερεκτιμούν τι μπορούν ακόμη να κάνουν με ασφάλεια.","Ένας κοντινός στόχος μπορεί πάλι να είναι πολύ μακριά αν έχει χαθεί ο προϋπολογισμός επιστροφής."],
+    "mistakes_en": ["Setting no turnaround rule at all.","Using most of the water and strength on the outward leg.","Treating return planning as optional."],
+    "mistakes_el": ["Να μην ορίζεις καθόλου κανόνα επιστροφής.","Να ξοδεύεις το μεγαλύτερο μέρος νερού και δύναμης στο πήγαινε.","Να αντιμετωπίζεις τον σχεδιασμό επιστροφής ως προαιρετικό."],
+    "related_topics": ["Terrain Awareness and Route Selection", "Mountain Water, Wood, and Route Planning", "Route Marking and Backtracking Without Getting Lost"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Source-guided survival knowledge pass."
+  }
+]
