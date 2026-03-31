@@ -1,0 +1,25 @@
+[
+  {
+    "id": "plants::herbal_preparation_safety_basics",
+    "topic": "Herbal Infusions, Poultices, and Basic Preparation Safety",
+    "category": "medicine_pharmacology_plants",
+    "subcategory": "plant_preparation_skill",
+    "tags": ["herbs", "infusion", "poultice", "preparation", "safety"],
+    "summary_en": "Plant usefulness depends as much on preparation and caution as on the plant itself. Poor preparation can waste effort or create harm.",
+    "summary_el": "Η χρησιμότητα των φυτών εξαρτάται τόσο από την προετοιμασία και την προσοχή όσο και από το ίδιο το φυτό. Η κακή προετοιμασία μπορεί να σπαταλήσει προσπάθεια ή να προκαλέσει βλάβη.",
+    "content_en": "Herbal use in survival settings should begin with humility and restraint. A plant that is correctly identified can still be badly prepared, contaminated, overused, or applied to the wrong problem. Basic preparation safety means keeping plant material as clean as possible, using simple preparations that match the intended purpose, avoiding reckless assumptions about strength, and observing how the person responds. A useful rule is that uncertain plant medicine should be treated cautiously, not heroically. The skill is not merely knowing plant names. It is preparing and using them without turning uncertainty into injury.",
+    "content_el": "Η χρήση βοτάνων σε συνθήκες επιβίωσης πρέπει να αρχίζει με ταπεινότητα και συγκράτηση. Ένα φυτό που έχει αναγνωριστεί σωστά μπορεί πάλι να προετοιμαστεί άσχημα, να μολυνθεί, να χρησιμοποιηθεί υπερβολικά ή να εφαρμοστεί σε λάθος πρόβλημα. Η βασική ασφάλεια προετοιμασίας σημαίνει να κρατάς το φυτικό υλικό όσο γίνεται καθαρότερο, να χρησιμοποιείς απλές παρασκευές που ταιριάζουν στον σκοπό, να αποφεύγεις απερίσκεπτες υποθέσεις για την ισχύ και να παρατηρείς πώς αντιδρά ο άνθρωπος. Ένας χρήσιμος κανόνας είναι ότι η αβέβαιη φυτική ιατρική πρέπει να αντιμετωπίζεται με προσοχή και όχι ηρωικά. Η δεξιότητα δεν είναι μόνο να ξέρεις ονόματα φυτών. Είναι να τα προετοιμάζεις και να τα χρησιμοποιείς χωρίς να μετατρέπεις την αβεβαιότητα σε τραυματισμό.",
+    "steps_en": ["Use only clearly identified plant material.","Keep preparation as clean and simple as possible.","Match the preparation method to the intended use.","Start cautiously and observe response.","Stop using a preparation if it seems to worsen the problem."],
+    "steps_el": ["Χρησιμοποίησε μόνο καθαρά αναγνωρισμένο φυτικό υλικό.","Κράτα την προετοιμασία όσο γίνεται πιο καθαρή και απλή.","Ταίριαξε τη μέθοδο παρασκευής με την intended χρήση.","Ξεκίνα προσεκτικά και παρατήρησε την αντίδραση.","Σταμάτα να χρησιμοποιείς μια παρασκευή αν φαίνεται να χειροτερεύει το πρόβλημα."],
+    "warnings_en": ["Correct identification does not guarantee safe use.","Contaminated plant material can cause new problems.","Uncertain strength is a real risk."],
+    "warnings_el": ["Η σωστή αναγνώριση δεν εγγυάται ασφαλή χρήση.","Το μολυσμένο φυτικό υλικό μπορεί να προκαλέσει νέα προβλήματα.","Η αβέβαιη ισχύς είναι πραγματικός κίνδυνος."],
+    "mistakes_en": ["Treating every herb as harmless because it is natural.","Using dirty collected material.","Applying stronger preparation without reason or observation."],
+    "mistakes_el": ["Να αντιμετωπίζεις κάθε βότανο ως ακίνδυνο επειδή είναι φυσικό.","Να χρησιμοποιείς βρόμικο συλλεγμένο υλικό.","Να εφαρμόζεις ισχυρότερη παρασκευή χωρίς λόγο ή παρατήρηση."],
+    "related_topics": ["Medicinal Plants and Home-Grown Remedies", "Minor Skin Infection Cleaning and Spread Control", "Food Portioning, Recovery Meals, and Sick-Person Feeding"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Added for broader plant and preparation coverage."
+  }
+]
