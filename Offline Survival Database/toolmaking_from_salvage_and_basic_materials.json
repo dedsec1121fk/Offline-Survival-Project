@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tools::toolmaking_salvage_basics",
+    "topic": "Toolmaking from Salvage and Basic Materials",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "toolmaking_and_salvage",
+    "tags": ["tools", "salvage", "toolmaking", "repair", "materials"],
+    "summary_en": "A survival system grows stronger when it can turn salvage and simple materials into useful tools instead of waiting for factory replacements that may never come.",
+    "summary_el": "Ένα σύστημα επιβίωσης γίνεται ισχυρότερο όταν μπορεί να μετατρέπει υλικά διάσωσης και απλά υλικά σε χρήσιμα εργαλεία αντί να περιμένει εργοστασιακές αντικαταστάσεις που μπορεί να μην έρθουν ποτέ.",
+    "content_en": "Toolmaking under hardship begins with function, not perfection. The question is not whether a tool looks finished, but whether it safely performs the job often enough to preserve shelter, water, fuel, food work, repair, or agriculture. Salvage-based toolmaking depends on recognizing usable metal, wood, fasteners, handles, cordage, containers, and scrap that can become cutting, digging, carrying, fastening, prying, or scraping tools. A useful workshop mindset sorts scrap by function, protects good edge material, preserves straight shafts and handles, and values boring but durable assembly. The strongest survival tool culture combines improvisation with maintenance: even a rough tool becomes valuable if it can be repaired, rehandled, sharpened, and passed to the next user.",
+    "content_el": "Η κατασκευή εργαλείων μέσα στη δυσκολία αρχίζει από τη λειτουργία και όχι από την τελειότητα. Το ερώτημα δεν είναι αν ένα εργαλείο φαίνεται τελειωμένο, αλλά αν εκτελεί με ασφάλεια τη δουλειά αρκετές φορές ώστε να διατηρεί κατάλυμα, νερό, καύσιμο, εργασία τροφής, επισκευή ή γεωργία. Η κατασκευή εργαλείων από υλικά διάσωσης εξαρτάται από το να αναγνωρίζεις χρήσιμο μέταλλο, ξύλο, συνδέσμους, λαβές, σχοινιά, δοχεία και scrap που μπορούν να γίνουν εργαλεία κοπής, σκαψίματος, μεταφοράς, στερέωσης, μοχλού ή ξυσίματος. Μια χρήσιμη νοοτροπία εργαστηρίου ταξινομεί το scrap ανά λειτουργία, προστατεύει καλό υλικό για κόψη, διατηρεί ίσιους άξονες και λαβές και δίνει αξία σε βαρετές αλλά ανθεκτικές συνδέσεις. Η ισχυρότερη κουλτούρα εργαλείων επιβίωσης συνδυάζει αυτοσχεδιασμό με συντήρηση: ακόμη και ένα πρόχειρο εργαλείο γίνεται πολύτιμο αν μπορεί να επισκευαστεί, να ξαναμπει σε λαβή, να ακονιστεί και να περάσει στον επόμενο χρήστη.",
+    "steps_en": ["Sort salvage by function: cutting, digging, carrying, fastening, scraping, heating.","Protect good metal edges, straight wood, handles, and useful fasteners.","Build for safe grip and repeat use, not only for one quick task.","Test improvised tools on low-risk jobs first.","Maintain and repair every working tool instead of abandoning it early."],
+    "steps_el": ["Ταξινόμησε υλικά διάσωσης ανά λειτουργία: κοπή, σκάψιμο, μεταφορά, στερέωση, ξύσιμο, θέρμανση.","Προστάτεψε καλές μεταλλικές κόψεις, ίσιο ξύλο, λαβές και χρήσιμους συνδέσμους.","Κατασκεύαζε για ασφαλές κράτημα και επαναλαμβανόμενη χρήση, όχι μόνο για μία γρήγορη δουλειά.","Δοκίμασε αυτοσχέδια εργαλεία πρώτα σε χαμηλού κινδύνου εργασίες.","Συντήρησε και επισκεύασε κάθε λειτουργικό εργαλείο αντί να το εγκαταλείπεις νωρίς."],
+    "warnings_en": ["Improvised tools can injure badly if grip, balance, or attachment are weak.","A rough tool still needs safe handling discipline.","One good material wasted early may remove many later options."],
+    "warnings_el": ["Τα αυτοσχέδια εργαλεία μπορούν να τραυματίσουν σοβαρά αν το κράτημα, η ισορροπία ή η σύνδεση είναι αδύναμα.","Ένα πρόχειρο εργαλείο πάλι χρειάζεται πειθαρχία ασφαλούς χειρισμού.","Ένα καλό υλικό που σπαταλιέται νωρίς μπορεί να αφαιρέσει πολλές μελλοντικές επιλογές."],
+    "mistakes_en": ["Making tools that look impressive but fail under repeated use.","Using the best material on low-value jobs.","Ignoring handle comfort and attachment strength."],
+    "mistakes_el": ["Να φτιάχνεις εργαλεία που φαίνονται εντυπωσιακά αλλά αποτυγχάνουν σε επαναλαμβανόμενη χρήση.","Να χρησιμοποιείς το καλύτερο υλικό σε χαμηλής αξίας δουλειές.","Να αγνοείς την άνεση λαβής και τη δύναμη σύνδεσης."],
+    "related_topics": ["Tools, Cordage, and Maintenance Discipline", "Workshop, Spare Parts, and Salvage Discipline", "Household Skill Mapping and Apprenticeship"],
+    "difficulty": "high",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Mountain and self-reliance expansion pass."
+  }
+]
