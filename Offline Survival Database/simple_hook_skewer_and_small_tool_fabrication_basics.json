@@ -1,0 +1,25 @@
+[
+  {
+    "id": "skills::hook_skewer_small_tool",
+    "topic": "Simple Hook, Skewer, and Small Tool Fabrication Basics",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "small_tool_skill",
+    "tags": ["hook", "skewer", "toolmaking", "small tool", "fabrication"],
+    "summary_en": "Small tools matter because repeated survival work depends on simple objects that hold, poke, lift, suspend, cook, carry, and guide tasks efficiently.",
+    "summary_el": "Τα μικρά εργαλεία μετρούν γιατί η επαναλαμβανόμενη δουλειά επιβίωσης εξαρτάται από απλά αντικείμενα που κρατούν, τρυπούν, σηκώνουν, κρεμούν, μαγειρεύουν, μεταφέρουν και καθοδηγούν εργασίες αποτελεσματικά.",
+    "content_en": "A survival workshop should not think only in large tools. Small fabricated items—hooks, skewers, toggles, pegs, simple handles, hanging pieces, and guides—often multiply the usefulness of larger systems. The skill is to notice what repetitive task is awkward and create a small durable tool that solves it. Good fabrication starts with the job: piercing, hanging, turning, pinning, or spacing. Then material, shape, and strength are matched to that purpose. Strong small-tool work saves time because it removes repeated improvisation.",
+    "content_el": "Ένα εργαστήριο επιβίωσης δεν πρέπει να σκέφτεται μόνο μεγάλα εργαλεία. Μικρά κατασκευασμένα αντικείμενα — γάντζοι, σουβλιά, toggles, πάσσαλοι, απλές λαβές, κρεμαστά κομμάτια και οδηγοί — συχνά πολλαπλασιάζουν τη χρησιμότητα μεγαλύτερων συστημάτων. Η δεξιότητα είναι να προσέχεις ποια επαναλαμβανόμενη εργασία είναι άβολη και να δημιουργείς ένα μικρό ανθεκτικό εργαλείο που τη λύνει. Η καλή κατασκευή αρχίζει από τη δουλειά: τρύπημα, κρέμασμα, γύρισμα, κάρφωμα ή απόσταση. Μετά υλικό, σχήμα και αντοχή ταιριάζονται σε αυτό τον σκοπό. Η ισχυρή δουλειά μικρών εργαλείων εξοικονομεί χρόνο γιατί αφαιρεί τον συνεχή αυτοσχεδιασμό.",
+    "steps_en": ["Start from the repeated task that needs solving.","Choose material and shape by function, not appearance.","Test small tools on low-risk repetitive jobs first.","Keep useful designs simple enough to reproduce.","Save good small tools because replacement time adds up."],
+    "steps_el": ["Ξεκίνα από την επαναλαμβανόμενη εργασία που χρειάζεται λύση.","Διάλεξε υλικό και σχήμα με βάση τη λειτουργία και όχι την εμφάνιση.","Δοκίμασε πρώτα τα μικρά εργαλεία σε χαμηλού κινδύνου επαναλαμβανόμενες δουλειές.","Κράτα τα χρήσιμα σχέδια αρκετά απλά ώστε να αναπαράγονται.","Φύλαξε τα καλά μικρά εργαλεία γιατί ο χρόνος αντικατάστασης μαζεύεται."],
+    "warnings_en": ["A weak small tool can fail exactly when force is applied.","Overcomplicated design wastes materials and time.","Tiny useful tools are easy to lose if not stored deliberately."],
+    "warnings_el": ["Ένα αδύναμο μικρό εργαλείο μπορεί να αποτύχει ακριβώς όταν εφαρμοστεί δύναμη.","Ο υπερβολικά σύνθετος σχεδιασμός σπαταλά υλικά και χρόνο.","Τα μικρά χρήσιμα εργαλεία χάνονται εύκολα αν δεν αποθηκεύονται σκόπιμα."],
+    "mistakes_en": ["Making tools without defining the exact job first.","Using weak material because the item is small.","Not standardizing a good design for repeated use."],
+    "mistakes_el": ["Να φτιάχνεις εργαλεία χωρίς να ορίζεις πρώτα την ακριβή δουλειά.","Να χρησιμοποιείς αδύναμο υλικό επειδή το αντικείμενο είναι μικρό.","Να μην τυποποιείς ένα καλό σχέδιο για επαναλαμβανόμενη χρήση."],
+    "related_topics": ["Toolmaking from Salvage and Basic Materials", "Simple Sawing, Cutting, and Material Breakdown Workflow", "Improvised Cordage, Twisting, and Bundle Strength Basics"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Full expansion skills pack."
+  }
+]
