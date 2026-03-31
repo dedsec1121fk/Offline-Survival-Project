@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tools::tool_roll_quick_access",
+    "topic": "Tool Roll Storage and Quick-Access Layout",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "tool_storage_skill",
+    "tags": ["tool roll", "storage", "layout", "quick access", "organization"],
+    "summary_en": "A tool kit becomes more useful when the layout matches the order of real work instead of becoming a loose pile that wastes time at every task.",
+    "summary_el": "Ένα κιτ εργαλείων γίνεται πιο χρήσιμο όταν η διάταξη ταιριάζει στη σειρά της πραγματικής δουλειάς αντί να γίνεται χαλαρός σωρός που σπαταλά χρόνο σε κάθε εργασία.",
+    "content_en": "Tool storage is a survival skill because time and attention are often lost in searching, not in working. A good roll, wrap, or layout keeps tools visible, protected, and arranged by how often they are used. Quick-access items should be reachable without unpacking everything else. Sharp or delicate items should be protected from rubbing damage. A repeatable storage order helps multiple people find and return tools correctly, which matters when the same kit supports repair, shelter, medical, and kitchen work over many days.",
+    "content_el": "Η αποθήκευση εργαλείων είναι δεξιότητα επιβίωσης γιατί χρόνος και προσοχή χάνονται συχνά στο ψάξιμο και όχι στη δουλειά. Ένα καλό roll, τύλιγμα ή layout κρατά τα εργαλεία ορατά, προστατευμένα και ταξινομημένα ανάλογα με το πόσο συχνά χρησιμοποιούνται. Τα αντικείμενα γρήγορης πρόσβασης πρέπει να φτάνονται χωρίς να ξεπακετάρονται όλα τα άλλα. Τα κοφτερά ή ευαίσθητα αντικείμενα πρέπει να προστατεύονται από ζημιά τριβής. Μια επαναλαμβανόμενη σειρά αποθήκευσης βοηθά πολλούς ανθρώπους να βρίσκουν και να επιστρέφουν σωστά τα εργαλεία, κάτι που μετρά όταν το ίδιο κιτ στηρίζει επισκευή, κατάλυμα, ιατρική και κουζίνα για πολλές μέρες.",
+    "steps_en": ["Arrange tools by frequency of use and task order.","Protect edges and delicate parts from contact damage.","Keep quick-access tools reachable without full unpacking.","Return tools to the same place after each use.","Review layout when repeated search delays appear."],
+    "steps_el": ["Ταξινόμησε εργαλεία ανά συχνότητα χρήσης και σειρά εργασίας.","Προστάτεψε κόψεις και ευαίσθητα μέρη από ζημιά επαφής.","Κράτα τα εργαλεία γρήγορης πρόσβασης προσβάσιμα χωρίς πλήρες ξεπακετάρισμα.","Επέστρεφε τα εργαλεία στην ίδια θέση μετά από κάθε χρήση.","Έλεγξε ξανά το layout όταν εμφανίζονται επαναλαμβανόμενες καθυστερήσεις ψαξίματος."],
+    "warnings_en": ["Loose tool piles waste time and damage edges.","Bad storage hides missing items until they are urgently needed.","Shared kits fail fast when return order is unclear."],
+    "warnings_el": ["Οι χαλαροί σωροί εργαλείων σπαταλούν χρόνο και χαλούν κόψεις.","Η κακή αποθήκευση κρύβει ελλείποντα αντικείμενα μέχρι να χρειαστούν επειγόντως.","Τα κοινά κιτ αποτυγχάνουν γρήγορα όταν η σειρά επιστροφής είναι ασαφής."],
+    "mistakes_en": ["Storing every tool in one mixed compartment.","Leaving the kit to evolve into random clutter.","Ignoring edge and point protection."],
+    "mistakes_el": ["Να αποθηκεύεις κάθε εργαλείο σε ένα μικτό διαμέρισμα.","Να αφήνεις το κιτ να εξελίσσεται σε τυχαία ακαταστασία.","Να αγνοείς την προστασία κόψης και αιχμής."],
+    "related_topics": ["Household Inventory Rotation and Spoilage Control", "Blade Sharpening, Edge Maintenance, and Safe Field Touch-Up", "Simple Hook, Skewer, and Small Tool Fabrication Basics"],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Further tool-skills expansion pass."
+  }
+]
