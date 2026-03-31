@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skills::tarp_repair_patch_grommet",
+    "topic": "Tarp Repair, Patch, and Grommet Replacement Skills",
+    "category": "shelter_protection",
+    "subcategory": "shelter_repair_skill",
+    "tags": ["tarp", "repair", "patch", "grommet", "shelter"],
+    "summary_en": "A tarp lasts longer when small tears, pulled corners, and failed attachment points are repaired early instead of being left to turn into full shelter failure.",
+    "summary_el": "Ένα tarp κρατά περισσότερο όταν μικρά σκισίματα, τραβηγμένες γωνίες και χαλασμένα σημεία σύνδεσης επισκευάζονται νωρίς αντί να αφήνονται να γίνουν πλήρης αποτυχία καταλύματος.",
+    "content_en": "Tarp repair is a core shelter skill because weather damage often starts small and then spreads under wind, tension, and repeated wet use. A usable repair workflow protects edges, reinforces corners, patches tears before they lengthen, and restores attachment points so the tarp can still be tensioned safely. A rough field repair that holds under weather is more valuable than a perfect-looking fix that fails on the next windy night. The skill is about restoring function quickly while preserving future repair options.",
+    "content_el": "Η επισκευή tarp είναι βασική δεξιότητα καταλύματος γιατί η ζημιά από καιρό συχνά αρχίζει μικρή και μετά απλώνεται κάτω από άνεμο, τάση και επαναλαμβανόμενη υγρή χρήση. Μια χρήσιμη ροή επισκευής προστατεύει άκρα, ενισχύει γωνίες, κλείνει σκισίματα πριν μακρύνουν και αποκαθιστά σημεία σύνδεσης ώστε το tarp να μπορεί ακόμη να τεντωθεί με ασφάλεια. Μια πρόχειρη επισκευή πεδίου που κρατά στον καιρό είναι πιο πολύτιμη από μια όμορφη διόρθωση που αποτυγχάνει το επόμενο βράδυ με άνεμο. Η δεξιότητα αφορά το να αποκαθιστάς γρήγορα τη λειτουργία ενώ διατηρείς επιλογές για μελλοντική επισκευή.",
+    "steps_en": ["Inspect tarps often for early tears and stressed corners.","Patch and reinforce damage before it spreads.","Restore secure tie points or attachment points quickly.","Retension the tarp after repair and recheck under weather.","Protect repaired areas from repeated edge abrasion."],
+    "steps_el": ["Έλεγχε συχνά tarp για πρώιμα σκισίματα και πιεσμένες γωνίες.","Κλείσε και ενίσχυσε τη ζημιά πριν απλωθεί.","Αποκατέστησε γρήγορα ασφαλή σημεία δεσίματος ή σύνδεσης.","Ξανατέντωσε το tarp μετά την επισκευή και έλεγξέ το σε καιρό.","Προστάτεψε τις επισκευασμένες περιοχές από επαναλαμβανόμενη τριβή άκρης."],
+    "warnings_en": ["Small tarp damage grows fast under wind and tension.","A failed tie point can collapse the whole shelter shape.","Late repair usually costs more material than early repair."],
+    "warnings_el": ["Η μικρή ζημιά tarp μεγαλώνει γρήγορα κάτω από άνεμο και τάση.","Ένα χαλασμένο σημείο δεσίματος μπορεί να καταρρεύσει όλο το σχήμα καταλύματος.","Η καθυστερημένη επισκευή συνήθως κοστίζει περισσότερο υλικό από την έγκαιρη."],
+    "mistakes_en": ["Ignoring small damage until after storm exposure.","Retensioning hard on weakened corners without reinforcement.","Making repairs that look neat but do not carry load."],
+    "mistakes_el": ["Να αγνοείς μικρή ζημιά μέχρι μετά από έκθεση σε καταιγίδα.","Να ξανατεντώνεις δυνατά αδύναμες γωνίες χωρίς ενίσχυση.","Να κάνεις επισκευές που φαίνονται όμορφες αλλά δεν κρατούν φορτίο."],
+    "related_topics": ["Tarp Shelter Setup and Ridgeline Basics", "Storm Hardening and Repair Priorities for Shelter", "Toolmaking from Salvage and Basic Materials"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Additional survival skills pass."
+  }
+]
