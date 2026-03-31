@@ -1,0 +1,25 @@
+[
+  {
+    "id": "shelter::ground_insulation_bedding_heat",
+    "topic": "Ground Insulation, Bedding Layers, and Night Heat Retention",
+    "category": "shelter_protection",
+    "subcategory": "sleep_system_skill",
+    "tags": ["insulation", "bedding", "night", "heat retention", "cold"],
+    "summary_en": "Cold ground drains heat for hours. Survival sleep depends not only on overhead shelter but on how well the body is separated from the ground and protected through the night.",
+    "summary_el": "Το κρύο έδαφος τραβά θερμότητα για ώρες. Ο ύπνος επιβίωσης εξαρτάται όχι μόνο από το κάλυμμα από πάνω αλλά και από το πόσο καλά χωρίζεται το σώμα από το έδαφος και προστατεύεται όλη τη νύχτα.",
+    "content_en": "People often focus on the roof of a shelter and neglect what lies beneath them. But the ground can remove body heat continuously, flatten bedding, draw moisture upward, and turn a survivable night into a weakening one. A stronger sleep system uses layering, dry separation, and protected bedding thickness to slow heat loss. The useful skill is to think in vertical layers: ground, insulating layer, bedding layer, body, and top cover. Good night protection often comes more from what is under the sleeper than from what is over them.",
+    "content_el": "Οι άνθρωποι συχνά εστιάζουν στη στέγη του καταλύματος και αμελούν αυτό που βρίσκεται από κάτω τους. Όμως το έδαφος μπορεί να αφαιρεί συνεχώς θερμότητα σώματος, να πλακώνει τα στρωσίδια, να τραβά υγρασία προς τα πάνω και να μετατρέπει μια ανεκτή νύχτα σε αποδυναμωτική. Ένα ισχυρότερο σύστημα ύπνου χρησιμοποιεί στρώσεις, στεγνό διαχωρισμό και προστατευμένο πάχος στρωσίδας για να επιβραδύνει την απώλεια θερμότητας. Η χρήσιμη δεξιότητα είναι να σκέφτεσαι σε κάθετες στρώσεις: έδαφος, μονωτική στρώση, στρώση ύπνου, σώμα και επάνω κάλυμμα. Η καλή νυχτερινή προστασία συχνά έρχεται περισσότερο από αυτό που βρίσκεται κάτω από τον κοιμώμενο παρά από αυτό που είναι πάνω του.",
+    "steps_en": ["Separate the body from cold or damp ground with real insulating layers.","Protect bedding from compression, moisture, and ground soak.","Improve the under-layer before only adding more top cover.","Keep sleep materials as dry as possible before nightfall.","Treat sleep-system preparation as survival work, not comfort work."],
+    "steps_el": ["Χώρισε το σώμα από το κρύο ή υγρό έδαφος με πραγματικές μονωτικές στρώσεις.","Προστάτεψε τα στρωσίδια από συμπίεση, υγρασία και τράβηγμα από το έδαφος.","Βελτίωσε την κάτω στρώση πριν προσθέτεις μόνο περισσότερο κάλυμμα από πάνω.","Κράτα τα υλικά ύπνου όσο γίνεται πιο στεγνά πριν πέσει η νύχτα.","Αντιμετώπισε την προετοιμασία συστήματος ύπνου ως εργασία επιβίωσης και όχι ως εργασία άνεσης."],
+    "warnings_en": ["A dry top layer cannot fully fix a heat-draining ground layer.","Compressed bedding loses insulating value.","Poor sleep protection weakens the next day even if the person does not fully freeze."],
+    "warnings_el": ["Μια στεγνή πάνω στρώση δεν διορθώνει πλήρως μια κάτω στρώση που τραβά θερμότητα.","Τα συμπιεσμένα στρωσίδια χάνουν μονωτική αξία.","Η κακή προστασία ύπνου αποδυναμώνει την επόμενη μέρα ακόμη κι αν ο άνθρωπος δεν παγώσει πλήρως."],
+    "mistakes_en": ["Putting effort into overhead cover while neglecting the ground layer.","Sleeping on thin, damp, or flattened material.","Waiting until full dark to solve bedding problems."],
+    "mistakes_el": ["Να ρίχνεις προσπάθεια στο κάλυμμα από πάνω ενώ αμελείς την κάτω στρώση εδάφους.","Να κοιμάσαι πάνω σε λεπτό, υγρό ή πατημένο υλικό.","Να περιμένεις μέχρι το πλήρες σκοτάδι για να λύσεις προβλήματα στρωσίδας."],
+    "related_topics": ["Cold Weather Layering and Wet Clothing Control", "Shelter Site Selection, Escape Routes, and Runoff", "Tarp Shelter Setup and Ridgeline Basics"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Added during structural and project-quality improvement pass."
+  }
+]

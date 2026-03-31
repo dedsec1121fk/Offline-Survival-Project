@@ -1,0 +1,25 @@
+[
+  {
+    "id": "medical::sickroom_clean_dirty_quiet_zone",
+    "topic": "Sickroom Layout, Clean/Dirty Separation, and Quiet Recovery Zone",
+    "category": "medicine_first_aid",
+    "subcategory": "care_zone_skill",
+    "tags": ["sickroom", "layout", "clean", "dirty", "recovery"],
+    "summary_en": "Illness care works better when the space around the patient is organized. A small recovery zone with cleaner and dirtier sides can reduce confusion, spread, and wasted energy.",
+    "summary_el": "Η φροντίδα ασθένειας δουλεύει καλύτερα όταν οργανώνεται ο χώρος γύρω από τον ασθενή. Μια μικρή ζώνη ανάρρωσης με καθαρότερη και βρομικότερη πλευρά μπορεί να μειώσει σύγχυση, εξάπλωση και χαμένη ενέργεια.",
+    "content_en": "A weak or sick person loses recovery time when every drink, cleaning item, cloth, and rest period is managed in a chaotic space. A better setup creates a quiet zone, keeps needed items reachable, separates cleaner from dirtier items, and limits unnecessary traffic through the area. The useful skill is simple spatial discipline: where clean water sits, where waste goes, where used cloths go, where food is placed, and how noise/light are reduced for recovery. Good care space design makes ordinary care more sustainable.",
+    "content_el": "Ένας αδύναμος ή άρρωστος άνθρωπος χάνει χρόνο ανάρρωσης όταν κάθε ποτό, είδος καθαρισμού, πανί και περίοδος ξεκούρασης διαχειρίζονται μέσα σε χαοτικό χώρο. Ένα καλύτερο στήσιμο δημιουργεί ήσυχη ζώνη, κρατά τα αναγκαία αντικείμενα προσβάσιμα, χωρίζει καθαρότερα από βρομικότερα αντικείμενα και περιορίζει άσκοπη κίνηση μέσα από την περιοχή. Η χρήσιμη δεξιότητα είναι η απλή χωρική πειθαρχία: πού κάθεται το καθαρό νερό, πού πάνε τα απόβλητα, πού μπαίνουν τα χρησιμοποιημένα πανιά, πού τοποθετείται η τροφή και πώς μειώνονται θόρυβος/φως για την ανάρρωση. Ο καλός σχεδιασμός χώρου φροντίδας κάνει τη συνηθισμένη φροντίδα πιο βιώσιμη.",
+    "steps_en": ["Create a quieter recovery area with reduced traffic.","Keep clean items, dirty items, food, and waste in separate obvious places.","Place fluids and basic care items within easy reach.","Reduce repeated disturbance during rest periods.","Treat recovery-space organization as part of treatment, not decoration."],
+    "steps_el": ["Δημιούργησε πιο ήσυχη ζώνη ανάρρωσης με μειωμένη κίνηση.","Κράτα καθαρά αντικείμενα, βρόμικα αντικείμενα, τροφή και απόβλητα σε ξεχωριστές προφανείς θέσεις.","Τοποθέτησε υγρά και βασικά είδη φροντίδας σε εύκολη πρόσβαση.","Μείωσε τις επαναλαμβανόμενες ενοχλήσεις στις περιόδους ανάπαυσης.","Αντιμετώπισε την οργάνωση χώρου ανάρρωσης ως μέρος της θεραπείας και όχι ως διακόσμηση."],
+    "warnings_en": ["Chaotic care spaces increase spread and missed care steps.","A weak patient loses energy through repeated unnecessary movement.","Noise and poor sleep slow recovery."],
+    "warnings_el": ["Οι χαοτικοί χώροι φροντίδας αυξάνουν εξάπλωση και χαμένα βήματα φροντίδας.","Ένας αδύναμος ασθενής χάνει ενέργεια μέσω επαναλαμβανόμενης άσκοπης κίνησης.","Ο θόρυβος και ο κακός ύπνος επιβραδύνουν την ανάρρωση."],
+    "mistakes_en": ["Mixing clean and dirty care items together.","Making the patient move for simple needs too often.","Treating care-zone organization as unimportant."],
+    "mistakes_el": ["Να ανακατεύεις καθαρά και βρόμικα είδη φροντίδας μαζί.","Να βάζεις τον ασθενή να κινείται πολύ συχνά για απλές ανάγκες.","Να αντιμετωπίζεις την οργάνωση ζώνης φροντίδας ως ασήμαντη."],
+    "related_topics": ["Food Portioning, Recovery Meals, and Sick-Person Feeding", "Night Watch Rotation and Sleep Protection Under Risk", "Minor Skin Infection Cleaning and Spread Control"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Added during structural and project-quality improvement pass."
+  }
+]
