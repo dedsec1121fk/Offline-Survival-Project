@@ -1,0 +1,25 @@
+[
+  {
+    "id": "skills::fire_site_windbreak_sparks",
+    "topic": "Fire Site Preparation, Windbreak, and Spark Control",
+    "category": "fire_heat_cooking",
+    "subcategory": "fire_site_skill",
+    "tags": ["fire site", "windbreak", "sparks", "control", "prep"],
+    "summary_en": "A fire site is safer and more useful when the ground, wind effect, spark risk, and work area are prepared before ignition instead of after the flames are already active.",
+    "summary_el": "Ένα σημείο φωτιάς είναι ασφαλέστερο και πιο χρήσιμο όταν έδαφος, επίδραση ανέμου, κίνδυνος σπίθας και χώρος εργασίας προετοιμάζονται πριν από το άναμμα αντί αφού η φλόγα είναι ήδη ενεργή.",
+    "content_en": "Good fire skill begins with site preparation. Wind direction, nearby fuel, ground condition, spark travel, and working room all shape whether a fire becomes useful heat or a spreading hazard. A strong setup clears the immediate work zone, accounts for where sparks can go, protects nearby gear and bedding, and uses windbreak logic that improves the fire instead of trapping smoke badly. The goal is not only to light a fire. It is to control where the heat, sparks, smoke, and work happen.",
+    "content_el": "Η καλή δεξιότητα φωτιάς αρχίζει με προετοιμασία σημείου. Η κατεύθυνση ανέμου, τα κοντινά καύσιμα, η κατάσταση εδάφους, η διαδρομή σπίθας και ο χώρος εργασίας όλα διαμορφώνουν αν μια φωτιά γίνεται χρήσιμη θερμότητα ή εξαπλούμενος κίνδυνος. Ένα ισχυρό στήσιμο καθαρίζει την άμεση ζώνη εργασίας, υπολογίζει πού μπορούν να πάνε οι σπίθες, προστατεύει κοντινό εξοπλισμό και στρωσίδια και χρησιμοποιεί λογική ανεμοφράκτη που βελτιώνει τη φωτιά αντί να παγιδεύει άσχημα τον καπνό. Ο στόχος δεν είναι μόνο να ανάψεις φωτιά. Είναι να ελέγχεις πού συμβαίνουν η θερμότητα, οι σπίθες, ο καπνός και η εργασία.",
+    "steps_en": ["Clear and define the immediate fire work zone.","Read wind direction before choosing the final fire position.","Protect nearby gear, bedding, and dry fuel from sparks.","Use windbreak logic that supports controlled heat.","Reassess the fire site as wind or fuel changes."],
+    "steps_el": ["Καθάρισε και όρισε την άμεση ζώνη εργασίας φωτιάς.","Διάβασε την κατεύθυνση ανέμου πριν επιλέξεις τελική θέση φωτιάς.","Προστάτεψε κοντινό εξοπλισμό, στρωσίδια και στεγνό καύσιμο από σπίθες.","Χρησιμοποίησε λογική ανεμοφράκτη που στηρίζει ελεγχόμενη θερμότητα.","Ξαναέλεγξε το σημείο φωτιάς καθώς αλλάζουν άνεμος ή καύσιμο."],
+    "warnings_en": ["A badly prepared fire site creates danger before the first flame grows.","Spark travel changes quickly with wind.","Poor smoke handling can make the site unhealthy even if the fire is controlled."],
+    "warnings_el": ["Ένα κακά προετοιμασμένο σημείο φωτιάς δημιουργεί κίνδυνο πριν μεγαλώσει η πρώτη φλόγα.","Η διαδρομή σπίθας αλλάζει γρήγορα με τον άνεμο.","Η κακή διαχείριση καπνού μπορεί να κάνει το σημείο ανθυγιεινό ακόμη κι αν η φωτιά ελέγχεται."],
+    "mistakes_en": ["Lighting first and clearing the area later.","Ignoring where sparks can land under wind.","Building a windbreak that worsens smoke and work access."],
+    "mistakes_el": ["Να ανάβεις πρώτα και να καθαρίζεις την περιοχή μετά.","Να αγνοείς πού μπορούν να πέσουν σπίθες με άνεμο.","Να χτίζεις ανεμοφράκτη που χειροτερεύει καπνό και πρόσβαση εργασίας."],
+    "related_topics": ["Fire Lay Selection, Tinder Processing, and Coal Management", "Household Fire Safety and Burn Prevention", "Smoke Management, Ventilation, and Indoor Air Control"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Additional survival skills pass."
+  }
+]
