@@ -1,0 +1,21 @@
+[
+  {
+    "id": "supplies::inventory_rotation_spoilage",
+    "topic": "Household Inventory Rotation and Spoilage Control",
+    "category": "survival_foundations",
+    "subcategory": "supply_management",
+    "tags": ["inventory", "rotation", "spoilage", "supplies", "household"],
+    "summary_en": "Supplies last longer when the household tracks them as a system instead of discovering loss only after spoilage, emptiness, or confusion has already damaged survival capacity.",
+    "summary_el": "Οι προμήθειες κρατούν περισσότερο όταν το νοικοκυριό τις παρακολουθεί ως σύστημα αντί να ανακαλύπτει την απώλεια μόνο αφού η φθορά, το άδειασμα ή η σύγχυση έχουν ήδη βλάψει την ικανότητα επιβίωσης.",
+    "content_en": "Inventory control is not bureaucracy for its own sake. It is protection against quiet failure. Food, medicine, fuel, lighting supplies, hygiene items, rope, batteries, repair materials, and documents all decay differently. Rotation means using older stock deliberately, watching for spoilage, and making sure high-value resources are not forgotten in the wrong place. A strong household inventory system knows not only what exists but what is running low, what expires first, what must stay protected from heat or damp, and what is consumed faster than expected. The less a household relies on memory alone, the less scarcity gets amplified by waste.",
+    "content_el": "Ο έλεγχος αποθέματος δεν είναι γραφειοκρατία για τη γραφειοκρατία. Είναι προστασία από αθόρυβη αποτυχία. Τροφή, φάρμακα, καύσιμο, υλικά φωτισμού, είδη υγιεινής, σχοινί, μπαταρίες, υλικά επισκευής και έγγραφα φθείρονται με διαφορετικό τρόπο. Η εναλλαγή σημαίνει να χρησιμοποιείς σκόπιμα το παλαιότερο απόθεμα, να παρακολουθείς για φθορά και να διασφαλίζεις ότι πόροι υψηλής αξίας δεν ξεχνιούνται σε λάθος σημείο. Ένα ισχυρό σύστημα αποθέματος νοικοκυριού ξέρει όχι μόνο τι υπάρχει αλλά τι λιγοστεύει, τι λήγει πρώτο, τι πρέπει να μείνει προστατευμένο από ζέστη ή υγρασία και τι καταναλώνεται γρηγορότερα από το αναμενόμενο. Όσο λιγότερο βασίζεται το νοικοκυριό μόνο στη μνήμη, τόσο λιγότερο η στέρηση ενισχύεται από τη σπατάλη.",
+    "steps_en": ["Track key supplies by amount, age, and storage condition.","Use older stock first where safe.","Inspect regularly for moisture, pests, leaks, damage, and spoilage.","Separate frequently used items from deep reserve.","Review which supplies are depleting faster than planned."],
+    "steps_el": ["Παρακολούθησε βασικές προμήθειες με ποσότητα, ηλικία και κατάσταση αποθήκευσης.","Χρησιμοποίησε πρώτα το παλαιότερο απόθεμα όπου είναι ασφαλές.","Έλεγχε τακτικά για υγρασία, παράσιτα, διαρροές, ζημιά και φθορά.","Χώρισε τα συχνά χρησιμοποιούμενα αντικείμενα από τη βαθιά εφεδρεία.","Έλεγχε ποιες προμήθειες πέφτουν γρηγορότερα από τον σχεδιασμό."],
+    "warnings_en": ["Forgotten stock often becomes useless stock.","Spoilage can spread from one neglected area to many items.","Shortage grows faster when waste is invisible."],
+    "warnings_el": ["Το ξεχασμένο απόθεμα συχνά γίνεται άχρηστο απόθεμα.","Η φθορά μπορεί να απλωθεί από ένα παραμελημένο σημείο σε πολλά αντικείμενα.","Η έλλειψη μεγαλώνει γρηγορότερα όταν η σπατάλη είναι αόρατη."],
+    "mistakes_en": ["Relying on memory instead of records.","Mixing daily-use supplies with emergency reserve without tracking.","Ignoring storage conditions until damage appears."],
+    "mistakes_el": ["Να βασίζεσαι στη μνήμη αντί για αρχεία.","Να ανακατεύεις καθημερινές προμήθειες με εφεδρεία ανάγκης χωρίς παρακολούθηση.","Να αγνοείς συνθήκες αποθήκευσης μέχρι να εμφανιστεί η ζημιά."],
+    "related_topics": ["Knowledge Preservation and Family Archive Design", "Food Drying, Smoking, and Salt Preservation", "Medicine Storage, Tracking, and Rotation Under Scarcity"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Continuation expansion pass."
+  }
+]
