@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skills::wood_processing_dry_fuel",
+    "topic": "Wood Processing, Splitting, Stacking, and Dry Fuel Selection",
+    "category": "fire_heat_cooking",
+    "subcategory": "fuel_preparation_skills",
+    "tags": ["wood", "splitting", "stacking", "fuel", "drying"],
+    "summary_en": "Fuel skill is not just gathering wood. It is selecting dry material, processing it by size and purpose, and stacking it so tomorrow's fire is easier than today's.",
+    "summary_el": "Η δεξιότητα καυσίμου δεν είναι μόνο η συλλογή ξύλου. Είναι η επιλογή στεγνού υλικού, η επεξεργασία του κατά μέγεθος και σκοπό και το στοίβαγμα έτσι ώστε η αυριανή φωτιά να είναι ευκολότερη από τη σημερινή.",
+    "content_en": "A pile of random wood is not the same as prepared fuel. Fire and cooking improve when wood is processed into usable classes: tinder-supporting pieces, quick-ignition small fuel, sustained-burn medium fuel, and longer heat pieces. Splitting and stacking matter because interior dryness may be better than outside dryness, and wet ground or sloppy piles ruin good effort. Strong fuel practice means selecting for dryness, protecting the next day's firewood from weather, and processing fuel before the emergency moment arrives. Good heat systems are built in advance.",
+    "content_el": "Ένας σωρός τυχαίου ξύλου δεν είναι το ίδιο με προετοιμασμένο καύσιμο. Η φωτιά και το μαγείρεμα βελτιώνονται όταν το ξύλο επεξεργάζεται σε χρήσιμες κατηγορίες: κομμάτια για υποστήριξη προσανάμματος, μικρό καύσιμο γρήγορης ανάφλεξης, μεσαίο καύσιμο για σταθερό κάψιμο και μεγαλύτερα κομμάτια για μακρά θερμότητα. Το σχίσιμο και το στοίβαγμα μετρούν γιατί η εσωτερική στεγνότητα μπορεί να είναι καλύτερη από την εξωτερική, και το βρεγμένο έδαφος ή οι πρόχειροι σωροί χαλάνε καλή δουλειά. Η ισχυρή πρακτική καυσίμου σημαίνει επιλογή με βάση τη στεγνότητα, προστασία των ξύλων της επόμενης μέρας από τον καιρό και επεξεργασία καυσίμου πριν φτάσει η επείγουσα στιγμή. Τα καλά συστήματα θερμότητας χτίζονται εκ των προτέρων.",
+    "steps_en": ["Sort wood by size and purpose before the fire is needed.","Split where it improves dryness and ignition value.","Stack fuel off wet ground and protect it from weather.","Keep quick-start fuel separate from long-burn fuel.","Process tomorrow's fuel today when conditions allow."],
+    "steps_el": ["Ταξινόμησε το ξύλο κατά μέγεθος και σκοπό πριν χρειαστεί η φωτιά.","Σχίζε όπου αυτό βελτιώνει στεγνότητα και αξία ανάφλεξης.","Στοίβαζε καύσιμο πάνω από βρεγμένο έδαφος και προστάτευέ το από τον καιρό.","Κράτα χωριστά το γρήγορο καύσιμο έναρξης από το καύσιμο μακράς καύσης.","Επεξεργάσου σήμερα το καύσιμο του αύριο όταν το επιτρέπουν οι συνθήκες."],
+    "warnings_en": ["Random fuel piles waste time and heat.","Wet-ground storage quietly ruins wood quality.","Large unsplit wood is often poor emergency fuel."],
+    "warnings_el": ["Οι τυχαίοι σωροί καυσίμου σπαταλούν χρόνο και θερμότητα.","Η αποθήκευση πάνω σε βρεγμένο έδαφος χαλά αθόρυβα την ποιότητα ξύλου.","Το μεγάλο αχάρακτο ξύλο συχνά είναι κακό καύσιμο ανάγκης."],
+    "mistakes_en": ["Gathering fuel without processing it for use.","Leaving all fuel exposed together in one pile.","Waiting until the fire is needed to prepare every size class."],
+    "mistakes_el": ["Να συλλέγεις καύσιμο χωρίς να το επεξεργάζεσαι για χρήση.","Να αφήνεις όλο το καύσιμο εκτεθειμένο μαζί σε έναν σωρό.","Να περιμένεις μέχρι να χρειαστεί η φωτιά για να ετοιμάσεις κάθε κατηγορία μεγέθους."],
+    "related_topics": ["Fire Lay Selection, Tinder Processing, and Coal Management", "Mountain Water, Wood, and Route Planning", "Household Fire Safety and Burn Prevention"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Actual survival skills expansion pass."
+  }
+]
