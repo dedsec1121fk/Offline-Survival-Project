@@ -11,6 +11,9 @@
 
 ---
 
+<details open>
+<summary><strong>🇬🇧 English</strong></summary>
+
 Offline Survival is a serious offline knowledge and workflow system designed for use when internet access is absent, weak, censored, unreliable, or too dangerous to depend on.
 
 It is built for Termux on Android and is meant to remain useful during:
@@ -26,6 +29,29 @@ It is built for Termux on Android and is meant to remain useful during:
 - digital-dependency collapse
 - long-term household and small-group continuity
 - rebuilding after system failure
+
+</details>
+
+<details open>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
+
+Το Offline Survival είναι ένα σοβαρό offline σύστημα γνώσης και ροών εργασίας σχεδιασμένο για χρήση όταν η πρόσβαση στο internet απουσιάζει, είναι αδύναμη, λογοκριμένη, αναξιόπιστη ή πολύ επικίνδυνη για να βασιστείς σε αυτήν.
+
+Είναι χτισμένο για Termux σε Android και στοχεύει να παραμένει χρήσιμο σε:
+
+- άμεση ανταπόκριση έκτακτης ανάγκης
+- μεγάλης διάρκειας blackouts
+- διακοπή νερού και υγιεινής
+- έλλειψη τροφής
+- ιατρική απομόνωση
+- κοινωνική αστάθεια
+- δυσκολία αμάχων σε πόλεμο
+- αποτυχία επικοινωνιών
+- κατάρρευση εξάρτησης από ψηφιακά συστήματα
+- μακροχρόνια συνέχεια νοικοκυριού και μικρής ομάδας
+- ξαναχτίσιμο μετά από αποτυχία συστημάτων
+
+</details>
 
 ---
 
@@ -54,18 +80,18 @@ Offline Survival Updates/
 ## How to Get the Repository from GitHub and Open It in Termux
 
 <details>
-<summary><strong>English</strong></summary>
+<summary><strong>🇬🇧 English</strong></summary>
 
 Open this repository on GitHub, tap **Code**, and choose **Download ZIP**. The ZIP usually downloads into your phone's internal storage **Downloads** folder as:
 
 ```bash
-Offline-Survival-main.zip
+Offline-Survival-Project-main.zip
 ```
 
 After the ZIP finishes downloading, open **Termux** and run:
 
 ```bash
-rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-main.zip" -d ~
+rm -rf ~/Offline-Survival-Project-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-Project-main.zip" -d ~
 ```
 
 That command removes the previous extracted repository from your Termux home directory if it already exists, then extracts the new ZIP there so it is replaced cleanly.
@@ -80,7 +106,7 @@ That command removes the previous extracted repository from your Termux home dir
 6. Paste and run:
 
 ```bash
-rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-main.zip" -d ~
+rm -rf ~/Offline-Survival-Project-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-Project-main.zip" -d ~
 ```
 
 ### After extracting
@@ -88,13 +114,13 @@ rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline
 The repository will be in:
 
 ```bash
-~/Offline-Survival-main
+~/Offline-Survival-Project-main
 ```
 
 To enter it:
 
 ```bash
-cd ~/Offline-Survival-main
+cd ~/Offline-Survival-Project-main
 ```
 
 To list the files:
@@ -116,18 +142,18 @@ That usually only needs to be done once.
 </details>
 
 <details>
-<summary><strong>Ελληνικά</strong></summary>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
 Άνοιξε αυτό το repository στο GitHub, πάτησε **Code** και μετά **Download ZIP**. Το ZIP συνήθως κατεβαίνει στον φάκελο **Downloads** της εσωτερικής αποθήκευσης με όνομα:
 
 ```bash
-Offline-Survival-main.zip
+Offline-Survival-Project-main.zip
 ```
 
 Αφού ολοκληρωθεί το κατέβασμα, άνοιξε το **Termux** και τρέξε:
 
 ```bash
-rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-main.zip" -d ~
+rm -rf ~/Offline-Survival-Project-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-Project-main.zip" -d ~
 ```
 
 Αυτή η εντολή διαγράφει πρώτα τον παλιό extracted φάκελο από το home directory του Termux αν υπάρχει ήδη και μετά κάνει extract το νέο ZIP εκεί ώστε να αντικατασταθεί καθαρά.
@@ -142,7 +168,7 @@ rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline
 6. Κάνε επικόλληση και τρέξε:
 
 ```bash
-rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-main.zip" -d ~
+rm -rf ~/Offline-Survival-Project-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-Project-main.zip" -d ~
 ```
 
 ### Μετά το extract
@@ -150,13 +176,13 @@ rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline
 Το repository θα βρίσκεται στο:
 
 ```bash
-~/Offline-Survival-main
+~/Offline-Survival-Project-main
 ```
 
 Για να μπεις μέσα:
 
 ```bash
-cd ~/Offline-Survival-main
+cd ~/Offline-Survival-Project-main
 ```
 
 Για να δεις τα αρχεία:
@@ -182,7 +208,7 @@ termux-setup-storage
 ## Main Script Features
 
 <details>
-<summary><strong>English</strong></summary>
+<summary><strong>🇬🇧 English</strong></summary>
 
 `Offline Survival.py` is the main interface of the project.
 
@@ -205,14 +231,14 @@ Current major functions include:
 - whole-library TXT extraction
 - database statistics
 - integrity checks for duplicate IDs and missing fields
-- encrypted update-log reading
+- update-log reading
 
 The script is intentionally dependency-light and uses the Python standard library so it stays practical for Termux and budget devices.
 
 </details>
 
 <details>
-<summary><strong>Ελληνικά</strong></summary>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
 Το `Offline Survival.py` είναι το κύριο interface του project.
 
@@ -235,7 +261,7 @@ The script is intentionally dependency-light and uses the Python standard librar
 - εξαγωγή όλης της βιβλιοθήκης σε TXT
 - στατιστικά βάσης δεδομένων
 - έλεγχοι ακεραιότητας για διπλά IDs και ελλιπή πεδία
-- ανάγνωση κρυπτογραφημένων αρχείων ενημερώσεων
+- ανάγνωση αρχείων ενημερώσεων
 
 Το script είναι σκόπιμα ελαφρύ σε dependencies και χρησιμοποιεί τη standard library της Python ώστε να παραμένει πρακτικό για Termux και για οικονομικές συσκευές.
 
@@ -246,7 +272,7 @@ The script is intentionally dependency-light and uses the Python standard librar
 ## Runtime Folders and Saved Data
 
 <details>
-<summary><strong>English</strong></summary>
+<summary><strong>🇬🇧 English</strong></summary>
 
 At runtime, the script creates and uses:
 
@@ -271,7 +297,7 @@ This keeps the library easier to access from Android file managers and easier to
 </details>
 
 <details>
-<summary><strong>Ελληνικά</strong></summary>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
 Κατά την εκτέλεση, το script δημιουργεί και χρησιμοποιεί:
 
@@ -300,7 +326,7 @@ This keeps the library easier to access from Android file managers and easier to
 ## Database Design
 
 <details>
-<summary><strong>English</strong></summary>
+<summary><strong>🇬🇧 English</strong></summary>
 
 The knowledge base is split into topic-based JSON files so it can grow without turning into one oversized file.
 
@@ -328,19 +354,12 @@ Common fields include:
 - `last_updated`
 - `update_note`
 
-This structure is designed to support:
-
-- bilingual parity
-- safer searching
-- easier expansion in batches
-- duplicate control
-- better reader formatting
-- more useful exports
+This structure is designed to support bilingual parity, safer searching, easier expansion in batches, duplicate control, better reader formatting, and more useful exports.
 
 </details>
 
 <details>
-<summary><strong>Ελληνικά</strong></summary>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
 Η βάση γνώσης είναι χωρισμένη σε JSON αρχεία ανά θέμα ώστε να μπορεί να επεκτείνεται χωρίς να γίνεται ένα υπερβολικά μεγάλο ενιαίο αρχείο.
 
@@ -368,14 +387,7 @@ This structure is designed to support:
 - `last_updated`
 - `update_note`
 
-Αυτή η δομή σχεδιάστηκε για να υποστηρίζει:
-
-- ισοτιμία δύο γλωσσών
-- ασφαλέστερη αναζήτηση
-- ευκολότερη επέκταση σε παρτίδες
-- έλεγχο διπλοτύπων
-- καλύτερη μορφοποίηση ανάγνωσης
-- πιο χρήσιμες εξαγωγές
+Αυτή η δομή σχεδιάστηκε για να υποστηρίζει ισοτιμία δύο γλωσσών, ασφαλέστερη αναζήτηση, ευκολότερη επέκταση σε παρτίδες, έλεγχο διπλοτύπων, καλύτερη μορφοποίηση ανάγνωσης και πιο χρήσιμες εξαγωγές.
 
 </details>
 
@@ -384,9 +396,9 @@ This structure is designed to support:
 ## Update Logs
 
 <details>
-<summary><strong>English</strong></summary>
+<summary><strong>🇬🇧 English</strong></summary>
 
-The `Offline Survival Updates/` folder is used so future work can continue cleanly.
+The `Offline Survival Updates/` folder exists so future work can continue cleanly.
 
 It is intended to track:
 
@@ -398,16 +410,12 @@ It is intended to track:
 - database coverage status
 - next priorities
 
-The project now supports encrypted `.txt` update logs. The main script automatically reads and decrypts them when needed.
-
-This means the update folder can remain in standard `.txt` form while still not storing new continuation notes as plain readable text.
-
 </details>
 
 <details>
-<summary><strong>Ελληνικά</strong></summary>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
-Ο φάκελος `Offline Survival Updates/` χρησιμοποιείται ώστε η μελλοντική εργασία να συνεχίζεται καθαρά.
+Ο φάκελος `Offline Survival Updates/` υπάρχει ώστε η μελλοντική εργασία να συνεχίζεται καθαρά.
 
 Σκοπός του είναι να παρακολουθεί:
 
@@ -419,10 +427,6 @@ This means the update folder can remain in standard `.txt` form while still not 
 - κατάσταση κάλυψης της βάσης
 - επόμενες προτεραιότητες
 
-Το project πλέον υποστηρίζει κρυπτογραφημένα αρχεία ενημερώσεων `.txt`. Το κύριο script τα διαβάζει και τα αποκρυπτογραφεί αυτόματα όταν χρειάζεται.
-
-Αυτό σημαίνει ότι ο φάκελος ενημερώσεων μπορεί να παραμένει σε μορφή `.txt` ενώ τα νέα αρχεία συνέχειας δεν αποθηκεύονται πλέον ως απλό αναγνώσιμο κείμενο.
-
 </details>
 
 ---
@@ -430,7 +434,7 @@ This means the update folder can remain in standard `.txt` form while still not 
 ## Knowledge Scope
 
 <details>
-<summary><strong>English</strong></summary>
+<summary><strong>🇬🇧 English</strong></summary>
 
 The repository is being expanded across practical survival areas such as:
 
@@ -438,20 +442,20 @@ The repository is being expanded across practical survival areas such as:
 - fire building, fuel preparation, coal management, and fire-site control
 - shelter setup, tarp work, storm resets, and shelter-site selection
 - food preservation, portioning, sick-person feeding, and emergency kitchen workflow
-- first aid, bleeding control, burns, fever care, wound follow-up, and infection control
+- first aid, bleeding control, burns, fever care, wound follow-up, infection control, and recovery-space logic
 - hygiene, sanitation, handwashing stations, spread control, and waste separation
-- movement, route marking, backtracking, and day-plan discipline
+- movement, route marking, backtracking, mountain judgment, and day-plan discipline
 - psychology, morale, group conflict reset, sleep/watch discipline, and decision-making under pressure
 - tools, salvage, handle repair, workholding, layout, fastening, drilling, lashing, pivots, and tool preservation
 - household continuity, inventory discipline, logs, planning, and long-term function
 
-The project is not meant to become a dramatic collection of generic “tips.”
+The project is not meant to become a dramatic collection of generic tips.
 It is meant to become a readable, field-usable system of practical knowledge.
 
 </details>
 
 <details>
-<summary><strong>Ελληνικά</strong></summary>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
 Το repository επεκτείνεται σε πρακτικούς τομείς επιβίωσης όπως:
 
@@ -459,14 +463,14 @@ It is meant to become a readable, field-usable system of practical knowledge.
 - άναμμα φωτιάς, προετοιμασία καυσίμου, διαχείριση κάρβουνων και έλεγχο σημείου φωτιάς
 - στήσιμο καταλύματος, tarp, επαναστησίματα καταιγίδας και επιλογή σημείου καταλύματος
 - συντήρηση τροφής, μεριδοποίηση, τάισμα ασθενών και ροή έκτακτης κουζίνας
-- πρώτες βοήθειες, έλεγχο αιμορραγίας, εγκαύματα, φροντίδα πυρετού, παρακολούθηση τραυμάτων και έλεγχο μολύνσεων
+- πρώτες βοήθειες, έλεγχο αιμορραγίας, εγκαύματα, φροντίδα πυρετού, παρακολούθηση τραυμάτων, έλεγχο μολύνσεων και λογική χώρου ανάρρωσης
 - υγιεινή, αποχέτευση, σταθμούς πλυσίματος, έλεγχο εξάπλωσης και διαχωρισμό αποβλήτων
-- κίνηση, σήμανση διαδρομής, επιστροφή και πειθαρχία σχεδίου ημέρας
+- κίνηση, σήμανση διαδρομής, επιστροφή, ορεινή κρίση και πειθαρχία σχεδίου ημέρας
 - ψυχολογία, ηθικό, επαναφορά μετά από σύγκρουση, πειθαρχία ύπνου/επιτήρησης και λήψη αποφάσεων υπό πίεση
 - εργαλεία, διάσωση υλικών, επισκευή λαβών, συγκράτηση εργασίας, χάραξη, στερέωση, διάτρηση, δεσίματα, pivots και διατήρηση εργαλείων
 - συνέχεια νοικοκυριού, πειθαρχία αποθέματος, καταγραφές, σχεδιασμό και μακροχρόνια λειτουργία
 
-Ο στόχος δεν είναι να γίνει μια δραματική συλλογή γενικών “tips”.
+Ο στόχος δεν είναι να γίνει μια δραματική συλλογή γενικών συμβουλών.
 Ο στόχος είναι να γίνει ένα αναγνώσιμο και χρήσιμο σύστημα πρακτικής γνώσης πεδίου.
 
 </details>
@@ -476,7 +480,7 @@ It is meant to become a readable, field-usable system of practical knowledge.
 ## Design Rules
 
 <details>
-<summary><strong>English</strong></summary>
+<summary><strong>🇬🇧 English</strong></summary>
 
 The project is being built with these rules:
 
@@ -491,7 +495,7 @@ The project is being built with these rules:
 </details>
 
 <details>
-<summary><strong>Ελληνικά</strong></summary>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
 Το project χτίζεται με αυτούς τους κανόνες:
 
@@ -507,58 +511,10 @@ The project is being built with these rules:
 
 ---
 
-## Current Direction
-
-<details>
-<summary><strong>English</strong></summary>
-
-Recent development has focused heavily on:
-
-- practical survival skills
-- workshop and repair skills
-- first-aid and hygiene workflows
-- shelter and water discipline
-- in-place expansion of older files, not only new file count
-- stronger update continuity tracking
-
-The strongest next directions remain:
-
-- deeper medical quick-reference chains
-- more in-place expansion of older core files
-- more community-level continuity logic
-- denser rapid-reference material for real stress use
-- stronger ecology / plant / food-gathering safety sections
-
-</details>
-
-<details>
-<summary><strong>Ελληνικά</strong></summary>
-
-Η πρόσφατη ανάπτυξη επικεντρώθηκε κυρίως σε:
-
-- πρακτικές δεξιότητες επιβίωσης
-- δεξιότητες εργαστηρίου και επισκευής
-- ροές πρώτων βοηθειών και υγιεινής
-- πειθαρχία καταλύματος και νερού
-- in-place επέκταση παλιότερων αρχείων και όχι μόνο αύξηση πλήθους αρχείων
-- ισχυρότερη συνέχεια ενημερώσεων
-
-Οι ισχυρότερες επόμενες κατευθύνσεις παραμένουν:
-
-- βαθύτερες αλυσίδες γρήγορης ιατρικής αναφοράς
-- περισσότερη in-place επέκταση παλιών βασικών αρχείων
-- περισσότερη λογική συνέχειας σε επίπεδο κοινότητας
-- πιο πυκνό rapid-reference υλικό για πραγματική χρήση υπό στρες
-- ισχυρότερες ενότητες τοπικής οικολογίας / φυτών / ασφάλειας συλλογής τροφής
-
-</details>
-
----
-
 ## Basic Usage
 
 <details>
-<summary><strong>English</strong></summary>
+<summary><strong>🇬🇧 English</strong></summary>
 
 From the project directory in Termux, run:
 
@@ -585,7 +541,7 @@ Then use the menu to:
 </details>
 
 <details>
-<summary><strong>Ελληνικά</strong></summary>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
 Από τον φάκελο του project στο Termux, τρέξε:
 
@@ -615,7 +571,22 @@ python3 "Offline Survival.py"
 
 ## Final Note
 
+<details>
+<summary><strong>🇬🇧 English</strong></summary>
+
 Offline Survival is being built to become a durable bilingual offline reference system for crisis, collapse, survival continuity, and long-term rebuilding.
 
 It is not finished.
 It is being improved in direct repo pushes with the goal of becoming deeper, cleaner, more practical, and more usable under stress.
+
+</details>
+
+<details>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
+
+Το Offline Survival χτίζεται ώστε να γίνει ένα ανθεκτικό δίγλωσσο offline σύστημα αναφοράς για κρίση, κατάρρευση, συνέχεια επιβίωσης και μακροχρόνιο ξαναχτίσιμο.
+
+Δεν έχει ολοκληρωθεί ακόμη.
+Βελτιώνεται με άμεσα pushes στο repo με στόχο να γίνεται βαθύτερο, καθαρότερο, πιο πρακτικό και πιο χρήσιμο κάτω από πραγματικό στρες.
+
+</details>
