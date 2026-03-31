@@ -1,0 +1,21 @@
+[
+  {
+    "id": "shelter::storm_hardening_repair",
+    "topic": "Storm Hardening and Repair Priorities for Shelter",
+    "category": "shelter_protection",
+    "subcategory": "storm_hardening",
+    "tags": ["storm", "shelter", "repair", "hardening", "weather"],
+    "summary_en": "A shelter survives storms better when weak points are found and reinforced before the weather hits, not after the structure has already started failing.",
+    "summary_el": "Ένα κατάλυμα αντέχει καλύτερα τις καταιγίδες όταν τα αδύναμα σημεία εντοπίζονται και ενισχύονται πριν χτυπήσει ο καιρός και όχι αφού η κατασκευή έχει ήδη αρχίσει να αποτυγχάνει.",
+    "content_en": "Storm hardening is the discipline of choosing which shelter weaknesses matter most under wind, rain, cold, and repeated bad weather. Roof leaks, loose coverings, weak door closures, unprotected bedding, exposed tools, and poor drainage often create bigger survival losses than dramatic structural failure. Good repair priorities focus on keeping water out, keeping bedding dry, securing loose materials, reducing wind entry, and preserving a warm sleeping zone. In survival conditions, a partially improved shelter can still save lives if the right weak points are handled first.",
+    "content_el": "Η ενίσχυση για καταιγίδα είναι η πειθαρχία του να διαλέγεις ποιες αδυναμίες του καταλύματος μετρούν περισσότερο σε άνεμο, βροχή, κρύο και επαναλαμβανόμενο κακό καιρό. Οι διαρροές οροφής, τα χαλαρά καλύμματα, τα αδύναμα κλεισίματα πορτών, τα απροστάτευτα στρωσίδια, τα εκτεθειμένα εργαλεία και η κακή απορροή δημιουργούν συχνά μεγαλύτερες απώλειες επιβίωσης από μια θεαματική δομική αστοχία. Οι καλές προτεραιότητες επισκευής εστιάζουν στο να κρατούν το νερό έξω, τα στρωσίδια στεγνά, τα χαλαρά υλικά ασφαλισμένα, την είσοδο αέρα μειωμένη και μια ζεστή ζώνη ύπνου διατηρημένη. Σε συνθήκες επιβίωσης, ένα μερικώς βελτιωμένο κατάλυμα μπορεί πάλι να σώσει ζωές αν αντιμετωπιστούν πρώτα τα σωστά αδύναμα σημεία.",
+    "steps_en": ["Inspect shelter for water entry, wind entry, loose materials, and bad drainage.","Prioritize keeping bedding, sleeping area, and critical supplies dry.","Secure coverings and closures before the weather worsens.","Protect tools and repair materials from becoming wet or lost.","Reassess the shelter after each storm for new weak points."],
+    "steps_el": ["Έλεγξε το κατάλυμα για είσοδο νερού, είσοδο αέρα, χαλαρά υλικά και κακή απορροή.","Δώσε προτεραιότητα στο να μείνουν στεγνά στρωσίδια, ζώνη ύπνου και κρίσιμες προμήθειες.","Ασφάλισε καλύμματα και κλεισίματα πριν χειροτερέψει ο καιρός.","Προστάτεψε εργαλεία και υλικά επισκευής ώστε να μην βραχούν ή χαθούν.","Ξαναέλεγξε το κατάλυμα μετά από κάθε καταιγίδα για νέα αδύναμα σημεία."],
+    "warnings_en": ["Small leaks can become major survival problems over time.","Wet bedding and wind entry can defeat an otherwise usable shelter.","After one storm, new failure points often appear."],
+    "warnings_el": ["Οι μικρές διαρροές μπορούν με τον χρόνο να γίνουν μεγάλα προβλήματα επιβίωσης.","Τα βρεγμένα στρωσίδια και η είσοδος αέρα μπορούν να νικήσουν ακόμη και ένα κατά τα άλλα χρήσιμο κατάλυμα.","Μετά από μία καταιγίδα, συχνά εμφανίζονται νέα σημεία αποτυχίας."],
+    "mistakes_en": ["Waiting for visible major damage before repairing weak points.","Focusing on appearance instead of dryness and warmth.","Ignoring drainage around the shelter."],
+    "mistakes_el": ["Να περιμένεις ορατή μεγάλη ζημιά πριν επισκευάσεις αδύναμα σημεία.","Να εστιάζεις στην εμφάνιση αντί για στεγνότητα και ζεστασιά.","Να αγνοείς την απορροή γύρω από το κατάλυμα."],
+    "related_topics": ["Improvised Shelter and Insulation", "Household Seasonal Planning and Winter Preparation", "Floodwater Cleanup and Reentry"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Best-guide expansion pass."
+  }
+]
