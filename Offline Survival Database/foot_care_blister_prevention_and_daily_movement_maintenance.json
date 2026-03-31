@@ -1,0 +1,25 @@
+[
+  {
+    "id": "movement::foot_care_blister_prevention_daily_maintenance",
+    "topic": "Foot Care, Blister Prevention, and Daily Movement Maintenance",
+    "category": "movement_navigation_evacuation",
+    "subcategory": "foot_maintenance_skill",
+    "tags": ["feet", "blisters", "movement", "maintenance", "walking"],
+    "summary_en": "Movement capacity is often lost first through the feet. Daily foot care is not comfort work; it is route, labor, and survival protection.",
+    "summary_el": "Η ικανότητα κίνησης συχνά χάνεται πρώτα μέσω των ποδιών. Η καθημερινή φροντίδα ποδιών δεν είναι εργασία άνεσης· είναι προστασία διαδρομής, εργασίας και επιβίωσης.",
+    "content_en": "A person can have food, gear, and direction and still fail because the feet break down. Friction, moisture, grit, poor fit, and delayed care turn small hot spots into blisters and blisters into reduced pace or immobility. Good foot maintenance means checking early, drying when possible, adjusting before pain becomes damage, and treating the condition of the feet as a daily operational issue. The useful skill is prevention first. Once the feet are failing, every other movement decision becomes harder.",
+    "content_el": "Ένας άνθρωπος μπορεί να έχει τροφή, εξοπλισμό και κατεύθυνση και παρ’ όλα αυτά να αποτύχει επειδή χαλάνε τα πόδια του. Η τριβή, η υγρασία, η βρωμιά, το κακό ταίριασμα και η καθυστερημένη φροντίδα μετατρέπουν τα μικρά καυτά σημεία σε φουσκάλες και τις φουσκάλες σε μειωμένο ρυθμό ή ακινησία. Η καλή συντήρηση ποδιών σημαίνει έγκαιρο έλεγχο, στέγνωμα όπου γίνεται, προσαρμογή πριν ο πόνος γίνει ζημιά και αντιμετώπιση της κατάστασης των ποδιών ως καθημερινό επιχειρησιακό ζήτημα. Η χρήσιμη δεξιότητα είναι πρώτα η πρόληψη. Μόλις τα πόδια αρχίσουν να αποτυγχάνουν, κάθε άλλη απόφαση κίνησης γίνεται δυσκολότερη.",
+    "steps_en": ["Check feet early instead of waiting for severe pain.","Reduce moisture, grit, and repeated friction when possible.","Adjust footwear, pace, or load before hot spots become worse.","Treat foot maintenance as part of route discipline.","Protect tomorrow's movement, not only today's push."],
+    "steps_el": ["Έλεγχε τα πόδια νωρίς αντί να περιμένεις έντονο πόνο.","Μείωσε υγρασία, βρωμιά και επαναλαμβανόμενη τριβή όπου γίνεται.","Προσάρμοσε υπόδηση, ρυθμό ή φορτίο πριν τα καυτά σημεία χειροτερέψουν.","Αντιμετώπισε τη συντήρηση ποδιών ως μέρος της πειθαρχίας διαδρομής.","Προστάτεψε την αυριανή κίνηση και όχι μόνο τη σημερινή ώθηση."],
+    "warnings_en": ["Foot breakdown can end a route faster than lack of will.","Wet friction damage builds quietly before it becomes obvious.","Delayed care costs more time later."],
+    "warnings_el": ["Η κατάρρευση ποδιών μπορεί να τελειώσει μια διαδρομή γρηγορότερα από την έλλειψη θέλησης.","Η υγρή ζημιά από τριβή χτίζεται αθόρυβα πριν γίνει προφανής.","Η καθυστερημένη φροντίδα κοστίζει περισσότερο χρόνο αργότερα."],
+    "mistakes_en": ["Pushing through warning pain without adjustment.","Ignoring dampness and grit inside footwear.","Treating foot care as optional until the route slows badly."],
+    "mistakes_el": ["Να πιέζεις μέσα από προειδοποιητικό πόνο χωρίς προσαρμογή.","Να αγνοείς υγρασία και βρωμιά μέσα στα παπούτσια.","Να αντιμετωπίζεις τη φροντίδα ποδιών ως προαιρετική μέχρι να πέσει πολύ ο ρυθμός της διαδρομής."],
+    "related_topics": ["Day Plan, Turnaround Time, and Energy Budgeting", "Route Marking and Backtracking Without Getting Lost", "Cold Hands, Dexterity Loss, and Small-Task Management"],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Added for broader movement and endurance coverage."
+  }
+]
