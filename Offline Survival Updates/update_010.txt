@@ -1,25 +1,2 @@
-update_010.txt
-Date: 2026-03-30
-Update batch: 010
-
-What this pass changed
-- Replaced Offline Survival.py with an improved main script design.
-- Improved search ranking logic.
-- Added search previews/snippets.
-- Improved reader mode with direct section jumping:
-  - summary
-  - actions
-  - warnings
-  - mistakes
-  - full detail
-- Kept standard-library-only design for Termux compatibility.
-
-Why this matters
-- Search now favors exact topic and phrase matches more cleanly.
-- Results are easier to scan because each result shows a short reason/preview.
-- Reading is less cluttered because users can jump to the section they need instead of scrolling through every block every time.
-
-Still needs more work
-- More dense quick indexes across the knowledge base.
-- More in-place expansion of older files.
-- More regional survival adaptations and deeper medical quick references.
+OFFLINE_SURVIVAL_ENC_V1
+hCNIKmWhMy7lb63wDgexC6EcAzuzDUNDWXO1y-02ni37A14kZaEParE7o-kfFMkutAEJb7NRHAUKVKjfj3TGQJg9TScxqAN59C_29gYcyCrgGBRk4FoBBwo6pZauJtxSnD5NOWjkCnGmMompVjrWP7IHEGT3HwcZCn7onqloj2iXNUAif6FMTaEt9e0AEtdvswsUaONLUxABOqWSqWHdRoU2SGtktAh_oDrctEdDmyauHAkh400cBQo98ZqkJslIgz5NPz_OQT6GOq73FwXeK-ABCCHjTRwFCj3xmqQm20KSJ0kvMbAJZqB_5esEU84_pAkSZL5ZHB0LO_ffo2nBVJggWC5_pxUU
