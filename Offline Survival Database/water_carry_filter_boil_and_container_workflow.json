@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skills::water_workflow_field",
+    "topic": "Water Carry, Filter, Boil, and Container Workflow",
+    "category": "water",
+    "subcategory": "field_water_skills",
+    "tags": ["water", "carry", "filter", "boil", "containers"],
+    "summary_en": "Water skill is a workflow: carrying, separating raw from clean, filtering when needed, boiling or treating correctly, and preventing recontamination in containers.",
+    "summary_el": "Η δεξιότητα νερού είναι ροή εργασίας: μεταφορά, διαχωρισμός ακατέργαστου από καθαρό, φιλτράρισμα όπου χρειάζεται, σωστό βράσιμο ή επεξεργασία και αποφυγή επαναμόλυνσης μέσα στα δοχεία.",
+    "content_en": "A household can collect water and still fail if raw and safe water are mixed, dirty cups enter clean storage, or carrying systems waste effort. Water workflow begins by deciding which container holds raw water, which holds treated water, where settling happens, when filtering helps, and how clean water stays protected after treatment. Boiling or treatment is only one step. The full skill is a chain that stays clean from collection to final use. Good container discipline often matters as much as the purification step itself.",
+    "content_el": "Ένα νοικοκυριό μπορεί να συλλέξει νερό και πάλι να αποτύχει αν ανακατευτούν ακατέργαστο και καθαρό νερό, αν βρόμικα ποτήρια μπαίνουν σε καθαρή αποθήκευση ή αν τα συστήματα μεταφοράς σπαταλούν προσπάθεια. Η ροή εργασίας νερού αρχίζει αποφασίζοντας ποιο δοχείο κρατά ακατέργαστο νερό, ποιο κρατά επεξεργασμένο, πού γίνεται καθίζηση, πότε βοηθά το φιλτράρισμα και πώς το καθαρό νερό μένει προστατευμένο μετά την επεξεργασία. Το βράσιμο ή η επεξεργασία είναι μόνο ένα βήμα. Η πλήρης δεξιότητα είναι μια αλυσίδα που μένει καθαρή από τη συλλογή ως την τελική χρήση. Η καλή πειθαρχία δοχείων συχνά μετρά όσο και το ίδιο το βήμα καθαρισμού.",
+    "steps_en": ["Assign separate raw-water and clean-water containers.","Settle and filter muddy water before boiling or treatment where appropriate.","Carry water in ways that reduce spill, contamination, and wasted effort.","Protect treated water from dirty hands, cups, and dippers.","Review the full chain, not only the boiling step."],
+    "steps_el": ["Όρισε χωριστά δοχεία για ακατέργαστο και καθαρό νερό.","Άφησε να καθίσει και φίλτραρε θολό νερό πριν από βράσιμο ή επεξεργασία όπου ταιριάζει.","Μετέφερε νερό με τρόπους που μειώνουν χύσιμο, μόλυνση και σπατάλη προσπάθειας.","Προστάτεψε το επεξεργασμένο νερό από βρόμικα χέρια, ποτήρια και κουτάλες.","Έλεγξε όλη την αλυσίδα και όχι μόνο το βήμα βρασμού."],
+    "warnings_en": ["Treatment is wasted if recontamination happens afterward.","Heavy water carry can quietly consume large amounts of energy.","One dirty container can damage the whole workflow."],
+    "warnings_el": ["Η επεξεργασία χάνεται αν γίνει επαναμόλυνση μετά.","Η βαριά μεταφορά νερού μπορεί αθόρυβα να καταναλώσει μεγάλη ενέργεια.","Ένα βρόμικο δοχείο μπορεί να βλάψει όλη τη ροή εργασίας."],
+    "mistakes_en": ["Mixing raw and treated water tools.","Focusing only on boiling and ignoring containers.","Making water work harder than it needs to be through poor carrying systems."],
+    "mistakes_el": ["Να ανακατεύεις εργαλεία ακατέργαστου και επεξεργασμένου νερού.","Να εστιάζεις μόνο στο βράσιμο και να αγνοείς τα δοχεία.","Να κάνεις τη δουλειά νερού πιο δύσκολη απ’ όσο χρειάζεται με κακά συστήματα μεταφοράς."],
+    "related_topics": ["Water Collection and Purification", "Safe Water Use and Treatment During Emergency", "Village Water Storage and Distribution"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-31","update_note": "Actual survival skills expansion pass."
+  }
+]
