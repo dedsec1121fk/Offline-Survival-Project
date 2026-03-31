@@ -1,0 +1,12 @@
+update_045.txt
+Date: 2026-03-31
+Update batch: 045
+
+What this pass changed
+- Added simple_measuring_marking_and_repeat_cut_accuracy.json
+- Added tool_roll_storage_and_quick_access_layout.json
+- Added basic_handle_replacement_fit_and_wedge_seating.json
+
+Why this matters
+- This continues the tool-skills branch of the project.
+- It adds practical layout, tool organization, and handle repair skills that support better repair and build quality over time.
