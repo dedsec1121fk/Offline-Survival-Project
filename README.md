@@ -1,65 +1,308 @@
-# Offline Survival
+<div align="center">
+  <h1>Offline Survival</h1>
+  <p><strong>Bilingual offline-first survival knowledge system for Termux on Android</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/Platform-Android%20(Termux)-brightgreen.svg" alt="Platform: Android (Termux)">
+    <img src="https://img.shields.io/badge/Language-Python-yellow.svg" alt="Language: Python">
+    <img src="https://img.shields.io/badge/Mode-Offline--First-blue.svg" alt="Mode: Offline-First">
+    <img src="https://img.shields.io/badge/Content-English%20%2B%20Greek-purple.svg" alt="Content: English + Greek">
+  </p>
+</div>
 
-Offline Survival is a bilingual offline-first survival knowledge system for Termux on Android.
+---
 
-It is designed to keep practical knowledge available when internet access is weak or absent, infrastructure is failing, hospitals are difficult to reach, or daily life is unstable for long periods.
+Offline Survival is a serious offline knowledge and workflow system designed for use when internet access is absent, weak, censored, unreliable, or too dangerous to depend on.
 
-## Project structure
+It is built for Termux on Android and is meant to remain useful during:
+
+- emergency response
+- long blackouts
+- water and sanitation disruption
+- food scarcity
+- medical isolation
+- civil instability
+- wartime civilian hardship
+- communications failure
+- digital-dependency collapse
+- long-term household and small-group continuity
+- rebuilding after system failure
+
+---
+
+## Repository Structure
+
+```text
+Offline Survival.py
+Offline Survival Database/
+Offline Survival Updates/
+```
+
+### What each part does
 
 - `Offline Survival.py`
+  - main offline menu-driven Termux interface
+  - search, browse, read, export, bookmarks, integrity checks, update-log reading
 - `Offline Survival Database/`
+  - topic-based JSON knowledge files
+  - combined bilingual English/Greek content
 - `Offline Survival Updates/`
+  - encrypted project continuation logs in `.txt` format
+  - planning, coverage tracking, duplicate-avoidance notes, and development history
 
-## Core goals
+---
 
-This project is built to support:
+## How to Get the Repository from GitHub and Open It in Termux
 
-- immediate emergency response
-- long blackouts and infrastructure failure
-- apartment and urban hardship
-- sanitation and disease prevention
-- water collection, storage, and treatment
-- shelter and repair discipline
-- food scarcity and preservation
-- first aid and medical continuity
-- psychology, morale, and group stability
-- communications under weak or failed networks
-- high-surveillance and digital-dependency resilience
-- wartime civilian continuity
-- rebuilding household and small-group function over time
+<details>
+<summary><strong>English</strong></summary>
 
-## Languages
+Open this repository on GitHub, tap **Code**, and choose **Download ZIP**. The ZIP usually downloads into your phone's internal storage **Downloads** folder as:
 
-The project is combined bilingual:
+```bash
+Offline-Survival-main.zip
+```
 
-- English
-- Greek
+After the ZIP finishes downloading, open **Termux** and run:
 
-The main script includes language selection at startup and the knowledge database contains paired English and Greek fields.
+```bash
+rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-main.zip" -d ~
+```
 
-## Main script features
+That command removes the previous extracted repository from your Termux home directory if it already exists, then extracts the new ZIP there so it is replaced cleanly.
 
-`Offline Survival.py` is the main Termux interface.
+### Step by step
 
-Current core functions include:
+1. Open the repository on GitHub.
+2. Tap **Code**.
+3. Tap **Download ZIP**.
+4. Wait for the download to finish.
+5. Open **Termux**.
+6. Paste and run:
 
-- language choice at startup
-- search by keyword
+```bash
+rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-main.zip" -d ~
+```
+
+### After extracting
+
+The repository will be in:
+
+```bash
+~/Offline-Survival-main
+```
+
+To enter it:
+
+```bash
+cd ~/Offline-Survival-main
+```
+
+To list the files:
+
+```bash
+ls
+```
+
+### Storage permission
+
+If Termux does not yet have storage permission, run:
+
+```bash
+termux-setup-storage
+```
+
+That usually only needs to be done once.
+
+</details>
+
+<details>
+<summary><strong>Ελληνικά</strong></summary>
+
+Άνοιξε αυτό το repository στο GitHub, πάτησε **Code** και μετά **Download ZIP**. Το ZIP συνήθως κατεβαίνει στον φάκελο **Downloads** της εσωτερικής αποθήκευσης με όνομα:
+
+```bash
+Offline-Survival-main.zip
+```
+
+Αφού ολοκληρωθεί το κατέβασμα, άνοιξε το **Termux** και τρέξε:
+
+```bash
+rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-main.zip" -d ~
+```
+
+Αυτή η εντολή διαγράφει πρώτα τον παλιό extracted φάκελο από το home directory του Termux αν υπάρχει ήδη και μετά κάνει extract το νέο ZIP εκεί ώστε να αντικατασταθεί καθαρά.
+
+### Βήμα προς βήμα
+
+1. Άνοιξε το repository στο GitHub.
+2. Πάτησε **Code**.
+3. Πάτησε **Download ZIP**.
+4. Περίμενε να ολοκληρωθεί το κατέβασμα.
+5. Άνοιξε το **Termux**.
+6. Κάνε επικόλληση και τρέξε:
+
+```bash
+rm -rf ~/Offline-Survival-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-main.zip" -d ~
+```
+
+### Μετά το extract
+
+Το repository θα βρίσκεται στο:
+
+```bash
+~/Offline-Survival-main
+```
+
+Για να μπεις μέσα:
+
+```bash
+cd ~/Offline-Survival-main
+```
+
+Για να δεις τα αρχεία:
+
+```bash
+ls
+```
+
+### Άδεια αποθηκευτικού χώρου
+
+Αν το Termux δεν έχει ακόμη άδεια αποθηκευτικού χώρου, τρέξε:
+
+```bash
+termux-setup-storage
+```
+
+Αυτό συνήθως χρειάζεται μόνο μία φορά.
+
+</details>
+
+---
+
+## Main Script Features
+
+<details>
+<summary><strong>English</strong></summary>
+
+`Offline Survival.py` is the main interface of the project.
+
+Current major functions include:
+
+- language selection at startup
+- smart keyword search with survival-oriented synonym expansion
 - search by tag
 - search by category
 - search by topic
-- browse categories
-- browse topics
-- terminal reading mode
+- browse all categories
+- browse all topics
+- easy-read terminal mode for long entries
+- full-detail mode
+- common-mistakes view
 - related-topic suggestions
-- export to text files in Android Downloads
-- update log reading
+- bookmarks
+- recent search history
+- exports to text files
+- whole-library TXT extraction
 - database statistics
-- integrity checks for missing fields and duplicate IDs
+- integrity checks for duplicate IDs and missing fields
+- encrypted update-log reading
 
-## Database design
+The script is intentionally dependency-light and uses the Python standard library so it stays practical for Termux and budget devices.
 
-The database is split into topic-based JSON files with a stable schema built for expansion.
+</details>
+
+<details>
+<summary><strong>Ελληνικά</strong></summary>
+
+Το `Offline Survival.py` είναι το κύριο interface του project.
+
+Οι βασικές λειτουργίες του περιλαμβάνουν:
+
+- επιλογή γλώσσας στην εκκίνηση
+- έξυπνη αναζήτηση λέξεων με επέκταση συνωνύμων γύρω από την επιβίωση
+- αναζήτηση με ετικέτα
+- αναζήτηση με κατηγορία
+- αναζήτηση με θέμα
+- περιήγηση όλων των κατηγοριών
+- περιήγηση όλων των θεμάτων
+- λειτουργία εύκολης ανάγνωσης για μεγάλες καταχωρήσεις
+- λειτουργία πλήρους ανάλυσης
+- προβολή συχνών λαθών
+- προτάσεις σχετικών θεμάτων
+- σελιδοδείκτες
+- ιστορικό πρόσφατων αναζητήσεων
+- εξαγωγές σε αρχεία κειμένου
+- εξαγωγή όλης της βιβλιοθήκης σε TXT
+- στατιστικά βάσης δεδομένων
+- έλεγχοι ακεραιότητας για διπλά IDs και ελλιπή πεδία
+- ανάγνωση κρυπτογραφημένων αρχείων ενημερώσεων
+
+Το script είναι σκόπιμα ελαφρύ σε dependencies και χρησιμοποιεί τη standard library της Python ώστε να παραμένει πρακτικό για Termux και για οικονομικές συσκευές.
+
+</details>
+
+---
+
+## Runtime Folders and Saved Data
+
+<details>
+<summary><strong>English</strong></summary>
+
+At runtime, the script creates and uses:
+
+```text
+~/Offline Survival/
+```
+
+Inside it, the project stores data such as:
+
+- bookmarks
+- recent searches
+- exported text bundles
+
+The whole-library TXT extraction goes to:
+
+```text
+/storage/emulated/0/Download/Offline Survival TXT's
+```
+
+This keeps the library easier to access from Android file managers and easier to move to other devices.
+
+</details>
+
+<details>
+<summary><strong>Ελληνικά</strong></summary>
+
+Κατά την εκτέλεση, το script δημιουργεί και χρησιμοποιεί:
+
+```text
+~/Offline Survival/
+```
+
+Μέσα σε αυτόν τον φάκελο το project αποθηκεύει δεδομένα όπως:
+
+- σελιδοδείκτες
+- πρόσφατες αναζητήσεις
+- εξαγόμενα bundles κειμένου
+
+Η εξαγωγή ολόκληρης της βιβλιοθήκης σε TXT πηγαίνει στο:
+
+```text
+/storage/emulated/0/Download/Offline Survival TXT's
+```
+
+Αυτό κάνει τη βιβλιοθήκη πιο εύκολη στην πρόσβαση από Android file managers και πιο εύκολη στη μεταφορά σε άλλες συσκευές.
+
+</details>
+
+---
+
+## Database Design
+
+<details>
+<summary><strong>English</strong></summary>
+
+The knowledge base is split into topic-based JSON files so it can grow without turning into one oversized file.
 
 Common fields include:
 
@@ -85,70 +328,294 @@ Common fields include:
 - `last_updated`
 - `update_note`
 
-## Design principles
+This structure is designed to support:
 
-The project is being expanded with these rules:
+- bilingual parity
+- safer searching
+- easier expansion in batches
+- duplicate control
+- better reader formatting
+- more useful exports
 
-- practical over dramatic
-- offline-friendly over dependency-heavy
-- clear over bloated
-- field-useful over theoretical
-- bilingual parity over partial translation
-- depth over duplication
+</details>
 
-The goal is not to create a toy database or a collection of filler tips.
-The goal is to create a serious reference system that remains readable under stress.
+<details>
+<summary><strong>Ελληνικά</strong></summary>
 
-## Termux notes
+Η βάση γνώσης είναι χωρισμένη σε JSON αρχεία ανά θέμα ώστε να μπορεί να επεκτείνεται χωρίς να γίνεται ένα υπερβολικά μεγάλο ενιαίο αρχείο.
 
-The project is intended for Termux on Android.
+Τα συνηθισμένα πεδία περιλαμβάνουν:
 
-Key design choices:
+- `id`
+- `topic`
+- `category`
+- `subcategory`
+- `tags`
+- `summary_en`
+- `summary_el`
+- `content_en`
+- `content_el`
+- `steps_en`
+- `steps_el`
+- `warnings_en`
+- `warnings_el`
+- `mistakes_en`
+- `mistakes_el`
+- `related_topics`
+- `difficulty`
+- `urgency`
+- `priority`
+- `last_updated`
+- `update_note`
 
-- no root required
-- avoids pip upgrade behavior
-- dependency-light design
-- UTF-8 safe for English and Greek
-- readable on budget devices
+Αυτή η δομή σχεδιάστηκε για να υποστηρίζει:
 
-## Exports
+- ισοτιμία δύο γλωσσών
+- ασφαλέστερη αναζήτηση
+- ευκολότερη επέκταση σε παρτίδες
+- έλεγχο διπλοτύπων
+- καλύτερη μορφοποίηση ανάγνωσης
+- πιο χρήσιμες εξαγωγές
 
-The script exports text output to:
+</details>
 
-`/storage/emulated/0/Download/Offline Survival`
+---
 
-## Update logs
+## Update Logs
 
-The `Offline Survival Updates/` folder exists so future work can continue cleanly.
-It tracks:
+<details>
+<summary><strong>English</strong></summary>
+
+The `Offline Survival Updates/` folder is used so future work can continue cleanly.
+
+It is intended to track:
 
 - what was added
 - what was expanded
-- what still needs more depth
-- how duplicates were avoided
+- what was cleaned
+- what still needs work
+- duplicate-prevention logic
+- database coverage status
+- next priorities
 
-## Current development state
+The project now supports encrypted `.txt` update logs. The main script automatically reads and decrypts them when needed.
 
-The repository has been receiving direct incremental pushes on `main`.
-Recent work has focused on:
+This means the update folder can remain in standard `.txt` form while still not storing new continuation notes as plain readable text.
 
-- broad category coverage
-- deeper operational detail
-- additional standalone reference files
-- continuation logs for future expansion
+</details>
 
-## Ongoing priorities
+<details>
+<summary><strong>Ελληνικά</strong></summary>
+
+Ο φάκελος `Offline Survival Updates/` χρησιμοποιείται ώστε η μελλοντική εργασία να συνεχίζεται καθαρά.
+
+Σκοπός του είναι να παρακολουθεί:
+
+- τι προστέθηκε
+- τι επεκτάθηκε
+- τι καθαρίστηκε
+- τι ακόμη χρειάζεται δουλειά
+- λογική αποφυγής διπλοτύπων
+- κατάσταση κάλυψης της βάσης
+- επόμενες προτεραιότητες
+
+Το project πλέον υποστηρίζει κρυπτογραφημένα αρχεία ενημερώσεων `.txt`. Το κύριο script τα διαβάζει και τα αποκρυπτογραφεί αυτόματα όταν χρειάζεται.
+
+Αυτό σημαίνει ότι ο φάκελος ενημερώσεων μπορεί να παραμένει σε μορφή `.txt` ενώ τα νέα αρχεία συνέχειας δεν αποθηκεύονται πλέον ως απλό αναγνώσιμο κείμενο.
+
+</details>
+
+---
+
+## Knowledge Scope
+
+<details>
+<summary><strong>English</strong></summary>
+
+The repository is being expanded across practical survival areas such as:
+
+- water collection, treatment, storage, staging, and ration discipline
+- fire building, fuel preparation, coal management, and fire-site control
+- shelter setup, tarp work, storm resets, and shelter-site selection
+- food preservation, portioning, sick-person feeding, and emergency kitchen workflow
+- first aid, bleeding control, burns, fever care, wound follow-up, and infection control
+- hygiene, sanitation, handwashing stations, spread control, and waste separation
+- movement, route marking, backtracking, and day-plan discipline
+- psychology, morale, group conflict reset, sleep/watch discipline, and decision-making under pressure
+- tools, salvage, handle repair, workholding, layout, fastening, drilling, lashing, pivots, and tool preservation
+- household continuity, inventory discipline, logs, planning, and long-term function
+
+The project is not meant to become a dramatic collection of generic “tips.”
+It is meant to become a readable, field-usable system of practical knowledge.
+
+</details>
+
+<details>
+<summary><strong>Ελληνικά</strong></summary>
+
+Το repository επεκτείνεται σε πρακτικούς τομείς επιβίωσης όπως:
+
+- συλλογή, επεξεργασία, αποθήκευση, στάδιο και πειθαρχία χρήσης νερού
+- άναμμα φωτιάς, προετοιμασία καυσίμου, διαχείριση κάρβουνων και έλεγχο σημείου φωτιάς
+- στήσιμο καταλύματος, tarp, επαναστησίματα καταιγίδας και επιλογή σημείου καταλύματος
+- συντήρηση τροφής, μεριδοποίηση, τάισμα ασθενών και ροή έκτακτης κουζίνας
+- πρώτες βοήθειες, έλεγχο αιμορραγίας, εγκαύματα, φροντίδα πυρετού, παρακολούθηση τραυμάτων και έλεγχο μολύνσεων
+- υγιεινή, αποχέτευση, σταθμούς πλυσίματος, έλεγχο εξάπλωσης και διαχωρισμό αποβλήτων
+- κίνηση, σήμανση διαδρομής, επιστροφή και πειθαρχία σχεδίου ημέρας
+- ψυχολογία, ηθικό, επαναφορά μετά από σύγκρουση, πειθαρχία ύπνου/επιτήρησης και λήψη αποφάσεων υπό πίεση
+- εργαλεία, διάσωση υλικών, επισκευή λαβών, συγκράτηση εργασίας, χάραξη, στερέωση, διάτρηση, δεσίματα, pivots και διατήρηση εργαλείων
+- συνέχεια νοικοκυριού, πειθαρχία αποθέματος, καταγραφές, σχεδιασμό και μακροχρόνια λειτουργία
+
+Ο στόχος δεν είναι να γίνει μια δραματική συλλογή γενικών “tips”.
+Ο στόχος είναι να γίνει ένα αναγνώσιμο και χρήσιμο σύστημα πρακτικής γνώσης πεδίου.
+
+</details>
+
+---
+
+## Design Rules
+
+<details>
+<summary><strong>English</strong></summary>
+
+The project is being built with these rules:
+
+- practical over dramatic
+- clear over bloated
+- field-useful over decorative
+- bilingual parity over mixed leftovers
+- depth over duplication
+- offline reliability over dependency-heavy design
+- workflow knowledge over random fragments
+
+</details>
+
+<details>
+<summary><strong>Ελληνικά</strong></summary>
+
+Το project χτίζεται με αυτούς τους κανόνες:
+
+- πρακτικό πάνω από δραματικό
+- καθαρό πάνω από φουσκωμένο
+- χρήσιμο στο πεδίο πάνω από διακοσμητικό
+- ισοτιμία δύο γλωσσών πάνω από μισομεταφρασμένα υπολείμματα
+- βάθος πάνω από διπλοτυπία
+- offline αξιοπιστία πάνω από βαριά dependencies
+- γνώση ροής εργασίας πάνω από τυχαία αποσπάσματα
+
+</details>
+
+---
+
+## Current Direction
+
+<details>
+<summary><strong>English</strong></summary>
+
+Recent development has focused heavily on:
+
+- practical survival skills
+- workshop and repair skills
+- first-aid and hygiene workflows
+- shelter and water discipline
+- in-place expansion of older files, not only new file count
+- stronger update continuity tracking
 
 The strongest next directions remain:
 
-- improving search and reading usability further
-- deepening medical quick-reference content
-- expanding local ecology and food gathering safety
-- adding more building-level and community-level continuity guidance
-- creating denser rapid-reference material for real stress use
+- deeper medical quick-reference chains
+- more in-place expansion of older core files
+- more community-level continuity logic
+- denser rapid-reference material for real stress use
+- stronger ecology / plant / food-gathering safety sections
 
-## Usage idea
+</details>
 
-Run the main script inside Termux from the project directory and use the menu to search, browse, read, and export content.
+<details>
+<summary><strong>Ελληνικά</strong></summary>
 
-This project is meant to become a durable offline library for crisis, collapse, and long-term survival continuity.
+Η πρόσφατη ανάπτυξη επικεντρώθηκε κυρίως σε:
+
+- πρακτικές δεξιότητες επιβίωσης
+- δεξιότητες εργαστηρίου και επισκευής
+- ροές πρώτων βοηθειών και υγιεινής
+- πειθαρχία καταλύματος και νερού
+- in-place επέκταση παλιότερων αρχείων και όχι μόνο αύξηση πλήθους αρχείων
+- ισχυρότερη συνέχεια ενημερώσεων
+
+Οι ισχυρότερες επόμενες κατευθύνσεις παραμένουν:
+
+- βαθύτερες αλυσίδες γρήγορης ιατρικής αναφοράς
+- περισσότερη in-place επέκταση παλιών βασικών αρχείων
+- περισσότερη λογική συνέχειας σε επίπεδο κοινότητας
+- πιο πυκνό rapid-reference υλικό για πραγματική χρήση υπό στρες
+- ισχυρότερες ενότητες τοπικής οικολογίας / φυτών / ασφάλειας συλλογής τροφής
+
+</details>
+
+---
+
+## Basic Usage
+
+<details>
+<summary><strong>English</strong></summary>
+
+From the project directory in Termux, run:
+
+```bash
+python "Offline Survival.py"
+```
+
+If your system uses `python3`, run:
+
+```bash
+python3 "Offline Survival.py"
+```
+
+Then use the menu to:
+
+- search
+- browse
+- read
+- bookmark
+- export
+- inspect update logs
+- run integrity checks
+
+</details>
+
+<details>
+<summary><strong>Ελληνικά</strong></summary>
+
+Από τον φάκελο του project στο Termux, τρέξε:
+
+```bash
+python "Offline Survival.py"
+```
+
+Αν το σύστημά σου χρησιμοποιεί `python3`, τρέξε:
+
+```bash
+python3 "Offline Survival.py"
+```
+
+Μετά χρησιμοποίησε το menu για να:
+
+- κάνεις αναζήτηση
+- περιηγηθείς
+- διαβάσεις
+- βάλεις σελιδοδείκτες
+- κάνεις εξαγωγή
+- δεις αρχεία ενημερώσεων
+- τρέξεις ελέγχους ακεραιότητας
+
+</details>
+
+---
+
+## Final Note
+
+Offline Survival is being built to become a durable bilingual offline reference system for crisis, collapse, survival continuity, and long-term rebuilding.
+
+It is not finished.
+It is being improved in direct repo pushes with the goal of becoming deeper, cleaner, more practical, and more usable under stress.
