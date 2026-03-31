@@ -1,0 +1,15 @@
+update_032.txt
+Date: 2026-03-30
+Update batch: 032
+
+What this pass changed
+- Reworked Offline Survival.py search behavior.
+- Added deeper weighted ranking across topic/category/tag/summary/content/action/warning/mistake fields.
+- Added synonym expansion for common survival concepts in English and Greek.
+- Added better result previews and visible match reasons.
+- Added persistent recent-search history in ~/Offline Survival/search_history.json.
+
+Why this matters
+- Search is now much stronger when the user remembers the idea but not the exact wording.
+- The reader can find related entries more reliably through broader query matching.
+- The project now behaves more like a real offline knowledge system instead of a simple keyword filter.

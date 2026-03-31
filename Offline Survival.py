@@ -15,8 +15,10 @@ UPDATES_DIR = os.path.join(SCRIPT_DIR, "Offline Survival Updates")
 APP_HOME = os.path.join(os.path.expanduser("~"), "Offline Survival")
 EXPORT_DIR = os.path.join(APP_HOME, "Exports")
 BOOKMARKS_FILE = os.path.join(APP_HOME, "bookmarks.json")
+SEARCH_HISTORY_FILE = os.path.join(APP_HOME, "search_history.json")
 WRAP_WIDTH = 96
 PAGE_BREAK = "=" * WRAP_WIDTH
+RECENT_SEARCH_LIMIT = 40
 
 REQUIRED_FIELDS = [
     "id", "topic", "category", "subcategory", "tags",
@@ -26,13 +28,41 @@ REQUIRED_FIELDS = [
     "difficulty", "urgency", "priority", "last_updated", "update_note"
 ]
 
+SEARCH_SYNONYMS = {
+    "water": ["hydration", "drink", "purification", "storage", "dehydration"],
+    "hydration": ["water", "dehydration", "fluids", "ors"],
+    "fire": ["heat", "cooking", "burn", "fuel"],
+    "food": ["nutrition", "calories", "scarcity", "preservation"],
+    "medicine": ["medical", "firstaid", "first-aid", "treatment", "injury"],
+    "medical": ["medicine", "treatment", "triage", "injury"],
+    "injury": ["wound", "bleeding", "fracture", "pain"],
+    "shelter": ["insulation", "storm", "cold", "sleep"],
+    "psychology": ["panic", "morale", "stress", "mental"],
+    "stress": ["panic", "adrenaline", "psychology", "fatigue"],
+    "movement": ["route", "travel", "evacuation", "terrain"],
+    "route": ["movement", "terrain", "travel", "evacuation"],
+    "cold": ["winter", "layering", "wet", "temperature"],
+    "mountain": ["elevation", "slope", "terrain", "cold"],
+    "garden": ["soil", "seed", "crop", "agriculture"],
+    "animals": ["livestock", "feed", "pen", "fodder"],
+    "books": ["knowledge", "maps", "writing", "archive"],
+    "εργαλεια": ["επισκευη", "σχοινι", "φορτιο"],
+    "νερο": ["ενυδατωση", "αποθηκευση", "καθαρισμος", "αφυδατωση"],
+    "τροφη": ["διατροφη", "θερμιδες", "συντηρηση", "πεινα"],
+    "ιατρικη": ["φαρμακα", "τραυμα", "τριαζ", "θεραπεια"],
+    "ψυχολογια": ["πανικος", "ηθικο", "στρες", "νοητικο"],
+    "κινηση": ["διαδρομη", "μετακινηση", "εκκενωση", "εδάφος"],
+    "κρυο": ["χειμωνας", "στρωσεις", "βρεγμενα", "θερμοκρασια"],
+    "βουνο": ["υψομετρο", "κλιση", "εδάφος", "κρυο"]
+}
+
 UI = {
     "en": {
         "choose_language": "Choose language / Επιλογή γλώσσας",
-        "welcome": "Offline Survival - smarter offline search, reading, and bookmarks",
+        "welcome": "Offline Survival - deeper search, clearer reading, stronger recall",
         "main_menu": "Main menu",
         "menu_items": [
-            "1. Search by keyword or phrase",
+            "1. Smart search by keyword or phrase",
             "2. Search by tag",
             "3. Search by category",
             "4. Search by topic",
@@ -48,7 +78,7 @@ UI = {
         "prompt": "Choose an option",
         "invalid": "Invalid choice.",
         "press_enter": "Press Enter to continue...",
-        "search": "Enter search text",
+        "search": "Enter keyword or phrase",
         "tag": "Enter tag",
         "category": "Enter category",
         "topic": "Enter topic",
@@ -62,7 +92,9 @@ UI = {
         "choose_topic": "Choose topic number, or Enter to go back",
         "choose_log": "Choose log number, or Enter to go back",
         "choose_bookmark": "Choose bookmark number, or Enter to go back",
+        "choose_recent": "Choose recent search number, or Enter to go back",
         "update_logs": "Update logs",
+        "recent": "Recent searches",
         "stats": "Database statistics",
         "integrity": "Integrity check",
         "help": "Help",
@@ -73,6 +105,7 @@ UI = {
         "full": "Full detail",
         "related": "Related topics",
         "snippet": "Search preview",
+        "reasons": "Why this matched",
         "priority": "Priority",
         "urgency": "Urgency",
         "difficulty": "Difficulty",
@@ -84,7 +117,7 @@ UI = {
         "bookmark_added": "Bookmark added.",
         "bookmark_removed": "Bookmark removed.",
         "bookmark_empty": "No bookmarks saved yet.",
-        "reader_help": "Commands: [n] next result  [p] previous result  [1] overview  [2] full detail  [3] mistakes  [r] related  [m] bookmark toggle  [e] export  [b] back",
+        "reader_help": "Commands: [n] next  [p] previous  [1] overview  [2] full  [3] mistakes  [r] related  [m] bookmark  [e] export  [b] back",
         "export_done": "Export created:",
         "export_failed": "Export failed:",
         "group_export": "Export [1] this entry, [2] current results, [3] same category, [Enter] cancel",
@@ -92,15 +125,15 @@ UI = {
         "empty_db": "Database is missing or empty.",
         "reload_msg": "Database reloaded.",
         "suggestions": "Closest suggestions",
-        "help_body": "This improved script keeps the project standard-library only while making search and reading more practical. Search now combines exact phrase ranking, multi-token matching across many fields, tag/category/topic weighting, fuzzy similarity, and preview snippets. Reader mode defaults to a cleaner overview and lets you jump between overview, full detail, mistakes, related topics, export, and bookmarks. Any file the script needs for its own operation is stored in ~/Offline Survival.",
-        "exit": "Stay safe. Protect function first, then comfort."
+        "recent_empty": "No recent searches saved yet.",
+        "help_body": "Search now expands queries through a built-in survival synonym map, ranks fields with stronger weighting, shows why results matched, stores recent searches in ~/Offline Survival, and uses better snippets. Hidden commands at the main menu: reload | lang | recent."
     },
     "el": {
         "choose_language": "Επιλογή γλώσσας / Choose language",
-        "welcome": "Offline Survival - πιο έξυπνη offline αναζήτηση, ανάγνωση και σελιδοδείκτες",
+        "welcome": "Offline Survival - βαθύτερη αναζήτηση, καθαρότερη ανάγνωση, ισχυρότερη μνήμη",
         "main_menu": "Κεντρικό μενού",
         "menu_items": [
-            "1. Αναζήτηση με λέξη ή φράση",
+            "1. Έξυπνη αναζήτηση με λέξη ή φράση",
             "2. Αναζήτηση με ετικέτα",
             "3. Αναζήτηση με κατηγορία",
             "4. Αναζήτηση με θέμα",
@@ -116,7 +149,7 @@ UI = {
         "prompt": "Διάλεξε επιλογή",
         "invalid": "Μη έγκυρη επιλογή.",
         "press_enter": "Πάτησε Enter για συνέχεια...",
-        "search": "Δώσε λέξη ή φράση αναζήτησης",
+        "search": "Δώσε λέξη ή φράση",
         "tag": "Δώσε ετικέτα",
         "category": "Δώσε κατηγορία",
         "topic": "Δώσε θέμα",
@@ -130,7 +163,9 @@ UI = {
         "choose_topic": "Διάλεξε αριθμό θέματος ή Enter για επιστροφή",
         "choose_log": "Διάλεξε αριθμό αρχείου ή Enter για επιστροφή",
         "choose_bookmark": "Διάλεξε αριθμό σελιδοδείκτη ή Enter για επιστροφή",
+        "choose_recent": "Διάλεξε αριθμό πρόσφατης αναζήτησης ή Enter για επιστροφή",
         "update_logs": "Αρχεία ενημερώσεων",
+        "recent": "Πρόσφατες αναζητήσεις",
         "stats": "Στατιστικά βάσης",
         "integrity": "Έλεγχος ακεραιότητας",
         "help": "Βοήθεια",
@@ -141,6 +176,7 @@ UI = {
         "full": "Πλήρης ανάλυση",
         "related": "Σχετικά θέματα",
         "snippet": "Προεπισκόπηση αναζήτησης",
+        "reasons": "Γιατί ταίριαξε",
         "priority": "Προτεραιότητα",
         "urgency": "Επείγον",
         "difficulty": "Δυσκολία",
@@ -152,7 +188,7 @@ UI = {
         "bookmark_added": "Ο σελιδοδείκτης προστέθηκε.",
         "bookmark_removed": "Ο σελιδοδείκτης αφαιρέθηκε.",
         "bookmark_empty": "Δεν υπάρχουν ακόμη αποθηκευμένοι σελιδοδείκτες.",
-        "reader_help": "Εντολές: [n] επόμενο αποτέλεσμα  [p] προηγούμενο αποτέλεσμα  [1] overview  [2] πλήρης ανάλυση  [3] λάθη  [r] σχετικά  [m] εναλλαγή σελιδοδείκτη  [e] εξαγωγή  [b] πίσω",
+        "reader_help": "Εντολές: [n] επόμενο  [p] προηγούμενο  [1] overview  [2] πλήρης  [3] λάθη  [r] σχετικά  [m] σελιδοδείκτης  [e] εξαγωγή  [b] πίσω",
         "export_done": "Η εξαγωγή δημιουργήθηκε:",
         "export_failed": "Η εξαγωγή απέτυχε:",
         "group_export": "Εξαγωγή [1] αυτής της καταχώρησης, [2] τρεχόντων αποτελεσμάτων, [3] ίδιας κατηγορίας, [Enter] ακύρωση",
@@ -160,8 +196,8 @@ UI = {
         "empty_db": "Η βάση λείπει ή είναι άδεια.",
         "reload_msg": "Η βάση επαναφορτώθηκε.",
         "suggestions": "Κοντινές προτάσεις",
-        "help_body": "Αυτό το βελτιωμένο script παραμένει μόνο με standard library αλλά κάνει την αναζήτηση και την ανάγνωση πιο πρακτικές. Η αναζήτηση συνδυάζει ακριβή αντιστοίχιση φράσης, πολλαπλά token σε πολλά πεδία, βαρύτητα για ετικέτες/κατηγορίες/θέματα, fuzzy similarity και snippets προεπισκόπησης. Το reader mode ξεκινά με πιο καθαρό overview και σε αφήνει να πηδάς σε πλήρη ανάλυση, λάθη, σχετικά θέματα, εξαγωγή και σελιδοδείκτες. Κάθε αρχείο που χρειάζεται το script για τη λειτουργία του αποθηκεύεται στο ~/Offline Survival.",
-        "exit": "Μείνε ασφαλής. Προστάτεψε πρώτα τη λειτουργία και μετά την άνεση."
+        "recent_empty": "Δεν υπάρχουν ακόμη πρόσφατες αναζητήσεις.",
+        "help_body": "Η αναζήτηση τώρα επεκτείνει ερωτήματα με εσωτερικό χάρτη συνωνύμων επιβίωσης, δίνει ισχυρότερη βαρύτητα στα πεδία, δείχνει γιατί ταίριαξαν τα αποτελέσματα, αποθηκεύει πρόσφατες αναζητήσεις στο ~/Offline Survival και χρησιμοποιεί καλύτερα snippets. Κρυφές εντολές στο κεντρικό μενού: reload | lang | recent."
     }
 }
 
@@ -240,6 +276,36 @@ def save_bookmarks(bookmarks):
         json.dump(sorted(set(bookmarks)), fh, ensure_ascii=False, indent=2)
 
 
+def load_search_history():
+    ensure_runtime_dirs()
+    if not os.path.isfile(SEARCH_HISTORY_FILE):
+        return []
+    try:
+        with open(SEARCH_HISTORY_FILE, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        return data if isinstance(data, list) else []
+    except Exception:
+        return []
+
+
+def save_search_history(history):
+    ensure_runtime_dirs()
+    with open(SEARCH_HISTORY_FILE, "w", encoding="utf-8") as fh:
+        json.dump(history[:RECENT_SEARCH_LIMIT], fh, ensure_ascii=False, indent=2)
+
+
+def add_search_history(query, mode):
+    history = load_search_history()
+    record = {
+        "query": query,
+        "mode": mode,
+        "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
+    history = [x for x in history if not (x.get("query") == query and x.get("mode") == mode)]
+    history.insert(0, record)
+    save_search_history(history)
+
+
 def build_aliases(item):
     aliases = set()
     aliases.update(tokenize(item.get("topic", "")))
@@ -301,7 +367,7 @@ def list_update_logs():
 
 def get_text(item, lang, base):
     val = item.get(f"{base}_{lang}", "")
-    return val if not isinstance(val, list) else val
+    return val if not isinstance(val, list) else " ".join(map(str, val))
 
 
 def get_list(item, lang, base):
@@ -318,138 +384,208 @@ def search_blob(item):
         " ".join(get_list(item, "en", "steps")), " ".join(get_list(item, "el", "steps")),
         " ".join(get_list(item, "en", "warnings")), " ".join(get_list(item, "el", "warnings")),
         " ".join(get_list(item, "en", "mistakes")), " ".join(get_list(item, "el", "mistakes")),
+        " ".join(item.get("related_topics", []) or []), item.get("_source_file", ""),
         " ".join(item.get("_aliases", []))
     ]
     return normalize(" ".join(parts))
 
 
-def match_snippet(item, query, lang):
-    fields = [
+def expand_terms(query):
+    tokens = tokenize(query)
+    expanded = set(tokens)
+    for token in list(tokens):
+        if token in SEARCH_SYNONYMS:
+            expanded.update(SEARCH_SYNONYMS[token])
+        for key, vals in SEARCH_SYNONYMS.items():
+            if token in vals:
+                expanded.add(key)
+                expanded.update(vals)
+    return tokens, sorted(expanded)
+
+
+def build_profile(query):
+    q = normalize(query)
+    tokens, expanded = expand_terms(q)
+    return {
+        "raw": query,
+        "q": q,
+        "tokens": tokens,
+        "expanded": expanded
+    }
+
+
+def best_snippet(item, profile, lang):
+    candidates = [
         get_text(item, lang, "summary"),
         get_text(item, lang, "content"),
         " ".join(get_list(item, lang, "steps")),
         " ".join(get_list(item, lang, "warnings")),
         " ".join(get_list(item, lang, "mistakes"))
     ]
-    q = normalize(query)
-    for field in fields:
-        lower = normalize(field)
-        idx = lower.find(q)
-        if idx != -1:
-            raw = str(field)
-            start = max(0, idx - 70)
-            end = min(len(raw), idx + len(query) + 100)
-            return raw[start:end].replace("\n", " ").strip()
-    return (get_text(item, lang, "summary") or get_text(item, "en", "summary"))[:180]
+    q = profile["q"]
+    terms = [q] + profile["expanded"]
+    for field in candidates:
+        low = normalize(field)
+        for term in terms:
+            idx = low.find(term)
+            if idx != -1:
+                start = max(0, idx - 75)
+                end = min(len(field), idx + len(term) + 110)
+                return field[start:end].replace("\n", " ").strip()
+    return (get_text(item, lang, "summary") or get_text(item, "en", "summary"))[:220]
 
 
-def find_suggestions(entries, query):
+def closest_suggestions(entries, query):
     pool = set()
     for item in entries:
         pool.add(item.get("topic", ""))
         pool.add(item.get("category", ""))
+        pool.add(item.get("subcategory", ""))
         pool.update(item.get("tags", []) or [])
         pool.update(item.get("_aliases", []) or [])
     pool = [x for x in pool if x]
-    return difflib.get_close_matches(query, pool, n=8, cutoff=0.55)
+    return difflib.get_close_matches(query, pool, n=10, cutoff=0.55)
 
 
-def score_entry(item, query, mode):
-    q = normalize(query)
-    if not q:
-        return 0.0
-    topic = normalize(item.get("topic", ""))
-    category = normalize(item.get("category", ""))
-    subcategory = normalize(item.get("subcategory", ""))
-    tags = [normalize(tag) for tag in item.get("tags", []) or []]
-    aliases = [normalize(alias) for alias in item.get("_aliases", [])]
-    blob = search_blob(item)
-    tokens = tokenize(q)
+def field_scores(item):
+    return {
+        "topic": normalize(item.get("topic", "")),
+        "category": normalize(item.get("category", "")),
+        "subcategory": normalize(item.get("subcategory", "")),
+        "tags": [normalize(x) for x in item.get("tags", []) or []],
+        "aliases": [normalize(x) for x in item.get("_aliases", []) or []],
+        "summary_en": normalize(get_text(item, "en", "summary")),
+        "summary_el": normalize(get_text(item, "el", "summary")),
+        "content_en": normalize(get_text(item, "en", "content")),
+        "content_el": normalize(get_text(item, "el", "content")),
+        "steps_en": normalize(" ".join(get_list(item, "en", "steps"))),
+        "steps_el": normalize(" ".join(get_list(item, "el", "steps"))),
+        "warnings_en": normalize(" ".join(get_list(item, "en", "warnings"))),
+        "warnings_el": normalize(" ".join(get_list(item, "el", "warnings"))),
+        "mistakes_en": normalize(" ".join(get_list(item, "en", "mistakes"))),
+        "mistakes_el": normalize(" ".join(get_list(item, "el", "mistakes"))),
+        "related": normalize(" ".join(item.get("related_topics", []) or [])),
+        "source": normalize(item.get("_source_file", ""))
+    }
+
+
+def compute_score(item, profile, mode="keyword"):
+    fs = field_scores(item)
+    q = profile["q"]
+    tokens = profile["tokens"]
+    expanded = profile["expanded"]
     score = 0.0
+    reasons = []
+
+    def add(points, reason):
+        nonlocal score
+        score += points
+        if reason and reason not in reasons:
+            reasons.append(reason)
 
     if mode == "topic":
-        if q == topic:
-            score += 280
-        if q in topic:
-            score += 170
+        if q == fs["topic"]:
+            add(320, "exact topic")
+        if q in fs["topic"]:
+            add(160, "topic phrase")
         for token in tokens:
-            if token in topic:
-                score += 25
-        score += difflib.SequenceMatcher(None, q, topic).ratio() * 80
-        return score
+            if token in fs["topic"]:
+                add(26, "topic term")
+        add(difflib.SequenceMatcher(None, q, fs["topic"]).ratio() * 80, "topic similarity")
+        return score, reasons
 
     if mode == "category":
-        if q == category:
-            score += 260
-        if q in category or q in subcategory:
-            score += 150
+        if q == fs["category"]:
+            add(300, "exact category")
+        if q in fs["category"] or q in fs["subcategory"]:
+            add(160, "category phrase")
         for token in tokens:
-            if token in category or token in subcategory:
-                score += 20
-        score += difflib.SequenceMatcher(None, q, category).ratio() * 65
-        return score
+            if token in fs["category"] or token in fs["subcategory"]:
+                add(22, "category term")
+        add(difflib.SequenceMatcher(None, q, fs["category"]).ratio() * 70, "category similarity")
+        return score, reasons
 
     if mode == "tag":
-        if q in tags or q in aliases:
-            score += 250
-        for tag in tags + aliases:
+        if q in fs["tags"] or q in fs["aliases"]:
+            add(280, "exact tag/alias")
+        for tag in fs["tags"] + fs["aliases"]:
             if q in tag:
-                score += 80
-            score += difflib.SequenceMatcher(None, q, tag).ratio() * 30
-        return score
+                add(80, "tag phrase")
+            add(difflib.SequenceMatcher(None, q, tag).ratio() * 28, "tag similarity")
+        return score, reasons
 
-    # smarter keyword search
-    if q == topic:
-        score += 320
-    if q in topic:
-        score += 210
-    if q in (normalize(get_text(item, "en", "summary")), normalize(get_text(item, "el", "summary"))):
-        score += 120
-    if q in blob:
-        score += 90
-    if q == category or q == subcategory:
-        score += 110
-    if q in category or q in subcategory:
-        score += 70
-    if q in tags or q in aliases:
-        score += 90
+    # keyword mode with stronger ranking
+    if q == fs["topic"]:
+        add(360, "exact topic")
+    if q in fs["topic"]:
+        add(220, "topic phrase")
+    if q == fs["category"] or q == fs["subcategory"]:
+        add(180, "exact category/subcategory")
+    if q in fs["category"] or q in fs["subcategory"]:
+        add(95, "category phrase")
+    if q in fs["summary_en"] or q in fs["summary_el"]:
+        add(150, "summary phrase")
+    if q in fs["content_en"] or q in fs["content_el"]:
+        add(95, "content phrase")
+    if q in fs["steps_en"] or q in fs["steps_el"]:
+        add(70, "action phrase")
+    if q in fs["warnings_en"] or q in fs["warnings_el"]:
+        add(65, "warning phrase")
+    if q in fs["mistakes_en"] or q in fs["mistakes_el"]:
+        add(60, "mistake phrase")
+    if q in fs["related"]:
+        add(50, "related topic phrase")
+    if q in fs["source"]:
+        add(35, "source file phrase")
+    if q in fs["tags"] or q in fs["aliases"]:
+        add(130, "exact tag/alias")
 
-    if tokens:
-        token_hits = 0
-        for token in tokens:
-            if token in topic:
-                score += 30
-                token_hits += 1
-            elif token in category or token in subcategory:
-                score += 18
-                token_hits += 1
-            elif token in tags or token in aliases:
-                score += 22
-                token_hits += 1
-            elif token in blob:
-                score += 10
-                token_hits += 1
-        if token_hits == len(tokens):
-            score += 55 + len(tokens) * 6
+    all_text = search_blob(item)
+    token_hits = 0
+    expanded_hits = 0
+    for token in tokens:
+        if token in fs["topic"]:
+            add(34, f"topic term")
+            token_hits += 1
+        elif token in fs["tags"] or token in fs["aliases"]:
+            add(26, "tag term")
+            token_hits += 1
+        elif token in fs["category"] or token in fs["subcategory"]:
+            add(20, "category term")
+            token_hits += 1
+        elif token in all_text:
+            add(10, "content term")
+            token_hits += 1
+    for token in expanded:
+        if token in all_text:
+            expanded_hits += 1
+            add(2.5, "expanded synonym")
 
-    score += difflib.SequenceMatcher(None, q, topic).ratio() * 50
-    score += difflib.SequenceMatcher(None, q, blob[:1600]).ratio() * 22
+    if tokens and token_hits == len(tokens):
+        add(65 + 5 * len(tokens), "all query terms found")
+    if len(expanded) > 2 and expanded_hits >= min(3, len(expanded)):
+        add(18, "multiple related concepts found")
+
+    add(difflib.SequenceMatcher(None, q, fs["topic"]).ratio() * 55, "topic similarity")
+    add(difflib.SequenceMatcher(None, q, fs["summary_en"][:500] + " " + fs["summary_el"][:500]).ratio() * 25, "summary similarity")
 
     if normalize(item.get("priority", "")) == "high":
-        score += 5
+        add(5, "high priority")
     if normalize(item.get("urgency", "")) in {"high", "critical"}:
-        score += 5
-    return score
+        add(5, "high urgency")
+
+    return score, reasons[:5]
 
 
 def search_entries(entries, query, mode="keyword"):
+    profile = build_profile(query)
     ranked = []
     for item in entries:
-        score = score_entry(item, query, mode)
+        score, reasons = compute_score(item, profile, mode)
         if score >= 25:
-            ranked.append((score, item))
-    ranked.sort(key=lambda pair: (-pair[0], pair[1].get("topic", "")))
-    return ranked
+            ranked.append((score, reasons, item))
+    ranked.sort(key=lambda pair: (-pair[0], pair[2].get("topic", "")))
+    return ranked, profile
 
 
 def related_entries(entries, item):
@@ -510,7 +646,8 @@ def print_meta(item, lang, bookmarks):
     print(f"{UI[lang]['priority']}: {item.get('priority', '')} | {UI[lang]['urgency']}: {item.get('urgency', '')} | {UI[lang]['difficulty']}: {item.get('difficulty', '')}")
     print(f"{UI[lang]['last_updated']}: {item.get('last_updated', '')}")
     print(f"{UI[lang]['update_note']}: {item.get('update_note', '')}")
-    print(f"{status}")
+    print(f"Source file: {item.get('_source_file', '')}")
+    print(status)
 
 
 def render_entry(item, lang, section, bookmarks):
@@ -632,20 +769,22 @@ def reader(entries, result_items, start_index, lang, bookmarks):
             return
 
 
-def show_results(entries, ranked, lang, query, bookmarks):
+def show_results(entries, ranked, lang, profile, bookmarks):
     clear()
-    print_header(f"{len(ranked)} {UI[lang]['results']} - {query}")
-    for num, (score, item) in enumerate(ranked, 1):
-        preview = match_snippet(item, query, lang)
+    print_header(f"{len(ranked)} {UI[lang]['results']} - {profile['raw']}")
+    for num, (score, reasons, item) in enumerate(ranked, 1):
+        preview = best_snippet(item, profile, lang)
         mark = "*" if item.get("id") in bookmarks else " "
         print(f"{mark}{num}. {item.get('topic', '')} [{item.get('category', '')}] score={score:.1f}")
+        if reasons:
+            print(f"   {UI[lang]['reasons']}: {', '.join(reasons)}")
         print(f"   {UI[lang]['snippet']}: {preview[:240]}{'...' if len(preview) > 240 else ''}")
     print()
     choice = input(UI[lang]["pick_result"] + ": ").strip()
     if choice.isdigit():
         n = int(choice)
         if 1 <= n <= len(ranked):
-            reader(entries, [item for _, item in ranked], n - 1, lang, bookmarks)
+            reader(entries, [item for _, _, item in ranked], n - 1, lang, bookmarks)
 
 
 def search_mode(entries, lang, mode, bookmarks):
@@ -653,15 +792,16 @@ def search_mode(entries, lang, mode, bookmarks):
     query = input(labels[mode] + ": ").strip()
     if not query:
         return
-    ranked = search_entries(entries, query, mode)
+    add_search_history(query, mode)
+    ranked, profile = search_entries(entries, query, mode)
     if not ranked:
         print(UI[lang]["no_results"])
-        suggestions = find_suggestions(entries, query)
+        suggestions = closest_suggestions(entries, query)
         if suggestions:
             print(f"\n{UI[lang]['suggestions']}: {', '.join(suggestions)}")
         pause(lang)
         return
-    show_results(entries, ranked, lang, query, bookmarks)
+    show_results(entries, ranked, lang, profile, bookmarks)
 
 
 def browse_categories(entries, lang, bookmarks):
@@ -676,8 +816,8 @@ def browse_categories(entries, lang, bookmarks):
         n = int(choice)
         if 1 <= n <= len(cats):
             selected = cats[n - 1]
-            ranked = [(100.0, item) for item in entries if item.get("category", "") == selected]
-            show_results(entries, ranked, lang, selected, bookmarks)
+            ranked = [(100.0, ["category browse"], item) for item in entries if item.get("category", "") == selected]
+            show_results(entries, ranked, lang, {"raw": selected, "q": selected, "expanded": [], "tokens": []}, bookmarks)
 
 
 def browse_topics(entries, lang, bookmarks):
@@ -685,15 +825,14 @@ def browse_topics(entries, lang, bookmarks):
     clear()
     print_header(UI[lang]["topics"])
     for i, topic in enumerate(topics, 1):
-        count = sum(1 for item in entries if item.get("topic", "") == topic)
-        print(f"{i}. {topic} ({count})")
+        print(f"{i}. {topic}")
     choice = input("\n" + UI[lang]["choose_topic"] + ": ").strip()
     if choice.isdigit():
         n = int(choice)
         if 1 <= n <= len(topics):
             selected = topics[n - 1]
-            ranked = [(100.0, item) for item in entries if item.get("topic", "") == selected]
-            show_results(entries, ranked, lang, selected, bookmarks)
+            ranked = [(100.0, ["topic browse"], item) for item in entries if item.get("topic", "") == selected]
+            show_results(entries, ranked, lang, {"raw": selected, "q": selected, "expanded": [], "tokens": []}, bookmarks)
 
 
 def browse_bookmarks(entries, lang, bookmarks):
@@ -711,6 +850,26 @@ def browse_bookmarks(entries, lang, bookmarks):
         n = int(choice)
         if 1 <= n <= len(saved):
             reader(entries, saved, n - 1, lang, bookmarks)
+
+
+def browse_recent(entries, lang, bookmarks):
+    history = load_search_history()
+    clear()
+    print_header(UI[lang]["recent"])
+    if not history:
+        print(UI[lang]["recent_empty"])
+        pause(lang)
+        return
+    for i, rec in enumerate(history[:RECENT_SEARCH_LIMIT], 1):
+        print(f"{i}. [{rec.get('mode')}] {rec.get('query')} ({rec.get('time')})")
+    choice = input("\n" + UI[lang]["choose_recent"] + ": ").strip()
+    if choice.isdigit():
+        n = int(choice)
+        if 1 <= n <= len(history[:RECENT_SEARCH_LIMIT]):
+            rec = history[n - 1]
+            ranked, profile = search_entries(entries, rec.get("query", ""), rec.get("mode", "keyword"))
+            if ranked:
+                show_results(entries, ranked, lang, profile, bookmarks)
 
 
 def show_update_logs(lang):
@@ -745,6 +904,7 @@ def show_stats(entries, lang):
     print(f"Urgent entries: {urgent}")
     print(f"Entries with missing required fields: {missing}")
     print(f"Runtime home: {APP_HOME}")
+    print(f"Recent searches stored: {len(load_search_history())}")
     pause(lang)
 
 
@@ -758,7 +918,7 @@ def run_integrity(entries, lang):
         return
     if missing:
         print("Missing fields:")
-        for entry_id, fields in missing[:40]:
+        for entry_id, fields in missing[:50]:
             print(f"- {entry_id}: {', '.join(fields)}")
         print()
     if dupe_ids:
@@ -768,7 +928,7 @@ def run_integrity(entries, lang):
         print()
     if dupe_pairs:
         print("Duplicate topic/subcategory pairs:")
-        for pair in dupe_pairs[:40]:
+        for pair in dupe_pairs[:50]:
             print(f"- {pair[0]} / {pair[1]}")
     pause(lang)
 
@@ -778,7 +938,7 @@ def print_help(lang):
     print_header(UI[lang]["help"])
     print(wrap(UI[lang]["help_body"]))
     print()
-    print("Hidden commands: reload | lang")
+    print("Hidden commands: reload | lang | recent")
     pause(lang)
 
 
@@ -826,9 +986,11 @@ def main():
             pause(lang)
         elif choice == "lang":
             lang = "el" if lang == "en" else "en"
+        elif choice == "recent":
+            browse_recent(entries, lang, bookmarks)
         elif choice == "0":
             clear()
-            print(UI[lang]["exit"])
+            print("Stay safe." if lang == "en" else "Μείνε ασφαλής.")
             break
         else:
             print(UI[lang]["invalid"])
