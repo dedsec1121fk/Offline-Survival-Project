@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skills::sawing_cutting_breakdown",
+    "topic": "Simple Sawing, Cutting, and Material Breakdown Workflow",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "material_processing_skill",
+    "tags": ["sawing", "cutting", "materials", "workflow", "tools"],
+    "summary_en": "Cutting skill improves when work is staged: measure, stabilize, cut, sort, and store. Random cutting wastes effort and material quickly.",
+    "summary_el": "Η δεξιότητα κοπής βελτιώνεται όταν η εργασία γίνεται σε στάδια: μέτρημα, σταθεροποίηση, κοπή, ταξινόμηση και αποθήκευση. Η τυχαία κοπή σπαταλά γρήγορα προσπάθεια και υλικό.",
+    "content_en": "Material breakdown is more than making pieces smaller. It is turning raw wood or salvage into lengths, shapes, and categories that support the next task without wasting strength. A good workflow starts by deciding what sizes are needed, stabilizing the work safely, making controlled cuts, and sorting output into immediate-use pieces, later-use pieces, and scrap. Strong tool work is economical: fewer wasted cuts, less repeated handling, and less damage to good material. A household that learns to break down material cleanly builds faster and repairs with less fatigue.",
+    "content_el": "Η επεξεργασία υλικού είναι κάτι περισσότερο από το να κάνεις κομμάτια μικρότερα. Είναι να μετατρέπεις ακατέργαστο ξύλο ή υλικά διάσωσης σε μήκη, σχήματα και κατηγορίες που στηρίζουν την επόμενη εργασία χωρίς να σπαταλούν δύναμη. Μια καλή ροή εργασίας αρχίζει αποφασίζοντας ποια μεγέθη χρειάζονται, σταθεροποιώντας την εργασία με ασφάλεια, κάνοντας ελεγχόμενες κοπές και ταξινομώντας το αποτέλεσμα σε κομμάτια άμεσης χρήσης, μελλοντικής χρήσης και scrap. Η ισχυρή δουλειά εργαλείων είναι οικονομική: λιγότερες χαμένες κοπές, λιγότερος επαναλαμβανόμενος χειρισμός και λιγότερη ζημιά σε καλό υλικό. Ένα νοικοκυριό που μαθαίνει να επεξεργάζεται καθαρά το υλικό χτίζει γρηγορότερα και επισκευάζει με λιγότερη κόπωση.",
+    "steps_en": ["Decide target sizes before the first cut.","Stabilize material so cutting stays controlled.","Sort output into immediate-use, reserve-use, and scrap.","Protect good material from bad cuts and rushed handling.","Work in batches when repeated sizes are needed."],
+    "steps_el": ["Αποφάσισε τα επιθυμητά μεγέθη πριν από την πρώτη κοπή.","Σταθεροποίησε το υλικό ώστε η κοπή να μένει ελεγχόμενη.","Ταξινόμησε το αποτέλεσμα σε άμεση χρήση, εφεδρική χρήση και scrap.","Προστάτεψε καλό υλικό από κακές κοπές και βιαστικό χειρισμό.","Δούλεψε σε παρτίδες όταν χρειάζονται επαναλαμβανόμενα μεγέθη."],
+    "warnings_en": ["Rushed cutting wastes more than time.","Poor stabilization increases both tool risk and bad cuts.","Good material is easy to ruin through random breakdown."],
+    "warnings_el": ["Η βιαστική κοπή σπαταλά κάτι περισσότερο από χρόνο.","Η κακή σταθεροποίηση αυξάνει και τον κίνδυνο εργαλείου και τις κακές κοπές.","Το καλό υλικό χαλά εύκολα μέσα από τυχαία επεξεργασία."],
+    "mistakes_en": ["Cutting first and planning later.","Mixing finished usable material with scrap.","Handling material repeatedly because no workflow was defined."],
+    "mistakes_el": ["Να κόβεις πρώτα και να σχεδιάζεις μετά.","Να ανακατεύεις έτοιμο χρήσιμο υλικό με scrap.","Να χειρίζεσαι το υλικό ξανά και ξανά επειδή δεν ορίστηκε ροή εργασίας."],
+    "related_topics": ["Toolmaking from Salvage and Basic Materials", "Blade Sharpening, Edge Maintenance, and Safe Field Touch-Up", "Wood Processing, Splitting, Stacking, and Dry Fuel Selection"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Actual skill expansion pass."
+  }
+]
