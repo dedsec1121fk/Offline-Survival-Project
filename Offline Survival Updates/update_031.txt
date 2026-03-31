@@ -1,0 +1,12 @@
+update_031.txt
+Date: 2026-03-30
+Update batch: 031
+
+What this pass changed
+- Added human_anatomy_core_structures_for_survival.json
+- Added human_anatomy_movement_joints_and_injury_function.json
+- Added human_anatomy_organs_fluids_and_survival_relevance.json
+
+Why this matters
+- This creates a dedicated anatomy layer inside the project.
+- It connects body structure and body systems directly to survival judgment, injury function, triage, and daily care.
