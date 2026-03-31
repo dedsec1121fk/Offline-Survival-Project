@@ -1,0 +1,21 @@
+[
+  {
+    "id": "food::dry_smoke_salt_preservation",
+    "topic": "Food Drying, Smoking, and Salt Preservation",
+    "category": "food_nutrition_preservation",
+    "subcategory": "preservation_methods",
+    "tags": ["food", "drying", "smoking", "salt", "preservation"],
+    "summary_en": "Food preservation protects calories only when drying, smoking, and salting are treated as controlled processes instead of rough tradition or guesswork.",
+    "summary_el": "Η διατήρηση τροφής προστατεύει θερμίδες μόνο όταν η ξήρανση, το κάπνισμα και το αλάτισμα αντιμετωπίζονται ως ελεγχόμενες διαδικασίες και όχι ως χονδροειδής παράδοση ή μαντεψιά.",
+    "content_en": "Preservation extends food life by lowering spoilage risk, but poor preservation can preserve danger instead of food. Drying needs air movement, enough dryness, and protection from contamination. Smoking needs control of heat, exposure, and cleanliness rather than blind overconfidence. Salt preservation depends on consistency and clean handling. The strongest survival food system does not preserve everything the same way. It matches method to food type, weather, available fuel, labor, and storage conditions. Preservation should also be tracked: what was processed, when, under what conditions, and how it behaved in storage. Discipline matters more than romance here.",
+    "content_el": "Η διατήρηση παρατείνει τη ζωή της τροφής μειώνοντας τον κίνδυνο φθοράς, αλλά η κακή διατήρηση μπορεί να διατηρήσει τον κίνδυνο αντί για την τροφή. Η ξήρανση χρειάζεται κίνηση αέρα, αρκετή στεγνότητα και προστασία από μόλυνση. Το κάπνισμα χρειάζεται έλεγχο θερμότητας, έκθεσης και καθαριότητας αντί για τυφλή αυτοπεποίθηση. Η αλατοσυντήρηση εξαρτάται από σταθερότητα και καθαρό χειρισμό. Το ισχυρότερο σύστημα επιβίωσης δεν διατηρεί τα πάντα με τον ίδιο τρόπο. Ταιριάζει τη μέθοδο με τον τύπο τροφής, τον καιρό, το διαθέσιμο καύσιμο, την εργασία και τις συνθήκες αποθήκευσης. Η διατήρηση πρέπει επίσης να καταγράφεται: τι επεξεργάστηκε, πότε, σε ποιες συνθήκες και πώς συμπεριφέρθηκε στην αποθήκευση. Η πειθαρχία εδώ μετρά περισσότερο από τον ρομαντισμό.",
+    "steps_en": ["Match preservation method to food type and weather conditions.","Protect all preserved food from dirt, insects, and moisture.","Track dates and storage behavior.","Use smaller successful batches before scaling up.","Discard questionable preserved food instead of gambling on it."],
+    "steps_el": ["Ταίριαξε μέθοδο διατήρησης με τον τύπο τροφής και τις καιρικές συνθήκες.","Προστάτεψε όλη τη διατηρημένη τροφή από βρωμιά, έντομα και υγρασία.","Κατέγραψε ημερομηνίες και συμπεριφορά αποθήκευσης.","Χρησιμοποίησε μικρές πετυχημένες παρτίδες πριν μεγαλώσεις την κλίμακα.","Πέτα αμφίβολη διατηρημένη τροφή αντί να τζογάρεις με αυτήν."],
+    "warnings_en": ["Poor preservation can create hidden illness risk.","Moisture and contamination undo preservation quickly.","Not all stored-looking food is safe food."],
+    "warnings_el": ["Η κακή διατήρηση μπορεί να δημιουργήσει κρυφό κίνδυνο ασθένειας.","Η υγρασία και η μόλυνση ακυρώνουν γρήγορα τη διατήρηση.","Δεν είναι κάθε τροφή που φαίνεται αποθηκευμένη και ασφαλής."],
+    "mistakes_en": ["Preserving large batches before the method is proven.","Ignoring weather and humidity during drying.","Keeping doubtful preserved food because losing it feels painful."],
+    "mistakes_el": ["Να διατηρείς μεγάλες παρτίδες πριν αποδειχθεί η μέθοδος.","Να αγνοείς καιρό και υγρασία κατά την ξήρανση.","Να κρατάς αμφίβολη διατηρημένη τροφή επειδή πονάει να τη χάσεις."],
+    "related_topics": ["Food Preservation Under Scarcity", "Low-Fuel Household Meal Planning", "Safe Food and Cleanup After Disaster"],
+    "difficulty": "high","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Whole-database expansion pass."
+  }
+]
