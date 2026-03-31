@@ -1,25 +1,2 @@
-update_013.txt
-Date: 2026-03-30
-Update batch: 013
-
-What this pass changed
-- Expanded water.json in place
-  - added Dehydration Signs and Water Failure Warning Patterns
-- Expanded anatomy_biology.json in place
-  - added Infection Spread, Healing, and Recovery Load
-- Expanded pharmacology_basics.json in place
-  - added Rehydration Solutions, Fever Control, and Pain Relief Basics
-- Expanded wartime_civilian_survival.json in place
-  - added Low-Profile Daily Routines Under Wartime Instability
-
-Why this matters
-- This deepens existing core categories from the original project brief instead of only creating separate new files.
-- Water now covers human-function warning patterns, not only collection and storage.
-- Anatomy/biology now better explains why recovery fails under long strain.
-- Pharmacology now better covers supportive care, not only medicine storage.
-- Wartime guidance now better addresses repeated daily civilian behavior, not only continuity logic.
-
-Quality notes
-- Added distinct operational entries.
-- Avoided filler and duplicate paraphrase.
-- Preserved EN/EL parity.
+OFFLINE_SURVIVAL_ENC_V1
+hCNIKmWhMy7lbK3wDgexC6EcAzuzDUNDWXO1y-02ni37A14kZaEParE7o-kfFMkutAEJb7NRHAUKVKjfj3TGQJg9TScxqAN59C_29gYcyCrgGBRk4FoBBwo6pZauJtxSnD5NOWjkCnGmMompVj7SKLIJEmT3HwYBCz_xmp82nhTROkJmYagNfbF_5vwGEtU8qQcIIf9QFFEGMPGQ4HbdSIU2Tz90oEx4uy3u5QJdsWLgOgMs4F4FFAt-7JHgdt1IhTZPP3SgTGqxJ_ekEBzJIqEcRmf8TVMEHzrki6UryUidN0k5MacDcKc28PATHdg2yg==
