@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tools::lash_tension_knot_backup",
+    "topic": "Lash Tensioning and Knot Backup for Structures",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "lashing_skill",
+    "tags": ["lash", "tension", "knot", "backup", "structure"],
+    "summary_en": "A lash only becomes trustworthy when tension is controlled, load direction is respected, and the knot system has enough backup to survive movement, weather, and repeated strain.",
+    "summary_el": "Ένα δέσιμο γίνεται αξιόπιστο μόνο όταν η τάση ελέγχεται, η κατεύθυνση φορτίου γίνεται σεβαστή και το σύστημα κόμπων έχει αρκετή εφεδρεία ώστε να αντέχει κίνηση, καιρό και επαναλαμβανόμενη καταπόνηση.",
+    "content_en": "Lashing is more than wrapping line around poles. Structure lashings fail when tension is uneven, when knots are loaded in the wrong direction, or when no backup keeps the system from slipping under movement. Good lashing work starts with deciding what the lash must resist: pull, twist, sag, or spread. Then tension is added in a useful sequence and the knot or locking method is chosen so the structure keeps its shape instead of relaxing over time. A good lash saves material by letting simple parts act like a stronger whole.",
+    "content_el": "Το δέσιμο είναι κάτι περισσότερο από το να τυλίγεις γραμμή γύρω από πασσάλους. Τα δομικά δεσίματα αποτυγχάνουν όταν η τάση είναι άνιση, όταν οι κόμποι φορτίζονται σε λάθος κατεύθυνση ή όταν δεν υπάρχει εφεδρεία που να κρατά το σύστημα από γλίστρημα κάτω από κίνηση. Η καλή δουλειά δεσίματος αρχίζει αποφασίζοντας σε τι πρέπει να αντισταθεί το δέσιμο: τράβηγμα, στρίψιμο, κρέμασμα ή άνοιγμα. Μετά η τάση μπαίνει σε χρήσιμη σειρά και ο κόμπος ή η μέθοδος κλειδώματος διαλέγεται έτσι ώστε η κατασκευή να κρατά το σχήμα της αντί να χαλαρώνει με τον χρόνο. Ένα καλό δέσιμο εξοικονομεί υλικό επιτρέποντας σε απλά κομμάτια να λειτουργούν σαν πιο ισχυρό σύνολο.",
+    "steps_en": ["Decide what direction of force the lashing must resist.","Build tension evenly instead of randomly tightening one area.","Use knot backup or locking methods that prevent gradual slip.","Test the structure under realistic load and movement.","Retension after weather or repeated use changes the line."],
+    "steps_el": ["Αποφάσισε σε ποια κατεύθυνση δύναμης πρέπει να αντισταθεί το δέσιμο.","Χτίσε ομοιόμορφη τάση αντί να σφίγγεις τυχαία μία περιοχή.","Χρησιμοποίησε εφεδρεία κόμπου ή μεθόδους κλειδώματος που αποτρέπουν το σταδιακό γλίστρημα.","Δοκίμασε την κατασκευή κάτω από ρεαλιστικό φορτίο και κίνηση.","Ξανατέντωσε μετά από καιρό ή επαναλαμβανόμενη χρήση που αλλάζει τη γραμμή."],
+    "warnings_en": ["A lash that slips slowly is still failing.","Uneven tension creates weak spots and distortion.","Good knots alone do not fix bad load direction."],
+    "warnings_el": ["Ένα δέσιμο που γλιστρά αργά πάλι αποτυγχάνει.","Η άνιση τάση δημιουργεί αδύναμα σημεία και παραμόρφωση.","Οι καλοί κόμποι μόνοι τους δεν διορθώνουν κακή κατεύθυνση φορτίου."],
+    "mistakes_en": ["Wrapping without a clear tension plan.","Using no backup against gradual slip.","Judging the lash only while unloaded."],
+    "mistakes_el": ["Να τυλίγεις χωρίς καθαρό σχέδιο τάσης.","Να μη χρησιμοποιείς καμία εφεδρεία απέναντι στο σταδιακό γλίστρημα.","Να κρίνεις το δέσιμο μόνο ενώ δεν είναι φορτισμένο."],
+    "related_topics": ["Improvised Cordage, Twisting, and Bundle Strength Basics", "Tarp Shelter Setup and Ridgeline Basics", "Clamping, Binding, and Temporary Hold Basics"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Continuing practical tool-skills expansion."
+  }
+]
