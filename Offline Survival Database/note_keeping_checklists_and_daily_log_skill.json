@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skills::note_checklist_daily_log",
+    "topic": "Note-Keeping, Checklists, and Daily Log Skill",
+    "category": "knowledge_preservation",
+    "subcategory": "recordkeeping_skill",
+    "tags": ["notes", "checklists", "daily log", "recordkeeping", "skill"],
+    "summary_en": "Writing things down is a survival skill because memory weakens under fatigue, stress, illness, and repetition. Notes turn vague effort into repeatable action.",
+    "summary_el": "Το να γράφεις πράγματα είναι δεξιότητα επιβίωσης γιατί η μνήμη αδυνατίζει κάτω από κόπωση, στρες, ασθένεια και επανάληψη. Οι σημειώσεις μετατρέπουν την αόριστη προσπάθεια σε επαναλαμβανόμενη δράση.",
+    "content_en": "A household that logs water levels, medical changes, route use, fuel use, repair tasks, food rotation, and next-day priorities loses less time to confusion. Checklists matter because they reduce forgotten basics. Daily logs matter because they reveal change over time: the wound is redder today, the water drops faster, the weather shifted, the route took longer, the patient slept worse. The skill is not writing everything. It is writing the right things clearly enough that tomorrow's decisions become stronger than today's memory alone.",
+    "content_el": "Ένα νοικοκυριό που καταγράφει επίπεδα νερού, ιατρικές αλλαγές, χρήση διαδρομών, κατανάλωση καυσίμου, εργασίες επισκευής, εναλλαγή τροφής και προτεραιότητες επόμενης μέρας χάνει λιγότερο χρόνο στη σύγχυση. Τα checklists μετρούν γιατί μειώνουν τα ξεχασμένα βασικά. Τα ημερήσια logs μετρούν γιατί αποκαλύπτουν αλλαγή μέσα στον χρόνο: το τραύμα είναι πιο κόκκινο σήμερα, το νερό πέφτει γρηγορότερα, ο καιρός άλλαξε, η διαδρομή πήρε περισσότερο χρόνο, ο ασθενής κοιμήθηκε χειρότερα. Η δεξιότητα δεν είναι να γράφεις τα πάντα. Είναι να γράφεις τα σωστά πράγματα αρκετά καθαρά ώστε οι αυριανές αποφάσεις να γίνονται ισχυρότερες από τη σημερινή μνήμη μόνη της.",
+    "steps_en": ["Keep short written records of the most important recurring systems.","Use checklists for tasks that should not be forgotten.","Write observations in plain clear language.","Review yesterday's log before making today's plan.","Treat writing as a survival tool, not an optional extra."],
+    "steps_el": ["Κράτα σύντομα γραπτά αρχεία για τα σημαντικότερα επαναλαμβανόμενα συστήματα.","Χρησιμοποίησε checklists για δουλειές που δεν πρέπει να ξεχνιούνται.","Γράφε παρατηρήσεις σε απλή καθαρή γλώσσα.","Έλεγξε το χθεσινό log πριν φτιάξεις το σημερινό σχέδιο.","Αντιμετώπισε τη γραφή ως εργαλείο επιβίωσης και όχι ως προαιρετικό έξτρα."],
+    "warnings_en": ["Unwritten systems decay into argument and guesswork.","Memory under stress is less reliable than it feels.","A short useful log is better than a big abandoned notebook."],
+    "warnings_el": ["Τα άγραφα συστήματα σαπίζουν σε καβγά και μαντεψιά.","Η μνήμη κάτω από στρες είναι λιγότερο αξιόπιστη απ’ όσο φαίνεται.","Ένα σύντομο χρήσιμο log είναι καλύτερο από ένα μεγάλο εγκαταλειμμένο τετράδιο."],
+    "mistakes_en": ["Writing nothing because perfect recordkeeping feels impossible.","Recording too much vague detail and too little useful change.","Failing to read the notes back into decisions."],
+    "mistakes_el": ["Να μην γράφεις τίποτα επειδή η τέλεια καταγραφή φαίνεται αδύνατη.","Να καταγράφεις πάρα πολλή αόριστη λεπτομέρεια και πολύ λίγη χρήσιμη αλλαγή.","Να μην ξαναβάζεις τις σημειώσεις μέσα στις αποφάσεις."],
+    "related_topics": ["Knowledge Preservation and Family Archive Design", "Family Meeting Rhythm and Written Plans", "Household Inventory Rotation and Spoilage Control"],
+    "difficulty": "low","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Additional practical skills pass."
+  }
+]
