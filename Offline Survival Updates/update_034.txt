@@ -1,0 +1,16 @@
+update_034.txt
+Date: 2026-03-31
+Update batch: 034
+
+What this pass changed
+- Improved Offline Survival.py again:
+  - added full TXT library extraction to /storage/emulated/0/Download/Offline Survival TXT's
+  - made reader default to easier reading mode
+  - kept stronger smart search, bookmarks, and recent searches
+- Added wilderness_camp_layout_fire_water_waste_separation.json
+- Added basic_fence_gate_and_animal_control_from_salvage.json
+
+Why this matters
+- This pass improves both usability and knowledge depth.
+- The project can now create a real TXT library for offline reading outside the app itself.
+- Reading is easier, and the database keeps expanding in wilderness camp design and animal-control structure knowledge.
