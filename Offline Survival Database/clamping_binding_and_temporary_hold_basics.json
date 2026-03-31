@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tools::clamp_bind_temporary_hold",
+    "topic": "Clamping, Binding, and Temporary Hold Basics",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "holding_skill",
+    "tags": ["clamp", "binding", "temporary hold", "work holding", "repair"],
+    "summary_en": "Good workholding makes cutting, fastening, alignment, and repair safer and more accurate. A piece that moves at the wrong moment wastes both effort and material.",
+    "summary_el": "Η καλή συγκράτηση εργασίας κάνει κοπή, στερέωση, ευθυγράμμιση και επισκευή ασφαλέστερες και ακριβέστερες. Ένα κομμάτι που κινείται τη λάθος στιγμή σπαταλά και προσπάθεια και υλικό.",
+    "content_en": "Many survival repairs fail because the worker tries to do everything with one hand and hope. Clamping, binding, and temporary holds solve that by keeping material stable long enough for accurate work. The right hold may be a real clamp, cordage wrap, wedge pressure, body bracing, or a simple temporary tie. The important skill is matching the hold to the task: light marking, heavy cutting, alignment, drying, or joint setting. Good workholding reduces slipping, wandering cuts, poor fit, and injury risk.",
+    "content_el": "Πολλές επισκευές επιβίωσης αποτυγχάνουν γιατί ο εργάτης προσπαθεί να κάνει τα πάντα με ένα χέρι και ελπίδα. Το σφίξιμο, το δέσιμο και οι προσωρινές συγκρατήσεις λύνουν αυτό το πρόβλημα κρατώντας το υλικό σταθερό αρκετή ώρα για ακριβή εργασία. Η σωστή συγκράτηση μπορεί να είναι πραγματικός σφιγκτήρας, τύλιγμα κορδονιού, πίεση με σφήνα, στήριξη σώματος ή ένα απλό προσωρινό δέσιμο. Η σημαντική δεξιότητα είναι να ταιριάζεις τη συγκράτηση με τη δουλειά: ελαφριά χάραξη, βαριά κοπή, ευθυγράμμιση, στέγνωμα ή κάθισμα σύνδεσης. Η καλή συγκράτηση μειώνει γλίστρημα, κοπές που φεύγουν, κακό ταίριασμα και κίνδυνο τραυματισμού.",
+    "steps_en": ["Choose a hold method that matches the force and task.","Stabilize the work before cutting or fastening begins.","Use temporary holds to free hands for accuracy and safety.","Recheck the hold after the work shifts or load changes.","Treat workholding as part of the job, not a delay before the real work."],
+    "steps_el": ["Διάλεξε μέθοδο συγκράτησης που ταιριάζει σε δύναμη και εργασία.","Σταθεροποίησε το έργο πριν αρχίσει η κοπή ή η στερέωση.","Χρησιμοποίησε προσωρινές συγκρατήσεις για να ελευθερώσεις χέρια για ακρίβεια και ασφάλεια.","Ξαναέλεγξε τη συγκράτηση μετά από μετακίνηση έργου ή αλλαγή φορτίου.","Αντιμετώπισε τη συγκράτηση ως μέρος της δουλειάς και όχι ως καθυστέρηση πριν από την πραγματική εργασία."],
+    "warnings_en": ["Loose workholding creates slipping and bad cuts fast.","A temporary hold that is too weak can fail under force suddenly.","Unstable work wastes time even when no injury occurs."],
+    "warnings_el": ["Η χαλαρή συγκράτηση δημιουργεί γρήγορα γλίστρημα και κακές κοπές.","Μια προσωρινή συγκράτηση που είναι πολύ αδύναμη μπορεί να αποτύχει ξαφνικά κάτω από δύναμη.","Η ασταθής εργασία σπαταλά χρόνο ακόμη κι όταν δεν γίνεται τραυματισμός."],
+    "mistakes_en": ["Trying to save time by skipping temporary holds.","Using one hold method for every kind of task.","Ignoring the direction the work wants to twist or move."],
+    "mistakes_el": ["Να προσπαθείς να κερδίσεις χρόνο παραλείποντας προσωρινές συγκρατήσεις.","Να χρησιμοποιείς μία μέθοδο συγκράτησης για κάθε είδος εργασίας.","Να αγνοείς την κατεύθυνση που θέλει να στρίψει ή να κινηθεί το έργο."],
+    "related_topics": ["Wedge, Shim, Spacing, and Alignment Basics", "Simple Measuring, Marking, and Repeat-Cut Accuracy", "Simple Sawing, Cutting, and Material Breakdown Workflow"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Continuing practical tool-skills expansion."
+  }
+]
