@@ -1,0 +1,21 @@
+[
+  {
+    "id": "mountain::snow_travel_avoidance",
+    "topic": "Snow Travel and Avalanche Avoidance Basics",
+    "category": "weather_disasters",
+    "subcategory": "snow_movement",
+    "tags": ["snow", "avalanche", "mountain", "travel", "winter"],
+    "summary_en": "Snow travel becomes dangerous when slope, fatigue, weather, visibility, and load are underestimated together. Avoidance and conservative decision-making matter more than speed.",
+    "summary_el": "Η κίνηση στο χιόνι γίνεται επικίνδυνη όταν κλίση, κόπωση, καιρός, ορατότητα και βάρος υποτιμούνται μαζί. Η αποφυγή και η συντηρητική λήψη αποφάσεων μετρούν περισσότερο από την ταχύτητα.",
+    "content_en": "Snow changes route reality. Slopes that seem manageable when dry can become slow, unstable, and far more dangerous under deep snow, wind loading, ice, or poor visibility. Snow travel also hides holes, edges, streams, and unstable footing while increasing fatigue with every step. Conservative mountain judgment means choosing lower-risk terrain, shortening travel windows, reducing load, watching weather and wind effects, and turning back before commitment becomes entrapment. The strongest snow survival habit is not heroism. It is avoiding bad terrain before it punishes the group.",
+    "content_el": "Το χιόνι αλλάζει την πραγματικότητα της διαδρομής. Κλίσεις που φαίνονται διαχειρίσιμες όταν είναι στεγνές μπορούν να γίνουν αργές, ασταθείς και πολύ πιο επικίνδυνες κάτω από βαθύ χιόνι, φόρτωμα ανέμου, πάγο ή κακή ορατότητα. Η κίνηση στο χιόνι κρύβει επίσης τρύπες, άκρα, ρέματα και ασταθές πάτημα ενώ αυξάνει την κόπωση σε κάθε βήμα. Η συντηρητική ορεινή κρίση σημαίνει να διαλέγεις έδαφος χαμηλότερου κινδύνου, να μικραίνεις τα παράθυρα μετακίνησης, να μειώνεις φορτίο, να παρακολουθείς καιρό και επιδράσεις ανέμου και να γυρίζεις πίσω πριν η δέσμευση γίνει παγίδα. Η ισχυρότερη συνήθεια επιβίωσης στο χιόνι δεν είναι ο ηρωισμός. Είναι η αποφυγή κακού εδάφους πριν τιμωρήσει την ομάδα.",
+    "steps_en": ["Prefer lower-risk terrain and shorter snow routes.","Reduce load and pace travel conservatively.","Watch wind, new snow, ice, and visibility changes closely.","Turn back early when uncertainty rises.","Treat snow movement as a major energy and hazard event."],
+    "steps_el": ["Προτίμησε έδαφος χαμηλότερου κινδύνου και μικρότερες χιονισμένες διαδρομές.","Μείωσε φορτίο και κράτα συντηρητικό ρυθμό μετακίνησης.","Παρακολούθησε στενά άνεμο, νέο χιόνι, πάγο και αλλαγές ορατότητας.","Γύρισε πίσω νωρίς όταν ανεβαίνει η αβεβαιότητα.","Αντιμετώπισε την κίνηση στο χιόνι ως μεγάλο γεγονός ενέργειας και κινδύνου."],
+    "warnings_en": ["Snow hides hazards and magnifies fatigue.","Wind and fresh snow can change route safety quickly.","Bad visibility turns small navigation errors into major exposure problems."],
+    "warnings_el": ["Το χιόνι κρύβει κινδύνους και μεγεθύνει την κόπωση.","Ο άνεμος και το φρέσκο χιόνι μπορούν να αλλάξουν γρήγορα την ασφάλεια διαδρομής.","Η κακή ορατότητα μετατρέπει μικρά λάθη πλοήγησης σε μεγάλα προβλήματα έκθεσης."],
+    "mistakes_en": ["Treating snow routes like summer routes.","Overcommitting to slope terrain after fatigue begins.","Delaying retreat because progress already cost effort."],
+    "mistakes_el": ["Να αντιμετωπίζεις χιονισμένες διαδρομές σαν καλοκαιρινές.","Να δεσμεύεσαι υπερβολικά σε επικλινές έδαφος αφού αρχίσει η κόπωση.","Να καθυστερείς την υποχώρηση επειδή η πρόοδος ήδη κόστισε προσπάθεια."],
+    "related_topics": ["Mountain Survival Basics and Elevation Hazards", "Terrain Awareness and Route Selection", "Cold Weather Layering and Wet Clothing Control"],
+    "difficulty": "high","urgency": "high","priority": "high","last_updated": "2026-03-31","update_note": "Further expansion pass."
+  }
+]
