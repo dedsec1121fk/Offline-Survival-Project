@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skills::cordage_twisting_bundle_strength",
+    "topic": "Improvised Cordage, Twisting, and Bundle Strength Basics",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "cordage_skill",
+    "tags": ["cordage", "twisting", "bundle", "strength", "fiber"],
+    "summary_en": "Cordage becomes useful when fibers are selected, twisted, joined, and protected in ways that keep the line strong enough for real work instead of one weak pull.",
+    "summary_el": "Το κορδόνι γίνεται χρήσιμο όταν οι ίνες επιλέγονται, στρίβονται, ενώνονται και προστατεύονται με τρόπους που κρατούν τη γραμμή αρκετά δυνατή για πραγματική δουλειά και όχι για ένα αδύναμο τράβηγμα.",
+    "content_en": "Improvised cordage is a survival skill because it turns plant fiber and salvage into carrying, shelter, binding, and repair power. Good cordage depends on fiber selection, removing weak material, twisting in a repeatable direction, and combining strands so the line shares load instead of failing at one thin point. The useful skill is not making a pretty rope. It is making cordage that can be trusted for the task it is meant to do and repaired when it begins to fail.",
+    "content_el": "Το αυτοσχέδιο κορδόνι είναι δεξιότητα επιβίωσης γιατί μετατρέπει φυτική ίνα και υλικά διάσωσης σε δύναμη μεταφοράς, καταλύματος, δεσίματος και επισκευής. Το καλό κορδόνι εξαρτάται από επιλογή ινών, αφαίρεση αδύναμου υλικού, στρίψιμο σε επαναλαμβανόμενη κατεύθυνση και συνδυασμό κλώνων έτσι ώστε η γραμμή να μοιράζεται το φορτίο αντί να σπάει σε ένα λεπτό σημείο. Η χρήσιμη δεξιότητα δεν είναι να φτιάχνεις όμορφο σχοινί. Είναι να φτιάχνεις κορδόνι που μπορείς να εμπιστευτείς για τη δουλειά για την οποία προορίζεται και να το επισκευάζεις όταν αρχίζει να αποτυγχάνει.",
+    "steps_en": ["Choose and clean usable fiber before twisting.","Twist consistently so the line holds load evenly.","Join strands in ways that spread weakness, not concentrate it.","Test cordage on lower-risk work before critical use.","Protect finished cordage from abrasion and moisture damage."],
+    "steps_el": ["Διάλεξε και καθάρισε χρήσιμη ίνα πριν από το στρίψιμο.","Στρίβε σταθερά ώστε η γραμμή να κρατά ομοιόμορφα το φορτίο.","Ένωσε κλώνους με τρόπους που απλώνουν την αδυναμία αντί να τη συγκεντρώνουν.","Δοκίμασε το κορδόνι σε χαμηλότερου κινδύνου δουλειές πριν από κρίσιμη χρήση.","Προστάτεψε το τελειωμένο κορδόνι από τριβή και ζημιά υγρασίας."],
+    "warnings_en": ["One weak join can waste the whole line.","Improvised cordage fails faster under wet abrasion.","Pretty rope that cannot hold load is useless."],
+    "warnings_el": ["Μία αδύναμη ένωση μπορεί να καταστρέψει όλη τη γραμμή.","Το αυτοσχέδιο κορδόνι αποτυγχάνει γρηγορότερα κάτω από υγρή τριβή.","Ένα όμορφο σχοινί που δεν κρατά φορτίο είναι άχρηστο."],
+    "mistakes_en": ["Twisting dirty weak fibers without sorting.","Using cordage for critical load before testing.","Ignoring wear until failure happens suddenly."],
+    "mistakes_el": ["Να στρίβεις βρόμικες αδύναμες ίνες χωρίς ταξινόμηση.","Να χρησιμοποιείς κορδόνι για κρίσιμο φορτίο πριν το δοκιμάσεις.","Να αγνοείς τη φθορά μέχρι να συμβεί ξαφνική αποτυχία."],
+    "related_topics": ["Rope, Knots, and Load Security Basics", "Toolmaking from Salvage and Basic Materials", "Tarp Shelter Setup and Ridgeline Basics"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Full expansion skills pack."
+  }
+]
