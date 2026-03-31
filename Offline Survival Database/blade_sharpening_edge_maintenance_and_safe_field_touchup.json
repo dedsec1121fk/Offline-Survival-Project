@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skills::blade_sharpening_edge_maintenance",
+    "topic": "Blade Sharpening, Edge Maintenance, and Safe Field Touch-Up",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "edge_care_skill",
+    "tags": ["blade", "sharpening", "edge", "maintenance", "field skill"],
+    "summary_en": "A blade stays useful when it is touched up early, handled safely, and maintained consistently instead of being run dull until it becomes dangerous.",
+    "summary_el": "Μια λεπίδα μένει χρήσιμη όταν φρεσκάρεται νωρίς, χειρίζεται με ασφάλεια και συντηρείται σταθερά αντί να χρησιμοποιείται αμβλεία μέχρι να γίνει επικίνδυνη.",
+    "content_en": "Field edge care is a survival skill because dull tools waste force, damage material, and increase accident risk. Good sharpening discipline is not about chasing perfection. It is about maintaining a predictable working edge often enough that cutting remains controlled. Safe touch-up means stable body position, protected fingers, clean work surface, and small repeated maintenance before the blade becomes badly damaged. A household that maintains edges early saves time, energy, and tools.",
+    "content_el": "Η φροντίδα κόψης στο πεδίο είναι δεξιότητα επιβίωσης γιατί τα αμβλεία εργαλεία σπαταλούν δύναμη, χαλούν υλικό και αυξάνουν τον κίνδυνο ατυχήματος. Η καλή πειθαρχία ακονίσματος δεν αφορά το κυνήγι τελειότητας. Αφορά τη διατήρηση μιας προβλέψιμης κόψης εργασίας αρκετά συχνά ώστε η κοπή να μένει ελεγχόμενη. Το ασφαλές φρεσκάρισμα σημαίνει σταθερή θέση σώματος, προστατευμένα δάχτυλα, καθαρή επιφάνεια εργασίας και μικρή επαναλαμβανόμενη συντήρηση πριν η λεπίδα πάθει μεγάλη ζημιά. Ένα νοικοκυριό που συντηρεί τις κόψεις νωρίς εξοικονομεί χρόνο, ενέργεια και εργαλεία.",
+    "steps_en": ["Touch up edges before they become badly dull.","Use stable posture and hand position during maintenance.","Keep stones or sharpening tools clean and ready.","Check edge condition after heavy or dirty work.","Store blades so the edge is protected between uses."],
+    "steps_el": ["Φρέσκαρε τις κόψεις πριν γίνουν πολύ αμβλείες.","Χρησιμοποίησε σταθερή στάση και θέση χεριού κατά τη συντήρηση.","Κράτα πέτρες ή εργαλεία ακονίσματος καθαρά και έτοιμα.","Έλεγξε την κατάσταση κόψης μετά από βαριά ή βρόμικη εργασία.","Αποθήκευσε τις λεπίδες έτσι ώστε η κόψη να προστατεύεται ανάμεσα στις χρήσεις."],
+    "warnings_en": ["A dull blade often injures through force and slipping.","Rushed sharpening damages both the edge and the user.","Bad storage ruins edge work quickly."],
+    "warnings_el": ["Μια αμβλεία λεπίδα συχνά τραυματίζει μέσω δύναμης και γλιστρήματος.","Το βιαστικό ακόνισμα χαλά και την κόψη και τον χρήστη.","Η κακή αποθήκευση χαλά γρήγορα τη δουλειά της κόψης."],
+    "mistakes_en": ["Waiting until cutting becomes dangerous before maintenance.","Sharpening in unstable positions or poor light.","Using dirty damaged edges without inspection."],
+    "mistakes_el": ["Να περιμένεις μέχρι η κοπή να γίνει επικίνδυνη πριν από τη συντήρηση.","Να ακονίζεις σε ασταθείς θέσεις ή κακό φως.","Να χρησιμοποιείς βρόμικες ή χαλασμένες κόψεις χωρίς έλεγχο."],
+    "related_topics": ["Toolmaking from Salvage and Basic Materials", "Rope, Knots, and Load Security Basics", "Wood Processing, Splitting, Stacking, and Dry Fuel Selection"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Actual skill expansion pass."
+  }
+]
