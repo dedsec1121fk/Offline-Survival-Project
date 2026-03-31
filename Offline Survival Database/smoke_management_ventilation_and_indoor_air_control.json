@@ -1,0 +1,21 @@
+[
+  {
+    "id": "shelter::smoke_ventilation_air_control",
+    "topic": "Smoke Management, Ventilation, and Indoor Air Control",
+    "category": "shelter_protection",
+    "subcategory": "air_quality",
+    "tags": ["smoke", "ventilation", "air", "indoor", "shelter"],
+    "summary_en": "Air quality inside shelter can fail quietly through smoke, dampness, bad combustion, and poor airflow. Survival depends not only on warmth but on breathable air and controlled moisture.",
+    "summary_el": "Η ποιότητα αέρα μέσα στο κατάλυμα μπορεί να αποτύχει αθόρυβα μέσω καπνού, υγρασίας, κακής καύσης και φτωχού αερισμού. Η επιβίωση εξαρτάται όχι μόνο από τη ζέστη αλλά και από αναπνεύσιμο αέρα και ελεγχόμενη υγρασία.",
+    "content_en": "A warm shelter can still be unhealthy if smoke and stale air build inside it. Combustion, damp gear, crowding, and weak airflow can turn a protected space into a headache, cough, sleep-loss, and breathing problem. Indoor air control means balancing warmth with oxygen flow, smoke escape, moisture reduction, and safer placement of fire or heat sources. The goal is not perfect comfort. It is a shelter that protects lungs, sleep, and function while still keeping enough warmth to survive cold conditions.",
+    "content_el": "Ένα ζεστό κατάλυμα μπορεί παρ’ όλα αυτά να είναι ανθυγιεινό αν μέσα του χτιστούν καπνός και στάσιμος αέρας. Η καύση, ο υγρός εξοπλισμός, ο συνωστισμός και η αδύναμη ροή αέρα μπορούν να μετατρέψουν έναν προστατευμένο χώρο σε πρόβλημα πονοκεφάλου, βήχα, έλλειψης ύπνου και αναπνοής. Ο έλεγχος εσωτερικού αέρα σημαίνει ισορροπία ανάμεσα σε ζέστη, ροή οξυγόνου, έξοδο καπνού, μείωση υγρασίας και ασφαλέστερη θέση φωτιάς ή πηγών θερμότητας. Ο στόχος δεν είναι η τέλεια άνεση. Είναι ένα κατάλυμα που προστατεύει πνεύμονες, ύπνο και λειτουργία ενώ κρατά αρκετή ζέστη για επιβίωση στο κρύο.",
+    "steps_en": ["Ventilate shelters deliberately instead of sealing everything blindly.","Keep smoke-producing heat sources controlled and positioned safely.","Reduce indoor dampness from clothing, gear, and crowding.","Watch for headache, cough, eye irritation, and stale-air fatigue.","Adjust air control differently for sleep, cooking, and drying tasks."],
+    "steps_el": ["Αέριζε τα καταλύματα σκόπιμα αντί να τα σφραγίζεις στα τυφλά.","Κράτα ελεγχόμενες και ασφαλώς τοποθετημένες τις πηγές θερμότητας που παράγουν καπνό.","Μείωσε την εσωτερική υγρασία από ρούχα, εξοπλισμό και συνωστισμό.","Παρακολούθησε πονοκέφαλο, βήχα, ερεθισμό ματιών και κόπωση από στάσιμο αέρα.","Προσάρμοσε τον έλεγχο αέρα διαφορετικά για ύπνο, μαγείρεμα και εργασίες ξήρανσης."],
+    "warnings_en": ["Warmth without breathable air is a bad shelter bargain.","Smoke and poor airflow degrade sleep and recovery.","Indoor dampness can quietly damage both lungs and bedding."],
+    "warnings_el": ["Η ζέστη χωρίς αναπνεύσιμο αέρα είναι κακό παζάρι καταλύματος.","Ο καπνός και η κακή ροή αέρα διαλύουν ύπνο και ανάρρωση.","Η εσωτερική υγρασία μπορεί αθόρυβα να βλάψει και πνεύμονες και στρωσίδια."],
+    "mistakes_en": ["Sealing a shelter too tightly for fear of cold.","Allowing repeated indoor smoke exposure as normal.","Ignoring air-quality symptoms because the shelter feels warm enough."],
+    "mistakes_el": ["Να σφραγίζεις υπερβολικά το κατάλυμα από φόβο για το κρύο.","Να αφήνεις την επαναλαμβανόμενη έκθεση σε εσωτερικό καπνό να θεωρείται φυσιολογική.","Να αγνοείς συμπτώματα ποιότητας αέρα επειδή το κατάλυμα φαίνεται αρκετά ζεστό."],
+    "related_topics": ["Improvised Shelter and Insulation", "Respiratory Distress Patterns Under Crisis", "Storm Hardening and Repair Priorities for Shelter"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-31","update_note": "Further expansion pass."
+  }
+]
