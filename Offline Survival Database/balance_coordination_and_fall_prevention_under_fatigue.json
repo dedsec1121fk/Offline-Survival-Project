@@ -1,0 +1,21 @@
+[
+  {
+    "id": "biology::balance_fall_fatigue",
+    "topic": "Balance, Coordination, and Fall Prevention Under Fatigue",
+    "category": "anatomy_biology",
+    "subcategory": "movement_biology",
+    "tags": ["balance", "coordination", "fatigue", "falls", "biology"],
+    "summary_en": "Falls and missteps rise sharply when fatigue, hunger, cold, darkness, poor footwear, and load stress combine. Coordination failure is a survival problem, not just clumsiness.",
+    "summary_el": "Οι πτώσεις και τα παραπατήματα αυξάνονται απότομα όταν κόπωση, πείνα, κρύο, σκοτάδι, κακά υποδήματα και βάρος συνδυάζονται. Η αποτυχία συντονισμού είναι πρόβλημα επιβίωσης και όχι απλώς αδεξιότητα.",
+    "content_en": "A tired body does not place the foot, judge the edge, or catch a slip as well as a rested one. Hunger, dehydration, cold hands, weak sleep, pain, and overloaded carrying all degrade coordination before people consciously admit they are unsafe. This matters in stairs, slopes, rubble, wet ground, ladders, stream crossings, and night movement. Fall prevention under survival conditions means pacing, reducing unnecessary load, protecting footwear, improving path safety, and treating clumsiness as an operational warning sign instead of a moral failing. A group that respects coordination decline will suffer fewer injuries and fewer costly setbacks.",
+    "content_el": "Ένα κουρασμένο σώμα δεν τοποθετεί το πόδι, δεν κρίνει την άκρη και δεν πιάνει ένα γλίστρημα τόσο καλά όσο ένα ξεκούραστο. Η πείνα, η αφυδάτωση, τα κρύα χέρια, ο αδύναμος ύπνος, ο πόνος και το υπερβολικό κουβάλημα όλα ρίχνουν τον συντονισμό πριν οι άνθρωποι παραδεχτούν συνειδητά ότι είναι ανασφαλείς. Αυτό μετρά σε σκάλες, κλίσεις, συντρίμμια, βρεγμένο έδαφος, σκάλες χειρός, περάσματα νερού και νυχτερινή κίνηση. Η πρόληψη πτώσεων σε συνθήκες επιβίωσης σημαίνει ρυθμό, μείωση άσκοπου φορτίου, προστασία υποδημάτων, βελτίωση ασφάλειας διαδρομής και αντιμετώπιση της αδεξιότητας ως επιχειρησιακού προειδοποιητικού σήματος και όχι ως ηθική αποτυχία. Μια ομάδα που σέβεται την πτώση συντονισμού θα υποστεί λιγότερους τραυματισμούς και λιγότερες ακριβές καθυστερήσεις.",
+    "steps_en": ["Slow pace when fatigue, darkness, or load stress rises.","Protect footwear and dry footing where possible.","Reduce unnecessary carrying and split loads fairly.","Treat repeated stumbles as a stop-and-reassess signal.","Improve paths and handholds before more movement is attempted."],
+    "steps_el": ["Μείωσε ρυθμό όταν ανεβαίνουν κόπωση, σκοτάδι ή βάρος.","Προστάτεψε υποδήματα και στεγνό πάτημα όπου γίνεται.","Μείωσε άσκοπο κουβάλημα και μοίρασε δίκαια τα φορτία.","Αντιμετώπισε τα επαναλαμβανόμενα παραπατήματα ως σήμα στάσης και επανεκτίμησης.","Βελτίωσε διαδρομές και σημεία κρατήματος πριν επιχειρηθεί περισσότερη κίνηση."],
+    "warnings_en": ["Fatigue-related falls often happen before people admit weakness.","Load and darkness multiply each other.","A minor fall can become a major survival setback."],
+    "warnings_el": ["Οι πτώσεις από κόπωση συχνά συμβαίνουν πριν οι άνθρωποι παραδεχτούν αδυναμία.","Το βάρος και το σκοτάδι πολλαπλασιάζουν το ένα το άλλο.","Μια μικρή πτώση μπορεί να γίνει μεγάλο πισωγύρισμα επιβίωσης."],
+    "mistakes_en": ["Treating clumsiness as only attitude or carelessness.","Keeping the same load and pace while coordination is dropping.","Ignoring footwear and path condition."],
+    "mistakes_el": ["Να αντιμετωπίζεις την αδεξιότητα μόνο ως διάθεση ή απροσεξία.","Να κρατάς ίδιο βάρος και ρυθμό ενώ πέφτει ο συντονισμός.","Να αγνοείς υποδήματα και κατάσταση διαδρομής."],
+    "related_topics": ["Terrain Awareness and Route Selection", "Cold Weather Layering and Wet Clothing Control", "Mountain Survival Basics and Elevation Hazards"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Best-guide expansion pass."
+  }
+]
