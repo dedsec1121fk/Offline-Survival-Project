@@ -1,0 +1,25 @@
+[
+  {
+    "id": "mountain::route_choice_exposure_turnaround",
+    "topic": "Mountain Route Choice, Exposure, and Turnaround Discipline",
+    "category": "movement_navigation_evacuation",
+    "subcategory": "mountain_decision_skill",
+    "tags": ["mountain", "route", "exposure", "turnaround", "discipline"],
+    "summary_en": "Mountain survival often depends less on strength than on route judgment and the discipline to turn around before small risks become unrecoverable ones.",
+    "summary_el": "Η ορεινή επιβίωση συχνά εξαρτάται λιγότερο από τη δύναμη και περισσότερο από την κρίση διαδρομής και την πειθαρχία να γυρίσεις πίσω πριν οι μικροί κίνδυνοι γίνουν μη ανακτήσιμοι.",
+    "content_en": "In mountain terrain, exposure, loose ground, weather shift, daylight loss, and fatigue multiply one another. A route that looks possible may stop being safe once wind rises, footing worsens, or the return window narrows. Good mountain movement is not just climbing forward. It is reading risk early, choosing lower-cost paths when possible, watching how exposure changes with conditions, and respecting a turnaround decision before pride, delay, or scarcity thinking trap the group higher on the slope. The useful skill is not merely endurance. It is disciplined judgment under changing terrain.",
+    "content_el": "Σε ορεινό έδαφος, η έκθεση, το σαθρό έδαφος, η αλλαγή καιρού, η απώλεια φωτός ημέρας και η κόπωση πολλαπλασιάζουν το ένα το άλλο. Μια διαδρομή που φαίνεται εφικτή μπορεί να πάψει να είναι ασφαλής μόλις ανέβει ο άνεμος, χειροτερέψει το πάτημα ή στενέψει το παράθυρο επιστροφής. Η καλή ορεινή κίνηση δεν είναι μόνο το να ανεβαίνεις μπροστά. Είναι να διαβάζεις νωρίς τον κίνδυνο, να επιλέγεις διαδρομές χαμηλότερου κόστους όπου γίνεται, να παρακολουθείς πώς αλλάζει η έκθεση με τις συνθήκες και να σέβεσαι μια απόφαση επιστροφής πριν η περηφάνια, η καθυστέρηση ή η σκέψη στέρησης παγιδεύσουν την ομάδα ψηλότερα στην πλαγιά. Η χρήσιμη δεξιότητα δεν είναι απλώς η αντοχή. Είναι η πειθαρχημένη κρίση σε μεταβαλλόμενο έδαφος.",
+    "steps_en": ["Judge route cost, exposure, and return margin before committing upward.","Watch terrain, weather, footing, and fatigue together, not separately.","Choose safer lower-cost movement when it preserves return options.","Set and obey turnaround logic before urgency distorts judgment.","Treat retreat as disciplined survival, not failure."],
+    "steps_el": ["Κρίναρε το κόστος διαδρομής, την έκθεση και το περιθώριο επιστροφής πριν δεσμευτείς προς τα πάνω.","Παρακολούθησε μαζί έδαφος, καιρό, πάτημα και κόπωση και όχι χωριστά.","Διάλεξε ασφαλέστερη κίνηση χαμηλότερου κόστους όταν διατηρεί επιλογές επιστροφής.","Όρισε και τήρησε λογική επιστροφής πριν η πίεση παραμορφώσει την κρίση.","Αντιμετώπισε την υποχώρηση ως πειθαρχημένη επιβίωση και όχι ως αποτυχία."],
+    "warnings_en": ["A route can become more dangerous faster than people admit.","Exposure plus fatigue creates decision errors and movement errors together.","Late turnaround decisions often cost more than early retreat."],
+    "warnings_el": ["Μια διαδρομή μπορεί να γίνει πιο επικίνδυνη γρηγορότερα απ’ όσο παραδέχονται οι άνθρωποι.","Η έκθεση μαζί με την κόπωση δημιουργούν μαζί λάθη κρίσης και λάθη κίνησης.","Οι καθυστερημένες αποφάσεις επιστροφής συχνά κοστίζουν περισσότερο από την έγκαιρη υποχώρηση."],
+    "mistakes_en": ["Continuing because too much effort was already spent.","Judging the route only by ascent and not by the return.","Treating turnaround as weakness instead of discipline."],
+    "mistakes_el": ["Να συνεχίζεις επειδή έχει ήδη ξοδευτεί πολλή προσπάθεια.","Να κρίνεις τη διαδρομή μόνο από την άνοδο και όχι από την επιστροφή.","Να αντιμετωπίζεις την επιστροφή ως αδυναμία αντί για πειθαρχία."],
+    "related_topics": ["Mountain Survival Basics and Elevation Hazards", "Route Marking and Backtracking Without Getting Lost", "Day Plan, Turnaround Time, and Energy Budgeting"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Added for deeper mountain judgment and route-risk coverage."
+  }
+]
