@@ -1,0 +1,25 @@
+[
+  {
+    "id": "mountain::water_wood_route",
+    "topic": "Mountain Water, Wood, and Route Planning",
+    "category": "survival_foundations",
+    "subcategory": "mountain_resource_planning",
+    "tags": ["mountain", "water", "wood", "route", "planning"],
+    "summary_en": "In mountain survival, distance to water, fuel wood, and safe routes often matters more than the beauty of the campsite itself. A strong camp site is one whose resources can be reached repeatedly without breaking the people who depend on them.",
+    "summary_el": "Στην ορεινή επιβίωση, η απόσταση από νερό, καυσόξυλα και ασφαλείς διαδρομές μετρά συχνά περισσότερο από την ομορφιά του σημείου κατασκήνωσης. Ένα ισχυρό σημείο είναι εκείνο του οποίου οι πόροι μπορούν να προσεγγίζονται επανειλημμένα χωρίς να σπάνε τους ανθρώπους που εξαρτώνται από αυτούς.",
+    "content_en": "A mountain location can look ideal until daily work begins. Then the real question appears: how far is water, how steep is the wood run, how exposed is the path in bad weather, and how dangerous is the return trip under load? Resource planning in mountain conditions should be judged by repeated labor, not by one successful trip. A location that requires exhausting climbs for every bucket of water or every armload of wood may slowly ruin the household even if it seems sheltered. Good mountain planning weighs shelter, fuel, water, route safety, and carry burden together rather than optimizing one and ignoring the rest.",
+    "content_el": "Ένα ορεινό σημείο μπορεί να φαίνεται ιδανικό μέχρι να αρχίσει η καθημερινή εργασία. Τότε εμφανίζεται η πραγματική ερώτηση: πόσο μακριά είναι το νερό, πόσο απότομο είναι το πέρασμα για ξύλα, πόσο εκτεθειμένη είναι η διαδρομή σε κακό καιρό και πόσο επικίνδυνη είναι η επιστροφή με φορτίο; Ο σχεδιασμός πόρων σε ορεινές συνθήκες πρέπει να κρίνεται από επαναλαμβανόμενη εργασία και όχι από ένα πετυχημένο δρομολόγιο. Ένα σημείο που απαιτεί εξαντλητικές ανηφόρες για κάθε κουβά νερό ή κάθε αγκαλιά ξύλα μπορεί να διαλύσει αργά το νοικοκυριό ακόμη κι αν φαίνεται προστατευμένο. Ο καλός ορεινός σχεδιασμός ζυγίζει μαζί κατάλυμα, καύσιμο, νερό, ασφάλεια διαδρομής και βάρος μεταφοράς αντί να βελτιστοποιεί ένα και να αγνοεί τα υπόλοιπα.",
+    "steps_en": ["Judge camp and shelter sites by repeated access to water, wood, and safe routes.","Test resource routes under load, not only empty-handed.","Plan shorter safer carrying routes over extreme steep shortcuts.","Protect the weakest members from the heaviest repeated resource burden.","Move camp logic if daily resource trips are destroying the group."],
+    "steps_el": ["Κρίνε σημεία καταλύματος από την επαναλαμβανόμενη πρόσβαση σε νερό, ξύλα και ασφαλείς διαδρομές.","Δοκίμασε διαδρομές πόρων με φορτίο και όχι μόνο με άδεια χέρια.","Σχεδίασε συντομότερες ασφαλέστερες διαδρομές μεταφοράς αντί για ακραίες απότομες συντομεύσεις.","Προστάτεψε τα πιο αδύναμα μέλη από το βαρύτερο επαναλαμβανόμενο βάρος πόρων.","Άλλαξε λογική καταυλισμού αν οι καθημερινές διαδρομές πόρων διαλύουν την ομάδα."],
+    "warnings_en": ["A campsite can be beautiful and still be unsustainable.","Repeated steep carries create slow injury and exhaustion.","Bad-weather return trips are often worse than the outward journey."],
+    "warnings_el": ["Ένα σημείο καταυλισμού μπορεί να είναι όμορφο και πάλι μη βιώσιμο.","Οι επαναλαμβανόμενες απότομες μεταφορές δημιουργούν αργό τραυματισμό και εξάντληση.","Οι επιστροφές σε κακό καιρό είναι συχνά χειρότερες από το πήγαινε."],
+    "mistakes_en": ["Choosing shelter first and resource logic second.","Measuring routes only once without load or weather reality.","Ignoring the total daily energy cost of resource gathering."],
+    "mistakes_el": ["Να διαλέγεις πρώτα κατάλυμα και δεύτερα λογική πόρων.","Να μετράς διαδρομές μόνο μία φορά χωρίς φορτίο ή πραγματικότητα καιρού.","Να αγνοείς το συνολικό καθημερινό ενεργειακό κόστος συλλογής πόρων."],
+    "related_topics": ["Mountain Survival Basics and Elevation Hazards", "Mountain Garden Planning and Soil Use", "Village Water Storage and Distribution"],
+    "difficulty": "high",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Mountain and self-reliance expansion pass."
+  }
+]
