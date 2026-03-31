@@ -1,0 +1,25 @@
+[
+  {
+    "id": "psych::conflict_pause_post_reset",
+    "topic": "Group Conflict Pause Rules and Post-Argument Reset",
+    "category": "psychology_group_resilience",
+    "subcategory": "conflict_control_skill",
+    "tags": ["conflict", "group", "pause", "reset", "discipline"],
+    "summary_en": "A group under pressure needs a way to stop conflict before it turns into long damage. Pause rules and reset routines protect both morale and function.",
+    "summary_el": "Μια ομάδα υπό πίεση χρειάζεται τρόπο να σταματά τη σύγκρουση πριν γίνει μακρά ζημιά. Οι κανόνες παύσης και οι ρουτίνες επαναφοράς προστατεύουν και το ηθικό και τη λειτουργία.",
+    "content_en": "Arguments in hardship are dangerous not only because of emotion but because they steal time, split trust, and damage decision-making when energy is already low. A stronger group culture creates a simple pause rule: stop escalation, separate the immediate task from the argument, protect safety-critical work, and return to the issue after cooling down enough to think clearly. The useful skill is not pretending conflict never exists. It is preventing conflict from taking control of the whole group. Post-argument reset matters because people need a route back into useful cooperation, not just silence.",
+    "content_el": "Οι καβγάδες στη δυσκολία είναι επικίνδυνοι όχι μόνο λόγω συναισθήματος αλλά επειδή κλέβουν χρόνο, σπάνε την εμπιστοσύνη και χαλάνε τη λήψη αποφάσεων όταν η ενέργεια είναι ήδη χαμηλή. Μια ισχυρότερη κουλτούρα ομάδας δημιουργεί έναν απλό κανόνα παύσης: σταμάτα την κλιμάκωση, χώρισε την άμεση εργασία από τον καβγά, προστάτεψε τη δουλειά κρίσιμη για την ασφάλεια και επέστρεψε στο θέμα αφού πέσει αρκετά η ένταση ώστε να υπάρχει καθαρή σκέψη. Η χρήσιμη δεξιότητα δεν είναι να προσποιείσαι ότι η σύγκρουση δεν υπάρχει ποτέ. Είναι να εμποδίζεις τη σύγκρουση να πάρει τον έλεγχο όλης της ομάδας. Η επαναφορά μετά τον καβγά μετρά γιατί οι άνθρωποι χρειάζονται δρόμο πίσω στη χρήσιμη συνεργασία και όχι μόνο σιωπή.",
+    "steps_en": ["Use a clear pause rule when conflict begins to escalate.","Protect immediate safety-critical tasks from the argument.","Delay deeper discussion until people can think more clearly.","Reset roles and next actions after the conflict cools.","Treat return to cooperation as a deliberate step, not an assumption."],
+    "steps_el": ["Χρησιμοποίησε καθαρό κανόνα παύσης όταν η σύγκρουση αρχίζει να κλιμακώνεται.","Προστάτεψε την άμεση δουλειά κρίσιμη για την ασφάλεια από τον καβγά.","Ανέβαλε τη βαθύτερη συζήτηση μέχρι οι άνθρωποι να μπορούν να σκέφτονται καθαρότερα.","Ξαναόρισε ρόλους και επόμενες ενέργειες αφού πέσει η σύγκρουση.","Αντιμετώπισε την επιστροφή στη συνεργασία ως σκόπιμο βήμα και όχι ως υπόθεση."],
+    "warnings_en": ["Uncontrolled arguments can destroy group function faster than shortage alone.","Silence after conflict is not the same as real reset.","Conflict during critical tasks multiplies danger."],
+    "warnings_el": ["Οι ανεξέλεγκτοι καβγάδες μπορούν να καταστρέψουν τη λειτουργία ομάδας γρηγορότερα από τη στέρηση μόνη της.","Η σιωπή μετά τη σύγκρουση δεν είναι το ίδιο με πραγματική επαναφορά.","Η σύγκρουση κατά τη διάρκεια κρίσιμων εργασιών πολλαπλασιάζει τον κίνδυνο."],
+    "mistakes_en": ["Trying to settle everything in the hottest moment.","Letting conflict continue during urgent safety work.","Assuming people will reset without structure after a blow-up."],
+    "mistakes_el": ["Να προσπαθείς να λύσεις τα πάντα στην πιο καυτή στιγμή.","Να αφήνεις τη σύγκρουση να συνεχίζεται κατά τη διάρκεια επείγουσας δουλειας ασφαλείας.","Να υποθέτεις ότι οι άνθρωποι θα επανέλθουν χωρίς δομή μετά από έκρηξη."],
+    "related_topics": ["Night Watch Rotation and Sleep Protection Under Risk", "Family Meeting Rhythm and Written Plans", "Morale Maintenance and Hope Without Delusion"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Gap-filling pass for group resilience and conflict discipline."
+  }
+]
