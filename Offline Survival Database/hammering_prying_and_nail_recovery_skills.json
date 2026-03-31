@@ -1,0 +1,21 @@
+[
+  {
+    "id": "tools::hammer_pry_nail_recovery",
+    "topic": "Hammering, Prying, and Nail Recovery Skills",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "basic_hand_tool_skill",
+    "tags": ["hammer", "pry", "nails", "recovery", "tools"],
+    "summary_en": "Basic hammer and pry work becomes survival-relevant when materials are scarce and every recovered fastener, board, and connection saves future labor.",
+    "summary_el": "Η βασική δουλειά με σφυρί και μοχλό γίνεται κρίσιμη για την επιβίωση όταν τα υλικά είναι λίγα και κάθε ανακτημένο καρφί, σανίδα και σύνδεση γλιτώνει μελλοντική εργασία.",
+    "content_en": "In hardship, hammering is not just hitting and prying is not just pulling. Both are part of material recovery and controlled assembly. Good hammer use depends on stable grip, controlled striking, support under the work, and not damaging the material you still need. Pry work matters because recovered boards and nails can become future shelter, storage, or repair resources. Nail recovery and straightening are practical skills when resupply is uncertain. A household that can take structures apart without destroying the useful pieces gains a real advantage.",
+    "content_el": "Μέσα στη δυσκολία, το σφυροκόπημα δεν είναι απλώς χτύπημα και ο μοχλός δεν είναι απλώς τράβηγμα. Και τα δύο είναι μέρος ανάκτησης υλικού και ελεγχόμενης συναρμολόγησης. Η καλή χρήση σφυριού εξαρτάται από σταθερό κράτημα, ελεγχόμενο χτύπημα, στήριξη κάτω από το έργο και από το να μη χαλάς το υλικό που ακόμη χρειάζεσαι. Η χρήση μοχλού μετρά γιατί οι ανακτημένες σανίδες και τα καρφιά μπορούν να γίνουν μελλοντικό κατάλυμα, αποθήκευση ή πόροι επισκευής. Η ανάκτηση και το ίσιωμα καρφιών είναι πρακτικές δεξιότητες όταν ο ανεφοδιασμός είναι αβέβαιος. Ένα νοικοκυριό που μπορεί να λύνει κατασκευές χωρίς να καταστρέφει τα χρήσιμα κομμάτια κερδίζει πραγματικό πλεονέκτημα.",
+    "steps_en": ["Stabilize the work before striking or prying.","Recover reusable boards, nails, and fasteners carefully.","Pry with control so wood and edges are not destroyed unnecessarily.","Separate reusable material immediately from damaged waste.","Treat salvage-friendly dismantling as part of building skill."],
+    "steps_el": ["Σταθεροποίησε το έργο πριν από χτύπημα ή μοχλό.","Ανάκτησε προσεκτικά επαναχρησιμοποιήσιμες σανίδες, καρφιά και συνδέσμους.","Χρησιμοποίησε μοχλό ελεγχόμενα ώστε ξύλο και άκρες να μη χαλάνε άσκοπα.","Χώρισε αμέσως το επαναχρησιμοποιήσιμο υλικό από τα χαλασμένα απόβλητα.","Αντιμετώπισε το λύσιμο με σεβασμό στα υλικά ως μέρος της δεξιότητας κατασκευής."],
+    "warnings_en": ["Bad pry work destroys salvage value quickly.","Wild hammering wastes both fasteners and material.","Sharp recovered metal and sudden release create injury risk."],
+    "warnings_el": ["Η κακή χρήση μοχλού καταστρέφει γρήγορα την αξία διάσωσης.","Το άγριο σφυροκόπημα σπαταλά και συνδέσμους και υλικό.","Το κοφτερό ανακτημένο μέταλλο και η ξαφνική απελευθέρωση δημιουργούν κίνδυνο τραυματισμού."],
+    "mistakes_en": ["Destroying reusable wood while chasing one nail.","Mixing reusable and damaged material together.","Using force before improving leverage or support."],
+    "mistakes_el": ["Να καταστρέφεις επαναχρησιμοποιήσιμο ξύλο κυνηγώντας ένα καρφί.","Να ανακατεύεις μαζί επαναχρησιμοποιήσιμο και χαλασμένο υλικό.","Να χρησιμοποιείς δύναμη πριν βελτιώσεις μοχλό ή στήριξη."],
+    "related_topics": ["Simple Sawing, Cutting, and Material Breakdown Workflow", "Toolmaking from Salvage and Basic Materials", "Storm Hardening and Repair Priorities for Shelter"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Tool-focused expansion pass."
+  }
+]
