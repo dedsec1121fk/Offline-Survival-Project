@@ -1,0 +1,21 @@
+[
+  {
+    "id": "skills::tarp_shelter_ridgeline",
+    "topic": "Tarp Shelter Setup and Ridgeline Basics",
+    "category": "shelter_protection",
+    "subcategory": "field_shelter_skills",
+    "tags": ["tarp", "shelter", "ridgeline", "field skill", "setup"],
+    "summary_en": "A tarp becomes real shelter only when it is pitched with stable anchors, water-shedding shape, useful entrance logic, and enough tension to survive wind and repeated use.",
+    "summary_el": "Ένα tarp γίνεται πραγματικό κατάλυμα μόνο όταν στήνεται με σταθερές αγκυρώσεις, σχήμα που διώχνει νερό, λογική εισόδου και αρκετή τάση ώστε να αντέχει άνεμο και επαναλαμβανόμενη χρήση.",
+    "content_en": "A tarp shelter is not just a sheet overhead. Good setup starts with choosing ground that will not pool water, identifying wind direction, establishing a stable ridgeline or support line, and tensioning the tarp so water runs off instead of sagging inward. Entry height, sleeping orientation, gear placement, and runoff direction all affect comfort and survival value. A low strong shelter often outperforms a high loose one in bad weather. The practical skill is not only tying it once, but retensioning it, protecting anchors, and adapting shape to wind, rain, and available materials.",
+    "content_el": "Ένα tarp καταφύγιο δεν είναι απλώς ένα ύφασμα από πάνω. Το καλό στήσιμο αρχίζει με επιλογή εδάφους που δεν θα λιμνάζει νερό, αναγνώριση κατεύθυνσης ανέμου, δημιουργία σταθερής ridgeline ή γραμμής στήριξης και τέντωμα του tarp ώστε το νερό να φεύγει αντί να κρεμά προς τα μέσα. Το ύψος εισόδου, ο προσανατολισμός ύπνου, η θέση εξοπλισμού και η κατεύθυνση απορροής επηρεάζουν όλα την άνεση και την αξία επιβίωσης. Ένα χαμηλό και δυνατό κατάλυμα συχνά αποδίδει περισσότερο από ένα ψηλό και χαλαρό σε κακοκαιρία. Η πρακτική δεξιότητα δεν είναι μόνο να το δέσεις μία φορά αλλά να το ξανατεντώσεις, να προστατέψεις αγκυρώσεις και να προσαρμόσεις το σχήμα σε άνεμο, βροχή και διαθέσιμα υλικά.",
+    "steps_en": ["Choose ground with drainage and reasonable wind protection.","Run a stable ridgeline or main support first.","Pitch the tarp so water sheds and does not pool.","Keep the sleeping area away from runoff edges and drips.","Retension lines and anchors after weather change or fabric sag."],
+    "steps_el": ["Διάλεξε έδαφος με απορροή και λογική προστασία από άνεμο.","Πέρασε πρώτα σταθερή ridgeline ή κύρια στήριξη.","Στήσε το tarp ώστε το νερό να φεύγει και να μη λιμνάζει.","Κράτα τον χώρο ύπνου μακριά από άκρες απορροής και σταγόνες.","Ξανατέντωσε γραμμές και αγκυρώσεις μετά από αλλαγή καιρού ή χαλάρωση υφάσματος."],
+    "warnings_en": ["A badly pitched tarp can become a water trap.","Loose fabric fails fast in wind.","Ground choice matters as much as tarp shape."],
+    "warnings_el": ["Ένα κακά στημένο tarp μπορεί να γίνει παγίδα νερού.","Το χαλαρό ύφασμα αποτυγχάνει γρήγορα στον άνεμο.","Η επιλογή εδάφους μετρά όσο και το σχήμα του tarp."],
+    "mistakes_en": ["Pitching too high for the conditions.","Ignoring runoff path and pooling risk.","Leaving guy lines and anchors unchecked after weather change."],
+    "mistakes_el": ["Να το στήνεις πολύ ψηλά για τις συνθήκες.","Να αγνοείς τη διαδρομή απορροής και τον κίνδυνο λιμνάζοντος νερού.","Να αφήνεις γραμμές και αγκυρώσεις χωρίς έλεγχο μετά από αλλαγή καιρού."],
+    "related_topics": ["Improvised Shelter and Insulation", "Storm Hardening and Repair Priorities for Shelter", "Rope, Knots, and Load Security Basics"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-31","update_note": "Actual survival skills expansion pass."
+  }
+]
