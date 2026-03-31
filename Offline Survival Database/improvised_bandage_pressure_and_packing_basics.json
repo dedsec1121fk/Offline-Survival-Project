@@ -1,0 +1,25 @@
+[
+  {
+    "id": "skills::bandage_pressure_packing",
+    "topic": "Improvised Bandage, Pressure, and Packing Basics",
+    "category": "medicine_first_aid",
+    "subcategory": "bleeding_control_skill",
+    "tags": ["bandage", "pressure", "packing", "bleeding", "first aid"],
+    "summary_en": "Bleeding control improves when pressure, packing, and bandage support are applied deliberately and kept stable instead of being checked and reworked constantly.",
+    "summary_el": "Ο έλεγχος αιμορραγίας βελτιώνεται όταν η πίεση, η πλήρωση και η στήριξη επιδέσμου εφαρμόζονται σκόπιμα και κρατιούνται σταθερά αντί να ελέγχονται και να ξαναδουλεύονται συνεχώς.",
+    "content_en": "Improvised bleeding control starts with direct pressure and the cleanest absorbent material available. When bleeding is deep enough that surface covering is not enough, controlled packing and then sustained pressure can matter more than repeated peeking at the wound. A support bandage should hold pressure without turning into a loose decorative wrap. The practical skill is not just placing cloth on blood. It is building enough stable pressure to give the body a chance to stop the bleed while avoiding constant disruption.",
+    "content_el": "Ο αυτοσχέδιος έλεγχος αιμορραγίας αρχίζει με άμεση πίεση και το καθαρότερο απορροφητικό υλικό που υπάρχει. Όταν η αιμορραγία είναι αρκετά βαθιά ώστε ένα επιφανειακό κάλυμμα να μην αρκεί, η ελεγχόμενη πλήρωση και μετά η σταθερή πίεση μπορούν να μετρήσουν περισσότερο από το να κοιτάς συνεχώς το τραύμα. Ένας στηρικτικός επίδεσμος πρέπει να κρατά πίεση χωρίς να γίνεται χαλαρό διακοσμητικό τύλιγμα. Η πρακτική δεξιότητα δεν είναι απλώς να βάζεις πανί πάνω σε αίμα. Είναι να χτίζεις αρκετή σταθερή πίεση ώστε να δώσεις στο σώμα την ευκαιρία να σταματήσει την αιμορραγία χωρίς συνεχείς διακοπές.",
+    "steps_en": ["Apply direct pressure immediately.","Use packing only where depth and bleeding pattern require it.","Support the pressure with a stable wrap or hold.","Avoid repeatedly lifting the dressing to check.","Reassess circulation and bleeding only when needed, not constantly."],
+    "steps_el": ["Εφάρμοσε άμεση πίεση αμέσως.","Χρησιμοποίησε πλήρωση μόνο όπου το απαιτούν βάθος και μοτίβο αιμορραγίας.","Στήριξε την πίεση με σταθερό τύλιγμα ή κράτημα.","Απόφυγε να σηκώνεις συνεχώς τον επίδεσμο για έλεγχο.","Επανέλεγχε κυκλοφορία και αιμορραγία μόνο όταν χρειάζεται και όχι διαρκώς."],
+    "warnings_en": ["Repeated checking can restart bleeding.","Loose wraps do not replace real pressure.","Heavy bleeding remains a high-priority emergency."],
+    "warnings_el": ["Ο επαναλαμβανόμενος έλεγχος μπορεί να ξαναρχίσει την αιμορραγία.","Τα χαλαρά τυλίγματα δεν αντικαθιστούν την πραγματική πίεση.","Η βαριά αιμορραγία παραμένει επείγουσα προτεραιότητα."],
+    "mistakes_en": ["Peeking too often.","Wrapping without enough pressure.","Using dirty material when cleaner options exist."],
+    "mistakes_el": ["Να κοιτάς πολύ συχνά.","Να τυλίγεις χωρίς αρκετή πίεση.","Να χρησιμοποιείς βρόμικο υλικό ενώ υπάρχουν καθαρότερες επιλογές."],
+    "related_topics": ["Bleeding Control and Wound Care", "Quick Triage and First-Priority Casualty Sorting", "Field Splint Padding and Patient Move Preparation"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Full expansion skills pack."
+  }
+]
