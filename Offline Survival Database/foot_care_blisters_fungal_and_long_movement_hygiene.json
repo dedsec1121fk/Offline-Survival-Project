@@ -1,0 +1,21 @@
+[
+  {
+    "id": "medical::foot_care_long_movement",
+    "topic": "Foot Care, Blisters, Fungal Risk, and Long-Movement Hygiene",
+    "category": "medicine_first_aid",
+    "subcategory": "foot_health",
+    "tags": ["feet", "blisters", "fungal", "movement", "hygiene"],
+    "summary_en": "Feet are survival equipment. Pain, blisters, fungal damage, dampness, and poor nail or sock care can quietly destroy movement capacity long before a major injury appears.",
+    "summary_el": "Τα πόδια είναι εξοπλισμός επιβίωσης. Ο πόνος, οι φουσκάλες, οι μυκητιάσεις, η υγρασία και η κακή φροντίδα νυχιών ή καλτσών μπορούν αθόρυβα να καταστρέψουν την ικανότητα κίνησης πολύ πριν εμφανιστεί μεγάλος τραυματισμός.",
+    "content_en": "Long movement breaks down through friction, moisture, pressure points, dirty skin, and delayed care. A foot problem that seems small at first can later change route choice, carrying ability, and even shelter access. Strong foot-care discipline means protecting dry socks, reducing friction early, trimming and inspecting feet, managing hot spots before they become blisters, and keeping footwear aligned to terrain and weather. In wet or crowded conditions, fungal problems and skin breakdown also rise. A group that protects feet protects mobility, and mobility is often the hidden foundation of survival.",
+    "content_el": "Η μακρά μετακίνηση διαλύεται μέσω τριβής, υγρασίας, σημείων πίεσης, βρόμικου δέρματος και καθυστερημένης φροντίδας. Ένα πρόβλημα ποδιού που φαίνεται μικρό στην αρχή μπορεί αργότερα να αλλάξει επιλογή διαδρομής, ικανότητα κουβαλήματος και ακόμη και πρόσβαση σε κατάλυμα. Η ισχυρή πειθαρχία φροντίδας ποδιών σημαίνει προστασία στεγνών καλτσών, έγκαιρη μείωση τριβής, κόψιμο και έλεγχο ποδιών, διαχείριση των hot spots πριν γίνουν φουσκάλες και ταίριασμα υποδημάτων με έδαφος και καιρό. Σε υγρές ή συνωστισμένες συνθήκες, ανεβαίνουν επίσης μύκητες και βλάβες δέρματος. Μια ομάδα που προστατεύει τα πόδια προστατεύει την κινητικότητα, και η κινητικότητα είναι συχνά το κρυφό θεμέλιο της επιβίωσης.",
+    "steps_en": ["Inspect feet and socks regularly during repeated movement.","Treat friction and hot spots early.","Keep dry sock reserve as a priority item.","Match footwear and pace to terrain conditions.","Protect foot hygiene in wet, crowded, and long-duration conditions."],
+    "steps_el": ["Έλεγχε πόδια και κάλτσες τακτικά σε επαναλαμβανόμενη κίνηση.","Αντιμετώπιζε νωρίς τριβή και hot spots.","Κράτα εφεδρικές στεγνές κάλτσες ως αντικείμενο προτεραιότητας.","Ταίριαξε υποδήματα και ρυθμό στις συνθήκες εδάφους.","Προστάτεψε την υγιεινή ποδιών σε υγρές, συνωστισμένες και μακράς διάρκειας συνθήκες."],
+    "warnings_en": ["A small foot problem can become a route-ending problem.","Wet feet and friction multiply damage quickly.","Poor foot hygiene can produce pain, infection, and mobility loss together."],
+    "warnings_el": ["Ένα μικρό πρόβλημα ποδιού μπορεί να γίνει πρόβλημα που τερματίζει τη διαδρομή.","Τα βρεγμένα πόδια και η τριβή πολλαπλασιάζουν γρήγορα τη ζημιά.","Η κακή υγιεινή ποδιών μπορεί να δημιουργήσει μαζί πόνο, μόλυνση και απώλεια κινητικότητας."],
+    "mistakes_en": ["Ignoring early discomfort until blisters open.","Treating dry socks as optional luxury.","Using the same wet footwear routine day after day."],
+    "mistakes_el": ["Να αγνοείς την πρώιμη ενόχληση μέχρι να ανοίξουν οι φουσκάλες.","Να αντιμετωπίζεις τις στεγνές κάλτσες ως προαιρετική πολυτέλεια.","Να χρησιμοποιείς την ίδια βρεγμένη ρουτίνα υποδημάτων μέρα με τη μέρα."],
+    "related_topics": ["Balance, Coordination, and Fall Prevention Under Fatigue", "Cold Weather Layering and Wet Clothing Control", "Terrain Awareness and Route Selection"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Further expansion pass."
+  }
+]
