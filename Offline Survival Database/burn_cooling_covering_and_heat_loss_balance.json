@@ -1,0 +1,25 @@
+[
+  {
+    "id": "skills::burn_cooling_covering_balance",
+    "topic": "Burn Cooling, Covering, and Heat-Loss Balance",
+    "category": "medicine_first_aid",
+    "subcategory": "burn_care_skill",
+    "tags": ["burn", "cooling", "covering", "heat loss", "first aid"],
+    "summary_en": "Burn care improves when the burn is cooled appropriately, protected from contamination, and balanced against the risk of chilling the whole body.",
+    "summary_el": "Η φροντίδα εγκαύματος βελτιώνεται όταν το έγκαυμα ψύχεται κατάλληλα, προστατεύεται από μόλυνση και ισορροπείται με τον κίνδυνο να κρυώσει όλο το σώμα.",
+    "content_en": "A useful burn response cools the damaged area early, removes further heat exposure, and then protects the site with clean covering. But in survival conditions, the responder must also think about body-wide heat loss, especially in children, cold weather, or large burns. The practical skill is not endless cooling. It is stopping the burning process, lowering heat load, and protecting the wound without creating a second danger through exposure and chilling.",
+    "content_el": "Μια χρήσιμη αντίδραση σε έγκαυμα ψύχει νωρίς την τραυματισμένη περιοχή, αφαιρεί την περαιτέρω έκθεση σε θερμότητα και μετά προστατεύει το σημείο με καθαρό κάλυμμα. Αλλά σε συνθήκες επιβίωσης, αυτός που βοηθά πρέπει επίσης να σκέφτεται την απώλεια θερμότητας όλου του σώματος, ειδικά σε παιδιά, κρύο καιρό ή μεγάλα εγκαύματα. Η πρακτική δεξιότητα δεν είναι η ατελείωτη ψύξη. Είναι να σταματάς τη διαδικασία καψίματος, να ρίχνεις το θερμικό φορτίο και να προστατεύεις το τραύμα χωρίς να δημιουργείς δεύτερο κίνδυνο μέσω έκθεσης και κρυώματος.",
+    "steps_en": ["Stop the heat source and cool the area promptly.","Protect the burn with a clean covering after cooling.","Avoid unnecessary contamination and rubbing.","Watch the whole person for chilling or worsening condition.","Treat large or severe burns as serious whole-body problems."],
+    "steps_el": ["Σταμάτα την πηγή θερμότητας και ψύξε γρήγορα την περιοχή.","Προστάτεψε το έγκαυμα με καθαρό κάλυμμα μετά την ψύξη.","Απόφυγε άσκοπη μόλυνση και τριβή.","Παρακολούθησε όλο το άτομο για κρύωμα ή επιδείνωση.","Αντιμετώπισε μεγάλα ή σοβαρά εγκαύματα ως σοβαρά προβλήματα όλου του σώματος."],
+    "warnings_en": ["Large burns can cause dangerous fluid and heat loss.","Contamination makes burn recovery much worse.","Cooling the burn should not freeze the patient."],
+    "warnings_el": ["Τα μεγάλα εγκαύματα μπορούν να προκαλέσουν επικίνδυνη απώλεια υγρών και θερμότητας.","Η μόλυνση κάνει την ανάρρωση από έγκαυμα πολύ χειρότερη.","Η ψύξη του εγκαύματος δεν πρέπει να παγώνει τον τραυματία."],
+    "mistakes_en": ["Cooling too long while the person gets cold.","Touching and rubbing the burn repeatedly.","Treating a large burn like a minor surface injury."],
+    "mistakes_el": ["Να ψύχεις υπερβολικά ενώ ο άνθρωπος κρυώνει.","Να αγγίζεις και να τρίβεις επανειλημμένα το έγκαυμα.","Να αντιμετωπίζεις ένα μεγάλο έγκαυμα σαν μικρό επιφανειακό τραύμα."],
+    "related_topics": ["Burns, Cooling, and Wound Protection", "Human Anatomy: Organs, Fluids, and Survival Relevance", "Shock Progression and Recognition"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Full expansion skills pack."
+  }
+]
