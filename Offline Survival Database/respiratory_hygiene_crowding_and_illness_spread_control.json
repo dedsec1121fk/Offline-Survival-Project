@@ -1,0 +1,21 @@
+[
+  {
+    "id": "medical::respiratory_hygiene_crowding",
+    "topic": "Respiratory Hygiene, Crowding, and Illness Spread Control",
+    "category": "medicine_first_aid",
+    "subcategory": "respiratory_spread_control",
+    "tags": ["respiratory", "crowding", "illness", "hygiene", "spread"],
+    "summary_en": "Crowded living makes breathing-related illness spread faster unless airflow, separation, cleaning, and routine are controlled deliberately.",
+    "summary_el": "Η συνωστισμένη διαβίωση κάνει τις αναπνευστικές ασθένειες να απλώνονται γρηγορότερα εκτός αν ελέγχονται σκόπιμα αερισμός, διαχωρισμός, καθάρισμα και ρουτίνα.",
+    "content_en": "Respiratory spread thrives in close shared air, poor sleep arrangements, weak cleaning routines, and group habits that normalize constant contact. Illness control in crowded survival settings means more than telling people to be careful. It requires thinking about airflow, distance where possible, sleeping arrangement, cleaning of common-touch items, cough etiquette, and protection of weaker people. A household or shelter that plans for crowding early reduces both illness spread and fear. Good respiratory hygiene is a structural behavior, not just a personal virtue.",
+    "content_el": "Η αναπνευστική μετάδοση ευδοκιμεί σε κοντινό κοινό αέρα, κακή οργάνωση ύπνου, αδύναμες ρουτίνες καθαρισμού και ομαδικές συνήθειες που κανονικοποιούν τη συνεχή επαφή. Ο έλεγχος ασθένειας σε συνωστισμένες συνθήκες επιβίωσης σημαίνει κάτι περισσότερο από το να λες στους ανθρώπους να προσέχουν. Απαιτεί να σκέφτεσαι αερισμό, απόσταση όπου γίνεται, οργάνωση ύπνου, καθαρισμό κοινών σημείων επαφής, πειθαρχία βήχα και προστασία των πιο αδύναμων ανθρώπων. Ένα νοικοκυριό ή καταφύγιο που σχεδιάζει νωρίς για τον συνωστισμό μειώνει και την εξάπλωση ασθένειας και τον φόβο. Η καλή αναπνευστική υγιεινή είναι δομική συμπεριφορά και όχι μόνο προσωπική αρετή.",
+    "steps_en": ["Improve airflow and sleeping separation where possible.","Protect weaker or already ill people from the most crowded conditions.","Clean shared touch surfaces and objects routinely.","Reduce unnecessary close-contact habits during illness spread.","Treat crowding control as part of medical planning, not only comfort planning."],
+    "steps_el": ["Βελτίωσε αερισμό και διαχωρισμό ύπνου όπου γίνεται.","Προστάτεψε πιο αδύναμους ή ήδη άρρωστους ανθρώπους από τις πιο συνωστισμένες συνθήκες.","Καθάριζε κοινές επιφάνειες και αντικείμενα επαφής με ρουτίνα.","Μείωσε άσκοπες συνήθειες στενής επαφής κατά την εξάπλωση ασθένειας.","Αντιμετώπισε τον έλεγχο συνωστισμού ως μέρος ιατρικού σχεδιασμού και όχι μόνο σχεδιασμού άνεσης."],
+    "warnings_en": ["Crowding multiplies illness pressure quickly.","Weak people often pay the highest price in shared-air settings.","Normal social habits may need to change under spread conditions."],
+    "warnings_el": ["Ο συνωστισμός πολλαπλασιάζει γρήγορα την πίεση ασθένειας.","Οι αδύναμοι άνθρωποι συχνά πληρώνουν το μεγαλύτερο τίμημα σε συνθήκες κοινού αέρα.","Οι κανονικές κοινωνικές συνήθειες μπορεί να χρειαστεί να αλλάξουν σε συνθήκες εξάπλωσης."],
+    "mistakes_en": ["Treating respiratory spread as only an individual problem.","Packing sleeping areas too tightly.","Ignoring shared surfaces and repeated close-contact behavior."],
+    "mistakes_el": ["Να αντιμετωπίζεις την αναπνευστική μετάδοση μόνο ως ατομικό πρόβλημα.","Να στριμώχνεις υπερβολικά τους χώρους ύπνου.","Να αγνοείς κοινές επιφάνειες και επαναλαμβανόμενη στενή επαφή."],
+    "related_topics": ["Camp Sanitation and Waste Control", "Psychological First Aid Under Crisis Conditions", "Symptom Logs and Daily Health Checks"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-30","update_note": "Continuation expansion pass."
+  }
+]
