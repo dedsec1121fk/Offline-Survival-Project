@@ -1,0 +1,25 @@
+[
+  {
+    "id": "food::power_outage_throwaway_rules",
+    "topic": "Power Outage Food Decision and Throwaway Rules",
+    "category": "food_nutrition_preservation",
+    "subcategory": "food_safety_after_outage",
+    "tags": ["food safety", "power outage", "throw away", "cold storage", "decision"],
+    "summary_en": "After power loss, food safety depends on clear decision rules. Uncertainty must be handled with discipline, not with wishful thinking.",
+    "summary_el": "Μετά από διακοπή ρεύματος, η ασφάλεια τροφής εξαρτάται από καθαρούς κανόνες απόφασης. Η αβεβαιότητα πρέπει να αντιμετωπίζεται με πειθαρχία και όχι με ευσεβή πόθο.",
+    "content_en": "Power outages turn refrigerators and freezers into uncertainty zones. A strong household food system plans for that uncertainty by separating safer foods from doubtful ones, minimizing warm exposure, and accepting that some food must be discarded to protect health. The practical skill is not memorizing every food item. It is making disciplined decisions when temperature control fails: protect what can stay safe, use what must be used quickly, and discard what cannot be trusted. Food shortage is dangerous, but foodborne illness can weaken a household even faster.",
+    "content_el": "Οι διακοπές ρεύματος μετατρέπουν ψυγεία και καταψύκτες σε ζώνες αβεβαιότητας. Ένα ισχυρό οικογενειακό σύστημα τροφής σχεδιάζει για αυτή την αβεβαιότητα χωρίζοντας ασφαλέστερες από αμφίβολες τροφές, ελαχιστοποιώντας την έκθεση στη ζέστη και αποδεχόμενο ότι μερική τροφή πρέπει να πετιέται για να προστατευτεί η υγεία. Η πρακτική δεξιότητα δεν είναι να απομνημονεύεις κάθε τρόφιμο. Είναι να παίρνεις πειθαρχημένες αποφάσεις όταν αποτυγχάνει ο έλεγχος θερμοκρασίας: προστάτεψε ό,τι μπορεί να μείνει ασφαλές, χρησιμοποίησε ό,τι πρέπει να χρησιμοποιηθεί γρήγορα και πέτα ό,τι δεν μπορεί να θεωρηθεί αξιόπιστο. Η έλλειψη τροφής είναι επικίνδυνη, αλλά η τροφική δηλητηρίαση μπορεί να αποδυναμώσει ένα νοικοκυριό ακόμη γρηγορότερα.",
+    "steps_en": ["Reduce unnecessary opening of cold storage during outages.","Separate likely safe food from doubtful food early.","Use urgently perishable safe food first.","Discard food that cannot be trusted instead of gambling with illness.","Make the decision process clear before an outage happens."],
+    "steps_el": ["Μείωσε το άσκοπο άνοιγμα ψύξης κατά τη διάρκεια διακοπών ρεύματος.","Χώρισε νωρίς την πιθανώς ασφαλή τροφή από την αμφίβολη.","Χρησιμοποίησε πρώτη την ασφαλή τροφή που χαλά γρήγορα.","Πέτα τροφή που δεν μπορεί να θεωρηθεί αξιόπιστη αντί να τζογάρεις με ασθένεια.","Κάνε καθαρή τη διαδικασία απόφασης πριν συμβεί η διακοπή."],
+    "warnings_en": ["Doubtful cold-stored food can create household-wide illness.","Shortage pressure encourages bad decisions.","A freezer or refrigerator that looks cold may no longer be safe enough."],
+    "warnings_el": ["Η αμφίβολη τροφή ψύξης μπορεί να δημιουργήσει ασθένεια σε όλο το νοικοκυριό.","Η πίεση έλλειψης ενθαρρύνει κακές αποφάσεις.","Ένας καταψύκτης ή ψυγείο που φαίνεται κρύο μπορεί να μην είναι πια αρκετά ασφαλές."],
+    "mistakes_en": ["Keeping questionable food because waste feels painful.","Opening cold storage repeatedly to check it.","Making food decisions without preplanned rules."],
+    "mistakes_el": ["Να κρατάς αμφίβολη τροφή επειδή η απώλεια πονά.","Να ανοίγεις επανειλημμένα την ψύξη για να τη δεις.","Να παίρνεις αποφάσεις τροφής χωρίς προσχεδιασμένους κανόνες."],
+    "related_topics": ["Safe Food and Cleanup After Disaster", "Household Inventory Rotation and Spoilage Control", "Low-Fuel Household Meal Planning"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Source-guided expansion pass."
+  }
+]
