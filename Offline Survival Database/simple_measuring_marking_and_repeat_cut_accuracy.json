@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tools::measuring_marking_repeat_accuracy",
+    "topic": "Simple Measuring, Marking, and Repeat-Cut Accuracy",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "layout_skill",
+    "tags": ["measuring", "marking", "accuracy", "repeat cuts", "layout"],
+    "summary_en": "Accurate work starts before the cut. Measuring and marking skills reduce waste, improve fit, and stop the same material from being ruined over and over.",
+    "summary_el": "Η ακριβής δουλειά αρχίζει πριν από την κοπή. Οι δεξιότητες μέτρησης και σήμανσης μειώνουν τη σπατάλη, βελτιώνουν το ταίριασμα και σταματούν το ίδιο υλικό να χαλά ξανά και ξανά.",
+    "content_en": "Many repair failures are really layout failures. When lengths, spacing, and cut lines are guessed loosely, materials no longer fit and small errors multiply through the whole project. A useful survival workshop should know how to measure once, mark clearly, and repeat the same size with consistency. Good layout skill also helps when tools are rough, because clear marks reduce hesitation and recutting. Precision here is not about perfectionism. It is about not wasting scarce material and labor on preventable mistakes.",
+    "content_el": "Πολλές αποτυχίες επισκευής είναι στην πραγματικότητα αποτυχίες χάραξης. Όταν μήκη, αποστάσεις και γραμμές κοπής μαντεύονται χαλαρά, τα υλικά δεν ταιριάζουν πια και τα μικρά λάθη πολλαπλασιάζονται σε όλο το έργο. Ένα χρήσιμο εργαστήριο επιβίωσης πρέπει να ξέρει να μετρά μία φορά, να σημαδεύει καθαρά και να επαναλαμβάνει το ίδιο μέγεθος με συνέπεια. Η καλή δεξιότητα χάραξης βοηθά και όταν τα εργαλεία είναι πρόχειρα, γιατί τα καθαρά σημάδια μειώνουν δισταγμό και ξανακοπή. Η ακρίβεια εδώ δεν αφορά την τελειομανία. Αφορά το να μη σπαταλάς σπάνιο υλικό και εργασία σε αποτρέψιμα λάθη.",
+    "steps_en": ["Measure before cutting, not after the mistake appears.","Mark clearly and keep reference points visible.","Use one trusted reference dimension for repeated pieces.","Check fit early before processing the full batch.","Treat layout as part of tool skill, not a separate chore."],
+    "steps_el": ["Μέτρα πριν από την κοπή και όχι αφού εμφανιστεί το λάθος.","Σημάδεψε καθαρά και κράτα ορατά τα σημεία αναφοράς.","Χρησιμοποίησε μία αξιόπιστη διάσταση αναφοράς για επαναλαμβανόμενα κομμάτια.","Έλεγξε το ταίριασμα νωρίς πριν επεξεργαστείς όλη την παρτίδα.","Αντιμετώπισε τη χάραξη ως μέρος της δεξιότητας εργαλείου και όχι ως ξεχωριστή αγγαρεία."],
+    "warnings_en": ["Small measuring errors multiply through repeated work.","A bad mark can waste a whole piece of material.","Guesswork feels faster until the rebuild starts."],
+    "warnings_el": ["Τα μικρά σφάλματα μέτρησης πολλαπλασιάζονται σε επαναλαμβανόμενη δουλειά.","Ένα κακό σημάδι μπορεί να χαλάσει ολόκληρο κομμάτι υλικού.","Η μαντεψιά φαίνεται γρήγορη μέχρι να αρχίσει το ξαναχτίσιμο."],
+    "mistakes_en": ["Measuring differently for each repeated piece.","Making faint or shifting marks.","Cutting before checking whether the measurement logic is correct."],
+    "mistakes_el": ["Να μετράς διαφορετικά για κάθε επαναλαμβανόμενο κομμάτι.","Να κάνεις αχνά ή μετακινούμενα σημάδια.","Να κόβεις πριν ελέγξεις αν η λογική μέτρησης είναι σωστή."],
+    "related_topics": ["Simple Sawing, Cutting, and Material Breakdown Workflow", "Wedge, Shim, Spacing, and Alignment Basics", "Toolmaking from Salvage and Basic Materials"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Further tool-skills expansion pass."
+  }
+]
