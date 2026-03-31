@@ -1,0 +1,25 @@
+[
+  {
+    "id": "anatomy::movement_joints_injury",
+    "topic": "Human Anatomy: Movement, Joints, and Injury Function",
+    "category": "anatomy_biology",
+    "subcategory": "movement_and_joints",
+    "tags": ["anatomy", "joints", "movement", "muscles", "injury"],
+    "summary_en": "Movement anatomy matters in survival because injury is measured not only by pain but by what the body can still carry, grip, climb, kneel, breathe through, and protect.",
+    "summary_el": "Η ανατομία κίνησης μετρά στην επιβίωση γιατί ο τραυματισμός δεν μετριέται μόνο από τον πόνο αλλά και από το τι μπορεί ακόμη να κουβαλήσει, να πιάσει, να σκαρφαλώσει, να γονατίσει, να αναπνεύσει και να προστατεύσει το σώμα.",
+    "content_en": "The shoulders, elbows, wrists, hips, knees, ankles, spine, and the muscle groups around them determine how a person works and travels. A body part may still move but no longer move safely under load. This is why anatomy matters to function: a shoulder problem affects carrying and lifting, a knee problem affects slope travel and rising, an ankle problem affects balance and route safety, and back problems can multiply all of them. Practical movement anatomy helps a group decide who should carry, who should rest, who should avoid steep ground, and when an injury turns from inconvenience into group-level risk.",
+    "content_el": "Οι ώμοι, οι αγκώνες, οι καρποί, τα ισχία, τα γόνατα, οι αστράγαλοι, η σπονδυλική στήλη και οι μυϊκές ομάδες γύρω τους καθορίζουν πώς δουλεύει και κινείται ένας άνθρωπος. Ένα μέρος του σώματος μπορεί ακόμη να κινείται αλλά να μην κινείται πια με ασφάλεια υπό φορτίο. Γι’ αυτό η ανατομία μετρά για τη λειτουργία: ένα πρόβλημα ώμου επηρεάζει κουβάλημα και ανύψωση, ένα πρόβλημα γονάτου επηρεάζει κίνηση σε κλίση και το σήκωμα, ένα πρόβλημα αστραγάλου επηρεάζει ισορροπία και ασφάλεια διαδρομής, και τα προβλήματα μέσης μπορούν να πολλαπλασιάσουν όλα τα παραπάνω. Η πρακτική ανατομία κίνησης βοηθά μια ομάδα να αποφασίσει ποιος πρέπει να κουβαλά, ποιος πρέπει να ξεκουραστεί, ποιος πρέπει να αποφεύγει απότομο έδαφος και πότε ένας τραυματισμός περνά από ενόχληση σε κίνδυνο επιπέδου ομάδας.",
+    "steps_en": ["Judge injury by lost function, not pain alone.","Match loads and routes to what the body can safely manage.","Protect joints and back from repeated strain under scarcity.","Reduce movement complexity when coordination or joint stability falls.","Record which tasks a person can no longer do safely."],
+    "steps_el": ["Κρίνε τον τραυματισμό από τη χαμένη λειτουργία και όχι μόνο από τον πόνο.","Ταίριαξε φορτία και διαδρομές με αυτό που το σώμα μπορεί να διαχειριστεί με ασφάλεια.","Προστάτεψε αρθρώσεις και μέση από επαναλαμβανόμενο στρες μέσα στη στέρηση.","Μείωσε την πολυπλοκότητα κίνησης όταν πέφτει ο συντονισμός ή η σταθερότητα αρθρώσεων.","Κατάγραψε ποιες εργασίες ένας άνθρωπος δεν μπορεί πια να κάνει με ασφάλεια."],
+    "warnings_en": ["A functioning limb may still be unsafe under load.","Joint injury can silently multiply travel risk.","Back strain can become a whole-household labor problem."],
+    "warnings_el": ["Ένα άκρο που λειτουργεί μπορεί πάλι να είναι ανασφαλές υπό φορτίο.","Ο τραυματισμός άρθρωσης μπορεί αθόρυβα να πολλαπλασιάσει τον κίνδυνο μετακίνησης.","Η καταπόνηση μέσης μπορεί να γίνει πρόβλημα εργασίας όλου του νοικοκυριού."],
+    "mistakes_en": ["Testing injuries only at rest and not under real task conditions.","Assuming movement equals safe function.","Ignoring how one joint problem changes the whole route plan."],
+    "mistakes_el": ["Να δοκιμάζεις τραυματισμούς μόνο σε ηρεμία και όχι σε πραγματικές συνθήκες εργασίας.","Να υποθέτεις ότι η κίνηση σημαίνει ασφαλή λειτουργία.","Να αγνοείς πώς ένα πρόβλημα άρθρωσης αλλάζει όλο το σχέδιο διαδρομής."],
+    "related_topics": ["Fractures, Sprains, and Casualty Movement", "Balance, Coordination, and Fall Prevention Under Fatigue", "Terrain Awareness and Route Selection"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Human anatomy expansion pass."
+  }
+]
