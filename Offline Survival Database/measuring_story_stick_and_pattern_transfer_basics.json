@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tools::story_stick_pattern_transfer",
+    "topic": "Measuring Story Stick and Pattern Transfer Basics",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "pattern_transfer_skill",
+    "tags": ["story stick", "pattern", "measuring", "transfer", "layout"],
+    "summary_en": "A story stick or simple pattern saves time and error when the same size or shape must be repeated many times under rough workshop conditions.",
+    "summary_el": "Ένα story stick ή απλό πατρόν εξοικονομεί χρόνο και λάθος όταν το ίδιο μέγεθος ή σχήμα πρέπει να επαναληφθεί πολλές φορές μέσα σε πρόχειρες συνθήκες εργαστηρίου.",
+    "content_en": "Repeated measuring from scratch wastes time and often drifts into inconsistency. A story stick or pattern lets one proven reference be transferred again and again without remaking every measurement. This matters in shelves, lash points, repeated cuts, spacing, panel work, tarp tie-outs, and simple frames. The real skill is choosing what should become a reusable reference and then protecting that reference from distortion, damage, or confusion with other marks. Good pattern transfer turns rough work into more consistent work with less thinking load.",
+    "content_el": "Η επαναλαμβανόμενη μέτρηση από την αρχή σπαταλά χρόνο και συχνά γλιστρά σε ασυνέπεια. Ένα story stick ή πατρόν επιτρέπει σε μία αποδεδειγμένη αναφορά να μεταφέρεται ξανά και ξανά χωρίς να ξαναφτιάχνεται κάθε μέτρηση. Αυτό μετρά σε ράφια, σημεία δεσίματος, επαναλαμβανόμενες κοπές, αποστάσεις, πάνελ, δεσίματα tarp και απλούς σκελετούς. Η πραγματική δεξιότητα είναι να διαλέγεις τι πρέπει να γίνει επαναχρησιμοποιούμενη αναφορά και μετά να προστατεύεις αυτή την αναφορά από παραμόρφωση, ζημιά ή μπέρδεμα με άλλα σημάδια. Η καλή μεταφορά πατρόν μετατρέπει την πρόχειρη δουλειά σε πιο συνεπή δουλειά με μικρότερο νοητικό φορτίο.",
+    "steps_en": ["Create one trusted reference for repeated dimensions.","Transfer from the reference instead of remeasuring every piece.","Protect the story stick or pattern from damage and bad marks.","Verify the first transferred piece before batch work.","Use separate patterns when tasks differ enough to cause confusion."],
+    "steps_el": ["Δημιούργησε μία αξιόπιστη αναφορά για επαναλαμβανόμενες διαστάσεις.","Μετάφερε από την αναφορά αντί να ξαναμετράς κάθε κομμάτι.","Προστάτεψε το story stick ή το πατρόν από ζημιά και κακά σημάδια.","Επιβεβαίωσε το πρώτο μεταφερμένο κομμάτι πριν από τη δουλειά παρτίδας.","Χρησιμοποίησε ξεχωριστά πατρόν όταν οι εργασίες διαφέρουν αρκετά ώστε να προκαλούν σύγχυση."],
+    "warnings_en": ["A damaged reference repeats damage across every piece.","Mixed patterns can create batch-wide mistakes fast.","One good story stick can save more material than many loose measurements."],
+    "warnings_el": ["Μια χαλασμένη αναφορά επαναλαμβάνει τη ζημιά σε κάθε κομμάτι.","Τα μπερδεμένα πατρόν μπορούν να δημιουργήσουν πολύ γρήγορα λάθη σε όλη την παρτίδα.","Ένα καλό story stick μπορεί να σώσει περισσότερο υλικό από πολλές χαλαρές μετρήσεις."],
+    "mistakes_en": ["Remeasuring every repeated piece from memory.","Using one pattern for jobs that are not truly identical.","Failing to confirm the first transferred result."],
+    "mistakes_el": ["Να ξαναμετράς κάθε επαναλαμβανόμενο κομμάτι από μνήμης.","Να χρησιμοποιείς ένα πατρόν για δουλειές που δεν είναι πραγματικά ίδιες.","Να μην επιβεβαιώνεις το πρώτο μεταφερμένο αποτέλεσμα."],
+    "related_topics": ["Simple Measuring, Marking, and Repeat-Cut Accuracy", "Simple Sawing, Cutting, and Material Breakdown Workflow", "Tool Roll Storage and Quick-Access Layout"],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Continuing practical tool-skills expansion."
+  }
+]
