@@ -1,0 +1,21 @@
+[
+  {
+    "id": "food::oil_fat_calorie_density",
+    "topic": "Cooking Oil, Fat, and Calorie Density Under Scarcity",
+    "category": "food_nutrition_preservation",
+    "subcategory": "energy_density",
+    "tags": ["fat", "oil", "calories", "scarcity", "food"],
+    "summary_en": "Under food scarcity, fats and oils matter because they concentrate calories, cooking value, and satiety in ways bulky low-energy foods often cannot.",
+    "summary_el": "Μέσα στη στέρηση τροφής, τα λίπη και τα έλαια μετρούν γιατί συμπυκνώνουν θερμίδες, αξία μαγειρικής και αίσθηση κορεσμού με τρόπους που ογκώδεις τροφές χαμηλής ενέργειας συχνά δεν μπορούν.",
+    "content_en": "Food planning becomes stronger when it distinguishes between volume and energy. A stomach can feel full while the body still loses strength if the food is bulky but poor in usable energy. Fats and oils raise calorie density, improve cooking efficiency, support flavor and morale, and help stretch staples into more sustaining meals. But they must be protected from waste, contamination, and careless overuse. A resilient household uses fats strategically: not as casual luxury, but as high-value energy support inside a broader food system.",
+    "content_el": "Ο σχεδιασμός τροφής γίνεται ισχυρότερος όταν ξεχωρίζει τον όγκο από την ενέργεια. Ένα στομάχι μπορεί να νιώθει γεμάτο ενώ το σώμα συνεχίζει να χάνει δύναμη αν η τροφή είναι ογκώδης αλλά φτωχή σε χρήσιμη ενέργεια. Τα λίπη και τα έλαια ανεβάζουν τη θερμιδική πυκνότητα, βελτιώνουν την αποδοτικότητα μαγειρικής, στηρίζουν γεύση και ηθικό και βοηθούν να τεντωθούν τα βασικά τρόφιμα σε πιο χορταστικά γεύματα. Αλλά πρέπει να προστατεύονται από σπατάλη, μόλυνση και απρόσεκτη υπερκατανάλωση. Ένα ανθεκτικό νοικοκυριό χρησιμοποιεί τα λίπη στρατηγικά: όχι ως χαλαρή πολυτέλεια αλλά ως στήριξη υψηλής ενεργειακής αξίας μέσα σε ευρύτερο σύστημα τροφής.",
+    "steps_en": ["Track fats and oils separately as high-value calorie resources.","Use them to strengthen staple meals rather than waste them casually.","Protect oil and fat stores from contamination and spoilage.","Balance immediate appetite relief with longer-term energy planning.","Review which foods deliver real work-supporting energy."],
+    "steps_el": ["Κατάγραψε λίπη και έλαια χωριστά ως πόρους υψηλής θερμιδικής αξίας.","Χρησιμοποίησέ τα για να δυναμώνεις βασικά γεύματα αντί να τα σπαταλάς χαλαρά.","Προστάτεψε αποθέματα ελαίου και λίπους από μόλυνση και φθορά.","Ισορρόπησε την άμεση ανακούφιση όρεξης με τον μακροπρόθεσμο ενεργειακό σχεδιασμό.","Έλεγξε ποιες τροφές δίνουν πραγματική ενέργεια που στηρίζει εργασία."],
+    "warnings_en": ["Low-energy bulk food can hide real calorie shortage.","A small amount of wasted oil can represent major lost energy.","Unprotected fats spoil value quickly."],
+    "warnings_el": ["Η ογκώδης τροφή χαμηλής ενέργειας μπορεί να κρύβει πραγματική θερμιδική έλλειψη.","Μια μικρή ποσότητα χαμένου λαδιού μπορεί να σημαίνει μεγάλη απώλεια ενέργειας.","Τα απροστάτευτα λίπη χάνουν γρήγορα την αξία τους."],
+    "mistakes_en": ["Planning only by bulk, not energy density.","Treating fats like unlimited background ingredients.","Ignoring how calorie density affects cold tolerance and labor capacity."],
+    "mistakes_el": ["Να σχεδιάζεις μόνο με βάση τον όγκο και όχι τη θερμιδική πυκνότητα.","Να αντιμετωπίζεις τα λίπη σαν απεριόριστα υλικά φόντου.","Να αγνοείς πώς η θερμιδική πυκνότητα επηρεάζει αντοχή στο κρύο και ικανότητα εργασίας."],
+    "related_topics": ["Nutrition Under Scarcity", "Digestion, Metabolism, and Starvation Progression", "Low-Fuel Household Meal Planning"],
+    "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-30","update_note": "Best-guide expansion pass."
+  }
+]
