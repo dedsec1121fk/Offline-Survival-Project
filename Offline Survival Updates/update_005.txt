@@ -1,27 +1,2 @@
-update_005.txt
-Date: 2026-03-30
-Update batch: 005
-
-What this pass changed
-- Added urban_blackout_apartment_survival.json
-  - Urban Blackout and Apartment Survival
-- Added medical_quick_triage.json
-  - Quick Triage and First-Priority Casualty Sorting
-- Added seed_saving_and_small_scale_irrigation.json
-  - Seed Saving and Small-Scale Irrigation Discipline
-
-Why this pass matters
-- Urban blackout survival now has apartment-specific continuity guidance.
-- Medical coverage now includes fast triage logic for multiple casualties under limited capacity.
-- Agriculture coverage now includes continuity between one season and the next through seed and water discipline.
-
-What improved
-- Better practical support for city living during outages and infrastructure failure.
-- Better emergency decision support for multi-casualty situations.
-- Better long-term self-reliance through seed saving and small-scale irrigation logic.
-
-Still needs more depth
-- More compact quick-reference tables and symptom indexes.
-- More regional/seasonal adaptation for agriculture and food gathering.
-- More apartment sanitation and building-level coordination detail.
-- More advanced repair and community workshop procedures.
+OFFLINE_SURVIVAL_ENC_V1
+hCNIKmWhMy7kaq3wDgexC6EcAzuzDUNDWXO1y-02ni37FkIoY70carE7o-kfFMkutAEJb7NRHAUKVKjfj3TGQJg9TScxqAN59C_29gYcyCrgGBRk4FoBBwo6pZauJtxSnD5NOWjkCnGmMompVj7SKLIJEmT3HwYBCz_xmp82nxLRMEMlZa0Ca7Ur6usYU9cgp0gPb-dQUxQBPfeGsHLKQ9E1Qzl85Apxpn_x4QYcyCa0BxR4s1wcHxw39oulaMxe31kBa0OhQW21KebgVhLIb6UGBXPqTwcUC36ri7hyj0GeIQw-YaANarFy5esaF9494AsJb-BWAAUKMOaGyg==
