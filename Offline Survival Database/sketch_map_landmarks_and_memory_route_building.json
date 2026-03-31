@@ -1,0 +1,25 @@
+[
+  {
+    "id": "navigation::sketch_map_landmarks_memory_routes",
+    "topic": "Sketch Map, Landmarks, and Memory Route Building",
+    "category": "movement_navigation_evacuation",
+    "subcategory": "local_navigation_skill",
+    "tags": ["map", "sketch", "landmarks", "memory", "routes"],
+    "summary_en": "A simple hand-drawn map can preserve survival knowledge better than memory alone. Rough local route sketches help a group teach, return, and plan more safely.",
+    "summary_el": "Ένας απλός χειρόγραφος χάρτης μπορεί να διατηρήσει γνώση επιβίωσης καλύτερα από τη μνήμη μόνη της. Τα πρόχειρα τοπικά σκαριφήματα διαδρομών βοηθούν μια ομάδα να διδάσκει, να επιστρέφει και να σχεδιάζει πιο ασφαλώς.",
+    "content_en": "Route knowledge often stays trapped in the head of the person who walked it most. Under fatigue, absence, fear, darkness, or injury, that becomes fragile. A rough sketch map does not need surveying accuracy to be useful. It needs clear direction, useful landmarks, hazard points, crossings, water, shelter, and enough practical spacing that another person can understand movement options later. The useful skill is turning lived terrain memory into a record that survives stress. A simple sketch can preserve options, teach children or new members, and reduce repeated route confusion.",
+    "content_el": "Η γνώση διαδρομής συχνά μένει παγιδευμένη στο κεφάλι του ανθρώπου που την περπάτησε περισσότερο. Κάτω από κόπωση, απουσία, φόβο, σκοτάδι ή τραυματισμό, αυτό γίνεται εύθραυστο. Ένας πρόχειρος σκαριφηματικός χάρτης δεν χρειάζεται τοπογραφική ακρίβεια για να είναι χρήσιμος. Χρειάζεται καθαρή κατεύθυνση, χρήσιμα τοπόσημα, σημεία κινδύνου, περάσματα, νερό, καταφύγιο και αρκετή πρακτική απόσταση ώστε άλλος άνθρωπος να καταλάβει αργότερα τις επιλογές κίνησης. Η χρήσιμη δεξιότητα είναι να μετατρέπεις τη βιωμένη μνήμη εδάφους σε αρχείο που επιβιώνει από το στρες. Ένα απλό σκαρίφημα μπορεί να διατηρήσει επιλογές, να διδάξει παιδιά ή νέα μέλη και να μειώσει την επαναλαμβανόμενη σύγχυση διαδρομής.",
+    "steps_en": ["Sketch the area with simple direction and relative distance.", "Mark water, shelter, crossings, hazards, and key landmarks.", "Keep the map readable for someone who did not walk the route first.", "Update the sketch after route changes or new discoveries.", "Treat rough maps as survival records, not decoration."],
+    "steps_el": ["Σχεδίασε την περιοχή με απλή κατεύθυνση και σχετική απόσταση.", "Σήμανε νερό, καταφύγιο, περάσματα, κινδύνους και βασικά τοπόσημα.", "Κράτα τον χάρτη αναγνώσιμο για κάποιον που δεν περπάτησε πρώτος τη διαδρομή.", "Ενημέρωσε το σκαρίφημα μετά από αλλαγές διαδρομής ή νέες ανακαλύψεις.", "Αντιμετώπισε τους πρόχειρους χάρτες ως αρχεία επιβίωσης και όχι ως διακόσμηση."],
+    "warnings_en": ["Unshared route knowledge is weak knowledge.", "Overcomplicated sketches fail under stress.", "Outdated route sketches become dangerous if never revised."],
+    "warnings_el": ["Η γνώση διαδρομής που δεν μοιράζεται είναι αδύναμη γνώση.", "Τα υπερβολικά πολύπλοκα σκαριφήματα αποτυγχάνουν κάτω από στρες.", "Τα ξεπερασμένα σκαριφήματα διαδρομών γίνονται επικίνδυνα αν δεν αναθεωρούνται ποτέ."],
+    "mistakes_en": ["Keeping route memory in one person's head only.", "Drawing too much detail and too little usable structure.", "Never correcting the map after conditions change."],
+    "mistakes_el": ["Να κρατάς τη μνήμη διαδρομής μόνο στο κεφάλι ενός ανθρώπου.", "Να σχεδιάζεις υπερβολική λεπτομέρεια και πολύ λίγη χρήσιμη δομή.", "Να μη διορθώνεις ποτέ τον χάρτη αφού αλλάξουν οι συνθήκες."],
+    "related_topics": ["Route Marking and Backtracking Without Getting Lost", "Decision-Point Logging, Return Markers, and Route Memory Discipline", "Family Communication Plans and Paper Backups"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Added for stronger local navigation memory and knowledge-transfer coverage."
+  }
+]
