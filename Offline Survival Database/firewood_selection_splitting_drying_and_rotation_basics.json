@@ -1,0 +1,25 @@
+[
+  {
+    "id": "fire::firewood_selection_drying_rotation",
+    "topic": "Firewood Selection, Splitting, Drying, and Rotation Basics",
+    "category": "fire_heat_cooking_light",
+    "subcategory": "fuel_management_skill",
+    "tags": ["firewood", "fuel", "drying", "splitting", "rotation"],
+    "summary_en": "Reliable fire comes from fuel discipline long before ignition. Good firewood handling means choosing, preparing, drying, and rotating wood so heat is available when it is needed most.",
+    "summary_el": "Η αξιόπιστη φωτιά έρχεται από πειθαρχία καυσίμου πολύ πριν από το άναμμα. Ο καλός χειρισμός καυσόξυλων σημαίνει επιλογή, προετοιμασία, στέγνωμα και εναλλαγή ξύλου ώστε η θερμότητα να είναι διαθέσιμη όταν χρειάζεται περισσότερο.",
+    "content_en": "People often think of firewood only at the moment of burning, but survival heat depends on earlier decisions. Wet, oversized, mixed, or badly stored wood wastes time, creates smoke, and weakens morale when cooking or warming is already urgent. Practical fuel management means selecting usable wood, splitting when needed to help drying and ignition, protecting stores from ground moisture, and rotating stock so the best dry wood is not wasted carelessly. The useful skill is to treat wood as a managed fuel reserve, not as random material gathered only when the cold already arrives.",
+    "content_el": "Οι άνθρωποι συχνά σκέφτονται τα καυσόξυλα μόνο τη στιγμή της καύσης, όμως η θερμότητα επιβίωσης εξαρτάται από νωρίτερες αποφάσεις. Υγρό, υπερμεγέθες, ανακατεμένο ή κακώς αποθηκευμένο ξύλο σπαταλά χρόνο, δημιουργεί καπνό και ρίχνει το ηθικό όταν το μαγείρεμα ή η ζέστη είναι ήδη επείγοντα. Η πρακτική διαχείριση καυσίμου σημαίνει επιλογή χρήσιμου ξύλου, σκίσιμο όπου χρειάζεται για να βοηθηθεί το στέγνωμα και το άναμμα, προστασία των αποθεμάτων από υγρασία εδάφους και εναλλαγή αποθέματος ώστε το καλύτερο στεγνό ξύλο να μην σπαταλιέται απρόσεκτα. Η χρήσιμη δεξιότητα είναι να αντιμετωπίζεις το ξύλο ως διαχειριζόμενο απόθεμα καυσίμου και όχι ως τυχαίο υλικό που μαζεύεται μόνο όταν το κρύο έχει ήδη φτάσει.",
+    "steps_en": ["Choose wood that is usable for the actual fire task.","Split fuel when needed to improve drying and ignition.","Keep stored wood off wet ground as much as possible.","Rotate wood so the driest fuel is used deliberately, not randomly.","Treat fuel preparation as part of fire security, not as an afterthought."],
+    "steps_el": ["Διάλεξε ξύλο που είναι χρήσιμο για την πραγματική δουλειά της φωτιάς.","Σκίσε καύσιμο όπου χρειάζεται για να βελτιωθεί το στέγνωμα και το άναμμα.","Κράτα το αποθηκευμένο ξύλο όσο γίνεται μακριά από υγρό έδαφος.","Κάνε εναλλαγή ξύλου ώστε το πιο στεγνό καύσιμο να χρησιμοποιείται σκόπιμα και όχι τυχαία.","Αντιμετώπισε την προετοιμασία καυσίμου ως μέρος της ασφάλειας φωτιάς και όχι ως δεύτερη σκέψη."],
+    "warnings_en": ["Wet wood wastes effort and often creates heavy smoke.","Bad storage can ruin a good wood supply quietly.","Fuel panic usually begins before the wood pile is truly empty."],
+    "warnings_el": ["Το υγρό ξύλο σπαταλά προσπάθεια και συχνά δημιουργεί βαρύ καπνό.","Η κακή αποθήκευση μπορεί να καταστρέψει αθόρυβα ένα καλό απόθεμα ξύλου.","Ο πανικός καυσίμου συνήθως αρχίζει πριν αδειάσει πραγματικά η ξυλαποθήκη."],
+    "mistakes_en": ["Gathering wood only when heat is already urgently needed.","Leaving fuel in damp contact with the ground.","Using the best dry wood wastefully for low-priority burns."],
+    "mistakes_el": ["Να μαζεύεις ξύλο μόνο όταν η ζέστη χρειάζεται ήδη επειγόντως.","Να αφήνεις το καύσιμο σε υγρή επαφή με το έδαφος.","Να σπαταλάς το καλύτερο στεγνό ξύλο σε καύσεις χαμηλής προτεραιότητας."],
+    "related_topics": ["Fire Starting Under Wet Conditions", "Fuel Efficiency and Low-Waste Cooking Heat", "Camp Layout, Fire/Water/Waste Separation, and Night Movement Order"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Added for deeper fuel management and reliable heat coverage."
+  }
+]
