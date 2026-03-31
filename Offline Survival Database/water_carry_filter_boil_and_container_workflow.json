@@ -17,5 +17,24 @@
     "mistakes_el": ["Να ανακατεύεις εργαλεία ακατέργαστου και επεξεργασμένου νερού.","Να εστιάζεις μόνο στο βράσιμο και να αγνοείς τα δοχεία.","Να κάνεις τη δουλειά νερού πιο δύσκολη απ’ όσο χρειάζεται με κακά συστήματα μεταφοράς."],
     "related_topics": ["Water Collection and Purification", "Safe Water Use and Treatment During Emergency", "Village Water Storage and Distribution"],
     "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-31","update_note": "Actual survival skills expansion pass."
+  },
+  {
+    "id": "skills::water_staging_refill_points",
+    "topic": "Water Staging, Refill Points, and Clean-to-Dirty Work Separation",
+    "category": "water",
+    "subcategory": "field_water_skills",
+    "tags": ["water", "staging", "refill", "clean", "dirty"],
+    "summary_en": "Water work becomes faster and safer when refill points, dirty zones, and clean zones are staged deliberately instead of improvised every time.",
+    "summary_el": "Η δουλειά νερού γίνεται γρηγορότερη και ασφαλέστερη όταν τα σημεία αναπλήρωσης, οι βρόμικες ζώνες και οι καθαρές ζώνες στήνονται σκόπιμα αντί να αυτοσχεδιάζονται κάθε φορά.",
+    "content_en": "Repeated water collection wastes time when every trip starts from confusion. A stronger system creates a clear staging area: incoming raw containers, settling area, treatment area, protected clean-water area, and refill point for daily use. This reduces spillage, mixing, and crowding around containers. It also makes it easier for multiple people to help without contaminating the system. The skill is not only making water safe once. It is organizing the workflow so safe water keeps staying safe while the household keeps using it.",
+    "content_el": "Η επαναλαμβανόμενη συλλογή νερού σπαταλά χρόνο όταν κάθε διαδρομή αρχίζει από σύγχυση. Ένα ισχυρότερο σύστημα δημιουργεί καθαρή ζώνη σταδίου: εισερχόμενα ακατέργαστα δοχεία, περιοχή καθίζησης, περιοχή επεξεργασίας, προστατευμένη περιοχή καθαρού νερού και σημείο αναπλήρωσης για καθημερινή χρήση. Αυτό μειώνει χυμένα, ανακατέματα και συνωστισμό γύρω από τα δοχεία. Κάνει επίσης ευκολότερο για πολλούς ανθρώπους να βοηθούν χωρίς να μολύνουν το σύστημα. Η δεξιότητα δεν είναι μόνο να κάνεις το νερό ασφαλές μία φορά. Είναι να οργανώνεις τη ροή έτσι ώστε το ασφαλές νερό να παραμένει ασφαλές ενώ το νοικοκυριό συνεχίζει να το χρησιμοποιεί.",
+    "steps_en": ["Create clear dirty, treatment, clean, and refill zones.","Keep refill use away from raw-water handling.","Stage containers so the order of work is obvious even under fatigue.","Reduce crowding where clean water is stored and dispensed.","Review staging layout after spills or repeated confusion."],
+    "steps_el": ["Δημιούργησε καθαρές ζώνες για βρόμικο, επεξεργασία, καθαρό και αναπλήρωση.","Κράτα τη χρήση αναπλήρωσης μακριά από χειρισμό ακατέργαστου νερού.","Στήσε τα δοχεία έτσι ώστε η σειρά εργασίας να είναι προφανής ακόμη και στην κόπωση.","Μείωσε τον συνωστισμό εκεί όπου αποθηκεύεται και μοιράζεται το καθαρό νερό.","Ξαναέλεγξε το στήσιμο μετά από χυμένα ή επαναλαμβανόμενη σύγχυση."],
+    "warnings_en": ["Clean water can be lost through workflow confusion, not just bad source quality.","Refill points become contamination points when badly placed.","Shared water work needs visible order, not private memory."],
+    "warnings_el": ["Το καθαρό νερό μπορεί να χαθεί από σύγχυση ροής εργασίας και όχι μόνο από κακή ποιότητα πηγής.","Τα σημεία αναπλήρωσης γίνονται σημεία μόλυνσης όταν μπαίνουν λάθος.","Η κοινή δουλειά νερού χρειάζεται ορατή τάξη και όχι ιδιωτική μνήμη."],
+    "mistakes_en": ["Using one crowded area for every water task.","Placing daily refill where raw containers are opened.","Relying on memory instead of visible staging order."],
+    "mistakes_el": ["Να χρησιμοποιείς έναν συνωστισμένο χώρο για κάθε εργασία νερού.","Να βάζεις την καθημερινή αναπλήρωση εκεί όπου ανοίγονται ακατέργαστα δοχεία.","Να βασίζεσαι στη μνήμη αντί για ορατή σειρά σταδίου."],
+    "related_topics": ["Water Carry, Filter, Boil, and Container Workflow", "Household Inventory Rotation and Spoilage Control", "Village Water Storage and Distribution"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-31","update_note": "In-place expansion of existing core water skill file."
   }
 ]

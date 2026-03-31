@@ -21,5 +21,24 @@
     "priority": "high",
     "last_updated": "2026-03-31",
     "update_note": "Full expansion skills pack."
+  },
+  {
+    "id": "skills::bandage_pressure_maintenance_movement",
+    "topic": "Pressure Maintenance, Bandage Security, and Recheck Under Movement",
+    "category": "medicine_first_aid",
+    "subcategory": "bleeding_control_skill",
+    "tags": ["bandage", "pressure", "movement", "recheck", "bleeding"],
+    "summary_en": "A bleeding-control bandage that works at rest may fail once the patient is moved. Good survival care includes securing pressure so it survives transport and activity changes.",
+    "summary_el": "Ένας επίδεσμος ελέγχου αιμορραγίας που δουλεύει σε ηρεμία μπορεί να αποτύχει μόλις μετακινηθεί ο τραυματίας. Η καλή φροντίδα επιβίωσης περιλαμβάνει το να ασφαλίζεις την πίεση ώστε να αντέχει σε μεταφορά και αλλαγές δραστηριότητας.",
+    "content_en": "Bleeding control is often tested hardest during movement. When a casualty is lifted, dragged, or repositioned, pressure points shift and a bandage that looked good may loosen, slip, or stop compressing effectively. The practical skill is to secure the dressing with movement in mind, then recheck after transport or major position change. Rechecking does not mean constant disturbing inspection. It means purposeful assessment at moments when the mechanics of the bandage may have changed. This is one reason transport and bandage work should be planned together, not as separate problems.",
+    "content_el": "Ο έλεγχος αιμορραγίας συχνά δοκιμάζεται πιο σκληρά κατά τη μετακίνηση. Όταν ένας τραυματίας σηκώνεται, σύρεται ή αλλάζει θέση, τα σημεία πίεσης αλλάζουν και ένας επίδεσμος που φαινόταν καλός μπορεί να χαλαρώσει, να γλιστρήσει ή να σταματήσει να συμπιέζει αποτελεσματικά. Η πρακτική δεξιότητα είναι να ασφαλίζεις τον επίδεσμο με τη μετακίνηση στο μυαλό και μετά να τον επανελέγχεις μετά από μεταφορά ή μεγάλη αλλαγή θέσης. Ο επανέλεγχος δεν σημαίνει συνεχές ενοχλητικό άνοιγμα. Σημαίνει σκόπιμη αξιολόγηση σε στιγμές όπου η μηχανική του επιδέσμου μπορεί να έχει αλλάξει. Αυτός είναι ένας λόγος που η μεταφορά και η εργασία επιδέσμου πρέπει να σχεδιάζονται μαζί και όχι ως χωριστά προβλήματα.",
+    "steps_en": ["Secure dressings so pressure survives lifting and repositioning.","Expect movement to change how pressure is applied.","Reassess after transport or major position change.","Adjust only as much as needed to restore effective pressure.","Plan casualty movement and bandage support together."],
+    "steps_el": ["Ασφάλισε τους επιδέσμους ώστε η πίεση να αντέχει σε σήκωμα και αλλαγή θέσης.","Περίμενε ότι η κίνηση θα αλλάζει τον τρόπο εφαρμογής πίεσης.","Επανέλεγξε μετά από μεταφορά ή μεγάλη αλλαγή θέσης.","Προσάρμοσε μόνο όσο χρειάζεται για να επανέλθει η αποτελεσματική πίεση.","Σχεδίασε μαζί τη μετακίνηση τραυματία και τη στήριξη επιδέσμου."],
+    "warnings_en": ["A good dressing can fail after a difficult move.","Movement can restart bleeding if support shifts.","Overhandling still increases risk; recheck should be deliberate."],
+    "warnings_el": ["Ένας καλός επίδεσμος μπορεί να αποτύχει μετά από δύσκολη μετακίνηση.","Η κίνηση μπορεί να ξαναρχίσει την αιμορραγία αν μετακινηθεί η στήριξη.","Ο υπερβολικός χειρισμός πάλι αυξάνει τον κίνδυνο· ο επανέλεγχος πρέπει να είναι σκόπιμος."],
+    "mistakes_en": ["Assuming a resting bandage will stay effective during transport.","Moving the casualty without planning how pressure is maintained.","Lifting the whole dressing instead of correcting support intelligently."],
+    "mistakes_el": ["Να υποθέτεις ότι ένας επίδεσμος ηρεμίας θα μείνει αποτελεσματικός στη μεταφορά.","Να μετακινείς τον τραυματία χωρίς σχέδιο για το πώς διατηρείται η πίεση.","Να σηκώνεις όλον τον επίδεσμο αντί να διορθώνεις έξυπνα τη στήριξη."],
+    "related_topics": ["Improvised Bandage, Pressure, and Packing Basics", "Improvised Stretcher, Blanket Drag, and Team Carry Basics", "Field Splint Padding and Patient Move Preparation"],
+    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-31","update_note": "In-place expansion of existing bandage and bleeding skill file."
   }
 ]

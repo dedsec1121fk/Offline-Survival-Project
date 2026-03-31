@@ -17,5 +17,24 @@
     "mistakes_el": ["Να καταστρέφεις επαναχρησιμοποιήσιμο ξύλο κυνηγώντας ένα καρφί.","Να ανακατεύεις μαζί επαναχρησιμοποιήσιμο και χαλασμένο υλικό.","Να χρησιμοποιείς δύναμη πριν βελτιώσεις μοχλό ή στήριξη."],
     "related_topics": ["Simple Sawing, Cutting, and Material Breakdown Workflow", "Toolmaking from Salvage and Basic Materials", "Storm Hardening and Repair Priorities for Shelter"],
     "difficulty": "medium","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "Tool-focused expansion pass."
+  },
+  {
+    "id": "tools::nail_straightening_reuse_screening",
+    "topic": "Nail Straightening, Sorting, and Reuse Screening",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "basic_hand_tool_skill",
+    "tags": ["nails", "reuse", "straightening", "sorting", "salvage"],
+    "summary_en": "Recovered fasteners only save real work when they are sorted and screened for reuse instead of thrown back into a mixed pile regardless of condition.",
+    "summary_el": "Οι ανακτημένοι σύνδεσμοι γλιτώνουν πραγματική δουλειά μόνο όταν ταξινομούνται και ελέγχονται για επαναχρήση αντί να πετιούνται πίσω σε έναν μικτό σωρό ανεξάρτητα από την κατάστασή τους.",
+    "content_en": "A bent nail is not automatically useless, but it is not automatically trustworthy either. Reuse screening means deciding which fasteners can be straightened and reused for low-risk work, which remain suitable for structural use, and which should be discarded. The practical skill includes cleaning, straightening, checking damage at the tip and shank, and storing recovered nails by type and condition. This makes future repair faster because the worker is not forced to judge every nail in the middle of the next task.",
+    "content_el": "Ένα λυγισμένο καρφί δεν είναι αυτόματα άχρηστο, αλλά ούτε και αυτόματα αξιόπιστο. Ο έλεγχος επαναχρήσης σημαίνει να αποφασίζεις ποιοι σύνδεσμοι μπορούν να ισιωθούν και να ξαναχρησιμοποιηθούν σε χαμηλού κινδύνου δουλειά, ποιοι παραμένουν κατάλληλοι για δομική χρήση και ποιοι πρέπει να απορριφθούν. Η πρακτική δεξιότητα περιλαμβάνει καθάρισμα, ίσιωμα, έλεγχο ζημιάς σε μύτη και κορμό και αποθήκευση των ανακτημένων καρφιών ανά τύπο και κατάσταση. Αυτό κάνει την επόμενη επισκευή γρηγορότερη γιατί ο εργάτης δεν αναγκάζεται να κρίνει κάθε καρφί στη μέση της επόμενης δουλειάς.",
+    "steps_en": ["Clean and sort recovered nails before storage.","Straighten only fasteners worth saving.","Separate structural-grade reuse from low-risk reuse.","Discard pieces with damage that makes trust unreasonable.","Store recovered nails by size and condition for later work."],
+    "steps_el": ["Καθάρισε και ταξινόμησε ανακτημένα καρφιά πριν από την αποθήκευση.","Ίσιωσε μόνο τους συνδέσμους που αξίζει να σωθούν.","Χώρισε τη δομικής αξίας επαναχρήση από τη χαμηλού κινδύνου επαναχρήση.","Απόρριψε κομμάτια με ζημιά που κάνει την εμπιστοσύνη παράλογη.","Αποθήκευσε ανακτημένα καρφιά ανά μέγεθος και κατάσταση για μελλοντική δουλειά."],
+    "warnings_en": ["Not every straightened fastener is safe for structural work.","Mixed piles turn reuse into guesswork.","Fastener damage hides easily if screening is rushed."],
+    "warnings_el": ["Δεν είναι κάθε ισιωμένος σύνδεσμος ασφαλής για δομική δουλειά.","Οι μικτοί σωροί μετατρέπουν την επαναχρήση σε μαντεψιά.","Η ζημιά συνδέσμου κρύβεται εύκολα αν ο έλεγχος γίνει βιαστικά."],
+    "mistakes_en": ["Treating every recovered nail as equal.","Reusing questionable fasteners in high-value joints.","Skipping sorting because the next job feels urgent."],
+    "mistakes_el": ["Να αντιμετωπίζεις κάθε ανακτημένο καρφί ως ίσο.","Να επαναχρησιμοποιείς αμφίβολους συνδέσμους σε υψηλής αξίας συνδέσεις.","Να παραλείπεις την ταξινόμηση επειδή η επόμενη δουλειά φαίνεται επείγουσα."],
+    "related_topics": ["Hammering, Prying, and Nail Recovery Skills", "Scrap Sorting, Grade Selection, and Reuse Priority", "Simple Fastening Sequence, Preload, and Joint Stability"],
+    "difficulty": "low","urgency": "medium","priority": "high","last_updated": "2026-03-31","update_note": "In-place expansion of existing hammer and salvage skill file."
   }
 ]
