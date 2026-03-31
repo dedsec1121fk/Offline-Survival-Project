@@ -39,6 +39,10 @@
     "mistakes_en": ["Assuming a resting bandage will stay effective during transport.","Moving the casualty without planning how pressure is maintained.","Lifting the whole dressing instead of correcting support intelligently."],
     "mistakes_el": ["Να υποθέτεις ότι ένας επίδεσμος ηρεμίας θα μείνει αποτελεσματικός στη μεταφορά.","Να μετακινείς τον τραυματία χωρίς σχέδιο για το πώς διατηρείται η πίεση.","Να σηκώνεις όλον τον επίδεσμο αντί να διορθώνεις έξυπνα τη στήριξη."],
     "related_topics": ["Improvised Bandage, Pressure, and Packing Basics", "Improvised Stretcher, Blanket Drag, and Team Carry Basics", "Field Splint Padding and Patient Move Preparation"],
-    "difficulty": "medium","urgency": "high","priority": "high","last_updated": "2026-03-31","update_note": "In-place expansion of existing bandage and bleeding skill file."
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "In-place expansion of existing bandage and bleeding skill file."
   }
 ]

@@ -1,0 +1,11 @@
+update_051.txt
+Date: 2026-03-31
+Update batch: 051
+
+What this pass changed
+- Expanded improvised_bandage_pressure_and_packing_basics.json
+- Expanded simple_measuring_marking_and_repeat_cut_accuracy.json
+
+Why this matters
+- This is another in-place depth pass.
+- It adds more field depth to bleeding-control and workshop-layout skills instead of only increasing file count.

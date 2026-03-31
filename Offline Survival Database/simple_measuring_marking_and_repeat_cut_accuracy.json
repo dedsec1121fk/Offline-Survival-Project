@@ -21,5 +21,28 @@
     "priority": "high",
     "last_updated": "2026-03-31",
     "update_note": "Further tool-skills expansion pass."
+  },
+  {
+    "id": "tools::batch_verification_error_catch",
+    "topic": "Batch Verification, Error Catching, and First-Piece Control",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "layout_skill",
+    "tags": ["batch", "verification", "first piece", "error catch", "layout"],
+    "summary_en": "Repeated work becomes wasteful when the first mistake is copied ten times. Good survival workmanship checks the first piece before the batch grows.",
+    "summary_el": "Η επαναλαμβανόμενη δουλειά γίνεται σπάταλη όταν το πρώτο λάθος αντιγράφεται δέκα φορές. Η καλή δουλειά επιβίωσης ελέγχει το πρώτο κομμάτι πριν μεγαλώσει η παρτίδα.",
+    "content_en": "Batch work saves time only when the first result is trustworthy. If the first cut, hole, spacing, or alignment is slightly wrong and no one checks it, the error multiplies across every later piece. A strong workshop habit is to stop after the first good transfer or first good cut, compare it to the job's real need, and only then continue in quantity. The useful skill is not speed first. It is catching the error while it is still cheap.",
+    "content_el": "Η δουλειά παρτίδας εξοικονομεί χρόνο μόνο όταν το πρώτο αποτέλεσμα είναι αξιόπιστο. Αν η πρώτη κοπή, τρύπα, απόσταση ή ευθυγράμμιση είναι λίγο λάθος και κανείς δεν το ελέγξει, το λάθος πολλαπλασιάζεται σε κάθε επόμενο κομμάτι. Μια ισχυρή συνήθεια εργαστηρίου είναι να σταματάς μετά την πρώτη καλή μεταφορά ή την πρώτη καλή κοπή, να τη συγκρίνεις με την πραγματική ανάγκη της δουλειάς και μόνο μετά να συνεχίζεις σε ποσότητα. Η χρήσιμη δεξιότητα δεν είναι πρώτα η ταχύτητα. Είναι να πιάνεις το λάθος όσο είναι ακόμη φθηνό.",
+    "steps_en": ["Complete and inspect one trustworthy first piece before batch repetition.","Compare the first piece against actual fit, not just intended measurement.","Correct the process before the second and third pieces are made.","Use the first good piece as the reference standard.","Treat error catching as production speed, not delay."],
+    "steps_el": ["Ολοκλήρωσε και έλεγξε ένα αξιόπιστο πρώτο κομμάτι πριν από επανάληψη παρτίδας.","Σύγκρινε το πρώτο κομμάτι με το πραγματικό ταίριασμα και όχι μόνο με την προορισμένη μέτρηση.","Διόρθωσε τη διαδικασία πριν φτιαχτούν το δεύτερο και το τρίτο κομμάτι.","Χρησιμοποίησε το πρώτο καλό κομμάτι ως πρότυπο αναφοράς.","Αντιμετώπισε το πιάσιμο λάθους ως ταχύτητα παραγωγής και όχι ως καθυστέρηση."],
+    "warnings_en": ["One unchecked error can waste an entire batch.","A measured dimension can still be functionally wrong.","Speed without first-piece control often costs more time overall."],
+    "warnings_el": ["Ένα ανεξέλεγκτο λάθος μπορεί να χαλάσει ολόκληρη παρτίδα.","Μια μετρημένη διάσταση μπορεί πάλι να είναι λειτουργικά λάθος.","Η ταχύτητα χωρίς έλεγχο πρώτου κομματιού συχνά κοστίζει περισσότερο συνολικό χρόνο."],
+    "mistakes_en": ["Producing a whole batch before checking fit.","Trusting measurement without fit verification.","Treating the first piece as disposable instead of instructional."],
+    "mistakes_el": ["Να παράγεις ολόκληρη παρτίδα πριν ελέγξεις το ταίριασμα.","Να εμπιστεύεσαι τη μέτρηση χωρίς επιβεβαίωση λειτουργικού ταιριάσματος.","Να αντιμετωπίζεις το πρώτο κομμάτι ως αναλώσιμο αντί για διδακτικό."],
+    "related_topics": ["Simple Measuring, Marking, and Repeat-Cut Accuracy", "Measuring Story Stick and Pattern Transfer Basics", "Emergency Workbench, Sawhorse, and Stable Work Surface Skills"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "In-place expansion of existing measuring and layout skill file."
   }
 ]
