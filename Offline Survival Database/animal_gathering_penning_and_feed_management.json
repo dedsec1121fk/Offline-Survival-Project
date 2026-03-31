@@ -1,0 +1,25 @@
+[
+  {
+    "id": "animals::gather_pen_feed",
+    "topic": "Animal Gathering, Penning, and Feed Management",
+    "category": "agriculture_food_production",
+    "subcategory": "household_animal_management",
+    "tags": ["animals", "feed", "penning", "livestock", "management"],
+    "summary_en": "Household animals become an asset only when movement, enclosure, water, and feed are controlled well enough that the animals do not become a second crisis.",
+    "summary_el": "Τα οικιακά ζώα γίνονται πλεονέκτημα μόνο όταν η κίνηση, η περίφραξη, το νερό και η τροφή ελέγχονται αρκετά καλά ώστε τα ζώα να μη γίνουν δεύτερη κρίση.",
+    "content_en": "In hardship, animals can provide labor, food, manure, alarm value, or continuity, but unmanaged animals can destroy gardens, waste feed, contaminate water, spread conflict, and create labor overload. Gathering animals safely means knowing where they go at night, where they drink, how they are separated from crop areas, and what feed sources exist before shortage deepens. Feed planning is not only about quantity. It is about season, transport, storage, spoilage, and whether the household can realistically sustain the animals through bad weather or supply disruption. Good animal management protects both the animals and the human system around them.",
+    "content_el": "Σε συνθήκες δυσκολίας, τα ζώα μπορούν να δώσουν εργασία, τροφή, κοπριά, αξία συναγερμού ή συνέχεια, αλλά τα ανεξέλεγκτα ζώα μπορούν να καταστρέψουν κήπους, να σπαταλήσουν τροφή, να μολύνουν νερό, να προκαλέσουν σύγκρουση και να δημιουργήσουν υπερφόρτωση εργασίας. Η ασφαλής συγκέντρωση ζώων σημαίνει να ξέρεις πού πηγαίνουν τη νύχτα, πού πίνουν, πώς χωρίζονται από τις ζώνες καλλιέργειας και ποιες πηγές τροφής υπάρχουν πριν βαθύνει η έλλειψη. Ο σχεδιασμός τροφής δεν αφορά μόνο ποσότητα. Αφορά εποχή, μεταφορά, αποθήκευση, φθορά και αν το νοικοκυριό μπορεί ρεαλιστικά να συντηρήσει τα ζώα σε κακό καιρό ή διακοπή εφοδιασμού. Η καλή διαχείριση ζώων προστατεύει και τα ζώα και το ανθρώπινο σύστημα γύρω τους.",
+    "steps_en": ["Define penning, watering, and feeding routines before scarcity worsens.","Separate animals from gardens, food storage, and drinking-water areas.","Plan feed by season, storage life, and realistic labor.","Track whether the animals are costing more than the system can carry.","Protect enclosures from weather, escape, and contamination buildup."],
+    "steps_el": ["Όρισε ρουτίνες περίφραξης, ποτίσματος και τροφής πριν χειροτερέψει η έλλειψη.","Χώρισε τα ζώα από κήπους, αποθήκευση τροφής και ζώνες πόσιμου νερού.","Σχεδίασε την τροφή ανά εποχή, διάρκεια αποθήκευσης και ρεαλιστική εργασία.","Παρακολούθησε αν τα ζώα κοστίζουν περισσότερο απ’ όσο αντέχει το σύστημα.","Προστάτεψε τις περιφράξεις από καιρό, διαφυγή και συσσώρευση μόλυνσης."],
+    "warnings_en": ["Animals can become a feed crisis if numbers exceed resources.","Poor penning spreads contamination fast.","Water access for animals must not damage human safe-water systems."],
+    "warnings_el": ["Τα ζώα μπορούν να γίνουν κρίση τροφής αν οι αριθμοί ξεπερνούν τους πόρους.","Η κακή περίφραξη απλώνει μόλυνση γρήγορα.","Η πρόσβαση νερού για τα ζώα δεν πρέπει να βλάπτει τα ανθρώπινα συστήματα ασφαλούς νερού."],
+    "mistakes_en": ["Keeping more animals than feed and labor can support.","Allowing livestock into gardens or clean-water areas.","Treating feed supply as an afterthought."],
+    "mistakes_el": ["Να κρατάς περισσότερα ζώα απ’ όσα μπορούν να στηρίξουν τροφή και εργασία.","Να αφήνεις ζώα σε κήπους ή καθαρές ζώνες νερού.","Να αντιμετωπίζεις την τροφή ως δεύτερη σκέψη."],
+    "related_topics": ["Mountain Garden Planning and Soil Use", "Seed Stock Rotation and Crop Failure Prevention", "Village Water Storage and Distribution"],
+    "difficulty": "high",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-30",
+    "update_note": "Mountain and self-reliance expansion pass."
+  }
+]
