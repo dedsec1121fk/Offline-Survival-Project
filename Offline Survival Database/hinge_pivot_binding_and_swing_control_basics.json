@@ -1,0 +1,25 @@
+[
+  {
+    "id": "tools::hinge_pivot_swing_control",
+    "topic": "Hinge, Pivot, Binding, and Swing Control Basics",
+    "category": "tools_repairs_maintenance",
+    "subcategory": "movement_joint_skill",
+    "tags": ["hinge", "pivot", "binding", "swing", "control"],
+    "summary_en": "Moving parts fail when they bind, swing badly, or carry force in the wrong direction. Hinge and pivot control is a real repair and build skill.",
+    "summary_el": "Τα κινούμενα μέρη αποτυγχάνουν όταν μπλοκάρουν, κουνιούνται άσχημα ή κουβαλούν δύναμη σε λάθος κατεύθυνση. Ο έλεγχος μεντεσέ και pivot είναι πραγματική δεξιότητα επισκευής και κατασκευής.",
+    "content_en": "A gate, lid, flap, door, lever, or simple moving assembly only works well when the movement path is respected. If the pivot point is crooked, if clearances are too tight, or if the load pushes sideways instead of through the intended path, the whole system binds and wears quickly. The useful skill is not only attaching a hinge or making a pivot—it is checking how the part swings, where it rubs, where it drifts, and how it behaves under repeated use. Good movement control makes rough materials feel more precise.",
+    "content_el": "Μια πύλη, ένα καπάκι, ένα flap, μια πόρτα, ένας μοχλός ή μια απλή κινούμενη συναρμολόγηση δουλεύει καλά μόνο όταν σέβεται τη διαδρομή κίνησης. Αν το σημείο pivot είναι στραβό, αν τα κενά είναι πολύ σφιχτά ή αν το φορτίο σπρώχνει πλαγίως αντί να περνά από την προορισμένη διαδρομή, όλο το σύστημα μπλοκάρει και φθείρεται γρήγορα. Η χρήσιμη δεξιότητα δεν είναι μόνο να βάζεις μεντεσέ ή να φτιάχνεις pivot — είναι να ελέγχεις πώς κουνιέται το κομμάτι, πού τρίβεται, πού φεύγει και πώς συμπεριφέρεται στην επαναλαμβανόμενη χρήση. Ο καλός έλεγχος κίνησης κάνει τα πρόχειρα υλικά να φαίνονται πιο ακριβή.",
+    "steps_en": ["Define the intended movement path before fastening moving parts.","Check clearance, rubbing points, and side-load problems early.","Adjust alignment before repeated use creates wear.","Test full swing or movement range under realistic load.","Treat smooth controlled motion as part of structural quality."],
+    "steps_el": ["Όρισε την προορισμένη διαδρομή κίνησης πριν στερεώσεις κινούμενα μέρη.","Έλεγξε νωρίς τα κενά, τα σημεία τριβής και τα προβλήματα πλαϊνού φορτίου.","Ρύθμισε την ευθυγράμμιση πριν η επαναλαμβανόμενη χρήση δημιουργήσει φθορά.","Δοκίμασε όλο το εύρος κίνησης υπό ρεαλιστικό φορτίο.","Αντιμετώπισε την ομαλή ελεγχόμενη κίνηση ως μέρος της δομικής ποιότητας."],
+    "warnings_en": ["A bad pivot damages both the moving part and the frame around it.","Binding gets worse with repeated force.","A moving assembly should be judged under real use, not only when empty."],
+    "warnings_el": ["Ένα κακό pivot χαλά και το κινούμενο κομμάτι και το πλαίσιο γύρω του.","Το μπλοκάρισμα χειροτερεύει με επαναλαμβανόμενη δύναμη.","Μια κινούμενη συναρμολόγηση πρέπει να κρίνεται σε πραγματική χρήση και όχι μόνο όταν είναι άδεια."],
+    "mistakes_en": ["Fastening hinges before checking true swing path.","Ignoring side-load and rubbing points.","Accepting bad movement because the part technically opens."],
+    "mistakes_el": ["Να στερεώνεις μεντεσέδες πριν ελέγξεις την αληθινή διαδρομή κίνησης.","Να αγνοείς πλευρικό φορτίο και σημεία τριβής.","Να δέχεσαι κακή κίνηση επειδή το κομμάτι τεχνικά ανοίγει."],
+    "related_topics": ["Simple Fastening Sequence, Preload, and Joint Stability", "Wedge, Shim, Spacing, and Alignment Basics", "Basic Handle Replacement, Fit, and Wedge Seating"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-03-31",
+    "update_note": "Continuing practical tool-skills expansion."
+  }
+]
