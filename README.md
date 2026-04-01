@@ -60,19 +60,17 @@ It is built for Termux on Android and is meant to remain useful during:
 ```text
 Offline Survival.py
 Offline Survival Database/
-Offline Survival Updates/
+README.md
 ```
 
 ### What each part does
 
 - `Offline Survival.py`
   - main offline menu-driven Termux interface
-  - search, browse, read, export, bookmarks, integrity checks, update-log reading
+  - search, browse, read, export, bookmarks, integrity checks
 - `Offline Survival Database/`
   - topic-based JSON knowledge files
   - combined bilingual English/Greek content
-- `Offline Survival Updates/`
-  - project continuation logs, coverage tracking, duplicate-avoidance notes, and development history
 
 ---
 
@@ -264,7 +262,6 @@ Current major functions include:
 - whole-library TXT extraction
 - database statistics
 - integrity checks for duplicate IDs and missing fields
-- update-log reading
 
 The script is intentionally dependency-light and uses the Python standard library so it stays practical for Termux and budget devices.
 
@@ -294,7 +291,6 @@ The script is intentionally dependency-light and uses the Python standard librar
 - εξαγωγή όλης της βιβλιοθήκης σε TXT
 - στατιστικά βάσης δεδομένων
 - έλεγχοι ακεραιότητας για διπλά IDs και ελλιπή πεδία
-- ανάγνωση αρχείων ενημερώσεων
 
 Το script είναι σκόπιμα ελαφρύ σε dependencies και χρησιμοποιεί τη standard library της Python ώστε να παραμένει πρακτικό για Termux και για οικονομικές συσκευές.
 

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "agriculture::seed_saving_rotation",
+    "topic": "Seed Saving, Crop Rotation, and Soil Recovery",
+    "category": "agriculture_food_production",
+    "subcategory": "seed_and_soil_management",
+    "tags": [
+      "seed",
+      "rotation",
+      "soil",
+      "compost",
+      "agriculture"
+    ],
+    "summary_en": "A garden that feeds people for one season is useful. A garden that protects seed, rotates crops, and rebuilds soil can keep feeding people after repeated hardship.",
+    "summary_el": "Ένας κήπος που ταΐζει ανθρώπους για μία σεζόν είναι χρήσιμος. Ένας κήπος που προστατεύει σπόρο, εναλλάσσει καλλιέργειες και ξαναχτίζει το έδαφος μπορεί να συνεχίσει να ταΐζει ανθρώπους μετά από επαναλαμβανόμενη δυσκολία.",
+    "content_en": "Long-term food resilience depends on continuity, not only harvest. Seed saving protects future planting when money, transport, or stores fail. Crop rotation helps reduce pest pressure, spreads nutrient demand, and lowers the chance that one exhausted patch becomes permanently weak. Soil recovery matters because repeated emergency planting can strip fertility fast. Compost, mulch, resting areas, legumes, and disciplined watering all help preserve output. The core survival mindset is simple: protect next season while feeding this season. A desperate household often eats seed stock, overworks the same soil, and then becomes weaker the next cycle.",
+    "content_el": "Η μακροπρόθεσμη αντοχή τροφής εξαρτάται από τη συνέχεια και όχι μόνο από τη συγκομιδή. Η αποθήκευση σπόρου προστατεύει τη μελλοντική φύτευση όταν αποτυγχάνουν χρήματα, μεταφορές ή καταστήματα. Η εναλλαγή καλλιεργειών βοηθά να μειωθεί η πίεση από παράσιτα, να απλωθεί η ανάγκη θρεπτικών στοιχείων και να πέσει η πιθανότητα ένα εξαντλημένο κομμάτι γης να μείνει μόνιμα αδύναμο. Η αποκατάσταση εδάφους μετρά γιατί η επαναλαμβανόμενη έκτακτη καλλιέργεια μπορεί να αφαιρέσει γρήγορα τη γονιμότητα. Κομπόστ, κάλυψη, περίοδοι ανάπαυσης, όσπρια και πειθαρχημένο πότισμα βοηθούν να διατηρηθεί η παραγωγή. Η βασική νοοτροπία επιβίωσης είναι απλή: προστάτεψε την επόμενη σεζόν ενώ ταΐζεις αυτή τη σεζόν. Ένα απελπισμένο νοικοκυριό συχνά τρώει το απόθεμα σπόρου, εξαντλεί το ίδιο χώμα και μετά γίνεται πιο αδύναμο στον επόμενο κύκλο.",
+    "steps_en": [
+      "Keep a protected seed reserve separate from food stores where possible.",
+      "Rotate crop families instead of reusing the same bed the same way every cycle.",
+      "Return organic matter to the soil with compost, mulch, and careful cleanup.",
+      "Track which varieties survive local pests, heat, and water stress best.",
+      "Protect a portion of healthy plants specifically for seed."
+    ],
+    "steps_el": [
+      "Κράτα προστατευμένη εφεδρεία σπόρου χωριστά από τα αποθέματα τροφής όπου γίνεται.",
+      "Εναλλάσσετε οικογένειες καλλιεργειών αντί να χρησιμοποιείς το ίδιο παρτέρι με τον ίδιο τρόπο κάθε κύκλο.",
+      "Επέστρεφε οργανική ύλη στο έδαφος με κομπόστ, κάλυψη και προσεκτικό καθάρισμα.",
+      "Κατέγραφε ποιες ποικιλίες αντέχουν καλύτερα σε τοπικά παράσιτα, ζέστη και πίεση νερού.",
+      "Προστάτευσε μέρος των υγιών φυτών ειδικά για σπόρο."
+    ],
+    "warnings_en": [
+      "Eating all saved seed can damage more than one future season.",
+      "Soil can look normal while losing fertility steadily.",
+      "Repeated monocropping increases risk under hardship."
+    ],
+    "warnings_el": [
+      "Το να φας όλο τον αποθηκευμένο σπόρο μπορεί να βλάψει περισσότερες από μία μελλοντικές σεζόν.",
+      "Το χώμα μπορεί να φαίνεται φυσιολογικό ενώ χάνει σταθερά γονιμότητα.",
+      "Η επαναλαμβανόμενη μονοκαλλιέργεια αυξάνει τον κίνδυνο σε δύσκολες συνθήκες."
+    ],
+    "mistakes_en": [
+      "Treating seed stock as ordinary food without a replanting plan.",
+      "Planting the same crop family in the same place repeatedly.",
+      "Ignoring mulch and soil cover during heat and dry periods."
+    ],
+    "mistakes_el": [
+      "Να αντιμετωπίζεις το απόθεμα σπόρου ως απλή τροφή χωρίς σχέδιο επαναφύτευσης.",
+      "Να φυτεύεις την ίδια οικογένεια φυτών στο ίδιο σημείο ξανά και ξανά.",
+      "Να αγνοείς κάλυψη και προστασία εδάφους σε ζέστη και ξηρασία."
+    ],
+    "related_topics": [
+      "Household Food Planning and Staple Crops",
+      "Nutrition Under Scarcity",
+      "Knowledge Preservation and Family Archive Design"
+    ],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Added repo expansion topic to deepen agriculture continuity knowledge."
+  }
+]

@@ -1,53 +1,63 @@
 [
   {
-    "id": "community::kitchen_water_rules",
+    "id": "rebuild::community_kitchen",
     "topic": "Community Kitchen and Water Rules for Small Groups",
     "category": "rebuilding_community",
-    "subcategory": "shared_rules_and_sanitation",
-    "tags": ["community", "kitchen", "water", "rules", "sanitation"],
-    "summary_en": "Small groups stay healthier and calmer when shared food and water follow simple visible rules. Clear rules reduce waste, unfairness, and contamination.",
-    "summary_el": "Οι μικρές ομάδες μένουν πιο υγιείς και ήρεμες όταν η κοινή τροφή και το νερό ακολουθούν απλούς ορατούς κανόνες. Οι καθαροί κανόνες μειώνουν σπατάλη, αδικία και μόλυνση.",
-    "content_en": "A shared kitchen becomes dangerous when nobody knows who washed what, which water is clean, who used the last fuel, or whether leftovers are still safe. Small-group continuity improves when there are explicit rules: raw water and safe water stay separate, cooking and washing areas stay distinct, one person logs supplies, one person checks cleanup, and meal timing follows a predictable rhythm. Shared rules are not bureaucracy for its own sake. They preserve trust and prevent disease when households start operating like a small community instead of separate individuals.",
-    "content_el": "Μια κοινή κουζίνα γίνεται επικίνδυνη όταν κανείς δεν ξέρει ποιος έπλυνε τι, ποιο νερό είναι καθαρό, ποιος χρησιμοποίησε το τελευταίο καύσιμο ή αν τα περισσεύματα είναι ακόμη ασφαλή. Η συνέχεια μικρής ομάδας βελτιώνεται όταν υπάρχουν ρητοί κανόνες: ακατέργαστο και ασφαλές νερό μένουν χωριστά, μαγείρεμα και πλύσιμο μένουν διακριτά, ένα άτομο καταγράφει προμήθειες, ένα άτομο ελέγχει καθαριότητα και τα γεύματα ακολουθούν προβλέψιμο ρυθμό. Οι κοινόχρηστοι κανόνες δεν είναι γραφειοκρατία για χάρη της γραφειοκρατίας. Διατηρούν εμπιστοσύνη και προλαμβάνουν ασθένεια όταν τα νοικοκυριά αρχίζουν να λειτουργούν σαν μικρή κοινότητα αντί σαν χωρισμένα άτομα.",
+    "subcategory": "food_and_water_governance",
+    "tags": [
+      "kitchen",
+      "water",
+      "community",
+      "rules",
+      "food"
+    ],
+    "summary_en": "A shared kitchen can save fuel, labor, and food, but only when rules are clear. Without visible rules, kitchens become conflict points around portions, cleanliness, priority, and water use.",
+    "summary_el": "Μια κοινή κουζίνα μπορεί να εξοικονομήσει καύσιμο, εργασία και τροφή, αλλά μόνο όταν οι κανόνες είναι καθαροί. Χωρίς ορατούς κανόνες, οι κουζίνες γίνονται σημεία σύγκρουσης γύρω από μερίδες, καθαριότητα, προτεραιότητα και χρήση νερού.",
+    "content_en": "Small-group survival improves when food work is organized instead of improvised every meal. A community kitchen should define who cooks, who cleans, how portions are decided, how special needs are handled, how water is allocated between cooking and washing, and how leftovers are stored or discarded. Shared kitchens reduce duplication and waste, but only if accountability is visible. Good rules lower resentment because everyone can see what is expected. The goal is not punishment. It is predictable fairness, disease prevention, and conservation of fuel and water during long strain.",
+    "content_el": "Η επιβίωση μικρής ομάδας βελτιώνεται όταν η εργασία τροφής οργανώνεται αντί να αυτοσχεδιάζεται σε κάθε γεύμα. Μια κοινή κουζίνα πρέπει να ορίζει ποιος μαγειρεύει, ποιος καθαρίζει, πώς αποφασίζονται οι μερίδες, πώς χειρίζονται ειδικές ανάγκες, πώς μοιράζεται το νερό ανάμεσα σε μαγείρεμα και πλύσιμο και πώς αποθηκεύονται ή απορρίπτονται τα περισσεύματα. Οι κοινές κουζίνες μειώνουν διπλοδουλειά και σπατάλη, αλλά μόνο αν η ευθύνη είναι ορατή. Οι καλοί κανόνες μειώνουν την πίκρα γιατί όλοι βλέπουν τι αναμένεται. Ο στόχος δεν είναι η τιμωρία. Είναι η προβλέψιμη δικαιοσύνη, η πρόληψη ασθένειας και η διατήρηση καυσίμου και νερού σε μακρά πίεση.",
     "steps_en": [
-      "Mark safe-water and raw-water containers clearly.",
-      "Separate cooking, cleaning, and waste areas.",
-      "Assign meal, cleanup, and supply-check roles visibly.",
-      "Use predictable meal times and leftover rules.",
-      "Log shared stock so rationing feels fair and factual."
+      "Set visible rules for cooking turns, cleaning turns, and food portions.",
+      "Separate clean water for cooking from lower-priority water for washing where possible.",
+      "Track vulnerable people, children, and sick people with real food priority needs.",
+      "Store leftovers safely or discard them decisively.",
+      "Review the kitchen system before resentment or contamination rises."
     ],
     "steps_el": [
-      "Σήμανε καθαρά τα δοχεία ασφαλούς και ακατέργαστου νερού.",
-      "Χώρισε χώρους μαγειρέματος, καθαρισμού και αποβλήτων.",
-      "Δώσε ορατά ρόλους για γεύμα, καθάρισμα και έλεγχο προμηθειών.",
-      "Χρησιμοποίησε προβλέψιμες ώρες γευμάτων και κανόνες για περισσεύματα.",
-      "Κατέγραφε κοινό απόθεμα ώστε η οικονομία να φαίνεται δίκαιη και πραγματική."
+      "Όρισε ορατούς κανόνες για βάρδιες μαγειρέματος, καθαρισμού και μερίδες τροφής.",
+      "Χώρισε όπου γίνεται το καθαρό νερό μαγειρέματος από το νερό χαμηλότερης προτεραιότητας για πλύσιμο.",
+      "Παρακολούθησε ευάλωτους, παιδιά και αρρώστους που έχουν πραγματικές ανάγκες προτεραιότητας στην τροφή.",
+      "Αποθήκευσε τα περισσεύματα με ασφάλεια ή πέταξέ τα αποφασιστικά.",
+      "Έλεγξε το σύστημα κουζίνας πριν ανέβει η πίκρα ή η μόλυνση."
     ],
     "warnings_en": [
-      "Shared kitchens spread disease quickly when container discipline fails.",
-      "Unclear rules create resentment as fast as they create waste.",
-      "A community system must be simple enough to follow when people are tired."
+      "Shared food without clear rules creates fast resentment.",
+      "Dirty kitchen discipline can turn a fuel-saving system into a disease source.",
+      "Unclear portioning often feels like favoritism even when no one intended it."
     ],
     "warnings_el": [
-      "Οι κοινές κουζίνες μεταδίδουν γρήγορα ασθένεια όταν χαλά η πειθαρχία δοχείων.",
-      "Οι ασαφείς κανόνες δημιουργούν πίκρα τόσο γρήγορα όσο και σπατάλη.",
-      "Ένα κοινοτικό σύστημα πρέπει να είναι αρκετά απλό ώστε να ακολουθείται όταν οι άνθρωποι είναι κουρασμένοι."
+      "Η κοινή τροφή χωρίς καθαρούς κανόνες δημιουργεί γρήγορα πίκρα.",
+      "Η βρόμικη πειθαρχία κουζίνας μπορεί να μετατρέψει ένα σύστημα εξοικονόμησης καυσίμου σε πηγή ασθένειας.",
+      "Η ασαφής μοιρασιά συχνά μοιάζει με εύνοια ακόμα κι όταν δεν υπήρχε τέτοια πρόθεση."
     ],
     "mistakes_en": [
-      "Letting everyone improvise their own kitchen rules.",
-      "Mixing safe and unsafe water tools.",
-      "Leaving shared food decisions undocumented."
+      "Letting meal rules change from mood to mood.",
+      "Using cooking water wastefully while drinking reserves shrink.",
+      "Leaving cleanup responsibility vague."
     ],
     "mistakes_el": [
-      "Να αφήνεις τον καθένα να αυτοσχεδιάζει τους δικούς του κανόνες κουζίνας.",
-      "Να ανακατεύεις εργαλεία ασφαλούς και ακατάλληλου νερού.",
-      "Να αφήνεις αποφάσεις κοινής τροφής χωρίς καταγραφή."
+      "Να αφήνεις τους κανόνες γεύματος να αλλάζουν ανάλογα με τη διάθεση.",
+      "Να ξοδεύεις άσκοπα το νερό μαγειρέματος ενώ οι εφεδρείες πόσης μικραίνουν.",
+      "Να αφήνεις ασαφή την ευθύνη καθαρισμού."
     ],
-    "related_topics": ["Camp Sanitation and Waste Control", "Household Organization and Work Rotation", "Water Storage and Rationing"],
+    "related_topics": [
+      "Water Governance and Shared Use Rules",
+      "Camp Sanitation and Waste Control",
+      "Household Organization and Work Rotation"
+    ],
     "difficulty": "low",
-    "urgency": "medium",
+    "urgency": "high",
     "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "Standalone expansion pass."
+    "last_updated": "2026-04-01",
+    "update_note": "Added repo expansion topic to fill existing related-topic gap."
   }
 ]
