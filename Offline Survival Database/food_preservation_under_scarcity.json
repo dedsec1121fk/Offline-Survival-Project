@@ -1,7 +1,7 @@
 [
   {
     "id": "food::preservation_scarcity",
-    "topic": "Food Preservation Under Scarcity",
+    "topic": "Low-Resource Food Preservation and Storage Discipline",
     "category": "agriculture_food_production",
     "subcategory": "preservation_and_storage",
     "tags": [
@@ -58,6 +58,6 @@
     "urgency": "high",
     "priority": "high",
     "last_updated": "2026-04-01",
-    "update_note": "Added as foundational survival food topic."
+    "update_note": "Cleanup pass and expansion."
   }
 ]
