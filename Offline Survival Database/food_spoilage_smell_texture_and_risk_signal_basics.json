@@ -1,0 +1,25 @@
+[
+  {
+    "id": "food::spoilage_smell_texture_risk_signals",
+    "topic": "Food Spoilage, Smell, Texture, and Risk Signal Basics",
+    "category": "food_nutrition_preservation",
+    "subcategory": "food_safety_judgment_skill",
+    "tags": ["food", "spoilage", "smell", "texture", "risk"],
+    "summary_en": "Food safety judgment is more than deciding whether something still looks edible. Smell, texture, storage history, heat exposure, and contamination pathway all matter together.",
+    "summary_el": "Η κρίση ασφάλειας τροφής είναι κάτι περισσότερο από το να αποφασίζεις αν κάτι ακόμη φαίνεται βρώσιμο. Μυρωδιά, υφή, ιστορικό αποθήκευσης, έκθεση σε ζέστη και διαδρομή μόλυνσης όλα μετρούν μαζί.",
+    "content_en": "A group under scarcity may be tempted to lower food judgment standards too far. But spoilage is not only visible rot. Changes in smell, slime, pressure, leakage, swelling, sourness, texture breakdown, storage time, handling cleanliness, and temperature exposure all help determine risk. In survival conditions, this matters because one bad food decision can disable work, drain fluids, spread illness, and ruin other stores through contamination. Practical understanding means looking at food as a history question as well as a surface question: where it has been, how long it has sat, whether it stayed protected, and whether it has changed in ways that suggest breakdown. The useful skill is disciplined doubt. Saving food matters, but not at the cost of turning the food supply itself into a hazard.",
+    "content_el": "Μια ομάδα υπό στέρηση μπορεί να μπει στον πειρασμό να ρίξει υπερβολικά τα κριτήρια κρίσης τροφής. Όμως η αλλοίωση δεν είναι μόνο ορατή σήψη. Αλλαγές σε μυρωδιά, γλίτσα, πίεση, διαρροή, φούσκωμα, ξίνισμα, κατάρρευση υφής, χρόνο αποθήκευσης, καθαριότητα χειρισμού και έκθεση σε θερμοκρασία όλα βοηθούν να καθοριστεί ο κίνδυνος. Σε συνθήκες επιβίωσης αυτό μετρά επειδή μία κακή απόφαση τροφής μπορεί να απενεργοποιήσει εργασία, να στραγγίξει υγρά, να απλώσει ασθένεια και να χαλάσει άλλα αποθέματα μέσω μόλυνσης. Η πρακτική κατανόηση σημαίνει να βλέπεις την τροφή ως ερώτηση ιστορικού όσο και επιφάνειας: πού βρέθηκε, πόσο έκατσε, αν έμεινε προστατευμένη και αν έχει αλλάξει με τρόπους που δείχνουν υποβάθμιση. Η χρήσιμη δεξιότητα είναι η πειθαρχημένη αμφιβολία. Η διάσωση τροφής μετρά, αλλά όχι με τίμημα να μετατραπεί η ίδια η τροφοδοσία σε κίνδυνο.",
+    "steps_en": ["Judge food by multiple signs, not appearance alone.", "Think about storage history and contamination pathway before eating.", "Separate suspect food from safer stores immediately.", "Treat swelling, leakage, slime, strong off-smell, or major texture change seriously.", "Remember that scarcity pressure can distort food judgment."],
+    "steps_el": ["Κρίνε την τροφή από πολλά σημάδια και όχι μόνο από εμφάνιση.", "Σκέψου ιστορικό αποθήκευσης και διαδρομή μόλυνσης πριν φας.", "Χώρισε αμέσως ύποπτη τροφή από ασφαλέστερα αποθέματα.", "Αντιμετώπισε σοβαρά φούσκωμα, διαρροή, γλίτσα, έντονη κακή μυρωδιά ή μεγάλη αλλαγή υφής.", "Θυμήσου ότι η πίεση στέρησης μπορεί να παραμορφώσει την κρίση τροφής."],
+    "warnings_en": ["Some food risk comes from history, not just visible appearance.", "One bad food item can cause broader group weakness.", "Scarcity makes people overtrust borderline food."],
+    "warnings_el": ["Κάποιος κίνδυνος τροφής έρχεται από το ιστορικό και όχι μόνο από ορατή εμφάνιση.", "Ένα κακό τρόφιμο μπορεί να προκαλέσει ευρύτερη αδυναμία ομάδας.", "Η στέρηση κάνει τους ανθρώπους να εμπιστεύονται υπερβολικά οριακή τροφή."],
+    "mistakes_en": ["Judging safety by appearance alone.", "Keeping suspect food mixed with good stores.", "Letting hunger overrule basic spoilage warnings."],
+    "mistakes_el": ["Να κρίνεις την ασφάλεια μόνο από την εμφάνιση.", "Να κρατάς ύποπτη τροφή ανακατεμένη με καλά αποθέματα.", "Να αφήνεις την πείνα να υπερισχύει βασικών προειδοποιήσεων αλλοίωσης."],
+    "related_topics": ["Food Portioning, Recovery Meals, and Sick-Person Feeding", "Digestion, Absorption, Energy Use, and Stool Signal Basics", "Latrine Siting, Drainage, Privacy, and Handwash Flow"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Deep expansion pass for food-safety judgment, spoilage signals, and risk logic."
+  }
+]
