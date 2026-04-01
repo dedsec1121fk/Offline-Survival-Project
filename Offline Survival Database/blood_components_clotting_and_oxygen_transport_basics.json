@@ -1,0 +1,25 @@
+[
+  {
+    "id": "physiology::blood_components_clotting_oxygen_transport",
+    "topic": "Blood Components, Clotting, and Oxygen Transport Basics",
+    "category": "anatomy_biology_physiology",
+    "subcategory": "blood_system_foundation",
+    "tags": ["blood", "clotting", "oxygen", "bleeding", "physiology"],
+    "summary_en": "Blood is not just red fluid. It carries oxygen, heat, nutrients, immune cells, and clotting factors. Losing blood or disrupting clotting harms many systems at once.",
+    "summary_el": "Το αίμα δεν είναι απλώς κόκκινο υγρό. Μεταφέρει οξυγόνο, θερμότητα, θρεπτικά, ανοσοκύτταρα και παράγοντες πήξης. Η απώλεια αίματος ή η διαταραχή της πήξης βλάπτει πολλά συστήματα ταυτόχρονα.",
+    "content_en": "Blood supports survival by transporting oxygen, carrying nutrients, moving heat, removing waste, supporting immune defense, and helping seal injured vessels through clotting. Red cells are central to oxygen transport, plasma supports fluid distribution, white cells support defense, and platelets plus clotting factors help limit bleeding. In survival conditions, understanding blood matters because bleeding is not only fluid loss. It reduces oxygen delivery, strains circulation, weakens the brain and muscles, and undermines healing. Poor clotting or repeated reopening of wounds can extend that damage. Practical understanding means recognizing that blood loss, persistent oozing, pale skin, weakness, mental slowing, and reduced work ability are connected. Blood is both transport system and damage-control system. When it is lost or not clotting well, the whole body pays the price.",
+    "content_el": "Το αίμα στηρίζει την επιβίωση μεταφέροντας οξυγόνο, κουβαλώντας θρεπτικά, μετακινώντας θερμότητα, απομακρύνοντας απόβλητα, στηρίζοντας ανοσολογική άμυνα και βοηθώντας στο κλείσιμο τραυματισμένων αγγείων μέσω πήξης. Τα ερυθρά κύτταρα είναι κεντρικά στη μεταφορά οξυγόνου, το πλάσμα στηρίζει κατανομή υγρών, τα λευκά κύτταρα στηρίζουν άμυνα και τα αιμοπετάλια μαζί με τους παράγοντες πήξης βοηθούν στον περιορισμό αιμορραγίας. Σε συνθήκες επιβίωσης, η κατανόηση του αίματος μετρά γιατί η αιμορραγία δεν είναι μόνο απώλεια υγρού. Μειώνει την παράδοση οξυγόνου, καταπονεί την κυκλοφορία, αποδυναμώνει εγκέφαλο και μύες και υπονομεύει την επούλωση. Η κακή πήξη ή το επαναλαμβανόμενο άνοιγμα τραυμάτων μπορούν να παρατείνουν αυτή τη βλάβη. Η πρακτική κατανόηση σημαίνει να αναγνωρίζεις ότι απώλεια αίματος, επίμονη διαρροή, ωχρό δέρμα, αδυναμία, νοητική επιβράδυνση και πτώση ικανότητας εργασίας είναι συνδεδεμένα. Το αίμα είναι ταυτόχρονα σύστημα μεταφοράς και σύστημα ελέγχου βλάβης. Όταν χάνεται ή δεν πήζει καλά, όλο το σώμα πληρώνει το τίμημα.",
+    "steps_en": ["Think of bleeding as oxygen-delivery loss, not just visible mess.","Protect clots once bleeding control starts to work.","Watch weakness, pallor, alertness, and repeat bleeding together.","Reduce unnecessary disturbance of controlled wounds.","Treat persistent bleeding as a whole-body threat, not a small local problem."],
+    "steps_el": ["Σκέψου την αιμορραγία ως απώλεια παράδοσης οξυγόνου και όχι μόνο ως ορατή ακαταστασία.","Προστάτεψε τους θρόμβους όταν ο έλεγχος αιμορραγίας αρχίζει να δουλεύει.","Παρακολούθησε μαζί αδυναμία, ωχρότητα, εγρήγορση και επαναλαμβανόμενη αιμορραγία.","Μείωσε άσκοπη ενόχληση τραυμάτων που έχουν ήδη ελεγχθεί.","Αντιμετώπισε την επίμονη αιμορραγία ως απειλή για όλο το σώμα και όχι ως μικρό τοπικό πρόβλημα."],
+    "warnings_en": ["Blood loss harms oxygen delivery and circulation together.","A clot that keeps reopening can restart larger decline.","Visible bleeding can underestimate deeper loss."],
+    "warnings_el": ["Η απώλεια αίματος βλάπτει μαζί παράδοση οξυγόνου και κυκλοφορία.","Ένας θρόμβος που ξανανοίγει συνεχώς μπορεί να ξαναρχίσει μεγαλύτερη επιδείνωση.","Η ορατή αιμορραγία μπορεί να υποτιμά βαθύτερη απώλεια."],
+    "mistakes_en": ["Treating blood as only fluid volume.","Disturbing clots repeatedly without need.","Ignoring pallor and weakness after bleeding slows."],
+    "mistakes_el": ["Να αντιμετωπίζεις το αίμα μόνο ως όγκο υγρού.","Να ενοχλείς θρόμβους επανειλημμένα χωρίς λόγο.","Να αγνοείς ωχρότητα και αδυναμία αφού επιβραδυνθεί η αιμορραγία."],
+    "related_topics": ["Circulation, Heart, Blood Vessels, and Perfusion Basics", "Improvised Bandage, Pressure, and Packing Basics", "Shock Recognition and Field Support Basics"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Deep physiology expansion pass for blood function, clotting, and oxygen transport logic."
+  }
+]
