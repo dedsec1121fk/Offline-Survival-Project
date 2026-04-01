@@ -1,0 +1,63 @@
+[
+  {
+    "id": "hygiene::cleaning_supply_conservation",
+    "topic": "Soap, Cleaning Agents, and Hygiene Supply Conservation",
+    "category": "water_and_sanitation",
+    "subcategory": "cleaning_supply_management",
+    "tags": [
+      "soap",
+      "cleaning",
+      "hygiene",
+      "conservation",
+      "supplies"
+    ],
+    "summary_en": "Cleaning supplies fail as systems long before they hit absolute zero. Careful use, role separation, and supply protection help hygiene survive scarcity.",
+    "summary_el": "Τα είδη καθαρισμού αποτυγχάνουν ως συστήματα πολύ πριν μηδενιστούν απόλυτα. Η προσεκτική χρήση, ο διαχωρισμός ρόλων και η προστασία προμηθειών βοηθούν την υγιεινή να επιβιώσει στην έλλειψη.",
+    "content_en": "Soap and cleaning agents disappear faster when every task uses the same materials at the same intensity. A stronger hygiene system separates body cleaning, hand cleaning, laundry, dish cleaning, surface cleaning, and dirty-work cleaning whenever possible. It also protects stock from waste, contamination, and panic overuse. The central lesson is conservation by structure, not by simply telling people to 'use less.' Good conservation keeps the highest-value hygiene tasks strongest even when overall supplies are weak.",
+    "content_el": "Το σαπούνι και τα καθαριστικά εξαφανίζονται γρηγορότερα όταν κάθε δουλειά χρησιμοποιεί τα ίδια υλικά με την ίδια ένταση. Ένα δυνατότερο σύστημα υγιεινής χωρίζει όπου γίνεται καθάρισμα σώματος, χεριών, ρούχων, πιάτων, επιφανειών και βρόμικης εργασίας. Προστατεύει επίσης το απόθεμα από σπατάλη, μόλυνση και πανικόβλητη υπερκατανάλωση. Το κεντρικό μάθημα είναι η οικονομία μέσω δομής και όχι απλώς το να λες στους ανθρώπους «χρησιμοποίησε λιγότερο». Η καλή οικονομία κρατά τις πιο υψηλής αξίας δουλειές υγιεινής πιο δυνατές ακόμη κι όταν οι συνολικές προμήθειες είναι αδύναμες.",
+    "steps_en": [
+      "Separate cleaning roles instead of using one supply stream for everything.",
+      "Protect hand-cleaning and body hygiene from lower-priority drain.",
+      "Dilute or portion only in ways that remain useful and safe.",
+      "Track fast-moving supplies before they vanish unexpectedly.",
+      "Store cleaning agents clearly and prevent dirty cross-use."
+    ],
+    "steps_el": [
+      "Χώρισε ρόλους καθαρισμού αντί να χρησιμοποιείς μία ροή προμηθειών για τα πάντα.",
+      "Προστάτευσε τον καθαρισμό χεριών και σώματος από χαμηλότερης προτεραιότητας κατανάλωση.",
+      "Αραίωσε ή μοίρασε μόνο με τρόπους που μένουν χρήσιμοι και ασφαλείς.",
+      "Παρακολούθησε τις γρήγορα κινούμενες προμήθειες πριν εξαφανιστούν απρόσμενα.",
+      "Αποθήκευσε καθαριστικά καθαρά και εμπόδισε τη βρόμικη διασταυρούμενη χρήση."
+    ],
+    "warnings_en": [
+      "Low cleaning stock fails first in high-contact tasks.",
+      "Confused containers can create unsafe misuse.",
+      "Waste habits are hard to reverse once normalized."
+    ],
+    "warnings_el": [
+      "Το χαμηλό απόθεμα καθαρισμού αποτυγχάνει πρώτο σε εργασίες υψηλής επαφής.",
+      "Τα μπερδεμένα δοχεία μπορούν να δημιουργήσουν ακατάλληλη χρήση.",
+      "Οι συνήθειες σπατάλης είναι δύσκολο να αναστραφούν μόλις κανονικοποιηθούν."
+    ],
+    "mistakes_en": [
+      "Using the same soap level for every task.",
+      "Letting dirty work consume hand-cleaning supplies.",
+      "Failing to track what is disappearing fastest."
+    ],
+    "mistakes_el": [
+      "Να χρησιμοποιείς το ίδιο επίπεδο σαπουνιού για κάθε δουλειά.",
+      "Να αφήνεις τη βρόμικη εργασία να καταναλώνει προμήθειες καθαρισμού χεριών.",
+      "Να μην παρακολουθείς τι εξαφανίζεται γρηγορότερα."
+    ],
+    "related_topics": [
+      "Guidelines for Personal Hygiene During an Emergency",
+      "Camp Sanitation and Waste Control",
+      "Store Inventory, Burn Rate, and Resupply Forecasting"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Further hygiene systems expansion."
+  }
+]

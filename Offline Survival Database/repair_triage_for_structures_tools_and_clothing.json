@@ -1,0 +1,63 @@
+[
+  {
+    "id": "repair::triage_priority",
+    "topic": "Repair Triage for Structures, Tools, and Clothing",
+    "category": "tools_and_repair",
+    "subcategory": "repair_prioritization",
+    "tags": [
+      "repair",
+      "triage",
+      "priorities",
+      "structures",
+      "tools"
+    ],
+    "summary_en": "Not everything should be fixed first. Repair triage protects time and materials by ranking what preserves safety, function, and future work capacity.",
+    "summary_el": "Δεν πρέπει να επισκευάζονται όλα πρώτα. Η αξιολόγηση επισκευής προστατεύει χρόνο και υλικά ιεραρχώντας ό,τι διατηρεί ασφάλεια, λειτουργία και μελλοντική ικανότητα εργασίας.",
+    "content_en": "In hardship, the repair queue grows faster than the repair capacity. That means priorities matter. A torn pocket, a leaking roof corner, a loose tool handle, and a failing water container are not equal problems. Good repair triage asks what threatens safety, what will fail into a bigger problem soon, what saves the most labor if restored, and what can wait without multiplying damage. This helps groups avoid emotional repair choices driven by irritation instead of function. The lesson is that smart delay is different from neglect, and smart urgency is different from panic.",
+    "content_el": "Στη δυσκολία, η ουρά επισκευών μεγαλώνει γρηγορότερα από την ικανότητα επισκευής. Άρα οι προτεραιότητες μετρούν. Μια σκισμένη τσέπη, μια γωνία στέγης που στάζει, μια χαλαρή λαβή εργαλείου και ένα δοχείο νερού που αποτυγχάνει δεν είναι ίσα προβλήματα. Η καλή αξιολόγηση επισκευής ρωτά τι απειλεί ασφάλεια, τι θα αποτύχει σύντομα σε μεγαλύτερο πρόβλημα, τι σώζει την περισσότερη εργασία αν αποκατασταθεί και τι μπορεί να περιμένει χωρίς να πολλαπλασιάζει ζημιά. Αυτό βοηθά τις ομάδες να αποφεύγουν συναισθηματικές επιλογές επισκευής που οδηγούνται από ενόχληση και όχι από λειτουργία. Το μάθημα είναι ότι η έξυπνη καθυστέρηση διαφέρει από την αμέλεια και η έξυπνη επείγουσα δράση διαφέρει από τον πανικό.",
+    "steps_en": [
+      "Rank repairs by safety, function, and damage growth risk.",
+      "Fix failures that multiply into larger losses first.",
+      "Separate urgent, soon, and later repair lists.",
+      "Use quick stabilizing fixes when full repair must wait.",
+      "Review priorities after weather, workload, or new damage changes."
+    ],
+    "steps_el": [
+      "Ιεράρχησε τις επισκευές με βάση ασφάλεια, λειτουργία και κίνδυνο αύξησης ζημιάς.",
+      "Διόρθωσε πρώτα αστοχίες που πολλαπλασιάζονται σε μεγαλύτερες απώλειες.",
+      "Χώρισε λίστες επισκευών σε επείγον, σύντομα και αργότερα.",
+      "Χρησιμοποίησε γρήγορες σταθεροποιητικές λύσεις όταν η πλήρης επισκευή πρέπει να περιμένει.",
+      "Ξαναέλεγξε προτεραιότητες όταν αλλάζει ο καιρός, ο φόρτος ή η νέα ζημιά."
+    ],
+    "warnings_en": [
+      "Small failures often become bigger failures quietly.",
+      "Busy groups waste effort on visible annoyances instead of critical risks.",
+      "Deferred repair still needs tracking, not forgetting."
+    ],
+    "warnings_el": [
+      "Οι μικρές αστοχίες συχνά γίνονται μεγαλύτερες ήσυχα.",
+      "Οι απασχολημένες ομάδες σπαταλούν προσπάθεια σε ορατές ενοχλήσεις αντί για κρίσιμους κινδύνους.",
+      "Η αναβλημένη επισκευή χρειάζεται πάλι παρακολούθηση και όχι λήθη."
+    ],
+    "mistakes_en": [
+      "Fixing what is annoying before what is dangerous.",
+      "Letting temporary fixes become permanent by accident.",
+      "Failing to separate cosmetic issues from system failures."
+    ],
+    "mistakes_el": [
+      "Να διορθώνεις ό,τι ενοχλεί πριν από ό,τι είναι επικίνδυνο.",
+      "Να αφήνεις προσωρινές λύσεις να γίνονται μόνιμες κατά λάθος.",
+      "Να μην ξεχωρίζεις αισθητικά θέματα από αστοχίες συστήματος."
+    ],
+    "related_topics": [
+      "Tool Maintenance and Edge Retention",
+      "Storm Hardening, Windows, Roofs, and Drainage",
+      "Sewing, Patchwork, and Textile Salvage"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Further resilience systems expansion."
+  }
+]

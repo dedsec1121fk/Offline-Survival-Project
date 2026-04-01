@@ -1,0 +1,63 @@
+[
+  {
+    "id": "logistics::burn_rate",
+    "topic": "Store Inventory, Burn Rate, and Resupply Forecasting",
+    "category": "knowledge_and_records",
+    "subcategory": "inventory_management",
+    "tags": [
+      "inventory",
+      "burn_rate",
+      "forecasting",
+      "supplies",
+      "records"
+    ],
+    "summary_en": "A stockpile feels bigger than it is until usage is measured. Burn-rate tracking turns hope into planning and helps prevent sudden shortages.",
+    "summary_el": "Ένα απόθεμα φαίνεται μεγαλύτερο απ’ όσο είναι μέχρι να μετρηθεί η χρήση. Η παρακολούθηση ρυθμού κατανάλωσης μετατρέπει την ελπίδα σε σχεδιασμό και βοηθά να προληφθούν ξαφνικές ελλείψεις.",
+    "content_en": "People often count what they have once and then act as if that count will stay true. Real survival planning depends not only on stock but on rate of use, expected demand, spoilage, and uncertainty. Burn-rate thinking means asking how fast food, water, fuel, medicine, batteries, hygiene items, and repair materials are actually leaving the system. Once that becomes visible, resupply priorities get clearer and rationing becomes more honest. The lesson is that inventory is not a pile but a moving timeline. A group that tracks usage early keeps more choices later.",
+    "content_el": "Οι άνθρωποι συχνά μετρούν μία φορά τι έχουν και μετά ενεργούν σαν αυτή η μέτρηση να μένει αληθινή. Ο πραγματικός σχεδιασμός επιβίωσης εξαρτάται όχι μόνο από το απόθεμα αλλά από τον ρυθμό χρήσης, την αναμενόμενη ζήτηση, το χάλασμα και την αβεβαιότητα. Η λογική burn-rate σημαίνει να ρωτάς πόσο γρήγορα φεύγουν πραγματικά από το σύστημα τροφή, νερό, καύσιμο, φάρμακα, μπαταρίες, είδη υγιεινής και υλικά επισκευής. Όταν αυτό γίνει ορατό, οι προτεραιότητες αναπλήρωσης γίνονται καθαρότερες και η δελτίωση πιο ειλικρινής. Το μάθημα είναι ότι το απόθεμα δεν είναι σωρός αλλά κινούμενο χρονοδιάγραμμα. Μια ομάδα που παρακολουθεί νωρίς τη χρήση κρατά περισσότερες επιλογές αργότερα.",
+    "steps_en": [
+      "Count key stores on a repeatable schedule.",
+      "Track usage by category, not only total pile size.",
+      "Note spoilage and loss as part of real consumption.",
+      "Forecast based on current use plus known upcoming needs.",
+      "Adjust rationing or resupply before crisis reaches the shelf."
+    ],
+    "steps_el": [
+      "Μέτρα τα βασικά αποθέματα σε επαναλαμβανόμενο πρόγραμμα.",
+      "Παρακολούθησε τη χρήση ανά κατηγορία και όχι μόνο το συνολικό μέγεθος σωρού.",
+      "Σημείωσε χάλασμα και απώλειες ως μέρος της πραγματικής κατανάλωσης.",
+      "Κάνε πρόβλεψη με βάση την τωρινή χρήση και τις γνωστές επερχόμενες ανάγκες.",
+      "Προσάρμοσε δελτίωση ή αναπλήρωση πριν η κρίση φτάσει στο ράφι."
+    ],
+    "warnings_en": [
+      "Stable-looking stock can be shrinking dangerously.",
+      "Spoilage and waste distort false optimism.",
+      "Unmeasured use turns surprise into certainty."
+    ],
+    "warnings_el": [
+      "Το σταθερό φαινομενικά απόθεμα μπορεί να μικραίνει επικίνδυνα.",
+      "Το χάλασμα και η σπατάλη παραμορφώνουν την ψεύτικη αισιοδοξία.",
+      "Η αμέτρητη χρήση μετατρέπει την έκπληξη σε βεβαιότητα."
+    ],
+    "mistakes_en": [
+      "Counting once and never forecasting.",
+      "Tracking only food while ignoring fuel and hygiene items.",
+      "Assuming tomorrow's demand will match today's conditions."
+    ],
+    "mistakes_el": [
+      "Να μετράς μία φορά και να μη προβλέπεις ποτέ.",
+      "Να παρακολουθείς μόνο τροφή ενώ αγνοείς καύσιμο και είδη υγιεινής.",
+      "Να υποθέτεις ότι η αυριανή ζήτηση θα ταιριάζει με τις σημερινές συνθήκες."
+    ],
+    "related_topics": [
+      "Famine Rationing and Meal Scheduling",
+      "Household Power Rationing and Charging Priority",
+      "Field Notebook and Records Under Stress"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Further resilience systems expansion."
+  }
+]
