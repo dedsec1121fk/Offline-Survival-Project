@@ -1,0 +1,63 @@
+[
+  {
+    "id": "food::gathered_plant_processing",
+    "topic": "General Processing Rules for Gathered Plant Foods",
+    "category": "agriculture_food_production",
+    "subcategory": "gathered_food_handling",
+    "tags": [
+      "plants",
+      "food",
+      "processing",
+      "boiling",
+      "drying"
+    ],
+    "summary_en": "Gathered plant foods become safer and more useful when processed carefully, but uncertainty must always be respected. Good processing discipline does not replace proper identification.",
+    "summary_el": "Οι τροφές φυτών που συλλέγονται γίνονται ασφαλέστερες και πιο χρήσιμες όταν επεξεργάζονται προσεκτικά, αλλά η αβεβαιότητα πρέπει πάντα να γίνεται σεβαστή. Η καλή πειθαρχία επεξεργασίας δεν αντικαθιστά ποτέ τη σωστή αναγνώριση.",
+    "content_en": "In scarcity, people often look to wild or gathered plant material for food. The first survival rule is humility: uncertainty is danger. Processing can help with texture, storage, bitterness, dirt, and some forms of unwanted plant burden, but processing is not magical safety. Washing, trimming, peeling, soaking, boiling, drying, and test-scale introduction all have roles depending on the known food type. The strongest general lesson is procedural caution. Do not move from 'found' to 'eaten in quantity' without careful handling and confident knowledge. A guide can teach safer discipline, but not turn unknown plants into automatic food by optimism.",
+    "content_el": "Στην έλλειψη, οι άνθρωποι συχνά στρέφονται σε άγριο ή συλλεγμένο φυτικό υλικό για τροφή. Ο πρώτος κανόνας επιβίωσης είναι η ταπεινότητα: η αβεβαιότητα είναι κίνδυνος. Η επεξεργασία μπορεί να βοηθήσει σε υφή, αποθήκευση, πικράδα, βρωμιά και ορισμένες μορφές ανεπιθύμητου φορτίου φυτού, αλλά η επεξεργασία δεν είναι μαγική ασφάλεια. Πλύσιμο, καθάρισμα, ξεφλούδισμα, μούλιασμα, βράσιμο, ξήρανση και εισαγωγή σε πολύ μικρή κλίμακα όλα έχουν ρόλο ανάλογα με το γνωστό είδος τροφής. Το ισχυρότερο γενικό μάθημα είναι η διαδικαστική προσοχή. Μην περνάς από το «βρέθηκε» στο «τρώγεται σε ποσότητα» χωρίς προσεκτικό χειρισμό και σίγουρη γνώση. Ένας οδηγός μπορεί να διδάξει ασφαλέστερη πειθαρχία, αλλά όχι να μετατρέψει άγνωστα φυτά σε αυτόματη τροφή με αισιοδοξία.",
+    "steps_en": [
+      "Respect uncertainty and avoid quantity jumps.",
+      "Clean and sort gathered plant material carefully.",
+      "Use appropriate washing, trimming, drying, or boiling methods only for known foods.",
+      "Introduce unfamiliar but identified foods cautiously and in small amounts.",
+      "Keep notes on tolerated and useful local gathered foods."
+    ],
+    "steps_el": [
+      "Σεβάσου την αβεβαιότητα και απόφυγε άλματα σε ποσότητα.",
+      "Καθάριζε και ταξινομούσε προσεκτικά το συλλεγμένο φυτικό υλικό.",
+      "Χρησιμοποίησε κατάλληλο πλύσιμο, καθάρισμα, ξήρανση ή βράσιμο μόνο για γνωστές τροφές.",
+      "Εισήγαγε άγνωστες αλλά αναγνωρισμένες τροφές προσεκτικά και σε μικρές ποσότητες.",
+      "Κράτα σημειώσεις για ανεκτές και χρήσιμες τοπικές συλλεγμένες τροφές."
+    ],
+    "warnings_en": [
+      "Unknown plants are not safe because they are abundant.",
+      "Processing does not guarantee safety for unidentified material.",
+      "Overconfidence causes poisoning faster than hunger logic admits."
+    ],
+    "warnings_el": [
+      "Τα άγνωστα φυτά δεν είναι ασφαλή επειδή είναι άφθονα.",
+      "Η επεξεργασία δεν εγγυάται ασφάλεια για μη αναγνωρισμένο υλικό.",
+      "Η υπερβολική αυτοπεποίθηση προκαλεί δηλητηρίαση γρηγορότερα απ’ όσο παραδέχεται η λογική της πείνας."
+    ],
+    "mistakes_en": [
+      "Assuming boiling makes any plant safe.",
+      "Eating large amounts on first trial.",
+      "Treating online guesswork as solid identification."
+    ],
+    "mistakes_el": [
+      "Να θεωρείς ότι το βράσιμο κάνει κάθε φυτό ασφαλές.",
+      "Να τρως μεγάλες ποσότητες στην πρώτη δοκιμή.",
+      "Να αντιμετωπίζεις online μαντεψιές ως σίγουρη αναγνώριση."
+    ],
+    "related_topics": [
+      "Recipes From Almost Nothing",
+      "Food Preservation Under Scarcity",
+      "Field Notebook and Records Under Stress"
+    ],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Continued deep expansion pass."
+  }
+]
