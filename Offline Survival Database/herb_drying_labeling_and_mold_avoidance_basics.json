@@ -1,0 +1,25 @@
+[
+  {
+    "id": "plants::herb_drying_labeling_mold_avoidance",
+    "topic": "Herb Drying, Labeling, and Mold Avoidance Basics",
+    "category": "medicine_pharmacology_plants",
+    "subcategory": "plant_storage_skill",
+    "tags": ["herbs", "drying", "labeling", "mold", "storage"],
+    "summary_en": "Collected herbs lose value fast if they are dried badly, mixed together, or stored without labels. Preservation discipline matters as much as collection skill.",
+    "summary_el": "Τα συλλεγμένα βότανα χάνουν γρήγορα αξία αν στεγνώσουν άσχημα, ανακατευτούν μεταξύ τους ή αποθηκευτούν χωρίς ετικέτες. Η πειθαρχία συντήρησης μετρά όσο και η δεξιότητα συλλογής.",
+    "content_en": "A useful herb can become a useless or risky one through poor storage. Damp plant matter supports spoilage, mixed bundles destroy identification confidence, and unlabeled jars turn future use into guessing. Practical herb preservation means drying enough before storage, keeping batches separate, labeling clearly, and checking later for signs of moisture, mold, or breakdown. The useful skill is maintaining trust in what was gathered. If the identity or condition becomes uncertain, the stored herb loses much of its practical survival value.",
+    "content_el": "Ένα χρήσιμο βότανο μπορεί να γίνει άχρηστο ή επικίνδυνο μέσω κακής αποθήκευσης. Η υγρή φυτική ύλη υποστηρίζει αλλοίωση, τα ανακατεμένα δεμάτια καταστρέφουν την εμπιστοσύνη στην αναγνώριση και τα βάζα χωρίς ετικέτες μετατρέπουν τη μελλοντική χρήση σε μαντεψιά. Η πρακτική συντήρηση βοτάνων σημαίνει αρκετό στέγνωμα πριν από την αποθήκευση, χωριστές παρτίδες, καθαρές ετικέτες και μεταγενέστερο έλεγχο για σημάδια υγρασίας, μούχλας ή υποβάθμισης. Η χρήσιμη δεξιότητα είναι η διατήρηση εμπιστοσύνης σε αυτό που συλλέχθηκε. Αν η ταυτότητα ή η κατάστασή του γίνει αβέβαιη, το αποθηκευμένο βότανο χάνει μεγάλο μέρος της πρακτικής αξίας του για επιβίωση.",
+    "steps_en": ["Dry herbs enough before sealing or long storage.","Keep different plants and batches clearly separated.","Label stored herbs immediately and clearly.","Recheck later for moisture, mold, odor change, or breakdown.","Discard uncertain or spoiled plant storage rather than guessing."],
+    "steps_el": ["Στέγνωσε τα βότανα αρκετά πριν από σφράγισμα ή μακρά αποθήκευση.","Κράτα διαφορετικά φυτά και παρτίδες καθαρά χωριστά.","Βάλε ετικέτες στα αποθηκευμένα βότανα αμέσως και καθαρά.","Ξαναέλεγξέ τα αργότερα για υγρασία, μούχλα, αλλαγή οσμής ή υποβάθμιση.","Πέτα την αβέβαιη ή αλλοιωμένη αποθήκευση φυτών αντί να μαντεύεις."],
+    "warnings_en": ["Damp storage quietly destroys preserved herbs.","Unlabeled jars become future mistakes.","Mixed batches weaken identification confidence."],
+    "warnings_el": ["Η υγρή αποθήκευση καταστρέφει αθόρυβα τα συντηρημένα βότανα.","Τα βάζα χωρίς ετικέτες γίνονται μελλοντικά λάθη.","Οι ανακατεμένες παρτίδες αποδυναμώνουν την εμπιστοσύνη στην αναγνώριση."],
+    "mistakes_en": ["Sealing herbs before they are dry enough.","Mixing different herbs in one container.","Relying on memory instead of labels."],
+    "mistakes_el": ["Να σφραγίζεις βότανα πριν στεγνώσουν αρκετά.","Να ανακατεύεις διαφορετικά βότανα σε ένα δοχείο.","Να βασίζεσαι στη μνήμη αντί για ετικέτες."],
+    "related_topics": ["Herbal Infusions, Poultices, and Basic Preparation Safety", "Edible Plant Collection, Caution, and Cross-Check Basics", "Seed Saving, Drying, and Low-Moisture Storage Basics"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Added for deeper plant preservation, storage trust, and mold-avoidance coverage."
+  }
+]
