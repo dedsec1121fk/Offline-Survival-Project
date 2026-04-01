@@ -11,7 +11,7 @@
 
 ---
 
-<details open>
+<details>
 <summary><strong>🇬🇧 English</strong></summary>
 
 Offline Survival is a serious offline knowledge and workflow system designed for use when internet access is absent, weak, censored, unreliable, or too dangerous to depend on.
@@ -32,7 +32,7 @@ It is built for Termux on Android and is meant to remain useful during:
 
 </details>
 
-<details open>
+<details>
 <summary><strong>🇬🇷 Ελληνικά</strong></summary>
 
 Το Offline Survival είναι ένα σοβαρό offline σύστημα γνώσης και ροών εργασίας σχεδιασμένο για χρήση όταν η πρόσβαση στο internet απουσιάζει, είναι αδύναμη, λογοκριμένη, αναξιόπιστη ή πολύ επικίνδυνη για να βασιστείς σε αυτήν.
@@ -76,10 +76,12 @@ Offline Survival Updates/
 
 ---
 
-## Get the Repository by Download ZIP
+## Termux Download, Install, Run, and Update
 
 <details>
 <summary><strong>🇬🇧 English</strong></summary>
+
+### Option 1: Download ZIP from GitHub
 
 Open this repository on GitHub, tap **Code**, and choose **Download ZIP**. The ZIP usually downloads into your phone's internal storage **Downloads** folder as:
 
@@ -87,51 +89,29 @@ Open this repository on GitHub, tap **Code**, and choose **Download ZIP**. The Z
 Offline-Survival-Project-main.zip
 ```
 
-After the ZIP finishes downloading, open **Termux** and run:
+Extract it into your Termux home with:
 
 ```bash
 rm -rf ~/Offline-Survival-Project-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-Project-main.zip" -d ~
 ```
 
-The repository will then be extracted into your Termux home directory as:
+Then run the script with:
 
 ```bash
-~/Offline-Survival-Project-main
+cd ~/Offline-Survival-Project-main
+python "Offline Survival.py"
 ```
 
-</details>
-
-<details>
-<summary><strong>🇬🇷 Ελληνικά</strong></summary>
-
-Άνοιξε αυτό το repository στο GitHub, πάτησε **Code** και μετά **Download ZIP**. Το ZIP συνήθως κατεβαίνει στον φάκελο **Downloads** της εσωτερικής αποθήκευσης με όνομα:
+If your device uses `python3`, run:
 
 ```bash
-Offline-Survival-Project-main.zip
+cd ~/Offline-Survival-Project-main
+python3 "Offline Survival.py"
 ```
 
-Αφού ολοκληρωθεί το κατέβασμα, άνοιξε το **Termux** και τρέξε:
+### Option 2: Clone directly with Git
 
-```bash
-rm -rf ~/Offline-Survival-Project-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-Project-main.zip" -d ~
-```
-
-Το repository θα γίνει extract στο home directory του Termux ως:
-
-```bash
-~/Offline-Survival-Project-main
-```
-
-</details>
-
----
-
-## Install and Run with Git Clone in Termux
-
-<details>
-<summary><strong>🇬🇧 English</strong></summary>
-
-If you want the repository as a real Git directory inside your Termux home and want to run it immediately after install, use:
+If you want the repository as a real Git directory inside your Termux home, use:
 
 ```bash
 pkg install git -y
@@ -141,7 +121,7 @@ cd ~/Offline-Survival-Project
 python "Offline Survival.py"
 ```
 
-If your system uses `python3`, use:
+If your device uses `python3`, use:
 
 ```bash
 pkg install git -y
@@ -151,51 +131,7 @@ cd ~/Offline-Survival-Project
 python3 "Offline Survival.py"
 ```
 
-If Termux does not yet have storage permission, run:
-
-```bash
-termux-setup-storage
-```
-
-</details>
-
-<details>
-<summary><strong>🇬🇷 Ελληνικά</strong></summary>
-
-Αν θέλεις το repository ως κανονικό Git directory μέσα στο home του Termux και θέλεις να το τρέξεις αμέσως μετά την εγκατάσταση, χρησιμοποίησε:
-
-```bash
-pkg install git -y
-cd ~
-git clone https://github.com/dedsec1121fk/Offline-Survival-Project.git
-cd ~/Offline-Survival-Project
-python "Offline Survival.py"
-```
-
-Αν το σύστημά σου χρησιμοποιεί `python3`, χρησιμοποίησε:
-
-```bash
-pkg install git -y
-cd ~
-git clone https://github.com/dedsec1121fk/Offline-Survival-Project.git
-cd ~/Offline-Survival-Project
-python3 "Offline Survival.py"
-```
-
-Αν το Termux δεν έχει ακόμη άδεια αποθηκευτικού χώρου, τρέξε:
-
-```bash
-termux-setup-storage
-```
-
-</details>
-
----
-
-## Update the Repository After You Already Git Cloned It
-
-<details>
-<summary><strong>🇬🇧 English</strong></summary>
+### Update after you already cloned it
 
 If you already cloned the repository with Git and want the newest files later, use:
 
@@ -213,12 +149,68 @@ git pull
 git stash pop
 ```
 
-This helps update the repository without redownloading the whole ZIP again.
+If Termux does not yet have storage permission, run:
+
+```bash
+termux-setup-storage
+```
 
 </details>
 
 <details>
 <summary><strong>🇬🇷 Ελληνικά</strong></summary>
+
+### Επιλογή 1: Download ZIP από GitHub
+
+Άνοιξε αυτό το repository στο GitHub, πάτησε **Code** και μετά **Download ZIP**. Το ZIP συνήθως κατεβαίνει στον φάκελο **Downloads** της εσωτερικής αποθήκευσης με όνομα:
+
+```bash
+Offline-Survival-Project-main.zip
+```
+
+Κάνε extract στο home του Termux με:
+
+```bash
+rm -rf ~/Offline-Survival-Project-main && unzip -o "/storage/emulated/0/Download/Offline-Survival-Project-main.zip" -d ~
+```
+
+Μετά τρέξε το script με:
+
+```bash
+cd ~/Offline-Survival-Project-main
+python "Offline Survival.py"
+```
+
+Αν η συσκευή σου χρησιμοποιεί `python3`, τρέξε:
+
+```bash
+cd ~/Offline-Survival-Project-main
+python3 "Offline Survival.py"
+```
+
+### Επιλογή 2: Άμεσο clone με Git
+
+Αν θέλεις το repository ως κανονικό Git directory μέσα στο home του Termux, χρησιμοποίησε:
+
+```bash
+pkg install git -y
+cd ~
+git clone https://github.com/dedsec1121fk/Offline-Survival-Project.git
+cd ~/Offline-Survival-Project
+python "Offline Survival.py"
+```
+
+Αν η συσκευή σου χρησιμοποιεί `python3`, χρησιμοποίησε:
+
+```bash
+pkg install git -y
+cd ~
+git clone https://github.com/dedsec1121fk/Offline-Survival-Project.git
+cd ~/Offline-Survival-Project
+python3 "Offline Survival.py"
+```
+
+### Ενημέρωση αφού έχεις ήδη κάνει clone
 
 Αν έχεις ήδη κάνει clone το repository με Git και θέλεις αργότερα τα νεότερα αρχεία, χρησιμοποίησε:
 
@@ -236,7 +228,11 @@ git pull
 git stash pop
 ```
 
-Αυτό βοηθά να ενημερώσεις το repository χωρίς να ξανακατεβάζεις ολόκληρο το ZIP.
+Αν το Termux δεν έχει ακόμη άδεια αποθηκευτικού χώρου, τρέξε:
+
+```bash
+termux-setup-storage
+```
 
 </details>
 
