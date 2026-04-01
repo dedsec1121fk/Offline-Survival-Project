@@ -1,0 +1,25 @@
+[
+  {
+    "id": "physiology::digestion_absorption_energy_stool",
+    "topic": "Digestion, Absorption, Energy Use, and Stool Signal Basics",
+    "category": "anatomy_biology_physiology",
+    "subcategory": "digestive_system_foundation",
+    "tags": ["digestion", "absorption", "energy", "stool", "physiology"],
+    "summary_en": "The digestive system turns food into usable energy and repair material. When digestion or absorption fails, a person may keep eating and still weaken.",
+    "summary_el": "Το πεπτικό σύστημα μετατρέπει την τροφή σε χρήσιμη ενέργεια και υλικό επιδιόρθωσης. Όταν η πέψη ή η απορρόφηση αποτυγχάνει, ένας άνθρωπος μπορεί να συνεχίζει να τρώει και παρ’ όλα αυτά να αποδυναμώνεται.",
+    "content_en": "Food is only useful if the body can break it down, absorb what matters, and tolerate intake without losing more through vomiting or diarrhea than it gains. The digestive system processes food, helps capture water and nutrients, and affects stool pattern, hydration, energy availability, and general strength. In survival conditions this matters because stress, infection, dirty food, poor water, hunger, overeating after deprivation, and hard-to-digest meals can all turn food into a burden instead of support. Practical understanding means noticing how appetite, nausea, bloating, pain, vomiting, stool change, and weakness fit together. A person may not only need more food. They may need food the body can actually handle. Digestion is therefore not separate from survival performance. It directly affects work capacity, morale, recovery, and fluid balance.",
+    "content_el": "Η τροφή είναι χρήσιμη μόνο αν το σώμα μπορεί να τη διασπάσει, να απορροφήσει ό,τι μετρά και να ανεχτεί την πρόσληψη χωρίς να χάνει περισσότερα μέσω εμετού ή διάρροιας απ’ όσα κερδίζει. Το πεπτικό σύστημα επεξεργάζεται την τροφή, βοηθά στη δέσμευση νερού και θρεπτικών και επηρεάζει μοτίβο κοπράνων, ενυδάτωση, διαθέσιμη ενέργεια και γενική δύναμη. Σε συνθήκες επιβίωσης αυτό μετρά επειδή στρες, λοίμωξη, βρόμικη τροφή, κακό νερό, πείνα, υπερφαγία μετά από στέρηση και δύσπεπτα γεύματα μπορούν όλα να μετατρέψουν την τροφή σε βάρος αντί για στήριξη. Η πρακτική κατανόηση σημαίνει να παρατηρείς πώς όρεξη, ναυτία, φούσκωμα, πόνος, εμετός, αλλαγή κοπράνων και αδυναμία δένουν μαζί. Ένας άνθρωπος μπορεί να μη χρειάζεται μόνο περισσότερο φαγητό. Μπορεί να χρειάζεται φαγητό που το σώμα μπορεί πραγματικά να διαχειριστεί. Η πέψη λοιπόν δεν είναι ξεχωριστή από την απόδοση επιβίωσης. Επηρεάζει άμεσα ικανότητα εργασίας, ηθικό, αποκατάσταση και ισορροπία υγρών.",
+    "steps_en": ["Watch how the body handles food, not only how much food exists.", "Adjust meal size, texture, and timing when digestion is weak.", "Treat vomiting, diarrhea, pain, and stool change as useful system signals.", "Use gentler intake when the digestive system is struggling.", "Connect digestion problems quickly to hydration and energy loss."],
+    "steps_el": ["Παρακολούθησε πώς διαχειρίζεται το σώμα την τροφή και όχι μόνο πόση τροφή υπάρχει.", "Προσάρμοσε μέγεθος γεύματος, υφή και χρόνο όταν η πέψη είναι αδύναμη.", "Αντιμετώπισε εμετό, διάρροια, πόνο και αλλαγή κοπράνων ως χρήσιμα σήματα συστήματος.", "Χρησιμοποίησε πιο ήπια πρόσληψη όταν το πεπτικό σύστημα δυσκολεύεται.", "Σύνδεσε γρήγορα τα προβλήματα πέψης με απώλεια ενυδάτωσης και ενέργειας."],
+    "warnings_en": ["Eating does not guarantee useful absorption.", "Digestive stress can rapidly reduce strength and hydration.", "A person who cannot tolerate intake can weaken even when food exists."],
+    "warnings_el": ["Το να τρως δεν εγγυάται χρήσιμη απορρόφηση.", "Το πεπτικό στρες μπορεί να μειώσει γρήγορα δύναμη και ενυδάτωση.", "Ένας άνθρωπος που δεν αντέχει την πρόσληψη μπορεί να αποδυναμωθεί ακόμη κι όταν υπάρχει τροφή."],
+    "mistakes_en": ["Pushing normal meals when the digestive system is failing.", "Ignoring stool and vomiting changes as practical clues.", "Thinking appetite alone tells the whole nutritional story."],
+    "mistakes_el": ["Να πιέζεις κανονικά γεύματα όταν το πεπτικό σύστημα αποτυγχάνει.", "Να αγνοείς αλλαγές κοπράνων και εμετού ως πρακτικά στοιχεία.", "Να νομίζεις ότι η όρεξη μόνη της λέει όλη τη διατροφική ιστορία."],
+    "related_topics": ["Food Portioning, Recovery Meals, and Sick-Person Feeding", "Diarrhea Cleanup, Rehydration, and Spread Control", "Fever Care, Hydration, and Rest Under Scarcity"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Deep physiology expansion pass for digestion, absorption, stool signals, and energy-use logic."
+  }
+]
