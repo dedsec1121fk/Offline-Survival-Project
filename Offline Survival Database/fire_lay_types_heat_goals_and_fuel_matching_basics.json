@@ -1,0 +1,25 @@
+[
+  {
+    "id": "fire::lay_types_heat_goals_fuel_matching",
+    "topic": "Fire Lay Types, Heat Goals, and Fuel Matching Basics",
+    "category": "fire_heat_cooking_light",
+    "subcategory": "fire_design_skill",
+    "tags": ["fire", "heat", "fuel", "cooking", "design"],
+    "summary_en": "Not every fire should be built the same way. Fire design depends on whether the goal is ignition, quick boil, long warmth, low light, drying, or coal production.",
+    "summary_el": "Δεν πρέπει να χτίζεται κάθε φωτιά με τον ίδιο τρόπο. Ο σχεδιασμός φωτιάς εξαρτάται από το αν ο στόχος είναι άναμμα, γρήγορο βράσιμο, μακρά ζέστη, χαμηλό φως, στέγνωμα ή παραγωγή κάρβουνων.",
+    "content_en": "A useful fire is not simply a bigger fire. Different tasks need different flame behavior, fuel arrangement, and burn duration. A quick cooking or boiling fire may need fast ignition and concentrated heat, while overnight warmth needs steadier fuel and better coal retention. Drying gear, signaling, low-signature warmth, or cooking on limited wood all change what kind of fire lay makes sense. In survival conditions this matters because wasted fuel, poor heat control, and badly matched fire design can cost time, wood, stealth, and safety. Practical understanding means choosing fuel size, arrangement, and feed rhythm based on what the fire needs to do, not only on what looks impressive. Fire design is task matching, not flame vanity.",
+    "content_el": "Μια χρήσιμη φωτιά δεν είναι απλώς μια μεγαλύτερη φωτιά. Διαφορετικές εργασίες χρειάζονται διαφορετική συμπεριφορά φλόγας, διάταξη καυσίμου και διάρκεια καύσης. Μια γρήγορη φωτιά για μαγείρεμα ή βράσιμο μπορεί να χρειάζεται γρήγορο άναμμα και συγκεντρωμένη θερμότητα, ενώ η ζέστη όλης νύχτας χρειάζεται πιο σταθερό καύσιμο και καλύτερη διατήρηση κάρβουνων. Στέγνωμα εξοπλισμού, σήμανση, χαμηλού ίχνους ζέστη ή μαγείρεμα με περιορισμένο ξύλο αλλάζουν όλα το τι είδος στησίματος φωτιάς βγάζει νόημα. Σε συνθήκες επιβίωσης αυτό μετρά επειδή σπατάλη καυσίμου, κακός έλεγχος θερμότητας και κακώς ταιριασμένος σχεδιασμός φωτιάς μπορούν να κοστίσουν χρόνο, ξύλο, stealth και ασφάλεια. Η πρακτική κατανόηση σημαίνει να διαλέγεις μέγεθος καυσίμου, διάταξη και ρυθμό τροφοδοσίας με βάση το τι πρέπει να κάνει η φωτιά και όχι μόνο με βάση το τι φαίνεται εντυπωσιακό. Ο σχεδιασμός φωτιάς είναι ταίριασμα εργασίας και όχι ματαιοδοξία φλόγας.",
+    "steps_en": ["Define what the fire must do before building it.","Match fuel size and arrangement to the heat goal.","Use wood deliberately instead of feeding randomly for appearance.","Think about flame, coal bed, smoke, and burn time together.","Redesign the fire if the task changes."],
+    "steps_el": ["Όρισε τι πρέπει να κάνει η φωτιά πριν τη χτίσεις.","Ταίριαξε μέγεθος καυσίμου και διάταξη με τον στόχο θερμότητας.","Χρησιμοποίησε το ξύλο σκόπιμα αντί να το ταΐζεις τυχαία για εμφάνιση.","Σκέψου μαζί φλόγα, στρώμα κάρβουνων, καπνό και χρόνο καύσης.","Ξανασχεδίασε τη φωτιά αν αλλάξει η εργασία."],
+    "warnings_en": ["A large uncontrolled fire can waste fuel without doing the job well.","The wrong fire design can create excess smoke or poor heat use.","Fuel scarcity makes task matching even more important."],
+    "warnings_el": ["Μια μεγάλη ανεξέλεγκτη φωτιά μπορεί να σπαταλήσει καύσιμο χωρίς να κάνει καλά τη δουλειά.","Ο λάθος σχεδιασμός φωτιάς μπορεί να δημιουργήσει υπερβολικό καπνό ή κακή χρήση θερμότητας.","Η στέρηση καυσίμου κάνει το ταίριασμα εργασίας ακόμη σημαντικότερο."],
+    "mistakes_en": ["Building every fire the same way.","Using too much fuel for small tasks.","Ignoring coal behavior and burn duration."],
+    "mistakes_el": ["Να χτίζεις κάθε φωτιά με τον ίδιο τρόπο.","Να χρησιμοποιείς υπερβολικό καύσιμο για μικρές εργασίες.","Να αγνοείς συμπεριφορά κάρβουνων και διάρκεια καύσης."],
+    "related_topics": ["Fire Starting Under Wet Conditions", "Firewood Selection, Splitting, Drying, and Rotation Basics", "Fuel Efficiency and Low-Waste Cooking Heat"],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Deep expansion pass for fire design, heat goals, and fuel-to-task matching."
+  }
+]
