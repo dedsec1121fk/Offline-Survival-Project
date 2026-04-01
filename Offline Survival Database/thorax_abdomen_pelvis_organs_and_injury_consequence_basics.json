@@ -1,0 +1,25 @@
+[
+  {
+    "id": "anatomy::thorax_abdomen_pelvis_organs_injury",
+    "topic": "Thorax, Abdomen, Pelvis, Organs, and Injury Consequence Basics",
+    "category": "anatomy_biology_physiology",
+    "subcategory": "organ_region_foundation",
+    "tags": ["organs", "thorax", "abdomen", "pelvis", "injury"],
+    "summary_en": "The chest, abdomen, and pelvis contain protected organs that keep breathing, circulation, digestion, waste handling, and reproduction functioning. Injuries there matter because damage may be serious even when the outside looks limited.",
+    "summary_el": "Ο θώρακας, η κοιλιά και η λεκάνη περιέχουν προστατευμένα όργανα που κρατούν σε λειτουργία αναπνοή, κυκλοφορία, πέψη, διαχείριση αποβλήτων και αναπαραγωγή. Οι τραυματισμοί εκεί μετρούν γιατί η βλάβη μπορεί να είναι σοβαρή ακόμη κι όταν η εξωτερική εικόνα φαίνεται περιορισμένη.",
+    "content_en": "The thorax contains the heart, lungs, major vessels, and structures that let the chest expand. The abdomen contains organs involved in digestion, nutrient handling, fluid balance, and waste processing. The pelvis helps protect lower abdominal organs and supports body weight transfer between spine and legs. In survival conditions, understanding these regions helps explain why blunt force, penetration, crush injury, bad falls, or load accidents can be dangerous without obvious dramatic bleeding. Trouble breathing, abdominal guarding, persistent vomiting, distension, pelvic pain, inability to stand normally, or worsening weakness may all signal deeper problems. Practical anatomy here is not about reciting every organ name. It is about recognizing that these body regions contain systems too important to handle casually when trauma, pressure, or instability are present.",
+    "content_el": "Ο θώρακας περιέχει την καρδιά, τους πνεύμονες, μεγάλα αγγεία και δομές που επιτρέπουν την έκπτυξη του στήθους. Η κοιλιά περιέχει όργανα που σχετίζονται με πέψη, διαχείριση θρεπτικών, ισορροπία υγρών και επεξεργασία αποβλήτων. Η λεκάνη βοηθά να προστατεύονται τα κατώτερα κοιλιακά όργανα και στηρίζει τη μεταφορά βάρους σώματος ανάμεσα στη σπονδυλική στήλη και στα πόδια. Σε συνθήκες επιβίωσης, η κατανόηση αυτών των περιοχών εξηγεί γιατί αμβλύ τραύμα, διατιτραίνον τραύμα, συμπίεση, κακή πτώση ή ατύχημα φορτίου μπορούν να είναι επικίνδυνα χωρίς προφανή δραματική εξωτερική αιμορραγία. Δυσκολία αναπνοής, σφίξιμο κοιλιάς, επίμονος εμετός, διάταση, πόνος λεκάνης, αδυναμία φυσιολογικής όρθιας στάσης ή επιδεινούμενη αδυναμία μπορεί όλα να σημαίνουν βαθύτερα προβλήματα. Η πρακτική ανατομία εδώ δεν είναι αποστήθιση κάθε ονόματος οργάνου. Είναι αναγνώριση ότι αυτές οι περιοχές περιέχουν συστήματα πολύ σημαντικά για να χειρίζονται επιπόλαια όταν υπάρχει τραύμα, πίεση ή αστάθεια.",
+    "steps_en": ["Treat chest, abdominal, and pelvic trauma as potentially deeper than the surface appearance.","Watch breathing, posture, guarding, movement tolerance, and worsening weakness.","Reduce rough handling and unnecessary movement when internal-region injury is suspected.","Support position and transport carefully.","Reassess over time because internal problems may show more clearly later."],
+    "steps_el": ["Αντιμετώπισε τραύμα θώρακα, κοιλιάς και λεκάνης ως πιθανώς βαθύτερο από την εξωτερική εικόνα.","Παρακολούθησε αναπνοή, στάση, σφίξιμο, ανοχή κίνησης και επιδεινούμενη αδυναμία.","Μείωσε σκληρό χειρισμό και άσκοπη μετακίνηση όταν υπάρχει υποψία τραυματισμού εσωτερικών περιοχών.","Στήριξε προσεκτικά θέση και μεταφορά.","Επανεκτίμησε με τον χρόνο γιατί τα εσωτερικά προβλήματα μπορεί να φανούν καθαρότερα αργότερα."],
+    "warnings_en": ["Serious internal-region injury may look smaller from the outside than it really is.","Chest and pelvic injuries can affect breathing, circulation, and movement together.","Worsening weakness or abdominal guarding matters."],
+    "warnings_el": ["Σοβαρός τραυματισμός εσωτερικών περιοχών μπορεί να φαίνεται εξωτερικά μικρότερος απ’ όσο είναι πραγματικά.","Τραυματισμοί θώρακα και λεκάνης μπορούν να επηρεάσουν μαζί αναπνοή, κυκλοφορία και κίνηση.","Η επιδεινούμενη αδυναμία ή το σφίξιμο κοιλιάς μετρούν."],
+    "mistakes_en": ["Judging only by visible bleeding.","Moving the person roughly because there is no obvious open wound.","Ignoring posture changes and guarding as functional warnings."],
+    "mistakes_el": ["Να κρίνεις μόνο από την ορατή αιμορραγία.","Να μετακινείς τον άνθρωπο απότομα επειδή δεν υπάρχει προφανές ανοιχτό τραύμα.","Να αγνοείς αλλαγές στάσης και σφίξιμο ως λειτουργικές προειδοποιήσεις."],
+    "related_topics": ["Circulation, Heart, Blood Vessels, and Perfusion Basics", "Respiration, Airway, Lungs, and Gas Exchange Basics", "Human Skeletal System, Structure, Load, and Fracture Basics"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Deep anatomy expansion pass for organ regions and internal injury consequence logic."
+  }
+]
