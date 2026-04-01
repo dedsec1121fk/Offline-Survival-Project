@@ -1,0 +1,63 @@
+[
+  {
+    "id": "movement::lighting_night",
+    "topic": "Lighting Discipline and Night Movement",
+    "category": "movement_and_security",
+    "subcategory": "night_operations",
+    "tags": [
+      "lighting",
+      "night",
+      "movement",
+      "visibility",
+      "discipline"
+    ],
+    "summary_en": "Light is a tool, but uncontrolled light creates other problems. Night movement works best when visibility, concealment, battery cost, and safety are managed together.",
+    "summary_el": "Το φως είναι εργαλείο, αλλά το ανεξέλεγκτο φως δημιουργεί άλλα προβλήματα. Η νυχτερινή κίνηση δουλεύει καλύτερα όταν ορατότητα, απόκρυψη, κόστος μπαταρίας και ασφάλεια διαχειρίζονται μαζί.",
+    "content_en": "Night activity changes risk. A little light can prevent falls, wrong turns, and tool injuries. Too much light can waste power, destroy dark adaptation, reveal position, and create dependency on brightness. Lighting discipline means using only as much light as the task actually needs, shielding it when necessary, assigning priority to key zones, and reducing random glare. It also means preparing movement routes so less light is needed in the first place. The lesson is not to romanticize darkness. It is to use light deliberately instead of emotionally.",
+    "content_el": "Η νυχτερινή δραστηριότητα αλλάζει τον κίνδυνο. Λίγο φως μπορεί να προλάβει πτώσεις, λάθος στροφές και τραυματισμούς από εργαλεία. Πάρα πολύ φως μπορεί να σπαταλήσει ενέργεια, να καταστρέψει την προσαρμογή στο σκοτάδι, να αποκαλύψει θέση και να δημιουργήσει εξάρτηση από φωτεινότητα. Η πειθαρχία φωτισμού σημαίνει να χρησιμοποιείς μόνο όσο φως χρειάζεται πραγματικά η δουλειά, να το καλύπτεις όταν χρειάζεται, να δίνεις προτεραιότητα σε βασικές ζώνες και να μειώνεις το τυχαίο θάμπωμα. Σημαίνει επίσης να προετοιμάζεις διαδρομές κίνησης ώστε να χρειάζεται λιγότερο φως εξαρχής. Το μάθημα δεν είναι να ρομαντικοποιείς το σκοτάδι. Είναι να χρησιμοποιείς το φως σκόπιμα αντί συναισθηματικά.",
+    "steps_en": [
+      "Assign lighting priority by task and zone.",
+      "Shield or direct light instead of flooding everything.",
+      "Pre-mark routes and hazards to reduce night confusion.",
+      "Preserve battery and dark adaptation where possible.",
+      "Teach everyone the same light-use rules."
+    ],
+    "steps_el": [
+      "Δώσε προτεραιότητα φωτισμού ανά δουλειά και ζώνη.",
+      "Κατεύθυνε ή κάλυψε το φως αντί να πλημμυρίζεις τα πάντα.",
+      "Προσήμανε διαδρομές και κινδύνους για να μειώσεις τη νυχτερινή σύγχυση.",
+      "Προστάτευσε μπαταρία και προσαρμογή στο σκοτάδι όπου γίνεται.",
+      "Δίδαξε σε όλους τους ίδιους κανόνες χρήσης φωτός."
+    ],
+    "warnings_en": [
+      "Random bright light wastes power and night vision.",
+      "Unlit hazards create preventable injuries.",
+      "Night confusion increases conflict and delay."
+    ],
+    "warnings_el": [
+      "Το τυχαίο δυνατό φως σπαταλά ενέργεια και νυχτερινή όραση.",
+      "Οι αφώτιστοι κίνδυνοι δημιουργούν αποτρέψιμους τραυματισμούς.",
+      "Η νυχτερινή σύγχυση αυξάνει σύγκρουση και καθυστέρηση."
+    ],
+    "mistakes_en": [
+      "Lighting everything equally without priority.",
+      "Using maximum brightness for simple tasks.",
+      "Depending on light instead of route preparation."
+    ],
+    "mistakes_el": [
+      "Να φωτίζεις τα πάντα το ίδιο χωρίς προτεραιότητα.",
+      "Να χρησιμοποιείς μέγιστη φωτεινότητα για απλές δουλειές.",
+      "Να εξαρτάσαι από το φως αντί από προετοιμασία διαδρομής."
+    ],
+    "related_topics": [
+      "Household Power Rationing and Charging Priority",
+      "Urban Blackout and Apartment Survival",
+      "Camp Layout for Hygiene, Workflow, and Safety"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Further operating-systems expansion."
+  }
+]

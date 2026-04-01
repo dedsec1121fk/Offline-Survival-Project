@@ -1,0 +1,63 @@
+[
+  {
+    "id": "power::rationing_priority",
+    "topic": "Household Power Rationing and Charging Priority",
+    "category": "energy_and_power",
+    "subcategory": "power_management",
+    "tags": [
+      "power",
+      "charging",
+      "battery",
+      "rationing",
+      "electricity"
+    ],
+    "summary_en": "When power is limited, electricity must be treated like stored work capacity. Charging decisions should protect light, communication, records, and other critical functions before comfort use.",
+    "summary_el": "Όταν η ενέργεια είναι περιορισμένη, το ρεύμα πρέπει να αντιμετωπίζεται σαν αποθηκευμένη ικανότητα εργασίας. Οι αποφάσεις φόρτισης πρέπει να προστατεύουν φως, επικοινωνία, αρχεία και άλλες κρίσιμες λειτουργίες πριν από τη χρήση άνεσης.",
+    "content_en": "A weak power system collapses first through careless small drains. People often lose useful electricity not from one major mistake but from many casual habits: full-brightness lights, idle charging, scattered batteries, and unclear device priorities. Rationing power means ranking function first. What preserves safety? What preserves communication? What preserves planning? What preserves morale with the lowest cost? A charging system becomes stronger when the group knows which devices matter most, how much reserve to keep, and what time windows are best for using available electricity. The lesson is simple: every watt spent should defend a real function.",
+    "content_el": "Ένα αδύναμο σύστημα ενέργειας καταρρέει πρώτα από απρόσεκτες μικρές απώλειες. Οι άνθρωποι συχνά χάνουν χρήσιμο ρεύμα όχι από ένα μεγάλο λάθος αλλά από πολλές χαλαρές συνήθειες: φώτα στο πλήρες, άσκοπες φορτίσεις, σκορπισμένες μπαταρίες και ασαφείς προτεραιότητες συσκευών. Η δελτίωση ρεύματος σημαίνει να ιεραρχείς πρώτα τη λειτουργία. Τι προστατεύει ασφάλεια; Τι προστατεύει επικοινωνία; Τι προστατεύει σχεδιασμό; Τι προστατεύει ηθικό με το χαμηλότερο κόστος; Ένα σύστημα φόρτισης γίνεται πιο δυνατό όταν η ομάδα ξέρει ποιες συσκευές μετρούν περισσότερο, πόση εφεδρεία πρέπει να κρατήσει και ποια χρονικά παράθυρα είναι καλύτερα για χρήση της διαθέσιμης ενέργειας. Το μάθημα είναι απλό: κάθε watt που ξοδεύεται πρέπει να υπερασπίζεται πραγματική λειτουργία.",
+    "steps_en": [
+      "Rank devices by survival value, not habit.",
+      "Use charging windows and reserve targets.",
+      "Concentrate power use into planned periods.",
+      "Track battery state instead of guessing.",
+      "Reduce drain before chasing more generation."
+    ],
+    "steps_el": [
+      "Ιεράρχησε τις συσκευές με βάση την αξία επιβίωσης και όχι τη συνήθεια.",
+      "Χρησιμοποίησε χρονικά παράθυρα φόρτισης και στόχους εφεδρείας.",
+      "Συγκέντρωσε τη χρήση ρεύματος σε σχεδιασμένες περιόδους.",
+      "Παρακολούθησε την κατάσταση μπαταρίας αντί να μαντεύεις.",
+      "Μείωσε πρώτα την κατανάλωση πριν κυνηγήσεις περισσότερη παραγωγή."
+    ],
+    "warnings_en": [
+      "Random charging wastes limited opportunity.",
+      "Low battery on critical devices is often a planning failure, not bad luck.",
+      "Comfort devices can quietly cannibalize safety systems."
+    ],
+    "warnings_el": [
+      "Η τυχαία φόρτιση σπαταλά περιορισμένη ευκαιρία.",
+      "Η χαμηλή μπαταρία σε κρίσιμες συσκευές είναι συχνά αποτυχία σχεδιασμού και όχι κακή τύχη.",
+      "Οι συσκευές άνεσης μπορούν αθόρυβα να καταβροχθίσουν συστήματα ασφάλειας."
+    ],
+    "mistakes_en": [
+      "Charging everything a little instead of critical devices fully.",
+      "Using maximum brightness and background drain carelessly.",
+      "Failing to define a reserve floor for communications."
+    ],
+    "mistakes_el": [
+      "Να φορτίζεις τα πάντα λίγο αντί να φορτίζεις πλήρως τις κρίσιμες συσκευές.",
+      "Να χρησιμοποιείς απρόσεκτα μέγιστη φωτεινότητα και κατανάλωση φόντου.",
+      "Να μην ορίζεις κατώφλι εφεδρείας για τις επικοινωνίες."
+    ],
+    "related_topics": [
+      "Urban Blackout and Apartment Survival",
+      "Low-Tech Communications and Signal Discipline",
+      "Field Notebook and Records Under Stress"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Further operating-systems expansion."
+  }
+]

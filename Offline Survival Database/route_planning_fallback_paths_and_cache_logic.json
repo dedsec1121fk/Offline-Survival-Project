@@ -1,0 +1,63 @@
+[
+  {
+    "id": "movement::fallback_routes",
+    "topic": "Route Planning, Fallback Paths, and Cache Logic",
+    "category": "movement_and_security",
+    "subcategory": "movement_planning",
+    "tags": [
+      "routes",
+      "fallback",
+      "movement",
+      "cache",
+      "planning"
+    ],
+    "summary_en": "A good route plan is not one path. It is a primary path, a fallback path, timing logic, and a clear idea of what happens if movement stops halfway.",
+    "summary_el": "Ένα καλό σχέδιο διαδρομής δεν είναι ένα μονοπάτι. Είναι κύρια διαδρομή, εφεδρική διαδρομή, λογική χρόνου και καθαρή ιδέα για το τι γίνεται αν η κίνηση σταματήσει στη μέση.",
+    "content_en": "Movement becomes safer when it is planned as a system rather than a guess. Roads close, weather changes, crowds gather, landmarks fail, and fatigue changes what seems possible. A strong movement plan therefore includes the main route, at least one alternate, known stop points, return timing, and pre-decided conditions that trigger a change of plan. Cache logic matters because not everything should travel at once if routes are uncertain or labor is limited. The point is not elaborate fantasy maps. It is practical movement discipline: know where you are trying to go, how you will know a route has failed, and what you will do next without wasting decision time.",
+    "content_el": "Η κίνηση γίνεται ασφαλέστερη όταν σχεδιάζεται ως σύστημα και όχι ως μαντεψιά. Οι δρόμοι κλείνουν, ο καιρός αλλάζει, μαζεύονται πλήθη, τα σημάδια αποτυγχάνουν και η κόπωση αλλάζει αυτό που φαίνεται δυνατό. Άρα ένα δυνατό σχέδιο κίνησης περιλαμβάνει την κύρια διαδρομή, τουλάχιστον μία εναλλακτική, γνωστά σημεία στάσης, χρόνο επιστροφής και προαποφασισμένες συνθήκες που ενεργοποιούν αλλαγή σχεδίου. Η λογική cache μετρά γιατί δεν πρέπει να μετακινούνται όλα μαζί αν οι διαδρομές είναι αβέβαιες ή η εργασία περιορισμένη. Το ζητούμενο δεν είναι φανταχτεροί χάρτες. Είναι πρακτική πειθαρχία κίνησης: να ξέρεις πού πας, πώς θα καταλάβεις ότι μια διαδρομή απέτυχε και τι θα κάνεις μετά χωρίς να σπαταλάς χρόνο απόφασης.",
+    "steps_en": [
+      "Plan a primary and secondary route before moving.",
+      "Define turn-back or switch conditions clearly.",
+      "Use known stop points and time checks.",
+      "Carry route notes or markers when memory is unreliable.",
+      "Cache or stage loads when one-trip movement is risky."
+    ],
+    "steps_el": [
+      "Σχεδίασε κύρια και δευτερεύουσα διαδρομή πριν κινηθείς.",
+      "Όρισε καθαρά συνθήκες επιστροφής ή αλλαγής.",
+      "Χρησιμοποίησε γνωστά σημεία στάσης και χρονικούς ελέγχους.",
+      "Κουβάλησε σημειώσεις ή σημάδια διαδρομής όταν η μνήμη δεν είναι αξιόπιστη.",
+      "Κάνε cache ή στάδια φορτίου όταν η μετακίνηση σε ένα ταξίδι είναι ριψοκίνδυνη."
+    ],
+    "warnings_en": [
+      "One blocked route can destroy a weak plan.",
+      "Fatigue changes route quality in real time.",
+      "Unclear return timing creates search and panic problems."
+    ],
+    "warnings_el": [
+      "Μία μπλοκαρισμένη διαδρομή μπορεί να καταστρέψει ένα αδύναμο σχέδιο.",
+      "Η κόπωση αλλάζει την ποιότητα διαδρομής σε πραγματικό χρόνο.",
+      "Ο ασαφής χρόνος επιστροφής δημιουργεί προβλήματα αναζήτησης και πανικού."
+    ],
+    "mistakes_en": [
+      "Assuming the shortest route is the best route.",
+      "Moving everything at once through uncertain terrain.",
+      "Failing to define when to abort."
+    ],
+    "mistakes_el": [
+      "Να θεωρείς ότι η πιο σύντομη διαδρομή είναι η καλύτερη διαδρομή.",
+      "Να μετακινείς τα πάντα μαζί μέσα από αβέβαιο έδαφος.",
+      "Να μην ορίζεις πότε ακυρώνεις την αποστολή."
+    ],
+    "related_topics": [
+      "Low-Tech Communications and Signal Discipline",
+      "Urban Blackout and Apartment Survival",
+      "Earthquake and Aftershock Routines"
+    ],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Further operating-systems expansion."
+  }
+]

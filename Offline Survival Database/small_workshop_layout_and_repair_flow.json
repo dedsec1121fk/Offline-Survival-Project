@@ -1,0 +1,63 @@
+[
+  {
+    "id": "repair::workshop_flow",
+    "topic": "Small Workshop Layout and Repair Flow",
+    "category": "tools_and_repair",
+    "subcategory": "workspace_organization",
+    "tags": [
+      "workshop",
+      "repair",
+      "layout",
+      "workflow",
+      "tools"
+    ],
+    "summary_en": "Repair work improves when the workspace itself is planned. A small organized workshop can outperform a larger chaotic one because less time is wasted searching, resetting, and cleaning around the task.",
+    "summary_el": "Η δουλειά επισκευής βελτιώνεται όταν ο ίδιος ο χώρος εργασίας είναι σχεδιασμένος. Ένα μικρό οργανωμένο εργαστήριο μπορεί να ξεπεράσει ένα μεγαλύτερο χαοτικό γιατί χάνεται λιγότερος χρόνος σε ψάξιμο, ξαναστήσιμο και καθάρισμα γύρω από τη δουλειά.",
+    "content_en": "A workshop is a system for turning broken things back into useful things. That system weakens when tools, fasteners, scrap, blades, lighting, and measuring tools have no fixed place. The goal of workshop layout is simple: keep frequent tools near the main work zone, separate dirty cutting from fine work where possible, store small parts so they do not vanish, and make cleanup easy enough that it actually happens. Repair flow also matters. Diagnosis, disassembly, sorting, repair, recheck, and return-to-stock should happen in a visible order. A chaotic workshop burns time and makes small jobs feel impossible.",
+    "content_el": "Ένα εργαστήριο είναι σύστημα που μετατρέπει σπασμένα πράγματα ξανά σε χρήσιμα πράγματα. Αυτό το σύστημα αποδυναμώνεται όταν εργαλεία, συνδετικά, υπόλοιπα υλικών, λεπίδες, φώτα και όργανα μέτρησης δεν έχουν σταθερή θέση. Ο στόχος της διάταξης εργαστηρίου είναι απλός: κράτα τα συχνά εργαλεία κοντά στην κύρια ζώνη εργασίας, χώρισε όπου γίνεται τη βρόμικη κοπή από τη λεπτή δουλειά, αποθήκευσε τα μικρά κομμάτια ώστε να μην εξαφανίζονται και κάνε το καθάρισμα αρκετά εύκολο ώστε να γίνεται πραγματικά. Μετρά και η ροή επισκευής. Διάγνωση, λύσιμο, ταξινόμηση, επισκευή, επανέλεγχος και επιστροφή στο απόθεμα πρέπει να γίνονται με ορατή σειρά. Ένα χαοτικό εργαστήριο καίει χρόνο και κάνει τις μικρές δουλειες να φαίνονται αδύνατες.",
+    "steps_en": [
+      "Set fixed places for frequent tools and small parts.",
+      "Separate intake, work, and finished items visually.",
+      "Keep measuring, cutting, and fastening tools easy to reach.",
+      "Use simple labels and containers to prevent loss.",
+      "Review layout after real repair sessions and improve it."
+    ],
+    "steps_el": [
+      "Όρισε σταθερές θέσεις για συχνά εργαλεία και μικρά κομμάτια.",
+      "Χώρισε οπτικά είσοδο, εργασία και τελειωμένα αντικείμενα.",
+      "Κράτα εύκολα προσβάσιμα εργαλεία μέτρησης, κοπής και δεσίματος.",
+      "Χρησιμοποίησε απλές ετικέτες και δοχεία για να προλαμβάνεις απώλειες.",
+      "Έλεγξε ξανά τη διάταξη μετά από πραγματικές επισκευές και βελτίωσέ την."
+    ],
+    "warnings_en": [
+      "Searching wastes more labor than many small repairs.",
+      "Tiny parts disappear quickly in mixed clutter.",
+      "Poor workspace lighting creates errors and injuries."
+    ],
+    "warnings_el": [
+      "Το ψάξιμο σπαταλά περισσότερη εργασία από πολλές μικρές επισκευές.",
+      "Τα μικροσκοπικά κομμάτια εξαφανίζονται γρήγορα σε μικτή ακαταστασία.",
+      "Ο κακός φωτισμός χώρου δημιουργεί λάθη και τραυματισμούς."
+    ],
+    "mistakes_en": [
+      "Treating every flat surface as storage.",
+      "Mixing finished items with intake junk.",
+      "Ignoring cleanup until the whole space degrades."
+    ],
+    "mistakes_el": [
+      "Να αντιμετωπίζεις κάθε επίπεδη επιφάνεια ως αποθήκη.",
+      "Να ανακατεύεις τελειωμένα αντικείμενα με άχρηστα προς έλεγχο.",
+      "Να αγνοείς το καθάρισμα μέχρι να υποβαθμιστεί όλος ο χώρος."
+    ],
+    "related_topics": [
+      "Tool Maintenance and Edge Retention",
+      "Improvised Fasteners, Lashings, and Basic Joins",
+      "Salvage Priorities After Collapse or Disaster"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Further operating-systems expansion."
+  }
+]

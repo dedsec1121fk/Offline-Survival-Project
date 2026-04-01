@@ -1,0 +1,63 @@
+[
+  {
+    "id": "comms::low_tech_signal",
+    "topic": "Low-Tech Communications and Signal Discipline",
+    "category": "rebuilding_community",
+    "subcategory": "communications",
+    "tags": [
+      "communication",
+      "signals",
+      "discipline",
+      "coordination",
+      "low_tech"
+    ],
+    "summary_en": "When modern communications fail, groups need simple, repeatable signal systems. The best system is not the fanciest one but the one people can actually remember and use under stress.",
+    "summary_el": "Όταν αποτυγχάνουν οι σύγχρονες επικοινωνίες, οι ομάδες χρειάζονται απλά επαναλαμβανόμενα συστήματα σημάτων. Το καλύτερο σύστημα δεν είναι το πιο εντυπωσιακό αλλά αυτό που οι άνθρωποι μπορούν πραγματικά να θυμούνται και να χρησιμοποιούν κάτω από στρες.",
+    "content_en": "Communication collapse creates delay, duplication, fear, and avoidable conflict. Low-tech communication is therefore a survival skill, not nostalgia. Voice runners, written notes, whistles, light signals, marked routes, fixed meeting times, and simple code words can all help if they are standardized. The system must stay small enough to remember. Too many special cases create failure. Groups work better when they agree on what urgent means, what return-now means, what danger-near means, and what counts as normal check-in timing. A communication system becomes trustworthy only through repetition. Clear signals reduce panic because people stop guessing what silence means.",
+    "content_el": "Η κατάρρευση επικοινωνίας δημιουργεί καθυστέρηση, διπλή δουλειά, φόβο και αποτρέψιμη σύγκρουση. Άρα η low-tech επικοινωνία είναι δεξιότητα επιβίωσης και όχι νοσταλγία. Αγγελιοφόροι, γραπτά σημειώματα, σφυρίγματα, φωτεινά σήματα, σημαδεμένες διαδρομές, σταθερές ώρες συνάντησης και απλές λέξεις-κώδικες μπορούν όλα να βοηθήσουν αν τυποποιηθούν. Το σύστημα πρέπει να μένει αρκετά μικρό ώστε να το θυμάσαι. Πάρα πολλές ειδικές περιπτώσεις δημιουργούν αποτυχία. Οι ομάδες δουλεύουν καλύτερα όταν συμφωνούν τι σημαίνει επείγον, τι σημαίνει γύρνα τώρα, τι σημαίνει κοντινός κίνδυνος και ποιο θεωρείται κανονικό timing ελέγχου. Ένα σύστημα επικοινωνίας γίνεται αξιόπιστο μόνο μέσω επανάληψης. Τα καθαρά σήματα μειώνουν τον πανικό γιατί οι άνθρωποι σταματούν να μαντεύουν τι σημαίνει η σιωπή.",
+    "steps_en": [
+      "Keep signal sets small and memorable.",
+      "Assign default check-in times and fallback meeting points.",
+      "Use written notes when memory chains are risky.",
+      "Rehearse signals before they are needed in panic.",
+      "Retire signals that cause confusion."
+    ],
+    "steps_el": [
+      "Κράτα τα σύνολα σημάτων μικρά και εύκολα στη μνήμη.",
+      "Όρισε προεπιλεγμένες ώρες ελέγχου και εφεδρικά σημεία συνάντησης.",
+      "Χρησιμοποίησε γραπτά σημειώματα όταν οι αλυσίδες μνήμης είναι ριψοκίνδυνες.",
+      "Κάνε πρόβα στα σήματα πριν χρειαστούν μέσα στον πανικό.",
+      "Κατάργησε σήματα που προκαλούν σύγχυση."
+    ],
+    "warnings_en": [
+      "Too many codes become no code at all.",
+      "Silence without protocol creates panic fast.",
+      "Unrehearsed signals fail when stress rises."
+    ],
+    "warnings_el": [
+      "Πάρα πολλοί κώδικες γίνονται μηδενικός κώδικας.",
+      "Η σιωπή χωρίς πρωτόκολλο δημιουργεί γρήγορα πανικό.",
+      "Τα σήματα χωρίς πρόβα αποτυγχάνουν όταν ανεβαίνει το στρες."
+    ],
+    "mistakes_en": [
+      "Inventing signals on the spot.",
+      "Relying on memory only for important messages.",
+      "Creating complex code systems no one practices."
+    ],
+    "mistakes_el": [
+      "Να επινοείς σήματα εκείνη τη στιγμή.",
+      "Να βασίζεσαι μόνο στη μνήμη για σημαντικά μηνύματα.",
+      "Να δημιουργείς περίπλοκα συστήματα κώδικα που κανείς δεν εξασκεί."
+    ],
+    "related_topics": [
+      "Field Notebook and Records Under Stress",
+      "Teaching Children and Novices Survival Tasks",
+      "Route Planning, Evacuation, and Shelter-in-Place Logic"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Further operating-systems expansion."
+  }
+]
