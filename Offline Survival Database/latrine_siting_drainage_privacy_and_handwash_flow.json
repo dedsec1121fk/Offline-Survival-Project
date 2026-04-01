@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sanitation::latrine_siting_drainage_handwash_flow",
+    "topic": "Latrine Siting, Drainage, Privacy, and Handwash Flow",
+    "category": "hygiene_sanitation_disease_prevention",
+    "subcategory": "waste_system_skill",
+    "tags": ["latrine", "sanitation", "drainage", "privacy", "handwashing"],
+    "summary_en": "A bad latrine site spreads contamination, lowers dignity, and pushes people to avoid proper use. Good siting protects health, privacy, and routine compliance together.",
+    "summary_el": "Ένα κακό σημείο τουαλέτας απλώνει μόλυνση, μειώνει την αξιοπρέπεια και σπρώχνει τους ανθρώπους να αποφεύγουν τη σωστή χρήση. Η καλή τοποθέτηση προστατεύει μαζί υγεία, ιδιωτικότητα και συνέπεια ρουτίνας.",
+    "content_en": "A survival latrine is not only a hole problem. It is a flow problem involving waste, walking, privacy, drainage, water protection, night access, and hand cleaning afterward. If the site is badly chosen, people may stop using it consistently, contamination may spread through feet and tools, and rain may turn the area into a health hazard. Practical latrine planning means separating waste from cleaner living areas, keeping runoff and water pathways in mind, making access usable at night, and pairing the site with a simple handwash routine. The useful skill is designing a sanitation habit, not just choosing a corner of ground.",
+    "content_el": "Μια τουαλέτα επιβίωσης δεν είναι μόνο πρόβλημα λάκκου. Είναι πρόβλημα ροής που περιλαμβάνει απόβλητα, περπάτημα, ιδιωτικότητα, απορροή, προστασία νερού, νυχτερινή πρόσβαση και καθάρισμα χεριών μετά. Αν το σημείο διαλεγεί άσχημα, οι άνθρωποι μπορεί να σταματήσουν να τη χρησιμοποιούν σταθερά, η μόλυνση να απλωθεί μέσω ποδιών και εργαλείων και η βροχή να μετατρέψει την περιοχή σε κίνδυνο υγείας. Ο πρακτικός σχεδιασμός τουαλέτας σημαίνει διαχωρισμό αποβλήτων από καθαρότερους χώρους διαβίωσης, σκέψη για την απορροή και τις διαδρομές νερού, πρόσβαση χρήσιμη τη νύχτα και σύνδεση του σημείου με απλή ρουτίνα πλυσίματος χεριών. Η χρήσιμη δεξιότητα είναι ο σχεδιασμός συνήθειας υγιεινής και όχι απλώς η επιλογή μιας γωνίας γης.",
+    "steps_en": ["Place the latrine away from cleaner living and water-use zones.","Think about runoff, mud, and rain behavior before digging or assigning the site.","Make privacy and nighttime access good enough that people will actually use it.","Pair the site with a simple handwash point or cleaning routine.","Review the area after rain or heavy use and adjust if conditions worsen."],
+    "steps_el": ["Τοποθέτησε την τουαλέτα μακριά από καθαρότερες ζώνες διαβίωσης και χρήσης νερού.","Σκέψου απορροή, λάσπη και συμπεριφορά βροχής πριν σκάψεις ή ορίσεις το σημείο.","Κάνε την ιδιωτικότητα και τη νυχτερινή πρόσβαση αρκετά καλές ώστε οι άνθρωποι να τη χρησιμοποιούν πραγματικά.","Σύνδεσε το σημείο με απλό σημείο πλυσίματος χεριών ή ρουτίνα καθαρισμού.","Ξαναέλεγξε την περιοχή μετά από βροχή ή βαριά χρήση και προσαρμόσου αν οι συνθήκες χειροτερέψουν."],
+    "warnings_en": ["Poor latrine flow creates contamination beyond the hole itself.","If privacy is ignored, compliance often drops.","Rain can turn a tolerable site into a spread problem quickly."],
+    "warnings_el": ["Η κακή ροή τουαλέτας δημιουργεί μόλυνση πέρα από τον ίδιο τον λάκκο.","Αν η ιδιωτικότητα αγνοηθεί, η συνέπεια χρήσης συχνά πέφτει.","Η βροχή μπορεί γρήγορα να μετατρέψει ένα ανεκτό σημείο σε πρόβλημα εξάπλωσης."],
+    "mistakes_en": ["Choosing only the nearest convenient location.","Ignoring handwash flow after use.","Failing to reassess the site after weather changes."],
+    "mistakes_el": ["Να επιλέγεις μόνο το πιο κοντινό βολικό σημείο.","Να αγνοείς τη ροή πλυσίματος χεριών μετά τη χρήση.","Να μην επανεκτιμάς το σημείο μετά από αλλαγές καιρού."],
+    "related_topics": ["Camp Layout, Fire/Water/Waste Separation, and Night Movement Order", "Guidelines for Personal Hygiene During an Emergency", "Diarrhea Cleanup, Rehydration, and Spread Control"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Added for stronger sanitation-system design and compliance coverage."
+  }
+]
