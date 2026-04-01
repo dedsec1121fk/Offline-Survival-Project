@@ -1,7 +1,7 @@
 [
   {
     "id": "food::nutrition_scarcity",
-    "topic": "Nutrition Under Scarcity",
+    "topic": "Calorie, Protein, and Micronutrient Priorities Under Scarcity",
     "category": "agriculture_food_production",
     "subcategory": "scarcity_nutrition",
     "tags": [
@@ -58,6 +58,6 @@
     "urgency": "high",
     "priority": "high",
     "last_updated": "2026-04-01",
-    "update_note": "Added as foundational survival food topic."
+    "update_note": "Cleanup pass and expansion."
   }
 ]
