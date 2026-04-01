@@ -1,0 +1,63 @@
+[
+  {
+    "id": "governance::notice_boards",
+    "topic": "Community Notice Boards and Public Information Flow",
+    "category": "rebuilding_community",
+    "subcategory": "information_management",
+    "tags": [
+      "notice",
+      "information",
+      "boards",
+      "public",
+      "coordination"
+    ],
+    "summary_en": "Shared information works better when it has a home. Notice boards and public update points reduce rumor, duplication, and decision drift.",
+    "summary_el": "Η κοινόχρηστη πληροφορία δουλεύει καλύτερα όταν έχει σπίτι. Οι πίνακες ανακοινώσεων και τα δημόσια σημεία ενημέρωσης μειώνουν φήμες, διπλή δουλειά και διολίσθηση αποφάσεων.",
+    "content_en": "Groups often fail not because information is absent, but because it is scattered. A notice board, update wall, or fixed information point gives decisions, warnings, schedules, resource notes, and status changes a visible place to live. That reduces repeated questions, rumor chains, and conflicting memory. The key lesson is that public information should stay simple, current, and clearly dated. Too much stale detail turns a board into clutter. Too little detail turns it into decoration. Good information flow helps the whole group coordinate without every fact needing to travel through the same exhausted person.",
+    "content_el": "Οι ομάδες συχνά αποτυγχάνουν όχι επειδή η πληροφορία λείπει, αλλά επειδή είναι σκορπισμένη. Ένας πίνακας ανακοινώσεων, ένας τοίχος ενημέρωσης ή ένα σταθερό σημείο πληροφορίας δίνει στις αποφάσεις, προειδοποιήσεις, στα προγράμματα, στις σημειώσεις πόρων και στις αλλαγές κατάστασης ένα ορατό μέρος για να ζουν. Αυτό μειώνει επαναλαμβανόμενες ερωτήσεις, αλυσίδες φημών και συγκρουόμενη μνήμη. Το βασικό μάθημα είναι ότι η δημόσια πληροφορία πρέπει να μένει απλή, τρέχουσα και καθαρά χρονολογημένη. Πάρα πολλή παλιά λεπτομέρεια μετατρέπει έναν πίνακα σε ακαταστασία. Πολύ λίγη λεπτομέρεια τον μετατρέπει σε διακόσμηση. Η καλή ροή πληροφορίας βοηθά όλη την ομάδα να συντονίζεται χωρίς να πρέπει κάθε γεγονός να περνά από τον ίδιο εξαντλημένο άνθρωπο.",
+    "steps_en": [
+      "Create one primary place for current shared information.",
+      "Date updates clearly and remove stale notices.",
+      "Separate warnings, schedules, needs, and records visually.",
+      "Keep public messages short enough to scan quickly.",
+      "Assign someone to maintain information hygiene."
+    ],
+    "steps_el": [
+      "Δημιούργησε ένα κύριο σημείο για την τρέχουσα κοινή πληροφορία.",
+      "Χρονολόγησε καθαρά τις ενημερώσεις και αφαίρεσε τις παλιές ανακοινώσεις.",
+      "Χώρισε οπτικά προειδοποιήσεις, προγράμματα, ανάγκες και αρχεία.",
+      "Κράτα τα δημόσια μηνύματα αρκετά σύντομα ώστε να σκανάρονται γρήγορα.",
+      "Όρισε κάποιον να διατηρεί την υγιεινή πληροφορίας."
+    ],
+    "warnings_en": [
+      "Outdated public information creates confident mistakes.",
+      "Scattered notices split the group's attention.",
+      "Rumor grows where official updates are weak."
+    ],
+    "warnings_el": [
+      "Η παλιά δημόσια πληροφορία δημιουργεί σίγουρα λάθη.",
+      "Οι σκορπισμένες ανακοινώσεις διχάζουν την προσοχή της ομάδας.",
+      "Η φήμη μεγαλώνει όπου οι επίσημες ενημερώσεις είναι αδύναμες."
+    ],
+    "mistakes_en": [
+      "Posting without dates or ownership.",
+      "Letting old notices pile up.",
+      "Mixing critical warnings with low-priority chatter."
+    ],
+    "mistakes_el": [
+      "Να αναρτάς χωρίς ημερομηνίες ή ευθύνη.",
+      "Να αφήνεις τις παλιές ανακοινώσεις να στοιβάζονται.",
+      "Να ανακατεύεις κρίσιμες προειδοποιήσεις με χαμηλής προτεραιότητας φλυαρία."
+    ],
+    "related_topics": [
+      "Decision Cycles, Briefings, and Shift Handoffs",
+      "Field Notebook and Records Under Stress",
+      "Low-Tech Communications and Signal Discipline"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Additional coordination systems pass."
+  }
+]

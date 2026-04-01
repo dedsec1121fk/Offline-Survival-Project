@@ -1,0 +1,63 @@
+[
+  {
+    "id": "tools::cordage_knot_logic",
+    "topic": "Rope, Cordage Care, and Simple Knot Logic",
+    "category": "tools_and_repair",
+    "subcategory": "binding_and_rigging",
+    "tags": [
+      "rope",
+      "cordage",
+      "knots",
+      "rigging",
+      "care"
+    ],
+    "summary_en": "Cordage is a multiplier of shelter, transport, repairs, and safety. It becomes more valuable when kept dry, sorted, and used with a few dependable knot patterns instead of random tangles.",
+    "summary_el": "Το σκοινί και η κορδονιά πολλαπλασιάζουν κατάλυμα, μεταφορά, επισκευές και ασφάλεια. Γίνονται πιο πολύτιμα όταν κρατιούνται στεγνά, ταξινομημένα και χρησιμοποιούνται με λίγα αξιόπιστα μοτίβα δεσίματος αντί για τυχαία μπερδέματα.",
+    "content_en": "Rope and cordage often fail through misuse rather than total absence. Abrasion, damp storage, bad coiling, overload, and poor knot choice quietly destroy reliability. A strong cordage system treats line as equipment that needs sorting by thickness, condition, and likely job. It also values repeatable knots and fastening methods that can be inspected and untied when needed. The point is not to memorize endless knot catalogs. It is to maintain a few dependable patterns that solve real field problems: joining, tightening, hanging, dragging, and securing under load.",
+    "content_el": "Το σκοινί και η κορδονιά συχνά αποτυγχάνουν από κακή χρήση και όχι από πλήρη απουσία. Η τριβή, η νωπή αποθήκευση, το κακό τύλιγμα, η υπερφόρτωση και η κακή επιλογή δεσίματος καταστρέφουν σιωπηλά την αξιοπιστία. Ένα δυνατό σύστημα κορδονιών αντιμετωπίζει τη γραμμή ως εξοπλισμό που χρειάζεται ταξινόμηση με βάση πάχος, κατάσταση και πιθανή δουλειά. Εκτιμά επίσης επαναλαμβανόμενα δεσίματα και μεθόδους στερέωσης που μπορούν να επιθεωρηθούν και να λυθούν όταν χρειάζεται. Το ζητούμενο δεν είναι να απομνημονεύσεις ατελείωτους καταλόγους κόμπων. Είναι να διατηρείς λίγα αξιόπιστα μοτίβα που λύνουν πραγματικά προβλήματα πεδίου: ένωση, σφίξιμο, κρέμασμα, έλξη και στερέωση υπό φορτίο.",
+    "steps_en": [
+      "Sort cordage by condition, thickness, and purpose.",
+      "Keep it dry and protected from abrasion and rot.",
+      "Teach a small set of repeatable knot functions well.",
+      "Inspect lines after hard use or weather exposure.",
+      "Retire unreliable pieces before they fail under load."
+    ],
+    "steps_el": [
+      "Ταξινόμησε κορδονιά με βάση κατάσταση, πάχος και σκοπό.",
+      "Κράτα την στεγνή και προστατευμένη από τριβή και σήψη.",
+      "Δίδαξε καλά ένα μικρό σύνολο επαναλαμβανόμενων λειτουργιών δεσίματος.",
+      "Έλεγχε τις γραμμές μετά από σκληρή χρήση ή έκθεση σε καιρό.",
+      "Απόσυρε αναξιόπιστα κομμάτια πριν αποτύχουν υπό φορτίο."
+    ],
+    "warnings_en": [
+      "A weak line often fails at the worst moment.",
+      "Bad knot choice wastes good cordage.",
+      "Hidden abrasion can destroy trust in a line quickly."
+    ],
+    "warnings_el": [
+      "Μια αδύναμη γραμμή συχνά αποτυγχάνει στη χειρότερη στιγμή.",
+      "Η κακή επιλογή δεσίματος σπαταλά καλό σκοινί.",
+      "Η κρυφή τριβή μπορεί να καταστρέψει γρήγορα την εμπιστοσύνη σε μια γραμμή."
+    ],
+    "mistakes_en": [
+      "Using any rope for any task.",
+      "Storing wet cordage in piles.",
+      "Trusting old damaged line for critical loads."
+    ],
+    "mistakes_el": [
+      "Να χρησιμοποιείς οποιοδήποτε σκοινί για οποιαδήποτε δουλειά.",
+      "Να αποθηκεύεις βρεγμένη κορδονιά σε σωρούς.",
+      "Να εμπιστεύεσαι παλιά χαλασμένη γραμμή για κρίσιμα φορτία."
+    ],
+    "related_topics": [
+      "Improvised Fasteners, Lashings, and Basic Joins",
+      "Tool Maintenance and Edge Retention",
+      "Handcart, Load Distribution, and Manual Transport"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Additional field-systems expansion."
+  }
+]
