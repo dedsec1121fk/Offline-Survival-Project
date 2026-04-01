@@ -1,0 +1,63 @@
+[
+  {
+    "id": "logistics::cache_rotation",
+    "topic": "Supply Cache Design and Hidden Reserve Rotation",
+    "category": "movement_and_security",
+    "subcategory": "reserve_storage",
+    "tags": [
+      "cache",
+      "reserve",
+      "storage",
+      "rotation",
+      "supplies"
+    ],
+    "summary_en": "A reserve only helps if it survives discovery, spoilage, and forgetfulness. Good cache design is about rotation, concealment, labeling logic, and disciplined access.",
+    "summary_el": "Μια εφεδρεία βοηθά μόνο αν επιβιώσει από ανακάλυψη, χάλασμα και λησμονιά. Ο καλός σχεδιασμός cache αφορά περιστροφή, απόκρυψη, λογική σήμανσης και πειθαρχημένη πρόσβαση.",
+    "content_en": "People often imagine caching as simply hiding things. In reality, a useful reserve must also stay findable by the right people, protected from moisture and pests, and rotated before it silently expires or degrades. A strong cache system distinguishes between daily stock, emergency reserve, and hidden contingency reserve. It also records what is stored without advertising it recklessly. The central lesson is that hidden stock without rotation becomes false security, while visible stock without reserve becomes fragile security.",
+    "content_el": "Οι άνθρωποι συχνά φαντάζονται το caching ως απλό κρύψιμο πραγμάτων. Στην πραγματικότητα, μια χρήσιμη εφεδρεία πρέπει επίσης να παραμένει εντοπίσιμη από τους σωστούς ανθρώπους, προστατευμένη από υγρασία και παράσιτα και να περιστρέφεται πριν λήξει ή υποβαθμιστεί σιωπηλά. Ένα δυνατό σύστημα cache ξεχωρίζει καθημερινό απόθεμα, εφεδρεία έκτακτης ανάγκης και κρυφή εφεδρεία τελευταίας ανάγκης. Καταγράφει επίσης τι είναι αποθηκευμένο χωρίς να το διαφημίζει απερίσκεπτα. Το κεντρικό μάθημα είναι ότι το κρυφό απόθεμα χωρίς περιστροφή γίνεται ψευδής ασφάλεια, ενώ το ορατό απόθεμα χωρίς εφεδρεία γίνεται εύθραυστη ασφάλεια.",
+    "steps_en": [
+      "Separate daily, reserve, and hidden contingency stock.",
+      "Protect caches from moisture, pests, and accidental discovery.",
+      "Rotate stored items on a schedule instead of on memory.",
+      "Keep location and contents known to more than one trusted person.",
+      "Check whether concealment is hurting accessibility too much."
+    ],
+    "steps_el": [
+      "Χώρισε καθημερινό απόθεμα, εφεδρεία και κρυφή εφεδρεία ανάγκης.",
+      "Προστάτεψε τα caches από υγρασία, παράσιτα και τυχαία ανακάλυψη.",
+      "Περίστρεφε τα αποθηκευμένα είδη με πρόγραμμα και όχι με μνήμη.",
+      "Κράτα τοποθεσία και περιεχόμενο γνωστά σε περισσότερους από έναν έμπιστους ανθρώπους.",
+      "Έλεγξε αν η απόκρυψη βλάπτει υπερβολικά την προσβασιμότητα."
+    ],
+    "warnings_en": [
+      "A forgotten cache is not a reserve.",
+      "Bad concealment can still invite rot or pests.",
+      "Single-person knowledge creates brittle security."
+    ],
+    "warnings_el": [
+      "Ένα ξεχασμένο cache δεν είναι εφεδρεία.",
+      "Η κακή απόκρυψη μπορεί πάλι να καλέσει σήψη ή παράσιτα.",
+      "Η γνώση ενός μόνο ανθρώπου δημιουργεί εύθραυστη ασφάλεια."
+    ],
+    "mistakes_en": [
+      "Hiding supplies without maintenance or records.",
+      "Keeping all reserves in one obvious place.",
+      "Never rotating hidden food or medicine."
+    ],
+    "mistakes_el": [
+      "Να κρύβεις προμήθειες χωρίς συντήρηση ή αρχεία.",
+      "Να κρατάς όλες τις εφεδρείες σε ένα προφανές σημείο.",
+      "Να μην περιστρέφεις ποτέ κρυφή τροφή ή φάρμακα."
+    ],
+    "related_topics": [
+      "Field Notebook and Records Under Stress",
+      "Bartering, Negotiation, and Trade Records",
+      "Salvage Priorities After Collapse or Disaster"
+    ],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Further long-term resilience expansion."
+  }
+]
