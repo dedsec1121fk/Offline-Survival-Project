@@ -19,6 +19,7 @@ BOOKMARKS_FILE = os.path.join(APP_HOME, "bookmarks.json")
 SEARCH_HISTORY_FILE = os.path.join(APP_HOME, "search_history.json")
 WRAP_WIDTH = 96
 RECENT_LIMIT = 40
+PAGE_BREAK = "=" * WRAP_WIDTH
 
 REQUIRED_FIELDS = [
     "id", "topic", "category", "subcategory", "tags",
