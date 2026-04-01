@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ai::human_skill_preservation_under_automation",
+    "topic": "Human Skill Preservation Under AI Dependency",
+    "category": "dystopian_authoritarian_resilience",
+    "subcategory": "manual_skills_and_degraded_mode_operation",
+    "tags": [
+      "ai",
+      "skills",
+      "manual",
+      "dependency",
+      "resilience"
+    ],
+    "summary_en": "A society becomes fragile when tools grow smarter while users grow less practiced.",
+    "summary_el": "Μια κοινωνία γίνεται εύθραυστη όταν τα εργαλεία γίνονται πιο έξυπνα ενώ οι χρήστες εξασκούνται όλο και λιγότερο.",
+    "content_en": "AI and automation can increase convenience, but they also hide manual knowledge behind defaults, interfaces, and invisible systems. The survival question is not whether advanced tools are useful. It is whether people can still cook, navigate, record, decide, verify, repair, and coordinate when advanced tools are absent, wrong, or locked away. Skill preservation needs practice, not admiration. Each household should keep a degraded-mode routine: paper contacts, handwritten inventory, manual cooking, map reading, basic tool use, and simple local communication methods.",
+    "content_el": "Το AI και ο αυτοματισμός μπορούν να αυξήσουν την ευκολία, αλλά κρύβουν και τη χειροκίνητη γνώση πίσω από προεπιλογές, διεπαφές και αόρατα συστήματα. Η ερώτηση επιβίωσης δεν είναι αν τα προηγμένα εργαλεία είναι χρήσιμα. Είναι αν οι άνθρωποι μπορούν ακόμη να μαγειρέψουν, να πλοηγηθούν, να καταγράψουν, να αποφασίσουν, να επιβεβαιώσουν, να επισκευάσουν και να συντονιστούν όταν τα προηγμένα εργαλεία λείπουν, κάνουν λάθος ή κλειδώνονται. Η διατήρηση δεξιοτήτων χρειάζεται εξάσκηση, όχι θαυμασμό. Κάθε νοικοκυριό πρέπει να κρατά ρουτίνα υποβαθμισμένης λειτουργίας: χαρτί με επαφές, χειρόγραφη απογραφή, χειροκίνητο μαγείρεμα, ανάγνωση χάρτη, βασική χρήση εργαλείων και απλές τοπικές μεθόδους επικοινωνίας.",
+    "steps_en": [
+      "List everyday tasks the household can no longer do without a platform.",
+      "Practice one manual fallback each week.",
+      "Teach degraded-mode skills to more than one person.",
+      "Store simple tools and printed references.",
+      "Review which skills are assumed and which are actually practiced."
+    ],
+    "steps_el": [
+      "Κατάγραψε τις καθημερινές εργασίες που το σπίτι δεν μπορεί πια να κάνει χωρίς πλατφόρμα.",
+      "Εξάσκησε μία χειροκίνητη εφεδρεία κάθε εβδομάδα.",
+      "Δίδαξε δεξιότητες υποβαθμισμένης λειτουργίας σε περισσότερα από ένα άτομα.",
+      "Φύλαξε απλά εργαλεία και τυπωμένες οδηγίες.",
+      "Έλεγξε ποιες δεξιότητες θεωρούνται δεδομένες και ποιες όντως εξασκούνται."
+    ],
+    "warnings_en": [
+      "Convenience hides skill loss until failure becomes sudden.",
+      "A household may own many tools but still lack manual competence.",
+      "Stress makes unpracticed fallback methods feel much harder than they look on paper."
+    ],
+    "warnings_el": [
+      "Η ευκολία κρύβει την απώλεια δεξιότητας μέχρι η αποτυχία να γίνει ξαφνική.",
+      "Ένα νοικοκυριό μπορεί να έχει πολλά εργαλεία αλλά να του λείπει η χειροκίνητη επάρκεια.",
+      "Το στρες κάνει τις μη εξασκημένες εφεδρικές μεθόδους να φαίνονται πολύ δυσκολότερες απ’ όσο δείχνουν στο χαρτί."
+    ],
+    "mistakes_en": [
+      "Admiring resilience topics without practicing them.",
+      "Letting only one person know essential manual tasks.",
+      "Keeping references digitally only."
+    ],
+    "mistakes_el": [
+      "Να θαυμάζεις θέματα ανθεκτικότητας χωρίς να τα εξασκείς.",
+      "Να αφήνεις μόνο ένα άτομο να ξέρει βασικές χειροκίνητες εργασίες.",
+      "Να κρατάς οδηγίες μόνο σε ψηφιακή μορφή."
+    ],
+    "related_topics": [
+      "Automation Failure and AI-Controlled System Disruption",
+      "Household Skill Mapping and Apprenticeship",
+      "Knowledge Preservation"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]
