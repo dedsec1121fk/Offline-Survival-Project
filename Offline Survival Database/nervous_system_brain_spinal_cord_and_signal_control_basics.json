@@ -1,0 +1,25 @@
+[
+  {
+    "id": "physiology::nervous_system_brain_spinal_signal_control",
+    "topic": "Nervous System, Brain, Spinal Cord, and Signal Control Basics",
+    "category": "anatomy_biology_physiology",
+    "subcategory": "nervous_system_foundation",
+    "tags": ["brain", "nerves", "spinal cord", "signals", "neurology"],
+    "summary_en": "The nervous system coordinates sensation, movement, balance, awareness, and automatic body control. When signal pathways fail, the body may still be present but no longer working together well.",
+    "summary_el": "Το νευρικό σύστημα συντονίζει αίσθηση, κίνηση, ισορροπία, επίγνωση και αυτόματο έλεγχο σώματος. Όταν οι οδοί σημάτων αποτυγχάνουν, το σώμα μπορεί ακόμη να υπάρχει αλλά να μην λειτουργεί πλέον καλά ως σύνολο.",
+    "content_en": "The brain processes information, the spinal cord transmits major pathways, and peripheral nerves carry signals to and from the rest of the body. This system lets a person think, sense danger, coordinate movement, maintain balance, speak, and control many automatic body functions without conscious effort. Injury, pressure, lack of oxygen, blood loss, infection, toxins, exhaustion, or temperature extremes can all disrupt nervous system function in different ways. In survival settings, this matters because change in alertness, confusion, weakness, poor coordination, numbness, unequal movement, strange behavior, or loss of bowel or bladder control can point to neurological trouble rather than simple fatigue alone. Practical understanding means treating the nervous system as the control network of the body. When signal control is failing, even strong muscles and intact bones may not produce safe function.",
+    "content_el": "Ο εγκέφαλος επεξεργάζεται πληροφορίες, ο νωτιαίος μυελός μεταφέρει βασικές οδούς και τα περιφερικά νεύρα κουβαλούν σήματα προς και από το υπόλοιπο σώμα. Αυτό το σύστημα επιτρέπει σε έναν άνθρωπο να σκέφτεται, να αισθάνεται κίνδυνο, να συντονίζει κίνηση, να κρατά ισορροπία, να μιλά και να ελέγχει πολλές αυτόματες λειτουργίες σώματος χωρίς συνειδητή προσπάθεια. Τραυματισμός, πίεση, έλλειψη οξυγόνου, απώλεια αίματος, λοίμωξη, τοξίνες, εξάντληση ή ακραίες θερμοκρασίες μπορούν όλα να διαταράξουν τη λειτουργία του νευρικού συστήματος με διαφορετικούς τρόπους. Σε συνθήκες επιβίωσης αυτό μετρά επειδή αλλαγή εγρήγορσης, σύγχυση, αδυναμία, κακός συντονισμός, μούδιασμα, άνιση κίνηση, παράξενη συμπεριφορά ή απώλεια ελέγχου εντέρου ή ουροδόχου κύστης μπορεί να δείχνουν νευρολογικό πρόβλημα και όχι απλή κόπωση μόνο. Η πρακτική κατανόηση σημαίνει να αντιμετωπίζεις το νευρικό σύστημα ως το δίκτυο ελέγχου του σώματος. Όταν ο έλεγχος σημάτων αποτυγχάνει, ακόμη και δυνατοί μύες και ακέραια οστά μπορεί να μην παράγουν ασφαλή λειτουργία.",
+    "steps_en": ["Watch changes in alertness, speech, sensation, coordination, and limb use together.","Treat unequal weakness or altered behavior seriously.","Reduce unnecessary movement if spinal or major nerve injury is suspected.","Reassess neurological signs over time instead of trusting one quick look.","Remember that control-system failure can look like weakness, confusion, or clumsiness."],
+    "steps_el": ["Παρακολούθησε μαζί αλλαγές σε εγρήγορση, ομιλία, αίσθηση, συντονισμό και χρήση άκρων.","Αντιμετώπισε σοβαρά άνιση αδυναμία ή αλλοιωμένη συμπεριφορά.","Μείωσε άσκοπη κίνηση αν υπάρχει υποψία τραυματισμού σπονδυλικής στήλης ή μεγάλου νεύρου.","Επανεκτίμησε νευρολογικά σημεία με τον χρόνο αντί να εμπιστεύεσαι μία γρήγορη ματιά.","Θυμήσου ότι η αποτυχία συστήματος ελέγχου μπορεί να μοιάζει με αδυναμία, σύγχυση ή αδεξιότητα."],
+    "warnings_en": ["Neurological decline can be subtle at first and serious later.","Spinal and head injury need cautious handling.","Confusion is not always just stress or tiredness."],
+    "warnings_el": ["Η νευρολογική επιδείνωση μπορεί αρχικά να είναι διακριτική και αργότερα σοβαρή.","Τραυματισμός κεφαλής και σπονδυλικής στήλης χρειάζονται προσεκτικό χειρισμό.","Η σύγχυση δεν είναι πάντα μόνο στρες ή κούραση."],
+    "mistakes_en": ["Assuming coordination failure is only poor effort.","Ignoring numbness or unequal movement.","Moving a suspected spinal casualty casually."],
+    "mistakes_el": ["Να υποθέτεις ότι η αποτυχία συντονισμού είναι μόνο κακή προσπάθεια.","Να αγνοείς μούδιασμα ή άνιση κίνηση.","Να μετακινείς επιπόλαια τραυματία με υποψία σπονδυλικής βλάβης."],
+    "related_topics": ["Human Skeletal System, Structure, Load, and Fracture Basics", "Circulation, Heart, Blood Vessels, and Perfusion Basics", "Respiration, Airway, Lungs, and Gas Exchange Basics"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Deep anatomy expansion pass for nervous-system control, brain, and spinal logic."
+  }
+]
