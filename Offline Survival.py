@@ -39,13 +39,26 @@ SEARCH_SYNONYMS = {
     "movement": ["route", "terrain", "evacuation", "travel"],
     "mountain": ["elevation", "slope", "terrain", "cold"],
     "garden": ["seed", "soil", "crop", "agriculture"],
+    "wild": ["wilderness", "forest", "camp", "route", "rain"],
+    "wilderness": ["wild", "forest", "camp", "route", "water"],
+    "urban": ["town", "apartment", "blackout", "stairs", "sanitation"],
+    "town": ["urban", "apartment", "neighbors", "barter", "water"],
+    "blackout": ["power", "urban", "apartment", "light", "stairs"],
+    "ai": ["automation", "lockout", "manual", "records", "offline"],
+    "biology": ["anatomy", "sleep", "infection", "healing", "digestion"],
+    "recipes": ["food", "rice", "bread", "beans", "broth"],
     "animals": ["livestock", "feed", "pen", "fodder"],
     "νερο": ["ενυδατωση", "αφυδατωση", "καθαρισμος", "αποθηκευση"],
     "τροφη": ["διατροφη", "θερμιδες", "συντηρηση", "πεινα"],
     "ιατρικη": ["φαρμακα", "τραυμα", "θεραπεια", "τριαζ"],
     "ψυχολογια": ["στρες", "πανικος", "ηθικο", "νοητικο"],
     "κινηση": ["διαδρομη", "εδάφος", "εκκενωση", "ταξιδι"],
-    "βουνο": ["υψομετρο", "κλιση", "εδάφος", "κρυο"]
+    "βουνο": ["υψομετρο", "κλιση", "εδάφος", "κρυο"],
+    "αγρια": ["υπαιθρος", "κατασκηνωση", "διαδρομη", "βροχη", "νερο"],
+    "πολη": ["αστικο", "διαμερισμα", "blackout", "σκαλες", "υγιεινη"],
+    "τεχνητη": ["ai", "αυτοματισμος", "κλειδωμα", "offline"],
+    "βιολογια": ["ανατομια", "υπνος", "λοιμωξη", "επουλωση", "πεψη"],
+    "συνταγες": ["τροφη", "ρυζι", "ψωμι", "οσπρια", "ζωμος"]
 }
 
 UI = {
@@ -108,7 +121,19 @@ UI = {
         "library_failed": "TXT library extraction failed:",
         "integrity_ok": "No duplicate IDs or major missing-field issues were found.",
         "reload_msg": "Database reloaded.",
-        "help_text": "Search now expands queries with survival synonyms in English and Greek, ranks fields more intelligently, shows why results matched, stores recent searches in ~/Offline Survival, and can extract the entire knowledge base to /storage/emulated/0/Download/Offline Survival TXT's. The reader now starts in easy read mode. Hidden main-menu commands: reload | lang | recent."
+        "help_text": "Search now expands queries with survival synonyms in English and Greek, ranks fields more intelligently, shows why results matched, stores recent searches in ~/Offline Survival, and can extract the entire knowledge base to /storage/emulated/0/Download/Offline Survival TXT's. The reader now starts in easy read mode. Hidden main-menu commands: reload | lang | recent.",
+        "no_logs": "No update logs found yet.",
+        "meta_category": "Category",
+        "meta_subcategory": "Subcategory",
+        "meta_tags": "Tags",
+        "meta_priority": "Priority",
+        "meta_urgency": "Urgency",
+        "meta_difficulty": "Difficulty",
+        "meta_updated": "Last updated",
+        "meta_note": "Update note",
+        "meta_source": "Source file",
+        "related_topics_label": "Related topics",
+        "choose_related": "Choose related number or Enter:"
     },
     "el": {
         "welcome": "Offline Survival - ισχυρότερη αναζήτηση, ευκολότερη ανάγνωση, βαθύτερη offline βιβλιοθήκη",
@@ -169,7 +194,19 @@ UI = {
         "library_failed": "Η εξαγωγή βιβλιοθήκης TXT απέτυχε:",
         "integrity_ok": "Δεν βρέθηκαν διπλά IDs ή σοβαρά προβλήματα ελλιπών πεδίων.",
         "reload_msg": "Η βάση επαναφορτώθηκε.",
-        "help_text": "Η αναζήτηση τώρα επεκτείνει ερωτήματα με συνώνυμα επιβίωσης σε Ελληνικά και Αγγλικά, δίνει πιο έξυπνη βαρύτητα στα πεδία, δείχνει γιατί ταίριαξαν τα αποτελέσματα, αποθηκεύει πρόσφατες αναζητήσεις στο ~/Offline Survival και μπορεί να εξάγει όλη τη γνώση στο /storage/emulated/0/Download/Offline Survival TXT's. Ο αναγνώστης ξεκινά τώρα σε εύκολη λειτουργία ανάγνωσης. Κρυφές εντολές κεντρικού μενού: reload | lang | recent."
+        "help_text": "Η αναζήτηση τώρα επεκτείνει ερωτήματα με συνώνυμα επιβίωσης σε Ελληνικά και Αγγλικά, δίνει πιο έξυπνη βαρύτητα στα πεδία, δείχνει γιατί ταίριαξαν τα αποτελέσματα, αποθηκεύει πρόσφατες αναζητήσεις στο ~/Offline Survival και μπορεί να εξάγει όλη τη γνώση στο /storage/emulated/0/Download/Offline Survival TXT's. Ο αναγνώστης ξεκινά τώρα σε εύκολη λειτουργία ανάγνωσης. Κρυφές εντολές κεντρικού μενού: reload | lang | recent.",
+        "no_logs": "Δεν βρέθηκαν ακόμη αρχεία ενημερώσεων.",
+        "meta_category": "Κατηγορία",
+        "meta_subcategory": "Υποκατηγορία",
+        "meta_tags": "Ετικέτες",
+        "meta_priority": "Προτεραιότητα",
+        "meta_urgency": "Επείγον",
+        "meta_difficulty": "Δυσκολία",
+        "meta_updated": "Τελευταία ενημέρωση",
+        "meta_note": "Σημείωση ενημέρωσης",
+        "meta_source": "Αρχείο πηγής",
+        "related_topics_label": "Σχετικά θέματα",
+        "choose_related": "Διάλεξε σχετικό αριθμό ή Enter:"
     }
 }
 
@@ -528,13 +565,13 @@ def print_header(title):
 
 
 def print_meta(item, lang, bookmarks):
-    print(f"Category: {item.get('category', '')}")
-    print(f"Subcategory: {item.get('subcategory', '')}")
-    print(f"Tags: {', '.join(item.get('tags', []) or [])}")
-    print(f"Priority: {item.get('priority', '')} | Urgency: {item.get('urgency', '')} | Difficulty: {item.get('difficulty', '')}")
-    print(f"Last updated: {item.get('last_updated', '')}")
-    print(f"Update note: {item.get('update_note', '')}")
-    print(f"Source file: {item.get('_source_file', '')}")
+    print(f"{UI[lang]['meta_category']}: {item.get('category', '')}")
+    print(f"{UI[lang]['meta_subcategory']}: {item.get('subcategory', '')}")
+    print(f"{UI[lang]['meta_tags']}: {', '.join(item.get('tags', []) or [])}")
+    print(f"{UI[lang]['meta_priority']}: {item.get('priority', '')} | {UI[lang]['meta_urgency']}: {item.get('urgency', '')} | {UI[lang]['meta_difficulty']}: {item.get('difficulty', '')}")
+    print(f"{UI[lang]['meta_updated']}: {item.get('last_updated', '')}")
+    print(f"{UI[lang]['meta_note']}: {item.get('update_note', '')}")
+    print(f"{UI[lang]['meta_source']}: {item.get('_source_file', '')}")
     print(UI[lang]["bookmarked"] if item.get("id") in bookmarks else UI[lang]["not_bookmarked"])
 
 
@@ -682,7 +719,7 @@ def reader(entries, items, start_index, lang, bookmarks):
                 print()
                 for i, item in enumerate(rel, 1):
                     print(f"{i}. {item.get('topic', '')} [{item.get('category', '')}]")
-                pick = input("Choose related number or Enter: ").strip()
+                pick = input(UI[lang]["choose_related"] + " ").strip()
                 if pick.isdigit() and 1 <= int(pick) <= len(rel):
                     chosen = rel[int(pick) - 1]
                     if chosen in items:
@@ -797,6 +834,10 @@ def show_logs(lang):
     logs = list_logs()
     clear()
     print_header(UI[lang]["logs"])
+    if not logs:
+        print(UI[lang]["no_logs"])
+        pause(lang)
+        return
     for i, log in enumerate(logs, 1):
         print(f"{i}. {log}")
     choice = input("\n" + UI[lang]["pick"] + ": ").strip()
