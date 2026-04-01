@@ -1,7 +1,7 @@
 [
   {
     "id": "anatomy::symptom_logs",
-    "topic": "Symptom Logs and Daily Health Checks",
+    "topic": "Early Warning Symptom Logs and Daily Health Checks",
     "category": "anatomy_biology",
     "subcategory": "monitoring_and_early_warning",
     "tags": [
@@ -58,6 +58,6 @@
     "urgency": "high",
     "priority": "high",
     "last_updated": "2026-04-01",
-    "update_note": "Added repo expansion topic to fill existing related-topic gap."
+    "update_note": "Cleanup pass and expansion."
   }
 ]

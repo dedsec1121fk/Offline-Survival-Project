@@ -1,0 +1,63 @@
+[
+  {
+    "id": "bio::sleep_debt_judgment_rotation",
+    "topic": "Sleep Debt, Judgment Failure, and Work-Rotation Protection",
+    "category": "anatomy_biology",
+    "subcategory": "sleep_cognition_and_task_safety",
+    "tags": [
+      "sleep",
+      "judgment",
+      "fatigue",
+      "rotation",
+      "biology"
+    ],
+    "summary_en": "Sleep debt is not just feeling tired. It is degraded perception, worse memory, weaker impulse control, and dangerous false confidence.",
+    "summary_el": "Η στέρηση ύπνου δεν είναι απλώς κούραση. Είναι χειρότερη αντίληψη, φτωχότερη μνήμη, πιο αδύναμος έλεγχος παρορμήσεων και επικίνδυνη ψεύτικη αυτοπεποίθηση.",
+    "content_en": "The survival impact appears first in small tasks: missed items, bad route choices, poor tool handling, forgotten medication, snapping at others, and confidence that exceeds actual performance. The body can keep moving after judgment has already degraded. That is why work rotation matters. Critical tasks should move away from the most depleted people, and checklists should replace memory when fatigue is obvious. A team that protects sleep protects every other resource through better judgment.",
+    "content_el": "Η επίδραση στην επιβίωση φαίνεται πρώτα στα μικρά έργα: ξεχασμένα αντικείμενα, κακές επιλογές διαδρομής, κακός χειρισμός εργαλείων, ξεχασμένα φάρμακα, ξεσπάσματα σε άλλους και αυτοπεποίθηση μεγαλύτερη από την πραγματική απόδοση. Το σώμα μπορεί να συνεχίζει να κινείται αφού η κρίση έχει ήδη χειροτερέψει. Γι’ αυτό μετρά η κατανομή βαρδιών. Οι κρίσιμες εργασίες πρέπει να φεύγουν από τους πιο εξαντλημένους και οι λίστες ελέγχου να αντικαθιστούν τη μνήμη όταν η κόπωση είναι φανερή. Μια ομάδα που προστατεύει τον ύπνο προστατεύει κάθε άλλο πόρο μέσω καλύτερης κρίσης.",
+    "steps_en": [
+      "Treat sleep as an operational resource.",
+      "Move high-risk tasks away from the most sleep-deprived person.",
+      "Use checklists when fatigue is prolonged.",
+      "Build recovery rest into rotations before collapse starts.",
+      "Watch for irritability, clumsiness, forgetfulness, and false certainty."
+    ],
+    "steps_el": [
+      "Αντιμετώπισε τον ύπνο ως επιχειρησιακό πόρο.",
+      "Μετέφερε τις εργασίες υψηλού κινδύνου μακριά από τον πιο στερημένο από ύπνο.",
+      "Χρησιμοποίησε λίστες ελέγχου όταν η κόπωση παρατείνεται.",
+      "Βάλε ανάκαμψη στις βάρδιες πριν αρχίσει η κατάρρευση.",
+      "Παρακολούθησε εκνευρισμό, αδεξιότητα, αφηρημάδα και ψεύτικη βεβαιότητα."
+    ],
+    "warnings_en": [
+      "People judge τη δική τους απόδοση άσχημα όταν η στέρηση ύπνου είναι σοβαρή.",
+      "Stimulants can hide sleepiness without restoring judgment.",
+      "A tired leader can spread bad pacing and bad decisions."
+    ],
+    "warnings_el": [
+      "Οι άνθρωποι κρίνουν άσχημα τη δική τους απόδοση όταν η στέρηση ύπνου είναι σοβαρή.",
+      "Τα διεγερτικά μπορούν να κρύψουν τη νύστα χωρίς να αποκαθιστούν την κρίση.",
+      "Ένας κουρασμένος υπεύθυνος μπορεί να μεταδώσει κακό ρυθμό και κακές αποφάσεις."
+    ],
+    "mistakes_en": [
+      "Treating sleep loss as a character test.",
+      "Assigning precision or safety-critical tasks to depleted people.",
+      "Waiting for complete exhaustion before allowing rest."
+    ],
+    "mistakes_el": [
+      "Να αντιμετωπίζεις την έλλειψη ύπνου ως τεστ χαρακτήρα.",
+      "Να δίνεις ακριβείς ή κρίσιμες εργασίες σε εξαντλημένους ανθρώπους.",
+      "Να περιμένεις την πλήρη εξάντληση πριν επιτρέψεις ξεκούραση."
+    ],
+    "related_topics": [
+      "Sleep Biology and Survival Performance",
+      "Sleep Deprivation, Judgment, and Error Chains",
+      "Day Plan, Turnaround Time, and Energy Budgeting"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]

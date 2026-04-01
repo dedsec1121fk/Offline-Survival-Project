@@ -1,0 +1,63 @@
+[
+  {
+    "id": "town::barter_board_and_message_point",
+    "topic": "Town Message Points, Barter Boards, and Local Coordination",
+    "category": "community_rebuilding_household_resilience",
+    "subcategory": "local_information_exchange",
+    "tags": [
+      "town",
+      "barter",
+      "messages",
+      "coordination",
+      "community"
+    ],
+    "summary_en": "A town stabilizes faster when information and exchange have predictable places instead of spreading as rumor in every direction.",
+    "summary_el": "Μια πόλη σταθεροποιείται γρηγορότερα όταν η πληροφορία και η ανταλλαγή έχουν προβλέψιμα σημεία αντί να απλώνονται ως φήμες προς κάθε κατεύθυνση.",
+    "content_en": "People still need to announce water arrivals, medicine needs, available skills, missing persons, repair help, and fair exchanges during disruption. Without structure, these needs create crowding, rumor, exploitation, and wasted trips. A local message point or barter board turns scattered need into visible order. It works best when entries are dated, simple, and separated into urgent notices, routine logistics, trade offers, and labor requests.",
+    "content_el": "Οι άνθρωποι πρέπει ακόμη να ανακοινώνουν αφίξεις νερού, ανάγκες φαρμάκων, διαθέσιμες δεξιότητες, αγνοούμενους, βοήθεια επισκευής και δίκαιες ανταλλαγές μέσα στη διαταραχή. Χωρίς δομή, αυτές οι ανάγκες δημιουργούν συνωστισμό, φήμες, εκμετάλλευση και χαμένες διαδρομές. Ένα τοπικό σημείο μηνυμάτων ή πίνακας ανταλλαγών μετατρέπει τη διάσπαρτη ανάγκη σε ορατή τάξη. Δουλεύει καλύτερα όταν οι καταχωρίσεις είναι χρονολογημένες, απλές και χωρισμένες σε επείγοντα, καθημερινή logistics, προσφορές ανταλλαγής και αιτήματα εργασίας.",
+    "steps_en": [
+      "Choose one visible and reasonably safe place for notices.",
+      "Date all entries and remove stale ones regularly.",
+      "Separate urgent notices from routine offers and requests.",
+      "Use simple language that can be scanned quickly.",
+      "Update at predictable times."
+    ],
+    "steps_el": [
+      "Διάλεξε ένα ορατό και σχετικά ασφαλές σημείο για ανακοινώσεις.",
+      "Βάλε ημερομηνία σε όλες τις καταχωρίσεις και αφαίρεσε τα παλιά τακτικά.",
+      "Χώρισε τα επείγοντα από τις συνηθισμένες προσφορές και τα αιτήματα.",
+      "Χρησιμοποίησε απλή γλώσσα που διαβάζεται γρήγορα.",
+      "Ενημέρωνε σε προβλέψιμες ώρες."
+    ],
+    "warnings_en": [
+      "Old notices can become as dangerous as false notices.",
+      "Crowded unsorted message areas create conflict and confusion.",
+      "Trade information without basic rules invites resentment."
+    ],
+    "warnings_el": [
+      "Οι παλιές ανακοινώσεις μπορούν να γίνουν τόσο επικίνδυνες όσο και οι ψεύτικες.",
+      "Οι γεμάτοι και αταξινόμητοι χώροι ανακοινώσεων δημιουργούν σύγκρουση και σύγχυση.",
+      "Οι πληροφορίες ανταλλαγής χωρίς βασικούς κανόνες προσκαλούν πικρία."
+    ],
+    "mistakes_en": [
+      "Posting everything in one undifferentiated list.",
+      "Never removing outdated offers or requests.",
+      "Relying on word of mouth for all important coordination."
+    ],
+    "mistakes_el": [
+      "Να αναρτάς τα πάντα σε μία αδιαφοροποίητη λίστα.",
+      "Να μην αφαιρείς ποτέ παλιές προσφορές ή αιτήματα.",
+      "Να βασίζεσαι μόνο στο στόμα με στόμα για όλο τον σημαντικό συντονισμό."
+    ],
+    "related_topics": [
+      "Community Notice Boards and Public Information Flow",
+      "Local Trade, Barter, and Fair Exchange Basics",
+      "Decision Cycles, Briefings, and Shift Handoffs"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]

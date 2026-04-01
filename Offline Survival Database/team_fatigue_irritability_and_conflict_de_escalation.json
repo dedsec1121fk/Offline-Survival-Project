@@ -1,0 +1,63 @@
+[
+  {
+    "id": "psych::fatigue_irritability_deescalation",
+    "topic": "Team Fatigue, Irritability, and Conflict De-escalation",
+    "category": "psychology_group_resilience",
+    "subcategory": "group_friction_under_load",
+    "tags": [
+      "fatigue",
+      "conflict",
+      "de-escalation",
+      "team",
+      "morale"
+    ],
+    "summary_en": "Many group conflicts are not really about values or loyalty. They are about exhaustion, hunger, heat, noise, and accumulated small disrespect.",
+    "summary_el": "Πολλές συγκρούσεις ομάδας δεν αφορούν πραγματικά αξίες ή πίστη. Αφορούν εξάντληση, πείνα, ζέστη, θόρυβο και συσσωρευμένη μικρή ασέβεια.",
+    "content_en": "Under prolonged strain, people overread tone, react faster, and stop noticing how much of the argument is bodily stress. De-escalation is therefore partly physical management: water, food, spacing, lower voice level, rest, and postponing decisions that do not need to happen immediately. A mature team separates problem-solving from humiliation. Use short statements, name the concrete issue, assign a review time, and protect fair work rotation so the same people do not absorb all strain.",
+    "content_el": "Κάτω από παρατεταμένη πίεση, οι άνθρωποι υπερερμηνεύουν τον τόνο, αντιδρούν πιο γρήγορα και σταματούν να βλέπουν πόσο μέρος του καβγά είναι σωματικό στρες. Η αποκλιμάκωση είναι λοιπόν και σωματική διαχείριση: νερό, φαγητό, απόσταση, χαμηλότερη ένταση φωνής, ξεκούραση και αναβολή αποφάσεων που δεν χρειάζονται αμέσως. Μια ώριμη ομάδα χωρίζει τη λύση προβλήματος από την ταπείνωση. Χρησιμοποίησε σύντομες φράσεις, ονόμασε το συγκεκριμένο θέμα, όρισε χρόνο επανεξέτασης και προστάτευσε δίκαιη κατανομή δουλειάς ώστε να μη σηκώνουν οι ίδιοι όλη την πίεση.",
+    "steps_en": [
+      "Check hunger, thirst, heat, sleep debt, and noise before treating conflict as purely personal.",
+      "Lower voices and shorten statements when tension rises.",
+      "Pause non-urgent decisions.",
+      "Use fixed times for review instead of endless argument loops.",
+      "Protect fair work rotation."
+    ],
+    "steps_el": [
+      "Έλεγξε πείνα, δίψα, ζέστη, στέρηση ύπνου και θόρυβο πριν θεωρήσεις μια σύγκρουση καθαρά προσωπική.",
+      "Χαμήλωσε τις φωνές και σύντμησε τις φράσεις όταν ανεβαίνει η ένταση.",
+      "Πάγωσε μη επείγουσες αποφάσεις.",
+      "Χρησιμοποίησε σταθερούς χρόνους επανεξέτασης αντί για ατελείωτους κύκλους καβγά.",
+      "Προστάτευσε δίκαιη κατανομή βαρδιών και εργασίας."
+    ],
+    "warnings_en": [
+      "Sleep debt and dehydration can make ordinary disagreement feel like betrayal.",
+      "Public humiliation creates long-term group damage.",
+      "Unfair labor distribution silently poisons morale."
+    ],
+    "warnings_el": [
+      "Η στέρηση ύπνου και η αφυδάτωση μπορούν να κάνουν μια συνηθισμένη διαφωνία να μοιάζει προδοσία.",
+      "Η δημόσια ταπείνωση δημιουργεί μακροχρόνια ζημιά στην ομάδα.",
+      "Η άδικη κατανομή δουλειάς δηλητηριάζει αθόρυβα το ηθικό."
+    ],
+    "mistakes_en": [
+      "Trying to solve the whole relationship during acute fatigue.",
+      "Escalating tone to force compliance.",
+      "Ignoring practical stressors while arguing about principles."
+    ],
+    "mistakes_el": [
+      "Να προσπαθείς να λύσεις όλη τη σχέση μέσα σε οξεία κόπωση.",
+      "Να κλιμακώνεις τον τόνο για να επιβάλεις συμμόρφωση.",
+      "Να αγνοείς πρακτικούς στρεσογόνους παράγοντες ενώ μαλώνεις για αρχές."
+    ],
+    "related_topics": [
+      "Group Conflict Pause Rules and Post-Argument Reset",
+      "Decision Cycles, Briefings, and Shift Handoffs",
+      "Morale Maintenance and Hope Without Delusion"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]
