@@ -1,0 +1,63 @@
+[
+  {
+    "id": "medical::wound_triage",
+    "topic": "Wound Triage and When Not to Delay Action",
+    "category": "medical_and_first_aid",
+    "subcategory": "triage_and_decision",
+    "tags": [
+      "wound",
+      "triage",
+      "bleeding",
+      "infection",
+      "decision"
+    ],
+    "summary_en": "In survival medicine, delay causes damage. Small-looking wounds can hide bigger danger, while dramatic-looking wounds may still become manageable if triaged correctly and early.",
+    "summary_el": "Στην ιατρική επιβίωσης, η καθυστέρηση κάνει ζημιά. Τραύματα που φαίνονται μικρά μπορεί να κρύβουν μεγαλύτερο κίνδυνο, ενώ τραύματα που φαίνονται δραματικά μπορεί πάλι να γίνουν διαχειρίσιμα αν αξιολογηθούν σωστά και νωρίς.",
+    "content_en": "Triage means deciding what matters first under pressure. With wounds, the first questions are not cosmetic. They are functional: is bleeding controlled, is there loss of function, is contamination severe, is the person getting weaker, and is there any sign the problem is worsening faster than care is keeping up? A survival group becomes safer when people stop waiting for certainty before acting on obvious deterioration. Clean pressure, bleeding control, contamination control, pain awareness, rest, observation, and escalation timing matter more than heroic late responses. The teaching value of wound triage is that it disciplines attention: function first, appearance second.",
+    "content_el": "Η αξιολόγηση προτεραιότητας σημαίνει να αποφασίζεις τι μετρά πρώτο κάτω από πίεση. Στα τραύματα, οι πρώτες ερωτήσεις δεν είναι αισθητικές. Είναι λειτουργικές: ελέγχεται η αιμορραγία, υπάρχει απώλεια λειτουργίας, είναι σοβαρή η μόλυνση, ο άνθρωπος γίνεται πιο αδύναμος και υπάρχει σημάδι ότι το πρόβλημα χειροτερεύει πιο γρήγορα από όσο προλαβαίνει η φροντίδα; Μια ομάδα επιβίωσης γίνεται ασφαλέστερη όταν οι άνθρωποι σταματούν να περιμένουν βεβαιότητα πριν δράσουν πάνω σε εμφανή επιδείνωση. Η καθαρή πίεση, ο έλεγχος αιμορραγίας, ο έλεγχος μόλυνσης, η επίγνωση πόνου, η ανάπαυση, η παρατήρηση και ο σωστός χρόνος κλιμάκωσης μετρούν περισσότερο από ηρωικές καθυστερημένες αντιδράσεις. Η διδακτική αξία της αξιολόγησης τραύματος είναι ότι πειθαρχεί την προσοχή: πρώτα λειτουργία, μετά εμφάνιση.",
+    "steps_en": [
+      "Control active bleeding first.",
+      "Judge function, contamination, pain, swelling, and trend.",
+      "Document changes across hours and days instead of trusting memory.",
+      "Reduce work for worsening wounds early.",
+      "Escalate quickly when the wound outpaces your care capacity."
+    ],
+    "steps_el": [
+      "Έλεγξε πρώτα την ενεργή αιμορραγία.",
+      "Κρίνε λειτουργία, μόλυνση, πόνο, πρήξιμο και τάση.",
+      "Κατέγραψε τις αλλαγές μέσα σε ώρες και μέρες αντί να εμπιστεύεσαι τη μνήμη.",
+      "Μείωσε νωρίς την εργασία για τραύματα που χειροτερεύουν.",
+      "Κλιμάκωσε γρήγορα όταν το τραύμα ξεπερνά την ικανότητα φροντίδας σου."
+    ],
+    "warnings_en": [
+      "A wound can worsen quietly before it looks dramatic.",
+      "Pain reduction alone does not prove improvement.",
+      "Repeated dirt exposure can undo careful care."
+    ],
+    "warnings_el": [
+      "Ένα τραύμα μπορεί να χειροτερέψει ήσυχα πριν φανεί δραματικό.",
+      "Η μείωση πόνου από μόνη της δεν αποδεικνύει βελτίωση.",
+      "Η επαναλαμβανόμενη έκθεση σε βρωμιά μπορεί να ακυρώσει προσεκτική φροντίδα."
+    ],
+    "mistakes_en": [
+      "Waiting too long because the wound looks small.",
+      "Focusing on appearance while function declines.",
+      "Letting the injured person keep working to avoid inconvenience."
+    ],
+    "mistakes_el": [
+      "Να περιμένεις πολύ επειδή το τραύμα φαίνεται μικρό.",
+      "Να εστιάζεις στην εμφάνιση ενώ η λειτουργία πέφτει.",
+      "Να αφήνεις τον τραυματισμένο να συνεχίζει να δουλεύει για να αποφύγεις ενόχληση."
+    ],
+    "related_topics": [
+      "Bleeding Control and Wound Care",
+      "Infection Spread, Healing, and Recovery Load",
+      "Symptom Logs and Daily Health Checks"
+    ],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Major systems expansion pass."
+  }
+]
