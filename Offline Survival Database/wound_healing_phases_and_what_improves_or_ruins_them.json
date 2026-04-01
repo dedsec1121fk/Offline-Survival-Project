@@ -1,0 +1,63 @@
+[
+  {
+    "id": "bio::wound_healing_phases_protection",
+    "topic": "Wound Healing Phases and What Improves or Ruins Them",
+    "category": "medical_and_first_aid",
+    "subcategory": "healing_progress_and_protection",
+    "tags": [
+      "wound",
+      "healing",
+      "infection",
+      "recovery",
+      "care"
+    ],
+    "summary_en": "A wound does not heal because time passes. It heals because bleeding is controlled, tissue is protected, contamination is limited, and the body has enough support to rebuild.",
+    "summary_el": "Ένα τραύμα δεν επουλώνεται επειδή απλώς περνά ο χρόνος. Επουλώνεται επειδή ελέγχεται η αιμορραγία, προστατεύεται ο ιστός, περιορίζεται η μόλυνση και το σώμα έχει αρκετή υποστήριξη για να ξαναχτίσει.",
+    "content_en": "Healing progresses through stages, and each stage can be helped or sabotaged. Early priorities include controlling bleeding, cleaning appropriately, protecting from dirt and repeated friction, and watching for worsening pain, redness, swelling, discharge, smell, or fever. Many people worsen wounds by overhandling, using dirty cloths, picking at scabs, or returning too quickly to rubbing pressure. A wound that looks small can still become functionally serious if it is on a foot, hand, or joint.",
+    "content_el": "Η επούλωση προχωρά σε στάδια και κάθε στάδιο μπορεί να βοηθηθεί ή να σαμποταριστεί. Οι πρώτες προτεραιότητες περιλαμβάνουν έλεγχο αιμορραγίας, κατάλληλο καθαρισμό, προστασία από βρωμιά και επαναλαμβανόμενη τριβή και παρακολούθηση για αυξανόμενο πόνο, κοκκίνισμα, πρήξιμο, υγρά, μυρωδιά ή πυρετό. Πολλοί χειροτερεύουν τα τραύματα επειδή τα πιάνουν υπερβολικά, χρησιμοποιούν βρώμικα πανιά, πειράζουν τις κρούστες ή επιστρέφουν πολύ γρήγορα σε τριβή και πίεση. Ένα τραύμα που φαίνεται μικρό μπορεί πάλι να γίνει λειτουργικά σοβαρό αν είναι σε πόδι, χέρι ή άρθρωση.",
+    "steps_en": [
+      "Control bleeding, clean appropriately, and protect the area early.",
+      "Reduce friction, dirt, and repeated reopening.",
+      "Watch daily for pain, redness, swelling, heat, discharge, or smell changes.",
+      "Support healing with food, fluids, rest, and circulation where possible.",
+      "Treat hand, foot, and joint wounds with extra caution."
+    ],
+    "steps_el": [
+      "Έλεγξε την αιμορραγία, καθάρισε κατάλληλα και προστάτευσε νωρίς την περιοχή.",
+      "Μείωσε τριβή, βρωμιά και επαναλαμβανόμενο ξανάνοιγμα.",
+      "Παρακολούθησε καθημερινά για αλλαγές σε πόνο, κοκκίνισμα, πρήξιμο, θερμότητα, υγρά ή μυρωδιά.",
+      "Υποστήριξε την επούλωση με τροφή, υγρά, ξεκούραση και κυκλοφορία όπου γίνεται.",
+      "Αντιμετώπισε τραύματα σε χέρια, πόδια και αρθρώσεις με επιπλέον προσοχή."
+    ],
+    "warnings_en": [
+      "Repeated contamination and friction can trap a wound in early damage.",
+      "Small infected wounds can become large function problems.",
+      "Pain that worsens instead of improves deserves attention."
+    ],
+    "warnings_el": [
+      "Η επαναλαμβανόμενη μόλυνση και τριβή μπορούν να κρατήσουν ένα τραύμα κολλημένο στην πρώιμη βλάβη.",
+      "Μικρά μολυσμένα τραύματα μπορούν να γίνουν μεγάλα λειτουργικά προβλήματα.",
+      "Πόνος που χειροτερεύει αντί να βελτιώνεται θέλει προσοχή."
+    ],
+    "mistakes_en": [
+      "Touching and checking the wound so often that you keep irritating it.",
+      "Returning to full use too early.",
+      "Ignoring location-specific risk because the wound looks small."
+    ],
+    "mistakes_el": [
+      "Να αγγίζεις και να ελέγχεις το τραύμα τόσο συχνά ώστε να το ερεθίζεις συνεχώς.",
+      "Να επιστρέφεις σε πλήρη χρήση πολύ νωρίς.",
+      "Να αγνοείς τον κίνδυνο της θέσης επειδή το τραύμα φαίνεται μικρό."
+    ],
+    "related_topics": [
+      "First Aid and Field Care",
+      "Minor Skin Infection Cleaning and Spread Control",
+      "Improvised Bandage, Pressure, and Packing Basics"
+    ],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]

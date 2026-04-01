@@ -1,10 +1,16 @@
 [
   {
     "id": "urban::apartment_blackout",
-    "topic": "Urban Blackout and Apartment Survival",
+    "topic": "Apartment Continuity During Urban Blackouts",
     "category": "urban_blackout_survival",
     "subcategory": "apartment_continuity",
-    "tags": ["urban", "blackout", "apartment", "water", "stairs"],
+    "tags": [
+      "urban",
+      "blackout",
+      "apartment",
+      "water",
+      "stairs"
+    ],
     "summary_en": "Apartment survival during blackout depends on water, stair movement, sanitation, light discipline, and neighbor awareness more than on dramatic gear.",
     "summary_el": "Η επιβίωση σε διαμέρισμα κατά τη διακοπή ρεύματος εξαρτάται περισσότερο από νερό, κίνηση στις σκάλες, υγιεινή, πειθαρχία φωτισμού και επίγνωση γειτόνων παρά από θεαματικό εξοπλισμό.",
     "content_en": "An urban apartment becomes difficult quickly when water pressure drops, elevators fail, refrigerators warm, hallways darken, and information degrades. The first hours matter: fill containers, protect device battery, secure shoes and lights near the exit, reduce unnecessary door opening, and decide whether the building is safer to stay in or to leave. Stair movement becomes tiring and risky, especially for families, elders, or anyone hauling water. Indoor sanitation, waste storage, and ventilation also become more important as services weaken. Apartment survival rewards early organization, not late improvisation.",
@@ -43,11 +49,15 @@
       "Να υποθέτεις ότι το ασανσέρ θα επιστρέψει σύντομα και να αναβάλεις τον σχεδιασμό σκάλας.",
       "Να αγνοείς υγιεινή και απόβλητα επειδή το διαμέρισμα ακόμη φαίνεται οικείο."
     ],
-    "related_topics": ["Water Storage and Rationing", "Power Outage Lighting and Device Preservation", "Camp Sanitation and Waste Control"],
+    "related_topics": [
+      "Water Storage and Rationing",
+      "Power Outage Lighting and Device Preservation",
+      "Camp Sanitation and Waste Control"
+    ],
     "difficulty": "medium",
     "urgency": "high",
     "priority": "high",
-    "last_updated": "2026-03-30",
-    "update_note": "Standalone expansion pass."
+    "last_updated": "2026-04-01",
+    "update_note": "Cleanup pass and expansion."
   }
 ]
