@@ -1,0 +1,63 @@
+[
+  {
+    "id": "bio::infection_chain_household_containment",
+    "topic": "Infection Chains, Hands, Surfaces, and Household Containment",
+    "category": "anatomy_biology",
+    "subcategory": "transmission_paths_and_control",
+    "tags": [
+      "infection",
+      "hands",
+      "surfaces",
+      "containment",
+      "hygiene"
+    ],
+    "summary_en": "Infection spreads through pathways, not bad luck. Once you see the pathways, you can start breaking them.",
+    "summary_el": "Η λοίμωξη εξαπλώνεται μέσω διαδρομών, όχι μέσω κακής τύχης. Μόλις δεις τις διαδρομές, μπορείς να αρχίσεις να τις σπας.",
+    "content_en": "Many homes focus on visible sickness but ignore the chain linking dirty hands, shared objects, food contact, face touching, laundry, and bathroom use. A household contains illness better when it identifies frequent transfer points instead of disinfecting randomly. Handles, taps, cloths, phones, cups, utensils, rails, and bedding can all become bridges. Containment works best when it is simple: handwashing at key moments, designated sick items, cleaner food handling, separate cloths, ventilation where appropriate, and a smaller traffic pattern around the ill person.",
+    "content_el": "Πολλά σπίτια εστιάζουν στην ορατή ασθένεια αλλά αγνοούν την αλυσίδα που ενώνει βρώμικα χέρια, κοινά αντικείμενα, επαφή με φαγητό, άγγιγμα προσώπου, μπουγάδα και χρήση μπάνιου. Ένα νοικοκυριό περιορίζει καλύτερα την αρρώστια όταν εντοπίζει συχνά σημεία μεταφοράς αντί να απολυμαίνει τυχαία. Χερούλια, βρύσες, πανιά, τηλέφωνα, ποτήρια, σκεύη, κουπαστές και σεντόνια μπορούν όλα να γίνουν γέφυρες. Ο περιορισμός δουλεύει καλύτερα όταν είναι απλός: πλύσιμο χεριών στις κρίσιμες στιγμές, αντικείμενα αποκλειστικά για τον άρρωστο, πιο καθαρός χειρισμός τροφής, ξεχωριστά πανιά, αερισμός όπου ταιριάζει και μικρότερη κίνηση γύρω από τον άρρωστο.",
+    "steps_en": [
+      "Identify the highest-frequency transfer points in the home.",
+      "Wash hands after toilet use, before food handling, and after sick care.",
+      "Separate cups, utensils, cloths, and bedding when illness is active.",
+      "Improve ventilation and reduce unnecessary traffic.",
+      "Clean transfer points more consistently than low-touch areas."
+    ],
+    "steps_el": [
+      "Εντόπισε τα σημεία πιο συχνής μεταφοράς μέσα στο σπίτι.",
+      "Πλύνε χέρια μετά την τουαλέτα, πριν τον χειρισμό τροφής και μετά τη φροντίδα αρρώστου.",
+      "Ξεχώρισε ποτήρια, σκεύη, πανιά και κλινοσκεπάσματα όταν η αρρώστια είναι ενεργή.",
+      "Βελτίωσε τον αερισμό και μείωσε την άσκοπη κίνηση.",
+      "Καθάριζε τα σημεία μεταφοράς πιο σταθερά από τις περιοχές χαμηλής επαφής."
+    ],
+    "warnings_en": [
+      "Shared cloths and cups can quietly spread illness.",
+      "A little prevention repeated consistently beats dramatic cleaning done once.",
+      "Kitchen and toilet become biologically linked through hands."
+    ],
+    "warnings_el": [
+      "Τα κοινά πανιά και ποτήρια μπορούν αθόρυβα να απλώσουν αρρώστια.",
+      "Λίγη πρόληψη που επαναλαμβάνεται σταθερά νικά θεαματικό καθάρισμα που έγινε μία φορά.",
+      "Κουζίνα και τουαλέτα συνδέονται βιολογικά μέσω των χεριών."
+    ],
+    "mistakes_en": [
+      "Cleaning visible dirt while ignoring transfer surfaces.",
+      "Using one cloth for many zones.",
+      "Thinking containment failed because it was not perfect."
+    ],
+    "mistakes_el": [
+      "Να καθαρίζεις την ορατή βρωμιά αλλά να αγνοείς τις επιφάνειες μεταφοράς.",
+      "Να χρησιμοποιείς ένα πανί για πολλές ζώνες.",
+      "Να νομίζεις ότι ο περιορισμός απέτυχε επειδή δεν ήταν τέλειος."
+    ],
+    "related_topics": [
+      "Respiratory Hygiene, Crowding, and Illness Spread Control",
+      "Minor Skin Infection Cleaning and Spread Control",
+      "Handwashing Station Setup and Daily Reset Skills"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]

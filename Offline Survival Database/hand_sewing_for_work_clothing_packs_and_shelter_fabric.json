@@ -1,0 +1,63 @@
+[
+  {
+    "id": "skills::hand_sewing_field_repairs",
+    "topic": "Hand Sewing for Work Clothing, Packs, and Shelter Fabric",
+    "category": "tools_and_repair",
+    "subcategory": "textile_repair_and_load_points",
+    "tags": [
+      "sewing",
+      "repair",
+      "clothing",
+      "packs",
+      "fabric"
+    ],
+    "summary_en": "Basic hand sewing preserves warmth, carrying ability, and weather protection long after store-bought perfection is gone.",
+    "summary_el": "Η βασική ραφή στο χέρι διατηρεί ζεστασιά, ικανότητα μεταφοράς και προστασία από τον καιρό πολύ μετά την απώλεια της έτοιμης τελειότητας του εμπορίου.",
+    "content_en": "In hard conditions, fabric failures spread fast. A small hole becomes a tear, a loose strap becomes a dropped load, and a weak seam becomes lost insulation or spilled supplies. Good repair starts with stress points: knees, elbows, straps, corners, handles, tie points, and closures fail differently. Reinforcement patches, edge folding, and early repairs often matter more than beautiful appearance. Repair early and the job stays small.",
+    "content_el": "Σε δύσκολες συνθήκες, οι βλάβες υφάσματος εξαπλώνονται γρήγορα. Μια μικρή τρύπα γίνεται σκίσιμο, ένας χαλαρός ιμάντας γίνεται χαμένο φορτίο και μια αδύναμη ραφή γίνεται απώλεια μόνωσης ή χυμένα εφόδια. Η καλή επισκευή αρχίζει από τα σημεία πίεσης: γόνατα, αγκώνες, ιμάντες, γωνίες, λαβές, δεσίματα και κλεισίματα αποτυγχάνουν διαφορετικά. Μπαλώματα ενίσχυσης, δίπλωμα άκρων και έγκαιρες επισκευές μετρούν συχνά περισσότερο από την όμορφη εμφάνιση. Επισκεύαζε νωρίς και η δουλειά μένει μικρή.",
+    "steps_en": [
+      "Inspect high-stress fabric points before and after heavy use.",
+      "Repair small tears before they spread.",
+      "Reinforce straps, corners, and closure points when possible.",
+      "Match the repair to the function: warmth, carrying, closure, or weather protection.",
+      "Keep a compact sewing kit with strong thread and spare needles."
+    ],
+    "steps_el": [
+      "Έλεγχε τα σημεία μεγάλης καταπόνησης πριν και μετά από βαριά χρήση.",
+      "Επισκεύαζε μικρά σκισίματα πριν ανοίξουν περισσότερο.",
+      "Ενίσχυε ιμάντες, γωνίες και σημεία κλεισίματος όπου γίνεται.",
+      "Ταίριαζε την επισκευή στη λειτουργία: ζεστασιά, μεταφορά, κλείσιμο ή προστασία από τον καιρό.",
+      "Κράτα μικρό κιτ ραφής με γερή κλωστή και εφεδρικές βελόνες."
+    ],
+    "warnings_en": [
+      "Load-bearing repairs fail faster if stress direction is ignored.",
+      "Tiny holes and loose threads are early warnings.",
+      "Cold and wet make clothing failure more serious than it first appears."
+    ],
+    "warnings_el": [
+      "Οι επισκευές που κρατούν βάρος αποτυγχάνουν γρηγορότερα αν αγνοηθεί η κατεύθυνση καταπόνησης.",
+      "Μικρές τρύπες και χαλαρές κλωστές είναι έγκαιρες προειδοποιήσεις.",
+      "Το κρύο και η υγρασία κάνουν την αποτυχία ρούχου πιο σοβαρή απ’ όσο φαίνεται αρχικά."
+    ],
+    "mistakes_en": [
+      "Waiting for a seam to fully fail before repairing it.",
+      "Using weak thread on a high-load strap.",
+      "Repairing only the visible rip and not the stressed area around it."
+    ],
+    "mistakes_el": [
+      "Να περιμένεις να ανοίξει πλήρως η ραφή πριν την επισκευάσεις.",
+      "Να χρησιμοποιείς αδύναμη κλωστή σε ιμάντα μεγάλου φορτίου.",
+      "Να επισκευάζεις μόνο το ορατό σκίσιμο και όχι την καταπονημένη περιοχή γύρω του."
+    ],
+    "related_topics": [
+      "Sewing, Patchwork, and Textile Salvage",
+      "Repair Triage for Structures, Tools, and Clothing",
+      "Handle Wrapping, Grip Repair, and Tool Control"
+    ],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]
