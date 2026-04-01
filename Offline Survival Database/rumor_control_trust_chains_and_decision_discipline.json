@@ -1,0 +1,63 @@
+[
+  {
+    "id": "psych::rumor_control_trust_chains",
+    "topic": "Rumor Control, Trust Chains, and Decision Discipline",
+    "category": "psychology_group_resilience",
+    "subcategory": "information_stability_under_stress",
+    "tags": [
+      "rumor",
+      "trust",
+      "decisions",
+      "group",
+      "stress"
+    ],
+    "summary_en": "Groups often break faster from bad information loops than from physical shortages.",
+    "summary_el": "Οι ομάδες συχνά σπάνε πιο γρήγορα από κακούς κύκλους πληροφορίας παρά από υλικές ελλείψεις.",
+    "content_en": "Under stress, people pass on fragments, guesses, dramatic language, and second-hand certainty because uncertainty feels unbearable. Rumors then alter movement, stockpiling, conflict, and fear before anyone checks reality. Survival requires discipline in who confirms what, how fast information is shared, and when a claim remains unverified. Healthy trust chains are simple: source, date, confidence level, and next verification step. The goal is not perfect certainty but a clear separation between fact, assumption, and plan.",
+    "content_el": "Κάτω από πίεση, οι άνθρωποι μεταδίδουν αποσπάσματα, εικασίες, δραματικές διατυπώσεις και βεβαιότητες δεύτερου χεριού επειδή η αβεβαιότητα μοιάζει ανυπόφορη. Οι φήμες τότε αλλάζουν μετακινήσεις, στοκάρισμα, σύγκρουση και φόβο πριν ελέγξει κανείς την πραγματικότητα. Η επιβίωση απαιτεί πειθαρχία στο ποιος επιβεβαιώνει τι, πόσο γρήγορα μοιράζεται μια πληροφορία και πότε ένας ισχυρισμός παραμένει ανεπιβεβαίωτος. Οι υγιείς αλυσίδες εμπιστοσύνης είναι απλές: πηγή, ημερομηνία, επίπεδο βεβαιότητας και επόμενο βήμα επιβεβαίωσης. Ο στόχος δεν είναι η τέλεια βεβαιότητα αλλά ο καθαρός διαχωρισμός ανάμεσα σε γεγονός, υπόθεση και σχέδιο.",
+    "steps_en": [
+      "Ask every important claim: who said it, when, and how do we check it?",
+      "Separate confirmed facts from assumptions and plans.",
+      "Use one or a few designated collectors of information where possible.",
+      "Repeat uncertain claims as uncertain.",
+      "Review major decisions after new information appears."
+    ],
+    "steps_el": [
+      "Ρώτα για κάθε σημαντικό ισχυρισμό: ποιος το είπε, πότε και πώς το ελέγχουμε;",
+      "Χώρισε τα επιβεβαιωμένα γεγονότα από τις υποθέσεις και τα σχέδια.",
+      "Χρησιμοποίησε έναν ή λίγους υπεύθυνους συγκέντρωσης πληροφορίας όπου γίνεται.",
+      "Μετέδιδε τις αβέβαιες πληροφορίες ως αβέβαιες.",
+      "Επανεξέταζε μεγάλες αποφάσεις όταν εμφανίζεται νέα πληροφορία."
+    ],
+    "warnings_en": [
+      "A frightened group can act decisively on false information if it sounds specific enough.",
+      "Repeated uncertainty is stressful but still safer than false certainty.",
+      "Trust can be damaged by both lies and careless sharing."
+    ],
+    "warnings_el": [
+      "Μια φοβισμένη ομάδα μπορεί να δράσει αποφασιστικά πάνω σε ψευδή πληροφορία αν ακούγεται αρκετά συγκεκριμένη.",
+      "Η επαναλαμβανόμενη αβεβαιότητα είναι αγχωτική αλλά παραμένει ασφαλέστερη από την ψευδή βεβαιότητα.",
+      "Η εμπιστοσύνη βλάπτεται και από ψέματα και από απρόσεκτη μετάδοση."
+    ],
+    "mistakes_en": [
+      "Treating emotional intensity as proof.",
+      "Forwarding claims because they might be useful later.",
+      "Hiding uncertainty because it feels weak."
+    ],
+    "mistakes_el": [
+      "Να θεωρείς την ένταση συναισθήματος ως απόδειξη.",
+      "Να μεταδίδεις ισχυρισμούς επειδή ίσως φανούν χρήσιμοι αργότερα.",
+      "Να κρύβεις την αβεβαιότητα επειδή μοιάζει αδυναμία."
+    ],
+    "related_topics": [
+      "Community Notice Boards and Public Information Flow",
+      "Decision Cycles, Briefings, and Shift Handoffs",
+      "Panic Control and Mental Grounding"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]
