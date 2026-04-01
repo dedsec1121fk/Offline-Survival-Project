@@ -1,0 +1,63 @@
+[
+  {
+    "id": "mapping::landmarks_zones",
+    "topic": "Local Mapping, Landmarks, and Zone Marking",
+    "category": "movement_and_security",
+    "subcategory": "local_navigation",
+    "tags": [
+      "mapping",
+      "landmarks",
+      "zones",
+      "navigation",
+      "marking"
+    ],
+    "summary_en": "A useful local map does not need precision instruments first. It needs consistent landmarks, clear zone names, and markings that reduce repeated confusion.",
+    "summary_el": "Ένας χρήσιμος τοπικός χάρτης δεν χρειάζεται πρώτα όργανα ακρίβειας. Χρειάζεται σταθερά ορόσημα, καθαρά ονόματα ζωνών και σημάνσεις που μειώνουν την επαναλαμβανόμενη σύγχυση.",
+    "content_en": "People waste time and safety when every location is described differently by every person. Local mapping solves this by turning vague space into shared space. Landmarks, route names, danger zones, water points, salvage sites, shelter areas, quiet routes, and no-go areas become more useful when named and recorded consistently. Marking also reduces stress because it makes movement and reporting faster. A rough map used consistently is often better than a precise map nobody remembers. The lesson is to create shared geography, not private mental maps.",
+    "content_el": "Οι άνθρωποι σπαταλούν χρόνο και ασφάλεια όταν κάθε τοποθεσία περιγράφεται διαφορετικά από κάθε άνθρωπο. Η τοπική χαρτογράφηση το λύνει αυτό μετατρέποντας τον αόριστο χώρο σε κοινόχρηστο χώρο. Ορόσημα, ονόματα διαδρομών, επικίνδυνες ζώνες, σημεία νερού, σημεία συλλογής υλικών, περιοχές καταλύματος, ήσυχες διαδρομές και απαγορευμένες ζώνες γίνονται πιο χρήσιμα όταν ονομάζονται και καταγράφονται σταθερά. Η σήμανση μειώνει και το στρες γιατί κάνει κίνηση και αναφορά ταχύτερες. Ένας πρόχειρος χάρτης που χρησιμοποιείται σταθερά είναι συχνά καλύτερος από έναν ακριβή χάρτη που κανείς δεν θυμάται. Το μάθημα είναι να δημιουργείς κοινή γεωγραφία και όχι ιδιωτικούς νοητικούς χάρτες.",
+    "steps_en": [
+      "Name landmarks and zones consistently.",
+      "Record danger, water, shelter, and resource points on one shared map.",
+      "Update maps when routes or risks change.",
+      "Use simple visible markers where appropriate.",
+      "Teach the same zone language to the whole group."
+    ],
+    "steps_el": [
+      "Ονόμαζε σταθερά ορόσημα και ζώνες.",
+      "Κατέγραφε επικίνδυνα σημεία, νερό, καταφύγια και πόρους σε έναν κοινό χάρτη.",
+      "Ενημέρωνε τους χάρτες όταν αλλάζουν διαδρομές ή κίνδυνοι.",
+      "Χρησιμοποίησε απλά ορατά σημάδια όπου ταιριάζει.",
+      "Δίδαξε την ίδια γλώσσα ζωνών σε όλη την ομάδα."
+    ],
+    "warnings_en": [
+      "Unshared mental maps cause dangerous misunderstanding.",
+      "Old route knowledge can become false fast.",
+      "Marker systems should not create more confusion than they solve."
+    ],
+    "warnings_el": [
+      "Οι μη κοινόχρηστοι νοητικοί χάρτες προκαλούν επικίνδυνες παρανοήσεις.",
+      "Η παλιά γνώση διαδρομών μπορεί να γίνει γρήγορα ψευδής.",
+      "Τα συστήματα σημάνσεων δεν πρέπει να δημιουργούν περισσότερη σύγχυση από όση λύνουν."
+    ],
+    "mistakes_en": [
+      "Letting everyone describe places differently.",
+      "Failing to update changed hazards.",
+      "Keeping maps too private to be useful."
+    ],
+    "mistakes_el": [
+      "Να αφήνεις τον καθένα να περιγράφει διαφορετικά τους χώρους.",
+      "Να μην ενημερώνεις τους κινδύνους που αλλάζουν.",
+      "Να κρατάς τους χάρτες πολύ ιδιωτικούς για να είναι χρήσιμοι."
+    ],
+    "related_topics": [
+      "Route Planning, Fallback Paths, and Cache Logic",
+      "Low-Tech Communications and Signal Discipline",
+      "Camp Layout for Hygiene, Workflow, and Safety"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Ongoing expansion pass."
+  }
+]

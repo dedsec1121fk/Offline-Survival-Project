@@ -1,0 +1,63 @@
+[
+  {
+    "id": "medical::quarantine_layout",
+    "topic": "Quarantine and Sickroom Layout Under Strain",
+    "category": "medical_and_first_aid",
+    "subcategory": "infection_control",
+    "tags": [
+      "quarantine",
+      "sickroom",
+      "infection",
+      "layout",
+      "isolation"
+    ],
+    "summary_en": "Illness control improves when the sick space is organized deliberately. A poor sickroom spreads confusion and contamination; a good one reduces both.",
+    "summary_el": "Ο έλεγχος ασθένειας βελτιώνεται όταν ο χώρος ασθενούς οργανώνεται σκόπιμα. Ένα κακό sickroom απλώνει σύγχυση και μόλυνση· ένα καλό τα μειώνει και τα δύο.",
+    "content_en": "In hard conditions, many infections spread not because nobody cares, but because the care space is badly organized. A useful sickroom separates clean supplies, dirty waste, drinking water, bedding, hand-cleaning, and observation notes so that exhausted caregivers do not keep crossing contamination lines. Quarantine is not only isolation distance. It is also movement discipline, object discipline, and entry-and-exit discipline. The goal is to make safe behavior easier than unsafe behavior. A well-arranged sick area reduces caregiver error, speeds repeated tasks, and makes trends easier to observe over time.",
+    "content_el": "Σε δύσκολες συνθήκες, πολλές μολύνσεις απλώνονται όχι επειδή κανείς δεν νοιάζεται, αλλά επειδή ο χώρος φροντίδας είναι κακά οργανωμένος. Ένα χρήσιμο sickroom χωρίζει καθαρές προμήθειες, βρόμικα απόβλητα, πόσιμο νερό, στρώσιμο, καθαρισμό χεριών και σημειώσεις παρατήρησης ώστε οι εξαντλημένοι φροντιστές να μην περνούν συνέχεια πάνω από γραμμές μόλυνσης. Η καραντίνα δεν είναι μόνο απόσταση απομόνωσης. Είναι επίσης πειθαρχία κίνησης, πειθαρχία αντικειμένων και πειθαρχία εισόδου-εξόδου. Ο στόχος είναι να κάνεις την ασφαλή συμπεριφορά ευκολότερη από την επικίνδυνη. Ένας καλά στημένος χώρος ασθενούς μειώνει λάθη φροντιστών, επιταχύνει επαναλαμβανόμενες δουλειές και κάνει τις τάσεις πιο εύκολες στην παρατήρηση μέσα στον χρόνο.",
+    "steps_en": [
+      "Separate clean, dirty, waste, water, and note-taking zones.",
+      "Limit unnecessary entry and object sharing.",
+      "Keep hand-cleaning and waste handling tools at the boundary, not scattered.",
+      "Use simple observation records inside the sick area.",
+      "Review flow after the first day and fix confusion points."
+    ],
+    "steps_el": [
+      "Χώρισε ζώνες καθαρών, βρόμικων, αποβλήτων, νερού και σημειώσεων.",
+      "Περιορίσε άσκοπη είσοδο και κοινή χρήση αντικειμένων.",
+      "Κράτα εργαλεία καθαρισμού χεριών και αποβλήτων στο όριο και όχι σκορπισμένα.",
+      "Χρησιμοποίησε απλά αρχεία παρατήρησης μέσα στον χώρο ασθενούς.",
+      "Έλεγξε τη ροή μετά την πρώτη μέρα και διόρθωσε σημεία σύγχυσης."
+    ],
+    "warnings_en": [
+      "Sickrooms can become contamination engines when layout is lazy.",
+      "Caregiver fatigue multiplies cross-contamination.",
+      "Shared cups, cloths, and surfaces spread problems quietly."
+    ],
+    "warnings_el": [
+      "Οι χώροι ασθενούς μπορούν να γίνουν μηχανές μόλυνσης όταν η διάταξη είναι πρόχειρη.",
+      "Η κόπωση φροντιστή πολλαπλασιάζει τη διασταυρούμενη μόλυνση.",
+      "Κοινά ποτήρια, πανιά και επιφάνειες απλώνουν προβλήματα ήσυχα."
+    ],
+    "mistakes_en": [
+      "Treating isolation as just closing a door.",
+      "Keeping notes, waste, and clean items mixed together.",
+      "Allowing everyone to enter because they 'just want to check'."
+    ],
+    "mistakes_el": [
+      "Να αντιμετωπίζεις την απομόνωση σαν απλό κλείσιμο πόρτας.",
+      "Να κρατάς ανακατεμένα σημειώσεις, απόβλητα και καθαρά είδη.",
+      "Να αφήνεις όλους να μπαίνουν επειδή «θέλουν απλώς να δουν»."
+    ],
+    "related_topics": [
+      "Camp Sanitation and Waste Control",
+      "Symptom Logs and Daily Health Checks",
+      "Preventing Diarrheal Illness After Disaster"
+    ],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Ongoing expansion pass."
+  }
+]
