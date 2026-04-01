@@ -1,0 +1,63 @@
+[
+  {
+    "id": "urban::apartment_water_points",
+    "topic": "Apartment Water Collection Points and Carry Plans",
+    "category": "urban_blackout_survival",
+    "subcategory": "indoor_water_capture_and_distribution",
+    "tags": [
+      "urban",
+      "apartment",
+      "water",
+      "blackout",
+      "carry"
+    ],
+    "summary_en": "In apartment living, water failure becomes dangerous when the household has no map of where water exists, how it moves, and how it will be carried upstairs.",
+    "summary_el": "Στη ζωή σε διαμέρισμα, η βλάβη νερού γίνεται επικίνδυνη όταν το νοικοκυριό δεν έχει χάρτη για το πού υπάρχει νερό, πώς μετακινείται και πώς θα μεταφερθεί επάνω.",
+    "content_en": "Urban households often think in liters but not in logistics. Water in bottles, heater tanks, clean reservoirs, neighboring taps, street points, and emergency distribution all differ in safety, access, and carry burden. The weak point is often not finding water but moving it consistently without exhaustion or conflict. A strong plan lists sources by order, labels containers by purpose, uses manageable loads, and assigns carry roles so drinking water, washing water, and utility water do not get mixed.",
+    "content_el": "Τα αστικά νοικοκυριά συχνά σκέφτονται σε λίτρα αλλά όχι σε logistics. Νερό σε μπουκάλια, θερμοσίφωνες, καθαρές δεξαμενές, βρύσες γειτόνων, σημεία δρόμου και διανομή ανάγκης διαφέρουν σε ασφάλεια, πρόσβαση και βάρος μεταφοράς. Το αδύναμο σημείο δεν είναι συχνά η εύρεση νερού αλλά η σταθερή μεταφορά του χωρίς εξάντληση ή σύγκρουση. Ένα καλό σχέδιο καταγράφει πηγές με σειρά, σημειώνει τα δοχεία ανά χρήση, χρησιμοποιεί διαχειρίσιμα φορτία και ορίζει ρόλους ώστε να μη μπερδεύονται πόσιμο, νερό πλύσης και βοηθητικό νερό.",
+    "steps_en": [
+      "List every possible water source in and around the building.",
+      "Separate drinking containers from washing containers.",
+      "Use smaller repeated stair carries instead of heroic overloading.",
+      "Schedule fill times and assign roles.",
+      "Label containers clearly."
+    ],
+    "steps_el": [
+      "Κατάγραψε κάθε πιθανή πηγή νερού μέσα και γύρω από το κτίριο.",
+      "Ξεχώρισε δοχεία πόσιμου από δοχεία πλυσίματος.",
+      "Χρησιμοποίησε μικρότερα επαναλαμβανόμενα ανεβάσματα αντί για υπερφόρτωση.",
+      "Όρισε ώρες γεμίσματος και ρόλους.",
+      "Σήμανε καθαρά τα δοχεία."
+    ],
+    "warnings_en": [
+      "A source can exist but still be impractical if carry distance is too high.",
+      "One contaminated container can ruin a whole plan.",
+      "Repeated stair trips under fatigue increase fall risk."
+    ],
+    "warnings_el": [
+      "Μια πηγή μπορεί να υπάρχει αλλά να είναι μη πρακτική αν η μεταφορά είναι υπερβολική.",
+      "Ένα μολυσμένο δοχείο μπορεί να χαλάσει όλο το σχέδιο.",
+      "Τα συνεχή ανεβοκατεβάσματα σε κόπωση αυξάνουν τον κίνδυνο πτώσης."
+    ],
+    "mistakes_en": [
+      "Thinking only about liters and not about carry frequency.",
+      "Using the cleanest containers first for washing.",
+      "Letting everyone refill randomly without labels or order."
+    ],
+    "mistakes_el": [
+      "Να σκέφτεσαι μόνο τα λίτρα και όχι τη συχνότητα μεταφοράς.",
+      "Να χρησιμοποιείς τα πιο καθαρά δοχεία πρώτα για πλύσιμο.",
+      "Να αφήνεις όλους να γεμίζουν τυχαία χωρίς σήμανση ή σειρά."
+    ],
+    "related_topics": [
+      "Finding Clean Water In and Around Home",
+      "Emergency Water Storage and Family Use Rules",
+      "Group Water Carry Schedules and Refill Rotation"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]
