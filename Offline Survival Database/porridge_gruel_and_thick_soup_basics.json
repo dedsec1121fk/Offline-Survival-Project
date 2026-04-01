@@ -1,0 +1,63 @@
+[
+  {
+    "id": "food::porridge_basics",
+    "topic": "Porridge, Gruel, and Thick Soup Basics",
+    "category": "agriculture_food_production",
+    "subcategory": "emergency_cooking_patterns",
+    "tags": [
+      "porridge",
+      "gruel",
+      "soup",
+      "grain",
+      "water"
+    ],
+    "summary_en": "Porridge and thick soup are survival classics because they turn small amounts of starch, grain, or scraps into warm, digestible food with low fuel waste.",
+    "summary_el": "Ο χυλός και η πηχτή σούπα είναι κλασικά τρόφιμα επιβίωσης γιατί μετατρέπουν μικρές ποσότητες αμύλου, δημητριακών ή υπολειμμάτων σε ζεστή, εύπεπτη τροφή με μικρή σπατάλη καυσίμου.",
+    "content_en": "Porridge is one of the most important survival food structures because it is flexible. Thin porridge can rehydrate and comfort weak people. Thick porridge can carry more calories and keep workers going. Thick soup sits between porridge and stew: it stretches ingredients while still feeling like a real meal. Grain meal, flour, oats, rice fragments, crushed legumes, stale bread, potato, or even mixed scrap starches can be turned into a pot that feeds several people. The teaching point is ratio control. More water makes a recovery food. Less water makes a labor food. Salt improves usefulness. Fat increases staying power. Greens, onion, broth, or leftover bits improve nutrition without needing a full recipe culture.",
+    "content_el": "Ο χυλός είναι μία από τις πιο σημαντικές δομές τροφής επιβίωσης γιατί είναι ευέλικτος. Ο αραιός χυλός μπορεί να επανυδατώσει και να ανακουφίσει αδύναμους ανθρώπους. Ο πηχτός χυλός μπορεί να κουβαλήσει περισσότερες θερμίδες και να κρατήσει εργαζόμενους όρθιους. Η πηχτή σούπα στέκεται ανάμεσα σε χυλό και stew: τεντώνει τα υλικά ενώ πάλι μοιάζει με κανονικό γεύμα. Αλεύρι, σπασμένο δημητριακό, βρώμη, σπασμένο ρύζι, τριμμένα όσπρια, μπαγιάτικο ψωμί, πατάτα ή ακόμη και μικτά αμυλώδη υπολείμματα μπορούν να γίνουν κατσαρόλα που ταΐζει πολλούς. Το διδακτικό σημείο είναι ο έλεγχος αναλογίας. Περισσότερο νερό δίνει τροφή ανάρρωσης. Λιγότερο νερό δίνει τροφή εργασίας. Το αλάτι βελτιώνει τη χρησιμότητα. Το λίπος αυξάνει τη διάρκεια κορεσμού. Χόρτα, κρεμμύδι, ζωμός ή μικρά περισσεύματα βελτιώνουν θρέψη χωρίς να χρειάζεται πλήρης κουλτούρα συνταγής.",
+    "steps_en": [
+      "Choose a starch or grain base first.",
+      "Decide whether the goal is rehydration, fullness, or stretching scraps.",
+      "Control thickness with water gradually instead of guessing once.",
+      "Add salt early and fat near the end where appropriate.",
+      "Teach several people the same pot logic."
+    ],
+    "steps_el": [
+      "Διάλεξε πρώτα μια βάση αμύλου ή δημητριακού.",
+      "Αποφάσισε αν ο στόχος είναι επανυδάτωση, χόρταση ή τέντωμα υπολειμμάτων.",
+      "Έλεγχε το πάχος με νερό σταδιακά αντί να μαντεύεις μία φορά.",
+      "Πρόσθεσε αλάτι νωρίς και λίπος κοντά στο τέλος όπου ταιριάζει.",
+      "Δίδαξε σε πολλούς την ίδια λογική κατσαρόλας."
+    ],
+    "warnings_en": [
+      "Poor stirring can waste food through burning and sticking.",
+      "Very thick foods may be hard for sick or dehydrated people.",
+      "A bland pot repeated too long can damage morale and appetite."
+    ],
+    "warnings_el": [
+      "Το κακό ανακάτεμα μπορεί να σπαταλήσει τροφή μέσω καψίματος και κολλήματος.",
+      "Τα πολύ πηχτά φαγητά μπορεί να είναι δύσκολα για αρρώστους ή αφυδατωμένους.",
+      "Μια άγευστη κατσαρόλα που επαναλαμβάνεται πολύ μπορεί να βλάψει ηθικό και όρεξη."
+    ],
+    "mistakes_en": [
+      "Making every batch too thin to truly feed workers.",
+      "Making every batch too thick for vulnerable people.",
+      "Ignoring leftover broth or cooking liquid that could enrich the next pot."
+    ],
+    "mistakes_el": [
+      "Να κάνεις κάθε παρτίδα υπερβολικά αραιή ώστε να μη θρέφει πραγματικά εργαζόμενους.",
+      "Να κάνεις κάθε παρτίδα υπερβολικά πηχτή για ευάλωτους ανθρώπους.",
+      "Να αγνοείς τον ζωμό ή το νερό μαγειρέματος που θα μπορούσε να εμπλουτίσει την επόμενη κατσαρόλα."
+    ],
+    "related_topics": [
+      "Recipes From Almost Nothing",
+      "Base Survival Meals You Can Build From Very Little",
+      "Low-Fuel Cooking and Heat Efficiency"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large food expansion pass."
+  }
+]

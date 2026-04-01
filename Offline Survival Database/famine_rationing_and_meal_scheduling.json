@@ -1,0 +1,63 @@
+[
+  {
+    "id": "food::rationing_meal_schedule",
+    "topic": "Famine Rationing and Meal Scheduling",
+    "category": "agriculture_food_production",
+    "subcategory": "rationing_strategy",
+    "tags": [
+      "rationing",
+      "famine",
+      "meal_timing",
+      "scarcity",
+      "distribution"
+    ],
+    "summary_en": "Rationing is not only dividing food. It is timing food, protecting worker capacity, reducing panic eating, and stretching a weak food system across dangerous days.",
+    "summary_el": "Η δελτίωση δεν είναι μόνο διαίρεση της τροφής. Είναι χρονισμός της τροφής, προστασία της ικανότητας εργασίας, μείωση πανικού στο φαγητό και τέντωμα ενός αδύναμου συστήματος τροφής μέσα σε επικίνδυνες μέρες.",
+    "content_en": "A poor ration system destroys morale and hides real need. A disciplined ration system does the opposite: it makes weakness visible, protects vulnerable people, and helps a group keep functioning longer. Meal scheduling matters because the same amount of food can perform differently depending on who eats, when they eat, and what work follows. Workers may need denser meals before hard effort. Sick people may need smaller more frequent meals. Children may need simpler steady feeding instead of large gaps. The greatest error in famine conditions is to treat all food decisions as emotional reactions. Survival rationing needs records, structure, and calm repetition. Not equal noise — but fair survival logic.",
+    "content_el": "Ένα κακό σύστημα δελτίωσης καταστρέφει το ηθικό και κρύβει την πραγματική ανάγκη. Ένα πειθαρχημένο σύστημα κάνει το αντίθετο: κάνει ορατή την αδυναμία, προστατεύει τους ευάλωτους και βοηθά την ομάδα να συνεχίσει να λειτουργεί περισσότερο. Ο χρονισμός γεύματος μετρά γιατί η ίδια ποσότητα τροφής μπορεί να αποδώσει διαφορετικά ανάλογα με το ποιος τρώει, πότε τρώει και τι εργασία ακολουθεί. Οι εργαζόμενοι μπορεί να χρειάζονται πιο πυκνά γεύματα πριν από βαριά προσπάθεια. Οι άρρωστοι μπορεί να χρειάζονται μικρότερα συχνότερα γεύματα. Τα παιδιά μπορεί να χρειάζονται απλούστερη σταθερή τροφοδότηση αντί για μεγάλα κενά. Το μεγαλύτερο λάθος σε συνθήκες λιμού είναι να αντιμετωπίζεις όλες τις αποφάσεις τροφής ως συναισθηματικές αντιδράσεις. Η δελτίωση επιβίωσης χρειάζεται αρχεία, δομή και ήρεμη επανάληψη. Όχι ίσο θόρυβο — αλλά δίκαιη λογική επιβίωσης.",
+    "steps_en": [
+      "Record stores honestly before setting rations.",
+      "Match meal timing to labor, illness, and vulnerability.",
+      "Use smaller structured meals instead of chaotic grabbing.",
+      "Review ration plans as stock or population changes.",
+      "Explain the logic openly so resentment grows more slowly."
+    ],
+    "steps_el": [
+      "Κατάγραψε ειλικρινά τα αποθέματα πριν ορίσεις μερίδες.",
+      "Ταίριαξε τον χρόνο γεύματος με εργασία, ασθένεια και ευαλωτότητα.",
+      "Χρησιμοποίησε μικρότερα δομημένα γεύματα αντί για χαοτικό άρπαγμα.",
+      "Έλεγχε ξανά τα σχέδια δελτίωσης καθώς αλλάζει το απόθεμα ή ο πληθυσμός.",
+      "Εξήγησε ανοιχτά τη λογική ώστε η πίκρα να μεγαλώνει πιο αργά."
+    ],
+    "warnings_en": [
+      "Panic eating can destroy multi-day planning in a single evening.",
+      "Invisible underfeeding creates hidden collapse in workers and the weak.",
+      "A ration system that feels arbitrary becomes a conflict system."
+    ],
+    "warnings_el": [
+      "Το πανικόβλητο φαγητό μπορεί να καταστρέψει πολυήμερο σχέδιο μέσα σε ένα μόνο βράδυ.",
+      "Η αόρατη υποσίτιση δημιουργεί κρυφή κατάρρευση σε εργαζόμενους και αδύναμους.",
+      "Ένα σύστημα δελτίωσης που φαίνεται αυθαίρετο γίνεται σύστημα σύγκρουσης."
+    ],
+    "mistakes_en": [
+      "Feeding by emotion without stock math.",
+      "Ignoring meal timing and only watching total weight of food.",
+      "Underfeeding critical workers until the whole system slows."
+    ],
+    "mistakes_el": [
+      "Να ταΐζεις με βάση το συναίσθημα χωρίς αριθμητική αποθέματος.",
+      "Να αγνοείς τον χρόνο γεύματος και να κοιτάς μόνο το συνολικό βάρος τροφής.",
+      "Να ταΐζεις λίγο κρίσιμους εργαζόμενους μέχρι να επιβραδυνθεί όλο το σύστημα."
+    ],
+    "related_topics": [
+      "Nutrition Under Scarcity",
+      "Household Organization and Work Rotation",
+      "Community Kitchen and Water Rules for Small Groups"
+    ],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large food expansion pass."
+  }
+]

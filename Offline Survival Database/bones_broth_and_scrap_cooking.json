@@ -1,0 +1,63 @@
+[
+  {
+    "id": "food::broth_scraps",
+    "topic": "Bones, Broth, and Scrap Cooking",
+    "category": "agriculture_food_production",
+    "subcategory": "waste_reduction_cooking",
+    "tags": [
+      "broth",
+      "bones",
+      "scraps",
+      "waste_reduction",
+      "soup"
+    ],
+    "summary_en": "A strong survival kitchen wastes less by learning how to turn bones, peels, scraps, and leftovers into broth, soup, flavor, and secondary meals.",
+    "summary_el": "Μια δυνατή κουζίνα επιβίωσης σπαταλά λιγότερο μαθαίνοντας να μετατρέπει κόκαλα, φλούδες, υπολείμματα και περισσεύματα σε ζωμό, σούπα, γεύση και δευτερεύοντα γεύματα.",
+    "content_en": "Scrap cooking is one of the clearest differences between abundance habits and survival habits. In hard conditions, the cook's job includes recovering value from what would normally be ignored. Bones can support broth. Peels and trimmings can enrich stock if they are clean and suitable. Leftover grains, bread, mash, fat, and chopped meat fragments can build the next pot instead of dying in a bin. Broth is especially powerful because it carries flavor, moisture, salt, warmth, and morale even when food is thin. It also acts as a bridge ingredient, making dry or weak foods easier to eat. The key lesson is not to worship scraps blindly, but to separate usable scraps from true waste with discipline.",
+    "content_el": "Το μαγείρεμα υπολειμμάτων είναι μια από τις πιο καθαρές διαφορές ανάμεσα στις συνήθειες αφθονίας και στις συνήθειες επιβίωσης. Σε δύσκολες συνθήκες, η δουλειά του μάγειρα περιλαμβάνει ανάκτηση αξίας από πράγματα που κανονικά θα αγνοούνταν. Τα κόκαλα μπορούν να στηρίξουν ζωμό. Οι φλούδες και τα καθαρίσματα μπορούν να εμπλουτίσουν stock αν είναι καθαρά και κατάλληλα. Τα περισσεύματα δημητριακών, ψωμιού, πουρέ, λίπους και ψιλοκομμένων κομματιών κρέατος μπορούν να χτίσουν την επόμενη κατσαρόλα αντί να πεθάνουν σε έναν κάδο. Ο ζωμός είναι ιδιαίτερα ισχυρός γιατί κουβαλά γεύση, υγρασία, αλάτι, ζέστη και ηθικό ακόμα κι όταν η τροφή είναι λίγη. Δρα και ως γέφυρα, κάνοντας τις ξερές ή αδύναμες τροφές πιο εύκολες στο φαγητό. Το βασικό μάθημα δεν είναι να λατρεύεις τυφλά τα υπολείμματα, αλλά να ξεχωρίζεις τα χρήσιμα από τα πραγματικά άχρηστα με πειθαρχία.",
+    "steps_en": [
+      "Separate reusable scraps from true waste during prep.",
+      "Build broth whenever bones or safe trimmings justify the fuel.",
+      "Use broth to upgrade soups, porridges, legumes, and root dishes.",
+      "Reuse leftovers quickly and deliberately, not randomly days later.",
+      "Teach the household what can be safely reused and what cannot."
+    ],
+    "steps_el": [
+      "Χώριζε τα επαναχρησιμοποιήσιμα υπολείμματα από τα πραγματικά άχρηστα κατά την προετοιμασία.",
+      "Φτιάχνε ζωμό όποτε τα κόκαλα ή τα ασφαλή καθαρίσματα δικαιολογούν το καύσιμο.",
+      "Χρησιμοποίησε ζωμό για να αναβαθμίσεις σούπες, χυλούς, όσπρια και φαγητά ριζών.",
+      "Επαναχρησιμοποίησε τα περισσεύματα γρήγορα και σκόπιμα, όχι τυχαία μέρες μετά.",
+      "Δίδαξε στο σπίτι τι μπορεί να επαναχρησιμοποιηθεί με ασφάλεια και τι όχι."
+    ],
+    "warnings_en": [
+      "Not every scrap is worth saving.",
+      "Unsafe leftovers can damage a household faster than they help it.",
+      "Bad storage turns thrift into illness."
+    ],
+    "warnings_el": [
+      "Δεν αξίζει να σωθεί κάθε υπόλειμμα.",
+      "Τα ακατάλληλα περισσεύματα μπορούν να βλάψουν ένα νοικοκυριό γρηγορότερα απ’ όσο το βοηθούν.",
+      "Η κακή αποθήκευση μετατρέπει την οικονομία σε ασθένεια."
+    ],
+    "mistakes_en": [
+      "Throwing away usable flavor and moisture sources.",
+      "Keeping scraps without any timing or sanitation plan.",
+      "Using broth without salt balance or meal purpose."
+    ],
+    "mistakes_el": [
+      "Να πετάς χρήσιμες πηγές γεύσης και υγρασίας.",
+      "Να κρατάς υπολείμματα χωρίς κανένα σχέδιο χρόνου ή υγιεινής.",
+      "Να χρησιμοποιείς ζωμό χωρίς ισορροπία αλατιού ή σκοπό γεύματος."
+    ],
+    "related_topics": [
+      "Food Preservation Under Scarcity",
+      "Recipes From Almost Nothing",
+      "Porridge, Gruel, and Thick Soup Basics"
+    ],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large food expansion pass."
+  }
+]
