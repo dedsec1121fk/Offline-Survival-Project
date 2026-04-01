@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ai::manual_identity_packet",
+    "topic": "Manual Identity Packets and Offline Proof of Life",
+    "category": "dystopian_authoritarian_resilience",
+    "subcategory": "records_identity_and_human_verification",
+    "tags": [
+      "ai",
+      "identity",
+      "records",
+      "offline",
+      "documents"
+    ],
+    "summary_en": "When systems fail or become hostile, people need human-readable packets that prove who they are, what they need, and who can vouch for them without depending on a login.",
+    "summary_el": "Όταν τα συστήματα αποτυγχάνουν ή γίνονται εχθρικά, οι άνθρωποι χρειάζονται ανθρώπινα αναγνώσιμα πακέτα που αποδεικνύουν ποιοι είναι, τι χρειάζονται και ποιος μπορεί να τους επιβεβαιώσει χωρίς να εξαρτώνται από login.",
+    "content_en": "A digital society trains people to outsource identity to apps, portals, and cloud records. That becomes a survival weakness when accounts lock, databases desync, or networks fail. A manual identity packet restores a basic fact: a person should still be able to present essential information when the platform is gone. Keep names, dates of birth, emergency contacts, medications, allergies, important numbers, key addresses, and short plain-language summaries in a compact packet that a stressed human can understand quickly.",
+    "content_el": "Μια ψηφιακή κοινωνία εκπαιδεύει τον κόσμο να αναθέτει την ταυτότητά του σε apps, portals και cloud αρχεία. Αυτό γίνεται αδυναμία επιβίωσης όταν λογαριασμοί κλειδώνουν, βάσεις αποσυγχρονίζονται ή τα δίκτυα πέφτουν. Ένα χειροκίνητο πακέτο ταυτότητας επαναφέρει ένα βασικό γεγονός: ένας άνθρωπος πρέπει να μπορεί να παρουσιάσει βασικές πληροφορίες όταν η πλατφόρμα λείπει. Κράτα ονόματα, ημερομηνίες γέννησης, επαφές ανάγκης, φάρμακα, αλλεργίες, σημαντικούς αριθμούς, βασικές διευθύνσεις και σύντομες απλές περιλήψεις σε συμπαγές πακέτο που ένας πιεσμένος άνθρωπος μπορεί να καταλάβει γρήγορα.",
+    "steps_en": [
+      "Prepare a compact paper packet for each household member.",
+      "Include medications, allergies, emergency contacts, and key numbers.",
+      "Keep the layout simple enough for a stranger to understand quickly.",
+      "Store one home copy and one portable copy.",
+      "Update the packet after major changes."
+    ],
+    "steps_el": [
+      "Ετοίμασε συμπαγές χάρτινο πακέτο για κάθε μέλος του νοικοκυριού.",
+      "Βάλε μέσα φάρμακα, αλλεργίες, επαφές ανάγκης και βασικούς αριθμούς.",
+      "Κράτα τη μορφή τόσο απλή ώστε να την καταλαβαίνει γρήγορα ένας άγνωστος.",
+      "Φύλαξε ένα αντίγραφο στο σπίτι και ένα φορητό.",
+      "Ενημέρωνε το πακέτο μετά από μεγάλες αλλαγές."
+    ],
+    "warnings_en": [
+      "A locked account can become a real-world treatment or travel problem.",
+      "Too much paperwork without structure is almost as bad as having none.",
+      "Sensitive papers still need protection from loss or misuse."
+    ],
+    "warnings_el": [
+      "Ένας κλειδωμένος λογαριασμός μπορεί να γίνει πραγματικό πρόβλημα θεραπείας ή μετακίνησης.",
+      "Η πολλή γραφειοκρατία χωρίς δομή είναι σχεδόν τόσο κακή όσο το να μην υπάρχει τίποτα.",
+      "Τα ευαίσθητα χαρτιά χρειάζονται πάλι προστασία από απώλεια ή κατάχρηση."
+    ],
+    "mistakes_en": [
+      "Assuming phone access will always be enough.",
+      "Packing documents without a short human-readable summary.",
+      "Never updating the packet after major changes."
+    ],
+    "mistakes_el": [
+      "Να θεωρείς ότι η πρόσβαση στο τηλέφωνο θα αρκεί πάντα.",
+      "Να βάζεις έγγραφα χωρίς σύντομη ανθρώπινα αναγνώσιμη περίληψη.",
+      "Να μην ενημερώνεις ποτέ το πακέτο μετά από μεγάλες αλλαγές."
+    ],
+    "related_topics": [
+      "Family Document Cache and Portable Records",
+      "Knowledge Preservation and Family Archive Design",
+      "Automation Failure and AI-Controlled System Disruption"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]
