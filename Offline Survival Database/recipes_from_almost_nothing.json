@@ -1,0 +1,63 @@
+[
+  {
+    "id": "food::recipes_almost_nothing",
+    "topic": "Recipes From Almost Nothing",
+    "category": "agriculture_food_production",
+    "subcategory": "emergency_cooking",
+    "tags": [
+      "recipes",
+      "cooking",
+      "emergency",
+      "staples",
+      "survival_food"
+    ],
+    "summary_en": "When ingredients are scarce, the goal of cooking is not prestige. It is turning little into something safe, filling, repeatable, and worth the fuel used to make it.",
+    "summary_el": "Όταν τα υλικά είναι λίγα, ο στόχος του μαγειρέματος δεν είναι το κύρος. Είναι να μετατρέψεις το λίγο σε κάτι ασφαλές, χορταστικό, επαναλαμβανόμενο και άξιο του καυσίμου που ξοδεύτηκε.",
+    "content_en": "Emergency cooking begins with formulas more than formal recipes. Think in patterns: starch plus water plus salt becomes porridge, paste, dough, or thick soup depending on ratio and heat. Grain or flour plus a little fat can become flatbread, ash bread, pan bread, dumplings, or thickener. Beans or lentils plus water and time become broth, mash, patties, or stew base. Potatoes, roots, greens, or scraps become soup, hash, mash, or filling when chopped small and cooked evenly. The best survival recipes are modular. They accept substitutions without collapsing. They also respect fuel. A simple pot that feeds several people is often better than fancy single-person cooking. Build a small library of dependable base meals and teach them until anyone in the group can make them.",
+    "content_el": "Το μαγείρεμα έκτακτης ανάγκης αρχίζει περισσότερο με φόρμουλες παρά με επίσημες συνταγές. Σκέψου σε μοτίβα: άμυλο συν νερό συν αλάτι γίνεται χυλός, πάστα, ζύμη ή πηχτή σούπα ανάλογα με την αναλογία και τη φωτιά. Δημητριακό ή αλεύρι με λίγο λίπος μπορεί να γίνει πίτα, ψωμί στη στάχτη, ψωμί στο τηγάνι, ζυμαράκια ή πηκτικό. Φασόλια ή φακές με νερό και χρόνο γίνονται ζωμός, πουρές, μπιφτέκια ή βάση για stew. Πατάτες, ρίζες, χόρτα ή υπολείμματα γίνονται σούπα, hash, πουρές ή γέμιση όταν κοπούν μικρά και ψηθούν ομοιόμορφα. Οι καλύτερες συνταγές επιβίωσης είναι αρθρωτές. Δέχονται αντικαταστάσεις χωρίς να καταρρέουν. Σέβονται και το καύσιμο. Μια απλή κατσαρόλα που ταΐζει πολλούς είναι συχνά καλύτερη από φανταχτερό μαγείρεμα για έναν. Χτίσε μια μικρή βιβλιοθήκη από αξιόπιστα βασικά γεύματα και δίδαξέ τα μέχρι να μπορεί να τα φτιάξει οποιοσδήποτε στην ομάδα.",
+    "steps_en": [
+      "Start from what you have most of, not from a fantasy recipe.",
+      "Use base formulas: porridge, soup, mash, flatbread, stew, patties.",
+      "Cut ingredients small to reduce fuel and improve texture.",
+      "Salt and fat matter because bland weak food is harder to maintain long-term.",
+      "Repeat the recipes that work instead of improvising badly every meal."
+    ],
+    "steps_el": [
+      "Ξεκίνα από αυτό που έχεις περισσότερο, όχι από μια φανταστική συνταγή.",
+      "Χρησιμοποίησε βασικές φόρμουλες: χυλό, σούπα, πουρέ, πίτα, stew, μπιφτέκια.",
+      "Κόβε τα υλικά μικρά για να μειώσεις καύσιμο και να βελτιώσεις υφή.",
+      "Το αλάτι και το λίπος μετρούν γιατί η άνοστη αδύναμη τροφή κρατιέται δυσκολότερα μακροπρόθεσμα.",
+      "Επανάλαβε τις συνταγές που δουλεύουν αντί να αυτοσχεδιάζεις άσχημα σε κάθε γεύμα."
+    ],
+    "warnings_en": [
+      "Fuel can be as limiting as food.",
+      "A recipe that wastes water or heat may be too expensive in crisis.",
+      "Unsafe leftovers can turn a good meal into a disease problem."
+    ],
+    "warnings_el": [
+      "Το καύσιμο μπορεί να είναι τόσο περιοριστικό όσο και η τροφή.",
+      "Μια συνταγή που σπαταλά νερό ή θερμότητα μπορεί να είναι πολύ ακριβή στην κρίση.",
+      "Τα ακατάλληλα περισσεύματα μπορούν να μετατρέψουν ένα καλό γεύμα σε πρόβλημα ασθένειας."
+    ],
+    "mistakes_en": [
+      "Trying to copy normal-life recipes exactly with crisis ingredients.",
+      "Using too much fuel for tiny portions.",
+      "Treating scraps and cooking water as worthless."
+    ],
+    "mistakes_el": [
+      "Να προσπαθείς να αντιγράψεις ακριβώς συνταγές κανονικής ζωής με υλικά κρίσης.",
+      "Να χρησιμοποιείς υπερβολικό καύσιμο για μικροσκοπικές μερίδες.",
+      "Να θεωρείς άχρηστα τα υπολείμματα και το νερό μαγειρέματος."
+    ],
+    "related_topics": [
+      "Nutrition Under Scarcity",
+      "Low-Fuel Cooking and Heat Efficiency",
+      "Food Preservation Under Scarcity"
+    ],
+    "difficulty": "low",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Added as core survival cooking topic."
+  }
+]
