@@ -1,0 +1,63 @@
+[
+  {
+    "id": "recipe::rice_pot_low_fuel_recovery",
+    "topic": "Rice Pot Variations for Low Fuel and Weak Stomachs",
+    "category": "food_nutrition_preservation",
+    "subcategory": "simple_staple_meals",
+    "tags": [
+      "rice",
+      "recipe",
+      "low fuel",
+      "recovery",
+      "food"
+    ],
+    "summary_en": "Rice is a survival staple because it can become soft, bland, salty, filling, or restorative with minimal seasoning and controlled water use.",
+    "summary_el": "Το ρύζι είναι βασικό τρόφιμο επιβίωσης γιατί μπορεί να γίνει μαλακό, ήπιο, αλμυρό, χορταστικό ή επανορθωτικό με ελάχιστο καρύκευμα και ελεγχόμενη χρήση νερού.",
+    "content_en": "A rice pot is not one recipe but a family of approaches. With more water it becomes soft recovery food for the sick, elders, or people returning to meals after gut trouble. With less water and added fat, greens, beans, or scraps it becomes a denser working meal. For low fuel, cook with a lid, avoid unnecessary stirring, and pair the pot with ingredients that can finish in the same heat window. Rice matters because it tolerates variation and turns fragments into a coherent meal.",
+    "content_el": "Η κατσαρόλα ρυζιού δεν είναι μία συνταγή αλλά οικογένεια προσεγγίσεων. Με περισσότερο νερό γίνεται μαλακή τροφή ανάρρωσης για αρρώστους, ηλικιωμένους ή ανθρώπους που επιστρέφουν στο φαγητό μετά από εντερικό πρόβλημα. Με λιγότερο νερό και προσθήκη λίπους, χόρτων, οσπρίων ή υπολειμμάτων γίνεται πιο πυκνό γεύμα εργασίας. Για χαμηλό καύσιμο, μαγείρεψε με καπάκι, απόφυγε το άσκοπο ανακάτεμα και ταίριαξε το ρύζι με υλικά που τελειώνουν στο ίδιο παράθυρο θερμότητας. Το ρύζι μετρά γιατί δέχεται παραλλαγές και μετατρέπει τα σκόρπια σε συνεκτικό γεύμα.",
+    "steps_en": [
+      "Use more water for recovery rice and less for denser working meals.",
+      "Cook with a lid.",
+      "Add already-cooked proteins or quick ingredients near the end.",
+      "Season simply so the meal stays flexible.",
+      "Save leftovers safely for reheating or soup-like meals."
+    ],
+    "steps_el": [
+      "Χρησιμοποίησε περισσότερο νερό για ρύζι ανάρρωσης και λιγότερο για πιο πυκνά γεύματα εργασίας.",
+      "Μαγείρεψε με καπάκι.",
+      "Πρόσθεσε ήδη μαγειρεμένες πρωτεΐνες ή γρήγορα υλικά προς το τέλος.",
+      "Καρύκευσε απλά ώστε το γεύμα να μένει ευέλικτο.",
+      "Φύλαξε με ασφάλεια τα υπολείμματα για ξαναζέσταμα ή σούπα."
+    ],
+    "warnings_en": [
+      "Too little water and rushed heat can waste rice and fuel.",
+      "A weak stomach may tolerate soft salted rice better than rich mixed meals.",
+      "Unsafe leftovers can turn a staple into a health problem."
+    ],
+    "warnings_el": [
+      "Πολύ λίγο νερό και βιαστική φωτιά μπορούν να σπαταλήσουν ρύζι και καύσιμο.",
+      "Ένα αδύναμο στομάχι μπορεί να ανεχτεί καλύτερα μαλακό αλατισμένο ρύζι παρά πλούσια ανάμικτα γεύματα.",
+      "Τα μη ασφαλή υπολείμματα μπορούν να μετατρέψουν ένα βασικό τρόφιμο σε πρόβλημα υγείας."
+    ],
+    "mistakes_en": [
+      "Trying to make rice do too many jobs at once with no plan.",
+      "Cooking it uncovered and losing heat and water.",
+      "Adding ingredients that need much longer cooking."
+    ],
+    "mistakes_el": [
+      "Να προσπαθείς να κάνεις το ρύζι να παίξει πολλούς ρόλους χωρίς σχέδιο.",
+      "Να το μαγειρεύεις ξεσκέπαστο χάνοντας θερμότητα και νερό.",
+      "Να προσθέτεις υλικά που χρειάζονται πολύ περισσότερο βράσιμο."
+    ],
+    "related_topics": [
+      "Recipes From Almost Nothing",
+      "Porridge, Gruel, and Thick Soup Basics",
+      "Low-Fuel Household Meal Planning"
+    ],
+    "difficulty": "low",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]
