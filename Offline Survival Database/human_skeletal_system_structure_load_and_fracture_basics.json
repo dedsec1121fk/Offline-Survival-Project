@@ -1,0 +1,25 @@
+[
+  {
+    "id": "anatomy::skeletal_system_structure_load_fracture",
+    "topic": "Human Skeletal System, Structure, Load, and Fracture Basics",
+    "category": "anatomy_biology_physiology",
+    "subcategory": "skeletal_system_foundation",
+    "tags": ["bones", "skeleton", "fracture", "anatomy", "load"],
+    "summary_en": "Bones are not just hard parts under the skin. The skeleton gives structure, protects organs, transfers load, and creates leverage for movement. Understanding that helps with movement, lifting, splinting, and injury judgment.",
+    "summary_el": "Τα οστά δεν είναι απλώς σκληρά μέρη κάτω από το δέρμα. Ο σκελετός δίνει δομή, προστατεύει όργανα, μεταφέρει φορτίο και δημιουργεί μοχλούς για την κίνηση. Η κατανόηση αυτού βοηθά σε κίνηση, lifting, ναρθηκοποίηση και εκτίμηση τραυματισμών.",
+    "content_en": "The skeletal system is the body’s structural frame. It holds posture, protects critical organs such as the brain, heart, lungs, and spinal cord, and gives muscles rigid points to pull against. Bones are living tissue, not dead sticks. They handle repeated load, respond to stress over time, and fail differently depending on direction of force, weakness, age, and fatigue. Long bones support body weight and movement, flat bones protect organs, and the spine balances flexibility with protection of the spinal cord. In survival settings, a useful understanding of the skeleton means more than memorizing names. It means knowing which body regions are load-bearing, which injuries threaten movement or organ protection, and why rough handling or badly planned carries can worsen damage. Bone pain, deformity, grinding, swelling, and inability to bear weight are practical warning signs because the skeleton is central to movement and protection at the same time.",
+    "content_el": "Το σκελετικό σύστημα είναι ο δομικός σκελετός του σώματος. Κρατά τη στάση, προστατεύει κρίσιμα όργανα όπως εγκέφαλο, καρδιά, πνεύμονες και νωτιαίο μυελό και δίνει στους μύες άκαμπτα σημεία για να τραβούν. Τα οστά είναι ζωντανός ιστός και όχι νεκρά ξύλα. Αντέχουν επαναλαμβανόμενο φορτίο, ανταποκρίνονται στο στρες με τον χρόνο και σπάνε διαφορετικά ανάλογα με την κατεύθυνση της δύναμης, την αδυναμία, την ηλικία και την κόπωση. Τα μακριά οστά στηρίζουν το βάρος του σώματος και την κίνηση, τα πλατιά οστά προστατεύουν όργανα και η σπονδυλική στήλη ισορροπεί ανάμεσα στην ευκαμψία και στην προστασία του νωτιαίου μυελού. Σε συνθήκες επιβίωσης, μια χρήσιμη κατανόηση του σκελετού σημαίνει κάτι περισσότερο από αποστήθιση ονομάτων. Σημαίνει να ξέρεις ποιες περιοχές είναι φορτιζόμενες, ποιοι τραυματισμοί απειλούν την κίνηση ή την προστασία οργάνων και γιατί ο σκληρός χειρισμός ή οι κακώς σχεδιασμένες μεταφορές μπορούν να χειροτερέψουν τη βλάβη. Πόνος οστού, παραμόρφωση, τριγμός, πρήξιμο και αδυναμία φόρτισης είναι πρακτικά προειδοποιητικά σημάδια γιατί ο σκελετός είναι ταυτόχρονα κεντρικός για κίνηση και προστασία.",
+    "steps_en": ["Think of bones as structure, protection, and movement support together.","Treat load-bearing pain and deformity seriously.","Reduce rough handling when fracture or structural injury is suspected.","Protect alignment during carries and position changes.","Use anatomy knowledge to decide what body regions need the most support."],
+    "steps_el": ["Σκέψου τα οστά μαζί ως δομή, προστασία και στήριξη κίνησης.","Αντιμετώπισε σοβαρά τον πόνο φόρτισης και την παραμόρφωση.","Μείωσε τον σκληρό χειρισμό όταν υπάρχει υποψία κατάγματος ή δομικού τραυματισμού.","Προστάτεψε την ευθυγράμμιση σε μεταφορές και αλλαγές θέσης.","Χρησιμοποίησε την ανατομική γνώση για να αποφασίζεις ποιες περιοχές χρειάζονται τη μεγαλύτερη στήριξη."],
+    "warnings_en": ["A broken structural system can damage soft tissues and movement at the same time.","Spinal and pelvic regions demand extra caution because they support and protect heavily.","Bearing weight through a damaged bone can worsen injury."],
+    "warnings_el": ["Ένα σπασμένο δομικό σύστημα μπορεί να βλάψει ταυτόχρονα μαλακούς ιστούς και κίνηση.","Η σπονδυλική στήλη και η λεκάνη απαιτούν επιπλέον προσοχή γιατί στηρίζουν και προστατεύουν έντονα.","Η φόρτιση πάνω σε τραυματισμένο οστό μπορεί να χειροτερέψει τη βλάβη."],
+    "mistakes_en": ["Treating bone injury as only a pain problem.","Moving a casualty without thinking about structural alignment.","Assuming a person can walk safely just because they can still stand."],
+    "mistakes_el": ["Να αντιμετωπίζεις τον τραυματισμό οστού μόνο ως πρόβλημα πόνου.","Να μετακινείς τραυματία χωρίς να σκέφτεσαι τη δομική ευθυγράμμιση.","Να υποθέτεις ότι κάποιος περπατά με ασφάλεια μόνο και μόνο επειδή ακόμη στέκεται."],
+    "related_topics": ["Field Splint Padding and Patient Move Preparation", "Splint Follow-Up, Circulation Checks, and Reposition Warnings", "Load Carrying, Balance, and Hand-Free Movement Basics"],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Deep anatomy expansion pass for bones and structural injury logic."
+  }
+]
