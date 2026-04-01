@@ -1,0 +1,63 @@
+[
+  {
+    "id": "wild::route_discipline_broken_terrain",
+    "topic": "Route Discipline in Open Country and Broken Terrain",
+    "category": "wilderness_survival",
+    "subcategory": "route_choice_and_turnaround_rules",
+    "tags": [
+      "wilderness",
+      "navigation",
+      "route",
+      "terrain",
+      "travel"
+    ],
+    "summary_en": "In wilderness travel, getting lost often begins before the wrong turn. It begins when movement has no boundaries, no turnaround time, and no simple fallback.",
+    "summary_el": "Στην άγρια μετακίνηση, το χάσιμο συχνά αρχίζει πριν από τη λάθος στροφή. Αρχίζει όταν η κίνηση δεν έχει όρια, ώρα επιστροφής και απλή εφεδρική λύση.",
+    "content_en": "Good route discipline means choosing obvious handrails such as ridges, streams, roads, walls, valleys, or shoreline instead of trusting vague memory. A strong route is not only short. It is understandable even when light drops, weather changes, and fatigue narrows attention. Before movement, define destination, turnaround time, and fallback ground. During movement, pause at decision points and confirm both what lies ahead and what the return path looks like. The moment every direction starts to look equally plausible is the moment to stop, eat, drink, check time, and reduce ambition.",
+    "content_el": "Η σωστή πειθαρχία διαδρομής σημαίνει να επιλέγεις καθαρά σημεία αναφοράς όπως κορυφογραμμές, ρέματα, δρόμους, τοίχους, κοιλάδες ή ακτογραμμή αντί να εμπιστεύεσαι αόριστη μνήμη. Μια καλή διαδρομή δεν είναι μόνο σύντομη. Είναι κατανοητή ακόμη κι όταν πέφτει το φως, αλλάζει ο καιρός και η κούραση στενεύει την προσοχή. Πριν κινηθείς, όρισε προορισμό, ώρα επιστροφής και εφεδρικό γνωστό έδαφος. Κατά την κίνηση, σταμάτα στα σημεία απόφασης και επιβεβαίωσε τόσο τι είναι μπροστά όσο και πώς μοιάζει η επιστροφή. Η στιγμή που όλες οι κατευθύνσεις μοιάζουν ίδιες είναι η στιγμή να σταματήσεις, να φας, να πιεις, να κοιτάξεις την ώρα και να μειώσεις τον στόχο.",
+    "steps_en": [
+      "Choose routes that follow obvious terrain features.",
+      "Write a turnaround time before leaving and obey it.",
+      "Stop at major forks and verify location.",
+      "Observe the path behind you so return is easier.",
+      "If confusion rises, move toward known ground instead of deeper uncertainty."
+    ],
+    "steps_el": [
+      "Διάλεξε διαδρομές που ακολουθούν καθαρά χαρακτηριστικά εδάφους.",
+      "Γράψε ώρα επιστροφής πριν φύγεις και τήρησέ την.",
+      "Σταμάτα στις μεγάλες διακλαδώσεις και επιβεβαίωσε τη θέση σου.",
+      "Παρατήρησε και τη διαδρομή πίσω σου ώστε η επιστροφή να είναι ευκολότερη.",
+      "Αν αυξηθεί η σύγχυση, κινήσου προς γνωστό έδαφος αντί για βαθύτερη αβεβαιότητα."
+    ],
+    "warnings_en": [
+      "A small late wrong turn can become a night emergency quickly.",
+      "Pride keeps people moving after they should already be turning back.",
+      "Open terrain can still hide exposure, cliffs, and dead ends."
+    ],
+    "warnings_el": [
+      "Μια μικρή λάθος στροφή αργά μπορεί να γίνει γρήγορα νυχτερινή έκτακτη ανάγκη.",
+      "Η περηφάνια κρατά τον κόσμο να συνεχίζει ενώ έπρεπε ήδη να γυρίζει.",
+      "Το ανοιχτό έδαφος μπορεί πάλι να κρύβει έκθεση, γκρεμούς και αδιέξοδα."
+    ],
+    "mistakes_en": [
+      "Walking from memory alone.",
+      "Treating uncertainty as a signal to move faster.",
+      "Ignoring how the route will look on the way back."
+    ],
+    "mistakes_el": [
+      "Να περπατάς μόνο με τη μνήμη.",
+      "Να βλέπεις την αβεβαιότητα ως σήμα για περισσότερη ταχύτητα.",
+      "Να αγνοείς πώς θα φαίνεται η διαδρομή στην επιστροφή."
+    ],
+    "related_topics": [
+      "Navigation by Terrain, Sun, and Handrails",
+      "Route Planning, Fallback Paths, and Cache Logic",
+      "Emergency Bivouac When Overtaken by Darkness"
+    ],
+    "difficulty": "medium",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-01",
+    "update_note": "Large bilingual cleanup and expansion pass."
+  }
+]
