@@ -1,0 +1,23 @@
+Offline Survival update log - 2026-04-02 anatomy biology medical pass v26
+
+Main changes:
+- Continued expansion from v25 with a focused anatomy / biology / medicine depth pass.
+- Added 8 new topic entries with stronger observation and body-system usefulness.
+
+New topic coverage added:
+- Human anatomy of skin barrier, pressure points, and tissue breakdown
+- Human anatomy of tendons, ligaments, and joint stability
+- Human anatomy of circulation, pulse clues, and capillary refill limits
+- Human anatomy of lungs, air exchange, and work of breathing
+- Human biology of fever, fluid loss, and recovery demand
+- Human biology of sleep loss, reaction time, and mistake cascades
+- Wound drainage, color changes, odor, and escalation clues
+- Respiratory distress basics, positioning, and watch signs
+- Urine color, frequency, and dehydration clues
+
+Validation:
+- JSON load test passed
+- Duplicate IDs: 0
+- Duplicate topic titles: 0
+- Master JSON remains valid
+- Browser UI/TUI Python app kept from v25

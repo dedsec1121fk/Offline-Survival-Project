@@ -1,0 +1,23 @@
+Offline Survival update log - 2026-04-02 anatomy biology medical pass v27
+
+Main changes:
+- Continued expansion from v26 with another anatomy / biology / practical medical pass.
+- Added 9 new topic entries focused on infection spread, digestion, heat balance, bowel problems, diarrhea, muscle fatigue, mouth/throat intake barriers, and swelling tracking.
+
+New topic coverage added:
+- Human anatomy of lymph nodes, drainage, and infection spread clues
+- Human biology of digestion, absorption, and recovery foods
+- Human biology of sweat, salt loss, and heat cramps
+- Constipation, bowel slowdown, and stress-related abdominal strain
+- Diarrhea output, skin protection, and fluid replacement basics
+- Human biology of muscle fatigue, cramps, and recovery pacing
+- Mouth sores, swallowing pain, and hidden intake decline
+- Swelling, inflammation, and limb function change
+- (carried forward body-systems focus without changing the browser UI / single master database structure)
+
+Validation:
+- JSON load test passed
+- Duplicate IDs: 0
+- Duplicate topic titles: 0
+- Master JSON remains valid
+- Browser UI/TUI Python app kept from v26

@@ -1,0 +1,23 @@
+Offline Survival update log - 2026-04-02 continued targeted depth pass v25
+
+Main changes:
+- Continued expansion from v24 while keeping the browser UI and single large master JSON layout.
+- Added 8 new topic entries in weaker review areas.
+
+New topic coverage added:
+- Flax retting, drying, and breaking for usable fiber
+- Simple frame weaving, warp tension, and edge control
+- Leather container patching, hole reinforcement, and stitch durability
+- River eddies, holding water, and safer bank fishing
+- Net mending, mesh consistency, and weak-point repair
+- Vision support, layout contrast, and touch labels
+- Pruning timing, cut placement, and wound management
+- Dry bean sorting, worm damage, and long storage checks
+- Cane basket repair, rim binding, and load limits
+
+Validation:
+- JSON load test passed
+- Duplicate IDs: 0
+- Duplicate topic titles: 0
+- Master JSON remains valid
+- Browser UI/TUI Python app kept from v24
