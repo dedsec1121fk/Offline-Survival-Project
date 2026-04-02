@@ -1,0 +1,20 @@
+Offline Survival update log - 2026-04-02 usefulness pass v28
+
+Main changes:
+- Added another field-use paragraph to the existing database so the current entries are slightly more practical across all categories.
+- Added 6 new broadly useful topics across water, fire, shelter, agriculture, urban cleanup, and low-tech records.
+
+New topic coverage added:
+- Handwashing station upkeep, drainage, and soap discipline
+- Fuelwood stacking, airflow, and dry-burn readiness
+- Textile scrap insulation, draft blocking, and reusable warm layers
+- Seed germination testing, weak sprout signs, and replant decisions
+- Flood cleanup, foot cuts, and contaminated water injury risk
+- Memory sketch maps, landmark labels, and route correction
+
+Validation:
+- JSON load test passed
+- Duplicate IDs: 0
+- Duplicate topic titles: 0
+- Master JSON remains valid
+- Browser UI/TUI Python app kept from v27

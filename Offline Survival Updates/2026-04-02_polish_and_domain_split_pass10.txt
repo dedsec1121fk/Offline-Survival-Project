@@ -1,0 +1,41 @@
+Offline Survival Update Log - 2026-04-02
+
+This pass focused on three goals:
+- polishing repetitive/generated-feeling phrasing across the existing database
+- expanding every existing entry with one more domain-specific practical paragraph
+- replacing the near-limit single master JSON with descriptive domain JSON files so future growth does not break the size rule
+
+Existing entries processed: 933
+New topics added: 15
+
+New topic IDs created in this pass:
+- medical::pressure_sore_turning_checks
+- medical::splint_padding_rechecks
+- hygiene::menstrual_hygiene_low_water
+- plant::harvest_label_discipline
+- trade::barter_value_storage_labor
+- water::roof_runoff_diversion_trenches
+- repair::tarp_patching_grommet_reinforcement
+- medical::child_fever_log
+- hygiene::bite_scratching_nail_hygiene
+- storage::milk_souring_short_term
+- sanitation::latrine_fly_control_ash_cover
+- repair::gutter_leaf_clog_clearing
+- records::repair_tagging_and_date_marks
+- movement::night_reentry_marker_points
+- agri::stored_seed_smell_moisture_checks
+
+Database files after domain regrouping:
+- agriculture_livestock_gardens_and_storage.json: 0.11 MB
+- anatomy_biology_medicine_and_field_care.json: 4.06 MB
+- communication_records_rebuilding_governance_history_and_resilience.json: 1.98 MB
+- food_recipes_preservation_and_gathering.json: 3.27 MB
+- psychology_movement_urban_wilderness_and_security.json: 2.45 MB
+- survival_foundations_weather_and_planning.json: 0.70 MB
+- tools_repair_construction_energy_and_textiles.json: 2.56 MB
+- water_fire_shelter_and_environmental_survival.json: 5.37 MB
+
+Checks still worth future manual review:
+- more Greek naturalness in some old entries
+- deeper category-specific expansion for law/religion/history compared with medicine and food
+- stronger visual browser UI browsing filters if the user wants a richer local web experience

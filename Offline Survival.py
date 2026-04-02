@@ -303,113 +303,61 @@ WEB_PAGE = """<!doctype html>
 <title>Offline Survival Local UI</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#111;color:#eee}
-header{padding:14px 16px;background:#1b1b1b;border-bottom:1px solid #333;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-input,select,button{font:inherit;padding:10px;border-radius:8px;border:1px solid #444;background:#222;color:#eee}
-button{cursor:pointer}
-main{display:grid;grid-template-columns:minmax(280px,38%) 1fr;height:calc(100vh - 72px)}
-#results{overflow:auto;border-right:1px solid #333;padding:10px}
-#viewer{overflow:auto;padding:16px}
-.result{padding:10px;border:1px solid #333;border-radius:10px;margin-bottom:10px;background:#181818;cursor:pointer}
-.result:hover{background:#202020}
-small{color:#aaa}
-h1,h2,h3{margin-top:0}
-.card{background:#181818;border:1px solid #333;border-radius:12px;padding:14px;margin-bottom:14px}
-ul{padding-left:22px}
-pre{white-space:pre-wrap;word-wrap:break-word}
-@media (max-width: 900px){main{grid-template-columns:1fr}#results{border-right:none;border-bottom:1px solid #333;max-height:38vh}}
+:root{--bg:#0f1115;--card:#171a21;--card2:#1d2230;--line:#2d3444;--text:#edf1f7;--muted:#aab4c7;--accent:#89b4ff;--accent2:#74d2ae}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+header{position:sticky;top:0;z-index:10;background:rgba(15,17,21,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:12px}
+.header-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:10px;align-items:center}.title{font-size:1.05rem;font-weight:700}.sub{font-size:.88rem;color:var(--muted)}
+.controls{display:grid;grid-template-columns:1fr 140px 1fr 1fr auto auto;gap:8px;align-items:center;margin-top:10px}
+input,select,button{font:inherit;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text)} button{cursor:pointer} button.primary{background:var(--accent);color:#081221;border-color:transparent;font-weight:700} button.ghost{background:transparent}
+main{display:grid;grid-template-columns:minmax(320px,36%) 1fr;min-height:calc(100vh - 98px)} aside{border-right:1px solid var(--line);overflow:auto} #viewer{overflow:auto}
+.panel{padding:12px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px}.result{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px;cursor:pointer}.result:hover,.result.active{border-color:var(--accent);background:var(--card2)}
+.meta{color:var(--muted);font-size:.85rem}.pill{display:inline-block;padding:4px 9px;border-radius:999px;background:#101722;border:1px solid var(--line);margin:3px 6px 0 0;color:var(--muted);font-size:.82rem}.entry-title{margin:0 0 8px 0;font-size:1.45rem}.entry-block p{line-height:1.58}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px} ul{padding-left:20px;line-height:1.5}.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{padding:7px 10px;border-radius:999px;border:1px solid var(--line);background:#121722;color:var(--text);cursor:pointer}.count{font-weight:700;color:var(--accent2)} .empty{color:var(--muted)}
+@media (max-width:1100px){.controls{grid-template-columns:1fr 120px 1fr 1fr auto auto}.header-grid{grid-template-columns:1fr}}
+@media (max-width:900px){main{grid-template-columns:1fr}aside{border-right:none;border-bottom:1px solid var(--line);max-height:44vh}.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.grid2{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header>
-  <strong>Offline Survival Local UI</strong>
-  <input id="q" placeholder="Search topic, method, symptom, tool, food..." style="flex:1;min-width:220px">
-  <select id="lang">
-    <option value="en">English</option>
-    <option value="el">Ελληνικά</option>
-  </select>
-  <button onclick="runSearch()">Search</button>
+  <div class="header-grid">
+    <div><div class="title">Offline Survival Local UI</div><div class="sub">Local browser search, cleaner mobile reading, filters, and related-topic browsing.</div></div>
+    <div class="meta" id="stats">Loading database information…</div>
+  </div>
+  <div class="controls">
+    <input id="q" placeholder="Search topic, symptom, tool, method, food, terrain, material…">
+    <select id="lang"><option value="en">English</option><option value="el">Ελληνικά</option></select>
+    <select id="cat"><option value="">All categories</option></select>
+    <select id="file"><option value="">All files</option></select>
+    <button class="primary" onclick="runSearch()">Search</button>
+    <button class="ghost" onclick="resetView()">Clear</button>
+  </div>
 </header>
 <main>
-  <section id="results"></section>
-  <section id="viewer"><div class="card"><h2>Ready</h2><p>Search the database to read entries in a browser-friendly layout.</p></div></section>
+  <aside><div class="panel"><div class="card"><div class="count" id="count">0 results</div><div class="empty" id="hint">Use filters or search across the local database.</div></div><div id="results"></div></div></aside>
+  <section id="viewer"><div class="panel" id="viewer-inner"><div class="card"><h2 class="entry-title">Ready</h2><p class="entry-block">Search, filter, or pick a result to read it in a cleaner browser layout. Related topics become clickable chips after an entry is loaded.</p></div></div></section>
 </main>
 <script>
-let lastResults = [];
+let lastResults = []; let activeId = null;
 function esc(s){return (s||"").replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));}
-function renderList(title, items){
-  if(!items || !items.length) return '';
-  return `<div class="card"><h3>${esc(title)}</h3><ul>${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`;
-}
-function renderTextCard(title, text){
-  if(!text) return '';
-  return `<div class="card"><h3>${esc(title)}</h3><p>${esc(text).replace(/\n/g,'<br>')}</p></div>`;
-}
-async function runSearch(){
-  const q = document.getElementById('q').value.trim();
-  const lang = document.getElementById('lang').value;
-  const resultsEl = document.getElementById('results');
-  const viewer = document.getElementById('viewer');
-  if(!q){
-    resultsEl.innerHTML = '<div class="card"><p>Type a search term.</p></div>';
-    return;
-  }
-  resultsEl.innerHTML = '<div class="card"><p>Searching…</p></div>';
-  const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&lang=${encodeURIComponent(lang)}`);
-  const data = await res.json();
-  lastResults = data.results || [];
-  if(!lastResults.length){
-    resultsEl.innerHTML = '<div class="card"><p>No results found.</p></div>';
-    viewer.innerHTML = '<div class="card"><p>Try broader keywords or fewer words.</p></div>';
-    return;
-  }
-  resultsEl.innerHTML = lastResults.map((r, idx) => `
-    <div class="result" onclick="loadEntry('${r.id.replace(/'/g, '&#39;')}')">
-      <strong>${esc(r.topic)}</strong><br>
-      <small>${esc(r.category)} | ${esc(r.file)}</small>
-      <p>${esc(r.summary || '').slice(0, 260)}</p>
-    </div>
-  `).join('');
-  loadEntry(lastResults[0].id);
-}
-async function loadEntry(id){
-  const lang = document.getElementById('lang').value;
-  const viewer = document.getElementById('viewer');
-  viewer.innerHTML = '<div class="card"><p>Loading entry…</p></div>';
-  const res = await fetch(`/api/entry?id=${encodeURIComponent(id)}&lang=${encodeURIComponent(lang)}`);
-  const data = await res.json();
-  if(!data.entry){
-    viewer.innerHTML = '<div class="card"><p>Entry not found.</p></div>';
-    return;
-  }
-  const e = data.entry;
-  viewer.innerHTML = `
-    <div class="card">
-      <h2>${esc(e.topic)}</h2>
-      <p><small>${esc(e.category)} / ${esc(e.subcategory)} | ${esc(e.file)} | ${esc(e.id)}</small></p>
-      <p>${esc(e.summary).replace(/\n/g,'<br>')}</p>
-      <p>${esc(e.content).replace(/\n/g,'<br><br>')}</p>
-    </div>
-    ${renderList(data.labels.materials, e.materials)}
-    ${renderList(data.labels.steps, e.steps)}
-    ${renderList(data.labels.alternatives, e.alternatives)}
-    ${renderList(data.labels.warnings, e.warnings)}
-    ${renderList(data.labels.failure_signs, e.failure_signs)}
-    ${renderList(data.labels.when_not_to_use, e.when_not_to_use)}
-    ${renderList(data.labels.mistakes, e.mistakes)}
-    ${renderTextCard(data.labels.short_term, e.short_term)}
-    ${renderTextCard(data.labels.long_term, e.long_term)}
-    ${renderTextCard(data.labels.if_method_fails, e.if_method_fails)}
-    ${renderTextCard(data.labels.environment_notes, e.environment_notes)}
-    ${renderList(data.labels.related_topics, e.related_topics)}
-    ${renderTextCard(data.labels.update_note, e.update_note)}
-  `;
-}
-document.getElementById('q').addEventListener('keydown', (ev)=>{if(ev.key==='Enter') runSearch();});
+function textCard(title, text){ if(!text) return ''; return `<div class="card"><h3>${esc(title)}</h3><div class="entry-block"><p>${esc(text).replace(/
+/g,'<br><br>')}</p></div></div>`; }
+function listCard(title, items){ if(!items || !items.length) return ''; return `<div class="card"><h3>${esc(title)}</h3><ul>${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`; }
+function chipsCard(title, items){ if(!items || !items.length) return ''; return `<div class="card"><h3>${esc(title)}</h3><div class="chips">${items.map(x=>`<button class="chip" onclick="searchRelated('${String(x).replace(/'/g,'&#39;')}')">${esc(x)}</button>`).join('')}</div></div>`; }
+async function loadMeta(){ const res = await fetch('/api/meta'); const data = await res.json(); document.getElementById('stats').textContent = `${data.stats.entries} entries • ${data.stats.files} files • ${data.stats.categories} categories`; const cat=document.getElementById('cat'); const file=document.getElementById('file'); (data.categories||[]).forEach(x=>{const o=document.createElement('option');o.value=x;o.textContent=x;cat.appendChild(o);}); (data.files||[]).forEach(x=>{const o=document.createElement('option');o.value=x;o.textContent=x;file.appendChild(o);}); }
+function updateCount(n,msg=''){ document.getElementById('count').textContent = `${n} result${n===1?'':'s'}`; document.getElementById('hint').textContent = msg; }
+function selectedFilters(){ return {q:document.getElementById('q').value.trim(), lang:document.getElementById('lang').value, category:document.getElementById('cat').value, file:document.getElementById('file').value}; }
+async function runSearch(){ const {q,lang,category,file}=selectedFilters(); const resultsEl=document.getElementById('results'); const viewer=document.getElementById('viewer-inner'); resultsEl.innerHTML='<div class="card empty">Searching…</div>'; const qs=new URLSearchParams({q,lang,category,file}); const res=await fetch(`/api/search?${qs.toString()}`); const data=await res.json(); lastResults=data.results||[]; if(!lastResults.length){ updateCount(0,'Try broader keywords, a different category, or remove one filter.'); resultsEl.innerHTML='<div class="card empty">No matching entries found.</div>'; viewer.innerHTML='<div class="card"><h2 class="entry-title">No result</h2><p class="entry-block">Try fewer words, remove one filter, or switch language.</p></div>'; return; } updateCount(lastResults.length,'Tap a result to open the full entry.'); resultsEl.innerHTML=lastResults.map(r=>`<div class="result ${activeId===r.id?'active':''}" onclick="loadEntry('${r.id.replace(/'/g,'&#39;')}')"><strong>${esc(r.topic)}</strong><div class="meta">${esc(r.category)} • ${esc(r.file)}</div><p>${esc((r.summary||'').slice(0,260))}</p></div>`).join(''); loadEntry(lastResults[0].id); }
+async function loadEntry(id){ activeId=id; const {lang}=selectedFilters(); const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading entry…</div>'; const res=await fetch(`/api/entry?id=${encodeURIComponent(id)}&lang=${encodeURIComponent(lang)}`); const data=await res.json(); if(!data.entry){ viewer.innerHTML='<div class="card">Entry not found.</div>'; return; } const e=data.entry; const kickers=[e.category,e.subcategory,e.file].filter(Boolean).map(x=>`<span class="pill">${esc(x)}</span>`).join(''); viewer.innerHTML=`<div class="card"><h1 class="entry-title">${esc(e.topic)}</h1><div>${kickers}<span class="pill">${esc(e.id)}</span></div><div class="entry-block"><p>${esc(e.summary).replace(/
+/g,'<br>')}</p><p>${esc(e.content).replace(/
+/g,'<br><br>')}</p></div></div><div class="grid2"><div>${listCard(data.labels.materials,e.materials)}${listCard(data.labels.steps,e.steps)}${listCard(data.labels.alternatives,e.alternatives)}${listCard(data.labels.warnings,e.warnings)}${listCard(data.labels.failure_signs,e.failure_signs)}</div><div>${listCard(data.labels.when_not_to_use,e.when_not_to_use)}${listCard(data.labels.mistakes,e.mistakes)}${textCard(data.labels.short_term,e.short_term)}${textCard(data.labels.long_term,e.long_term)}${textCard(data.labels.if_method_fails,e.if_method_fails)}${textCard(data.labels.environment_notes,e.environment_notes)}</div></div>${chipsCard(data.labels.related_topics,e.related_topics)}${textCard(data.labels.update_note,e.update_note)}`; document.querySelectorAll('.result').forEach(el=>el.classList.remove('active')); const chosen=[...document.querySelectorAll('.result')].find(el=>el.getAttribute('onclick')?.includes(id)); if(chosen) chosen.classList.add('active'); }
+function searchRelated(term){ document.getElementById('q').value = term; runSearch(); }
+function resetView(){ document.getElementById('q').value=''; document.getElementById('cat').value=''; document.getElementById('file').value=''; updateCount(0,'Use filters or search across the local database.'); document.getElementById('results').innerHTML=''; document.getElementById('viewer-inner').innerHTML='<div class="card"><h2 class="entry-title">Ready</h2><p class="entry-block">Search, filter, or pick a result to read it in a cleaner browser layout.</p></div>'; }
+document.getElementById('q').addEventListener('keydown',ev=>{if(ev.key==='Enter') runSearch();}); document.getElementById('lang').addEventListener('change',()=>{ if(activeId){ loadEntry(activeId); } }); document.getElementById('cat').addEventListener('change',()=>runSearch()); document.getElementById('file').addEventListener('change',()=>runSearch()); loadMeta().then(()=>updateCount(0,'Use filters or search across the local database.'));
 </script>
 </body>
 </html>
 """
+
 
 def browser_labels(lang):
     if lang == "el":
@@ -466,11 +414,25 @@ class OfflineWebHandler(BaseHTTPRequestHandler):
         if parsed.path == "/":
             self._send_html(WEB_PAGE)
             return
+        if parsed.path == "/api/meta":
+            self._send_json({
+                "categories": sorted(STORE.by_category.keys()),
+                "files": sorted(STORE.by_file.keys()),
+                "stats": STORE.stats(),
+            })
+            return
         if parsed.path == "/api/search":
             qs = parse_qs(parsed.query)
             query = qs.get("q", [""])[0]
             lang = qs.get("lang", ["en"])[0]
-            results = STORE.search(query, lang=lang)
+            category = qs.get("category", [""])[0]
+            file_name = qs.get("file", [""])[0]
+            results = STORE.search(query, lang=lang) if query else list(STORE.entries)
+            if category:
+                results = [entry for entry in results if entry.get("category","") == category]
+            if file_name:
+                results = [entry for entry in results if entry.get("_source_file","") == file_name]
+            results = results[:200]
             payload = []
             for entry in results:
                 payload.append({
