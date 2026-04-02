@@ -1,0 +1,24 @@
+Offline Survival Update Log - 2026-04-02 Greek-only cleanup pass 21
+
+What this pass focused on:
+- continuing Greek-only cleanup across topic_el, summary_el, content_el, and Greek list fields
+- replacing many mixed English title terms inside the Greek side with Greek equivalents
+- cleaning repeated English title insertions inside Greek text where possible
+- preserving the split JSON structure and all useful content
+
+What was changed:
+- all 8 split database JSON files were rewritten for another Greek cleanup pass
+- topic_el fields were cleaned again from mixed English/Greek phrasing
+- English title references were replaced by cleaned Greek titles where present inside Greek fields
+- broader English-to-Greek term replacement was applied across Greek scalar and list fields
+
+Honest status after this pass:
+- Greek coverage is better than before
+- duplicate IDs remain 0
+- duplicate topic titles remain 0
+- missing Greek titles remain 0
+- a strict heuristic still finds many English-like fragments in Greek fields, so the Greek side is improved but not yet fully perfect
+
+Next best continuation:
+- dedicated Greek-only cleanup with more phrase-level rewrites for medical, sanitation, and older template-derived entries
+- then a manual naturalness pass on the Greek side after leakage drops further

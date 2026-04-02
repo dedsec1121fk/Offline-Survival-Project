@@ -8,6 +8,7 @@ import html
 import textwrap
 import subprocess
 import webbrowser
+import random
 from collections import Counter, defaultdict
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from threading import Thread
@@ -154,22 +155,46 @@ class OfflineSurvivalStore:
 
     def search(self, query, lang="en", limit=80):
         q = safe_text(query).lower()
-        if not q:
-            return []
         tokens = [t for t in q.split() if t]
         results = []
         for entry in self.entries:
+            topic_blob = " ".join([
+                safe_text(entry.get("topic_en","")),
+                safe_text(entry.get("topic","")),
+                safe_text(entry.get("topic_el","")),
+            ]).lower()
+            summary_blob = " ".join([
+                safe_text(entry.get("summary_en","")),
+                safe_text(entry.get("summary_el","")),
+            ]).lower()
+            category_blob = " ".join([
+                safe_text(entry.get("category","")),
+                safe_text(entry.get("subcategory","")),
+            ]).lower()
             blob = entry.get("_search_blob","")
-            if all(token in blob for token in tokens):
-                results.append(entry)
-            elif q in blob:
-                results.append(entry)
-        results.sort(key=lambda e: (
-            q not in (e.get("topic_en","").lower() + " " + e.get("topic","").lower() + " " + e.get("topic_el","").lower()),
-            e.get("category",""),
-            e.get("topic_en","").lower()
-        ))
-        return results[:limit]
+            if q:
+                if not (all(token in blob for token in tokens) or q in blob):
+                    continue
+            score = 0
+            if q:
+                if q in topic_blob:
+                    score += 100
+                elif tokens and all(token in topic_blob for token in tokens):
+                    score += 70
+                if q in summary_blob:
+                    score += 35
+                if q in category_blob:
+                    score += 20
+                if q in blob:
+                    score += 10
+                score += sum(4 for token in tokens if token in topic_blob)
+                score += sum(2 for token in tokens if token in summary_blob)
+                score += sum(1 for token in tokens if token in category_blob)
+            else:
+                score = 1
+            results.append((score, entry))
+        results.sort(key=lambda item: (-item[0], item[1].get("category",""), item[1].get("topic_en","").lower()))
+        return [entry for _, entry in results[:limit]]
 
     def integrity_report(self):
         ids = [e["id"] for e in self.entries]
@@ -307,20 +332,20 @@ WEB_PAGE = """<!doctype html>
 *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
 header{position:sticky;top:0;z-index:10;background:rgba(15,17,21,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:12px}
 .header-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:10px;align-items:center}.title{font-size:1.05rem;font-weight:700}.sub{font-size:.88rem;color:var(--muted)}
-.controls{display:grid;grid-template-columns:1fr 140px 1fr 1fr auto auto;gap:8px;align-items:center;margin-top:10px}
+.controls{display:grid;grid-template-columns:1fr 120px 1fr 1fr auto auto auto;gap:8px;align-items:center;margin-top:10px}
 input,select,button{font:inherit;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text)} button{cursor:pointer} button.primary{background:var(--accent);color:#081221;border-color:transparent;font-weight:700} button.ghost{background:transparent}
 main{display:grid;grid-template-columns:minmax(320px,36%) 1fr;min-height:calc(100vh - 98px)} aside{border-right:1px solid var(--line);overflow:auto} #viewer{overflow:auto}
-.panel{padding:12px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px}.result{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px;cursor:pointer}.result:hover,.result.active{border-color:var(--accent);background:var(--card2)}
+.panel{padding:12px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px;box-shadow:0 6px 18px rgba(0,0,0,.18)}.result{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px;cursor:pointer;transition:border-color .15s ease, transform .12s ease}.result:hover,.result.active{border-color:var(--accent);background:var(--card2);transform:translateY(-1px)}
 .meta{color:var(--muted);font-size:.85rem}.pill{display:inline-block;padding:4px 9px;border-radius:999px;background:#101722;border:1px solid var(--line);margin:3px 6px 0 0;color:var(--muted);font-size:.82rem}.entry-title{margin:0 0 8px 0;font-size:1.45rem}.entry-block p{line-height:1.58}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px} ul{padding-left:20px;line-height:1.5}.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{padding:7px 10px;border-radius:999px;border:1px solid var(--line);background:#121722;color:var(--text);cursor:pointer}.count{font-weight:700;color:var(--accent2)} .empty{color:var(--muted)}
-@media (max-width:1100px){.controls{grid-template-columns:1fr 120px 1fr 1fr auto auto}.header-grid{grid-template-columns:1fr}}
+@media (max-width:1100px){.controls{grid-template-columns:1fr 120px 1fr 1fr auto auto auto}.header-grid{grid-template-columns:1fr}}
 @media (max-width:900px){main{grid-template-columns:1fr}aside{border-right:none;border-bottom:1px solid var(--line);max-height:44vh}.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.grid2{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header>
   <div class="header-grid">
-    <div><div class="title">Offline Survival Local UI</div><div class="sub">Local browser search, cleaner mobile reading, filters, and related-topic browsing.</div></div>
+    <div><div class="title">Offline Survival Local UI</div><div class="sub">Local browser search, mobile-friendly reading, filters, logs, and related-topic browsing.</div></div>
     <div class="meta" id="stats">Loading database information…</div>
   </div>
   <div class="controls">
@@ -329,6 +354,8 @@ main{display:grid;grid-template-columns:minmax(320px,36%) 1fr;min-height:calc(10
     <select id="cat"><option value="">All categories</option></select>
     <select id="file"><option value="">All files</option></select>
     <button class="primary" onclick="runSearch()">Search</button>
+    <button class="ghost" onclick="randomEntry()">Random</button>
+    <button class="ghost" onclick="loadUpdates()">Updates</button>
     <button class="ghost" onclick="resetView()">Clear</button>
   </div>
 </header>
@@ -344,14 +371,19 @@ function textCard(title, text){ if(!text) return ''; return `<div class="card"><
 function listCard(title, items){ if(!items || !items.length) return ''; return `<div class="card"><h3>${esc(title)}</h3><ul>${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`; }
 function chipsCard(title, items){ if(!items || !items.length) return ''; return `<div class="card"><h3>${esc(title)}</h3><div class="chips">${items.map(x=>`<button class="chip" onclick="searchRelated('${String(x).replace(/'/g,'&#39;')}')">${esc(x)}</button>`).join('')}</div></div>`; }
 async function loadMeta(){ const res = await fetch('/api/meta'); const data = await res.json(); document.getElementById('stats').textContent = `${data.stats.entries} entries • ${data.stats.files} files • ${data.stats.categories} categories`; const cat=document.getElementById('cat'); const file=document.getElementById('file'); (data.categories||[]).forEach(x=>{const o=document.createElement('option');o.value=x;o.textContent=x;cat.appendChild(o);}); (data.files||[]).forEach(x=>{const o=document.createElement('option');o.value=x;o.textContent=x;file.appendChild(o);}); }
-function updateCount(n,msg=''){ document.getElementById('count').textContent = `${n} result${n===1?'':'s'}`; document.getElementById('hint').textContent = msg; }
+function updateCount(n,msg=''){ document.getElementById('count').textContent = `${n} result${n===1?'':'s'}`; document.getElementById('hint').textContent = msg; window.scrollTo({top:0,behavior:'smooth'}); }
 function selectedFilters(){ return {q:document.getElementById('q').value.trim(), lang:document.getElementById('lang').value, category:document.getElementById('cat').value, file:document.getElementById('file').value}; }
 async function runSearch(){ const {q,lang,category,file}=selectedFilters(); const resultsEl=document.getElementById('results'); const viewer=document.getElementById('viewer-inner'); resultsEl.innerHTML='<div class="card empty">Searching…</div>'; const qs=new URLSearchParams({q,lang,category,file}); const res=await fetch(`/api/search?${qs.toString()}`); const data=await res.json(); lastResults=data.results||[]; if(!lastResults.length){ updateCount(0,'Try broader keywords, a different category, or remove one filter.'); resultsEl.innerHTML='<div class="card empty">No matching entries found.</div>'; viewer.innerHTML='<div class="card"><h2 class="entry-title">No result</h2><p class="entry-block">Try fewer words, remove one filter, or switch language.</p></div>'; return; } updateCount(lastResults.length,'Tap a result to open the full entry.'); resultsEl.innerHTML=lastResults.map(r=>`<div class="result ${activeId===r.id?'active':''}" onclick="loadEntry('${r.id.replace(/'/g,'&#39;')}')"><strong>${esc(r.topic)}</strong><div class="meta">${esc(r.category)} • ${esc(r.file)}</div><p>${esc((r.summary||'').slice(0,260))}</p></div>`).join(''); loadEntry(lastResults[0].id); }
-async function loadEntry(id){ activeId=id; const {lang}=selectedFilters(); const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading entry…</div>'; const res=await fetch(`/api/entry?id=${encodeURIComponent(id)}&lang=${encodeURIComponent(lang)}`); const data=await res.json(); if(!data.entry){ viewer.innerHTML='<div class="card">Entry not found.</div>'; return; } const e=data.entry; const kickers=[e.category,e.subcategory,e.file].filter(Boolean).map(x=>`<span class="pill">${esc(x)}</span>`).join(''); viewer.innerHTML=`<div class="card"><h1 class="entry-title">${esc(e.topic)}</h1><div>${kickers}<span class="pill">${esc(e.id)}</span></div><div class="entry-block"><p>${esc(e.summary).replace(/
+async function loadEntry(id){ activeId=id; const {lang}=selectedFilters(); const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading entry…</div>'; window.scrollTo({top:0,behavior:"smooth"}); const res=await fetch(`/api/entry?id=${encodeURIComponent(id)}&lang=${encodeURIComponent(lang)}`); const data=await res.json(); if(!data.entry){ viewer.innerHTML='<div class="card">Entry not found.</div>'; return; } const e=data.entry; const kickers=[e.category,e.subcategory,e.file].filter(Boolean).map(x=>`<span class="pill">${esc(x)}</span>`).join(''); viewer.innerHTML=`<div class="card"><h1 class="entry-title">${esc(e.topic)}</h1><div>${kickers}<span class="pill">${esc(e.id)}</span></div><div class="entry-block"><p>${esc(e.summary).replace(/
 /g,'<br>')}</p><p>${esc(e.content).replace(/
 /g,'<br><br>')}</p></div></div><div class="grid2"><div>${listCard(data.labels.materials,e.materials)}${listCard(data.labels.steps,e.steps)}${listCard(data.labels.alternatives,e.alternatives)}${listCard(data.labels.warnings,e.warnings)}${listCard(data.labels.failure_signs,e.failure_signs)}</div><div>${listCard(data.labels.when_not_to_use,e.when_not_to_use)}${listCard(data.labels.mistakes,e.mistakes)}${textCard(data.labels.short_term,e.short_term)}${textCard(data.labels.long_term,e.long_term)}${textCard(data.labels.if_method_fails,e.if_method_fails)}${textCard(data.labels.environment_notes,e.environment_notes)}</div></div>${chipsCard(data.labels.related_topics,e.related_topics)}${textCard(data.labels.update_note,e.update_note)}`; document.querySelectorAll('.result').forEach(el=>el.classList.remove('active')); const chosen=[...document.querySelectorAll('.result')].find(el=>el.getAttribute('onclick')?.includes(id)); if(chosen) chosen.classList.add('active'); }
 function searchRelated(term){ document.getElementById('q').value = term; runSearch(); }
-function resetView(){ document.getElementById('q').value=''; document.getElementById('cat').value=''; document.getElementById('file').value=''; updateCount(0,'Use filters or search across the local database.'); document.getElementById('results').innerHTML=''; document.getElementById('viewer-inner').innerHTML='<div class="card"><h2 class="entry-title">Ready</h2><p class="entry-block">Search, filter, or pick a result to read it in a cleaner browser layout.</p></div>'; }
+
+async function randomEntry(){ const {lang}=selectedFilters(); const res=await fetch(`/api/random?lang=${encodeURIComponent(lang)}`); const data=await res.json(); if(data && data.id){ loadEntry(data.id); } }
+async function loadUpdates(){ const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading update logs…</div>'; const res=await fetch('/api/updates'); const data=await res.json(); const logs=data.logs||[]; if(!logs.length){ viewer.innerHTML='<div class="card"><h2 class="entry-title">No update logs</h2><p class="entry-block">No text logs were found in the update folder.</p></div>'; return; } viewer.innerHTML=`<div class="card"><h2 class="entry-title">Update Logs</h2><div class="chips">${logs.map(x=>`<button class="chip" onclick="openUpdate('${String(x).replace(/'/g,'&#39;')}')">${esc(x)}</button>`).join('')}</div></div>`; }
+async function openUpdate(name){ const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading update log…</div>'; const res=await fetch(`/api/update?name=${encodeURIComponent(name)}`); const data=await res.json(); if(!data || !data.name){ viewer.innerHTML='<div class="card">Update log not found.</div>'; return; } viewer.innerHTML=`<div class="card"><h2 class="entry-title">${esc(data.name)}</h2><div class="entry-block"><p>${esc(data.content).replace(/
+/g,'<br><br>')}</p></div></div>`; }
+function resetView(){ document.getElementById('q').value=''; document.getElementById('cat').value=''; document.getElementById('file').value=''; updateCount(0,'Use filters or search across the local database.'); document.getElementById('results').innerHTML=''; document.getElementById('viewer-inner').innerHTML='<div class="card"><h2 class="entry-title">Ready</h2><p class="entry-block">Search, filter, load update logs, or open a random entry to browse the local database more comfortably.</p></div>'; }
 document.getElementById('q').addEventListener('keydown',ev=>{if(ev.key==='Enter') runSearch();}); document.getElementById('lang').addEventListener('change',()=>{ if(activeId){ loadEntry(activeId); } }); document.getElementById('cat').addEventListener('change',()=>runSearch()); document.getElementById('file').addEventListener('change',()=>runSearch()); loadMeta().then(()=>updateCount(0,'Use filters or search across the local database.'));
 </script>
 </body>
@@ -420,6 +452,30 @@ class OfflineWebHandler(BaseHTTPRequestHandler):
                 "files": sorted(STORE.by_file.keys()),
                 "stats": STORE.stats(),
             })
+            return
+
+        if parsed.path == "/api/random":
+            lang = parse_qs(parsed.query).get("lang", ["en"])[0]
+            if not STORE.entries:
+                self._send_json({"id": None}, status=404)
+                return
+            entry = random.choice(STORE.entries)
+            self._send_json({"id": entry.get("id",""), "topic": display_topic(entry, lang)})
+            return
+        if parsed.path == "/api/updates":
+            logs = []
+            if os.path.isdir(UPDATES_DIR):
+                logs = [name for name in sorted(os.listdir(UPDATES_DIR)) if name.endswith('.txt')]
+            self._send_json({"logs": logs})
+            return
+        if parsed.path == "/api/update":
+            qs = parse_qs(parsed.query)
+            name = qs.get("name", [""])[0]
+            path = os.path.join(UPDATES_DIR, name)
+            if not name or not os.path.isfile(path):
+                self._send_json({"name": None}, status=404)
+                return
+            self._send_json({"name": name, "content": open(path, 'r', encoding='utf-8').read()})
             return
         if parsed.path == "/api/search":
             qs = parse_qs(parsed.query)
