@@ -1,561 +1,713 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import json
 import os
-import re
 import sys
+import json
+import html
 import textwrap
+import subprocess
+import webbrowser
 from collections import Counter, defaultdict
-from pathlib import Path
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from threading import Thread
+from urllib.parse import parse_qs, urlparse
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIR = os.path.join(BASE_DIR, "Offline Survival Database")
+UPDATES_DIR = os.path.join(BASE_DIR, "Offline Survival Updates")
+WEB_HOST = "127.0.0.1"
+WEB_PORT = 8765
 
-BASE_DIR = Path(__file__).resolve().parent
-DB_DIR = BASE_DIR / "Offline Survival Database"
-UPDATES_DIR = BASE_DIR / "Offline Survival Updates"
+def clear():
+    os.system("clear" if os.name != "nt" else "cls")
 
-LANGS = {
-    "en": {
-        "app_title": "Offline Survival",
-        "choose_language": "Choose language: [1] English  [2] Ελληνικά",
-        "invalid": "Invalid choice.",
-        "main_menu": "Main Menu",
-        "search": "Search all topics",
-        "browse_topics": "Browse by topic",
-        "browse_files": "Browse by file",
-        "browse_categories": "Browse by category",
-        "stats": "Statistics",
-        "integrity": "Integrity check",
-        "updates": "Read update logs",
-        "switch_lang": "Switch language",
-        "reload": "Reload database",
-        "exit": "Exit",
-        "back": "Back",
-        "prompt": "Select an option: ",
-        "search_prompt": "Enter search text: ",
-        "no_results": "No results found.",
-        "results": "Results",
-        "open_entry": "Enter result number to open, or press Enter to go back: ",
-        "file_label": "File",
-        "topic_label": "Topic",
-        "category_label": "Category",
-        "subcategory_label": "Subcategory",
-        "tags_label": "Tags",
-        "summary_label": "Summary",
-        "content_label": "Content",
-        "steps_label": "Steps",
-        "warnings_label": "Warnings",
-        "mistakes_label": "Common mistakes",
-        "related_label": "Related topics",
-        "difficulty_label": "Difficulty",
-        "urgency_label": "Urgency",
-        "priority_label": "Priority",
-        "updated_label": "Last updated",
-        "note_label": "Update note",
-        "materials_label": "Materials / resources",
-        "alternatives_label": "Alternatives / low-resource options",
-        "failure_label": "Signs of failure or drift",
-        "when_not_label": "When not to use / when to stop",
-        "entries_loaded": "Entries loaded",
-        "json_files": "JSON files",
-        "malformed_files": "Malformed files",
-        "duplicate_ids": "Duplicate IDs",
-        "duplicate_topics": "Duplicate topic titles",
-        "integrity_ok": "No duplicate IDs or duplicate topic titles were found.",
-        "updates_empty": "No update logs found.",
-        "press_enter": "Press Enter to continue...",
-        "choose_topic": "Enter number to open, or press Enter to go back: ",
-        "language_switched": "Language switched.",
-        "reload_done": "Database reloaded.",
-        "db_missing": "Database folder not found.",
-        "loading_error": "A database error occurred while loading files.",
-        "searching": "Searching",
-        "preview_label": "Preview",
-        "source_label": "Source",
-        "category_menu": "Categories",
-        "file_menu": "Files",
-        "topic_menu": "Topics",
-        "update_menu": "Update logs",
-        "errors_label": "File load errors",
-    },
-    "el": {
-        "app_title": "Offline Survival",
-        "choose_language": "Επίλεξε γλώσσα: [1] English  [2] Ελληνικά",
-        "invalid": "Μη έγκυρη επιλογή.",
-        "main_menu": "Κύριο Μενού",
-        "search": "Αναζήτηση σε όλα τα θέματα",
-        "browse_topics": "Περιήγηση ανά θέμα",
-        "browse_files": "Περιήγηση ανά αρχείο",
-        "browse_categories": "Περιήγηση ανά κατηγορία",
-        "stats": "Στατιστικά",
-        "integrity": "Έλεγχος ακεραιότητας",
-        "updates": "Ανάγνωση αρχείων ενημέρωσης",
-        "switch_lang": "Αλλαγή γλώσσας",
-        "reload": "Επαναφόρτωση βάσης",
-        "exit": "Έξοδος",
-        "back": "Πίσω",
-        "prompt": "Διάλεξε επιλογή: ",
-        "search_prompt": "Δώσε κείμενο αναζήτησης: ",
-        "no_results": "Δεν βρέθηκαν αποτελέσματα.",
-        "results": "Αποτελέσματα",
-        "open_entry": "Δώσε αριθμό για άνοιγμα ή πάτησε Enter για επιστροφή: ",
-        "file_label": "Αρχείο",
-        "topic_label": "Θέμα",
-        "category_label": "Κατηγορία",
-        "subcategory_label": "Υποκατηγορία",
-        "tags_label": "Ετικέτες",
-        "summary_label": "Σύνοψη",
-        "content_label": "Περιεχόμενο",
-        "steps_label": "Βήματα",
-        "warnings_label": "Προειδοποιήσεις",
-        "mistakes_label": "Συχνά λάθη",
-        "related_label": "Σχετικά θέματα",
-        "difficulty_label": "Δυσκολία",
-        "urgency_label": "Επείγον",
-        "priority_label": "Προτεραιότητα",
-        "updated_label": "Τελευταία ενημέρωση",
-        "note_label": "Σημείωση ενημέρωσης",
-        "materials_label": "Υλικά / πόροι",
-        "alternatives_label": "Εναλλακτικές / λύσεις λίγων πόρων",
-        "failure_label": "Σημάδια αποτυχίας ή εκτροπής",
-        "when_not_label": "Πότε να μη χρησιμοποιηθεί / πότε να σταματήσεις",
-        "entries_loaded": "Φορτωμένες εγγραφές",
-        "json_files": "Αρχεία JSON",
-        "malformed_files": "Προβληματικά αρχεία",
-        "duplicate_ids": "Διπλά IDs",
-        "duplicate_topics": "Διπλοί τίτλοι θεμάτων",
-        "integrity_ok": "Δεν βρέθηκαν διπλά IDs ή διπλοί τίτλοι θεμάτων.",
-        "updates_empty": "Δεν βρέθηκαν αρχεία ενημέρωσης.",
-        "press_enter": "Πάτησε Enter για συνέχεια...",
-        "choose_topic": "Δώσε αριθμό για άνοιγμα ή πάτησε Enter για επιστροφή: ",
-        "language_switched": "Η γλώσσα άλλαξε.",
-        "reload_done": "Η βάση επαναφορτώθηκε.",
-        "db_missing": "Ο φάκελος της βάσης δεν βρέθηκε.",
-        "loading_error": "Παρουσιάστηκε σφάλμα κατά τη φόρτωση της βάσης.",
-        "searching": "Αναζήτηση",
-        "preview_label": "Προεπισκόπηση",
-        "source_label": "Πηγή",
-        "category_menu": "Κατηγορίες",
-        "file_menu": "Αρχεία",
-        "topic_menu": "Θέματα",
-        "update_menu": "Αρχεία ενημέρωσης",
-        "errors_label": "Σφάλματα φόρτωσης αρχείων",
-    },
-}
-
-
-def clear_screen():
-    if os.environ.get("TERM"):
-        os.system("clear")
-    else:
-        print("\n" * 4)
-
-
-def pause(lang):
-    input(LANGS[lang]["press_enter"])
-
-
-def wrap(text, width=94):
-    lines = []
-    for block in str(text).split("\n"):
-        if not block.strip():
-            lines.append("")
-        else:
-            lines.extend(textwrap.wrap(block, width=width, replace_whitespace=False, drop_whitespace=True) or [""])
-    return "\n".join(lines)
-
-
-def safe_lower(value):
-    try:
-        return str(value).casefold()
-    except Exception:
+def safe_text(value):
+    if value is None:
         return ""
+    return str(value).strip()
 
-
-def as_list(value):
+def safe_list(value):
+    if isinstance(value, list):
+        out = []
+        seen = set()
+        for item in value:
+            text = safe_text(item)
+            key = text.lower()
+            if text and key not in seen:
+                seen.add(key)
+                out.append(text)
+        return out
     if value is None:
         return []
-    if isinstance(value, list):
-        return value
-    return [value]
+    text = safe_text(value)
+    return [text] if text else []
 
+def pause(msg="\nPress Enter to continue..."):
+    try:
+        input(msg)
+    except EOFError:
+        pass
 
-def pretty_name(path):
-    return path.name
-
-
-class OfflineSurvivalApp:
+class OfflineSurvivalStore:
     def __init__(self):
-        self.lang = "en"
         self.entries = []
-        self.file_errors = []
-        self.update_logs = []
-        self.indexed = []
-        self.load_all()
+        self.by_id = {}
+        self.by_file = defaultdict(list)
+        self.by_category = defaultdict(list)
+        self.load_errors = []
+        self.last_loaded_files = []
 
-    def load_all(self):
+    def normalize_entry(self, entry, source_file):
+        e = dict(entry) if isinstance(entry, dict) else {}
+        e["id"] = safe_text(e.get("id")) or f"missing::{len(self.entries)+1}"
+        e["topic"] = safe_text(e.get("topic"))
+        e["topic_en"] = safe_text(e.get("topic_en")) or e["topic"]
+        e["topic_el"] = safe_text(e.get("topic_el"))
+        e["category"] = safe_text(e.get("category")) or "uncategorized"
+        e["subcategory"] = safe_text(e.get("subcategory"))
+        e["summary_en"] = safe_text(e.get("summary_en"))
+        e["summary_el"] = safe_text(e.get("summary_el"))
+        e["content_en"] = safe_text(e.get("content_en"))
+        e["content_el"] = safe_text(e.get("content_el"))
+        e["difficulty"] = safe_text(e.get("difficulty"))
+        e["urgency"] = safe_text(e.get("urgency"))
+        e["priority"] = safe_text(e.get("priority"))
+        e["last_updated"] = safe_text(e.get("last_updated"))
+        e["update_note"] = safe_text(e.get("update_note"))
+        e["tags"] = safe_list(e.get("tags"))
+        for key in [
+            "steps_en","steps_el","warnings_en","warnings_el","mistakes_en","mistakes_el",
+            "related_topics","materials_en","materials_el","alternatives_en","alternatives_el",
+            "failure_signs_en","failure_signs_el","when_not_to_use_en","when_not_to_use_el"
+        ]:
+            e[key] = safe_list(e.get(key))
+        for key in [
+            "short_term_en","short_term_el","long_term_en","long_term_el",
+            "if_method_fails_en","if_method_fails_el","environment_notes_en","environment_notes_el"
+        ]:
+            e[key] = safe_text(e.get(key))
+        e["_source_file"] = source_file
+        e["_search_blob"] = self.build_search_blob(e)
+        return e
+
+    def build_search_blob(self, entry):
+        parts = [
+            entry.get("id",""), entry.get("topic",""), entry.get("topic_en",""), entry.get("topic_el",""),
+            entry.get("category",""), entry.get("subcategory",""),
+            entry.get("summary_en",""), entry.get("summary_el",""),
+            entry.get("content_en",""), entry.get("content_el",""),
+            entry.get("short_term_en",""), entry.get("short_term_el",""),
+            entry.get("long_term_en",""), entry.get("long_term_el",""),
+            entry.get("if_method_fails_en",""), entry.get("if_method_fails_el",""),
+            entry.get("environment_notes_en",""), entry.get("environment_notes_el",""),
+            entry.get("difficulty",""), entry.get("urgency",""), entry.get("priority",""),
+            entry.get("last_updated",""), entry.get("update_note",""), entry.get("_source_file","")
+        ]
+        for key in [
+            "tags","steps_en","steps_el","warnings_en","warnings_el","mistakes_en","mistakes_el",
+            "related_topics","materials_en","materials_el","alternatives_en","alternatives_el",
+            "failure_signs_en","failure_signs_el","when_not_to_use_en","when_not_to_use_el"
+        ]:
+            parts.extend(entry.get(key, []))
+        return " \n ".join(parts).lower()
+
+    def load(self):
         self.entries = []
-        self.file_errors = []
-        self.indexed = []
-        self.update_logs = []
-
-        if not DB_DIR.exists():
+        self.by_id = {}
+        self.by_file = defaultdict(list)
+        self.by_category = defaultdict(list)
+        self.load_errors = []
+        self.last_loaded_files = []
+        if not os.path.isdir(DB_DIR):
+            self.load_errors.append(f"Database folder not found: {DB_DIR}")
             return
-
-        for path in sorted(DB_DIR.glob("*.json")):
+        for name in sorted(os.listdir(DB_DIR)):
+            if not name.endswith(".json"):
+                continue
+            path = os.path.join(DB_DIR, name)
             try:
-                raw = json.loads(path.read_text(encoding="utf-8"))
-                if isinstance(raw, dict):
-                    raw = [raw]
-                if not isinstance(raw, list):
-                    raise ValueError("JSON root is not a list/object")
-                for entry in raw:
-                    if not isinstance(entry, dict):
-                        continue
-                    item = dict(entry)
-                    item["_source_file"] = pretty_name(path)
-                    self.entries.append(item)
+                with open(path, "r", encoding="utf-8") as fh:
+                    data = json.load(fh)
+                if isinstance(data, dict):
+                    data = [data]
+                if not isinstance(data, list):
+                    raise ValueError("Top-level JSON must be a list or object.")
+                self.last_loaded_files.append(name)
+                for raw in data:
+                    entry = self.normalize_entry(raw, name)
+                    self.entries.append(entry)
+                    self.by_id[entry["id"]] = entry
+                    self.by_file[name].append(entry)
+                    self.by_category[entry["category"]].append(entry)
             except Exception as exc:
-                self.file_errors.append((pretty_name(path), str(exc)))
+                self.load_errors.append(f"{name}: {exc}")
+        self.entries.sort(key=lambda x: (x.get("category",""), x.get("topic_en","").lower()))
 
-        self.entries.sort(key=lambda e: safe_lower(e.get("topic", "")))
+    def stats(self):
+        return {
+            "entries": len(self.entries),
+            "files": len(self.by_file),
+            "categories": len(self.by_category),
+            "load_errors": len(self.load_errors),
+        }
+
+    def search(self, query, lang="en", limit=80):
+        q = safe_text(query).lower()
+        if not q:
+            return []
+        tokens = [t for t in q.split() if t]
+        results = []
         for entry in self.entries:
-            parts = [
-                entry.get("topic", ""),
-                entry.get("topic_en", ""),
-                entry.get("topic_el", ""),
-                entry.get("category", ""),
-                entry.get("subcategory", ""),
-                " ".join(as_list(entry.get("tags"))),
-                entry.get("summary_en", ""),
-                entry.get("summary_el", ""),
-                entry.get("content_en", ""),
-                entry.get("content_el", ""),
-                " ".join(as_list(entry.get("steps_en"))),
-                " ".join(as_list(entry.get("steps_el"))),
-                " ".join(as_list(entry.get("warnings_en"))),
-                " ".join(as_list(entry.get("warnings_el"))),
-                " ".join(as_list(entry.get("mistakes_en"))),
-                " ".join(as_list(entry.get("mistakes_el"))),
-                " ".join(as_list(entry.get("related_topics"))),
-                " ".join(as_list(entry.get("materials_en"))),
-                " ".join(as_list(entry.get("materials_el"))),
-                " ".join(as_list(entry.get("alternatives_en"))),
-                " ".join(as_list(entry.get("alternatives_el"))),
-                " ".join(as_list(entry.get("failure_signs_en"))),
-                " ".join(as_list(entry.get("failure_signs_el"))),
-                " ".join(as_list(entry.get("when_not_to_use_en"))),
-                " ".join(as_list(entry.get("when_not_to_use_el"))),
-                entry.get("_source_file", ""),
-            ]
-            self.indexed.append((entry, safe_lower(" ".join(parts))))
+            blob = entry.get("_search_blob","")
+            if all(token in blob for token in tokens):
+                results.append(entry)
+            elif q in blob:
+                results.append(entry)
+        results.sort(key=lambda e: (
+            q not in (e.get("topic_en","").lower() + " " + e.get("topic","").lower() + " " + e.get("topic_el","").lower()),
+            e.get("category",""),
+            e.get("topic_en","").lower()
+        ))
+        return results[:limit]
 
-        if UPDATES_DIR.exists():
-            for path in sorted(UPDATES_DIR.glob("*.txt")):
-                try:
-                    self.update_logs.append((pretty_name(path), path.read_text(encoding="utf-8")))
-                except Exception as exc:
-                    self.update_logs.append((pretty_name(path), f"[read error] {exc}"))
-
-    def choose_language(self):
-        while True:
-            clear_screen()
-            print(LANGS["en"]["app_title"])
-            print("=" * 40)
-            choice = input(LANGS["en"]["choose_language"] + "\n> ").strip()
-            if choice == "1":
-                self.lang = "en"
-                return
-            if choice == "2":
-                self.lang = "el"
-                return
-            print(LANGS["en"]["invalid"])
-            pause("en")
-
-    def t(self, key):
-        return LANGS[self.lang][key]
-
-    def field(self, entry, base):
-        if self.lang == "el":
-            return entry.get(base + "_el") or entry.get(base + "_en") or ""
-        return entry.get(base + "_en") or entry.get(base + "_el") or ""
-
-    def list_field(self, entry, base):
-        val = self.field(entry, base)
-        return as_list(val)
-
-    def preview(self, entry, max_len=150):
-        text = self.field(entry, "summary") or self.field(entry, "content")
-        text = re.sub(r"\s+", " ", str(text)).strip()
-        if len(text) > max_len:
-            return text[: max_len - 1].rstrip() + "…"
-        return text
-
-    def print_entry(self, entry):
-        clear_screen()
-        title = entry.get("topic_el") if self.lang == "el" and entry.get("topic_el") else entry.get("topic", "Untitled")
-        print(title)
-        print("=" * 94)
-        meta = [
-            (self.t("source_label"), entry.get("_source_file", "")),
-            (self.t("category_label"), entry.get("category", "")),
-            (self.t("subcategory_label"), entry.get("subcategory", "")),
-            (self.t("difficulty_label"), entry.get("difficulty", "")),
-            (self.t("urgency_label"), entry.get("urgency", "")),
-            (self.t("priority_label"), entry.get("priority", "")),
-            (self.t("updated_label"), entry.get("last_updated", "")),
-        ]
-        for label, value in meta:
-            if value:
-                print(f"{label}: {value}")
-        tags = ", ".join(as_list(entry.get("tags")))
-        if tags:
-            print(f"{self.t('tags_label')}: {tags}")
-
-        sections = [
-            (self.t("summary_label"), self.field(entry, "summary")),
-            (self.t("content_label"), self.field(entry, "content")),
-            (self.t("materials_label"), self.list_field(entry, "materials")),
-            (self.t("steps_label"), self.list_field(entry, "steps")),
-            (self.t("alternatives_label"), self.list_field(entry, "alternatives")),
-            (self.t("warnings_label"), self.list_field(entry, "warnings")),
-            (self.t("failure_label"), self.list_field(entry, "failure_signs")),
-            (self.t("mistakes_label"), self.list_field(entry, "mistakes")),
-            (self.t("when_not_label"), self.list_field(entry, "when_not_to_use")),
-            (self.t("related_label"), as_list(entry.get("related_topics"))),
-            (self.t("note_label"), entry.get("update_note", "")),
-        ]
-
-        for heading, value in sections:
-            if not value:
-                continue
-            print("\n" + heading)
-            print("-" * len(heading))
-            if isinstance(value, list):
-                for item in value:
-                    print("• " + wrap(item, 90).replace("\n", "\n  "))
-            else:
-                print(wrap(value, 94))
-        pause(self.lang)
-
-    def pick_from_entries(self, items, title):
-        if not items:
-            clear_screen()
-            print(self.t("no_results"))
-            pause(self.lang)
-            return
-        page_size = 15
-        page = 0
-        while True:
-            clear_screen()
-            print(title)
-            print("=" * 94)
-            total_pages = max(1, (len(items) + page_size - 1) // page_size)
-            start = page * page_size
-            chunk = items[start : start + page_size]
-            for i, entry in enumerate(chunk, start=1):
-                absolute = start + i
-                preview = self.preview(entry)
-                print(f"{absolute:>3}. {entry.get('topic','')}")
-                print(f"     {self.t('source_label')}: {entry.get('_source_file','')} | {self.t('category_label')}: {entry.get('category','')}")
-                print(f"     {self.t('preview_label')}: {preview}")
-            print(f"\n[{page + 1}/{total_pages}] n=next  p=prev")
-            choice = input(self.t("choose_topic")).strip().lower()
-            if not choice:
-                return
-            if choice == "n" and page < total_pages - 1:
-                page += 1
-                continue
-            if choice == "p" and page > 0:
-                page -= 1
-                continue
-            if choice.isdigit():
-                idx = int(choice)
-                if 1 <= idx <= len(items):
-                    self.print_entry(items[idx - 1])
-
-    def search_entries(self):
-        clear_screen()
-        query = input(self.t("search_prompt")).strip()
-        if not query:
-            return
-        q = safe_lower(query)
-        results = [entry for entry, hay in self.indexed if q in hay]
-        self.pick_from_entries(results, f"{self.t('results')}: {query}")
-
-    def browse_topics(self):
-        self.pick_from_entries(self.entries, self.t("topic_menu"))
-
-    def browse_files(self):
-        grouped = defaultdict(list)
+    def integrity_report(self):
+        ids = [e["id"] for e in self.entries]
+        topics = [e.get("topic_en") or e.get("topic") for e in self.entries]
+        dup_ids = [k for k,v in Counter(ids).items() if v > 1]
+        dup_topics = [k for k,v in Counter(topics).items() if v > 1]
+        missing = []
         for e in self.entries:
-            grouped[e.get("_source_file", "")].append(e)
-        files = sorted(grouped.items(), key=lambda kv: safe_lower(kv[0]))
-        while True:
-            clear_screen()
-            print(self.t("file_menu"))
-            print("=" * 94)
-            for i, (fname, items) in enumerate(files, start=1):
-                print(f"{i:>3}. {fname} ({len(items)})")
-            choice = input(self.t("choose_topic")).strip()
-            if not choice:
-                return
-            if choice.isdigit():
-                idx = int(choice)
-                if 1 <= idx <= len(files):
-                    fname, items = files[idx - 1]
-                    self.pick_from_entries(items, f"{self.t('file_label')}: {fname}")
+            for key in ["id","topic","summary_en","summary_el","content_en","content_el","category"]:
+                if not safe_text(e.get(key)):
+                    missing.append((e.get("id",""), key))
+        return {
+            "duplicate_ids": dup_ids,
+            "duplicate_topics": dup_topics,
+            "missing_required": missing,
+            "load_errors": list(self.load_errors),
+        }
 
-    def browse_categories(self):
-        grouped = defaultdict(list)
-        for e in self.entries:
-            grouped[e.get("category", "uncategorized")].append(e)
-        cats = sorted(grouped.items(), key=lambda kv: safe_lower(kv[0]))
-        while True:
-            clear_screen()
-            print(self.t("category_menu"))
-            print("=" * 94)
-            for i, (cat, items) in enumerate(cats, start=1):
-                print(f"{i:>3}. {cat} ({len(items)})")
-            choice = input(self.t("choose_topic")).strip()
-            if not choice:
-                return
-            if choice.isdigit():
-                idx = int(choice)
-                if 1 <= idx <= len(cats):
-                    cat, items = cats[idx - 1]
-                    self.pick_from_entries(items, f"{self.t('category_label')}: {cat}")
+STORE = OfflineSurvivalStore()
+STORE.load()
 
-    def show_stats(self):
-        clear_screen()
-        print(self.t("stats"))
-        print("=" * 94)
-        print(f"{self.t('entries_loaded')}: {len(self.entries)}")
-        print(f"{self.t('json_files')}: {len(list(DB_DIR.glob('*.json')))}")
-        print(f"{self.t('malformed_files')}: {len(self.file_errors)}")
-        categories = Counter(e.get("category", "uncategorized") for e in self.entries)
-        print("\nTop categories:")
-        for cat, count in categories.most_common(15):
-            print(f"• {cat}: {count}")
-        if self.file_errors:
-            print(f"\n{self.t('errors_label')}:")
-            for fname, err in self.file_errors[:20]:
-                print(f"• {fname}: {err}")
-        pause(self.lang)
+def display_topic(entry, lang):
+    if lang == "el":
+        return entry.get("topic_el") or entry.get("topic") or entry.get("topic_en") or "Untitled"
+    return entry.get("topic_en") or entry.get("topic") or "Untitled"
 
-    def integrity_check(self):
-        clear_screen()
-        print(self.t("integrity"))
-        print("=" * 94)
-        ids = [e.get("id", "") for e in self.entries if e.get("id")]
-        topics = [e.get("topic", "") for e in self.entries if e.get("topic")]
-        dup_ids = [k for k, v in Counter(ids).items() if v > 1]
-        dup_topics = [k for k, v in Counter(topics).items() if v > 1]
-        print(f"{self.t('duplicate_ids')}: {len(dup_ids)}")
-        print(f"{self.t('duplicate_topics')}: {len(dup_topics)}")
-        if not dup_ids and not dup_topics:
-            print(self.t("integrity_ok"))
-        if dup_ids[:20]:
-            print("\nDuplicate IDs:")
-            for item in dup_ids[:20]:
-                print("•", item)
-        if dup_topics[:20]:
-            print("\nDuplicate topics:")
-            for item in dup_topics[:20]:
-                print("•", item)
-        if self.file_errors:
-            print(f"\n{self.t('errors_label')}:")
-            for fname, err in self.file_errors[:20]:
-                print(f"• {fname}: {err}")
-        pause(self.lang)
+def display_summary(entry, lang):
+    return entry.get("summary_el") if lang == "el" else entry.get("summary_en")
 
-    def read_update_logs(self):
-        if not self.update_logs:
-            clear_screen()
-            print(self.t("updates_empty"))
-            pause(self.lang)
+def format_entry_text(entry, lang="en"):
+    lines = []
+    lines.append(display_topic(entry, lang))
+    lines.append("=" * max(10, len(lines[-1])))
+    lines.append(f"ID: {entry.get('id','')}")
+    lines.append(f"Category: {entry.get('category','')} / {entry.get('subcategory','')}")
+    lines.append(f"Source file: {entry.get('_source_file','')}")
+    if entry.get("difficulty") or entry.get("urgency") or entry.get("priority"):
+        lines.append(f"Difficulty: {entry.get('difficulty','')} | Urgency: {entry.get('urgency','')} | Priority: {entry.get('priority','')}")
+    if entry.get("last_updated"):
+        lines.append(f"Last updated: {entry.get('last_updated','')}")
+    lines.append("")
+    summary = entry.get("summary_el") if lang == "el" else entry.get("summary_en")
+    content = entry.get("content_el") if lang == "el" else entry.get("content_en")
+    if summary:
+        lines.append("Summary")
+        lines.append("-" * 7)
+        lines.append(textwrap.fill(summary, width=98))
+        lines.append("")
+    if content:
+        lines.append("Core reading")
+        lines.append("-" * 12)
+        for para in content.split("\n"):
+            para = para.strip()
+            if para:
+                lines.append(textwrap.fill(para, width=98))
+                lines.append("")
+    sections = [
+        ("Materials", "materials_el" if lang == "el" else "materials_en"),
+        ("Steps", "steps_el" if lang == "el" else "steps_en"),
+        ("Alternatives", "alternatives_el" if lang == "el" else "alternatives_en"),
+        ("Warnings", "warnings_el" if lang == "el" else "warnings_en"),
+        ("Failure signs", "failure_signs_el" if lang == "el" else "failure_signs_en"),
+        ("When not to use", "when_not_to_use_el" if lang == "el" else "when_not_to_use_en"),
+        ("Common mistakes", "mistakes_el" if lang == "el" else "mistakes_en"),
+    ]
+    for title, key in sections:
+        items = entry.get(key, [])
+        if items:
+            lines.append(title)
+            lines.append("-" * len(title))
+            for idx, item in enumerate(items, 1):
+                lines.append(f"{idx}. {item}")
+            lines.append("")
+    extras = [
+        ("Short-term considerations", "short_term_el" if lang == "el" else "short_term_en"),
+        ("Long-term considerations", "long_term_el" if lang == "el" else "long_term_en"),
+        ("If the method fails", "if_method_fails_el" if lang == "el" else "if_method_fails_en"),
+        ("Environment notes", "environment_notes_el" if lang == "el" else "environment_notes_en"),
+    ]
+    for title, key in extras:
+        val = safe_text(entry.get(key))
+        if val:
+            lines.append(title)
+            lines.append("-" * len(title))
+            for para in val.split("\n"):
+                para = para.strip()
+                if para:
+                    lines.append(textwrap.fill(para, width=98))
+            lines.append("")
+    if entry.get("related_topics"):
+        lines.append("Related topics")
+        lines.append("-" * 14)
+        for item in entry.get("related_topics", []):
+            lines.append(f"- {item}")
+        lines.append("")
+    if entry.get("update_note"):
+        lines.append("Update note")
+        lines.append("-" * 11)
+        lines.append(textwrap.fill(entry.get("update_note",""), width=98))
+    return "\n".join(lines).strip()
+
+def pick_from_entries(entries, lang):
+    if not entries:
+        print("No entries found.")
+        pause()
+        return
+    while True:
+        clear()
+        print(f"Entries: {len(entries)}")
+        print("-" * 60)
+        page = entries[:200]
+        for idx, entry in enumerate(page, 1):
+            print(f"{idx}. {display_topic(entry, lang)}  [{entry.get('category','')}]")
+        if len(entries) > len(page):
+            print(f"\nShowing first {len(page)} of {len(entries)} results.")
+        print("\nEnter number to read, or press Enter to return.")
+        choice = input("> ").strip()
+        if not choice:
             return
-        while True:
-            clear_screen()
-            print(self.t("update_menu"))
-            print("=" * 94)
-            for i, (name, _) in enumerate(self.update_logs, start=1):
-                print(f"{i:>3}. {name}")
-            choice = input(self.t("choose_topic")).strip()
-            if not choice:
-                return
-            if choice.isdigit():
-                idx = int(choice)
-                if 1 <= idx <= len(self.update_logs):
-                    name, content = self.update_logs[idx - 1]
-                    clear_screen()
-                    print(name)
-                    print("=" * 94)
-                    print(wrap(content, 94))
-                    pause(self.lang)
+        if choice.isdigit():
+            idx = int(choice)
+            if 1 <= idx <= len(page):
+                clear()
+                print(format_entry_text(page[idx-1], lang))
+                pause()
 
-    def run(self):
-        self.choose_language()
-        while True:
-            clear_screen()
-            print(self.t("app_title"))
-            print("=" * 94)
-            print(f"1. {self.t('search')}")
-            print(f"2. {self.t('browse_topics')}")
-            print(f"3. {self.t('browse_files')}")
-            print(f"4. {self.t('browse_categories')}")
-            print(f"5. {self.t('stats')}")
-            print(f"6. {self.t('integrity')}")
-            print(f"7. {self.t('updates')}")
-            print(f"8. {self.t('switch_lang')}")
-            print(f"9. {self.t('reload')}")
-            print(f"0. {self.t('exit')}")
-            choice = input("\n" + self.t("prompt")).strip()
-            if choice == "1":
-                self.search_entries()
-            elif choice == "2":
-                self.browse_topics()
-            elif choice == "3":
-                self.browse_files()
-            elif choice == "4":
-                self.browse_categories()
-            elif choice == "5":
-                self.show_stats()
-            elif choice == "6":
-                self.integrity_check()
-            elif choice == "7":
-                self.read_update_logs()
-            elif choice == "8":
-                self.lang = "el" if self.lang == "en" else "en"
-                clear_screen()
-                print(self.t("language_switched"))
-                pause(self.lang)
-            elif choice == "9":
-                self.load_all()
-                clear_screen()
-                print(self.t("reload_done"))
-                pause(self.lang)
-            elif choice == "0":
-                return
-            else:
-                clear_screen()
-                print(self.t("invalid"))
-                pause(self.lang)
+WEB_PAGE = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Offline Survival Local UI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#111;color:#eee}
+header{padding:14px 16px;background:#1b1b1b;border-bottom:1px solid #333;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+input,select,button{font:inherit;padding:10px;border-radius:8px;border:1px solid #444;background:#222;color:#eee}
+button{cursor:pointer}
+main{display:grid;grid-template-columns:minmax(280px,38%) 1fr;height:calc(100vh - 72px)}
+#results{overflow:auto;border-right:1px solid #333;padding:10px}
+#viewer{overflow:auto;padding:16px}
+.result{padding:10px;border:1px solid #333;border-radius:10px;margin-bottom:10px;background:#181818;cursor:pointer}
+.result:hover{background:#202020}
+small{color:#aaa}
+h1,h2,h3{margin-top:0}
+.card{background:#181818;border:1px solid #333;border-radius:12px;padding:14px;margin-bottom:14px}
+ul{padding-left:22px}
+pre{white-space:pre-wrap;word-wrap:break-word}
+@media (max-width: 900px){main{grid-template-columns:1fr}#results{border-right:none;border-bottom:1px solid #333;max-height:38vh}}
+</style>
+</head>
+<body>
+<header>
+  <strong>Offline Survival Local UI</strong>
+  <input id="q" placeholder="Search topic, method, symptom, tool, food..." style="flex:1;min-width:220px">
+  <select id="lang">
+    <option value="en">English</option>
+    <option value="el">Ελληνικά</option>
+  </select>
+  <button onclick="runSearch()">Search</button>
+</header>
+<main>
+  <section id="results"></section>
+  <section id="viewer"><div class="card"><h2>Ready</h2><p>Search the database to read entries in a browser-friendly layout.</p></div></section>
+</main>
+<script>
+let lastResults = [];
+function esc(s){return (s||"").replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));}
+function renderList(title, items){
+  if(!items || !items.length) return '';
+  return `<div class="card"><h3>${esc(title)}</h3><ul>${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`;
+}
+function renderTextCard(title, text){
+  if(!text) return '';
+  return `<div class="card"><h3>${esc(title)}</h3><p>${esc(text).replace(/\n/g,'<br>')}</p></div>`;
+}
+async function runSearch(){
+  const q = document.getElementById('q').value.trim();
+  const lang = document.getElementById('lang').value;
+  const resultsEl = document.getElementById('results');
+  const viewer = document.getElementById('viewer');
+  if(!q){
+    resultsEl.innerHTML = '<div class="card"><p>Type a search term.</p></div>';
+    return;
+  }
+  resultsEl.innerHTML = '<div class="card"><p>Searching…</p></div>';
+  const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&lang=${encodeURIComponent(lang)}`);
+  const data = await res.json();
+  lastResults = data.results || [];
+  if(!lastResults.length){
+    resultsEl.innerHTML = '<div class="card"><p>No results found.</p></div>';
+    viewer.innerHTML = '<div class="card"><p>Try broader keywords or fewer words.</p></div>';
+    return;
+  }
+  resultsEl.innerHTML = lastResults.map((r, idx) => `
+    <div class="result" onclick="loadEntry('${r.id.replace(/'/g, '&#39;')}')">
+      <strong>${esc(r.topic)}</strong><br>
+      <small>${esc(r.category)} | ${esc(r.file)}</small>
+      <p>${esc(r.summary || '').slice(0, 260)}</p>
+    </div>
+  `).join('');
+  loadEntry(lastResults[0].id);
+}
+async function loadEntry(id){
+  const lang = document.getElementById('lang').value;
+  const viewer = document.getElementById('viewer');
+  viewer.innerHTML = '<div class="card"><p>Loading entry…</p></div>';
+  const res = await fetch(`/api/entry?id=${encodeURIComponent(id)}&lang=${encodeURIComponent(lang)}`);
+  const data = await res.json();
+  if(!data.entry){
+    viewer.innerHTML = '<div class="card"><p>Entry not found.</p></div>';
+    return;
+  }
+  const e = data.entry;
+  viewer.innerHTML = `
+    <div class="card">
+      <h2>${esc(e.topic)}</h2>
+      <p><small>${esc(e.category)} / ${esc(e.subcategory)} | ${esc(e.file)} | ${esc(e.id)}</small></p>
+      <p>${esc(e.summary).replace(/\n/g,'<br>')}</p>
+      <p>${esc(e.content).replace(/\n/g,'<br><br>')}</p>
+    </div>
+    ${renderList(data.labels.materials, e.materials)}
+    ${renderList(data.labels.steps, e.steps)}
+    ${renderList(data.labels.alternatives, e.alternatives)}
+    ${renderList(data.labels.warnings, e.warnings)}
+    ${renderList(data.labels.failure_signs, e.failure_signs)}
+    ${renderList(data.labels.when_not_to_use, e.when_not_to_use)}
+    ${renderList(data.labels.mistakes, e.mistakes)}
+    ${renderTextCard(data.labels.short_term, e.short_term)}
+    ${renderTextCard(data.labels.long_term, e.long_term)}
+    ${renderTextCard(data.labels.if_method_fails, e.if_method_fails)}
+    ${renderTextCard(data.labels.environment_notes, e.environment_notes)}
+    ${renderList(data.labels.related_topics, e.related_topics)}
+    ${renderTextCard(data.labels.update_note, e.update_note)}
+  `;
+}
+document.getElementById('q').addEventListener('keydown', (ev)=>{if(ev.key==='Enter') runSearch();});
+</script>
+</body>
+</html>
+"""
 
+def browser_labels(lang):
+    if lang == "el":
+        return {
+            "materials":"Υλικά",
+            "steps":"Βήματα",
+            "alternatives":"Εναλλακτικές",
+            "warnings":"Προειδοποιήσεις",
+            "failure_signs":"Σημάδια αποτυχίας",
+            "when_not_to_use":"Πότε να μην το χρησιμοποιήσεις",
+            "mistakes":"Συχνά λάθη",
+            "short_term":"Βραχυπρόθεσμα",
+            "long_term":"Μακροπρόθεσμα",
+            "if_method_fails":"Αν η μέθοδος αποτύχει",
+            "environment_notes":"Σημειώσεις περιβάλλοντος",
+            "related_topics":"Σχετικά θέματα",
+            "update_note":"Σημείωση ενημέρωσης",
+        }
+    return {
+        "materials":"Materials",
+        "steps":"Steps",
+        "alternatives":"Alternatives",
+        "warnings":"Warnings",
+        "failure_signs":"Failure signs",
+        "when_not_to_use":"When not to use",
+        "mistakes":"Common mistakes",
+        "short_term":"Short-term considerations",
+        "long_term":"Long-term considerations",
+        "if_method_fails":"If the method fails",
+        "environment_notes":"Environment notes",
+        "related_topics":"Related topics",
+        "update_note":"Update note",
+    }
+
+class OfflineWebHandler(BaseHTTPRequestHandler):
+    def _send_json(self, payload, status=200):
+        body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+    def _send_html(self, body, status=200):
+        data = body.encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Content-Length", str(len(data)))
+        self.end_headers()
+        self.wfile.write(data)
+
+    def do_GET(self):
+        parsed = urlparse(self.path)
+        if parsed.path == "/":
+            self._send_html(WEB_PAGE)
+            return
+        if parsed.path == "/api/search":
+            qs = parse_qs(parsed.query)
+            query = qs.get("q", [""])[0]
+            lang = qs.get("lang", ["en"])[0]
+            results = STORE.search(query, lang=lang)
+            payload = []
+            for entry in results:
+                payload.append({
+                    "id": entry.get("id",""),
+                    "topic": display_topic(entry, lang),
+                    "summary": display_summary(entry, lang),
+                    "category": entry.get("category",""),
+                    "file": entry.get("_source_file","")
+                })
+            self._send_json({"results": payload})
+            return
+        if parsed.path == "/api/entry":
+            qs = parse_qs(parsed.query)
+            entry_id = qs.get("id", [""])[0]
+            lang = qs.get("lang", ["en"])[0]
+            entry = STORE.by_id.get(entry_id)
+            if not entry:
+                self._send_json({"entry": None}, status=404)
+                return
+            payload = {
+                "id": entry.get("id",""),
+                "topic": display_topic(entry, lang),
+                "summary": entry.get("summary_el") if lang == "el" else entry.get("summary_en"),
+                "content": entry.get("content_el") if lang == "el" else entry.get("content_en"),
+                "category": entry.get("category",""),
+                "subcategory": entry.get("subcategory",""),
+                "file": entry.get("_source_file",""),
+                "materials": entry.get("materials_el") if lang == "el" else entry.get("materials_en"),
+                "steps": entry.get("steps_el") if lang == "el" else entry.get("steps_en"),
+                "alternatives": entry.get("alternatives_el") if lang == "el" else entry.get("alternatives_en"),
+                "warnings": entry.get("warnings_el") if lang == "el" else entry.get("warnings_en"),
+                "failure_signs": entry.get("failure_signs_el") if lang == "el" else entry.get("failure_signs_en"),
+                "when_not_to_use": entry.get("when_not_to_use_el") if lang == "el" else entry.get("when_not_to_use_en"),
+                "mistakes": entry.get("mistakes_el") if lang == "el" else entry.get("mistakes_en"),
+                "short_term": entry.get("short_term_el") if lang == "el" else entry.get("short_term_en"),
+                "long_term": entry.get("long_term_el") if lang == "el" else entry.get("long_term_en"),
+                "if_method_fails": entry.get("if_method_fails_el") if lang == "el" else entry.get("if_method_fails_en"),
+                "environment_notes": entry.get("environment_notes_el") if lang == "el" else entry.get("environment_notes_en"),
+                "related_topics": entry.get("related_topics", []),
+                "update_note": entry.get("update_note",""),
+            }
+            self._send_json({"entry": payload, "labels": browser_labels(lang)})
+            return
+        self._send_json({"error": "Not found"}, status=404)
+
+    def log_message(self, format, *args):
+        return
+
+def browse_files(lang):
+    items = sorted(STORE.by_file.items())
+    while True:
+        clear()
+        print("Database files\n" + "-" * 60)
+        for idx, (name, data) in enumerate(items, 1):
+            print(f"{idx}. {name}  ({len(data)} entries)")
+        print("\nEnter number to inspect, or press Enter to return.")
+        choice = input("> ").strip()
+        if not choice:
+            return
+        if choice.isdigit():
+            idx = int(choice)
+            if 1 <= idx <= len(items):
+                pick_from_entries(items[idx-1][1], lang)
+
+def browse_categories(lang):
+    items = sorted(STORE.by_category.items())
+    while True:
+        clear()
+        print("Categories\n" + "-" * 60)
+        for idx, (name, data) in enumerate(items, 1):
+            print(f"{idx}. {name}  ({len(data)} entries)")
+        print("\nEnter number to inspect, or press Enter to return.")
+        choice = input("> ").strip()
+        if not choice:
+            return
+        if choice.isdigit():
+            idx = int(choice)
+            if 1 <= idx <= len(items):
+                pick_from_entries(items[idx-1][1], lang)
+
+def browse_topics(lang):
+    pick_from_entries(STORE.entries, lang)
+
+def show_stats():
+    clear()
+    stats = STORE.stats()
+    print("Database statistics")
+    print("-" * 60)
+    for key, value in stats.items():
+        print(f"{key}: {value}")
+    print("\nTop categories")
+    print("-" * 60)
+    cat_counter = Counter(e.get("category","") for e in STORE.entries)
+    for name, count in cat_counter.most_common(20):
+        print(f"{count:4d}  {name}")
+    print("\nDatabase files")
+    print("-" * 60)
+    for name in STORE.last_loaded_files:
+        path = os.path.join(DB_DIR, name)
+        size_mb = os.path.getsize(path) / 1024 / 1024
+        print(f"{name}  ({size_mb:.2f} MB)")
+    pause()
+
+def show_integrity():
+    clear()
+    report = STORE.integrity_report()
+    print("Integrity report")
+    print("-" * 60)
+    print(f"Duplicate IDs: {len(report['duplicate_ids'])}")
+    print(f"Duplicate topics: {len(report['duplicate_topics'])}")
+    print(f"Missing required fields: {len(report['missing_required'])}")
+    print(f"Load errors: {len(report['load_errors'])}")
+    if report["duplicate_ids"]:
+        print("\nDuplicate IDs:")
+        for item in report["duplicate_ids"][:50]:
+            print("-", item)
+    if report["duplicate_topics"]:
+        print("\nDuplicate topics:")
+        for item in report["duplicate_topics"][:50]:
+            print("-", item)
+    if report["missing_required"]:
+        print("\nMissing required fields (first 50):")
+        for entry_id, key in report["missing_required"][:50]:
+            print(f"- {entry_id}: {key}")
+    if report["load_errors"]:
+        print("\nLoad errors:")
+        for item in report["load_errors"]:
+            print("-", item)
+    pause()
+
+def show_updates():
+    clear()
+    print("Update logs")
+    print("-" * 60)
+    if not os.path.isdir(UPDATES_DIR):
+        print("No update log folder found.")
+        pause()
+        return
+    logs = [name for name in sorted(os.listdir(UPDATES_DIR)) if name.endswith(".txt")]
+    if not logs:
+        print("No update logs found.")
+        pause()
+        return
+    for idx, name in enumerate(logs, 1):
+        print(f"{idx}. {name}")
+    print("\nEnter number to read, or press Enter to return.")
+    choice = input("> ").strip()
+    if not choice:
+        return
+    if choice.isdigit():
+        idx = int(choice)
+        if 1 <= idx <= len(logs):
+            path = os.path.join(UPDATES_DIR, logs[idx-1])
+            clear()
+            print(logs[idx-1])
+            print("=" * len(logs[idx-1]))
+            print(open(path, "r", encoding="utf-8").read())
+            pause()
+
+def launch_web_ui():
+    server = ThreadingHTTPServer((WEB_HOST, WEB_PORT), OfflineWebHandler)
+    thread = Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    url = f"http://{WEB_HOST}:{WEB_PORT}/"
+    print(f"\nLocal browser UI started at: {url}")
+    opened = False
+    try:
+        subprocess.run(["termux-open-url", url], check=False)
+        opened = True
+    except Exception:
+        pass
+    if not opened:
+        try:
+            webbrowser.open(url)
+        except Exception:
+            pass
+    print("Press Enter here to stop the local server and return to the menu.")
+    pause("")
+    server.shutdown()
+    server.server_close()
+
+def choose_language(current):
+    clear()
+    print("Choose language / Επιλογή γλώσσας")
+    print("1. English")
+    print("2. Ελληνικά")
+    choice = input("> ").strip()
+    if choice == "2":
+        return "el"
+    return "en"
 
 def main():
-    try:
-        app = OfflineSurvivalApp()
-        if not DB_DIR.exists():
-            print(LANGS["en"]["db_missing"])
-            sys.exit(1)
-        app.run()
-    except KeyboardInterrupt:
-        print("\nExiting.")
-    except Exception as exc:
-        print("\nFatal error:", exc)
-        sys.exit(1)
-
+    lang = "en"
+    while True:
+        clear()
+        print("Offline Survival")
+        print("=" * 60)
+        print(f"Language: {'Ελληνικά' if lang == 'el' else 'English'}")
+        print(f"Entries loaded: {len(STORE.entries)}")
+        print("")
+        print("1. Search")
+        print("2. Browse topics")
+        print("3. Browse files")
+        print("4. Browse categories")
+        print("5. Launch local browser UI")
+        print("6. Database statistics")
+        print("7. Integrity check")
+        print("8. Update logs")
+        print("9. Switch language")
+        print("10. Reload database")
+        print("0. Exit")
+        choice = input("\n> ").strip()
+        if choice == "1":
+            query = input("Search query: ").strip()
+            results = STORE.search(query, lang=lang)
+            pick_from_entries(results, lang)
+        elif choice == "2":
+            browse_topics(lang)
+        elif choice == "3":
+            browse_files(lang)
+        elif choice == "4":
+            browse_categories(lang)
+        elif choice == "5":
+            launch_web_ui()
+        elif choice == "6":
+            show_stats()
+        elif choice == "7":
+            show_integrity()
+        elif choice == "8":
+            show_updates()
+        elif choice == "9":
+            lang = choose_language(lang)
+        elif choice == "10":
+            STORE.load()
+            pause("\nDatabase reloaded. Press Enter to continue...")
+        elif choice == "0":
+            break
 
 if __name__ == "__main__":
     main()

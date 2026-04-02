@@ -1,0 +1,55 @@
+Offline Survival Update Log
+Date: 2026-04-02
+Pass: fisheries_animals_fabrication_pass5
+
+Purpose of this pass
+- Continue the local project files directly after the repo check.
+- Expand:
+  - fisheries and fish preservation
+  - animal health observation
+  - storage and root-cellar practice
+  - low-tech wall, roof, and fabrication detail
+  - more regional plant / coastal / mountain detail
+
+What new topic files were added
+- Fish Basket Traps, Current Placement, and Check Intervals
+- Fishing Line Storage, Hook Rust, and Salt Damage Prevention
+- Rabbit Illness Signs, Appetite Changes, and Isolation Basics
+- Chicken Respiratory Signs, Droppings, and Coop Isolation Basics
+- Goat Bloat Caution, Feed Change, and Watch Signs
+- Root Cellar Airflow, Condensation, and Rot Check Routine
+- Earth Plaster Mixing, Wall Drying, and Crack Control
+- Thatch Roof Layering, Tie-Downs, and Drip Edge Basics
+- Simple Sawhorses, Cross-Bracing, and Cut Stability
+- Forge Tongs Fit, Jaw Grip, and Hot-Metal Control
+- Hammer Face Dressing, Handle Security, and Glancing-Blow Prevention
+- Mediterranean Wild Greens, Look-Alike Caution, and Bitterness Limits
+- Coastal Seaweed Caution, Rinse Limits, and Drying for Food Use
+- Mountain Cold Streams, Foot Numbness, and Camp Spacing
+- Animal Trough Cleaning, Algae Control, and Mosquito Reduction
+- Smokehouse Airflow, Drip Control, and Soot-Bittering Prevention
+
+What this pass improved
+- Better food-acquisition coverage beyond simple hooks
+- Better fish cleaning, drying, and warm-weather spoilage awareness
+- Better animal disease observation and isolation basics
+- Better low-tech building coverage for plaster, thatch, and simple shop supports
+- Better fabrication handling around tongs and hammer-face maintenance
+- Better storage detail for root-cellar airflow and rot checks
+- Better regional caution around Mediterranean greens and coastal seaweed use
+
+Validation for this pass
+- JSON files exported: 867
+- Total entries exported: 867
+- Malformed JSON files during validation: 0
+- Duplicate IDs after validation: 0
+- Duplicate topic titles after validation: 0
+- Python syntax check: passed
+- Python loader smoke test: passed
+
+Next strong continuation areas
+- more trap and snare law-conscious survival food coverage
+- more livestock disease / parasite observation basics
+- more low-tech engineering systems
+- more region-specific plant and climate files
+- more mountain / river / coastal subsystems in depth

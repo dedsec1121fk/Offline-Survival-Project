@@ -1,0 +1,32 @@
+Offline Survival update log - 2026-04-02 continued depth pass v24
+
+Main changes:
+- Continued expansion from v23 while keeping the single large master JSON structure.
+- Added 18 new topic entries with deeper bilingual detail in undercovered areas.
+
+New topic coverage added:
+- Lake shore fishing from bank features and wind lines
+- Lake ice color, sound, and abort rules
+- Root crop clamp storage, soil cover, and vent checks
+- Grain bin insect screening, turning, and moisture warnings
+- Wool washing, drying, and lanolin tradeoffs
+- Hand carding, fiber alignment, and simple spindle control
+- Leather scraping, stretching, and smoke finishing basics
+- Ash soap small-batch washing and lye caution
+- Limewash mixing, surface prep, and recoat timing
+- Adobe brick drying, turning, and stack protection
+- Teaching reading with labels, sounds, and repeated context
+- Household arithmetic for rations, trade, and storage
+- Elder mobility support, handholds, and transfer discipline
+- Hearing support signals, sightlines, and silent group routines
+- Indoor cooking smoke control, ceiling deposits, and airflow
+- Simple chimney cleanout, creosote clues, and spark risk
+- Pantry rotation, opened-container rules, and hidden losses
+- Orchard grafting aftercare, binding, and union protection
+
+Validation:
+- JSON load test passed
+- Duplicate IDs: 0
+- Duplicate topic titles: 0
+- Master JSON remains valid
+- Browser UI/TUI Python app kept from v23

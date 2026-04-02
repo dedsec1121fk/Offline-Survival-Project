@@ -1,0 +1,55 @@
+Offline Survival update log - 2026-04-02 browser UI and grouped-depth pass
+
+Main changes:
+- Removed the prompt reference text file from the project package:
+  - Offline Survival Updates/PROJECT_PROMPT_REFERENCE.txt
+- Rebuilt the database into one larger master JSON:
+  - Offline Survival Database/offline_survival_master_database.json
+- Expanded all current entries with broader detail fields:
+  - materials
+  - alternatives
+  - failure signs
+  - when not to use
+  - short-term considerations
+  - long-term considerations
+  - if the method fails
+  - environment notes
+- Added extra operational detail paragraphs to every entry in both languages.
+- Expanded step lists with more repeatable field-use and review actions.
+- Replaced the Python app with a TUI + local browser UI version.
+
+Python application changes:
+- Loads all JSON files from Offline Survival Database/
+- Supports:
+  - search
+  - browse topics
+  - browse files
+  - browse categories
+  - integrity checks
+  - update-log reading
+  - reload
+  - local browser UI launch
+- Local browser UI runs on:
+  - http://127.0.0.1:8765/
+- The browser UI is designed for easier reading/searching on mobile browsers.
+
+Database structure change:
+- Previous state: many small topic JSON files
+- Current state: one larger master JSON so the database file is closer to the previously requested size ceiling.
+- Current master JSON size is approximately:
+  - 18.92 MB
+- This is under the 20–23 MB upper boundary and closer to the requested target than the older tiny-file layout.
+
+Validation:
+- JSON load test passed
+- Python syntax compile test passed
+- Duplicate IDs: 0
+- Duplicate topic titles: 0
+- Missing required core fields after rebuild: 0
+- Load errors from the rebuilt database: 0
+
+Still to deepen in later passes:
+- more manual topic-by-topic polishing in Greek naturalness
+- more domain-specific detail in medicine, plants, and recipes
+- more climate-specific shelter and agriculture variants
+- more practical workshop, transport, and livestock failure handling

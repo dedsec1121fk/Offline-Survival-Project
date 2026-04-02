@@ -1,0 +1,54 @@
+Offline Survival Update Log
+Date: 2026-04-02
+Pass: livestock_engineering_mountain_coastal_pass6
+
+Purpose of this pass
+- Continue from v21 with more practical depth in:
+  - livestock observation
+  - water and engineering systems
+  - mountain / river / coastal variation
+  - workshop hauling and anchor systems
+  - regional plant and climate behavior
+
+What new topic files were added
+- Goat Parasite Signs, Coat Condition, and Rotation Rest
+- Chicken Lice, Mites, Dust Baths, and Coop Cleanliness
+- Rabbit Heat Stress, Shade, and Ear Temperature Warning Signs
+- Feed Bin Dryness, Damp Grain, and Mold Warning Signs
+- Simple Gutters, Splash Blocks, and Wall Erosion Prevention
+- Raised Water Barrels, Stand Bracing, and Tip-Risk Reduction
+- Hand Pump Priming, Leather Seals, and Handle-Wear Checks
+- Scree Slopes, Rolling Stone, and Group Spacing on Descent
+- Ridge Lightning Exposure, Metal Gear, and Lower-Ground Decisions
+- Cold-Shock River Entry, Breath Control, and Load-Release Decisions
+- Estuary Mud Traps, Mixed Water, and Tide Retreat Routes
+- Shellfish Caution, Sewage Runoff, and Red-Flag Collection Sites
+- Frost Pockets, Low Spots, and Cold-Air Drainage in Gardens
+- Dry Summer Herb Drying, Shade, Dust, and Crumble Tests
+- Simple Pulley Anchors, Line Angles, and Lift Drift Control
+- Reed Mats, Wind Screens, and Floor Drying in Humid Camps
+
+What this pass improved
+- Better livestock monitoring around parasites, heat, droppings, mites, and moldy feed
+- Better practical rebuilding detail for gutters, splash control, barrel stands, and hand pumps
+- Better mountain hazard coverage for scree and ridge lightning
+- Better river and estuary detail around cold shock, load release, mud traps, and tide retreat
+- Better coastal food caution around shellfish contamination
+- Better gardening microclimate coverage around frost pockets and cold-air drainage
+- Better lifting and humid-camp shelter detail
+
+Validation for this pass
+- JSON files exported: 883
+- Total entries exported: 883
+- Malformed JSON files during validation: 0
+- Duplicate IDs after validation: 0
+- Duplicate topic titles after validation: 0
+- Python syntax check: passed
+- Python loader smoke test: passed
+
+Next strong continuation areas
+- more fisheries by lake / river / coast
+- more livestock disease progression and sanitation
+- more low-tech fabrication and workshop tooling
+- more climate-specific shelter variations
+- deeper crop and seed management
