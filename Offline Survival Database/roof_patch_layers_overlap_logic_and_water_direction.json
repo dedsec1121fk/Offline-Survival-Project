@@ -1,0 +1,60 @@
+[
+  {
+    "id": "build::roof_patch_layers",
+    "topic": "Roof Patch Layers, Overlap Logic, and Water Direction",
+    "category": "shelter_protection",
+    "subcategory": "roof_repair",
+    "tags": [
+      "roof",
+      "patch",
+      "overlap",
+      "water",
+      "repair"
+    ],
+    "summary_en": "Roof Patch Layers, Overlap Logic, and Water Direction matters because water, load, and wear punish weak construction details first.",
+    "summary_el": "Το Roof Patch Layers, Overlap Logic, and Water Direction μετρά γιατί το νερό, το φορτίο και η φθορά χτυπούν πρώτα τις αδύναμες λεπτομέρειες κατασκευής.",
+    "content_en": "Roof Patch Layers, Overlap Logic, and Water Direction matters because water, load, and wear punish weak construction details first. In low-resource construction, Roof Patch Layers, Overlap Logic, and Water Direction also depends on what happens after the first rain, the first crowding, the first heat cycle, and the first repair. Those moments reveal whether the design really fits the environment. With Roof Patch Layers, Overlap Logic, and Water Direction, durable work comes from accepting that materials move. A good method expects swelling, shrinkage, settling, loosening, mud, and wear, then gives those changes somewhere safe to go. In practice, this topic becomes easier to manage when the task is broken into short repeatable cycles, the work area is prepared before starting, and the group agrees on one safe fallback if the first method begins to fail.",
+    "content_el": "Το Roof Patch Layers, Overlap Logic, and Water Direction μετρά γιατί το νερό, το φορτίο και η φθορά χτυπούν πρώτα τις αδύναμες λεπτομέρειες κατασκευής. Σε κατασκευή χαμηλών πόρων, το Roof Patch Layers, Overlap Logic, and Water Direction εξαρτάται επίσης από όσα συμβαίνουν μετά την πρώτη βροχή, το πρώτο στρίμωγμα, τον πρώτο κύκλο θερμότητας και την πρώτη επισκευή. Εκεί φαίνεται αν ο σχεδιασμός ταιριάζει στο περιβάλλον. Ένα ακόμη πρακτικό επίπεδο κατασκευής στο Roof Patch Layers, Overlap Logic, and Water Direction είναι η γήρανση των υλικών. Το ξύλο πρήζεται και στεγνώνει, τα δεσίματα χαλαρώνουν, ο πηλός ραγίζει, η πέτρα μετακινείται και τα δάπεδα λασπώνουν με την κίνηση. Ένα καλό σχέδιο το περιμένει αυτό. Με το Roof Patch Layers, Overlap Logic, and Water Direction, η ανθεκτική εργασία έρχεται από την αποδοχή ότι τα υλικά κινούνται. Μια καλή μέθοδος περιμένει πρήξιμο, στέγνωμα, καθίζηση, χαλάρωση, λάσπη και φθορά, και δίνει σε αυτές τις αλλαγές ένα ασφαλές μονοπάτι. Στην πράξη, αυτό το θέμα γίνεται ευκολότερο όταν η εργασία σπάει σε σύντομους επαναλαμβανόμενους κύκλους, ο χώρος προετοιμάζεται πριν από την έναρξη και η ομάδα συμφωνεί σε μία ασφαλή εφεδρική λύση αν η πρώτη μέθοδος αρχίσει να αποτυγχάνει.",
+    "steps_en": [
+      "Prepare the area before the critical moment arrives.",
+      "Check what changed after the last full use, not only what happened during the main action.",
+      "Review the result after one full cycle.",
+      "Note one practical lesson from this cycle so the next repetition starts stronger."
+    ],
+    "steps_el": [
+      "Ετοίμασε τον χώρο πριν φτάσει η κρίσιμη στιγμή.",
+      "Έλεγξε τι άλλαξε μετά από την τελευταία πλήρη χρήση και όχι μόνο τι συνέβη στη βασική εργασία.",
+      "Έλεγξε το αποτέλεσμα μετά από έναν πλήρη κύκλο.",
+      "Σημείωσε ένα πρακτικό μάθημα από αυτόν τον κύκλο ώστε η επόμενη επανάληψη να ξεκινήσει ισχυρότερη."
+    ],
+    "warnings_en": [
+      "Repeated routine does not remove risk; it often hides it until attention drops.",
+      "Conditions, fatigue, and interruption can change the task faster than expected."
+    ],
+    "warnings_el": [
+      "Η επαναλαμβανόμενη ρουτίνα δεν αφαιρεί τον κίνδυνο· συχνά τον κρύβει ώσπου να πέσει η προσοχή.",
+      "Οι συνθήκες, η κούραση και η διακοπή μπορούν να αλλάξουν την εργασία γρηγορότερα απ’ όσο περιμένεις."
+    ],
+    "mistakes_en": [
+      "Skipping the small setup steps that protect the whole method.",
+      "Assuming that because it worked once it will keep working unchanged."
+    ],
+    "mistakes_el": [
+      "Να παραλείπεις τα μικρά βήματα προετοιμασίας που προστατεύουν όλη τη μέθοδο.",
+      "Να υποθέτεις ότι επειδή δούλεψε μία φορά θα συνεχίσει να δουλεύει χωρίς αλλαγή."
+    ],
+    "related_topics": [
+      "roof",
+      "patch",
+      "overlap",
+      "shelter protection",
+      "roof repair"
+    ],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-02",
+    "update_note": "Polish-plus-expansion pass with deeper bilingual detail and broader coverage. Prompt-aligned project restructure and Termux app pass.",
+    "topic_en": "Roof Patch Layers, Overlap Logic, and Water Direction"
+  }
+]

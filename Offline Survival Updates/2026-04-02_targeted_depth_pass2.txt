@@ -1,0 +1,71 @@
+Offline Survival Update Log
+Date: 2026-04-02
+Pass: targeted_depth_pass2
+
+Purpose of this pass
+- Continue from the prompt-aligned project build.
+- Focus on weaker categories noted in the previous log:
+  - medicine_first_aid
+  - medicine_pharmacology_plants
+  - psychology_group_resilience
+  - laws_documents_and_local_rules
+  - religion_and_ritual_life
+  - history_lessons / history_and_lessons
+  - rebuilding_blacksmithing_basics
+  - rebuilding_water_infrastructure
+  - agriculture_food_production
+  - food_nutrition_preservation
+  - rebuilding_education
+
+What was expanded
+- Deepened 232 existing topic files in the target review areas.
+- Added richer practical detail to existing content sections, especially around:
+  - trend tracking in illness and field care
+  - leftover handling, reheating burden, and meal-system sustainability
+  - warning signs of morale drift and overload in groups
+  - second-order effects in local rules, agreements, and community process
+  - rhythm, seasonality, and observation discipline in agriculture
+  - before/during/after load inspection in craft, repair, and rebuilding work
+  - water-chain discipline from source to container to household handling
+
+What metadata was added
+- Filled in optional richer fields on many target entries when they were missing:
+  - materials_en / materials_el
+  - alternatives_en / alternatives_el
+  - failure_signs_en / failure_signs_el
+  - when_not_to_use_en / when_not_to_use_el
+- Added topic_en across exported topic files.
+- Added topic_el to selected newer topic files where a clean Greek title was available in this pass.
+
+What code changes were made
+- Updated Offline Survival.py search indexing so search now also covers:
+  - materials
+  - alternatives
+  - failure signs
+  - when-not-to-use notes
+- Updated entry display logic so it can show topic_el when that field exists.
+
+Duplicate and file-structure handling
+- While reviewing missing-topic additions, duplicate topic files were detected for a set of newer themes.
+- Removed duplicate file copies and kept the cleaner canonical filenames.
+- Final export after cleanup has no duplicate IDs and no duplicate topic titles.
+
+Honesty note
+- This pass improved depth in important categories, but it did not fully hand-rewrite every file in the project.
+- It was a targeted quality-and-depth pass, not a claim of final perfection.
+
+Validation for this pass
+- JSON files exported: 829
+- Total entries exported: 829
+- Malformed JSON files during validation: 0
+- Duplicate IDs after cleanup: 0
+- Duplicate topic titles after cleanup: 0
+- Python syntax check: passed
+- Python loader smoke test: passed
+
+Still worth deeper future review
+- Greek naturalness in older history/religion/law entries
+- plant-medicine specificity and caution wording
+- broader environment-specific coverage for island, coastal, desert, swamp, and cave scenarios
+- deeper low-tech engineering and rebuilding systems
+- stronger recipe depth with field-expedient substitutions and fuel timing

@@ -1,973 +1,561 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import os
 import json
-import difflib
+import os
+import re
+import sys
 import textwrap
-from collections import Counter
-from datetime import datetime
+from collections import Counter, defaultdict
+from pathlib import Path
 
-APP_NAME = "Offline Survival"
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_DIR = os.path.join(SCRIPT_DIR, "Offline Survival Database")
-UPDATES_DIR = os.path.join(SCRIPT_DIR, "Offline Survival Updates")
-APP_HOME = os.path.join(os.path.expanduser("~"), "Offline Survival")
-EXPORT_DIR = os.path.join(APP_HOME, "Exports")
-TXT_LIBRARY_DIR = "/storage/emulated/0/Download/Offline Survival TXT's"
-BOOKMARKS_FILE = os.path.join(APP_HOME, "bookmarks.json")
-SEARCH_HISTORY_FILE = os.path.join(APP_HOME, "search_history.json")
-WRAP_WIDTH = 96
-RECENT_LIMIT = 40
-PAGE_BREAK = "=" * WRAP_WIDTH
 
-REQUIRED_FIELDS = [
-    "id", "topic", "category", "subcategory", "tags",
-    "summary_en", "summary_el", "content_en", "content_el",
-    "steps_en", "steps_el", "warnings_en", "warnings_el",
-    "mistakes_en", "mistakes_el", "related_topics",
-    "difficulty", "urgency", "priority", "last_updated", "update_note"
-]
+BASE_DIR = Path(__file__).resolve().parent
+DB_DIR = BASE_DIR / "Offline Survival Database"
+UPDATES_DIR = BASE_DIR / "Offline Survival Updates"
 
-SEARCH_SYNONYMS = {
-    "water": ["hydration", "dehydration", "purification", "storage", "ors"],
-    "hydration": ["water", "dehydration", "fluids"],
-    "food": ["nutrition", "calories", "preservation", "scarcity"],
-    "medicine": ["medical", "injury", "treatment", "triage", "firstaid", "first-aid"],
-    "shelter": ["insulation", "storm", "cold", "sleep"],
-    "psychology": ["stress", "panic", "morale", "mental"],
-    "movement": ["route", "terrain", "evacuation", "travel"],
-    "mountain": ["elevation", "slope", "terrain", "cold"],
-    "garden": ["seed", "soil", "crop", "agriculture"],
-    "wild": ["wilderness", "forest", "camp", "route", "rain"],
-    "wilderness": ["wild", "forest", "camp", "route", "water"],
-    "urban": ["town", "apartment", "blackout", "stairs", "sanitation"],
-    "town": ["urban", "apartment", "neighbors", "barter", "water"],
-    "blackout": ["power", "urban", "apartment", "light", "stairs"],
-    "ai": ["automation", "lockout", "manual", "records", "offline"],
-    "biology": ["anatomy", "sleep", "infection", "healing", "digestion"],
-    "recipes": ["food", "rice", "bread", "beans", "broth"],
-    "animals": ["livestock", "feed", "pen", "fodder"],
-    "νερο": ["ενυδατωση", "αφυδατωση", "καθαρισμος", "αποθηκευση"],
-    "τροφη": ["διατροφη", "θερμιδες", "συντηρηση", "πεινα"],
-    "ιατρικη": ["φαρμακα", "τραυμα", "θεραπεια", "τριαζ"],
-    "ψυχολογια": ["στρες", "πανικος", "ηθικο", "νοητικο"],
-    "κινηση": ["διαδρομη", "εδάφος", "εκκενωση", "ταξιδι"],
-    "βουνο": ["υψομετρο", "κλιση", "εδάφος", "κρυο"],
-    "αγρια": ["υπαιθρος", "κατασκηνωση", "διαδρομη", "βροχη", "νερο"],
-    "πολη": ["αστικο", "διαμερισμα", "blackout", "σκαλες", "υγιεινη"],
-    "τεχνητη": ["ai", "αυτοματισμος", "κλειδωμα", "offline"],
-    "βιολογια": ["ανατομια", "υπνος", "λοιμωξη", "επουλωση", "πεψη"],
-    "συνταγες": ["τροφη", "ρυζι", "ψωμι", "οσπρια", "ζωμος"]
-}
-
-UI = {
+LANGS = {
     "en": {
-        "welcome": "Offline Survival - stronger search, easier reading, deeper offline library",
-        "choose_language": "Choose language / Επιλογή γλώσσας",
-        "menu_items": [
-            "1. Smart search",
-            "2. Search by tag",
-            "3. Search by category",
-            "4. Search by topic",
-            "5. Browse categories",
-            "6. Browse topics",
-            "7. Bookmarks",
-            "8. Database statistics",
-            "9. Update logs",
-            "10. Integrity check",
-            "11. Help",
-            "12. Extract whole knowledge to TXT library",
-            "0. Exit"
-        ],
-        "prompt": "Choose an option",
+        "app_title": "Offline Survival",
+        "choose_language": "Choose language: [1] English  [2] Ελληνικά",
         "invalid": "Invalid choice.",
-        "search": "Enter keyword or phrase",
-        "tag": "Enter tag",
-        "category": "Enter category",
-        "topic": "Enter topic",
-        "results": "results",
-        "no_results": "No matching entries found.",
-        "suggestions": "Closest suggestions",
-        "pick": "Open result number, or press Enter to go back",
-        "categories": "Categories",
-        "topics": "Topics",
-        "bookmarks": "Bookmarks",
-        "recent": "Recent searches",
-        "recent_empty": "No recent searches saved yet.",
-        "logs": "Update logs",
-        "stats": "Database statistics",
+        "main_menu": "Main Menu",
+        "search": "Search all topics",
+        "browse_topics": "Browse by topic",
+        "browse_files": "Browse by file",
+        "browse_categories": "Browse by category",
+        "stats": "Statistics",
         "integrity": "Integrity check",
-        "help": "Help",
-        "press": "Press Enter to continue...",
-        "summary": "Summary",
-        "actions": "Actions",
-        "warnings": "Warnings",
-        "mistakes": "Common mistakes",
-        "full": "Full detail",
-        "easy": "Easy read",
-        "reasons": "Why this matched",
-        "snippet": "Preview",
-        "bookmarked": "Bookmarked",
-        "not_bookmarked": "Not bookmarked",
-        "bookmark_added": "Bookmark added.",
-        "bookmark_removed": "Bookmark removed.",
-        "bookmark_empty": "No bookmarks saved yet.",
-        "reader_help": "Commands: [n] next  [p] previous  [1] overview  [2] full  [3] mistakes  [4] easy read  [r] related  [m] bookmark  [e] export  [b] back",
-        "export_prompt": "Export [1] this entry, [2] current results, [3] same category, [Enter] cancel",
-        "export_done": "Export created:",
-        "export_failed": "Export failed:",
-        "library_done": "TXT library created:",
-        "library_failed": "TXT library extraction failed:",
-        "integrity_ok": "No duplicate IDs or major missing-field issues were found.",
-        "reload_msg": "Database reloaded.",
-        "help_text": "Search now expands queries with survival synonyms in English and Greek, ranks fields more intelligently, shows why results matched, stores recent searches in ~/Offline Survival, and can extract the entire knowledge base to /storage/emulated/0/Download/Offline Survival TXT's. The reader now starts in easy read mode. Hidden main-menu commands: reload | lang | recent.",
-        "no_logs": "No update logs found yet.",
-        "meta_category": "Category",
-        "meta_subcategory": "Subcategory",
-        "meta_tags": "Tags",
-        "meta_priority": "Priority",
-        "meta_urgency": "Urgency",
-        "meta_difficulty": "Difficulty",
-        "meta_updated": "Last updated",
-        "meta_note": "Update note",
-        "meta_source": "Source file",
-        "related_topics_label": "Related topics",
-        "choose_related": "Choose related number or Enter:"
+        "updates": "Read update logs",
+        "switch_lang": "Switch language",
+        "reload": "Reload database",
+        "exit": "Exit",
+        "back": "Back",
+        "prompt": "Select an option: ",
+        "search_prompt": "Enter search text: ",
+        "no_results": "No results found.",
+        "results": "Results",
+        "open_entry": "Enter result number to open, or press Enter to go back: ",
+        "file_label": "File",
+        "topic_label": "Topic",
+        "category_label": "Category",
+        "subcategory_label": "Subcategory",
+        "tags_label": "Tags",
+        "summary_label": "Summary",
+        "content_label": "Content",
+        "steps_label": "Steps",
+        "warnings_label": "Warnings",
+        "mistakes_label": "Common mistakes",
+        "related_label": "Related topics",
+        "difficulty_label": "Difficulty",
+        "urgency_label": "Urgency",
+        "priority_label": "Priority",
+        "updated_label": "Last updated",
+        "note_label": "Update note",
+        "materials_label": "Materials / resources",
+        "alternatives_label": "Alternatives / low-resource options",
+        "failure_label": "Signs of failure or drift",
+        "when_not_label": "When not to use / when to stop",
+        "entries_loaded": "Entries loaded",
+        "json_files": "JSON files",
+        "malformed_files": "Malformed files",
+        "duplicate_ids": "Duplicate IDs",
+        "duplicate_topics": "Duplicate topic titles",
+        "integrity_ok": "No duplicate IDs or duplicate topic titles were found.",
+        "updates_empty": "No update logs found.",
+        "press_enter": "Press Enter to continue...",
+        "choose_topic": "Enter number to open, or press Enter to go back: ",
+        "language_switched": "Language switched.",
+        "reload_done": "Database reloaded.",
+        "db_missing": "Database folder not found.",
+        "loading_error": "A database error occurred while loading files.",
+        "searching": "Searching",
+        "preview_label": "Preview",
+        "source_label": "Source",
+        "category_menu": "Categories",
+        "file_menu": "Files",
+        "topic_menu": "Topics",
+        "update_menu": "Update logs",
+        "errors_label": "File load errors",
     },
     "el": {
-        "welcome": "Offline Survival - ισχυρότερη αναζήτηση, ευκολότερη ανάγνωση, βαθύτερη offline βιβλιοθήκη",
-        "choose_language": "Επιλογή γλώσσας / Choose language",
-        "menu_items": [
-            "1. Έξυπνη αναζήτηση",
-            "2. Αναζήτηση με ετικέτα",
-            "3. Αναζήτηση με κατηγορία",
-            "4. Αναζήτηση με θέμα",
-            "5. Περιήγηση κατηγοριών",
-            "6. Περιήγηση θεμάτων",
-            "7. Σελιδοδείκτες",
-            "8. Στατιστικά βάσης",
-            "9. Αρχεία ενημέρωσης",
-            "10. Έλεγχος ακεραιότητας",
-            "11. Βοήθεια",
-            "12. Εξαγωγή όλης της γνώσης σε βιβλιοθήκη TXT",
-            "0. Έξοδος"
-        ],
-        "prompt": "Διάλεξε επιλογή",
+        "app_title": "Offline Survival",
+        "choose_language": "Επίλεξε γλώσσα: [1] English  [2] Ελληνικά",
         "invalid": "Μη έγκυρη επιλογή.",
-        "search": "Δώσε λέξη ή φράση",
-        "tag": "Δώσε ετικέτα",
-        "category": "Δώσε κατηγορία",
-        "topic": "Δώσε θέμα",
-        "results": "αποτελέσματα",
-        "no_results": "Δεν βρέθηκαν αποτελέσματα.",
-        "suggestions": "Κοντινές προτάσεις",
-        "pick": "Άνοιξε αριθμό αποτελέσματος ή πάτησε Enter για επιστροφή",
-        "categories": "Κατηγορίες",
-        "topics": "Θέματα",
-        "bookmarks": "Σελιδοδείκτες",
-        "recent": "Πρόσφατες αναζητήσεις",
-        "recent_empty": "Δεν υπάρχουν ακόμη πρόσφατες αναζητήσεις.",
-        "logs": "Αρχεία ενημερώσεων",
-        "stats": "Στατιστικά βάσης",
+        "main_menu": "Κύριο Μενού",
+        "search": "Αναζήτηση σε όλα τα θέματα",
+        "browse_topics": "Περιήγηση ανά θέμα",
+        "browse_files": "Περιήγηση ανά αρχείο",
+        "browse_categories": "Περιήγηση ανά κατηγορία",
+        "stats": "Στατιστικά",
         "integrity": "Έλεγχος ακεραιότητας",
-        "help": "Βοήθεια",
-        "press": "Πάτησε Enter για συνέχεια...",
-        "summary": "Περίληψη",
-        "actions": "Ενέργειες",
-        "warnings": "Προειδοποιήσεις",
-        "mistakes": "Συχνά λάθη",
-        "full": "Πλήρης ανάλυση",
-        "easy": "Εύκολη ανάγνωση",
-        "reasons": "Γιατί ταίριαξε",
-        "snippet": "Προεπισκόπηση",
-        "bookmarked": "Αποθηκευμένο",
-        "not_bookmarked": "Χωρίς σελιδοδείκτη",
-        "bookmark_added": "Ο σελιδοδείκτης προστέθηκε.",
-        "bookmark_removed": "Ο σελιδοδείκτης αφαιρέθηκε.",
-        "bookmark_empty": "Δεν υπάρχουν ακόμη αποθηκευμένοι σελιδοδείκτες.",
-        "reader_help": "Εντολές: [n] επόμενο  [p] προηγούμενο  [1] overview  [2] πλήρης  [3] λάθη  [4] εύκολη ανάγνωση  [r] σχετικά  [m] σελιδοδείκτης  [e] εξαγωγή  [b] πίσω",
-        "export_prompt": "Εξαγωγή [1] αυτής της καταχώρησης, [2] τρεχόντων αποτελεσμάτων, [3] ίδιας κατηγορίας, [Enter] ακύρωση",
-        "export_done": "Η εξαγωγή δημιουργήθηκε:",
-        "export_failed": "Η εξαγωγή απέτυχε:",
-        "library_done": "Η βιβλιοθήκη TXT δημιουργήθηκε:",
-        "library_failed": "Η εξαγωγή βιβλιοθήκης TXT απέτυχε:",
-        "integrity_ok": "Δεν βρέθηκαν διπλά IDs ή σοβαρά προβλήματα ελλιπών πεδίων.",
-        "reload_msg": "Η βάση επαναφορτώθηκε.",
-        "help_text": "Η αναζήτηση τώρα επεκτείνει ερωτήματα με συνώνυμα επιβίωσης σε Ελληνικά και Αγγλικά, δίνει πιο έξυπνη βαρύτητα στα πεδία, δείχνει γιατί ταίριαξαν τα αποτελέσματα, αποθηκεύει πρόσφατες αναζητήσεις στο ~/Offline Survival και μπορεί να εξάγει όλη τη γνώση στο /storage/emulated/0/Download/Offline Survival TXT's. Ο αναγνώστης ξεκινά τώρα σε εύκολη λειτουργία ανάγνωσης. Κρυφές εντολές κεντρικού μενού: reload | lang | recent.",
-        "no_logs": "Δεν βρέθηκαν ακόμη αρχεία ενημερώσεων.",
-        "meta_category": "Κατηγορία",
-        "meta_subcategory": "Υποκατηγορία",
-        "meta_tags": "Ετικέτες",
-        "meta_priority": "Προτεραιότητα",
-        "meta_urgency": "Επείγον",
-        "meta_difficulty": "Δυσκολία",
-        "meta_updated": "Τελευταία ενημέρωση",
-        "meta_note": "Σημείωση ενημέρωσης",
-        "meta_source": "Αρχείο πηγής",
-        "related_topics_label": "Σχετικά θέματα",
-        "choose_related": "Διάλεξε σχετικό αριθμό ή Enter:"
-    }
+        "updates": "Ανάγνωση αρχείων ενημέρωσης",
+        "switch_lang": "Αλλαγή γλώσσας",
+        "reload": "Επαναφόρτωση βάσης",
+        "exit": "Έξοδος",
+        "back": "Πίσω",
+        "prompt": "Διάλεξε επιλογή: ",
+        "search_prompt": "Δώσε κείμενο αναζήτησης: ",
+        "no_results": "Δεν βρέθηκαν αποτελέσματα.",
+        "results": "Αποτελέσματα",
+        "open_entry": "Δώσε αριθμό για άνοιγμα ή πάτησε Enter για επιστροφή: ",
+        "file_label": "Αρχείο",
+        "topic_label": "Θέμα",
+        "category_label": "Κατηγορία",
+        "subcategory_label": "Υποκατηγορία",
+        "tags_label": "Ετικέτες",
+        "summary_label": "Σύνοψη",
+        "content_label": "Περιεχόμενο",
+        "steps_label": "Βήματα",
+        "warnings_label": "Προειδοποιήσεις",
+        "mistakes_label": "Συχνά λάθη",
+        "related_label": "Σχετικά θέματα",
+        "difficulty_label": "Δυσκολία",
+        "urgency_label": "Επείγον",
+        "priority_label": "Προτεραιότητα",
+        "updated_label": "Τελευταία ενημέρωση",
+        "note_label": "Σημείωση ενημέρωσης",
+        "materials_label": "Υλικά / πόροι",
+        "alternatives_label": "Εναλλακτικές / λύσεις λίγων πόρων",
+        "failure_label": "Σημάδια αποτυχίας ή εκτροπής",
+        "when_not_label": "Πότε να μη χρησιμοποιηθεί / πότε να σταματήσεις",
+        "entries_loaded": "Φορτωμένες εγγραφές",
+        "json_files": "Αρχεία JSON",
+        "malformed_files": "Προβληματικά αρχεία",
+        "duplicate_ids": "Διπλά IDs",
+        "duplicate_topics": "Διπλοί τίτλοι θεμάτων",
+        "integrity_ok": "Δεν βρέθηκαν διπλά IDs ή διπλοί τίτλοι θεμάτων.",
+        "updates_empty": "Δεν βρέθηκαν αρχεία ενημέρωσης.",
+        "press_enter": "Πάτησε Enter για συνέχεια...",
+        "choose_topic": "Δώσε αριθμό για άνοιγμα ή πάτησε Enter για επιστροφή: ",
+        "language_switched": "Η γλώσσα άλλαξε.",
+        "reload_done": "Η βάση επαναφορτώθηκε.",
+        "db_missing": "Ο φάκελος της βάσης δεν βρέθηκε.",
+        "loading_error": "Παρουσιάστηκε σφάλμα κατά τη φόρτωση της βάσης.",
+        "searching": "Αναζήτηση",
+        "preview_label": "Προεπισκόπηση",
+        "source_label": "Πηγή",
+        "category_menu": "Κατηγορίες",
+        "file_menu": "Αρχεία",
+        "topic_menu": "Θέματα",
+        "update_menu": "Αρχεία ενημέρωσης",
+        "errors_label": "Σφάλματα φόρτωσης αρχείων",
+    },
 }
 
 
-def clear():
-    os.system("clear")
-
-
-def safe_mkdir(path):
-    os.makedirs(path, exist_ok=True)
-
-
-def ensure_dirs():
-    safe_mkdir(APP_HOME)
-    safe_mkdir(EXPORT_DIR)
-    safe_mkdir(TXT_LIBRARY_DIR)
-    safe_mkdir(DB_DIR)
-    safe_mkdir(UPDATES_DIR)
-
-
-def normalize(text):
-    return " ".join(str(text).lower().split())
-
-
-def tokenize(text):
-    cleaned = []
-    for ch in str(text).lower():
-        cleaned.append(ch if ch.isalnum() or ch in "-_ '" else " ")
-    return [tok for tok in "".join(cleaned).split() if tok]
-
-
-def wrap(text):
-    return "\n".join(textwrap.fill(line, width=WRAP_WIDTH) if line.strip() else "" for line in str(text).splitlines())
+def clear_screen():
+    if os.environ.get("TERM"):
+        os.system("clear")
+    else:
+        print("\n" * 4)
 
 
 def pause(lang):
-    input("\n" + UI[lang]["press"])
+    input(LANGS[lang]["press_enter"])
 
 
-def safe_filename(name):
-    out = []
-    for ch in str(name):
-        out.append(ch if ch.isalnum() or ch in (" ", "-", "_", "'", ".") else "_")
-    return "".join(out).strip() or "untitled"
+def wrap(text, width=94):
+    lines = []
+    for block in str(text).split("\n"):
+        if not block.strip():
+            lines.append("")
+        else:
+            lines.extend(textwrap.wrap(block, width=width, replace_whitespace=False, drop_whitespace=True) or [""])
+    return "\n".join(lines)
 
 
-def choose_language():
-    while True:
-        clear()
-        print(PAGE_BREAK)
-        print(APP_NAME)
-        print(PAGE_BREAK)
-        print(UI["en"]["choose_language"])
-        print("1. English")
-        print("2. Ελληνικά")
-        choice = input("> ").strip()
-        if choice == "1":
-            return "en"
-        if choice == "2":
-            return "el"
-
-
-def load_json_list(path, fallback):
-    if not os.path.isfile(path):
-        return fallback
+def safe_lower(value):
     try:
-        with open(path, "r", encoding="utf-8") as fh:
-            data = json.load(fh)
-        return data if isinstance(data, list) else fallback
+        return str(value).casefold()
     except Exception:
-        return fallback
+        return ""
 
 
-def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as fh:
-        json.dump(data, fh, ensure_ascii=False, indent=2)
-
-
-def load_bookmarks():
-    ensure_dirs()
-    return load_json_list(BOOKMARKS_FILE, [])
-
-
-def save_bookmarks(bookmarks):
-    ensure_dirs()
-    save_json(BOOKMARKS_FILE, sorted(set(bookmarks)))
-
-
-def load_history():
-    ensure_dirs()
-    return load_json_list(SEARCH_HISTORY_FILE, [])
-
-
-def save_history(history):
-    ensure_dirs()
-    save_json(SEARCH_HISTORY_FILE, history[:RECENT_LIMIT])
-
-
-def add_history(query, mode):
-    hist = [h for h in load_history() if not (h.get("query") == query and h.get("mode") == mode)]
-    hist.insert(0, {"query": query, "mode": mode, "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")})
-    save_history(hist)
-
-
-def build_aliases(item):
-    aliases = set()
-    aliases.update(tokenize(item.get("topic", "")))
-    aliases.update(tokenize(item.get("category", "")))
-    aliases.update(tokenize(item.get("subcategory", "")))
-    for tag in item.get("tags", []) or []:
-        aliases.update(tokenize(tag))
-    return sorted(aliases)
-
-
-def load_database():
-    entries = []
-    if not os.path.isdir(DB_DIR):
-        return entries
-    for filename in sorted(os.listdir(DB_DIR)):
-        if not filename.endswith(".json"):
-            continue
-        path = os.path.join(DB_DIR, filename)
-        try:
-            with open(path, "r", encoding="utf-8") as fh:
-                data = json.load(fh)
-            if isinstance(data, dict):
-                data = [data]
-            if not isinstance(data, list):
-                continue
-            for item in data:
-                if not isinstance(item, dict):
-                    continue
-                item["_source_file"] = filename
-                item["_aliases"] = build_aliases(item)
-                entries.append(item)
-        except Exception as exc:
-            entries.append({
-                "id": f"broken::{filename}", "topic": filename, "category": "system", "subcategory": "load_error", "tags": ["load_error"],
-                "summary_en": f"Failed to load {filename}: {exc}", "summary_el": f"Αποτυχία φόρτωσης {filename}: {exc}",
-                "content_en": "Fix or replace the broken JSON file.", "content_el": "Διόρθωσε ή αντικατέστησε το κατεστραμμένο JSON.",
-                "steps_en": [], "steps_el": [], "warnings_en": ["Broken file."], "warnings_el": ["Κατεστραμμένο αρχείο."],
-                "mistakes_en": [], "mistakes_el": [], "related_topics": [],
-                "difficulty": "low", "urgency": "medium", "priority": "high", "last_updated": "", "update_note": "Auto-generated load error.",
-                "_source_file": filename, "_aliases": ["load_error"]
-            })
-    return entries
-
-
-def list_logs():
-    if not os.path.isdir(UPDATES_DIR):
+def as_list(value):
+    if value is None:
         return []
-    return sorted([x for x in os.listdir(UPDATES_DIR) if x.lower().endswith(".txt")])
+    if isinstance(value, list):
+        return value
+    return [value]
 
 
-def get_text(item, lang, base):
-    value = item.get(f"{base}_{lang}", "")
-    return value if not isinstance(value, list) else " ".join(map(str, value))
+def pretty_name(path):
+    return path.name
 
 
-def get_list(item, lang, base):
-    value = item.get(f"{base}_{lang}", [])
-    return value if isinstance(value, list) else ([value] if value else [])
+class OfflineSurvivalApp:
+    def __init__(self):
+        self.lang = "en"
+        self.entries = []
+        self.file_errors = []
+        self.update_logs = []
+        self.indexed = []
+        self.load_all()
 
+    def load_all(self):
+        self.entries = []
+        self.file_errors = []
+        self.indexed = []
+        self.update_logs = []
 
-def expand_terms(query):
-    tokens = tokenize(query)
-    expanded = set(tokens)
-    for token in list(tokens):
-        if token in SEARCH_SYNONYMS:
-            expanded.update(SEARCH_SYNONYMS[token])
-        for key, vals in SEARCH_SYNONYMS.items():
-            if token in vals:
-                expanded.add(key)
-                expanded.update(vals)
-    return tokens, sorted(expanded)
-
-
-def build_profile(query):
-    q = normalize(query)
-    tokens, expanded = expand_terms(q)
-    return {"raw": query, "q": q, "tokens": tokens, "expanded": expanded}
-
-
-def search_blob(item):
-    parts = [
-        item.get("topic", ""), item.get("category", ""), item.get("subcategory", ""),
-        " ".join(item.get("tags", []) or []), " ".join(item.get("_aliases", []) or []), item.get("_source_file", ""),
-        item.get("summary_en", ""), item.get("summary_el", ""), item.get("content_en", ""), item.get("content_el", ""),
-        " ".join(get_list(item, "en", "steps")), " ".join(get_list(item, "el", "steps")),
-        " ".join(get_list(item, "en", "warnings")), " ".join(get_list(item, "el", "warnings")),
-        " ".join(get_list(item, "en", "mistakes")), " ".join(get_list(item, "el", "mistakes")),
-        " ".join(item.get("related_topics", []) or [])
-    ]
-    return normalize(" ".join(parts))
-
-
-def score_entry(item, profile, mode):
-    q = profile["q"]
-    tokens = profile["tokens"]
-    expanded = profile["expanded"]
-    topic = normalize(item.get("topic", ""))
-    category = normalize(item.get("category", ""))
-    subcategory = normalize(item.get("subcategory", ""))
-    tags = [normalize(x) for x in item.get("tags", []) or []]
-    aliases = [normalize(x) for x in item.get("_aliases", []) or []]
-    summary = normalize(get_text(item, "en", "summary") + " " + get_text(item, "el", "summary"))
-    content = normalize(get_text(item, "en", "content") + " " + get_text(item, "el", "content"))
-    steps = normalize(" ".join(get_list(item, "en", "steps") + get_list(item, "el", "steps")))
-    warnings = normalize(" ".join(get_list(item, "en", "warnings") + get_list(item, "el", "warnings")))
-    mistakes = normalize(" ".join(get_list(item, "en", "mistakes") + get_list(item, "el", "mistakes")))
-    related = normalize(" ".join(item.get("related_topics", []) or []))
-    source = normalize(item.get("_source_file", ""))
-    blob = search_blob(item)
-
-    score = 0.0
-    reasons = []
-
-    def add(points, reason):
-        nonlocal score
-        score += points
-        if reason not in reasons:
-            reasons.append(reason)
-
-    if mode == "topic":
-        if q == topic:
-            add(320, "exact topic")
-        if q in topic:
-            add(160, "topic phrase")
-        add(difflib.SequenceMatcher(None, q, topic).ratio() * 80, "topic similarity")
-        return score, reasons[:4]
-
-    if mode == "category":
-        if q == category:
-            add(300, "exact category")
-        if q in category or q in subcategory:
-            add(160, "category phrase")
-        add(difflib.SequenceMatcher(None, q, category).ratio() * 70, "category similarity")
-        return score, reasons[:4]
-
-    if mode == "tag":
-        if q in tags or q in aliases:
-            add(280, "exact tag/alias")
-        for t in tags + aliases:
-            if q in t:
-                add(80, "tag phrase")
-            add(difflib.SequenceMatcher(None, q, t).ratio() * 28, "tag similarity")
-        return score, reasons[:4]
-
-    if q == topic:
-        add(360, "exact topic")
-    if q in topic:
-        add(220, "topic phrase")
-    if q == category or q == subcategory:
-        add(180, "exact category/subcategory")
-    if q in category or q in subcategory:
-        add(95, "category phrase")
-    if q in tags or q in aliases:
-        add(130, "exact tag/alias")
-    if q in summary:
-        add(150, "summary phrase")
-    if q in content:
-        add(95, "content phrase")
-    if q in steps:
-        add(70, "action phrase")
-    if q in warnings:
-        add(65, "warning phrase")
-    if q in mistakes:
-        add(60, "mistake phrase")
-    if q in related:
-        add(50, "related phrase")
-    if q in source:
-        add(35, "source file phrase")
-
-    token_hits = 0
-    exp_hits = 0
-    for token in tokens:
-        if token in topic:
-            add(34, "topic term")
-            token_hits += 1
-        elif token in tags or token in aliases:
-            add(26, "tag term")
-            token_hits += 1
-        elif token in category or token in subcategory:
-            add(20, "category term")
-            token_hits += 1
-        elif token in blob:
-            add(10, "content term")
-            token_hits += 1
-    for token in expanded:
-        if token in blob:
-            exp_hits += 1
-            add(2.5, "expanded synonym")
-    if tokens and token_hits == len(tokens):
-        add(65 + 5 * len(tokens), "all query terms found")
-    if len(expanded) > 2 and exp_hits >= min(3, len(expanded)):
-        add(18, "multiple related concepts found")
-
-    add(difflib.SequenceMatcher(None, q, topic).ratio() * 55, "topic similarity")
-    add(difflib.SequenceMatcher(None, q, summary[:500]).ratio() * 25, "summary similarity")
-    if normalize(item.get("priority", "")) == "high":
-        add(5, "high priority")
-    if normalize(item.get("urgency", "")) in {"high", "critical"}:
-        add(5, "high urgency")
-    return score, reasons[:5]
-
-
-def search_entries(entries, query, mode="keyword"):
-    profile = build_profile(query)
-    ranked = []
-    for item in entries:
-        score, reasons = score_entry(item, profile, mode)
-        if score >= 25:
-            ranked.append((score, reasons, item))
-    ranked.sort(key=lambda x: (-x[0], x[2].get("topic", "")))
-    return ranked, profile
-
-
-def best_snippet(item, profile, lang):
-    candidates = [
-        get_text(item, lang, "summary"), get_text(item, lang, "content"),
-        " ".join(get_list(item, lang, "steps")), " ".join(get_list(item, lang, "warnings")),
-        " ".join(get_list(item, lang, "mistakes"))
-    ]
-    terms = [profile["q"]] + profile["expanded"]
-    for text in candidates:
-        low = normalize(text)
-        for term in terms:
-            idx = low.find(term)
-            if idx != -1:
-                start = max(0, idx - 75)
-                end = min(len(text), idx + len(term) + 120)
-                return text[start:end].replace("\n", " ").strip()
-    return (get_text(item, lang, "summary") or get_text(item, "en", "summary"))[:220]
-
-
-def suggestions(entries, query):
-    pool = set()
-    for item in entries:
-        pool.add(item.get("topic", ""))
-        pool.add(item.get("category", ""))
-        pool.add(item.get("subcategory", ""))
-        pool.update(item.get("tags", []) or [])
-        pool.update(item.get("_aliases", []) or [])
-    return difflib.get_close_matches(query, [x for x in pool if x], n=8, cutoff=0.55)
-
-
-def related_entries(entries, item):
-    rel = {normalize(x) for x in item.get("related_topics", []) or []}
-    return [e for e in entries if e.get("id") != item.get("id") and normalize(e.get("topic", "")) in rel]
-
-
-def print_header(title):
-    print(PAGE_BREAK)
-    print(title)
-    print(PAGE_BREAK)
-
-
-def print_meta(item, lang, bookmarks):
-    print(f"{UI[lang]['meta_category']}: {item.get('category', '')}")
-    print(f"{UI[lang]['meta_subcategory']}: {item.get('subcategory', '')}")
-    print(f"{UI[lang]['meta_tags']}: {', '.join(item.get('tags', []) or [])}")
-    print(f"{UI[lang]['meta_priority']}: {item.get('priority', '')} | {UI[lang]['meta_urgency']}: {item.get('urgency', '')} | {UI[lang]['meta_difficulty']}: {item.get('difficulty', '')}")
-    print(f"{UI[lang]['meta_updated']}: {item.get('last_updated', '')}")
-    print(f"{UI[lang]['meta_note']}: {item.get('update_note', '')}")
-    print(f"{UI[lang]['meta_source']}: {item.get('_source_file', '')}")
-    print(UI[lang]["bookmarked"] if item.get("id") in bookmarks else UI[lang]["not_bookmarked"])
-
-
-def render_entry(item, lang, section, bookmarks):
-    clear()
-    print_header(item.get("topic", ""))
-    print_meta(item, lang, bookmarks)
-    print()
-    if section == "1":
-        print(f"[{UI[lang]['summary']}]\n")
-        print(wrap(get_text(item, lang, "summary") or get_text(item, "en", "summary")))
-        print()
-        print(f"[{UI[lang]['actions']}]\n")
-        for line in get_list(item, lang, "steps") or get_list(item, "en", "steps"):
-            print("- " + wrap(line))
-        print()
-        print(f"[{UI[lang]['warnings']}]\n")
-        for line in get_list(item, lang, "warnings") or get_list(item, "en", "warnings"):
-            print("- " + wrap(line))
-    elif section == "2":
-        print(f"[{UI[lang]['full']}]\n")
-        print(wrap(get_text(item, lang, "content") or get_text(item, "en", "content")))
-    elif section == "3":
-        print(f"[{UI[lang]['mistakes']}]\n")
-        for line in get_list(item, lang, "mistakes") or get_list(item, "en", "mistakes"):
-            print("- " + wrap(line))
-    else:
-        print(f"[{UI[lang]['summary']}]\n")
-        print(wrap(get_text(item, lang, "summary") or get_text(item, "en", "summary")))
-        print()
-        print(f"[{UI[lang]['actions']}]\n")
-        for line in get_list(item, lang, "steps") or get_list(item, "en", "steps"):
-            print("- " + wrap(line))
-        print()
-        print(f"[{UI[lang]['warnings']}]\n")
-        for line in get_list(item, lang, "warnings") or get_list(item, "en", "warnings"):
-            print("- " + wrap(line))
-        print()
-        print(f"[{UI[lang]['mistakes']}]\n")
-        for line in get_list(item, lang, "mistakes") or get_list(item, "en", "mistakes"):
-            print("- " + wrap(line))
-        print()
-        print(f"[{UI[lang]['full']}]\n")
-        print(wrap(get_text(item, lang, "content") or get_text(item, "en", "content")))
-    print()
-    print(f"Related topics: {', '.join(item.get('related_topics', []) or []) or '-'}")
-
-
-def export_entries(entries_to_export, lang, label):
-    ensure_dirs()
-    path = os.path.join(EXPORT_DIR, f"{safe_filename(label)}.txt")
-    with open(path, "w", encoding="utf-8") as fh:
-        fh.write(f"{APP_NAME} Export\n")
-        fh.write(f"Created: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        fh.write(PAGE_BREAK + "\n\n")
-        for i, item in enumerate(entries_to_export, 1):
-            fh.write(f"{i}. {item.get('topic', '')}\n")
-            fh.write(f"Category: {item.get('category', '')}\n")
-            fh.write(f"Subcategory: {item.get('subcategory', '')}\n")
-            fh.write(f"Tags: {', '.join(item.get('tags', []) or [])}\n")
-            fh.write(f"\nSummary\n{get_text(item, lang, 'summary') or get_text(item, 'en', 'summary')}\n\n")
-            fh.write("Actions\n")
-            for line in get_list(item, lang, 'steps') or get_list(item, 'en', 'steps'):
-                fh.write(f"- {line}\n")
-            fh.write("\nWarnings\n")
-            for line in get_list(item, lang, 'warnings') or get_list(item, 'en', 'warnings'):
-                fh.write(f"- {line}\n")
-            fh.write("\nCommon mistakes\n")
-            for line in get_list(item, lang, 'mistakes') or get_list(item, 'en', 'mistakes'):
-                fh.write(f"- {line}\n")
-            fh.write(f"\nFull detail\n{get_text(item, lang, 'content') or get_text(item, 'en', 'content')}\n\n")
-            fh.write(PAGE_BREAK + "\n\n")
-    return path
-
-
-def extract_txt_library(entries, lang):
-    ensure_dirs()
-    count = 0
-    for item in entries:
-        cat = safe_filename(item.get("category", "uncategorized") or "uncategorized")
-        topic = safe_filename(item.get("topic", "entry") or "entry")
-        cat_dir = os.path.join(TXT_LIBRARY_DIR, cat)
-        safe_mkdir(cat_dir)
-        path = os.path.join(cat_dir, f"{topic}.txt")
-        with open(path, "w", encoding="utf-8") as fh:
-            fh.write(f"Topic: {item.get('topic', '')}\n")
-            fh.write(f"Category: {item.get('category', '')}\n")
-            fh.write(f"Subcategory: {item.get('subcategory', '')}\n")
-            fh.write(f"Tags: {', '.join(item.get('tags', []) or [])}\n")
-            fh.write(f"Priority: {item.get('priority', '')}\n")
-            fh.write(f"Urgency: {item.get('urgency', '')}\n")
-            fh.write(f"Difficulty: {item.get('difficulty', '')}\n")
-            fh.write(f"Last updated: {item.get('last_updated', '')}\n")
-            fh.write(f"Update note: {item.get('update_note', '')}\n")
-            fh.write(f"Source file: {item.get('_source_file', '')}\n")
-            fh.write(PAGE_BREAK + "\n\n")
-            fh.write("Summary\n\n")
-            fh.write((get_text(item, lang, 'summary') or get_text(item, 'en', 'summary')) + "\n\n")
-            fh.write("Actions\n")
-            for line in get_list(item, lang, 'steps') or get_list(item, 'en', 'steps'):
-                fh.write(f"- {line}\n")
-            fh.write("\nWarnings\n")
-            for line in get_list(item, lang, 'warnings') or get_list(item, 'en', 'warnings'):
-                fh.write(f"- {line}\n")
-            fh.write("\nCommon mistakes\n")
-            for line in get_list(item, lang, 'mistakes') or get_list(item, 'en', 'mistakes'):
-                fh.write(f"- {line}\n")
-            fh.write("\nFull detail\n\n")
-            fh.write((get_text(item, lang, 'content') or get_text(item, 'en', 'content')) + "\n\n")
-            fh.write("Related topics\n")
-            for rel in item.get('related_topics', []) or []:
-                fh.write(f"- {rel}\n")
-        count += 1
-    return count, TXT_LIBRARY_DIR
-
-
-def toggle_bookmark(item_id, bookmarks, lang):
-    if item_id in bookmarks:
-        bookmarks.remove(item_id)
-        save_bookmarks(bookmarks)
-        return UI[lang]["bookmark_removed"]
-    bookmarks.append(item_id)
-    save_bookmarks(bookmarks)
-    return UI[lang]["bookmark_added"]
-
-
-def reader(entries, items, start_index, lang, bookmarks):
-    idx = start_index
-    section = "4"
-    while 0 <= idx < len(items):
-        current = items[idx]
-        render_entry(current, lang, section, bookmarks)
-        print()
-        print(UI[lang]["reader_help"])
-        cmd = input("> ").strip().lower()
-        if cmd == "n" and idx < len(items) - 1:
-            idx += 1
-        elif cmd == "p" and idx > 0:
-            idx -= 1
-        elif cmd in {"1", "2", "3", "4"}:
-            section = cmd
-        elif cmd == "r":
-            rel = related_entries(entries, current)
-            if rel:
-                print()
-                for i, item in enumerate(rel, 1):
-                    print(f"{i}. {item.get('topic', '')} [{item.get('category', '')}]")
-                pick = input(UI[lang]["choose_related"] + " ").strip()
-                if pick.isdigit() and 1 <= int(pick) <= len(rel):
-                    chosen = rel[int(pick) - 1]
-                    if chosen in items:
-                        idx = items.index(chosen)
-                    else:
-                        items.append(chosen)
-                        idx = len(items) - 1
-        elif cmd == "m":
-            print(toggle_bookmark(current.get("id"), bookmarks, lang))
-            pause(lang)
-        elif cmd == "e":
-            choice = input(UI[lang]["export_prompt"] + ": ").strip()
-            try:
-                path = None
-                if choice == "1":
-                    path = export_entries([current], lang, current.get("topic", "entry"))
-                elif choice == "2":
-                    path = export_entries(items, lang, "current_results")
-                elif choice == "3":
-                    same = [x for x in entries if normalize(x.get("category", "")) == normalize(current.get("category", ""))]
-                    path = export_entries(same, lang, f"category_{current.get('category', '')}")
-                if path:
-                    print(f"\n{UI[lang]['export_done']} {path}")
-            except Exception as exc:
-                print(f"\n{UI[lang]['export_failed']} {exc}")
-            pause(lang)
-        elif cmd in {"b", ""}:
+        if not DB_DIR.exists():
             return
 
+        for path in sorted(DB_DIR.glob("*.json")):
+            try:
+                raw = json.loads(path.read_text(encoding="utf-8"))
+                if isinstance(raw, dict):
+                    raw = [raw]
+                if not isinstance(raw, list):
+                    raise ValueError("JSON root is not a list/object")
+                for entry in raw:
+                    if not isinstance(entry, dict):
+                        continue
+                    item = dict(entry)
+                    item["_source_file"] = pretty_name(path)
+                    self.entries.append(item)
+            except Exception as exc:
+                self.file_errors.append((pretty_name(path), str(exc)))
 
-def show_results(entries, ranked, profile, lang, bookmarks):
-    clear()
-    print_header(f"{len(ranked)} {UI[lang]['results']} - {profile['raw']}")
-    for i, (score, reasons, item) in enumerate(ranked, 1):
-        mark = "*" if item.get("id") in bookmarks else " "
-        print(f"{mark}{i}. {item.get('topic', '')} [{item.get('category', '')}] score={score:.1f}")
-        print(f"   {UI[lang]['reasons']}: {', '.join(reasons)}")
-        preview = best_snippet(item, profile, lang)
-        print(f"   {UI[lang]['snippet']}: {preview[:240]}{'...' if len(preview) > 240 else ''}")
-    print()
-    choice = input(UI[lang]["pick"] + ": ").strip()
-    if choice.isdigit() and 1 <= int(choice) <= len(ranked):
-        items = [item for _, _, item in ranked]
-        reader(entries, items, int(choice) - 1, lang, bookmarks)
+        self.entries.sort(key=lambda e: safe_lower(e.get("topic", "")))
+        for entry in self.entries:
+            parts = [
+                entry.get("topic", ""),
+                entry.get("topic_en", ""),
+                entry.get("topic_el", ""),
+                entry.get("category", ""),
+                entry.get("subcategory", ""),
+                " ".join(as_list(entry.get("tags"))),
+                entry.get("summary_en", ""),
+                entry.get("summary_el", ""),
+                entry.get("content_en", ""),
+                entry.get("content_el", ""),
+                " ".join(as_list(entry.get("steps_en"))),
+                " ".join(as_list(entry.get("steps_el"))),
+                " ".join(as_list(entry.get("warnings_en"))),
+                " ".join(as_list(entry.get("warnings_el"))),
+                " ".join(as_list(entry.get("mistakes_en"))),
+                " ".join(as_list(entry.get("mistakes_el"))),
+                " ".join(as_list(entry.get("related_topics"))),
+                " ".join(as_list(entry.get("materials_en"))),
+                " ".join(as_list(entry.get("materials_el"))),
+                " ".join(as_list(entry.get("alternatives_en"))),
+                " ".join(as_list(entry.get("alternatives_el"))),
+                " ".join(as_list(entry.get("failure_signs_en"))),
+                " ".join(as_list(entry.get("failure_signs_el"))),
+                " ".join(as_list(entry.get("when_not_to_use_en"))),
+                " ".join(as_list(entry.get("when_not_to_use_el"))),
+                entry.get("_source_file", ""),
+            ]
+            self.indexed.append((entry, safe_lower(" ".join(parts))))
 
+        if UPDATES_DIR.exists():
+            for path in sorted(UPDATES_DIR.glob("*.txt")):
+                try:
+                    self.update_logs.append((pretty_name(path), path.read_text(encoding="utf-8")))
+                except Exception as exc:
+                    self.update_logs.append((pretty_name(path), f"[read error] {exc}"))
 
-def search_mode(entries, lang, mode, bookmarks):
-    label = {"keyword": UI[lang]["search"], "tag": UI[lang]["tag"], "category": UI[lang]["category"], "topic": UI[lang]["topic"]}[mode]
-    query = input(label + ": ").strip()
-    if not query:
-        return
-    add_history(query, mode)
-    ranked, profile = search_entries(entries, query, mode)
-    if not ranked:
-        print(UI[lang]["no_results"])
-        close = suggestions(entries, query)
-        if close:
-            print(f"\n{UI[lang]['suggestions']}: {', '.join(close)}")
-        pause(lang)
-        return
-    show_results(entries, ranked, profile, lang, bookmarks)
+    def choose_language(self):
+        while True:
+            clear_screen()
+            print(LANGS["en"]["app_title"])
+            print("=" * 40)
+            choice = input(LANGS["en"]["choose_language"] + "\n> ").strip()
+            if choice == "1":
+                self.lang = "en"
+                return
+            if choice == "2":
+                self.lang = "el"
+                return
+            print(LANGS["en"]["invalid"])
+            pause("en")
 
+    def t(self, key):
+        return LANGS[self.lang][key]
 
-def browse_group(entries, key, title, lang, bookmarks):
-    values = sorted({item.get(key, "") for item in entries if item.get(key)})
-    clear()
-    print_header(title)
-    for i, value in enumerate(values, 1):
-        count = sum(1 for item in entries if item.get(key, "") == value)
-        print(f"{i}. {value} ({count})")
-    choice = input("\n" + (UI[lang]["pick"]) + ": ").strip()
-    if choice.isdigit() and 1 <= int(choice) <= len(values):
-        selected = values[int(choice) - 1]
-        ranked = [(100.0, [f"{key} browse"], item) for item in entries if item.get(key, "") == selected]
-        show_results(entries, ranked, {"raw": selected, "q": selected, "tokens": [], "expanded": []}, lang, bookmarks)
+    def field(self, entry, base):
+        if self.lang == "el":
+            return entry.get(base + "_el") or entry.get(base + "_en") or ""
+        return entry.get(base + "_en") or entry.get(base + "_el") or ""
 
+    def list_field(self, entry, base):
+        val = self.field(entry, base)
+        return as_list(val)
 
-def browse_bookmarks(entries, lang, bookmarks):
-    clear()
-    print_header(UI[lang]["bookmarks"])
-    saved = [item for item in entries if item.get("id") in bookmarks]
-    if not saved:
-        print(UI[lang]["bookmark_empty"])
-        pause(lang)
-        return
-    for i, item in enumerate(saved, 1):
-        print(f"{i}. {item.get('topic', '')} [{item.get('category', '')}]")
-    choice = input("\n" + UI[lang]["pick"] + ": ").strip()
-    if choice.isdigit() and 1 <= int(choice) <= len(saved):
-        reader(entries, saved, int(choice) - 1, lang, bookmarks)
+    def preview(self, entry, max_len=150):
+        text = self.field(entry, "summary") or self.field(entry, "content")
+        text = re.sub(r"\s+", " ", str(text)).strip()
+        if len(text) > max_len:
+            return text[: max_len - 1].rstrip() + "…"
+        return text
 
+    def print_entry(self, entry):
+        clear_screen()
+        title = entry.get("topic_el") if self.lang == "el" and entry.get("topic_el") else entry.get("topic", "Untitled")
+        print(title)
+        print("=" * 94)
+        meta = [
+            (self.t("source_label"), entry.get("_source_file", "")),
+            (self.t("category_label"), entry.get("category", "")),
+            (self.t("subcategory_label"), entry.get("subcategory", "")),
+            (self.t("difficulty_label"), entry.get("difficulty", "")),
+            (self.t("urgency_label"), entry.get("urgency", "")),
+            (self.t("priority_label"), entry.get("priority", "")),
+            (self.t("updated_label"), entry.get("last_updated", "")),
+        ]
+        for label, value in meta:
+            if value:
+                print(f"{label}: {value}")
+        tags = ", ".join(as_list(entry.get("tags")))
+        if tags:
+            print(f"{self.t('tags_label')}: {tags}")
 
-def browse_recent(entries, lang, bookmarks):
-    history = load_history()
-    clear()
-    print_header(UI[lang]["recent"])
-    if not history:
-        print(UI[lang]["recent_empty"])
-        pause(lang)
-        return
-    for i, h in enumerate(history, 1):
-        print(f"{i}. [{h.get('mode')}] {h.get('query')} ({h.get('time')})")
-    choice = input("\n" + UI[lang]["pick"] + ": ").strip()
-    if choice.isdigit() and 1 <= int(choice) <= len(history):
-        h = history[int(choice) - 1]
-        ranked, profile = search_entries(entries, h.get("query", ""), h.get("mode", "keyword"))
-        if ranked:
-            show_results(entries, ranked, profile, lang, bookmarks)
+        sections = [
+            (self.t("summary_label"), self.field(entry, "summary")),
+            (self.t("content_label"), self.field(entry, "content")),
+            (self.t("materials_label"), self.list_field(entry, "materials")),
+            (self.t("steps_label"), self.list_field(entry, "steps")),
+            (self.t("alternatives_label"), self.list_field(entry, "alternatives")),
+            (self.t("warnings_label"), self.list_field(entry, "warnings")),
+            (self.t("failure_label"), self.list_field(entry, "failure_signs")),
+            (self.t("mistakes_label"), self.list_field(entry, "mistakes")),
+            (self.t("when_not_label"), self.list_field(entry, "when_not_to_use")),
+            (self.t("related_label"), as_list(entry.get("related_topics"))),
+            (self.t("note_label"), entry.get("update_note", "")),
+        ]
 
+        for heading, value in sections:
+            if not value:
+                continue
+            print("\n" + heading)
+            print("-" * len(heading))
+            if isinstance(value, list):
+                for item in value:
+                    print("• " + wrap(item, 90).replace("\n", "\n  "))
+            else:
+                print(wrap(value, 94))
+        pause(self.lang)
 
-def show_logs(lang):
-    logs = list_logs()
-    clear()
-    print_header(UI[lang]["logs"])
-    if not logs:
-        print(UI[lang]["no_logs"])
-        pause(lang)
-        return
-    for i, log in enumerate(logs, 1):
-        print(f"{i}. {log}")
-    choice = input("\n" + UI[lang]["pick"] + ": ").strip()
-    if choice.isdigit() and 1 <= int(choice) <= len(logs):
-        clear()
-        print_header(logs[int(choice) - 1])
-        with open(os.path.join(UPDATES_DIR, logs[int(choice) - 1]), "r", encoding="utf-8") as fh:
-            print(fh.read())
-        pause(lang)
+    def pick_from_entries(self, items, title):
+        if not items:
+            clear_screen()
+            print(self.t("no_results"))
+            pause(self.lang)
+            return
+        page_size = 15
+        page = 0
+        while True:
+            clear_screen()
+            print(title)
+            print("=" * 94)
+            total_pages = max(1, (len(items) + page_size - 1) // page_size)
+            start = page * page_size
+            chunk = items[start : start + page_size]
+            for i, entry in enumerate(chunk, start=1):
+                absolute = start + i
+                preview = self.preview(entry)
+                print(f"{absolute:>3}. {entry.get('topic','')}")
+                print(f"     {self.t('source_label')}: {entry.get('_source_file','')} | {self.t('category_label')}: {entry.get('category','')}")
+                print(f"     {self.t('preview_label')}: {preview}")
+            print(f"\n[{page + 1}/{total_pages}] n=next  p=prev")
+            choice = input(self.t("choose_topic")).strip().lower()
+            if not choice:
+                return
+            if choice == "n" and page < total_pages - 1:
+                page += 1
+                continue
+            if choice == "p" and page > 0:
+                page -= 1
+                continue
+            if choice.isdigit():
+                idx = int(choice)
+                if 1 <= idx <= len(items):
+                    self.print_entry(items[idx - 1])
 
+    def search_entries(self):
+        clear_screen()
+        query = input(self.t("search_prompt")).strip()
+        if not query:
+            return
+        q = safe_lower(query)
+        results = [entry for entry, hay in self.indexed if q in hay]
+        self.pick_from_entries(results, f"{self.t('results')}: {query}")
 
-def show_stats(entries, lang):
-    clear()
-    print_header(UI[lang]["stats"])
-    file_count = len([x for x in os.listdir(DB_DIR) if x.endswith(".json")]) if os.path.isdir(DB_DIR) else 0
-    categories = len({item.get("category", "") for item in entries if item.get("category")})
-    topics = len({item.get("topic", "") for item in entries if item.get("topic")})
-    tags = len({tag for item in entries for tag in (item.get("tags", []) or [])})
-    missing = sum(1 for item in entries if any(f not in item or item.get(f) in ("", None) for f in REQUIRED_FIELDS))
-    print(f"JSON files: {file_count}")
-    print(f"Entries: {len(entries)}")
-    print(f"Categories: {categories}")
-    print(f"Topics: {topics}")
-    print(f"Tags: {tags}")
-    print(f"Update logs: {len(list_logs())}")
-    print(f"Recent searches: {len(load_history())}")
-    print(f"Runtime home: {APP_HOME}")
-    print(f"TXT library: {TXT_LIBRARY_DIR}")
-    print(f"Entries with missing required fields: {missing}")
-    pause(lang)
+    def browse_topics(self):
+        self.pick_from_entries(self.entries, self.t("topic_menu"))
 
+    def browse_files(self):
+        grouped = defaultdict(list)
+        for e in self.entries:
+            grouped[e.get("_source_file", "")].append(e)
+        files = sorted(grouped.items(), key=lambda kv: safe_lower(kv[0]))
+        while True:
+            clear_screen()
+            print(self.t("file_menu"))
+            print("=" * 94)
+            for i, (fname, items) in enumerate(files, start=1):
+                print(f"{i:>3}. {fname} ({len(items)})")
+            choice = input(self.t("choose_topic")).strip()
+            if not choice:
+                return
+            if choice.isdigit():
+                idx = int(choice)
+                if 1 <= idx <= len(files):
+                    fname, items = files[idx - 1]
+                    self.pick_from_entries(items, f"{self.t('file_label')}: {fname}")
 
-def run_integrity(entries, lang):
-    clear()
-    print_header(UI[lang]["integrity"])
-    ids = Counter(item.get("id", "") for item in entries)
-    pairs = Counter((normalize(item.get("topic", "")), normalize(item.get("subcategory", ""))) for item in entries)
-    dup_ids = [k for k, v in ids.items() if k and v > 1]
-    dup_pairs = [k for k, v in pairs.items() if k[0] and v > 1]
-    missing = [(item.get("id", "unknown"), [f for f in REQUIRED_FIELDS if f not in item or item.get(f) in ("", None)]) for item in entries]
-    missing = [(a, b) for a, b in missing if b]
-    if not dup_ids and not dup_pairs and not missing:
-        print(UI[lang]["integrity_ok"])
-    else:
-        if dup_ids:
-            print("Duplicate IDs:")
-            for x in dup_ids[:50]:
-                print("-", x)
-            print()
-        if dup_pairs:
-            print("Duplicate topic/subcategory pairs:")
-            for x in dup_pairs[:50]:
-                print("-", x[0], "/", x[1])
-            print()
-        if missing:
-            print("Missing fields:")
-            for entry_id, fields in missing[:50]:
-                print(f"- {entry_id}: {', '.join(fields)}")
-    pause(lang)
+    def browse_categories(self):
+        grouped = defaultdict(list)
+        for e in self.entries:
+            grouped[e.get("category", "uncategorized")].append(e)
+        cats = sorted(grouped.items(), key=lambda kv: safe_lower(kv[0]))
+        while True:
+            clear_screen()
+            print(self.t("category_menu"))
+            print("=" * 94)
+            for i, (cat, items) in enumerate(cats, start=1):
+                print(f"{i:>3}. {cat} ({len(items)})")
+            choice = input(self.t("choose_topic")).strip()
+            if not choice:
+                return
+            if choice.isdigit():
+                idx = int(choice)
+                if 1 <= idx <= len(cats):
+                    cat, items = cats[idx - 1]
+                    self.pick_from_entries(items, f"{self.t('category_label')}: {cat}")
 
+    def show_stats(self):
+        clear_screen()
+        print(self.t("stats"))
+        print("=" * 94)
+        print(f"{self.t('entries_loaded')}: {len(self.entries)}")
+        print(f"{self.t('json_files')}: {len(list(DB_DIR.glob('*.json')))}")
+        print(f"{self.t('malformed_files')}: {len(self.file_errors)}")
+        categories = Counter(e.get("category", "uncategorized") for e in self.entries)
+        print("\nTop categories:")
+        for cat, count in categories.most_common(15):
+            print(f"• {cat}: {count}")
+        if self.file_errors:
+            print(f"\n{self.t('errors_label')}:")
+            for fname, err in self.file_errors[:20]:
+                print(f"• {fname}: {err}")
+        pause(self.lang)
 
-def show_help(lang):
-    clear()
-    print_header(UI[lang]["help"])
-    print(wrap(UI[lang]["help_text"]))
-    pause(lang)
+    def integrity_check(self):
+        clear_screen()
+        print(self.t("integrity"))
+        print("=" * 94)
+        ids = [e.get("id", "") for e in self.entries if e.get("id")]
+        topics = [e.get("topic", "") for e in self.entries if e.get("topic")]
+        dup_ids = [k for k, v in Counter(ids).items() if v > 1]
+        dup_topics = [k for k, v in Counter(topics).items() if v > 1]
+        print(f"{self.t('duplicate_ids')}: {len(dup_ids)}")
+        print(f"{self.t('duplicate_topics')}: {len(dup_topics)}")
+        if not dup_ids and not dup_topics:
+            print(self.t("integrity_ok"))
+        if dup_ids[:20]:
+            print("\nDuplicate IDs:")
+            for item in dup_ids[:20]:
+                print("•", item)
+        if dup_topics[:20]:
+            print("\nDuplicate topics:")
+            for item in dup_topics[:20]:
+                print("•", item)
+        if self.file_errors:
+            print(f"\n{self.t('errors_label')}:")
+            for fname, err in self.file_errors[:20]:
+                print(f"• {fname}: {err}")
+        pause(self.lang)
+
+    def read_update_logs(self):
+        if not self.update_logs:
+            clear_screen()
+            print(self.t("updates_empty"))
+            pause(self.lang)
+            return
+        while True:
+            clear_screen()
+            print(self.t("update_menu"))
+            print("=" * 94)
+            for i, (name, _) in enumerate(self.update_logs, start=1):
+                print(f"{i:>3}. {name}")
+            choice = input(self.t("choose_topic")).strip()
+            if not choice:
+                return
+            if choice.isdigit():
+                idx = int(choice)
+                if 1 <= idx <= len(self.update_logs):
+                    name, content = self.update_logs[idx - 1]
+                    clear_screen()
+                    print(name)
+                    print("=" * 94)
+                    print(wrap(content, 94))
+                    pause(self.lang)
+
+    def run(self):
+        self.choose_language()
+        while True:
+            clear_screen()
+            print(self.t("app_title"))
+            print("=" * 94)
+            print(f"1. {self.t('search')}")
+            print(f"2. {self.t('browse_topics')}")
+            print(f"3. {self.t('browse_files')}")
+            print(f"4. {self.t('browse_categories')}")
+            print(f"5. {self.t('stats')}")
+            print(f"6. {self.t('integrity')}")
+            print(f"7. {self.t('updates')}")
+            print(f"8. {self.t('switch_lang')}")
+            print(f"9. {self.t('reload')}")
+            print(f"0. {self.t('exit')}")
+            choice = input("\n" + self.t("prompt")).strip()
+            if choice == "1":
+                self.search_entries()
+            elif choice == "2":
+                self.browse_topics()
+            elif choice == "3":
+                self.browse_files()
+            elif choice == "4":
+                self.browse_categories()
+            elif choice == "5":
+                self.show_stats()
+            elif choice == "6":
+                self.integrity_check()
+            elif choice == "7":
+                self.read_update_logs()
+            elif choice == "8":
+                self.lang = "el" if self.lang == "en" else "en"
+                clear_screen()
+                print(self.t("language_switched"))
+                pause(self.lang)
+            elif choice == "9":
+                self.load_all()
+                clear_screen()
+                print(self.t("reload_done"))
+                pause(self.lang)
+            elif choice == "0":
+                return
+            else:
+                clear_screen()
+                print(self.t("invalid"))
+                pause(self.lang)
 
 
 def main():
-    ensure_dirs()
-    lang = choose_language()
-    entries = load_database()
-    bookmarks = load_bookmarks()
-
-    while True:
-        clear()
-        print_header(UI[lang]["welcome"])
-        for line in UI[lang]["menu_items"]:
-            print(line)
-        choice = input("\n" + UI[lang]["prompt"] + ": ").strip().lower()
-
-        if choice == "1":
-            search_mode(entries, lang, "keyword", bookmarks)
-        elif choice == "2":
-            search_mode(entries, lang, "tag", bookmarks)
-        elif choice == "3":
-            search_mode(entries, lang, "category", bookmarks)
-        elif choice == "4":
-            search_mode(entries, lang, "topic", bookmarks)
-        elif choice == "5":
-            browse_group(entries, "category", UI[lang]["categories"], lang, bookmarks)
-        elif choice == "6":
-            browse_group(entries, "topic", UI[lang]["topics"], lang, bookmarks)
-        elif choice == "7":
-            browse_bookmarks(entries, lang, bookmarks)
-        elif choice == "8":
-            show_stats(entries, lang)
-        elif choice == "9":
-            show_logs(lang)
-        elif choice == "10":
-            run_integrity(entries, lang)
-        elif choice == "11":
-            show_help(lang)
-        elif choice == "12":
-            try:
-                count, path = extract_txt_library(entries, lang)
-                print(f"\n{UI[lang]['library_done']} {path} ({count} files)")
-            except Exception as exc:
-                print(f"\n{UI[lang]['library_failed']} {exc}")
-            pause(lang)
-        elif choice == "reload":
-            entries = load_database()
-            bookmarks = load_bookmarks()
-            print(UI[lang]["reload_msg"])
-            pause(lang)
-        elif choice == "lang":
-            lang = "el" if lang == "en" else "en"
-        elif choice == "recent":
-            browse_recent(entries, lang, bookmarks)
-        elif choice == "0":
-            clear()
-            print("Stay safe." if lang == "en" else "Μείνε ασφαλής.")
-            break
-        else:
-            print(UI[lang]["invalid"])
-            pause(lang)
+    try:
+        app = OfflineSurvivalApp()
+        if not DB_DIR.exists():
+            print(LANGS["en"]["db_missing"])
+            sys.exit(1)
+        app.run()
+    except KeyboardInterrupt:
+        print("\nExiting.")
+    except Exception as exc:
+        print("\nFatal error:", exc)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("\nExit requested.")
+    main()

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "build::door_thresholds",
+    "topic": "Door Thresholds, Water Creep, and Sweep Improvements",
+    "category": "shelter_protection",
+    "subcategory": "entry_protection",
+    "tags": [
+      "door",
+      "threshold",
+      "water",
+      "entry",
+      "sweep"
+    ],
+    "summary_en": "Door Thresholds, Water Creep, and Sweep Improvements matters because water, load, and wear punish weak construction details first.",
+    "summary_el": "Το Door Thresholds, Water Creep, and Sweep Improvements μετρά γιατί το νερό, το φορτίο και η φθορά χτυπούν πρώτα τις αδύναμες λεπτομέρειες κατασκευής.",
+    "content_en": "Door Thresholds, Water Creep, and Sweep Improvements matters because water, load, and wear punish weak construction details first. Another practical building layer in Door Thresholds, Water Creep, and Sweep Improvements is material aging. Wood swells and dries, cords loosen, clay cracks, stone shifts, and floors churn under traffic. A good structure plan expects that movement instead of pretending it will not happen. With Door Thresholds, Water Creep, and Sweep Improvements, durable work comes from accepting that materials move. A good method expects swelling, shrinkage, settling, loosening, mud, and wear, then gives those changes somewhere safe to go. In practice, this topic becomes easier to manage when the task is broken into short repeatable cycles, the work area is prepared before starting, and the group agrees on one safe fallback if the first method begins to fail.",
+    "content_el": "Το Door Thresholds, Water Creep, and Sweep Improvements μετρά γιατί το νερό, το φορτίο και η φθορά χτυπούν πρώτα τις αδύναμες λεπτομέρειες κατασκευής. Ένα ακόμη πρακτικό επίπεδο κατασκευής στο Door Thresholds, Water Creep, and Sweep Improvements είναι η γήρανση των υλικών. Το ξύλο πρήζεται και στεγνώνει, τα δεσίματα χαλαρώνουν, ο πηλός ραγίζει, η πέτρα μετακινείται και τα δάπεδα λασπώνουν με την κίνηση. Ένα καλό σχέδιο το περιμένει αυτό. Ένα ακόμη πιο καλοδουλεμένο μάθημα κατασκευής στο Door Thresholds, Water Creep, and Sweep Improvements είναι ο ρυθμός ελέγχου. Οι κατασκευές γίνονται ασφαλέστερες όχι επειδή ήταν τέλειες στην αρχή, αλλά επειδή κάποιος συνέχιζε να βλέπει σημάδια νερού, βύθιση, χαλάρωση, τριβή και αδύναμα άκρα πριν απλωθούν. Στην πράξη, αυτό το θέμα γίνεται ευκολότερο όταν η εργασία σπάει σε σύντομους επαναλαμβανόμενους κύκλους, ο χώρος προετοιμάζεται πριν από την έναρξη και η ομάδα συμφωνεί σε μία ασφαλή εφεδρική λύση αν η πρώτη μέθοδος αρχίσει να αποτυγχάνει.",
+    "steps_en": [
+      "Prepare the area before the critical moment arrives.",
+      "Check what changed after the last full use, not only what happened during the main action.",
+      "Review the result after one full cycle.",
+      "Note one practical lesson from this cycle so the next repetition starts stronger."
+    ],
+    "steps_el": [
+      "Ετοίμασε τον χώρο πριν φτάσει η κρίσιμη στιγμή.",
+      "Έλεγξε τι άλλαξε μετά από την τελευταία πλήρη χρήση και όχι μόνο τι συνέβη στη βασική εργασία.",
+      "Έλεγξε το αποτέλεσμα μετά από έναν πλήρη κύκλο.",
+      "Σημείωσε ένα πρακτικό μάθημα από αυτόν τον κύκλο ώστε η επόμενη επανάληψη να ξεκινήσει ισχυρότερη."
+    ],
+    "warnings_en": [
+      "Repeated routine does not remove risk; it often hides it until attention drops.",
+      "Conditions, fatigue, and interruption can change the task faster than expected."
+    ],
+    "warnings_el": [
+      "Η επαναλαμβανόμενη ρουτίνα δεν αφαιρεί τον κίνδυνο· συχνά τον κρύβει ώσπου να πέσει η προσοχή.",
+      "Οι συνθήκες, η κούραση και η διακοπή μπορούν να αλλάξουν την εργασία γρηγορότερα απ’ όσο περιμένεις."
+    ],
+    "mistakes_en": [
+      "Skipping the small setup steps that protect the whole method.",
+      "Assuming that because it worked once it will keep working unchanged."
+    ],
+    "mistakes_el": [
+      "Να παραλείπεις τα μικρά βήματα προετοιμασίας που προστατεύουν όλη τη μέθοδο.",
+      "Να υποθέτεις ότι επειδή δούλεψε μία φορά θα συνεχίσει να δουλεύει χωρίς αλλαγή."
+    ],
+    "related_topics": [
+      "door",
+      "threshold",
+      "water",
+      "shelter protection",
+      "entry protection"
+    ],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-02",
+    "update_note": "Polish-plus-expansion pass with deeper bilingual detail and broader coverage. Prompt-aligned project restructure and Termux app pass.",
+    "topic_en": "Door Thresholds, Water Creep, and Sweep Improvements"
+  }
+]

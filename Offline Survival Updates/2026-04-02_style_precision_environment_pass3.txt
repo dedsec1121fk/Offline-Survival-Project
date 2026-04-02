@@ -1,0 +1,83 @@
+Offline Survival Update Log
+Date: 2026-04-02
+Pass: style_precision_environment_pass3
+
+Purpose of this pass
+- Continue the prompt-driven refinement after the targeted depth pass.
+- Focus on:
+  - Greek naturalness in law / ritual / history coverage
+  - stronger plant-medicine caution
+  - broader environment-specific survival detail
+  - stronger low-tech rebuilding detail
+  - deeper recipe logic around substitutions, fuel timing, and leftovers
+
+What was polished
+- Rewrote specific law / ritual / history summaries and content openings so they read less mechanically and more like handbook material.
+- Targeted topics rewritten or sharpened included:
+  - Witness Notes, Event Order, and Keeping Disputes Factual
+  - Simple House Rules, Shared Limits, and Consequence Clarity
+  - Shared Rest Time, Ritual Space, and Coexistence Under Pressure
+  - Fire Recovery Lessons, Salvage Order, and Rebuild Patience
+  - Winter Hardship Lessons, Fuel Logic, and Social Discipline
+  - Rituals, Shared Meals, and Small Morale Anchors
+  - Grief, Quiet Work, and Reintroducing People to Routine
+  - Settlement Failure Patterns, Resource Strain, and Slow Collapse Signs
+
+What was deepened
+- Added environment-specific operational detail to:
+  - coastal survival
+  - island constraints
+  - desert timing and night cold
+  - swamp movement and camp layout
+  - cave risks
+  - blizzard decisions
+  - river crossing abort logic
+- Deepened every plant-medicine entry with stronger caution language around:
+  - misidentification
+  - harvest-site contamination
+  - stop rules
+  - reaction tracking
+  - labeling
+  - internal-use limits
+- Deepened recipe-oriented food entries with stronger notes on:
+  - substitutions
+  - fuel timing
+  - soaking / staging
+  - leftovers
+  - serving logic for workers, children, and sick people
+- Deepened low-tech rebuilding entries for:
+  - blacksmithing basics
+  - water infrastructure
+  - pottery basics
+
+What new topic files were created
+- Tide Windows, Storm Surge Signs, and Shore Withdrawal Rules
+- Desert Night Cold, Layer Timing, and Evening Water Discipline
+- Raised Sleep Platforms, Drainage, and Dry Gear in Swamp Conditions
+- Cave Flash Flood Marks, Water Noise, and Escape Path Discipline
+- Bellows Repair, Air Delivery, and Simple Forge Reliability
+- First-Flush Roof Runoff, Debris Control, and Safer Rain Capture
+- Plant Misidentification Cross-Checks, Stop Rules, and Sample Caution
+- Salve Hygiene, Fat Spoilage, and Jar Contamination Checks
+
+What code changed
+- Search indexing in Offline Survival.py now also considers topic_en and topic_el when those fields exist.
+- Additional topic_el values were added to the newly created topic files so Greek display can improve gradually in future passes.
+
+Validation for this pass
+- JSON files exported: 837
+- Total entries exported: 837
+- Malformed JSON files during validation: 0
+- Duplicate IDs after validation: 0
+- Duplicate topic titles after validation: 0
+- Python syntax check: passed
+- Python loader smoke test: passed
+
+Honesty note
+- This pass materially improved style and specificity in the targeted areas.
+- It still does not claim that every file in the full archive has been manually rewritten line by line.
+- The next strong continuation areas remain:
+  - broader animal / fisheries depth
+  - stronger engineering and fabrication detail
+  - more detailed coastal / island / desert / swamp / cave survival sets
+  - continued Greek naturalness review across older entries

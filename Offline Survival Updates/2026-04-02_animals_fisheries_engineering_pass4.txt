@@ -1,0 +1,60 @@
+Offline Survival Update Log
+Date: 2026-04-02
+Pass: animals_fisheries_engineering_pass4
+
+Purpose of this pass
+- Continue after the repo audit and style/environment pass.
+- Broaden weaker coverage around:
+  - fisheries
+  - animal care
+  - fabrication / workshop systems
+  - low-tech wall and stone work
+  - manual transport detail
+
+What was checked about the live repo
+- The live GitHub repo is still behind the local prompt-aligned build.
+- README.md in the repo still describes the older structure and does not reflect the current fuller local project state.
+- The repo still shows the earlier partial-push stage rather than the current project package.
+
+What new topic files were added
+- Shoreline Fishing, Hook Sets, Bait Protection, and Tide Timing
+- Net Repair, Weights, Float Balance, and Drying Discipline
+- Fish Cleaning, Gut Removal, Washing Limits, and Warm-Weather Spoilage
+- Rabbit Shelter Cleanliness, Manure Separation, and Quiet Handling
+- Chicken Night Shelter, Predator Signs, and Morning Coop Checks
+- Goat Hoof Checks, Tether Risks, and Browse Rotation
+- Timber Joint Fit, Wooden Pegs, and Split Prevention
+- Wattle Panels, Bracing, and Dry Infill for Low-Tech Walls
+- Dry-Stone Walls, Drainage Paths, and Early Collapse Signs
+- Simple Workbench Height, Leg Bracing, and Tool Reach
+- Charcoal Kiln Basics, Air Leaks, Burn Control, and Quench Timing
+- Cart Turning Space, Trail Width, and Load Snag Prevention
+- Rope Sling Lifting, Team Calls, and Back-Saving Coordination
+- Salt Fish Drying Racks, Shade-Air Balance, and Fly Control
+
+What existing topics were deepened
+- Goat and Sheep Fence Logic, Escape Points, and Wear Zones
+- Handcart, Load Distribution, and Manual Transport
+- Wheel, Axle, and Hand Cart Maintenance Under Load
+
+What this pass improved overall
+- Better coverage for food acquisition and preservation from shoreline and fish sources
+- Better coverage for rabbits, chickens, goats, fencing, and shelter hygiene
+- Better workshop and fabrication detail for benches, timber joints, dry-stone walls, and charcoal production
+- Better movement and load-handling detail for carts and rope-lift coordination
+
+Validation for this pass
+- JSON files exported: 851
+- Total entries exported: 851
+- Malformed JSON files during validation: 0
+- Duplicate IDs after validation: 0
+- Duplicate topic titles after validation: 0
+- Python syntax check: passed
+- Python loader smoke test: passed
+
+Next good continuation areas
+- deeper fisheries methods by environment
+- traps and small-game processing
+- animal disease observation and isolation basics
+- more low-tech fabrication depth
+- more regional food / plant / climate variation

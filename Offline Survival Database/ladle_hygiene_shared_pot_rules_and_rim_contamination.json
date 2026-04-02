@@ -1,0 +1,60 @@
+[
+  {
+    "id": "san::ladle_hygiene",
+    "topic": "Ladle Hygiene, Shared Pot Rules, and Rim Contamination",
+    "category": "water_and_sanitation",
+    "subcategory": "food_contact_hygiene",
+    "tags": [
+      "ladles",
+      "pots",
+      "rims",
+      "shared food",
+      "hygiene"
+    ],
+    "summary_en": "Ladle Hygiene, Shared Pot Rules, and Rim Contamination matters because contamination usually spreads through ordinary contact habits.",
+    "summary_el": "Το Ladle Hygiene, Shared Pot Rules, and Rim Contamination μετρά γιατί η μόλυνση συνήθως απλώνεται μέσα από συνηθισμένες επαφές και συνήθειες.",
+    "content_en": "Ladle Hygiene, Shared Pot Rules, and Rim Contamination matters because contamination usually spreads through ordinary contact habits. Another useful sanitation layer in Ladle Hygiene, Shared Pot Rules, and Rim Contamination is drying and storage. Wet tools, damp cloths, half-clean buckets, and forgotten lids often undo good washing work long after the visible task seems complete. The practical strength of Ladle Hygiene, Shared Pot Rules, and Rim Contamination also comes from container discipline: what stays clean, what stays dirty, what gets retired, and what must never be casually moved back into general use. In practice, this topic becomes easier to manage when the task is broken into short repeatable cycles, the work area is prepared before starting, and the group agrees on one safe fallback if the first method begins to fail.",
+    "content_el": "Το Ladle Hygiene, Shared Pot Rules, and Rim Contamination μετρά γιατί η μόλυνση συνήθως απλώνεται μέσα από συνηθισμένες επαφές και συνήθειες. Στην πράξη, το Ladle Hygiene, Shared Pot Rules, and Rim Contamination εξαρτάται επίσης από το ξανακοίταγμα όσων αγγίζονται συχνότερα: χερούλια, χείλη δοχείων, κουτάλες, βρύσες, φτυαράκια και άκρα δαπέδου. Αυτές οι επιφάνειες συχνά μετρούν περισσότερο από όσες καθαρίζονται επειδή απλώς φαίνονται. Ένα ακόμη χρήσιμο επίπεδο υγιεινής στο Ladle Hygiene, Shared Pot Rules, and Rim Contamination είναι το στέγνωμα και η αποθήκευση. Βρεγμένα εργαλεία, νωπά πανιά, μισοκαθαρισμένοι κουβάδες και ξεχασμένα καπάκια συχνά ακυρώνουν καλή δουλειά πολύ μετά το τέλος της ορατής εργασίας. Με το Ladle Hygiene, Shared Pot Rules, and Rim Contamination, οι πιο ανθεκτικές ρουτίνες είναι εκείνες που συνεχίζουν να δουλεύουν όταν το νερό είναι λίγο, τα πανιά λίγα, τα χέρια κρύα και κάποιος κουρασμένος πρέπει να τελειώσει τη δουλειά μετά το σκοτάδι. Στην πράξη, αυτό το θέμα γίνεται ευκολότερο όταν η εργασία σπάει σε σύντομους επαναλαμβανόμενους κύκλους, ο χώρος προετοιμάζεται πριν από την έναρξη και η ομάδα συμφωνεί σε μία ασφαλή εφεδρική λύση αν η πρώτη μέθοδος αρχίσει να αποτυγχάνει.",
+    "steps_en": [
+      "Prepare the area before the critical moment arrives.",
+      "Check what changed after the last full use, not only what happened during the main action.",
+      "Review the result after one full cycle.",
+      "Note one practical lesson from this cycle so the next repetition starts stronger."
+    ],
+    "steps_el": [
+      "Ετοίμασε τον χώρο πριν φτάσει η κρίσιμη στιγμή.",
+      "Έλεγξε τι άλλαξε μετά από την τελευταία πλήρη χρήση και όχι μόνο τι συνέβη στη βασική εργασία.",
+      "Έλεγξε το αποτέλεσμα μετά από έναν πλήρη κύκλο.",
+      "Σημείωσε ένα πρακτικό μάθημα από αυτόν τον κύκλο ώστε η επόμενη επανάληψη να ξεκινήσει ισχυρότερη."
+    ],
+    "warnings_en": [
+      "Repeated routine does not remove risk; it often hides it until attention drops.",
+      "Conditions, fatigue, and interruption can change the task faster than expected."
+    ],
+    "warnings_el": [
+      "Η επαναλαμβανόμενη ρουτίνα δεν αφαιρεί τον κίνδυνο· συχνά τον κρύβει ώσπου να πέσει η προσοχή.",
+      "Οι συνθήκες, η κούραση και η διακοπή μπορούν να αλλάξουν την εργασία γρηγορότερα απ’ όσο περιμένεις."
+    ],
+    "mistakes_en": [
+      "Skipping the small setup steps that protect the whole method.",
+      "Assuming that because it worked once it will keep working unchanged."
+    ],
+    "mistakes_el": [
+      "Να παραλείπεις τα μικρά βήματα προετοιμασίας που προστατεύουν όλη τη μέθοδο.",
+      "Να υποθέτεις ότι επειδή δούλεψε μία φορά θα συνεχίσει να δουλεύει χωρίς αλλαγή."
+    ],
+    "related_topics": [
+      "ladles",
+      "pots",
+      "rims",
+      "water and sanitation",
+      "food contact hygiene"
+    ],
+    "difficulty": "medium",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-02",
+    "update_note": "Polish-plus-expansion pass with deeper bilingual detail and broader coverage. Prompt-aligned project restructure and Termux app pass.",
+    "topic_en": "Ladle Hygiene, Shared Pot Rules, and Rim Contamination"
+  }
+]

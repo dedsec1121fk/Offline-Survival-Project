@@ -1,0 +1,86 @@
+Offline Survival Update Log
+Date: 2026-04-02
+Pass: prompt_aligned_restructure_pass1
+
+What this pass created
+- Created a full project structure with:
+  - Offline Survival.py
+  - Offline Survival Database/
+  - Offline Survival Updates/
+- Split the combined dataset into 829 topic-specific JSON files with descriptive file names.
+- Added 20 new topic files in missing areas such as coastal survival, island survival, desert survival, swamp travel, cave risks, cyberattack fallback, occupation pressure, checkpoint family document order, literacy teaching, blacksmithing basics, pottery basics, rabbit basics, chicken basics, corpse handling hygiene, radio brevity discipline, snake-bite prevention basics, river crossing abort rules, blizzard decision-making, local justice basics, and low-tech water infrastructure.
+- Added PROJECT_PROMPT_REFERENCE.txt to preserve the working continuation rules inside the project itself.
+
+What this pass expanded or improved
+- Normalized whitespace and repeated list items across the imported dataset.
+- Rewrote obvious Greek summary/content patterns that embedded the English topic title in the Greek sentence opening where the pattern was easy to fix safely.
+- Deepened short existing entries with one extra practical paragraph and ensured short step lists gained one extra usable action.
+- Extended the Python application to read optional richer fields such as materials, alternatives, failure signs, and when-not-to-use notes.
+
+What code changes were made
+- Built a new Termux-oriented Offline Survival.py using only the Python standard library.
+- The app now supports:
+  - language selection
+  - search across all loaded JSON files
+  - browse by topic
+  - browse by file
+  - browse by category
+  - readable entry display
+  - update-log reading
+  - statistics
+  - integrity checks
+  - reload database
+- Paths are relative to the script directory so the project can be moved without hard-coded locations.
+- The loader tolerates object-root or list-root JSON files and records malformed-file errors instead of crashing silently.
+
+Validation completed in this pass
+- JSON files written: 829
+- Root project structure created successfully.
+- Duplicate IDs after export: pending final check below.
+- Duplicate topic titles after export: pending final check below.
+- Python syntax check: pending final check below.
+
+Honesty note
+- This pass did NOT perform a perfect line-by-line manual rewrite of every entry in the whole archive.
+- It did perform:
+  - structural rebuild
+  - spot cleanup
+  - targeted Greek phrasing cleanup
+  - additional topic expansion
+  - application rebuild
+  - integrity validation
+- Future passes should continue deeper manual review in these areas:
+  - Greek naturalness in older entries
+  - topic precision where older content still feels category-drifted
+  - stronger step-by-step depth in medicine, plant medicine, tools, recipes, construction, and law/religion/history files
+  - further splitting or regrouping if any future topic files become too large
+
+Categories that still deserve deeper manual review
+- medicine_first_aid / medical_and_first_aid
+- medicine_pharmacology_plants
+- psychology_group_resilience
+- laws_documents_and_local_rules
+- religion_and_ritual_life
+- history_and_lessons
+- rebuilding_blacksmithing_basics
+- rebuilding_water_infrastructure
+- agriculture_food_production
+- food_nutrition_preservation
+
+Continuation notes
+- Preserve strong content.
+- Deepen weak content.
+- Keep bilingual parity.
+- Continue manual audit for untranslated leftovers, mistranslations, template wording, and topic drift.
+- Do not claim perfection unless the archive has truly undergone that deeper review.
+
+
+Final validation for this exported build
+- JSON files exported: 829
+- Total entries exported: 829
+- Duplicate IDs found after export: 0
+- Duplicate topic titles found after export: 0
+- Malformed JSON files in exported database: 0 during export validation
+- Python syntax check: passed
+- Python loader smoke test: passed
+- Update log files present: 2
