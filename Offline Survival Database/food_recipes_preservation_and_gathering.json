@@ -21484,5 +21484,572 @@
       "Tin Container Pinhole Leaks and Rust Spots",
       "Food Spoilage Clues, Smell Changes, and Rejection Discipline"
     ]
+  },
+  {
+    "id": "recipe::leftover_rice_pan_cakes_low_fuel",
+    "topic": "Leftover Rice Pan Cakes, Low-Fuel Reuse, and Texture Recovery",
+    "topic_en": "Leftover Rice Pan Cakes, Low-Fuel Reuse, and Texture Recovery",
+    "topic_el": "Τηγανίτες από Περισσευούμενο Ρύζι, Επαναχρήση Χαμηλού Καυσίμου και Επαναφορά Υφής",
+    "category": "food_recipes_preservation_and_gathering",
+    "subcategory": "leftover_reuse_and_low_fuel_cooking",
+    "tags": [
+      "rice",
+      "leftovers",
+      "low fuel",
+      "pan cakes",
+      "reuse"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 50.",
+    "summary_en": "Old rice often feels too dry, too broken, or too plain for a second bowl. Pan-cake reuse turns that weakness into a stable, low-fuel meal.",
+    "summary_el": "Το παλιό ρύζι συχνά φαίνεται πολύ στεγνό, πολύ σπασμένο ή πολύ άτονο για δεύτερο μπολ. Η επαναχρήση σε τηγανίτες μετατρέπει αυτή την αδυναμία σε σταθερό γεύμα χαμηλού καυσίμου.",
+    "content_en": "Rice that has dried overnight may not return nicely by simple reheating, especially when water, fuel, and patience are limited. A better reuse path is to bind it lightly, flatten it into portions, and brown it in a controlled pan instead of chasing a full pot texture that is gone already. This gives a firmer outside, better handling, and an easier vehicle for scraps, greens, lentils, or seasoning. The goal is not fancy cooking. It is converting leftover texture into something useful, portable, and satisfying enough that the food is actually eaten.",
+    "content_el": "Το ρύζι που στέγνωσε όλη νύχτα μπορεί να μην επανέλθει όμορφα με απλό ξαναζέσταμα, ειδικά όταν νερό, καύσιμο και υπομονή είναι περιορισμένα. Καλύτερη διαδρομή επαναχρήσης είναι να το δέσεις ελαφρά, να το πλατύνεις σε μερίδες και να το ροδίσεις ελεγχόμενα σε τηγάνι αντί να κυνηγάς ξανά την υφή γεμάτης κατσαρόλας που έχει ήδη χαθεί. Αυτό δίνει πιο σταθερό εξωτερικό, καλύτερο χειρισμό και ευκολότερη βάση για υπολείμματα, χόρτα, φακές ή καρύκευμα. Ο στόχος δεν είναι το περίτεχνο μαγείρεμα. Είναι να μετατρέψεις την υφή του υπολείμματος σε κάτι χρήσιμο, φορητό και αρκετά ικανοποιητικό ώστε η τροφή να φαγωθεί πράγματι.",
+    "steps_en": [
+      "Break clumps and add only enough moisture or binder to hold shape.",
+      "Flatten into portions that heat through without burning outside first.",
+      "Brown with moderate heat and a small amount of fat if available.",
+      "Use scraps or seasonings that cook fast and do not demand a new long boil.",
+      "Serve once crisped rather than repeatedly reheating the same batch."
+    ],
+    "steps_el": [
+      "Σπάσε τους σβόλους και πρόσθεσε μόνο όσο υγρό ή συνδετικό χρειάζεται για να κρατά σχήμα.",
+      "Πλάτυνε σε μερίδες που ζεσταίνονται μέχρι μέσα χωρίς να καίγονται πρώτα απ’ έξω.",
+      "Ρόδισε σε μέτρια θερμοκρασία και με μικρή ποσότητα λίπους όπου υπάρχει.",
+      "Χρησιμοποίησε υπολείμματα ή καρυκεύματα που μαγειρεύονται γρήγορα και δεν ζητούν νέο πολύωρο βράσιμο.",
+      "Σέρβιρε μόλις τραγανίσουν αντί να ξαναζεσταίνεις επανειλημμένα την ίδια παρτίδα."
+    ],
+    "warnings_en": [
+      "Trying to over-moisten old rice can waste fuel and still fail.",
+      "Thick cakes heat unevenly and can look ready before the center is warmed.",
+      "Repeated reheating lowers both quality and confidence in leftovers."
+    ],
+    "warnings_el": [
+      "Η υπερβολική προσπάθεια να ξαναυγρανθεί το παλιό ρύζι μπορεί να σπαταλήσει καύσιμο και πάλι να αποτύχει.",
+      "Οι χοντρές τηγανίτες ζεσταίνονται άνισα και μπορεί να φαίνονται έτοιμες πριν ζεσταθεί το κέντρο.",
+      "Το επαναλαμβανόμενο ξαναζέσταμα χαμηλώνει και την ποιότητα και την εμπιστοσύνη στα υπολείμματα."
+    ],
+    "mistakes_en": [
+      "Adding too much water at once.",
+      "Making cakes too thick for the pan heat available.",
+      "Using slow-cooking additions that defeat the low-fuel purpose."
+    ],
+    "mistakes_el": [
+      "Να προσθέτεις πολύ νερό μονομιάς.",
+      "Να φτιάχνεις πολύ χοντρές τηγανίτες για τη διαθέσιμη θερμότητα του τηγανιού.",
+      "Να βάζεις υλικά αργού μαγειρέματος που ακυρώνουν τον στόχο χαμηλού καυσίμου."
+    ],
+    "related_topics": [
+      "Rice Pot Variations for Low Fuel and Weak Stomachs",
+      "Lentil-Onion Thick Pot, Reheat Safety, and Multi-Meal Reuse",
+      "Pan Bread, Ash Bread, and Quick Dough Without Oven"
+    ]
+  },
+  {
+    "id": "recipe::scorched_pot_salvage_and_bitter_smoke_control",
+    "topic": "Scorched Pot Salvage, Bitter Taste Limits, and When to Stop Scraping the Bottom",
+    "topic_en": "Scorched Pot Salvage, Bitter Taste Limits, and When to Stop Scraping the Bottom",
+    "topic_el": "Διάσωση Καμένου Κατσαρολιού, Όρια Πικρής Γεύσης και Πότε να Σταματά το Ξύσιμο του Πάτου",
+    "category": "food_recipes_preservation_and_gathering",
+    "subcategory": "low_resource_cooking_recovery",
+    "tags": [
+      "cooking",
+      "pot",
+      "burnt food",
+      "salvage",
+      "fuel"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 51.",
+    "summary_en": "A scorched meal can sometimes be partly saved, but scraping too far spreads bitterness and turns salvage into a bigger loss.",
+    "summary_el": "Ένα φαγητό που άρπαξε μπορεί μερικές φορές να σωθεί εν μέρει, αλλά το υπερβολικό ξύσιμο απλώνει την πίκρα και μετατρέπει τη διάσωση σε μεγαλύτερη απώλεια.",
+    "content_en": "Low-fuel cooking often pushes grains, beans, and thick soups close to scorching. When the bottom burns, the first decision is whether the upper portion can be moved cleanly without mixing the blackened layer through the batch. The more the burnt layer is stirred into the food, the more bitterness, smoke taste, and distrust spread through the whole meal. Good salvage is controlled salvage: lift what is still good, stop when the taste turns hard and bitter, and clean the pot properly before the next batch instead of pretending every scrap can be rescued.",
+    "content_el": "Το μαγείρεμα χαμηλού καυσίμου συχνά φέρνει δημητριακά, όσπρια και πηχτές σούπες κοντά στο να αρπάξουν. Όταν καεί ο πάτος, η πρώτη απόφαση είναι αν το επάνω μέρος μπορεί να μεταφερθεί καθαρά χωρίς να ανακατευτεί το μαυρισμένο στρώμα σε όλο το φαγητό. Όσο περισσότερο ανακατεύεται το καμένο στρώμα, τόσο περισσότερο πικρή γεύση, καπνιστή αίσθηση και δυσπιστία απλώνονται σε όλο το γεύμα. Η σωστή διάσωση είναι ελεγχόμενη διάσωση: σήκωσε ό,τι παραμένει καλό, σταμάτα όταν η γεύση γίνεται σκληρά πικρή και καθάρισε σωστά το σκεύος πριν από την επόμενη παρτίδα αντί να προσποιείσαι ότι κάθε υπόλειμμα σώζεται.",
+    "steps_en": [
+      "Move the unburnt upper layer to a clean pot if possible.",
+      "Avoid scraping the black bottom into the good portion.",
+      "Taste a small sample before serving the whole batch.",
+      "Stop salvage once bitterness dominates.",
+      "Clean the scorched vessel before reusing it."
+    ],
+    "steps_el": [
+      "Μετέφερε το άκαυτο επάνω στρώμα σε καθαρό σκεύος όπου γίνεται.",
+      "Απόφυγε να ξύσεις τον μαύρο πάτο μέσα στο καλό μέρος.",
+      "Δοκίμασε μικρό δείγμα πριν σερβίρεις όλη την παρτίδα.",
+      "Σταμάτα τη διάσωση μόλις κυριαρχήσει η πίκρα.",
+      "Καθάρισε το καμένο σκεύος πριν το ξαναχρησιμοποιήσεις."
+    ],
+    "warnings_en": [
+      "A strongly burnt layer can ruin the whole meal if mixed through.",
+      "Scraping too hard can also damage thin pots.",
+      "Sometimes stopping the salvage attempt saves more food trust than forcing it."
+    ],
+    "warnings_el": [
+      "Ένα έντονα καμένο στρώμα μπορεί να χαλάσει όλο το γεύμα αν ανακατευτεί παντού.",
+      "Το υπερβολικό ξύσιμο μπορεί επίσης να χαλάσει λεπτά σκεύη.",
+      "Μερικές φορές το να σταματήσεις τη διάσωση σώζει περισσότερη εμπιστοσύνη στο φαγητό από το να την πιέσεις."
+    ],
+    "mistakes_en": [
+      "Stirring the burnt bottom back into the batch.",
+      "Serving the meal without tasting for bitterness first.",
+      "Pretending all scorched food is worth salvaging."
+    ],
+    "mistakes_el": [
+      "Να ανακατεύεις τον καμένο πάτο ξανά μέσα στην παρτίδα.",
+      "Να σερβίρεις το γεύμα χωρίς να δοκιμάσεις πρώτα για πίκρα.",
+      "Να προσποιείσαι ότι κάθε καμένο φαγητό αξίζει να σωθεί."
+    ],
+    "related_topics": [
+      "Low-Fuel Cooking",
+      "Pot Scraping, Cleaning, and Burn Prevention",
+      "Bean Pots, Thick Soups, and Lid Discipline"
+    ]
+  },
+  {
+    "id": "preservation::dry_herb_storage_mold_and_bug_watch",
+    "topic": "Dry Herb Storage, Powder Loss, and Mold-or-Bug Recheck Before Use",
+    "topic_en": "Dry Herb Storage, Powder Loss, and Mold-or-Bug Recheck Before Use",
+    "topic_el": "Αποθήκευση Ξερών Βοτάνων, Απώλεια Σκόνης και Επανέλεγχος για Μούχλα ή Έντομα πριν από Χρήση",
+    "category": "food_recipes_preservation_and_gathering",
+    "subcategory": "herb_storage_and_recheck",
+    "tags": [
+      "herbs",
+      "storage",
+      "mold",
+      "insects",
+      "preservation"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 51.",
+    "summary_en": "Herbs lose usefulness quickly when jars stay damp, powders collect at the bottom, or small pests begin in quiet storage.",
+    "summary_el": "Τα βότανα χάνουν γρήγορα τη χρησιμότητά τους όταν τα βάζα μένουν νωπά, η σκόνη μαζεύεται στον πάτο ή αρχίζουν μικρά παράσιτα σε ήσυχη αποθήκευση.",
+    "content_en": "Dried herbs are often treated as stable just because they no longer feel wet, but storage quality still matters. Moisture trapped in jars, crushed leaf dust, sun exposure, and insect entry can change smell, taste, and trust. Some loss is normal over time; hidden mold or infestation is not. Good storage means dry packing, shaded containers, labeled batches, and periodic inspection before use rather than blind trust in last season’s jars.",
+    "content_el": "Τα αποξηραμένα βότανα συχνά αντιμετωπίζονται ως σταθερά απλώς επειδή δεν φαίνονται πια βρεγμένα, αλλά η ποιότητα αποθήκευσης μετρά ακόμη. Υγρασία παγιδευμένη σε βάζα, σκόνη από θρυμματισμένα φύλλα, έκθεση στον ήλιο και είσοδος εντόμων μπορούν να αλλάξουν μυρωδιά, γεύση και εμπιστοσύνη. Κάποια απώλεια με τον χρόνο είναι φυσιολογική· κρυφή μούχλα ή προσβολή δεν είναι. Η σωστή αποθήκευση σημαίνει στεγνή συσκευασία, σκιερά δοχεία, ετικέτες παρτίδας και περιοδικό έλεγχο πριν από χρήση αντί για τυφλή εμπιστοσύνη στα βάζα της περασμένης χρονιάς.",
+    "steps_en": [
+      "Store fully dried herbs in shaded, dry containers.",
+      "Label harvest and packing dates.",
+      "Inspect smell, color, and bottom dust before use.",
+      "Recheck for webbing, frass, or clumps after long storage.",
+      "Discard batches that show mold or clear pest activity."
+    ],
+    "steps_el": [
+      "Αποθήκευε πλήρως αποξηραμένα βότανα σε σκιερά και στεγνά δοχεία.",
+      "Σημείωνε ημερομηνίες συγκομιδής και συσκευασίας.",
+      "Έλεγχε μυρωδιά, χρώμα και τη σκόνη στον πάτο πριν από χρήση.",
+      "Ξαναέλεγχε για ιστούς, περιττώματα εντόμων ή σβόλους μετά από μακρά αποθήκευση.",
+      "Απόρριπτε παρτίδες που δείχνουν μούχλα ή καθαρή δραστηριότητα παρασίτων."
+    ],
+    "warnings_en": [
+      "Bad herb storage can turn medicine or flavoring into a contamination risk.",
+      "Sun and heat degrade quality even without visible mold.",
+      "Bug activity may start quietly at container seams."
+    ],
+    "warnings_el": [
+      "Η κακή αποθήκευση βοτάνων μπορεί να μετατρέψει φάρμακο ή άρτυμα σε κίνδυνο επιμόλυνσης.",
+      "Ο ήλιος και η ζέστη υποβαθμίζουν την ποιότητα ακόμη και χωρίς ορατή μούχλα.",
+      "Η δραστηριότητα εντόμων μπορεί να αρχίσει αθόρυβα στις ενώσεις των δοχείων."
+    ],
+    "mistakes_en": [
+      "Assuming “dry once” means safe forever.",
+      "Ignoring heavy dust, clumping, or stale odor.",
+      "Keeping jars in hot bright places."
+    ],
+    "mistakes_el": [
+      "Να θεωρείς ότι το «στέγνωσε μία φορά» σημαίνει ασφαλές για πάντα.",
+      "Να αγνοείς πολλή σκόνη, σβόλους ή μπαγιάτικη μυρωδιά.",
+      "Να κρατάς τα βάζα σε ζεστά φωτεινά μέρη."
+    ],
+    "related_topics": [
+      "Herb Drying Labels, Harvest Dates, and Batch Identity",
+      "Plant Drying and Storage",
+      "Jar Lids, Moisture, and Quiet Pest Entry"
+    ]
+  },
+  {
+    "id": "food::cutting_board_groove_smell_and_cross_contamination",
+    "topic": "Cutting Board Grooves, Sour Smell, and Cross-Contamination in Low-Water Kitchens",
+    "topic_en": "Cutting Board Grooves, Sour Smell, and Cross-Contamination in Low-Water Kitchens",
+    "topic_el": "Αυλακώσεις Επιφάνειας Κοπής, Ξινή Μυρωδιά και Διασταυρούμενη Επιμόλυνση σε Κουζίνες με Λίγο Νερό",
+    "category": "food_recipes_preservation_and_gathering",
+    "subcategory": "kitchen_hygiene_and_reuse",
+    "tags": [
+      "kitchen",
+      "boards",
+      "contamination",
+      "food safety",
+      "cleaning"
+    ],
+    "priority": "high",
+    "urgency": "medium",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 52.",
+    "summary_en": "Low-water kitchens often overuse the same cutting surface, letting grooves, old smell, and trapped scraps spread contamination from one food to the next.",
+    "summary_el": "Οι κουζίνες με λίγο νερό συχνά παραχρησιμοποιούν την ίδια επιφάνεια κοπής, αφήνοντας αυλακώσεις, παλιά μυρωδιά και παγιδευμένα υπολείμματα να απλώνουν επιμόλυνση από το ένα τρόφιμο στο επόμενο.",
+    "content_en": "A board or cutting surface does not need visible rot to become risky. Knife grooves trap juices, starches, herb pulp, and fine scraps that are hard to remove when water is scarce. Over time the smell changes, sticky patches persist, and yesterday’s work quietly contaminates today’s meal. In constrained kitchens, board discipline matters: scrape, wash, dry, and separate tasks as much as possible. If a board smells sour after cleaning or keeps shedding residue into fresh food, it is no longer a neutral surface.",
+    "content_el": "Μια επιφάνεια κοπής δεν χρειάζεται ορατή σήψη για να γίνει επικίνδυνη. Οι αυλακώσεις από το μαχαίρι παγιδεύουν υγρά, άμυλα, πολτούς βοτάνων και μικρά υπολείμματα που δύσκολα φεύγουν όταν το νερό είναι λίγο. Με τον χρόνο αλλάζει η μυρωδιά, μένουν κολλώδη σημεία και η χθεσινή εργασία επιμολύνει αθόρυβα το σημερινό γεύμα. Σε περιορισμένες κουζίνες, η πειθαρχία της επιφάνειας κοπής μετρά: ξύσιμο, πλύσιμο, στέγνωμα και όσο γίνεται διαχωρισμός εργασιών. Αν μια επιφάνεια μυρίζει ξινά μετά τον καθαρισμό ή συνεχίζει να αφήνει υπόλειμμα σε φρέσκο φαγητό, δεν είναι πια ουδέτερη επιφάνεια.",
+    "steps_en": [
+      "Scrape solids off immediately after use.",
+      "Wash and dry both faces instead of leaving the board damp and flat.",
+      "Separate high-risk tasks from ready-to-eat tasks where possible.",
+      "Smell and inspect grooves after cleaning, not only before use.",
+      "Retire or downgrade boards that stay sour or sticky."
+    ],
+    "steps_el": [
+      "Ξύνε τα στερεά υπολείμματα αμέσως μετά τη χρήση.",
+      "Πλένε και στέγνωνε και τις δύο πλευρές αντί να αφήνεις την επιφάνεια νωπή και επίπεδη.",
+      "Διαχώριζε όσο γίνεται τις πιο επικίνδυνες εργασίες από όσες αφορούν έτοιμο φαγητό.",
+      "Μύριζε και έλεγχε τις αυλακώσεις μετά τον καθαρισμό και όχι μόνο πριν από χρήση.",
+      "Απόσυρε ή υποβάθμιζε επιφάνειες που παραμένουν ξινές ή κολλώδεις."
+    ],
+    "warnings_en": [
+      "Scarce water increases the temptation to skip proper board reset.",
+      "Old smell is often a better warning sign than appearance alone.",
+      "Cross-contamination can happen quietly even with simple foods."
+    ],
+    "warnings_el": [
+      "Το λίγο νερό αυξάνει τον πειρασμό να παραλειφθεί η σωστή επαναφορά της επιφάνειας.",
+      "Η παλιά μυρωδιά είναι συχνά καλύτερο προειδοποιητικό σημάδι από την εμφάνιση μόνη της.",
+      "Η διασταυρούμενη επιμόλυνση μπορεί να γίνει αθόρυβα ακόμη και με απλά τρόφιμα."
+    ],
+    "mistakes_en": [
+      "Using the same unreset board for all tasks all day.",
+      "Trusting appearance while ignoring smell.",
+      "Leaving boards wet and stacked where they cannot dry."
+    ],
+    "mistakes_el": [
+      "Να χρησιμοποιείς την ίδια επιφάνεια χωρίς επαναφορά για όλες τις δουλειές όλη μέρα.",
+      "Να εμπιστεύεσαι την εμφάνιση ενώ αγνοείς τη μυρωδιά.",
+      "Να αφήνεις τις επιφάνειες βρεγμένες και στοιβαγμένες εκεί όπου δεν στεγνώνουν."
+    ],
+    "related_topics": [
+      "Handwashing Station Upkeep, Drainage, and Soap Discipline",
+      "Dishwashing Flow, Pot Sanitation, and Drying Discipline",
+      "Food Poisoning Cluster Tracing and Shared Meal Recheck"
+    ]
+  },
+  {
+    "id": "recipe::thin_gruel_for_nausea_and_small_sips",
+    "topic": "Thin Gruel for Nausea, Small Sips, and Early Return to Food After Stomach Upset",
+    "topic_en": "Thin Gruel for Nausea, Small Sips, and Early Return to Food After Stomach Upset",
+    "topic_el": "Αραιός Χυλός για Ναυτία, Μικρές Γουλιές και Πρώιμη Επιστροφή στο Φαγητό μετά από Αναστάτωση Στομάχου",
+    "category": "food_recipes_preservation_and_gathering",
+    "subcategory": "recovery_meals_and_stomach_rest",
+    "tags": [
+      "recipe",
+      "gruel",
+      "nausea",
+      "recovery",
+      "food"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Major broader growth pass 53.",
+    "summary_en": "When the stomach is unsettled, a thin simple food can help more than forcing a full meal too early.",
+    "summary_el": "Όταν το στομάχι είναι αναστατωμένο, ένα αραιό απλό φαγητό μπορεί να βοηθήσει περισσότερο από το να πιεστεί ένα πλήρες γεύμα πολύ νωρίς.",
+    "content_en": "After vomiting or nausea, the first useful return to food is often about texture and timing, not richness. Thin gruel works because it is simple, warm, and easy to space into small amounts. The point is to reintroduce intake gently and watch whether each small portion stays down before adding more weight or flavor.",
+    "content_el": "Μετά από εμετό ή ναυτία, η πρώτη χρήσιμη επιστροφή στο φαγητό αφορά συχνά την υφή και τον χρόνο, όχι τον πλούτο. Ο αραιός χυλός δουλεύει επειδή είναι απλός, ζεστός και εύκολος να δοθεί σε μικρές ποσότητες. Το νόημα είναι να επανεισαγάγεις απαλά την πρόσληψη και να παρακολουθείς αν κάθε μικρή ποσότητα μένει μέσα πριν προσθέσεις περισσότερο βάρος ή γεύση.",
+    "steps_en": [
+      "Use a thin texture rather than a heavy dense meal.",
+      "Offer small spaced amounts instead of one full bowl.",
+      "Pause if nausea rises again after intake.",
+      "Increase thickness only when the stomach handles the earlier stage.",
+      "Keep the recipe plain during the first recovery phase."
+    ],
+    "steps_el": [
+      "Χρησιμοποίησε αραιή υφή αντί για βαρύ πυκνό γεύμα.",
+      "Δίνε μικρές αραιά χρονισμένες ποσότητες αντί για ένα γεμάτο μπολ.",
+      "Σταμάτα αν η ναυτία αυξηθεί ξανά μετά την πρόσληψη.",
+      "Αύξανε το πάχος μόνο όταν το στομάχι αντέχει το προηγούμενο στάδιο.",
+      "Κράτα τη συνταγή απλή στην πρώτη φάση ανάρρωσης."
+    ],
+    "warnings_en": [
+      "Too much too early can restart the upset.",
+      "Rich fats and strong seasoning may be poorly tolerated early on.",
+      "Warmth can comfort, but overheating the food may make sipping harder."
+    ],
+    "warnings_el": [
+      "Το πολύ και πολύ νωρίς μπορεί να ξαναρχίσει την ενόχληση.",
+      "Πλούσια λίπη και έντονο καρύκευμα μπορεί να είναι κακώς ανεκτά στην αρχή.",
+      "Η ζεστασιά μπορεί να ανακουφίζει, αλλά η υπερβολική θερμοκρασία δυσκολεύει τις μικρές γουλιές."
+    ],
+    "mistakes_en": [
+      "Trying to prove recovery with a full meal immediately.",
+      "Adding many ingredients during the first calm stomach window.",
+      "Ignoring the return of nausea after the first few spoonfuls."
+    ],
+    "mistakes_el": [
+      "Να προσπαθείς να αποδείξεις την ανάρρωση με πλήρες γεύμα αμέσως.",
+      "Να προσθέτεις πολλά υλικά στο πρώτο ήσυχο παράθυρο του στομάχου.",
+      "Να αγνοείς την επιστροφή της ναυτίας μετά τις πρώτες κουταλιές."
+    ],
+    "related_topics": [
+      "Rice Pot Variations for Weak Stomachs",
+      "Porridge, Gruel, and Thick Soup Basics",
+      "Vomiting Management and Early Intake Return"
+    ]
+  },
+  {
+    "id": "recipe::thick_bean_mash_low_fuel_protein_spread",
+    "topic": "Thick Bean Mash, Low-Fuel Protein Spread, and Turning Soft Beans Into a Longer-Lasting Meal Base",
+    "topic_en": "Thick Bean Mash, Low-Fuel Protein Spread, and Turning Soft Beans Into a Longer-Lasting Meal Base",
+    "topic_el": "Πηχτός Πολτός Οσπρίων, Πρωτεϊνική Αλοιφή Χαμηλού Καυσίμου και Μετατροπή Μαλακών Οσπρίων σε Βάση Γεύματος με Μεγαλύτερη Χρήση",
+    "category": "food_recipes_preservation_and_gathering",
+    "subcategory": "low_fuel_protein_reuse",
+    "tags": [
+      "beans",
+      "recipe",
+      "low fuel",
+      "protein",
+      "reuse"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 54.",
+    "summary_en": "Soft beans can become more versatile and useful when turned into a thick mash that spreads, reheats quickly, and stretches into later meals.",
+    "summary_el": "Τα μαλακά όσπρια μπορούν να γίνουν πιο ευέλικτα και χρήσιμα όταν μετατραπούν σε πηχτό πολτό που αλείφεται, ξαναζεσταίνεται γρήγορα και απλώνεται σε επόμενα γεύματα.",
+    "content_en": "Not every bean meal has to stay as a pot of loose beans. When fuel is limited, a thicker mash can be easier to portion, spread, and reuse with flatbread, rice, or scraps. The value is not only taste. It is storing use in a form that heats quickly and helps make smaller amounts feel like a fuller meal.",
+    "content_el": "Δεν χρειάζεται κάθε γεύμα οσπρίων να μένει μια κατσαρόλα με χαλαρά όσπρια. Όταν το καύσιμο είναι λίγο, ένας πιο πηχτός πολτός μπορεί να είναι ευκολότερος στο μοίρασμα, στο άλειμμα και στην επαναχρησιμοποίηση με ψωμί, ρύζι ή υπολείμματα. Η αξία δεν είναι μόνο η γεύση. Είναι ότι αποθηκεύεις τη χρησιμότητα σε μορφή που ζεσταίνεται γρήγορα και βοηθά μικρότερες ποσότητες να μοιάζουν με πιο γεμάτο γεύμα.",
+    "steps_en": [
+      "Cook or soften beans fully before mashing.",
+      "Mash while warm enough to combine more easily.",
+      "Season simply so the mash stays flexible for later meals.",
+      "Use small reheats instead of repeatedly heating the whole batch.",
+      "Watch texture so it stays spreadable rather than drying into waste."
+    ],
+    "steps_el": [
+      "Μαγείρευε ή μαλάκωνε πλήρως τα όσπρια πριν τα λιώσεις.",
+      "Λιώσε τα όσο είναι αρκετά ζεστά ώστε να ενωθούν πιο εύκολα.",
+      "Καρύκευε απλά ώστε ο πολτός να μένει ευέλικτος για επόμενα γεύματα.",
+      "Χρησιμοποιούσε μικρά ξαναζεστάματα αντί να ζεσταίνεις επανειλημμένα όλη την παρτίδα.",
+      "Παρακολουθούσε την υφή ώστε να μένει αλειφόμενη και να μη στεγνώνει σε σπατάλη."
+    ],
+    "warnings_en": [
+      "Thick bean dishes still need safe storage discipline.",
+      "Repeated full-batch reheating wastes fuel and quality.",
+      "Mash that dries too far becomes harder to reuse well."
+    ],
+    "warnings_el": [
+      "Τα πηχτά φαγητά οσπρίων χρειάζονται πάλι ασφαλή πειθαρχία αποθήκευσης.",
+      "Το επαναλαμβανόμενο ξαναζέσταμα όλης της παρτίδας σπαταλά καύσιμο και ποιότητα.",
+      "Πολτός που στεγνώνει υπερβολικά γίνεται δυσκολότερος να επαναχρησιμοποιηθεί καλά."
+    ],
+    "mistakes_en": [
+      "Leaving the whole pot loose when a denser reusable form would work better.",
+      "Over-seasoning early and limiting later reuse.",
+      "Heating the entire batch every time a small serving is needed."
+    ],
+    "mistakes_el": [
+      "Να αφήνεις όλη την κατσαρόλα αραιή όταν θα δούλευε καλύτερα πιο πυκνή επαναχρησιμοποιήσιμη μορφή.",
+      "Να υπερκαρυκεύεις νωρίς και να περιορίζεις την επόμενη χρήση.",
+      "Να ζεσταίνεις ολόκληρη την παρτίδα κάθε φορά που χρειάζεται μικρή μερίδα."
+    ],
+    "related_topics": [
+      "Rice Pot Variations for Low Fuel",
+      "Bean Pots, Thick Soups, and Lid Discipline",
+      "Flatbread Dough and No-Oven Breads"
+    ]
+  },
+  {
+    "id": "preservation::jar_lid_smell_check_before_reuse",
+    "topic": "Jar Lid Smell Check, Gasket Residue, and Why the Container Top Can Ruin the Next Batch",
+    "topic_en": "Jar Lid Smell Check, Gasket Residue, and Why the Container Top Can Ruin the Next Batch",
+    "topic_el": "Έλεγχος Μυρωδιάς σε Καπάκι Βάζου, Υπόλειμμα Παρέμβυσματος και Γιατί το Επάνω Μέρος του Δοχείου Μπορεί να Χαλάσει την Επόμενη Παρτίδα",
+    "category": "food_recipes_preservation_and_gathering",
+    "subcategory": "container_reuse_hygiene",
+    "tags": [
+      "jars",
+      "lids",
+      "smell",
+      "storage",
+      "reuse"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 54.",
+    "summary_en": "A container may look clean while the lid still carries old smell, sticky residue, or hidden contamination that transfers into the next stored food.",
+    "summary_el": "Ένα δοχείο μπορεί να φαίνεται καθαρό ενώ το καπάκι ακόμη κουβαλά παλιά μυρωδιά, κολλώδες υπόλειμμα ή κρυφή επιμόλυνση που περνά στην επόμενη αποθηκευμένη τροφή.",
+    "content_en": "People often clean the jar body better than the lid. But threads, gaskets, folds, and undersides can hold old oil, sour smell, sugar film, or moldy traces. Reusing the jar without checking the top carefully can spoil the next batch even when the glass looked ready.",
+    "content_el": "Οι άνθρωποι συχνά καθαρίζουν το σώμα του βάζου καλύτερα από το καπάκι. Όμως σπειρώματα, παρεμβύσματα, πτυχές και κάτω πλευρές μπορούν να κρατούν παλιό λάδι, ξινή μυρωδιά, φιλμ ζάχαρης ή ίχνη μούχλας. Η επαναχρησιμοποίηση του βάζου χωρίς προσεκτικό έλεγχο του επάνω μέρους μπορεί να χαλάσει την επόμενη παρτίδα ακόμη κι όταν το γυαλί φαινόταν έτοιμο.",
+    "steps_en": [
+      "Smell the lid separately from the jar body.",
+      "Inspect threads, folds, and sealing surfaces closely.",
+      "Wash off sticky residue before trusting the container again.",
+      "Downgrade lids that keep old smell after cleaning.",
+      "Match clean lids to clean jars instead of mixing uncertain parts."
+    ],
+    "steps_el": [
+      "Μύριζε το καπάκι ξεχωριστά από το σώμα του βάζου.",
+      "Έλεγχε προσεκτικά σπειρώματα, πτυχές και επιφάνειες σφράγισης.",
+      "Έπλενε κολλώδη υπολείμματα πριν εμπιστευτείς ξανά το δοχείο.",
+      "Υποβάθμιζε καπάκια που κρατούν παλιά μυρωδιά μετά τον καθαρισμό.",
+      "Ταίριαζε καθαρά καπάκια με καθαρά βάζα αντί να ανακατεύεις αβέβαια μέρη."
+    ],
+    "warnings_en": [
+      "The lid can be the weak point even when the jar body is fine.",
+      "Old oil and sugar residue often survive poor cleaning.",
+      "One bad lid can ruin a carefully prepared batch."
+    ],
+    "warnings_el": [
+      "Το καπάκι μπορεί να είναι το αδύναμο σημείο ακόμη κι όταν το βάζο είναι σωστό.",
+      "Παλιό λάδι και υπόλειμμα ζάχαρης συχνά επιβιώνουν από κακό καθάρισμα.",
+      "Ένα κακό καπάκι μπορεί να χαλάσει μια προσεκτικά ετοιμασμένη παρτίδα."
+    ],
+    "mistakes_en": [
+      "Checking only the glass and ignoring the lid.",
+      "Trusting appearance while skipping smell.",
+      "Reusing lids that stay sour or sticky."
+    ],
+    "mistakes_el": [
+      "Να ελέγχεις μόνο το γυαλί και να αγνοείς το καπάκι.",
+      "Να εμπιστεύεσαι την εμφάνιση ενώ παραλείπεις τη μυρωδιά.",
+      "Να ξαναχρησιμοποιείς καπάκια που μένουν ξινά ή κολλώδη."
+    ],
+    "related_topics": [
+      "Dry Herb Storage and Mold-or-Bug Recheck",
+      "Container Leaks, Lid Integrity, and Seal Checking",
+      "Stored Water Rotation, Container Cleaning, and Taste Changes"
+    ]
+  },
+  {
+    "id": "recipe::pot_lid_crack_gap_and_simmer_loss",
+    "topic": "Pot Lid Gaps, Cracked Covers, and How Small Steam Loss Turns Into Extra Fuel Cost",
+    "topic_en": "Pot Lid Gaps, Cracked Covers, and How Small Steam Loss Turns Into Extra Fuel Cost",
+    "topic_el": "Κενά σε Καπάκια Κατσαρόλας, Ραγισμένα Καλύμματα και Πώς μια Μικρή Απώλεια Ατμού Γίνεται Επιπλέον Κόστος Καυσίμου",
+    "category": "food_recipes_preservation_and_gathering",
+    "subcategory": "fuel_efficiency_and_cookware_limits",
+    "tags": [
+      "pots",
+      "lids",
+      "fuel",
+      "steam",
+      "cooking"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 55.",
+    "summary_en": "A pot with a poor lid can still cook, but it loses heat and water quietly until every simmer costs more than it should.",
+    "summary_el": "Μια κατσαρόλα με κακό καπάκι μπορεί ακόμη να μαγειρεύει, αλλά χάνει αθόρυβα θερμότητα και νερό ώσπου κάθε σιγανό βράσιμο να κοστίζει περισσότερο απ’ όσο πρέπει.",
+    "content_en": "Low-fuel cooking depends on keeping heat where it matters. Small lid cracks, warped covers, and poor seating let steam escape, lengthen cook time, and force more topping-up of water. The loss seems small minute by minute, but over long simmering it becomes a real fuel tax.",
+    "content_el": "Το μαγείρεμα με λίγο καύσιμο εξαρτάται από το να μένει η θερμότητα εκεί όπου μετρά. Μικρές ρωγμές στο καπάκι, στραβά καλύμματα και κακή εφαρμογή αφήνουν ατμό να φεύγει, παρατείνουν τον χρόνο μαγειρέματος και αναγκάζουν περισσότερα συμπληρώματα νερού. Η απώλεια μοιάζει μικρή λεπτό προς λεπτό, αλλά σε μακρύ σιγανό βράσιμο γίνεται πραγματικός φόρος καυσίμου.",
+    "steps_en": [
+      "Check lid seating before long simmering starts.",
+      "Use the best-fitting cover available for fuel-heavy foods.",
+      "Watch whether steam escapes strongly from one repeated side gap.",
+      "Top up water with awareness that lid loss may be the hidden cause.",
+      "Improve fit or switch vessels if one pot wastes too much heat."
+    ],
+    "steps_el": [
+      "Έλεγχε την εφαρμογή του καπακιού πριν αρχίσει το μακρύ σιγανό βράσιμο.",
+      "Χρησιμοποιούσε το καλύτερα εφαρμοζόμενο κάλυμμα για φαγητά που καίνε πολύ καύσιμο.",
+      "Παρακολουθούσε αν ο ατμός φεύγει έντονα από το ίδιο επαναλαμβανόμενο πλαϊνό κενό.",
+      "Συμπλήρωνε νερό γνωρίζοντας ότι η απώλεια καπακιού μπορεί να είναι η κρυφή αιτία.",
+      "Βελτίωνε την εφαρμογή ή άλλαζε σκεύος αν μια κατσαρόλα σπαταλά υπερβολική θερμότητα."
+    ],
+    "warnings_en": [
+      "A working pot can still be an inefficient pot.",
+      "Steam loss wastes both heat and water.",
+      "Long-cook foods reveal lid problems more clearly than quick foods."
+    ],
+    "warnings_el": [
+      "Μια λειτουργική κατσαρόλα μπορεί πάλι να είναι αναποτελεσματική κατσαρόλα.",
+      "Η απώλεια ατμού σπαταλά και θερμότητα και νερό.",
+      "Τα φαγητά μεγάλου χρόνου δείχνουν τα προβλήματα καπακιού πιο καθαρά από τα γρήγορα φαγητά."
+    ],
+    "mistakes_en": [
+      "Assuming all lids work equally well.",
+      "Blaming the fire alone when cook time keeps stretching.",
+      "Ignoring repeated side steam loss because food still eventually cooks."
+    ],
+    "mistakes_el": [
+      "Να θεωρείς ότι όλα τα καπάκια δουλεύουν το ίδιο καλά.",
+      "Να κατηγορείς μόνο τη φωτιά όταν ο χρόνος μαγειρέματος συνεχίζει να τραβά.",
+      "Να αγνοείς επαναλαμβανόμενη απώλεια ατμού από το πλάι επειδή το φαγητό τελικά μαγειρεύεται."
+    ],
+    "related_topics": [
+      "Low-Fuel Cooking",
+      "Bean Pots, Thick Soups, and Lid Discipline",
+      "Rice Pot Variations for Low Fuel"
+    ]
+  },
+  {
+    "id": "food::cooling_leftover_pot_depth_and_safe_reheat_planning",
+    "topic": "Leftover Pot Depth, Cooling Pace, and Why a Big Hot Mass Stays Risky Longer Than Expected",
+    "topic_en": "Leftover Pot Depth, Cooling Pace, and Why a Big Hot Mass Stays Risky Longer Than Expected",
+    "topic_el": "Βάθος Κατσαρόλας με Υπόλοιπο, Ρυθμός Ψύξης και Γιατί μια Μεγάλη Καυτή Μάζα Μένει Επικίνδυνη Περισσότερο απ’ όσο Περιμένεις",
+    "category": "food_recipes_preservation_and_gathering",
+    "subcategory": "leftover_handling_and_reheat_strategy",
+    "tags": [
+      "leftovers",
+      "cooling",
+      "pots",
+      "safety",
+      "reheat"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 55.",
+    "summary_en": "Large leftover pots often stay warm in the center much longer than people realize, creating a quiet safety problem even when the surface seems to cool.",
+    "summary_el": "Μεγάλες κατσαρόλες με υπόλοιπο συχνά μένουν ζεστές στο κέντρο πολύ περισσότερο απ’ όσο νομίζει ο κόσμος, δημιουργώντας αθόρυβο πρόβλημα ασφάλειας ακόμη κι όταν η επιφάνεια φαίνεται να κρυώνει.",
+    "content_en": "A big dense pot does not cool evenly. The top may seem safe to handle while the center stays warm enough to drift through a long risky period. Planning leftovers is not only about whether food exists; it is also about how quickly the mass will cool, whether it should be divided, and whether reheating will happen once or repeatedly.",
+    "content_el": "Μια μεγάλη πυκνή κατσαρόλα δεν κρυώνει ομοιόμορφα. Η επιφάνεια μπορεί να φαίνεται ασφαλής στο άγγιγμα ενώ το κέντρο μένει αρκετά ζεστό ώστε να περνά από παρατεταμένη επικίνδυνη περίοδο. Ο σχεδιασμός υπολοίπων δεν αφορά μόνο το αν υπάρχει φαγητό· αφορά επίσης πόσο γρήγορα θα κρυώσει η μάζα, αν πρέπει να μοιραστεί και αν το ξαναζέσταμα θα γίνει μία φορά ή επανειλημμένα.",
+    "steps_en": [
+      "Recognize that deep dense leftovers cool slower than shallow portions.",
+      "Split large masses when safer and practical to do so.",
+      "Avoid repeated whole-pot reheats when small portions will do.",
+      "Watch for the difference between a cool surface and a still-warm center.",
+      "Plan reheat timing before the leftovers are forgotten."
+    ],
+    "steps_el": [
+      "Αναγνώριζε ότι βαθιά πυκνά υπόλοιπα κρυώνουν πιο αργά από ρηχές μερίδες.",
+      "Χώριζε μεγάλες μάζες όταν είναι ασφαλέστερο και πρακτικό.",
+      "Απόφευγε επαναλαμβανόμενα ξαναζεστάματα όλης της κατσαρόλας όταν αρκούν μικρές μερίδες.",
+      "Παρακολουθούσε τη διαφορά ανάμεσα σε κρύα επιφάνεια και ακόμη ζεστό κέντρο.",
+      "Σχεδίαζε τον χρόνο επαναθέρμανσης πριν τα υπόλοιπα ξεχαστούν."
+    ],
+    "warnings_en": [
+      "Surface cooling can mislead badly.",
+      "Repeated full reheats worsen both safety control and fuel use.",
+      "Large leftover masses need more thought than people often give them."
+    ],
+    "warnings_el": [
+      "Η ψύξη της επιφάνειας μπορεί να παραπλανήσει έντονα.",
+      "Τα επαναλαμβανόμενα πλήρη ξαναζεστάματα χειροτερεύουν και τον έλεγχο ασφάλειας και τη χρήση καυσίμου.",
+      "Οι μεγάλες μάζες υπολοίπων χρειάζονται περισσότερη σκέψη απ’ όση συχνά τους δίνεται."
+    ],
+    "mistakes_en": [
+      "Trusting only the top layer temperature.",
+      "Leaving a large pot untouched for too long.",
+      "Reheating the whole batch every time a little food is needed."
+    ],
+    "mistakes_el": [
+      "Να εμπιστεύεσαι μόνο τη θερμοκρασία του επάνω στρώματος.",
+      "Να αφήνεις μια μεγάλη κατσαρόλα ανέγγιχτη για υπερβολικά πολύ.",
+      "Να ξαναζεσταίνεις όλη την παρτίδα κάθε φορά που χρειάζεται λίγο φαγητό."
+    ],
+    "related_topics": [
+      "Thick Bean Mash and Low-Fuel Reuse",
+      "Food Poisoning Cluster Tracing",
+      "Low-Fuel Cooking"
+    ]
   }
 ]

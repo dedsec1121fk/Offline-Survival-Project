@@ -17090,5 +17090,257 @@
       "Quiet Door Opening, Latch Noise Reduction, and Night Reentry Without Panic",
       "Door Sign State Flips, Occupied/Clean Marking, and Fast Shared Understanding"
     ]
+  },
+  {
+    "id": "urban::buddy_timestamp_checkpoints_during_evacuation",
+    "topic": "Buddy Timestamps, Checkpoint Times, and Knowing When a Route Is Quietly Failing",
+    "topic_en": "Buddy Timestamps, Checkpoint Times, and Knowing When a Route Is Quietly Failing",
+    "topic_el": "Χρονικές Σημάνσεις Ζευγαριού, Χρόνοι Σημείων Ελέγχου και Αναγνώριση Όταν μια Διαδρομή Αποτυγχάνει Αθόρυβα",
+    "category": "psychology_movement_urban_wilderness_and_security",
+    "subcategory": "movement_tracking_and_route_control",
+    "tags": [
+      "evacuation",
+      "movement",
+      "timing",
+      "checkpoints",
+      "buddies"
+    ],
+    "priority": "high",
+    "urgency": "medium",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 51.",
+    "summary_en": "Evacuation routes often fail quietly through delay, confusion, and separation long before anyone admits the plan is off schedule.",
+    "summary_el": "Οι διαδρομές εκκένωσης συχνά αποτυγχάνουν αθόρυβα μέσω καθυστερήσεων, σύγχυσης και χωρισμού πολύ πριν παραδεχτεί κανείς ότι το σχέδιο βγήκε εκτός χρόνου.",
+    "content_en": "Movement plans weaken when nobody knows the last confirmed time, place, or pace of the group. A simple checkpoint time system helps identify slow drift before it becomes a real loss of control. The goal is not obsession with exact minutes. It is knowing whether the group is still progressing as expected, whether separation is growing, and whether rest, reroute, or abort decisions should happen earlier. Quiet failure often looks like “We are still moving” while the schedule, energy, and daylight say otherwise.",
+    "content_el": "Τα σχέδια κίνησης αποδυναμώνονται όταν κανείς δεν ξέρει τον τελευταίο επιβεβαιωμένο χρόνο, τόπο ή ρυθμό της ομάδας. Ένα απλό σύστημα χρόνων σε σημεία ελέγχου βοηθά να αναγνωριστεί η αργή παρέκκλιση πριν γίνει πραγματική απώλεια ελέγχου. Ο στόχος δεν είναι η εμμονή με τα ακριβή λεπτά. Είναι να ξέρεις αν η ομάδα προχωρά ακόμη όπως αναμενόταν, αν ο χωρισμός μεγαλώνει και αν αποφάσεις για στάση, αλλαγή διαδρομής ή εγκατάλειψη πρέπει να γίνουν νωρίτερα. Η αθόρυβη αποτυχία συχνά μοιάζει με «ακόμη κινούμαστε» ενώ το πρόγραμμα, η ενέργεια και το φως της μέρας λένε κάτι άλλο.",
+    "steps_en": [
+      "Set simple checkpoint names and rough expected times before moving.",
+      "Mark when the last person actually passes the checkpoint, not just the first.",
+      "Use buddy confirmation when the group stretches or visibility worsens.",
+      "Trigger rest, regroup, or route review when drift grows repeatedly.",
+      "Write or repeat the last confirmed checkpoint aloud during confusion."
+    ],
+    "steps_el": [
+      "Όρισε απλά ονόματα σημείων ελέγχου και περίπου αναμενόμενους χρόνους πριν κινηθείτε.",
+      "Σημείωνε πότε περνά πραγματικά και το τελευταίο άτομο, όχι μόνο το πρώτο.",
+      "Χρησιμοποίησε επιβεβαίωση ζευγαριού όταν η ομάδα απλώνει ή η ορατότητα χειροτερεύει.",
+      "Ενεργοποίησε στάση, ανασυγκρότηση ή επανεξέταση διαδρομής όταν η παρέκκλιση μεγαλώνει επανειλημμένα.",
+      "Γράφε ή επαναλάμβανε δυνατά το τελευταίο επιβεβαιωμένο σημείο ελέγχου μέσα στη σύγχυση."
+    ],
+    "warnings_en": [
+      "A group can be “still moving” and still be quietly failing.",
+      "The last person’s delay matters more than the lead person’s pace in many situations.",
+      "Darkness and fatigue magnify small timing errors."
+    ],
+    "warnings_el": [
+      "Μια ομάδα μπορεί να «ακόμη κινείται» και παρ’ όλα αυτά να αποτυγχάνει αθόρυβα.",
+      "Η καθυστέρηση του τελευταίου ατόμου μετρά περισσότερο από τον ρυθμό του μπροστινού σε πολλές καταστάσεις.",
+      "Το σκοτάδι και η κόπωση μεγεθύνουν μικρά χρονικά λάθη."
+    ],
+    "mistakes_en": [
+      "Tracking only the front of the group.",
+      "Assuming delay is harmless because movement has not fully stopped.",
+      "Letting nobody own the last confirmed checkpoint time."
+    ],
+    "mistakes_el": [
+      "Να παρακολουθείς μόνο το μπροστινό μέρος της ομάδας.",
+      "Να θεωρείς ότι η καθυστέρηση είναι αβλαβής επειδή η κίνηση δεν σταμάτησε εντελώς.",
+      "Να μην έχει κανείς ευθύνη για τον τελευταίο επιβεβαιωμένο χρόνο σημείου ελέγχου."
+    ],
+    "related_topics": [
+      "Evacuation Loads by Age and Carry Limits",
+      "Memory Sketch Maps, Landmark Labels, and Route Correction",
+      "Meeting Close Actions, Assigned Owners, and Follow-Through"
+    ]
+  },
+  {
+    "id": "urban::queue_mood_shift_and_early_deescalation",
+    "topic": "Queue Mood Shift, Small Irritation Buildup, and Early De-Escalation Before Voices Rise",
+    "topic_en": "Queue Mood Shift, Small Irritation Buildup, and Early De-Escalation Before Voices Rise",
+    "topic_el": "Μετατόπιση Διάθεσης σε Ουρά, Συσσώρευση Μικρών Εκνευρισμών και Έγκαιρη Αποκλιμάκωση πριν Ανέβουν οι Φωνές",
+    "category": "psychology_movement_urban_wilderness_and_security",
+    "subcategory": "crowd_tension_and_behavior",
+    "tags": [
+      "queue",
+      "tension",
+      "deescalation",
+      "crowd",
+      "urban"
+    ],
+    "priority": "medium",
+    "urgency": "medium",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 52.",
+    "summary_en": "Queues rarely turn tense all at once; they usually shift through small irritations, uncertainty, and visible unfairness that go unaddressed too long.",
+    "summary_el": "Οι ουρές σπάνια γίνονται τεταμένες μονομιάς· συνήθως αλλάζουν μέσα από μικρούς εκνευρισμούς, αβεβαιότητα και ορατή αδικία που μένουν χωρίς απάντηση για υπερβολικά πολλή ώρα.",
+    "content_en": "Crowd problems are easier to prevent than to calm once shouting begins. Most tense lines show early clues: repeated head-turning, louder side comments, people stepping forward to challenge the order, or visible frustration when no update comes. Early de-escalation means brief explanation, visible sequence, and respectful tone before the mood hardens. Waiting for open conflict wastes the easiest window for control.",
+    "content_el": "Τα προβλήματα πλήθους είναι ευκολότερο να προληφθούν παρά να ηρεμήσουν όταν αρχίσουν οι φωνές. Οι περισσότερες τεταμένες ουρές δείχνουν νωρίς σημάδια: επαναλαμβανόμενα γυρίσματα κεφαλιού, δυνατότερες πλάγιες κουβέντες, άτομα που προχωρούν για να αμφισβητήσουν τη σειρά ή ορατή απογοήτευση όταν δεν έρχεται ενημέρωση. Η έγκαιρη αποκλιμάκωση σημαίνει σύντομη εξήγηση, ορατή σειρά και σεβαστό τόνο πριν σκληρύνει η διάθεση. Το να περιμένεις ανοιχτή σύγκρουση σπαταλά το ευκολότερο παράθυρο ελέγχου.",
+    "steps_en": [
+      "Watch for early body-language changes before open argument begins.",
+      "Give short updates when delay grows.",
+      "Restate the visible order calmly and consistently.",
+      "Correct unfair jumps early before others copy them.",
+      "Use one calm voice instead of many conflicting voices."
+    ],
+    "steps_el": [
+      "Παρακολουθούσε πρώιμες αλλαγές στη γλώσσα σώματος πριν αρχίσει ανοιχτός καβγάς.",
+      "Δίνε σύντομες ενημερώσεις όταν μεγαλώνει η καθυστέρηση.",
+      "Επαναλάμβανε ήρεμα και σταθερά την ορατή σειρά.",
+      "Διόρθωνε νωρίς άδικα προσπεράσματα πριν τα αντιγράψουν κι άλλοι.",
+      "Χρησιμοποίησε μία ήρεμη φωνή αντί για πολλές συγκρουόμενες φωνές."
+    ],
+    "warnings_en": [
+      "Silence during delay often increases distrust.",
+      "Visible unfairness spreads mood change quickly.",
+      "Public correction done harshly can inflame rather than calm."
+    ],
+    "warnings_el": [
+      "Η σιωπή κατά την καθυστέρηση συχνά αυξάνει τη δυσπιστία.",
+      "Η ορατή αδικία απλώνει γρήγορα την αλλαγή διάθεσης.",
+      "Η δημόσια διόρθωση όταν γίνεται σκληρά μπορεί να ανάψει αντί να ηρεμήσει."
+    ],
+    "mistakes_en": [
+      "Waiting for shouting before responding.",
+      "Changing rules without clear explanation.",
+      "Letting several people improvise authority at once."
+    ],
+    "mistakes_el": [
+      "Να περιμένεις να αρχίσουν οι φωνές πριν αντιδράσεις.",
+      "Να αλλάζεις κανόνες χωρίς καθαρή εξήγηση.",
+      "Να αφήνεις πολλούς ανθρώπους να αυτοσχεδιάζουν εξουσία ταυτόχρονα."
+    ],
+    "related_topics": [
+      "Queue Discipline, Distribution Lines, and Crowd Friction Reduction",
+      "Meeting Close Actions, Assigned Owners, and Follow-Through",
+      "Post-Argument Reset and Return to Useful Work"
+    ]
+  },
+  {
+    "id": "psych::monotony_breaks_and_small_morale_lifts",
+    "topic": "Monotony Breaks, Small Morale Lifts, and Preventing the Flat Decline of Long Routine Stress",
+    "topic_en": "Monotony Breaks, Small Morale Lifts, and Preventing the Flat Decline of Long Routine Stress",
+    "topic_el": "Διακοπές Μονοτονίας, Μικρές Ενισχύσεις Ηθικού και Πρόληψη της Επίπεδης Πτώσης από Μακρά Ρουτίνα Στρες",
+    "category": "psychology_movement_urban_wilderness_and_security",
+    "subcategory": "morale_and_routine_maintenance",
+    "tags": [
+      "psychology",
+      "morale",
+      "routine",
+      "stress",
+      "fatigue"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Major broader growth pass 53.",
+    "summary_en": "People can remain outwardly functional while long monotonous strain quietly lowers attention, patience, and willingness to do ordinary tasks well.",
+    "summary_el": "Οι άνθρωποι μπορούν να παραμένουν εξωτερικά λειτουργικοί ενώ η μακρά μονότονη καταπόνηση χαμηλώνει αθόρυβα την προσοχή, την υπομονή και την προθυμία να κάνουν καλά τις συνηθισμένες δουλειές.",
+    "content_en": "Not every morale problem begins with panic. Many begin with flattening: the same meals, same chores, same fatigue, and no sense of progress. Small structured lifts can matter more than grand speeches.",
+    "content_el": "Δεν αρχίζει κάθε πρόβλημα ηθικού με πανικό. Πολλά αρχίζουν με επιπέδωση: τα ίδια γεύματα, οι ίδιες δουλειές, η ίδια κόπωση και καμία αίσθηση προόδου. Οι μικρές δομημένες ενισχύσεις μπορούν να μετρήσουν περισσότερο από μεγάλους λόγους.",
+    "steps_en": [
+      "Watch for flat mood and careless routine work, not only open conflict.",
+      "Use small planned breaks or variation points during repetitive days.",
+      "Show visible task completion.",
+      "Rotate some chores when monotony is clearly biting.",
+      "Protect one or two morale anchors that are cheap but reliable."
+    ],
+    "steps_el": [
+      "Παρακολουθούσε επίπεδη διάθεση και πρόχειρη δουλειά ρουτίνας και όχι μόνο ανοιχτή σύγκρουση.",
+      "Χρησιμοποιούσε μικρά προγραμματισμένα διαλείμματα ή σημεία ποικιλίας σε επαναλαμβανόμενες μέρες.",
+      "Δείχνε ορατή ολοκλήρωση εργασιών.",
+      "Περιστρέφε ορισμένες δουλειές όταν η μονοτονία χτυπά φανερά.",
+      "Προστάτευε ένα ή δύο στηρίγματα ηθικού που είναι φθηνά αλλά αξιόπιστα."
+    ],
+    "warnings_en": [
+      "Routine strain degrades group quality before morale collapses.",
+      "Tiny improvements often matter more than rare dramatic treats.",
+      "Ignored monotony feeds mistakes and impatience."
+    ],
+    "warnings_el": [
+      "Η καταπόνηση της ρουτίνας χαλά την ποιότητα της ομάδας πριν καταρρεύσει το ηθικό.",
+      "Μικροσκοπικές βελτιώσεις συχνά μετρούν περισσότερο από σπάνιες θεαματικές ανταμοιβές.",
+      "Η αγνοημένη μονοτονία τροφοδοτεί λάθη και ανυπομονησία."
+    ],
+    "mistakes_en": [
+      "Waiting for open misery before improving the rhythm of the day.",
+      "Assuming only big rewards change morale.",
+      "Letting the same person carry the dullest tasks constantly."
+    ],
+    "mistakes_el": [
+      "Να περιμένεις ανοιχτή δυστυχία πριν βελτιώσεις τον ρυθμό της μέρας.",
+      "Να θεωρείς ότι μόνο μεγάλες ανταμοιβές αλλάζουν το ηθικό.",
+      "Να αφήνεις το ίδιο άτομο να κουβαλά συνεχώς τις πιο βαρετές δουλειές."
+    ],
+    "related_topics": [
+      "Group Morale and Leadership Under Stress",
+      "Post-Argument Reset and Return to Useful Work",
+      "Maintenance Boards and Small Task Survival"
+    ]
+  },
+  {
+    "id": "movement::late_day_shortcut_bias_and_route_overconfidence",
+    "topic": "Late-Day Shortcut Bias, Route Overconfidence, and Why Fatigue Loves One Last Shortcut",
+    "topic_en": "Late-Day Shortcut Bias, Route Overconfidence, and Why Fatigue Loves One Last Shortcut",
+    "topic_el": "Μεροληψία Συντόμευσης αργά στη Μέρα, Υπερβολική Εμπιστοσύνη στη Διαδρομή και Γιατί η Κόπωση Αγαπά το Άλλη μία Σύντομη Κοπή",
+    "category": "psychology_movement_urban_wilderness_and_security",
+    "subcategory": "fatigue_decision_bias",
+    "tags": [
+      "movement",
+      "fatigue",
+      "shortcuts",
+      "route",
+      "judgment"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 55.",
+    "summary_en": "Late in the day, tired people often become more willing to gamble on shortcuts even when earlier judgment would have rejected them.",
+    "summary_el": "Αργά μέσα στη μέρα οι κουρασμένοι άνθρωποι συχνά γίνονται πιο πρόθυμοι να ρισκάρουν με συντομεύσεις ακόμη κι όταν η νωρίτερη κρίση θα τις απέρριπτε.",
+    "content_en": "Fatigue changes decision style as much as it changes pace. A route that looked uncertain, brushy, steep, or unverified at noon can start to look good enough near dusk because the group wants the day to end. That bias is dangerous because it appears practical while really trading known ground for tired wishful thinking.",
+    "content_el": "Η κόπωση αλλάζει το στυλ απόφασης όσο αλλάζει και τον ρυθμό. Μια διαδρομή που φαινόταν αβέβαιη, πυκνή, απότομη ή ανεπιβεβαίωτη το μεσημέρι μπορεί να αρχίσει να φαίνεται αρκετά καλή κοντά στο σούρουπο επειδή η ομάδα θέλει να τελειώσει η μέρα. Αυτή η μεροληψία είναι επικίνδυνη επειδή μοιάζει πρακτική ενώ στην πραγματικότητα ανταλλάσσει γνωστό έδαφος με κουρασμένη ευχή.",
+    "steps_en": [
+      "Treat late-day shortcut ideas more skeptically than early-day ideas.",
+      "Compare any shortcut to the known route, not to wishful speed hopes.",
+      "Ask whether fatigue is creating false confidence.",
+      "Favor verified ground when daylight, temperature, or energy are falling.",
+      "Use a group rule that unexplored shortcuts need a higher bar late in the day."
+    ],
+    "steps_el": [
+      "Αντιμετώπιζε ιδέες συντόμευσης αργά στη μέρα με μεγαλύτερη καχυποψία από νωρίς.",
+      "Σύγκρινε κάθε συντόμευση με τη γνωστή διαδρομή και όχι με ευχές για ταχύτητα.",
+      "Ρώτα αν η κόπωση δημιουργεί ψεύτικη αυτοπεποίθηση.",
+      "Προτίμα επιβεβαιωμένο έδαφος όταν πέφτουν φως, θερμοκρασία ή ενέργεια.",
+      "Χρησιμοποιούσε κανόνα ομάδας ότι οι ανεξερεύνητες συντομεύσεις χρειάζονται υψηλότερο όριο αργά στη μέρα."
+    ],
+    "warnings_en": [
+      "Tired judgment often feels decisive while becoming less reliable.",
+      "Shortcuts chosen late can create night problems quickly.",
+      "Desire to finish is not the same as evidence the route is sound."
+    ],
+    "warnings_el": [
+      "Η κουρασμένη κρίση συχνά νιώθει αποφασιστική ενώ γίνεται λιγότερο αξιόπιστη.",
+      "Οι συντομεύσεις που επιλέγονται αργά μπορούν να δημιουργήσουν γρήγορα νυχτερινά προβλήματα.",
+      "Η επιθυμία να τελειώσει η διαδρομή δεν είναι το ίδιο με απόδειξη ότι η διαδρομή είναι σωστή."
+    ],
+    "mistakes_en": [
+      "Choosing the unknown because it looks shorter on tired eyes alone.",
+      "Confusing urgency with good route logic.",
+      "Mocking caution when the group is visibly fading."
+    ],
+    "mistakes_el": [
+      "Να διαλέγεις το άγνωστο επειδή φαίνεται κοντύτερο μόνο στα κουρασμένα μάτια.",
+      "Να μπερδεύεις την επείγουσα ανάγκη με καλή λογική διαδρομής.",
+      "Να κοροϊδεύεις την προσοχή όταν η ομάδα φανερά ξεφουσκώνει."
+    ],
+    "related_topics": [
+      "Turnaround Rules After Multiple Small Delays",
+      "Buddy Timestamps and Checkpoint Times",
+      "Memory Sketch Maps and Route Correction"
+    ]
   }
 ]

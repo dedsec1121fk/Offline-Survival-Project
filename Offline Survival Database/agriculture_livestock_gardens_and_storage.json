@@ -1369,5 +1369,383 @@
       "Seed Germination Testing, Weak Sprout Signs, and Replant Decisions",
       "Planting Calendars"
     ]
+  },
+  {
+    "id": "livestock::goat_feed_refusal_weather_shift",
+    "topic": "Goat Feed Refusal After Weather Shift, Belly Watch, and Slow Return to Intake",
+    "topic_en": "Goat Feed Refusal After Weather Shift, Belly Watch, and Slow Return to Intake",
+    "topic_el": "Άρνηση Τροφής σε Κατσίκα μετά από Αλλαγή Καιρού, Έλεγχος Κοιλιάς και Αργή Επιστροφή στην Πρόσληψη",
+    "category": "agriculture_livestock_gardens_and_storage",
+    "subcategory": "goat_observation_and_early_response",
+    "tags": [
+      "goat",
+      "feed refusal",
+      "weather",
+      "belly watch",
+      "intake"
+    ],
+    "priority": "high",
+    "urgency": "medium",
+    "difficulty": "medium",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 50.",
+    "summary_en": "A goat that stops or cuts back on feed after a weather swing may be signaling stress, gut trouble, or a management issue that becomes larger if missed.",
+    "summary_el": "Μια κατσίκα που σταματά ή μειώνει την τροφή μετά από απότομη αλλαγή καιρού μπορεί να σηματοδοτεί στρες, εντερικό πρόβλημα ή ζήτημα διαχείρισης που μεγαλώνει αν περάσει απαρατήρητο.",
+    "content_en": "Weather shifts change intake indirectly as much as directly. Sudden cold, dampness, stale shelter air, feed change, wet bedding, or reduced water interest can all show up first as quieter feeding. Because goats vary in attitude, people sometimes dismiss early refusal as mood. That is a mistake. Better observation includes belly shape, chewing activity, posture, water behavior, and the pace at which the animal returns to interest rather than only whether it eats one mouthful when watched. The earlier the cause is separated, the easier it is to prevent a larger decline.",
+    "content_el": "Οι αλλαγές καιρού αλλάζουν την πρόσληψη τροφής τόσο έμμεσα όσο και άμεσα. Ξαφνικό κρύο, υγρασία, βαρύς αέρας στο κατάλυμα, αλλαγή ζωοτροφής, βρεγμένη στρωμνή ή μειωμένο ενδιαφέρον για νερό μπορούν όλα να εμφανιστούν πρώτα ως πιο ήσυχη λήψη τροφής. Επειδή οι κατσίκες διαφέρουν στον χαρακτήρα, οι άνθρωποι μερικές φορές απορρίπτουν την πρώιμη άρνηση ως “διάθεση”. Αυτό είναι λάθος. Καλύτερη παρατήρηση περιλαμβάνει σχήμα κοιλιάς, μάσημα, στάση σώματος, συμπεριφορά στο νερό και τον ρυθμό με τον οποίο το ζώο ξαναδείχνει ενδιαφέρον, αντί να κοιτά μόνο αν έφαγε μία μπουκιά μπροστά στα μάτια σου. Όσο νωρίτερα ξεχωρίσει η αιτία, τόσο ευκολότερο είναι να προληφθεί μεγαλύτερη πτώση.",
+    "steps_en": [
+      "Compare intake before and after the weather shift instead of judging one moment.",
+      "Check water access, bedding dampness, and shelter air before assuming disease.",
+      "Watch belly shape, chewing, and posture for change over time.",
+      "Return feed slowly and clearly once the cause is being corrected.",
+      "Separate the animal if crowding hides what it is truly eating or refusing."
+    ],
+    "steps_el": [
+      "Σύγκρινε την πρόσληψη πριν και μετά την αλλαγή καιρού αντί να κρίνεις από μία στιγμή.",
+      "Έλεγξε πρόσβαση σε νερό, υγρασία στρωμνής και αέρα καταλύματος πριν υποθέσεις ασθένεια.",
+      "Παρακολούθησε σχήμα κοιλιάς, μάσημα και στάση σώματος για αλλαγή μέσα στον χρόνο.",
+      "Επανέφερε την τροφή αργά και καθαρά μόλις αρχίσει να διορθώνεται η αιτία.",
+      "Ξεχώρισε το ζώο αν ο συνωστισμός κρύβει τι πραγματικά τρώει ή αρνείται."
+    ],
+    "warnings_en": [
+      "A small refusal after weather change can become a bigger digestive problem if ignored.",
+      "Crowded feed situations make observation less reliable.",
+      "Water behavior often changes with feed behavior and should be checked together."
+    ],
+    "warnings_el": [
+      "Μια μικρή άρνηση μετά από αλλαγή καιρού μπορεί να γίνει μεγαλύτερο πεπτικό πρόβλημα αν αγνοηθεί.",
+      "Οι συνθήκες συνωστισμού στην τροφή κάνουν την παρατήρηση λιγότερο αξιόπιστη.",
+      "Η συμπεριφορά στο νερό συχνά αλλάζει μαζί με τη συμπεριφορά στην τροφή και πρέπει να ελέγχεται μαζί."
+    ],
+    "mistakes_en": [
+      "Treating refusal as stubbornness only.",
+      "Changing multiple things at once and losing the cause.",
+      "Watching too briefly to see the full pattern."
+    ],
+    "mistakes_el": [
+      "Να αντιμετωπίζεις την άρνηση μόνο ως πείσμα.",
+      "Να αλλάζεις πολλά πράγματα μαζί και να χάνεις την αιτία.",
+      "Να παρατηρείς για πολύ λίγο ώστε να μην φαίνεται το πλήρες μοτίβο."
+    ],
+    "related_topics": [
+      "Goat Bloat Watch Signs",
+      "Animal Water Refusal, Low Intake, and Early Trouble Before Collapse",
+      "Damp Feed, Mold Warning Signs, and Refusal Patterns"
+    ]
+  },
+  {
+    "id": "garden::seed_soak_timing_rot_and_split_coat_watch",
+    "topic": "Seed Soak Timing, Split Coats, and When Pre-Soaking Starts Helping Less Than It Hurts",
+    "topic_en": "Seed Soak Timing, Split Coats, and When Pre-Soaking Starts Helping Less Than It Hurts",
+    "topic_el": "Χρονισμός Μουλιάσματος Σπόρων, Σκασμένα Περιβλήματα και Πότε το Προμούλιασμα Βοηθά Λιγότερο απ’ όσο Βλάπτει",
+    "category": "agriculture_livestock_gardens_and_storage",
+    "subcategory": "seed_prep_and_germination_control",
+    "tags": [
+      "seeds",
+      "soaking",
+      "rot",
+      "germination",
+      "garden"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 51.",
+    "summary_en": "Pre-soaking can speed germination, but over-soaking weakens some seeds and quietly starts rot before planting ever begins.",
+    "summary_el": "Το προμούλιασμα μπορεί να επιταχύνει τη βλάστηση, αλλά το υπερβολικό μούλιασμα αποδυναμώνει ορισμένους σπόρους και αρχίζει αθόρυβα τη σήψη πριν καν αρχίσει η φύτευση.",
+    "content_en": "Gardeners often soak seed to wake it up faster, especially in dry weather or when they want more even starts. The risk is that timing becomes sloppy: coats split too early, seeds soften too much, and a helpful technique turns into weak handling, rot, or planting mushy seed that never establishes well. Pre-soaking is useful only while it still improves the start. Once seeds smell wrong, slip apart, or turn overly soft, the method has crossed from help into damage.",
+    "content_el": "Οι καλλιεργητές συχνά μουλιάζουν σπόρους για να τους ξυπνήσουν γρηγορότερα, ειδικά σε ξηρό καιρό ή όταν θέλουν πιο ομοιόμορφο ξεκίνημα. Ο κίνδυνος είναι ότι ο χρόνος γίνεται πρόχειρος: τα περιβλήματα σκάνε πολύ νωρίς, οι σπόροι μαλακώνουν υπερβολικά και μια χρήσιμη τεχνική μετατρέπεται σε αδύναμο χειρισμό, σήψη ή φύτευση λασπωμένων σπόρων που δεν εγκαθίστανται καλά. Το προμούλιασμα είναι χρήσιμο μόνο όσο ακόμη βελτιώνει το ξεκίνημα. Μόλις οι σπόροι μυρίζουν λάθος, διαλύονται εύκολα ή γίνονται υπερβολικά μαλακοί, η μέθοδος έχει περάσει από βοήθεια σε ζημιά.",
+    "steps_en": [
+      "Use pre-soaking only for seed and conditions that benefit from it.",
+      "Keep timing controlled instead of leaving seed forgotten in water.",
+      "Drain promptly when coats soften enough or the target soak time ends.",
+      "Plant soon after soaking instead of letting softened seed sit.",
+      "Discard seed that smells sour or shows clear rot."
+    ],
+    "steps_el": [
+      "Χρησιμοποίησε προμούλιασμα μόνο για σπόρους και συνθήκες που πραγματικά ωφελούνται.",
+      "Κράτα τον χρόνο ελεγχόμενο αντί να μένουν οι σπόροι ξεχασμένοι στο νερό.",
+      "Στράγγιζε αμέσως όταν τα περιβλήματα μαλακώσουν αρκετά ή τελειώσει ο στόχος χρόνου.",
+      "Φύτευε σύντομα μετά το μούλιασμα αντί να αφήνεις μαλακωμένους σπόρους να κάθονται.",
+      "Απόρριπτε σπόρους που μυρίζουν ξινά ή δείχνουν καθαρή σήψη."
+    ],
+    "warnings_en": [
+      "More soaking is not automatically better germination.",
+      "Softened seed becomes easier to damage during planting.",
+      "Warm stagnant soaking water speeds spoilage."
+    ],
+    "warnings_el": [
+      "Το περισσότερο μούλιασμα δεν σημαίνει αυτόματα καλύτερη βλάστηση.",
+      "Ο μαλακωμένος σπόρος τραυματίζεται ευκολότερα κατά τη φύτευση.",
+      "Το ζεστό στάσιμο νερό μουλιάσματος επιταχύνει την αλλοίωση."
+    ],
+    "mistakes_en": [
+      "Leaving seed soaking overnight without checking whether that suits the crop.",
+      "Planting mushy seed anyway to avoid waste.",
+      "Confusing split coats with guaranteed success."
+    ],
+    "mistakes_el": [
+      "Να αφήνεις σπόρους να μουλιάζουν όλη νύχτα χωρίς να ελέγχεις αν αυτό ταιριάζει στην καλλιέργεια.",
+      "Να φυτεύεις λασπωμένους σπόρους μόνο και μόνο για να μην πάνε χαμένοι.",
+      "Να μπερδεύεις το σκασμένο περίβλημα με εγγυημένη επιτυχία."
+    ],
+    "related_topics": [
+      "Seed Germination Testing, Weak Sprout Signs, and Replant Decisions",
+      "Stored Seed Smell, Moisture, and Recheck Rules",
+      "Seed Tray Frost Cloth Lift Timing and Noon Overheating Risk"
+    ]
+  },
+  {
+    "id": "livestock::chicken_water_icing_break_order_and_clean_lips",
+    "topic": "Chicken Water Icing, Break Order, and Keeping the Lip Clean Enough for Use in Cold Weather",
+    "topic_en": "Chicken Water Icing, Break Order, and Keeping the Lip Clean Enough for Use in Cold Weather",
+    "topic_el": "Πάγωμα Νερού για Κότες, Σειρά Σπασίματος Πάγου και Διατήρηση του Χείλους Αρκετά Καθαρού για Χρήση σε Κρύο Καιρό",
+    "category": "agriculture_livestock_gardens_and_storage",
+    "subcategory": "cold_weather_livestock_water",
+    "tags": [
+      "chickens",
+      "water",
+      "ice",
+      "cold weather",
+      "livestock"
+    ],
+    "priority": "high",
+    "urgency": "medium",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 51.",
+    "summary_en": "Winter waterers often fail through repeated thin ice, dirty lips, and rough handling that leaves the birds drinking less than they need.",
+    "summary_el": "Οι χειμωνιάτικες ποτίστρες συχνά αποτυγχάνουν από επαναλαμβανόμενο λεπτό πάγο, βρώμικα χείλη και άτσαλο χειρισμό που αφήνει τα πουλιά να πίνουν λιγότερο απ’ όσο χρειάζονται.",
+    "content_en": "In cold weather, poultry may not fully stop drinking, but even partial water access problems can reduce intake and raise stress. Thin ice returns quickly, dirty rims freeze rough, and birds avoid awkward or contaminated edges. Good winter watering is repetitive care: break ice cleanly, keep the drinking lip usable, remove slush, and watch whether birds actually return to drink instead of only assuming they will.",
+    "content_el": "Σε κρύο καιρό τα πουλερικά μπορεί να μην σταματούν εντελώς να πίνουν, αλλά ακόμη και μερικά προβλήματα πρόσβασης στο νερό μπορούν να μειώσουν την πρόσληψη και να αυξήσουν το στρες. Ο λεπτός πάγος επιστρέφει γρήγορα, τα βρώμικα χείλη παγώνουν άσχημα και τα πουλιά αποφεύγουν δύσχρηστες ή μολυσμένες άκρες. Το σωστό χειμερινό πότισμα είναι επαναλαμβανόμενη φροντίδα: σπάσε τον πάγο καθαρά, κράτα το χείλος πόσης χρησιμοποιήσιμο, αφαίρεσε τη λασπώδη πάχνη και έλεγχε αν τα πουλιά επιστρέφουν πραγματικά να πιουν αντί να το υποθέτεις.",
+    "steps_en": [
+      "Break surface ice without shattering dirty fragments into the drinking area.",
+      "Wipe or clear the lip where birds actually drink.",
+      "Remove slush that refreezes into awkward rough edges.",
+      "Refill with cleaner water when contamination grows.",
+      "Watch bird return-to-drink behavior after maintenance."
+    ],
+    "steps_el": [
+      "Σπάσε τον επιφανειακό πάγο χωρίς να διαλύεις βρώμικα κομμάτια μέσα στη ζώνη πόσης.",
+      "Σκούπιζε ή καθάριζε το χείλος από όπου πραγματικά πίνουν τα πουλιά.",
+      "Αφαίρεσε τη λασπώδη πάχνη που ξαναπαγώνει σε δύσχρηστες τραχιές άκρες.",
+      "Ξαναγέμιζε με καθαρότερο νερό όταν αυξάνεται η επιμόλυνση.",
+      "Παρακολουθούσε αν τα πουλιά επιστρέφουν όντως να πιουν μετά τη συντήρηση."
+    ],
+    "warnings_en": [
+      "Birds may appear calm while still drinking less than needed.",
+      "Dirty frozen lips can quietly reduce intake.",
+      "Repeated banging can damage simple water containers."
+    ],
+    "warnings_el": [
+      "Τα πουλιά μπορεί να φαίνονται ήρεμα ενώ παρ’ όλα αυτά πίνουν λιγότερο απ’ όσο χρειάζονται.",
+      "Τα βρώμικα παγωμένα χείλη μπορούν αθόρυβα να μειώσουν την πρόσληψη.",
+      "Το επαναλαμβανόμενο κοπάνημα μπορεί να χαλάσει απλά δοχεία νερού."
+    ],
+    "mistakes_en": [
+      "Breaking ice roughly without clearing the drinking edge.",
+      "Assuming access equals intake.",
+      "Leaving dirty slush in place because the opening looks partly clear."
+    ],
+    "mistakes_el": [
+      "Να σπάζεις τον πάγο άτσαλα χωρίς να καθαρίζεις την άκρη πόσης.",
+      "Να θεωρείς ότι η πρόσβαση σημαίνει και πρόσληψη.",
+      "Να αφήνεις βρώμικη πάχνη στη θέση της επειδή το άνοιγμα φαίνεται κάπως καθαρό."
+    ],
+    "related_topics": [
+      "Winter Bucket Icing, Carry Lids, and Pouring Control",
+      "Animal Water Refusal and Early Intake-Drop Warning Signs",
+      "Coop Quiet Checks Before Dawn"
+    ]
+  },
+  {
+    "id": "storage::sack_stack_air_gaps_and_floor_sweat_watch",
+    "topic": "Sack Stack Air Gaps, Floor Sweat, and Why Bottom Bags Spoil First in Still Rooms",
+    "topic_en": "Sack Stack Air Gaps, Floor Sweat, and Why Bottom Bags Spoil First in Still Rooms",
+    "topic_el": "Κενά Αέρα σε Στοίβες Σακιών, Υγροποίηση Δαπέδου και Γιατί τα Κάτω Σακιά Χαλούν Πρώτα σε Ακίνητους Χώρους",
+    "category": "agriculture_livestock_gardens_and_storage",
+    "subcategory": "bulk_storage_airflow_and_loss_prevention",
+    "tags": [
+      "storage",
+      "sacks",
+      "airflow",
+      "moisture",
+      "grain"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 52.",
+    "summary_en": "Stored goods often fail from the bottom first, where still air, floor moisture, and unnoticed compression quietly damage the lowest sacks.",
+    "summary_el": "Τα αποθηκευμένα αγαθά συχνά αποτυγχάνουν πρώτα από κάτω, όπου ακίνητος αέρας, υγρασία δαπέδου και απαρατήρητη συμπίεση φθείρουν αθόρυβα τα χαμηλότερα σακιά.",
+    "content_en": "A storage room may look orderly while the lowest sacks are already taking the worst conditions. Floor sweat, damp patches, still air, and heavy stack pressure create the classic pattern: the bottom bags heat, mold, rot, or attract pests first. Good stacking is not only about fitting more in the room. It is about letting air move, keeping material off the floor, and checking the first place where quiet spoilage tends to begin.",
+    "content_el": "Μια αποθήκη μπορεί να φαίνεται τακτοποιημένη ενώ τα χαμηλότερα σακιά ήδη δέχονται τις χειρότερες συνθήκες. Υγροποίηση δαπέδου, νωπά σημεία, ακίνητος αέρας και μεγάλη πίεση στοίβας δημιουργούν το κλασικό μοτίβο: τα κάτω σακιά ζεσταίνονται, μουχλιάζουν, σαπίζουν ή προσελκύουν παράσιτα πρώτα. Η σωστή στοίβαξη δεν αφορά μόνο το να χωρέσουν περισσότερα στον χώρο. Αφορά να κινείται ο αέρας, να μην ακουμπά το υλικό στο δάπεδο και να ελέγχεται το πρώτο σημείο όπου αρχίζει συνήθως η αθόρυβη αλλοίωση.",
+    "steps_en": [
+      "Keep sacks raised off bare floor when possible.",
+      "Leave some air gaps instead of pressing every surface tight.",
+      "Check bottom sacks first during inspections.",
+      "Rotate or restack when compression and dampness build.",
+      "Watch for heat, odor, damp patches, and insect activity near the floor."
+    ],
+    "steps_el": [
+      "Κράτα τα σακιά σηκωμένα από το γυμνό δάπεδο όπου γίνεται.",
+      "Άφηνε μερικά κενά αέρα αντί να πιέζεις κάθε επιφάνεια τελείως σφιχτά.",
+      "Έλεγχε πρώτα τα κάτω σακιά κατά τις επιθεωρήσεις.",
+      "Γύριζε ή ξαναστοίβαζε όταν αυξάνονται η συμπίεση και η υγρασία.",
+      "Παρακολουθούσε θερμότητα, μυρωδιά, νωπά σημεία και δραστηριότητα εντόμων κοντά στο δάπεδο."
+    ],
+    "warnings_en": [
+      "The neatest-looking stack is not always the safest stack.",
+      "Bottom-bag damage spreads upward if not caught early.",
+      "Still rooms hide moisture trouble well."
+    ],
+    "warnings_el": [
+      "Η πιο τακτοποιημένη στοίβα δεν είναι πάντα και η ασφαλέστερη.",
+      "Η ζημιά στα κάτω σακιά απλώνεται προς τα πάνω αν δεν εντοπιστεί νωρίς.",
+      "Οι ακίνητοι χώροι κρύβουν καλά τα προβλήματα υγρασίας."
+    ],
+    "mistakes_en": [
+      "Packing sacks directly on damp floors.",
+      "Inspecting only eye-level bags.",
+      "Leaving compressed stacks untouched for too long."
+    ],
+    "mistakes_el": [
+      "Να τοποθετείς σακιά κατευθείαν πάνω σε νωπά δάπεδα.",
+      "Να ελέγχεις μόνο τα σακιά στο ύψος των ματιών.",
+      "Να αφήνεις υπερσυμπιεσμένες στοίβες ανέγγιχτες για πολύ καιρό."
+    ],
+    "related_topics": [
+      "Dry Bean Sorting, Worm Damage, and Long Storage Checks",
+      "Root Cellar Rodent Gnaw Marks and Sack Bottom Checks",
+      "Stored Seed Smell, Moisture, and Recheck Rules"
+    ]
+  },
+  {
+    "id": "garden::watering_basin_erosion_and_reforming_edges",
+    "topic": "Watering Basin Erosion, Broken Edges, and Reforming the Ring Before Water Runs Off",
+    "topic_en": "Watering Basin Erosion, Broken Edges, and Reforming the Ring Before Water Runs Off",
+    "topic_el": "Διάβρωση Λεκάνης Ποτίσματος, Σπασμένες Άκρες και Επανασχηματισμός του Δακτυλίου πριν Τρέξει το Νερό Έξω",
+    "category": "agriculture_livestock_gardens_and_storage",
+    "subcategory": "watering_control_and_soil_hold",
+    "tags": [
+      "garden",
+      "watering",
+      "erosion",
+      "soil",
+      "basins"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Major broader growth pass 53.",
+    "summary_en": "Watering basins stop working when the ring erodes, leaving water to spill away instead of soaking where the roots need it.",
+    "summary_el": "Οι λεκάνες ποτίσματος παύουν να λειτουργούν όταν ο δακτύλιος διαβρώνεται και το νερό φεύγει έξω αντί να ποτίζει εκεί όπου το χρειάζονται οι ρίζες.",
+    "content_en": "A watering basin is useful only while it still holds and slows water. Repeated pours, heavy rain, foot traffic, and dry cracking can break the rim in one weak point. Then every later watering wastes more.",
+    "content_el": "Μια λεκάνη ποτίσματος είναι χρήσιμη μόνο όσο κρατά και επιβραδύνει το νερό. Επαναλαμβανόμενα ποτίσματα, δυνατή βροχή, πατήματα και ξηρό ράγισμα μπορούν να σπάσουν το χείλος σε ένα αδύναμο σημείο. Έπειτα κάθε επόμενο πότισμα σπαταλά περισσότερο.",
+    "steps_en": [
+      "Inspect basin rims after heavy watering or rain.",
+      "Rebuild low spots before the next watering cycle.",
+      "Press and shape the ring so water slows instead of escaping.",
+      "Keep trampling feet off weak rim sections.",
+      "Recheck after the first refill to confirm the repair works."
+    ],
+    "steps_el": [
+      "Έλεγχε τα χείλη της λεκάνης μετά από δυνατό πότισμα ή βροχή.",
+      "Ξαναέχτιζε τα χαμηλά σημεία πριν από τον επόμενο κύκλο ποτίσματος.",
+      "Πίεζε και σχημάτιζε τον δακτύλιο ώστε το νερό να επιβραδύνεται αντί να δραπετεύει.",
+      "Κρατούσε τα πατήματα μακριά από τα αδύναμα σημεία του χείλους.",
+      "Ξαναέλεγχε μετά το πρώτο ξαναγέμισμα για να βεβαιωθείς ότι η επισκευή δουλεύει."
+    ],
+    "warnings_en": [
+      "Small rim failures quietly waste many later waterings.",
+      "Steep pour angles can cut new weak channels fast.",
+      "Broken basins matter most when water is scarce."
+    ],
+    "warnings_el": [
+      "Μικρές αστοχίες χείλους σπαταλούν αθόρυβα πολλά επόμενα ποτίσματα.",
+      "Απότομες γωνίες ροής μπορούν να κόψουν νέα αδύναμα κανάλια γρήγορα.",
+      "Οι σπασμένες λεκάνες μετρούν περισσότερο όταν το νερό είναι λίγο."
+    ],
+    "mistakes_en": [
+      "Ignoring the first breach because the plant still got some water.",
+      "Pouring harder into a broken basin instead of repairing it.",
+      "Walking through basins during routine garden work."
+    ],
+    "mistakes_el": [
+      "Να αγνοείς το πρώτο σπάσιμο επειδή το φυτό πήρε ακόμη λίγο νερό.",
+      "Να ρίχνεις δυνατότερα σε σπασμένη λεκάνη αντί να την επισκευάζεις.",
+      "Να περπατάς μέσα από τις λεκάνες στην καθημερινή εργασία κήπου."
+    ],
+    "related_topics": [
+      "Mulch Rings and Stem-Clear Rot Avoidance",
+      "Irrigation Basics",
+      "Garden Silt After Flood and Replant Decisions"
+    ]
+  },
+  {
+    "id": "storage::rodent_sign_recheck_after_cleanout",
+    "topic": "Rodent Sign Recheck After Cleanout, Fresh Gnaw Patterns, and Knowing Whether the Problem Actually Stopped",
+    "topic_en": "Rodent Sign Recheck After Cleanout, Fresh Gnaw Patterns, and Knowing Whether the Problem Actually Stopped",
+    "topic_el": "Επανέλεγχος Σημάτων Τρωκτικών μετά τον Καθαρισμό, Νέα Ίχνη Ροκανίσματος και Αναγνώριση του αν το Πρόβλημα Πραγματικά Σταμάτησε",
+    "category": "agriculture_livestock_gardens_and_storage",
+    "subcategory": "pest_control_and_storage_followup",
+    "tags": [
+      "rodents",
+      "storage",
+      "recheck",
+      "pests",
+      "gnaw"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 55.",
+    "summary_en": "Cleaning up rodent damage once is not the same as proving the infestation has stopped.",
+    "summary_el": "Το να καθαρίσεις μία φορά ζημιές από τρωκτικά δεν σημαίνει ότι απέδειξες πως η προσβολή σταμάτησε.",
+    "content_en": "After droppings, chewed sacks, or gnawed corners are cleaned away, the next question is whether new activity returns. Without a follow-up check, people mistake a tidy room for a solved problem. Fresh gnaw patterns, new droppings, and newly shifted feed dust often tell the truth better than memory of yesterday’s cleanup effort.",
+    "content_el": "Μετά από καθάρισμα περιττωμάτων, μασουλημένων σακιών ή ροκανισμένων γωνιών, η επόμενη ερώτηση είναι αν επιστρέφει νέα δραστηριότητα. Χωρίς έλεγχο παρακολούθησης, οι άνθρωποι μπερδεύουν ένα τακτοποιημένο δωμάτιο με λυμένο πρόβλημα. Νέα ίχνη ροκανίσματος, νέα περιττώματα και φρέσκια μετακίνηση σκόνης ζωοτροφής λένε συχνά την αλήθεια καλύτερα από τη μνήμη της χθεσινής προσπάθειας καθαρισμού.",
+    "steps_en": [
+      "Mark or remember the cleaned area well enough to compare later.",
+      "Recheck after one night and again after several days.",
+      "Look for fresh droppings, gnaw marks, and disturbed dust or feed.",
+      "Do not assume silence means the activity stopped.",
+      "Adjust storage and barriers if new signs appear quickly."
+    ],
+    "steps_el": [
+      "Σημείωνε ή θυμόσουν αρκετά καλά την καθαρισμένη περιοχή ώστε να συγκρίνεις αργότερα.",
+      "Ξαναέλεγχε μετά από μία νύχτα και ξανά μετά από αρκετές μέρες.",
+      "Ψάχνε για νέα περιττώματα, ίχνη ροκανίσματος και ανακατεμένη σκόνη ή τροφή.",
+      "Μην υποθέτεις ότι η σιωπή σημαίνει πως η δραστηριότητα σταμάτησε.",
+      "Προσάρμοζε αποθήκευση και φράγματα αν νέα σημάδια εμφανιστούν γρήγορα."
+    ],
+    "warnings_en": [
+      "Cleanup without follow-up often creates false confidence.",
+      "Fresh signs matter more than how clean the room looks.",
+      "Repeated small losses can continue quietly for a long time."
+    ],
+    "warnings_el": [
+      "Ο καθαρισμός χωρίς παρακολούθηση συχνά δημιουργεί ψεύτικη αυτοπεποίθηση.",
+      "Τα νέα σημάδια μετρούν περισσότερο από το πόσο καθαρό δείχνει το δωμάτιο.",
+      "Επαναλαμβανόμενες μικρές απώλειες μπορούν να συνεχιστούν αθόρυβα για πολύ καιρό."
+    ],
+    "mistakes_en": [
+      "Assuming the problem is solved because the room is cleaner.",
+      "Checking only once after cleanup.",
+      "Ignoring subtle new feed scatter because it seems minor."
+    ],
+    "mistakes_el": [
+      "Να υποθέτεις ότι το πρόβλημα λύθηκε επειδή το δωμάτιο είναι καθαρότερο.",
+      "Να ελέγχεις μόνο μία φορά μετά τον καθαρισμό.",
+      "Να αγνοείς μικρή νέα διασπορά τροφής επειδή φαίνεται ασήμαντη."
+    ],
+    "related_topics": [
+      "Root Cellar Rodent Gnaw Marks",
+      "Sack Stack Air Gaps and Floor Sweat",
+      "Feed Scoop Cross-Contamination and Wet-Bin Discipline"
+    ]
   }
 ]

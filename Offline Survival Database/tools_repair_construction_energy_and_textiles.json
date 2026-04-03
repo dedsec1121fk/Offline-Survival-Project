@@ -16716,5 +16716,383 @@
       "Ridgeline Tension, Tarp Sag, and Water-Shedding Shape",
       "Tarp Patching and Grommet Reinforcement"
     ]
+  },
+  {
+    "id": "repair::door_hinge_pin_loss_and_backup_hold",
+    "topic": "Door Hinge Pin Loss, Temporary Hold Methods, and Keeping the Opening Usable",
+    "topic_en": "Door Hinge Pin Loss, Temporary Hold Methods, and Keeping the Opening Usable",
+    "topic_el": "Απώλεια Πείρου Μεντεσέ Πόρτας, Προσωρινές Μέθοδοι Συγκράτησης και Διατήρηση της Διόδου Χρήσιμης",
+    "category": "tools_repair_construction_energy_and_textiles",
+    "subcategory": "door_repair_and_basic_hardware_reliability",
+    "tags": [
+      "door",
+      "hinge",
+      "repair",
+      "pin",
+      "temporary fix"
+    ],
+    "priority": "medium",
+    "urgency": "medium",
+    "difficulty": "medium",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 50.",
+    "summary_en": "A door does not need full hardware failure to become a security, privacy, and weather problem; one missing hinge pin can start the slide.",
+    "summary_el": "Μια πόρτα δεν χρειάζεται πλήρη αστοχία υλικού για να γίνει πρόβλημα ασφάλειας, ιδιωτικότητας και καιρού· ένας μόνο χαμένος πείρος μεντεσέ αρκεί για να αρχίσει η πτώση.",
+    "content_en": "When a hinge pin loosens or disappears, many people keep using the door roughly until alignment worsens and the repair becomes harder. The opening starts dragging, the latch stops meeting cleanly, and the entire frame takes extra stress. A better approach is to lighten the load on the weak hinge early, hold the door in line temporarily, and create a controlled stopgap until the proper pin or equivalent fix is restored. This protects not only the hinge but also the frame, latch, and daily usability of the passage.",
+    "content_el": "Όταν ένας πείρος μεντεσέ χαλαρώσει ή χαθεί, πολλοί άνθρωποι συνεχίζουν να χρησιμοποιούν την πόρτα άτσαλα ώσπου να χειροτερέψει η ευθυγράμμιση και η επισκευή να γίνει δυσκολότερη. Το άνοιγμα αρχίζει να σέρνεται, η γλώσσα δεν κλείνει καθαρά και όλο το πλαίσιο δέχεται επιπλέον καταπόνηση. Καλύτερη προσέγγιση είναι να μειώνεις νωρίς το φορτίο στον αδύναμο μεντεσέ, να κρατάς προσωρινά την πόρτα στη γραμμή της και να δημιουργείς ελεγχόμενη προσωρινή λύση ώσπου να αποκατασταθεί ο σωστός πείρος ή ισοδύναμη επισκευή. Αυτό προστατεύει όχι μόνο τον μεντεσέ αλλά και το πλαίσιο, το κλείστρο και την καθημερινή χρησιμότητα της διόδου.",
+    "steps_en": [
+      "Reduce rough use as soon as hinge movement or pin loss appears.",
+      "Support the door before trying to force alignment back under load.",
+      "Use a temporary retaining method only if it keeps the hinge line stable.",
+      "Check latch fit again after the temporary hold is in place.",
+      "Replace the stopgap before repeated opening enlarges the damage."
+    ],
+    "steps_el": [
+      "Μείωσε την άτσαλη χρήση μόλις εμφανιστεί παιχνίδισμα μεντεσέ ή απώλεια πείρου.",
+      "Στήριξε την πόρτα πριν προσπαθήσεις να ξαναφέρεις τη γραμμή υπό φορτίο.",
+      "Χρησιμοποίησε προσωρινή μέθοδο συγκράτησης μόνο αν κρατά σταθερή τη γραμμή του μεντεσέ.",
+      "Ξαναέλεγξε την εφαρμογή του κλείστρου αφού μπει η προσωρινή στήριξη.",
+      "Αντικατάστησε τη λύση ανάγκης πριν το επαναλαμβανόμενο άνοιγμα μεγαλώσει τη ζημιά."
+    ],
+    "warnings_en": [
+      "A bad temporary hold can bend parts that were still salvageable.",
+      "Repeated use under sagging alignment spreads damage upward and downward.",
+      "Security problems often start as “just a door rub” and grow from there."
+    ],
+    "warnings_el": [
+      "Μια κακή προσωρινή συγκράτηση μπορεί να στραβώσει μέρη που ακόμη σώζονταν.",
+      "Η επαναλαμβανόμενη χρήση με πεσμένη ευθυγράμμιση απλώνει τη ζημιά προς τα πάνω και προς τα κάτω.",
+      "Τα προβλήματα ασφάλειας συχνά αρχίζουν ως “απλό τρίψιμο πόρτας” και μεγαλώνουν από εκεί."
+    ],
+    "mistakes_en": [
+      "Forcing a sagging door shut repeatedly.",
+      "Ignoring the hinge until the frame also shifts.",
+      "Using a weak temporary substitute and then forgetting it is temporary."
+    ],
+    "mistakes_el": [
+      "Να πιέζεις επανειλημμένα μια πεσμένη πόρτα να κλείσει.",
+      "Να αγνοείς τον μεντεσέ μέχρι να μετακινηθεί και το πλαίσιο.",
+      "Να βάζεις αδύναμη προσωρινή λύση και μετά να ξεχνάς ότι είναι προσωρινή."
+    ],
+    "related_topics": [
+      "Hinge Squeaks, Door Drag, and Early Failure Signs",
+      "Door-Bar Placement, Hinge-Side Weakness, and Night Crosschecks",
+      "Quiet Door Opening, Latch Noise Reduction, and Night Reentry Without Panic"
+    ]
+  },
+  {
+    "id": "repair::rope_knot_inspection_after_heavy_loads",
+    "topic": "Rope Knot Inspection After Heavy Loads, Hidden Compression, and Retie Decisions",
+    "topic_en": "Rope Knot Inspection After Heavy Loads, Hidden Compression, and Retie Decisions",
+    "topic_el": "Έλεγχος Κόμπων Σκοινιού μετά από Βαριά Φορτία, Κρυφή Συμπίεση και Αποφάσεις για Νέο Δέσιμο",
+    "category": "tools_repair_construction_energy_and_textiles",
+    "subcategory": "rope_use_and_post_load_checks",
+    "tags": [
+      "rope",
+      "knots",
+      "inspection",
+      "loads",
+      "repair"
+    ],
+    "priority": "high",
+    "urgency": "medium",
+    "difficulty": "medium",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 51.",
+    "summary_en": "A knot that held once under heavy strain may still need rechecking because hidden compression, glazing, or shifted fibers can change the next load.",
+    "summary_el": "Ένας κόμπος που κράτησε μία φορά κάτω από μεγάλη πίεση μπορεί πάλι να χρειάζεται έλεγχο επειδή κρυφή συμπίεση, γυάλισμα ή μετατοπισμένες ίνες αλλάζουν το επόμενο φορτίο.",
+    "content_en": "After a heavy lift, drag, or sudden jerk, people often trust the rope more because it “already worked.” That is exactly when inspection matters. Knots can tighten unevenly, bury damage, or leave sections glazed from friction. A line that held during one event may be less trustworthy during the next if the fibers are compacted, cut, or twisted awkwardly near the knot. Good rope discipline includes checking after strain, not only before strain.",
+    "content_el": "Μετά από βαριά ανύψωση, σύρσιμο ή απότομο τίναγμα, οι άνθρωποι συχνά εμπιστεύονται περισσότερο το σκοινί επειδή «ήδη δούλεψε». Ακριβώς τότε μετρά ο έλεγχος. Οι κόμποι μπορούν να σφίξουν άνισα, να κρύψουν ζημιά ή να αφήσουν τμήματα γυαλισμένα από τριβή. Μια γραμμή που κράτησε σε ένα γεγονός μπορεί να είναι λιγότερο αξιόπιστη στο επόμενο αν οι ίνες έχουν συμπιεστεί, κοπεί ή στρίψει άσχημα κοντά στον κόμπο. Η σωστή πειθαρχία σκοινιού περιλαμβάνει έλεγχο μετά από καταπόνηση και όχι μόνο πριν από αυτή.",
+    "steps_en": [
+      "Check the knot body and nearby standing parts after heavy strain.",
+      "Look for flattening, glazing, broken outer fibers, or odd twists.",
+      "Retie when the knot cannot be inspected clearly or sits in damaged fibers.",
+      "Shorten the working section if damage is local and the line remains otherwise sound.",
+      "Retire the rope from critical loads if damage is spreading."
+    ],
+    "steps_el": [
+      "Έλεγχε το σώμα του κόμπου και τα κοντινά τμήματα μετά από μεγάλη καταπόνηση.",
+      "Ψάχνε για πλατιάσματα, γυάλισμα, σπασμένες εξωτερικές ίνες ή παράξενα στριψίματα.",
+      "Ξαναδένε όταν ο κόμπος δεν μπορεί να ελεγχθεί καθαρά ή κάθεται πάνω σε φθαρμένες ίνες.",
+      "Κόντυνε το εργαζόμενο τμήμα αν η ζημιά είναι τοπική και η υπόλοιπη γραμμή παραμένει σωστή.",
+      "Απόσυρε το σκοινί από κρίσιμα φορτία αν η ζημιά απλώνεται."
+    ],
+    "warnings_en": [
+      "A knot surviving one load does not prove it is ready for the next one.",
+      "Friction damage may hide under tight turns.",
+      "Critical lifts should not rely on doubtful rope sections."
+    ],
+    "warnings_el": [
+      "Το ότι ένας κόμπος επέζησε από ένα φορτίο δεν αποδεικνύει ότι είναι έτοιμος για το επόμενο.",
+      "Η ζημιά από τριβή μπορεί να κρύβεται κάτω από σφιχτές καμπές.",
+      "Κρίσιμες ανυψώσεις δεν πρέπει να βασίζονται σε αμφίβολα τμήματα σκοινιού."
+    ],
+    "mistakes_en": [
+      "Trusting the rope more because it already held once.",
+      "Ignoring glazed or flattened sections near the knot.",
+      "Leaving damaged sections in service for critical work."
+    ],
+    "mistakes_el": [
+      "Να εμπιστεύεσαι περισσότερο το σκοινί επειδή κράτησε ήδη μία φορά.",
+      "Να αγνοείς γυαλισμένα ή πλατιασμένα τμήματα κοντά στον κόμπο.",
+      "Να κρατάς φθαρμένα τμήματα σε χρήση για κρίσιμη εργασία."
+    ],
+    "related_topics": [
+      "Simple Pulley Friction, Rope Burn, and Load Swing Control",
+      "Guyline Angles and Rain-Wind Shelter Stability",
+      "Well Bucket Rope Wear and Drop Prevention"
+    ]
+  },
+  {
+    "id": "repair::handle_wedge_looseness_and_reseat_checks",
+    "topic": "Handle Wedge Looseness, Head Shift, and When a Tool Needs Reseating Before Use",
+    "topic_en": "Handle Wedge Looseness, Head Shift, and When a Tool Needs Reseating Before Use",
+    "topic_el": "Χαλάρωση Σφήνας Λαβής, Μετατόπιση Κεφαλής και Πότε ένα Εργαλείο Χρειάζεται Ξανακάθισμα πριν από Χρήση",
+    "category": "tools_repair_construction_energy_and_textiles",
+    "subcategory": "tool_handle_security",
+    "tags": [
+      "tools",
+      "handle",
+      "wedge",
+      "repair",
+      "safety"
+    ],
+    "priority": "high",
+    "urgency": "medium",
+    "difficulty": "medium",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 51.",
+    "summary_en": "A handle that loosens gradually can still feel usable right up to the moment the head shifts dangerously under swing or impact.",
+    "summary_el": "Μια λαβή που χαλαρώνει σταδιακά μπορεί παρ’ όλα αυτά να φαίνεται χρήσιμη μέχρι τη στιγμή που η κεφαλή μετατοπίζεται επικίνδυνα στο χτύπημα ή στην αιώρηση.",
+    "content_en": "Axes, hammers, mattocks, and similar tools depend on the head and handle remaining one reliable unit. When the wedge shrinks, the eye dries, or the head begins to creep, the tool becomes unpredictable. Small movement today becomes dangerous movement tomorrow. The safe question is not “Can I get one more use?” but “Will the head stay seated through the next real strike?” When there is doubt, reseating and inspection are worth more than another rushed task.",
+    "content_el": "Τσεκούρια, σφυριά, κασμάδες και παρόμοια εργαλεία εξαρτώνται από το να παραμένουν κεφαλή και λαβή ένα αξιόπιστο σύνολο. Όταν η σφήνα μικραίνει, το μάτι στεγνώνει ή η κεφαλή αρχίζει να σέρνεται, το εργαλείο γίνεται απρόβλεπτο. Μικρή κίνηση σήμερα γίνεται επικίνδυνη κίνηση αύριο. Η ασφαλής ερώτηση δεν είναι «Βγάζει άλλη μία χρήση;» αλλά «Θα μείνει η κεφαλή σωστά καθισμένη στο επόμενο αληθινό χτύπημα;». Όταν υπάρχει αμφιβολία, το ξανακάθισμα και ο έλεγχος αξίζουν περισσότερο από μία ακόμη βιαστική δουλειά.",
+    "steps_en": [
+      "Check for head movement before and after work.",
+      "Watch for gaps, creeping head position, or wedge rise.",
+      "Stop use when the head shifts or sounds different under strike.",
+      "Reseat and secure the handle before returning the tool to real work.",
+      "Mark suspect tools so others do not grab them casually."
+    ],
+    "steps_el": [
+      "Έλεγχε για κίνηση της κεφαλής πριν και μετά την εργασία.",
+      "Παρακολουθούσε κενά, μετατόπιση θέσης της κεφαλής ή άνοδο της σφήνας.",
+      "Σταμάτα τη χρήση όταν η κεφαλή μετακινείται ή ακούγεται διαφορετικά στο χτύπημα.",
+      "Ξανακάθισε και ασφάλισε τη λαβή πριν επιστρέψει το εργαλείο σε πραγματική δουλειά.",
+      "Σημείωνε τα ύποπτα εργαλεία ώστε να μην τα αρπάζουν άλλοι αδιάφορα."
+    ],
+    "warnings_en": [
+      "A loose head can injure by both impact and sudden loss of control.",
+      "Short “just one more strike” thinking is how tool accidents happen.",
+      "Shared tools need visible defect marking."
+    ],
+    "warnings_el": [
+      "Μια χαλαρή κεφαλή μπορεί να τραυματίσει τόσο με πρόσκρουση όσο και με ξαφνική απώλεια ελέγχου.",
+      "Η λογική «μόνο ένα ακόμη χτύπημα» είναι πώς συμβαίνουν ατυχήματα εργαλείων.",
+      "Τα κοινόχρηστα εργαλεία χρειάζονται ορατή σήμανση ελαττώματος."
+    ],
+    "mistakes_en": [
+      "Ignoring small head creep because the tool still works.",
+      "Handing a suspect tool to someone else without warning.",
+      "Using a loose-head tool for harder impacts than usual."
+    ],
+    "mistakes_el": [
+      "Να αγνοείς μικρή μετατόπιση της κεφαλής επειδή το εργαλείο ακόμη δουλεύει.",
+      "Να δίνεις ύποπτο εργαλείο σε άλλον χωρίς προειδοποίηση.",
+      "Να χρησιμοποιείς εργαλείο με χαλαρή κεφαλή για πιο δυνατές κρούσεις από το συνηθισμένο."
+    ],
+    "related_topics": [
+      "Hammer Swing Arc, Glancing Blow Control, and Safe Strike Faces",
+      "Tool Board Shadow Marks and End-of-Day Reset",
+      "Shovel Foot Placement, Digging Rhythm, and Lower-Back Protection"
+    ]
+  },
+  {
+    "id": "repair::peg_taper_fit_and_hole_wear_checks",
+    "topic": "Peg Taper Fit, Hole Wear, and When a Wooden Joint Stops Staying Tight",
+    "topic_en": "Peg Taper Fit, Hole Wear, and When a Wooden Joint Stops Staying Tight",
+    "topic_el": "Εφαρμογή Κωνικής Ξύλινης Σφήνας, Φθορά Τρύπας και Πότε μια Ξύλινη Σύνδεση Παύει να Μένει Σφιχτή",
+    "category": "tools_repair_construction_energy_and_textiles",
+    "subcategory": "wood_joinery_and_maintenance",
+    "tags": [
+      "wood",
+      "pegs",
+      "joints",
+      "repair",
+      "construction"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "medium",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 52.",
+    "summary_en": "A peg joint often loosens gradually through wear, bad taper fit, or wobble, long before the whole structure obviously fails.",
+    "summary_el": "Μια σύνδεση με ξύλινη σφήνα συχνά χαλαρώνει σταδιακά από φθορά, κακή εφαρμογή του κώνου ή τζόγο πολύ πριν αποτύχει φανερά όλη η κατασκευή.",
+    "content_en": "Wooden peg joints are useful because they can be repaired with simple tools, but they do not stay reliable automatically. Repeated wobble enlarges the hole, wrong taper prevents full seating, and slight movement becomes larger movement under load. The joint usually gives warning through looseness, clicking, uneven pressure, or visible oval wear at the opening. Repairs last longer when the fit is corrected early instead of after the hole has widened badly.",
+    "content_el": "Οι ξύλινες συνδέσεις με σφήνα είναι χρήσιμες επειδή μπορούν να επισκευαστούν με απλά εργαλεία, αλλά δεν παραμένουν αξιόπιστες αυτόματα. Ο επαναλαμβανόμενος τζόγος μεγαλώνει την τρύπα, ο λάθος κώνος εμποδίζει το πλήρες κάθισμα και η μικρή κίνηση γίνεται μεγαλύτερη κίνηση κάτω από φορτίο. Η σύνδεση συνήθως προειδοποιεί μέσω χαλάρωσης, μικρού κροταλίσματος, άνισης πίεσης ή ορατής οβάλ φθοράς στο άνοιγμα. Οι επισκευές κρατούν περισσότερο όταν διορθώνεται η εφαρμογή νωρίς αντί αφού έχει ανοίξει πολύ η τρύπα.",
+    "steps_en": [
+      "Check for wobble before and after load.",
+      "Inspect the hole opening for oval wear or crushed fibers.",
+      "Reshape or replace pegs that no longer seat evenly.",
+      "Stop using the joint for critical load if movement keeps returning.",
+      "Repair early before wear spreads into adjoining parts."
+    ],
+    "steps_el": [
+      "Έλεγχε για τζόγο πριν και μετά το φορτίο.",
+      "Επιθεωρούσε το άνοιγμα της τρύπας για οβάλ φθορά ή λιωμένες ίνες.",
+      "Ξανασχημάτιζε ή αντικαθιστούσες σφήνες που δεν κάθονται πια ομοιόμορφα.",
+      "Σταμάτα να χρησιμοποιείς τη σύνδεση για κρίσιμο φορτίο αν η κίνηση συνεχίζει να επιστρέφει.",
+      "Επισκεύαζε νωρίς πριν απλωθεί η φθορά σε γειτονικά μέρη."
+    ],
+    "warnings_en": [
+      "Small joint movement becomes bigger under repeated work.",
+      "A repaired peg is only as good as the hole it seats in.",
+      "Critical frames should not rely on visibly worn joints."
+    ],
+    "warnings_el": [
+      "Η μικρή κίνηση σύνδεσης γίνεται μεγαλύτερη κάτω από επαναλαμβανόμενη εργασία.",
+      "Μια επισκευασμένη σφήνα είναι τόσο καλή όσο και η τρύπα όπου κάθεται.",
+      "Κρίσιμα πλαίσια δεν πρέπει να βασίζονται σε ορατά φθαρμένες συνδέσεις."
+    ],
+    "mistakes_en": [
+      "Hammering the same loose peg back in without checking fit.",
+      "Ignoring oval hole wear.",
+      "Leaving wobble in place because the frame still stands."
+    ],
+    "mistakes_el": [
+      "Να ξαναχτυπάς την ίδια χαλαρή σφήνα χωρίς να ελέγχεις την εφαρμογή.",
+      "Να αγνοείς την οβάλ φθορά της τρύπας.",
+      "Να αφήνεις τον τζόγο επειδή το πλαίσιο ακόμη στέκεται."
+    ],
+    "related_topics": [
+      "Wooden Peg-Hole Split Watch Before Load",
+      "Wall Plumb by String, Corner Checks, and Drift Correction",
+      "Ridgepole Bracing Order and Collapse Prevention"
+    ]
+  },
+  {
+    "id": "repair::bucket_handle_bail_bend_and_finger_pinch_risk",
+    "topic": "Bucket Bail Bend, Finger Pinch Risk, and Why a Still Usable Handle Can Fail at the Worst Moment",
+    "topic_en": "Bucket Bail Bend, Finger Pinch Risk, and Why a Still Usable Handle Can Fail at the Worst Moment",
+    "topic_el": "Στράβωμα Συρμάτινης Λαβής Κουβά, Κίνδυνος Σύνθλιψης Δαχτύλων και Γιατί μια Ακόμη Χρήσιμη Λαβή Μπορεί να Αστοχήσει τη Χειρότερη Στιγμή",
+    "category": "tools_repair_construction_energy_and_textiles",
+    "subcategory": "container_and_handle_repair",
+    "tags": [
+      "bucket",
+      "handle",
+      "repair",
+      "carry",
+      "injury"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Major broader growth pass 53.",
+    "summary_en": "A bucket handle often gives warning before complete failure, but people keep using it because the bucket has not fallen yet.",
+    "summary_el": "Η λαβή ενός κουβά συχνά προειδοποιεί πριν από την πλήρη αστοχία, αλλά ο κόσμος συνεχίζει να τη χρησιμοποιεί επειδή ο κουβάς δεν έχει πέσει ακόμη.",
+    "content_en": "Wire bails and side attachments wear through flex, rust, sharp bends, and rough carrying. Sudden shifts can pinch fingers, splash contaminated water, or make a person stumble.",
+    "content_el": "Οι συρμάτινες λαβές και τα πλευρικά σημεία στήριξης φθείρονται από λύγισμα, σκουριά, απότομες γωνίες και άγρια μεταφορά. Ξαφνικές μετατοπίσεις μπορούν να συνθλίψουν δάχτυλα, να πετάξουν μολυσμένο νερό ή να κάνουν τον άνθρωπο να σκοντάψει.",
+    "steps_en": [
+      "Inspect the bail, side holes, and grip area before heavy carries.",
+      "Watch for rust thinning, uneven bends, and sharp pinch points.",
+      "Downgrade damaged buckets to lighter or non-carry use.",
+      "Replace or reinforce before the next hard carry.",
+      "Keep fingers out of closing pinch zones when lifting."
+    ],
+    "steps_el": [
+      "Έλεγχε τη λαβή, τις πλευρικές τρύπες και την περιοχή λαβής πριν από βαριές μεταφορές.",
+      "Παρακολουθούσε αραίωση από σκουριά, άνισα στραβώματα και κοφτερά σημεία σύνθλιψης.",
+      "Υποβάθμιζε φθαρμένους κουβάδες σε ελαφρύτερη ή μη μεταφορική χρήση.",
+      "Αντικαθιστούσε ή ενίσχυε πριν από την επόμενη δύσκολη μεταφορά.",
+      "Κρατούσε τα δάχτυλα έξω από ζώνες που κλείνουν όταν σηκώνεις."
+    ],
+    "warnings_en": [
+      "A bucket that has not yet failed may already be unsafe.",
+      "Handle failure becomes more dangerous on stairs and slopes.",
+      "Pinch injuries happen fast when the load shifts suddenly."
+    ],
+    "warnings_el": [
+      "Ένας κουβάς που δεν έχει ακόμη αστοχήσει μπορεί ήδη να είναι ανασφαλής.",
+      "Η αστοχία της λαβής γίνεται πιο επικίνδυνη σε σκάλες και πλαγιές.",
+      "Οι τραυματισμοί από σύνθλιψη γίνονται γρήγορα όταν το φορτίο μετατοπίζεται ξαφνικά."
+    ],
+    "mistakes_en": [
+      "Ignoring a bent handle because the bucket still holds water.",
+      "Carrying maximum load in a suspect bucket.",
+      "Letting fingers rest inside pinch points while lifting."
+    ],
+    "mistakes_el": [
+      "Να αγνοείς στραβωμένη λαβή επειδή ο κουβάς ακόμη κρατά νερό.",
+      "Να μεταφέρεις μέγιστο φορτίο σε ύποπτο κουβά.",
+      "Να αφήνεις τα δάχτυλα μέσα σε σημεία σύνθλιψης όταν σηκώνεις."
+    ],
+    "related_topics": [
+      "Container Neck Cracks and Slow Drip Loss",
+      "Bucket-Chain Handoffs and Spill Discipline",
+      "Water-Carry Shoulder Swaps and Grip Loss"
+    ]
+  },
+  {
+    "id": "textiles::sock_rotation_pairs_and_hotspot_prevention",
+    "topic": "Sock Rotation Pairs, Damp Reset Timing, and Preventing Small Hotspots From Becoming Blisters",
+    "topic_en": "Sock Rotation Pairs, Damp Reset Timing, and Preventing Small Hotspots From Becoming Blisters",
+    "topic_el": "Εναλλαγή Ζευγαριών Καλτσών, Χρονισμός Επαναφοράς Νωπών και Πρόληψη Μικρών Θερμών Σημείων πριν Γίνουν Φουσκάλες",
+    "category": "tools_repair_construction_energy_and_textiles",
+    "subcategory": "footwear_textile_use_and_maintenance",
+    "tags": [
+      "socks",
+      "feet",
+      "blisters",
+      "textiles",
+      "rotation"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 55.",
+    "summary_en": "Foot problems often build from small damp hotspots that could have been interrupted earlier by timely sock rotation and drying discipline.",
+    "summary_el": "Τα προβλήματα ποδιών συχνά χτίζονται από μικρά νωπά θερμά σημεία που θα μπορούσαν να είχαν διακοπεί νωρίτερα με έγκαιρη εναλλαγή καλτσών και πειθαρχία στεγνώματος.",
+    "content_en": "One pair of socks is a single point of failure on long days. When socks stay damp, bunched, gritty, or overloaded with sweat, friction rises long before open blistering appears. Rotation is not luxury. It is a low-cost method of resetting the foot environment before minor rubbing becomes tomorrow’s walking problem.",
+    "content_el": "Ένα ζευγάρι κάλτσες είναι ένα μόνο σημείο αστοχίας σε μεγάλες μέρες. Όταν οι κάλτσες μένουν νωπές, μαζεμένες, γεμάτες σκόνη ή υπερφορτωμένες με ιδρώτα, η τριβή ανεβαίνει πολύ πριν εμφανιστούν ανοιχτές φουσκάλες. Η εναλλαγή δεν είναι πολυτέλεια. Είναι χαμηλού κόστους μέθοδος επαναφοράς του περιβάλλοντος του ποδιού πριν το μικρό τρίψιμο γίνει αυριανό πρόβλημα βάδισης.",
+    "steps_en": [
+      "Rotate socks before feet feel badly damaged, not after.",
+      "Air or dry the removed pair instead of trapping it wet in a bundle.",
+      "Check toes, heel, and forefoot for early hotspots during the change.",
+      "Remove grit and folds before putting the next pair on.",
+      "Use the driest available pair for the harder part of the route."
+    ],
+    "steps_el": [
+      "Άλλαζε κάλτσες πριν τα πόδια νιώσουν σοβαρά τραυματισμένα και όχι μετά.",
+      "Αέριζε ή στέγνωνε το ζευγάρι που αφαιρείς αντί να το παγιδεύεις βρεγμένο σε δέμα.",
+      "Έλεγχε δάχτυλα, φτέρνα και μπροστινό πέλμα για πρώιμα θερμά σημεία κατά την αλλαγή.",
+      "Αφαίρεσε σκόνη και πτυχές πριν φορέσεις το επόμενο ζευγάρι.",
+      "Χρησιμοποιούσε το πιο στεγνό διαθέσιμο ζευγάρι για το πιο δύσκολο τμήμα της διαδρομής."
+    ],
+    "warnings_en": [
+      "Minor foot discomfort grows faster than many movement plans allow.",
+      "Wet socks plus grit create damage earlier than distance alone.",
+      "A still wearable pair may still be the wrong pair for the next stage."
+    ],
+    "warnings_el": [
+      "Η μικρή ενόχληση ποδιού μεγαλώνει γρηγορότερα απ’ όσο επιτρέπουν πολλά σχέδια κίνησης.",
+      "Βρεγμένες κάλτσες μαζί με σκόνη δημιουργούν βλάβη νωρίτερα από την απόσταση μόνη της.",
+      "Ένα ζευγάρι που ακόμη φοριέται μπορεί πάλι να είναι λάθος για το επόμενο στάδιο."
+    ],
+    "mistakes_en": [
+      "Waiting for obvious blistering before changing socks.",
+      "Stuffing wet socks into a pack corner where they cannot dry.",
+      "Ignoring small rubbing because the group wants to keep pace."
+    ],
+    "mistakes_el": [
+      "Να περιμένεις εμφανείς φουσκάλες πριν αλλάξεις κάλτσες.",
+      "Να στριμώχνεις βρεγμένες κάλτσες σε γωνία του σακιδίου όπου δεν μπορούν να στεγνώσουν.",
+      "Να αγνοείς μικρό τρίψιμο επειδή η ομάδα θέλει να κρατήσει ρυθμό."
+    ],
+    "related_topics": [
+      "Blister Roof Preservation and Friction Reset",
+      "Wet Clothing Wringing and Drying Sequence",
+      "Foot Maceration Between Toes and Drying Resets"
+    ]
   }
 ]

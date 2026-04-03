@@ -11329,5 +11329,320 @@
       "Maintenance Boards, Due-Date Visibility, and Small Tasks That Prevent Big Failures",
       "Night Log Entries, Time-Weather-Action Format, and Next-Morning Clarity"
     ]
+  },
+  {
+    "id": "records::shift_board_symbols_for_low_literacy",
+    "topic": "Shift Boards, Simple Symbols, and Shared Task Reading with Low Literacy",
+    "topic_en": "Shift Boards, Simple Symbols, and Shared Task Reading with Low Literacy",
+    "topic_el": "Πίνακες Βάρδιας, Απλά Σύμβολα και Κοινή Ανάγνωση Εργασιών με Χαμηλό Γραμματισμό",
+    "category": "communication_records_rebuilding_governance_history_and_resilience",
+    "subcategory": "low_literacy_coordination_and_visual_records",
+    "tags": [
+      "shift board",
+      "symbols",
+      "literacy",
+      "tasks",
+      "coordination"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 50.",
+    "summary_en": "A task board fails when it assumes everyone reads long written instructions quickly under stress.",
+    "summary_el": "Ένας πίνακας εργασιών αποτυγχάνει όταν υποθέτει ότι όλοι διαβάζουν γρήγορα μεγάλες γραπτές οδηγίες υπό πίεση.",
+    "content_en": "Shared work becomes easier when boards communicate with shape, color, position, and a few stable symbols instead of long text only. This is useful not just for low literacy but also for exhaustion, poor light, and hurried handoff. A resilient board system uses repeatable marks that mean the same thing every day, keeps crowded detail off the main view, and lets a new person understand priority without reading a wall of words. The aim is not to remove writing. It is to make writing survivable in real conditions.",
+    "content_el": "Η κοινή εργασία γίνεται ευκολότερη όταν οι πίνακες επικοινωνούν με σχήμα, χρώμα, θέση και λίγα σταθερά σύμβολα αντί μόνο με μεγάλο κείμενο. Αυτό είναι χρήσιμο όχι μόνο για χαμηλό γραμματισμό αλλά και για εξάντληση, κακό φως και βιαστική παράδοση βάρδιας. Ένα ανθεκτικό σύστημα πίνακα χρησιμοποιεί επαναλαμβανόμενα σημάδια που σημαίνουν το ίδιο πράγμα κάθε μέρα, κρατά τις πολλές λεπτομέρειες έξω από την κύρια όψη και επιτρέπει σε νέο άτομο να καταλάβει προτεραιότητα χωρίς να διαβάζει τοίχο λέξεων. Ο στόχος δεν είναι να αφαιρέσεις τη γραφή. Είναι να κάνεις τη γραφή βιώσιμη σε πραγματικές συνθήκες.",
+    "steps_en": [
+      "Choose a small stable symbol set and teach it consistently.",
+      "Use board position and color to reinforce priority, not contradict it.",
+      "Keep detailed notes available nearby rather than crowding the main board.",
+      "Test whether a tired or new person understands the board quickly.",
+      "Retire symbols that are often confused with each other."
+    ],
+    "steps_el": [
+      "Διάλεξε ένα μικρό σταθερό σύνολο συμβόλων και δίδαξέ το με συνέπεια.",
+      "Χρησιμοποίησε θέση και χρώμα του πίνακα για να ενισχύεις την προτεραιότητα και όχι να την μπερδεύεις.",
+      "Κράτα τις λεπτομερείς σημειώσεις διαθέσιμες κοντά και όχι στριμωγμένες στον κύριο πίνακα.",
+      "Δοκίμασε αν ένας κουρασμένος ή νέος άνθρωπος καταλαβαίνει γρήγορα τον πίνακα.",
+      "Απόσυρε σύμβολα που μπερδεύονται συχνά μεταξύ τους."
+    ],
+    "warnings_en": [
+      "Too many symbols become another unread language.",
+      "Color alone fails in poor light or for some users.",
+      "A crowded board hides the urgent task instead of clarifying it."
+    ],
+    "warnings_el": [
+      "Πάρα πολλά σύμβολα γίνονται μια δεύτερη αδιάβαστη γλώσσα.",
+      "Το χρώμα μόνο του αποτυγχάνει σε κακό φως ή για ορισμένους χρήστες.",
+      "Ένας φορτωμένος πίνακας κρύβει την επείγουσα δουλειά αντί να την ξεκαθαρίζει."
+    ],
+    "mistakes_en": [
+      "Inventing new marks every week.",
+      "Writing so small that only the writer can read it.",
+      "Assuming literacy is the only barrier to quick understanding."
+    ],
+    "mistakes_el": [
+      "Να εφευρίσκεις νέα σημάδια κάθε εβδομάδα.",
+      "Να γράφεις τόσο μικρά που να τα διαβάζει μόνο αυτός που τα έγραψε.",
+      "Να υποθέτεις ότι ο γραμματισμός είναι το μόνο εμπόδιο στη γρήγορη κατανόηση."
+    ],
+    "related_topics": [
+      "Night Log Entries, Time-Weather-Action Format, and Next-Morning Clarity",
+      "Teaching Reading with Labels and Repeated Context",
+      "Meeting Close Actions, Assigned Owners, and Follow-Through"
+    ]
+  },
+  {
+    "id": "records::version_marking_for_wall_maps_and_copies",
+    "topic": "Version Marks on Wall Maps, Date Lines on Copies, and Preventing Old Information from Looking Current",
+    "topic_en": "Version Marks on Wall Maps, Date Lines on Copies, and Preventing Old Information from Looking Current",
+    "topic_el": "Σημάδια Έκδοσης σε Χάρτες Τοίχου, Γραμμές Ημερομηνίας σε Αντίγραφα και Πρόληψη του να Φαίνονται Παλιές Πληροφορίες Ως Τωρινές",
+    "category": "communication_records_rebuilding_governance_history_and_resilience",
+    "subcategory": "record_version_control",
+    "tags": [
+      "records",
+      "maps",
+      "version control",
+      "dates",
+      "copies"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 51.",
+    "summary_en": "A route, inventory, or map can mislead badly when old copies still circulate without clear dates or version marks.",
+    "summary_el": "Μια διαδρομή, μια απογραφή ή ένας χάρτης μπορεί να παραπλανήσει σοβαρά όταν παλιά αντίγραφα συνεχίζουν να κυκλοφορούν χωρίς καθαρές ημερομηνίες ή σημάδια έκδοσης.",
+    "content_en": "In stressed communities, information often fails not because nobody wrote it down, but because too many half-old copies remain in use. People glance at the paper nearest to them and assume it is current. A simple version mark, date line, and visible correction habit reduce that confusion. The goal is not bureaucracy for its own sake. It is keeping route notes, water points, ration changes, and danger markers from drifting apart across multiple sheets.",
+    "content_el": "Σε πιεσμένες κοινότητες οι πληροφορίες συχνά αποτυγχάνουν όχι επειδή κανείς δεν τις έγραψε, αλλά επειδή πάρα πολλά μισοπαλιά αντίγραφα μένουν σε χρήση. Οι άνθρωποι ρίχνουν μια ματιά στο πιο κοντινό χαρτί και υποθέτουν ότι είναι το τωρινό. Ένα απλό σημάδι έκδοσης, μια γραμμή ημερομηνίας και μια ορατή συνήθεια διορθώσεων μειώνουν αυτή τη σύγχυση. Ο στόχος δεν είναι γραφειοκρατία για τη γραφειοκρατία. Είναι να μη διασκορπίζονται οι σημειώσεις διαδρομής, τα σημεία νερού, οι αλλαγές μερίδων και οι δείκτες κινδύνου σε πολλά φύλλα.",
+    "steps_en": [
+      "Put a date and simple version mark on every important copy.",
+      "Cross out or collect outdated copies when new ones are posted.",
+      "Mark major changes clearly instead of burying them in tiny notes.",
+      "Teach the group where the authoritative current copy lives.",
+      "Review wall copies after meetings and route changes."
+    ],
+    "steps_el": [
+      "Βάζε ημερομηνία και απλό σημάδι έκδοσης σε κάθε σημαντικό αντίγραφο.",
+      "Σβήνε ή μάζευε τα παρωχημένα αντίγραφα όταν αναρτώνται νέα.",
+      "Σημείωνε καθαρά τις μεγάλες αλλαγές αντί να τις κρύβεις σε μικροσκοπικές σημειώσεις.",
+      "Δίδασκε την ομάδα πού βρίσκεται το έγκυρο τωρινό αντίγραφο.",
+      "Ξαναέλεγχε τα αντίγραφα τοίχου μετά από συναντήσεις και αλλαγές διαδρομής."
+    ],
+    "warnings_en": [
+      "An undated copy can create confident but wrong action.",
+      "People under stress often trust the nearest paper, not the newest one.",
+      "Small note additions become dangerous when the main version is unclear."
+    ],
+    "warnings_el": [
+      "Ένα αντίγραφο χωρίς ημερομηνία μπορεί να δημιουργήσει σίγουρη αλλά λανθασμένη ενέργεια.",
+      "Οι άνθρωποι υπό στρες συχνά εμπιστεύονται το πιο κοντινό χαρτί, όχι το νεότερο.",
+      "Οι μικρές πρόσθετες σημειώσεις γίνονται επικίνδυνες όταν η κύρια έκδοση είναι ασαφής."
+    ],
+    "mistakes_en": [
+      "Posting a corrected map without removing older ones.",
+      "Assuming everyone knows which copy is current.",
+      "Dating the master but not the hand copies."
+    ],
+    "mistakes_el": [
+      "Να αναρτάς διορθωμένο χάρτη χωρίς να αφαιρείς τους παλιότερους.",
+      "Να θεωρείς ότι όλοι ξέρουν ποιο αντίγραφο είναι το τωρινό.",
+      "Να βάζεις ημερομηνία στο κύριο φύλλο αλλά όχι στα χειρόγραφα αντίγραφα."
+    ],
+    "related_topics": [
+      "Map Revision Dates and False Confidence from Old Routes",
+      "Night Log Entries with Time-Weather-Action Format",
+      "Shared Supply Key Locations, Backup Notes, and Failure When Only One Person Remembers"
+    ]
+  },
+  {
+    "id": "records::borrowed_tool_return_board_and_time_marks",
+    "topic": "Borrowed Tool Return Boards, Time Marks, and Reducing the “Who Has It?” Problem",
+    "topic_en": "Borrowed Tool Return Boards, Time Marks, and Reducing the “Who Has It?” Problem",
+    "topic_el": "Πίνακες Επιστροφής Δανεισμένων Εργαλείων, Χρονικές Σημάνσεις και Μείωση του Προβλήματος «Ποιος το Έχει;»",
+    "category": "communication_records_rebuilding_governance_history_and_resilience",
+    "subcategory": "shared_resource_tracking",
+    "tags": [
+      "records",
+      "tools",
+      "borrowing",
+      "tracking",
+      "boards"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader practical growth pass 52.",
+    "summary_en": "Shared tools disappear less when borrowing is made visible with a simple board instead of depending on vague memory and hallway conversations.",
+    "summary_el": "Τα κοινόχρηστα εργαλεία χάνονται λιγότερο όταν ο δανεισμός γίνεται ορατός με έναν απλό πίνακα αντί να εξαρτάται από αόριστη μνήμη και κουβέντες στους διαδρόμους.",
+    "content_en": "In small workshops and stressed communities, tool confusion wastes more time than many people expect. The question “Who has it?” spreads because nobody marked the last borrower, the expected return time, or whether the tool came back damaged. A simple visible board is not bureaucracy for its own sake. It reduces search time, blame, and repeated disruption. The lighter the system, the more likely people are to keep using it.",
+    "content_el": "Σε μικρά εργαστήρια και πιεσμένες κοινότητες η σύγχυση γύρω από τα εργαλεία σπαταλά περισσότερο χρόνο απ’ όσο περιμένουν πολλοί. Η ερώτηση «Ποιος το έχει;» απλώνεται επειδή κανείς δεν σημείωσε τον τελευταίο δανειζόμενο, τον αναμενόμενο χρόνο επιστροφής ή το αν το εργαλείο γύρισε χαλασμένο. Ένας απλός ορατός πίνακας δεν είναι γραφειοκρατία για τη γραφειοκρατία. Μειώνει τον χρόνο αναζήτησης, την αλληλοκατηγορία και την επαναλαμβανόμενη διακοπή. Όσο ελαφρύτερο το σύστημα, τόσο πιθανότερο είναι να συνεχίσει να χρησιμοποιείται.",
+    "steps_en": [
+      "List key shared tools on a visible board.",
+      "Mark borrower and rough expected return time.",
+      "Note damage or missing parts at return.",
+      "Clear the entry when the tool is back in place.",
+      "Review overdue or unclear items before the next work period begins."
+    ],
+    "steps_el": [
+      "Κατάγραψε τα βασικά κοινόχρηστα εργαλεία σε ορατό πίνακα.",
+      "Σημείωνε τον δανειζόμενο και τον περίπου αναμενόμενο χρόνο επιστροφής.",
+      "Σημείωνε ζημιά ή ελλείποντα μέρη κατά την επιστροφή.",
+      "Καθάριζε την εγγραφή όταν το εργαλείο επιστρέψει στη θέση του.",
+      "Έλεγχε καθυστερημένα ή ασαφή αντικείμενα πριν αρχίσει η επόμενη περίοδος εργασίας."
+    ],
+    "warnings_en": [
+      "A shared tool with no record often becomes an argument later.",
+      "Invisible small losses accumulate into real work delays.",
+      "Tracking must stay simple enough that people actually use it."
+    ],
+    "warnings_el": [
+      "Ένα κοινόχρηστο εργαλείο χωρίς καταγραφή συχνά γίνεται αργότερα αφορμή καβγά.",
+      "Οι αόρατες μικρές απώλειες συσσωρεύονται σε πραγματικές καθυστερήσεις εργασίας.",
+      "Η παρακολούθηση πρέπει να μένει αρκετά απλή ώστε ο κόσμος να τη χρησιμοποιεί πραγματικά."
+    ],
+    "mistakes_en": [
+      "Making the board too complicated to maintain.",
+      "Writing only names with no expected return time.",
+      "Ignoring repeated overdue returns because the group is used to the chaos."
+    ],
+    "mistakes_el": [
+      "Να κάνεις τον πίνακα υπερβολικά πολύπλοκο για να συντηρηθεί.",
+      "Να γράφεις μόνο ονόματα χωρίς αναμενόμενο χρόνο επιστροφής.",
+      "Να αγνοείς επαναλαμβανόμενες καθυστερημένες επιστροφές επειδή η ομάδα συνήθισε το χάος."
+    ],
+    "related_topics": [
+      "Shared Tool Borrowing, Return Discipline, and Loss Prevention",
+      "Maintenance Boards and Due-Date Visibility",
+      "Shared Supply Key Locations and Backup Notes"
+    ]
+  },
+  {
+    "id": "records::meal_board_portions_and_last_served_notices",
+    "topic": "Meal Boards, Portion Notes, and Preventing Repeated Serving Confusion in Busy Kitchens",
+    "topic_en": "Meal Boards, Portion Notes, and Preventing Repeated Serving Confusion in Busy Kitchens",
+    "topic_el": "Πίνακες Γευμάτων, Σημειώσεις Μερίδων και Πρόληψη Σύγχυσης Επαναλαμβανόμενου Σερβιρίσματος σε Απασχολημένες Κουζίνες",
+    "category": "communication_records_rebuilding_governance_history_and_resilience",
+    "subcategory": "meal_tracking_and_kitchen_records",
+    "tags": [
+      "records",
+      "meals",
+      "portions",
+      "kitchen",
+      "tracking"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Major broader growth pass 53.",
+    "summary_en": "Busy meal distribution gets messy when nobody knows what was already served, what is still left, or who has not yet eaten.",
+    "summary_el": "Η διανομή γευμάτων μπερδεύεται όταν κανείς δεν ξέρει τι έχει ήδη σερβιριστεί, τι απομένει και ποιος δεν έχει ακόμη φάει.",
+    "content_en": "A simple meal board can reduce waste, repeated servings, and arguments in crowded kitchens. Portion notes, last-served time, and a quick mark for what remains create clarity when many hands are working at once.",
+    "content_el": "Ένας απλός πίνακας γευμάτων μπορεί να μειώσει σπατάλη, επαναλαμβανόμενα σερβιρίσματα και καβγάδες σε πολυσύχναστες κουζίνες. Σημειώσεις μερίδων, ώρα τελευταίου σερβιρίσματος και μια γρήγορη ένδειξη για το τι απομένει δημιουργούν καθαρότητα όταν πολλά χέρια δουλεύουν ταυτόχρονα.",
+    "steps_en": [
+      "Use a visible board near the serving area.",
+      "Mark what meal is being served and rough portion size.",
+      "Update what remains instead of relying on memory.",
+      "Note when serving closes or when a pot is finished.",
+      "Clear the board before the next meal."
+    ],
+    "steps_el": [
+      "Χρησιμοποίησε ορατό πίνακα κοντά στον χώρο σερβιρίσματος.",
+      "Σημείωνε ποιο γεύμα σερβίρεται και το περίπου μέγεθος μερίδας.",
+      "Ενημέρωνε τι απομένει αντί να βασίζεσαι στη μνήμη.",
+      "Σημείωνε πότε κλείνει το σερβίρισμα ή πότε τελειώνει μια κατσαρόλα.",
+      "Καθάριζε τον πίνακα πριν από το επόμενο γεύμα."
+    ],
+    "warnings_en": [
+      "Kitchen confusion wastes food quietly.",
+      "Old notes can mislead as much as missing notes.",
+      "Crowded serving spaces need clearer information, not louder argument."
+    ],
+    "warnings_el": [
+      "Η σύγχυση στην κουζίνα σπαταλά αθόρυβα φαγητό.",
+      "Οι παλιές σημειώσεις μπορούν να παραπλανήσουν όσο και η απουσία σημειώσεων.",
+      "Οι πολυσύχναστοι χώροι σερβιρίσματος χρειάζονται καθαρότερη πληροφορία και όχι δυνατότερους καβγάδες."
+    ],
+    "mistakes_en": [
+      "Relying on memory during rapid serving.",
+      "Leaving yesterday’s notes where they look current.",
+      "Not marking that a pot or portion line is already finished."
+    ],
+    "mistakes_el": [
+      "Να βασίζεσαι στη μνήμη κατά το γρήγορο σερβίρισμα.",
+      "Να αφήνεις τις χθεσινές σημειώσεις εκεί όπου φαίνονται τωρινές.",
+      "Να μη σημειώνεις ότι μια κατσαρόλα ή μια γραμμή μερίδων έχει ήδη τελειώσει."
+    ],
+    "related_topics": [
+      "Meeting Close Actions and Follow-Through",
+      "Version Marks on Wall Maps and Copies",
+      "Medicine Schedule Boards and Missed-Dose Tracking"
+    ]
+  },
+  {
+    "id": "records::task_board_recheck_after_shift_change",
+    "topic": "Task Board Recheck After Shift Change, Silent Assumptions, and Why Good Handover Needs Visible Updates",
+    "topic_en": "Task Board Recheck After Shift Change, Silent Assumptions, and Why Good Handover Needs Visible Updates",
+    "topic_el": "Επανέλεγχος Πίνακα Εργασιών μετά από Αλλαγή Βάρδιας, Σιωπηρές Υποθέσεις και Γιατί η Καλή Παράδοση Χρειάζεται Ορατές Ενημερώσεις",
+    "category": "communication_records_rebuilding_governance_history_and_resilience",
+    "subcategory": "task_tracking_and_handover",
+    "tags": [
+      "records",
+      "tasks",
+      "shift change",
+      "handover",
+      "boards"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 55.",
+    "summary_en": "A task board can mislead badly after a shift change when people assume the last team already updated what was finished, delayed, or no longer possible.",
+    "summary_el": "Ένας πίνακας εργασιών μπορεί να παραπλανήσει σοβαρά μετά από αλλαγή βάρδιας όταν οι άνθρωποι υποθέτουν ότι η προηγούμενη ομάδα έχει ήδη ενημερώσει τι τελείωσε, τι καθυστέρησε ή τι δεν είναι πλέον δυνατό.",
+    "content_en": "Shift change creates a dangerous gap between what is true and what is still written. If the board is not rechecked, tasks get duplicated, skipped, or trusted long after conditions changed. A quick visible update after handover is often more useful than a long vague verbal recap.",
+    "content_el": "Η αλλαγή βάρδιας δημιουργεί επικίνδυνο κενό ανάμεσα σε αυτό που είναι αληθινό και σε αυτό που παραμένει γραμμένο. Αν ο πίνακας δεν ξαναελεγχθεί, οι εργασίες διπλασιάζονται, χάνονται ή θεωρούνται έγκυρες πολύ μετά την αλλαγή των συνθηκών. Μια γρήγορη ορατή ενημέρωση μετά την παράδοση είναι συχνά πιο χρήσιμη από μια μεγάλη αόριστη προφορική ανακεφαλαίωση.",
+    "steps_en": [
+      "Review the board together at handover time.",
+      "Mark finished, delayed, blocked, or reassigned items clearly.",
+      "Remove or correct stale tasks that no longer match conditions.",
+      "Avoid relying on memory of what the previous team probably did.",
+      "Make the visible board match actual next priorities before people disperse."
+    ],
+    "steps_el": [
+      "Έλεγχε τον πίνακα μαζί την ώρα της παράδοσης.",
+      "Σημείωνε καθαρά ολοκληρωμένες, καθυστερημένες, μπλοκαρισμένες ή επανανατεθειμένες εργασίες.",
+      "Αφαίρεσε ή διόρθωνε παλιές εργασίες που δεν ταιριάζουν πια στις συνθήκες.",
+      "Απόφυγε να βασίζεσαι στη μνήμη του τι μάλλον έκανε η προηγούμενη ομάδα.",
+      "Κάνε τον ορατό πίνακα να ταιριάζει με τις πραγματικές επόμενες προτεραιότητες πριν διασκορπιστεί ο κόσμος."
+    ],
+    "warnings_en": [
+      "A clean-looking board is not proof it is current.",
+      "Verbal handover without visible update leaves room for drift.",
+      "Small stale tasks can become big misses when conditions are changing fast."
+    ],
+    "warnings_el": [
+      "Ένας καθαρός πίνακας δεν αποδεικνύει ότι είναι και τωρινός.",
+      "Η προφορική παράδοση χωρίς ορατή ενημέρωση αφήνει χώρο για απόκλιση.",
+      "Μικρές παλιές εργασίες μπορούν να γίνουν μεγάλες παραλείψεις όταν οι συνθήκες αλλάζουν γρήγορα."
+    ],
+    "mistakes_en": [
+      "Assuming the board was already updated by someone else.",
+      "Leaving blocked tasks in place without marking the problem.",
+      "Starting new work before checking whether the visible priorities are still true."
+    ],
+    "mistakes_el": [
+      "Να υποθέτεις ότι ο πίνακας έχει ήδη ενημερωθεί από κάποιον άλλο.",
+      "Να αφήνεις μπλοκαρισμένες εργασίες στη θέση τους χωρίς να σημειώνεις το πρόβλημα.",
+      "Να αρχίζεις νέα δουλειά πριν ελέγξεις αν οι ορατές προτεραιότητες είναι ακόμη αληθινές."
+    ],
+    "related_topics": [
+      "Meeting Close Actions and Follow-Through",
+      "Borrowed Tool Return Boards and Time Marks",
+      "Maintenance Boards and Due-Date Visibility"
+    ]
   }
 ]
