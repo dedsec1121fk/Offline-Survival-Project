@@ -1,0 +1,20 @@
+Focused Growth Pass 70
+
+Targeted file:
+- food_agriculture_psychology_planning_and_daily_operations.json
+
+Work completed:
+- Fixed the one obvious remaining English leakage found by the prior heuristic:
+  - psych::one_must_do_two_optional_low_morale_lists -> mistakes_el[0] "backlog" -> "εκκρεμότητες"
+- Added 6 practical growth topics to the smallest large JSON:
+  - storage::flour_sack_wall_contact_and_corner_dampness
+  - recipe::two_stage_pot_and_second_meal_conversion
+  - psych::small_restart_tasks_after_failed_day
+  - garden::washed_vs_unwashed_root_storage_decisions
+  - garden::seed_label_rewrite_after_rain_smear
+  - carry::mid_route_setdown_points_for_repeated_loads
+
+Primary goal:
+- keep growing the smallest of the 3 large JSON files
+- preserve the cleaned Greek state
+- preserve useful content and the current UI/app structure

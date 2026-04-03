@@ -1,0 +1,5 @@
+Major regrouping and broader growth pass 65
+
+Regrouped the database into 3 larger domain JSON files so all JSONs sit approximately within the 9–11 MB target range instead of leaving many weak tiny files.
+Added 12 new practical topics across water handling, public weather signals, shelter drip sleep protection, well rope maintenance, splint rechecks, ladder rung checks, wall damp-vs-crack reading, finger numbness after repetitive grip, shared breakfast before labor, seed trade records, buddy task starts, and stew reduction into a second meal.
+README updated to reflect the current database layout.

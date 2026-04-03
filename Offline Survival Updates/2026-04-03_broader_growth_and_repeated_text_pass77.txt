@@ -1,0 +1,14 @@
+Offline Survival broader growth and repeated-text audit pass.
+
+What this pass did:
+- Added a broader practical topic batch across all 3 large JSON files.
+- Focused on water handling, shelter runoff, fire-area order, hand injury, lift strain,
+  edge safety, rope-burn care, eye strain, porridge texture, harvest shade staging,
+  work-start coordination, notebook date clarity, and bread reuse/spoilage judgment.
+- Preserved the 3-file structure, browser UI, terminal UI, and cleaned Greek state.
+
+Repeated-text audit:
+- Rechecked duplicate IDs and duplicate topic titles.
+- Rechecked exact duplicate content groups using normalized content hashes.
+- Rechecked repeated list items inside entries.
+- No exact duplicate IDs or duplicate topic titles were introduced in this pass.
