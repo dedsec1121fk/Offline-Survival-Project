@@ -814,7 +814,7 @@
     "summary_en": "Wet grain is a race against heat, clumping, and mold. Rescue depends on speed, airflow, shallow layers, and repeated rechecks.",
     "summary_el": "Τα βρεγμένα σιτηρά είναι αγώνας απέναντι στη θερμότητα, στη συσσωμάτωση και στη μούχλα. Η διάσωση εξαρτάται από ταχύτητα, αερισμό, ρηχές στρώσεις και επαναλαμβανόμενους ελέγχους.",
     "content_en": "Stored grain that takes on water can spoil quietly from the inside. Heat buildup, sour odor, sticky clumps, and damp pockets are warning signs that drying is too slow or uneven. The first response is not blind faith in one hot day. The first response is shallow spreading, regular turning, and checking whether the center stays wet while the top looks acceptable.\n\nRecovery is practical only when people watch the whole batch, not just the surface. If the smell turns wrong, heat rises, or clumps keep reforming, the batch may be moving toward discard instead of recovery. Early honesty protects the rest of the storage system.",
-    "content_el": "Τα αποθηκευμένα σιτηρά που βρέχονται μπορούν να χαλάσουν αθόρυβα από μέσα. Η συσσώρευση θερμότητας, η ξινή οσμή, οι κολλώδεις συσσωματώσεις και οι υγρές τσέπες είναι σημάδια ότι η ξήρανση είναι πολύ αργή ή άνιση. Η πρώτη αντίδραση δεν είναι τυφλή πίστη σε μία ζεστή μέρα. Η πρώτη αντίδραση είναι ρηχό άπλωμα, τακτική αναστροφή και έλεγχος αν ο πυρήνας μένει υγρός ενώ η επιφάνεια δείχνει ανεκτή.\n\nΗ διάσωση είναι πρακτική μόνο όταν παρακολουθείται όλη η παρτίδα και όχι μόνο η επιφάνεια. Αν η μυρωδιά χαλάει, η θερμότητα ανεβαίνει ή οι συσσωματώσεις ξαναγίνονται συνεχώς, η παρτίδα μπορεί να κινείται προς απόρριψη και όχι προς ανάκτηση. Η έγκαιρη ειλικρίνεια προστατεύει το υπόλοιπο σύστημα αποθήκευσης.",
+    "content_el": "Τα αποθηκευμένα σιτηρά που βρέχονται μπορούν να χαλάσουν αθόρυβα από μέσα. Η συσσώρευση θερμότητας, η ξινή οσμή, οι κολλώδεις συσσωματώσεις και οι υγρές τσέπες είναι σημάδια ότι η ξήρανση είναι πολύ αργή ή άνιση. Η πρώτη αντίδραση δεν είναι τυφλή πίστη σε μία ζεστή μέρα. Η πρώτη αντίδραση είναι ρηχό άπλωμα, τακτική αναστροφή και έλεγχος αν ο πυρήνας μένει υγρός ενώ η επιφάνεια δείχνει ανεκτή. Η διάσωση είναι πρακτική μόνο όταν παρακολουθείται όλη η παρτίδα και όχι μόνο η επιφάνεια. Αν η μυρωδιά χαλάει, η θερμότητα ανεβαίνει ή οι συσσωματώσεις ξαναγίνονται συνεχώς, η παρτίδα μπορεί να κινείται προς απόρριψη και όχι προς ανάκτηση. Η έγκαιρη ειλικρίνεια προστατεύει το υπόλοιπο σύστημα αποθήκευσης.",
     "steps_en": [
       "Spread grain in shallow layers.",
       "Turn it on a schedule rather than only when remembered.",
@@ -834,9 +834,17 @@
       "Dry Bean Sorting, Worm Damage, and Long Storage Checks"
     ],
     "warnings_en": [],
-    "warnings_el": [],
+    "warnings_el": [
+      "Το μούχλιασμα μπορεί να αρχίσει πριν γίνει ορατό από μακριά.",
+      "Τα παχιά στρώματα στεγνώνουν άνισα και κρύβουν υγρές τσέπες.",
+      "Η βιαστική επαναποθήκευση χαλά ολόκληρη την παρτίδα."
+    ],
     "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_el": [
+      "Να αφήνεις το σιτάρι ακίνητο για πολλές ώρες.",
+      "Να κρίνεις το στέγνωμα μόνο από την επάνω επιφάνεια.",
+      "Να ανακατεύεις καθαρά ξηρό σιτάρι με αμφίβολο υγρό σιτάρι."
+    ],
     "materials_en": [],
     "materials_el": [],
     "alternatives_en": [],
@@ -876,18 +884,30 @@
     "summary_en": "Animals often show decline first through intake change. A quiet drop in water use can matter before louder signs appear.",
     "summary_el": "Τα ζώα συχνά δείχνουν επιδείνωση πρώτα μέσα από αλλαγή στην πρόσληψη. Μια ήσυχη πτώση στο νερό που πίνουν μπορεί να μετρά πριν εμφανιστούν πιο θορυβώδη σημάδια.",
     "content_en": "Livestock problems are easier to catch early when people pay attention to ordinary rhythms: who approaches water, who hangs back, who drinks less, and who stops competing in a normal way. A decline in intake may reflect heat strain, illness, water quality trouble, pain, or stress from movement and crowding.\n\nThe practical rule is to compare today with the animal’s ordinary pattern instead of waiting for collapse. Quiet changes in water use, posture, pace, and interest often appear before the more dramatic signs that everyone notices. Early separation, cleaner water, shade, and closer watching can matter a great deal.",
-    "content_el": "Τα προβλήματα στα ζώα εκτροφής εντοπίζονται ευκολότερα νωρίς όταν οι άνθρωποι προσέχουν τους συνηθισμένους ρυθμούς: ποιο ζώο πλησιάζει στο νερό, ποιο μένει πίσω, ποιο πίνει λιγότερο και ποιο σταματά να συναγωνίζεται φυσιολογικά. Η πτώση στην πρόσληψη μπορεί να σχετίζεται με θερμική καταπόνηση, ασθένεια, πρόβλημα ποιότητας νερού, πόνο ή στρες από μετακίνηση και συνωστισμό.\n\nΟ πρακτικός κανόνας είναι να συγκρίνεις το σήμερα με το συνηθισμένο μοτίβο του ζώου αντί να περιμένεις την κατάρρευση. Ήσυχες αλλαγές στη χρήση νερού, στη στάση σώματος, στον ρυθμό και στο ενδιαφέρον εμφανίζονται συχνά πριν από τα πιο θεαματικά σημάδια που βλέπουν όλοι. Ο έγκαιρος διαχωρισμός, το καθαρότερο νερό, η σκιά και η στενότερη παρακολούθηση μπορούν να έχουν μεγάλη σημασία.",
+    "content_el": "Τα προβλήματα στα ζώα εκτροφής εντοπίζονται ευκολότερα νωρίς όταν οι άνθρωποι προσέχουν τους συνηθισμένους ρυθμούς: ποιο ζώο πλησιάζει στο νερό, ποιο μένει πίσω, ποιο πίνει λιγότερο και ποιο σταματά να συναγωνίζεται φυσιολογικά. Η πτώση στην πρόσληψη μπορεί να σχετίζεται με θερμική καταπόνηση, ασθένεια, πρόβλημα ποιότητας νερού, πόνο ή στρες από μετακίνηση και συνωστισμό. Ο πρακτικός κανόνας είναι να συγκρίνεις το σήμερα με το συνηθισμένο μοτίβο του ζώου αντί να περιμένεις την κατάρρευση. Ήσυχες αλλαγές στη χρήση νερού, στη στάση σώματος, στον ρυθμό και στο ενδιαφέρον εμφανίζονται συχνά πριν από τα πιο θεαματικά σημάδια που βλέπουν όλοι. Ο έγκαιρος διαχωρισμός, το καθαρότερο νερό, η σκιά και η στενότερη παρακολούθηση μπορούν να έχουν μεγάλη σημασία.",
     "related_topics": [
       "Goat Watering and Heat Management",
       "Chicken Respiratory/Isolation Basics",
       "Rabbit Heat Stress"
     ],
     "steps_en": [],
-    "steps_el": [],
+    "steps_el": [
+      "Παρακολούθησε ποια ζώα πλησιάζουν το νερό αλλά πίνουν λίγο ή καθόλου.",
+      "Έλεγξε καθαριότητα γούρνας, θερμοκρασία νερού και πίεση από πιο δυνατά ζώα.",
+      "Σύγκρινε τη συμπεριφορά λήψης νερού μέσα στη μέρα και όχι μόνο σε μία στιγμή."
+    ],
     "warnings_en": [],
-    "warnings_el": [],
+    "warnings_el": [
+      "Η μειωμένη πρόσληψη νερού είναι πρώιμο προειδοποιητικό σημάδι.",
+      "Η ζέστη μπορεί να μετατρέψει μικρή πτώση πρόσληψης σε γρήγορη επιδείνωση.",
+      "Η βρώμικη γούρνα μπορεί να μοιάζει με ασθένεια ενώ το πρόβλημα είναι πρόσβαση ή καθαριότητα."
+    ],
     "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_el": [
+      "Να κοιτάς μόνο αν υπάρχει νερό και όχι αν πράγματι πίνουν.",
+      "Να θεωρείς ότι το πιο δυνατό ζώο αντιπροσωπεύει όλη την ομάδα.",
+      "Να περιμένεις εμφανή κατάρρευση πριν διορθώσεις καθαριότητα και πρόσβαση."
+    ],
     "materials_en": [],
     "materials_el": [],
     "alternatives_en": [],
@@ -927,7 +947,7 @@
     "summary_en": "A coop can look normal by daylight while overnight crowding, stale air, or disturbance already weakened the birds.",
     "summary_el": "Ένα κοτέτσι μπορεί να δείχνει φυσιολογικό στο φως της μέρας ενώ ο νυχτερινός συνωστισμός, ο στάσιμος αέρας ή η αναστάτωση έχουν ήδη αποδυναμώσει τα πουλιά.",
     "content_en": "Bird problems often reveal themselves at the transition between night and morning. Air that smelled merely stale at dusk can become heavier by dawn. Disturbed birds may leave new droppings in unusual places, show poor roost order, or wake more agitated than expected. A quiet pre-dawn check gives a clearer picture than waiting until full daytime activity hides the pattern.\n\nThe useful lesson is that some livestock clues are best seen before normal movement begins. Air, spacing, calm, and overnight disturbance all leave early traces.",
-    "content_el": "Τα προβλήματα στα πουλιά συχνά αποκαλύπτονται στο πέρασμα από τη νύχτα στο πρωί. Ο αέρας που μύριζε απλώς στάσιμος το σούρουπο μπορεί να γίνει βαρύτερος μέχρι την αυγή. Πουλιά που αναστατώθηκαν μπορεί να αφήσουν νέα περιττώματα σε ασυνήθιστα σημεία, να δείχνουν κακή σειρά στις κούρνιες ή να ξυπνούν πιο ανήσυχα απ’ όσο αναμένεται. Ένας ήσυχος έλεγχος πριν ξημερώσει δίνει καθαρότερη εικόνα από το να περιμένεις τη μέρα όταν η κανονική δραστηριότητα κρύβει το μοτίβο.\n\nΤο χρήσιμο μάθημα είναι ότι ορισμένες ενδείξεις ζώων φαίνονται καλύτερα πριν αρχίσει η φυσιολογική κίνηση. Ο αέρας, η απόσταση, η ηρεμία και η νυχτερινή αναστάτωση αφήνουν πρώιμα ίχνη.",
+    "content_el": "Τα προβλήματα στα πουλιά συχνά αποκαλύπτονται στο πέρασμα από τη νύχτα στο πρωί. Ο αέρας που μύριζε απλώς στάσιμος το σούρουπο μπορεί να γίνει βαρύτερος μέχρι την αυγή. Πουλιά που αναστατώθηκαν μπορεί να αφήσουν νέα περιττώματα σε ασυνήθιστα σημεία, να δείχνουν κακή σειρά στις κούρνιες ή να ξυπνούν πιο ανήσυχα απ’ όσο αναμένεται. Ένας ήσυχος έλεγχος πριν ξημερώσει δίνει καθαρότερη εικόνα από το να περιμένεις τη μέρα όταν η κανονική δραστηριότητα κρύβει το μοτίβο. Το χρήσιμο μάθημα είναι ότι ορισμένες ενδείξεις ζώων φαίνονται καλύτερα πριν αρχίσει η φυσιολογική κίνηση. Ο αέρας, η απόσταση, η ηρεμία και η νυχτερινή αναστάτωση αφήνουν πρώιμα ίχνη.",
     "related_topics": [
       "Chicken Roost Spacing and Dirty-Air Buildup",
       "Chicken Respiratory/Isolation Basics"
@@ -935,11 +955,23 @@
     "materials_en": [],
     "materials_el": [],
     "steps_en": [],
-    "steps_el": [],
+    "steps_el": [
+      "Άκου το κοτέτσι πριν ξημερώσει για ασυνήθιστη σιωπή, απότομη αναστάτωση ή βαριά αναπνοή.",
+      "Έλεγξε αέρα, υγρασία, στρωμνή και σημάδια νυχτερινής ενόχλησης.",
+      "Σύγκρινε το πρωινό μοτίβο με τις προηγούμενες μέρες ώστε να εντοπίσεις αλλαγές νωρίς."
+    ],
     "warnings_en": [],
-    "warnings_el": [],
+    "warnings_el": [
+      "Η πολύ ήσυχη συμπεριφορά μπορεί να δείχνει πρόβλημα και όχι ηρεμία.",
+      "Ο βαρύς αέρας μέσα στο κοτέτσι χειροτερεύει γρήγορα την κατάσταση.",
+      "Μικρές νυχτερινές ενοχλήσεις αφήνουν ίχνη μόνο αν ελεγχθούν νωρίς."
+    ],
     "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_el": [
+      "Να ελέγχεις μόνο μετά το πλήρες ξημέρωμα.",
+      "Να αγνοείς διαφορές στην αναπνοή ή στον ήχο του κοπαδιού.",
+      "Να παραλείπεις τον έλεγχο στρωμνής και αερισμού όταν όλα φαίνονται εξωτερικά ήσυχα."
+    ],
     "alternatives_en": [],
     "alternatives_el": [],
     "failure_signs_en": [],
@@ -977,7 +1009,7 @@
     "summary_en": "Mulch saves moisture well, but when it is packed against the stem it can trap rot where the plant is weakest.",
     "summary_el": "Η εδαφοκάλυψη κρατά καλά την υγρασία, αλλά όταν πιέζεται πάνω στον βλαστό μπορεί να παγιδεύσει σήψη εκεί όπου το φυτό είναι πιο αδύναμο.",
     "content_en": "Mulch improves gardens by slowing evaporation, moderating soil temperature, and reducing weed pressure. But a helpful blanket becomes a problem when it is piled directly onto the stem or trunk of a young plant. That zone needs air and observation, not constant damp cover.\n\nA practical ring leaves a small clear area at the stem, then builds moisture-saving cover farther outward. This simple spacing reduces hidden rot risk while keeping most of mulch’s benefit.",
-    "content_el": "Η εδαφοκάλυψη βελτιώνει τους κήπους επειδή επιβραδύνει την εξάτμιση, μετριάζει τη θερμοκρασία του εδάφους και μειώνει την πίεση από ζιζάνια. Όμως ένα χρήσιμο «πάπλωμα» γίνεται πρόβλημα όταν στοιβάζεται κατευθείαν πάνω στον βλαστό ή στον κορμό ενός νεαρού φυτού. Εκείνη η ζώνη χρειάζεται αέρα και παρατήρηση και όχι μόνιμο υγρό κάλυμμα.\n\nΈνας πρακτικός δακτύλιος αφήνει μικρή καθαρή περιοχή γύρω από τον βλαστό και χτίζει την εδαφοκάλυψη πιο έξω. Αυτή η απλή απόσταση μειώνει τον κρυφό κίνδυνο σήψης ενώ κρατά τα περισσότερα οφέλη της εδαφοκάλυψης.",
+    "content_el": "Η εδαφοκάλυψη βελτιώνει τους κήπους επειδή επιβραδύνει την εξάτμιση, μετριάζει τη θερμοκρασία του εδάφους και μειώνει την πίεση από ζιζάνια. Όμως ένα χρήσιμο «πάπλωμα» γίνεται πρόβλημα όταν στοιβάζεται κατευθείαν πάνω στον βλαστό ή στον κορμό ενός νεαρού φυτού. Εκείνη η ζώνη χρειάζεται αέρα και παρατήρηση και όχι μόνιμο υγρό κάλυμμα. Ένας πρακτικός δακτύλιος αφήνει μικρή καθαρή περιοχή γύρω από τον βλαστό και χτίζει την εδαφοκάλυψη πιο έξω. Αυτή η απλή απόσταση μειώνει τον κρυφό κίνδυνο σήψης ενώ κρατά τα περισσότερα οφέλη της εδαφοκάλυψης.",
     "related_topics": [
       "Small-Space Growing and Water Efficiency",
       "Garden Silt After Flood and Replant Decisions"
@@ -985,11 +1017,23 @@
     "materials_en": [],
     "materials_el": [],
     "steps_en": [],
-    "steps_el": [],
+    "steps_el": [
+      "Άφηνε καθαρό κύκλο γύρω από το στέλεχος ώστε το στρώμα να μη μένει κολλημένο πάνω του.",
+      "Έλεγχε συχνά για υγρασία, μαλάκωμα ή αποχρωματισμό στη βάση του φυτού.",
+      "Ανανέωνε το στρώμα έτσι ώστε να κρατά υγρασία στο έδαφος αλλά αέρα γύρω από το στέλεχος."
+    ],
     "warnings_en": [],
-    "warnings_el": [],
+    "warnings_el": [
+      "Το στρώμα που ακουμπά συνεχώς τον κορμό ή το στέλεχος ευνοεί σήψη.",
+      "Η υπερβολική υγρασία κοντά στη βάση φαίνεται αργά αλλά κοστίζει γρήγορα.",
+      "Το καλό στρώμα εδάφους μπορεί να γίνει κακό στρώμα στελέχους."
+    ],
     "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_el": [
+      "Να συσσωρεύεις υλικό κατευθείαν πάνω στο στέλεχος.",
+      "Να θεωρείς ότι περισσότερο στρώμα είναι πάντα καλύτερο.",
+      "Να αγνοείς μικρά σημάδια μαλακώματος στη βάση του φυτού."
+    ],
     "alternatives_en": [],
     "alternatives_el": [],
     "failure_signs_en": [],
@@ -1135,6 +1179,195 @@
       "Animal Trough Cleaning, Algae, and Mosquitoes",
       "Rabbit Heat Stress",
       "Chicken Roost Spacing and Dirty-Air Buildup"
+    ]
+  },
+  {
+    "id": "garden::seed_packet_sun_fade_label_rewrite",
+    "topic": "Seed Packet Sun Fade, Label Rewrites, and Identity Loss in Storage",
+    "topic_en": "Seed Packet Sun Fade, Label Rewrites, and Identity Loss in Storage",
+    "topic_el": "Ξεθώριασμα Συσκευασιών Σπόρων από Ήλιο, Επαναγραφή Ετικετών και Απώλεια Ταυτότητας στην Αποθήκευση",
+    "category": "agriculture_livestock_gardens_and_storage",
+    "subcategory": "seed_storage_and_identity_tracking",
+    "tags": [
+      "seeds",
+      "labels",
+      "storage",
+      "sun fade",
+      "identity"
+    ],
+    "priority": "medium",
+    "urgency": "low",
+    "difficulty": "low",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 34.",
+    "summary_en": "Seed loss often happens on paper before it happens in the field. A faded packet or smudged jar can erase variety, age, and planting confidence.",
+    "summary_el": "Η απώλεια σπόρου συχνά συμβαίνει πρώτα στο χαρτί και μετά στο χωράφι. Ένα ξεθωριασμένο φακελάκι ή ένα θολωμένο βάζο μπορεί να σβήσει ποικιλία, ηλικία και βεβαιότητα φύτευσης.",
+    "content_en": "Seeds that remain physically present but lose identity become unreliable stock. If labels fade in sun, ink runs with dampness, or jars are moved without rewrite discipline, later planting decisions turn into guessing. That wastes garden space and can mix early and late crops or edible and non-preferred varieties. Better storage means darker placement, duplicate labels, quick rewrite when marks weaken, and keeping age and source visible enough that future planting choices still make sense.",
+    "content_el": "Οι σπόροι που παραμένουν φυσικά παρόντες αλλά χάνουν ταυτότητα γίνονται αναξιόπιστο απόθεμα. Αν οι ετικέτες ξεθωριάζουν στον ήλιο, το μελάνι τρέχει από υγρασία ή τα βάζα μετακινούνται χωρίς πειθαρχία επαναγραφής, οι μεταγενέστερες αποφάσεις φύτευσης γίνονται μαντεψιά. Αυτό σπαταλά χώρο κήπου και μπορεί να ανακατέψει πρώιμες και όψιμες καλλιέργειες ή βρώσιμες και μη προτιμώμενες ποικιλίες. Καλύτερη αποθήκευση σημαίνει πιο σκοτεινή τοποθέτηση, διπλές ετικέτες, γρήγορη επαναγραφή όταν αδυνατίζουν τα σημάδια και διατήρηση ηλικίας και προέλευσης αρκετά ορατών ώστε οι μελλοντικές επιλογές φύτευσης να συνεχίζουν να βγάζουν νόημα.",
+    "steps_en": [
+      "Keep seed labels out of direct sun and repeated damp handling.",
+      "Use backup labeling inside or beside the main container.",
+      "Rewrite as soon as names, dates, or variety notes begin fading.",
+      "Keep source year or harvest season visible when known.",
+      "Do not mix unlabeled leftovers into trusted seed stock."
+    ],
+    "steps_el": [
+      "Κράτα τις ετικέτες σπόρων μακριά από άμεσο ήλιο και επαναλαμβανόμενο υγρό χειρισμό.",
+      "Χρησιμοποίησε εφεδρική σήμανση μέσα ή δίπλα στο κύριο δοχείο.",
+      "Ξαναγράφε μόλις αρχίσουν να ξεθωριάζουν όνομα, ημερομηνία ή σημειώσεις ποικιλίας.",
+      "Κράτα ορατό το έτος προέλευσης ή τη σεζόν συγκομιδής όταν είναι γνωστά.",
+      "Μην ανακατεύεις ασημείωτα υπολείμματα με έμπιστο απόθεμα σπόρου."
+    ],
+    "warnings_en": [
+      "Unknown seed identity wastes time and land.",
+      "Sun and dampness destroy labels faster than people expect.",
+      "A jar with no clear date becomes a false promise later."
+    ],
+    "warnings_el": [
+      "Η άγνωστη ταυτότητα σπόρου σπαταλά χρόνο και γη.",
+      "Ήλιος και υγρασία καταστρέφουν τις ετικέτες γρηγορότερα απ’ όσο περιμένει ο κόσμος.",
+      "Ένα βάζο χωρίς καθαρή ημερομηνία γίνεται αργότερα ψεύτικη υπόσχεση."
+    ],
+    "mistakes_en": [
+      "Trusting memory for variety names.",
+      "Keeping only one exterior label.",
+      "Waiting until planting day to sort out faded packets."
+    ],
+    "mistakes_el": [
+      "Να εμπιστεύεσαι τη μνήμη για ονόματα ποικιλιών.",
+      "Να κρατάς μόνο μία εξωτερική ετικέτα.",
+      "Να περιμένεις τη μέρα φύτευσης για να ξεδιαλύνεις ξεθωριασμένα φακελάκια."
+    ],
+    "related_topics": [
+      "Seed Germination Testing, Weak Sprout Signs, and Replant Decisions",
+      "Stored-Seed Smell and Moisture Checks",
+      "Planting Calendars"
+    ]
+  },
+  {
+    "id": "livestock::root_cellar_rodent_gnaw_marks",
+    "topic": "Root Cellar Rodent Gnaw Marks, Sack Bottom Checks, and Quiet Loss Prevention",
+    "topic_en": "Root Cellar Rodent Gnaw Marks, Sack Bottom Checks, and Quiet Loss Prevention",
+    "topic_el": "Σημάδια Ροκανίσματος σε Ριζοκελάρι, Έλεγχοι Πάτου Σακιών και Ήσυχη Πρόληψη Απωλειών",
+    "category": "agriculture_livestock_gardens_and_storage",
+    "subcategory": "storage_loss_and_pest_damage",
+    "tags": [
+      "root cellar",
+      "rodents",
+      "sacks",
+      "storage",
+      "loss prevention"
+    ],
+    "priority": "high",
+    "urgency": "medium",
+    "difficulty": "medium",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 49.",
+    "summary_en": "Rodent loss in storage is often discovered too late because attention stays on the top layer while the real damage begins underneath or behind sacks.",
+    "summary_el": "Η απώλεια από τρωκτικά στην αποθήκευση ανακαλύπτεται συχνά πολύ αργά γιατί η προσοχή μένει στο πάνω στρώμα ενώ η πραγματική ζημιά αρχίζει κάτω ή πίσω από τα σακιά.",
+    "content_en": "A root cellar or cool storage room can look orderly while quiet losses keep growing in hidden places. Rodents chew sack bottoms, widen tiny access points, leave dust-like frass, and scatter small food losses that people dismiss as random mess. The danger is not only reduced stock. Gnawing, contamination, and hidden moisture together can turn a limited storage system into a slow leak. Better inspection means checking behind stacks, under sacks, and along corners where signs stay out of sight unless someone deliberately looks low and close.",
+    "content_el": "Ένα ριζοκελάρι ή ένα δροσερό δωμάτιο αποθήκευσης μπορεί να φαίνεται τακτοποιημένο ενώ οι ήσυχες απώλειες μεγαλώνουν σε κρυφά σημεία. Τα τρωκτικά ροκανίζουν τον πάτο των σακιών, ανοίγουν μικρές εισόδους, αφήνουν σκόνη από περιττώματα και σκορπίζουν μικρές απώλειες τροφής που ο κόσμος απορρίπτει ως τυχαία ακαταστασία. Ο κίνδυνος δεν είναι μόνο το μειωμένο απόθεμα. Το ροκάνισμα, η ρύπανση και η κρυφή υγρασία μαζί μπορούν να μετατρέψουν ένα περιορισμένο σύστημα αποθήκευσης σε αργή διαρροή. Καλύτερη επιθεώρηση σημαίνει να ελέγχεις πίσω από στοίβες, κάτω από σακιά και κατά μήκος γωνιών όπου τα σημάδια μένουν αόρατα αν δεν κοιτάξει κάποιος χαμηλά και προσεκτικά.",
+    "steps_en": [
+      "Inspect low corners, sack bottoms, and hidden wall edges regularly.",
+      "Lift or shift stored bags enough to see what collects underneath.",
+      "Separate damaged stock before the loss spreads or contamination mixes.",
+      "Reduce hiding spaces where practical rather than only setting traps.",
+      "Track repeat gnaw points to find the true entry path."
+    ],
+    "steps_el": [
+      "Έλεγχε τακτικά χαμηλές γωνίες, πάτους σακιών και κρυφές ακμές τοίχων.",
+      "Σήκωνε ή μετακινούσε αρκετά τα αποθηκευμένα σακιά ώστε να φαίνεται τι μαζεύεται από κάτω.",
+      "Χώριζε το χαλασμένο απόθεμα πριν απλωθεί η απώλεια ή αναμειχθεί η ρύπανση.",
+      "Μείωνε τα κρυψώνες όπου είναι πρακτικό αντί να βασίζεσαι μόνο σε παγίδες.",
+      "Παρακολούθησε επαναλαμβανόμενα σημεία ροκανίσματος για να βρεις την πραγματική διαδρομή εισόδου."
+    ],
+    "warnings_en": [
+      "Small repeated losses become large losses quietly.",
+      "Rodent contamination matters even when the visible quantity lost seems minor.",
+      "A clean-looking top layer can hide bad lower damage."
+    ],
+    "warnings_el": [
+      "Οι μικρές επαναλαμβανόμενες απώλειες γίνονται μεγάλες απώλειες αθόρυβα.",
+      "Η ρύπανση από τρωκτικά μετρά ακόμη κι όταν η ορατή ποσότητα που χάθηκε φαίνεται μικρή.",
+      "Ένα καθαρό πάνω στρώμα μπορεί να κρύβει σοβαρή ζημιά χαμηλότερα."
+    ],
+    "mistakes_en": [
+      "Checking only what is easy to see.",
+      "Leaving torn sacks in the same stack because the hole seems small.",
+      "Treating every sign as random instead of mapping a pattern."
+    ],
+    "mistakes_el": [
+      "Να ελέγχεις μόνο ό,τι φαίνεται εύκολα.",
+      "Να αφήνεις σκισμένα σακιά στην ίδια στοίβα επειδή η τρύπα φαίνεται μικρή.",
+      "Να αντιμετωπίζεις κάθε σημάδι ως τυχαίο αντί να χαρτογραφείς μοτίβο."
+    ],
+    "related_topics": [
+      "Dry Bean Sorting, Worm Damage, and Long Storage Checks",
+      "Stored-Seed Smell and Moisture Checks",
+      "Pantry Rotation, Opened-Container Rules, and Shelf Discipline"
+    ]
+  },
+  {
+    "id": "garden::seed_tray_frost_cloth_lift_timing",
+    "topic": "Seed Tray Frost Cloth Lift Timing, Morning Sun, and Overheat-by-Noon Risk",
+    "topic_en": "Seed Tray Frost Cloth Lift Timing, Morning Sun, and Overheat-by-Noon Risk",
+    "topic_el": "Χρονισμός Σηκώματος Πανιού Παγετού σε Δίσκους Σποράς, Πρωινός Ήλιος και Κίνδυνος Υπερθέρμανσης μέχρι το Μεσημέρι",
+    "category": "agriculture_livestock_gardens_and_storage",
+    "subcategory": "seedling_protection_and_temperature_timing",
+    "tags": [
+      "seed trays",
+      "frost cloth",
+      "sun",
+      "overheat",
+      "seedlings"
+    ],
+    "priority": "medium",
+    "urgency": "medium",
+    "difficulty": "medium",
+    "last_updated": "2026-04-03",
+    "update_note": "Broader growth pass 49.",
+    "summary_en": "Protection that saves seedlings at dawn can overheat them later the same day if it stays on too long.",
+    "summary_el": "Η προστασία που σώζει τα σπορόφυτα την αυγή μπορεί να τα υπερθερμάνει αργότερα την ίδια μέρα αν μείνει πάνω τους για πολλή ώρα.",
+    "content_en": "Cold-night protection is only half the job. After sunrise, the same cloth or cover that prevented frost can trap warmth too efficiently, especially over trays that heat quickly. Small seedlings do not need dramatic failure to suffer. Soft collapse, pale wilt, and slowed recovery can all follow poor timing. Better practice is to watch morning light, air movement, and tray temperature together, then lift, fold back, or vent the cover before gentle protection turns into midday stress.",
+    "content_el": "Η προστασία της κρύας νύχτας είναι μόνο η μισή δουλειά. Μετά την ανατολή, το ίδιο πανί ή κάλυμμα που απέτρεψε τον παγετό μπορεί να παγιδεύσει τη ζέστη υπερβολικά, ιδιαίτερα πάνω από δίσκους που θερμαίνονται γρήγορα. Τα μικρά σπορόφυτα δεν χρειάζονται θεαματική αποτυχία για να υποφέρουν. Μαλάκωμα, χλωμή μάρανση και αργή ανάκαμψη μπορούν όλα να ακολουθήσουν κακό χρονισμό. Καλύτερη πρακτική είναι να παρακολουθείς μαζί πρωινό φως, κίνηση αέρα και θερμοκρασία δίσκου και έπειτα να σηκώνεις, να διπλώνεις πίσω ή να αερίζεις το κάλυμμα πριν η ήπια προστασία γίνει μεσημεριανό στρες.",
+    "steps_en": [
+      "Check trays soon after sunrise instead of waiting for obvious wilt.",
+      "Lift or vent the cloth in stages as light and temperature rise.",
+      "Compare covered and uncovered tray warmth by touch where practical.",
+      "Watch the most sun-exposed trays first.",
+      "Reset the cloth again before evening cold returns."
+    ],
+    "steps_el": [
+      "Έλεγχε τους δίσκους λίγο μετά την ανατολή αντί να περιμένεις εμφανή μάρανση.",
+      "Σήκωνε ή άνοιγε το πανί σταδιακά καθώς ανεβαίνουν φως και θερμοκρασία.",
+      "Σύγκρινε με την αφή τη ζέστη καλυμμένων και ακάλυπτων δίσκων όπου είναι πρακτικό.",
+      "Παρακολούθησε πρώτα τους δίσκους που δέχονται περισσότερο ήλιο.",
+      "Ξαναρύθμισε το πανί πριν επιστρέψει το βραδινό κρύο."
+    ],
+    "warnings_en": [
+      "The same cover can protect at dawn and harm by noon.",
+      "Small trays change temperature faster than open ground.",
+      "A mild warm morning can still become stressful under trapped air."
+    ],
+    "warnings_el": [
+      "Το ίδιο κάλυμμα μπορεί να προστατεύει την αυγή και να βλάπτει το μεσημέρι.",
+      "Οι μικροί δίσκοι αλλάζουν θερμοκρασία πιο γρήγορα από το ανοιχτό έδαφος.",
+      "Ένα ήπιο ζεστό πρωινό μπορεί πάλι να γίνει πιεστικό κάτω από παγιδευμένο αέρα."
+    ],
+    "mistakes_en": [
+      "Treating frost cloth as a set-and-forget solution.",
+      "Opening all trays at once without checking sun exposure differences.",
+      "Leaving covers closed because the morning still feels cool to the adult."
+    ],
+    "mistakes_el": [
+      "Να αντιμετωπίζεις το πανί παγετού ως λύση που μπαίνει και ξεχνιέται.",
+      "Να ανοίγεις όλους τους δίσκους μαζί χωρίς έλεγχο διαφορών στον ήλιο.",
+      "Να αφήνεις τα καλύμματα κλειστά επειδή το πρωινό ακόμη φαίνεται δροσερό στον ενήλικο."
+    ],
+    "related_topics": [
+      "Frost Pockets in Gardens",
+      "Seed Germination Testing, Weak Sprout Signs, and Replant Decisions",
+      "Planting Calendars"
     ]
   }
 ]
