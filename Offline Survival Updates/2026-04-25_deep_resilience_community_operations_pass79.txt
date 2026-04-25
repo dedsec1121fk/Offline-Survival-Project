@@ -1,0 +1,33 @@
+Offline Survival Update Log
+Date: 2026-04-25
+Pass: deep_resilience_community_operations_pass79
+
+Repository review:
+- README.md was checked for project layout.
+- Offline Survival.py was checked for database loading behavior.
+- Existing update-log naming style was checked.
+- The project loads every .json file placed in Offline Survival Database.
+
+Files added:
+- Offline Survival Database/deep_resilience_community_operations_pass79.json
+
+New bilingual entries added:
+1. Household first 72 hours command sheet / Οικιακό φύλλο ελέγχου πρώτων 72 ωρών
+2. Neighborhood water point rules / Κανόνες σημείου νερού γειτονιάς
+3. Community sanitation corner / Γωνία υγιεινής κοινότητας
+4. Medicine continuity sheet / Φύλλο συνέχειας φαρμάκων
+5. Food safety after refrigerator failure / Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου
+6. Low-power communications schedule / Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης
+
+Compatibility:
+- No older database files were overwritten.
+- The new JSON follows the existing loader field pattern.
+- The new entries should appear automatically in terminal search and the local browser UI.
+- English and Greek content were kept together in each entry.
+
+Suggested next passes:
+- Apartment blackout heat control.
+- Repair triage board.
+- Local paper map and movement notebook.
+- Seed and crop notebook.
+- Rain and roof leak response.
