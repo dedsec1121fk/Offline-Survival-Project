@@ -1,0 +1,34 @@
+Offline Survival Update Log
+Date: 2026-04-25
+Pass: full_repo_audit_repair_expansion_pass80
+
+Scope:
+- Checked repository metadata.
+- Checked README.md.
+- Checked Offline Survival.py loading behavior.
+- Checked exposed database files.
+- Checked update-log naming style.
+
+Main finding:
+- Three core database JSON files existed but returned empty content through GitHub file fetch.
+
+Files repaired:
+- Offline Survival Database/water_fire_shelter_environment_and_records.json
+- Offline Survival Database/anatomy_biology_medicine_tools_repair_and_construction.json
+- Offline Survival Database/food_agriculture_psychology_planning_and_daily_operations.json
+
+README updated:
+- Corrected Termux folder path.
+- Updated current database layout.
+- Added audit and repair notes.
+- Added JSON and bilingual parity maintenance notes.
+
+Compatibility:
+- No Python loader edit was needed.
+- The existing app loads .json files from Offline Survival Database.
+- The repaired files use the existing database field style.
+
+Limitations:
+- A direct recursive tree listing was not available through the connected tool in this session.
+- The public container could not clone GitHub because DNS was unavailable.
+- The audit used available GitHub metadata, search, direct file fetches, README paths, and visible files.
