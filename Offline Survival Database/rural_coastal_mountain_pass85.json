@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "pass85-0241",
+    "topic": "Rural Coastal Mountain morning check",
+    "topic_en": "Rural Coastal Mountain morning check",
+    "topic_el": "Πρωινός έλεγχος για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain morning check, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για πρωινός έλεγχος για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the morning check for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «πρωινός έλεγχος» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the morning check affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «πρωινός έλεγχος» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0242",
+    "topic": "Rural Coastal Mountain evening review",
+    "topic_en": "Rural Coastal Mountain evening review",
+    "topic_el": "Βραδινή ανασκόπηση για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain evening review, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για βραδινή ανασκόπηση για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the evening review for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «βραδινή ανασκόπηση» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the evening review affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «βραδινή ανασκόπηση» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0243",
+    "topic": "Rural Coastal Mountain priority list",
+    "topic_en": "Rural Coastal Mountain priority list",
+    "topic_el": "Λίστα προτεραιότητας για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain priority list, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για λίστα προτεραιότητας για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the priority list for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «λίστα προτεραιότητας» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the priority list affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «λίστα προτεραιότητας» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0244",
+    "topic": "Rural Coastal Mountain rotation schedule",
+    "topic_en": "Rural Coastal Mountain rotation schedule",
+    "topic_el": "Πρόγραμμα εναλλαγής για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain rotation schedule, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για πρόγραμμα εναλλαγής για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the rotation schedule for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «πρόγραμμα εναλλαγής» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the rotation schedule affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «πρόγραμμα εναλλαγής» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0245",
+    "topic": "Rural Coastal Mountain red label rule",
+    "topic_en": "Rural Coastal Mountain red label rule",
+    "topic_el": "Κανόνας κόκκινης ετικέτας για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain red label rule, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για κανόνας κόκκινης ετικέτας για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the red label rule for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «κανόνας κόκκινης ετικέτας» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the red label rule affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «κανόνας κόκκινης ετικέτας» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0246",
+    "topic": "Rural Coastal Mountain two-person check",
+    "topic_en": "Rural Coastal Mountain two-person check",
+    "topic_el": "Έλεγχος δύο ατόμων για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain two-person check, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για έλεγχος δύο ατόμων για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the two-person check for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «έλεγχος δύο ατόμων» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the two-person check affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «έλεγχος δύο ατόμων» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0247",
+    "topic": "Rural Coastal Mountain quiet-hour plan",
+    "topic_en": "Rural Coastal Mountain quiet-hour plan",
+    "topic_el": "Σχέδιο ώρας ησυχίας για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain quiet-hour plan, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για σχέδιο ώρας ησυχίας για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the quiet-hour plan for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «σχέδιο ώρας ησυχίας» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the quiet-hour plan affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «σχέδιο ώρας ησυχίας» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0248",
+    "topic": "Rural Coastal Mountain fallback route",
+    "topic_en": "Rural Coastal Mountain fallback route",
+    "topic_el": "Εναλλακτική διαδρομή για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain fallback route, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για εναλλακτική διαδρομή για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the fallback route for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «εναλλακτική διαδρομή» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the fallback route affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «εναλλακτική διαδρομή» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0249",
+    "topic": "Rural Coastal Mountain small-kit setup",
+    "topic_en": "Rural Coastal Mountain small-kit setup",
+    "topic_el": "Στήσιμο μικρού κιτ για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain small-kit setup, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για στήσιμο μικρού κιτ για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the small-kit setup for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «στήσιμο μικρού κιτ» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the small-kit setup affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «στήσιμο μικρού κιτ» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0250",
+    "topic": "Rural Coastal Mountain clean-dirty boundary",
+    "topic_en": "Rural Coastal Mountain clean-dirty boundary",
+    "topic_el": "Όριο καθαρού και βρώμικου για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain clean-dirty boundary, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για όριο καθαρού και βρώμικου για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the clean-dirty boundary for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «όριο καθαρού και βρώμικου» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the clean-dirty boundary affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «όριο καθαρού και βρώμικου» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0251",
+    "topic": "Rural Coastal Mountain storage map",
+    "topic_en": "Rural Coastal Mountain storage map",
+    "topic_el": "Χάρτης αποθήκευσης για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain storage map, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για χάρτης αποθήκευσης για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the storage map for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «χάρτης αποθήκευσης» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the storage map affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «χάρτης αποθήκευσης» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0252",
+    "topic": "Rural Coastal Mountain handover note",
+    "topic_en": "Rural Coastal Mountain handover note",
+    "topic_el": "Σημείωση παράδοσης για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain handover note, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για σημείωση παράδοσης για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the handover note for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «σημείωση παράδοσης» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the handover note affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «σημείωση παράδοσης» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0253",
+    "topic": "Rural Coastal Mountain risk stop rule",
+    "topic_en": "Rural Coastal Mountain risk stop rule",
+    "topic_el": "Κανόνας παύσης κινδύνου για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain risk stop rule, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για κανόνας παύσης κινδύνου για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the risk stop rule for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «κανόνας παύσης κινδύνου» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the risk stop rule affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «κανόνας παύσης κινδύνου» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0254",
+    "topic": "Rural Coastal Mountain training card",
+    "topic_en": "Rural Coastal Mountain training card",
+    "topic_el": "Κάρτα εκπαίδευσης για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain training card, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για κάρτα εκπαίδευσης για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the training card for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «κάρτα εκπαίδευσης» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the training card affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «κάρτα εκπαίδευσης» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0255",
+    "topic": "Rural Coastal Mountain resource ledger",
+    "topic_en": "Rural Coastal Mountain resource ledger",
+    "topic_el": "Βιβλίο πόρων για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain resource ledger, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για βιβλίο πόρων για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the resource ledger for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «βιβλίο πόρων» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the resource ledger affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «βιβλίο πόρων» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0256",
+    "topic": "Rural Coastal Mountain privacy note",
+    "topic_en": "Rural Coastal Mountain privacy note",
+    "topic_el": "Σημείωση ιδιωτικότητας για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain privacy note, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για σημείωση ιδιωτικότητας για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the privacy note for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «σημείωση ιδιωτικότητας» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the privacy note affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «σημείωση ιδιωτικότητας» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0257",
+    "topic": "Rural Coastal Mountain low-power habit",
+    "topic_en": "Rural Coastal Mountain low-power habit",
+    "topic_el": "Συνήθεια χαμηλής κατανάλωσης για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain low-power habit, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για συνήθεια χαμηλής κατανάλωσης για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the low-power habit for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «συνήθεια χαμηλής κατανάλωσης» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the low-power habit affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «συνήθεια χαμηλής κατανάλωσης» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0258",
+    "topic": "Rural Coastal Mountain child-safe version",
+    "topic_en": "Rural Coastal Mountain child-safe version",
+    "topic_el": "Έκδοση ασφαλής για παιδιά για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain child-safe version, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για έκδοση ασφαλής για παιδιά για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the child-safe version for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «έκδοση ασφαλής για παιδιά» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the child-safe version affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «έκδοση ασφαλής για παιδιά» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0259",
+    "topic": "Rural Coastal Mountain elder support version",
+    "topic_en": "Rural Coastal Mountain elder support version",
+    "topic_el": "Έκδοση υποστήριξης ηλικιωμένων για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain elder support version, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για έκδοση υποστήριξης ηλικιωμένων για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the elder support version for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «έκδοση υποστήριξης ηλικιωμένων» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the elder support version affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «έκδοση υποστήριξης ηλικιωμένων» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0260",
+    "topic": "Rural Coastal Mountain Greek-English sign",
+    "topic_en": "Rural Coastal Mountain Greek-English sign",
+    "topic_el": "Ελληνοαγγλική πινακίδα για χωριού, ακτής και βουνού",
+    "category": "rural_coastal_mountain",
+    "subcategory": "rural_coastal_mountain_routine",
+    "summary_en": "Offline bilingual guidance for rural coastal mountain greek-english sign, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για ελληνοαγγλική πινακίδα για χωριού, ακτής και βουνού, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the Greek-English sign for rural coastal mountain into a written routine instead of a guess. It focuses on village, coast, mountain, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «ελληνοαγγλική πινακίδα» για χωριού, ακτής και βουνού σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε village, coast, mountain, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Map",
+      "Water",
+      "Hat",
+      "Notebook",
+      "Whistle if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the Greek-English sign affects rural coastal mountain today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «ελληνοαγγλική πινακίδα» επηρεάζει σήμερα το πεδίο χωριού, ακτής και βουνού.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  }
+]

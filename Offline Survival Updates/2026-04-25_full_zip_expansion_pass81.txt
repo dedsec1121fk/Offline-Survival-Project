@@ -1,0 +1,73 @@
+Offline Survival Update Log
+Date: 2026-04-25
+Pass: full_zip_expansion_pass81
+
+Input:
+- Worked from the uploaded full repository zip: Offline-Survival-Project-main.zip
+
+Files/folders checked:
+- .github/FUNDING.yml
+- README.md
+- Offline Survival.py
+- Offline Survival Database/
+- Offline Survival Updates/
+
+Code fixes:
+- Fixed embedded browser UI JavaScript newline replacement so the local web UI renders multiline text correctly.
+- Added export-to-TXT support from the terminal menu.
+- Exports can include the whole database, search results, one category, or one database file.
+- Export location prefers Android Downloads and falls back to a project-local export folder.
+
+Database expansion:
+- Added water_sanitation_food_energy_expansion_pass81.json with 15 bilingual entries.
+- Added care_navigation_community_expansion_pass81.json with 9 bilingual entries.
+- Added rebuilding_agriculture_environment_recovery_pass81.json with 12 bilingual entries.
+
+New knowledge coverage:
+- emergency water rotation
+- rainwater hygiene boundaries
+- two-bucket handwashing
+- toilet failure planning
+- greywater boundaries
+- cooler and ice priority
+- medicine cooling contingency
+- apartment heat refuge
+- cold exposure home routine
+- smoke and dust clean-room planning
+- power bank and flashlight discipline
+- community cooking
+- safe food donation sorting
+- pest prevention without poison
+- floodwater cleanup boundaries
+- foot care
+- illness cluster logs
+- child routine
+- elder check-in card
+- animal emergency basics
+- paper route maps
+- community notice board
+- important documents grab folder
+- mutual aid skills directory
+- seed storage
+- compost boundaries
+- tool safety
+- low-water laundry
+- dampness and mold prevention
+- fair distribution ledger
+- community repair day planning
+- roof and balcony object control
+- rebuilding skill learning rotation
+- low-tech inventory tags
+- temporary sleeping layout
+- recovery priority meetings
+
+Documentation:
+- Updated README.md with the current file layout, export instructions, and pass81 notes.
+- Added OFFICIAL_SAFETY_SOURCES.md for source tracking and future verification.
+
+Validation performed:
+- Python syntax compile check.
+- JSON parse check.
+- Database load check through the same loader used by Offline Survival.py.
+- Duplicate ID check.
+- Missing required field check.

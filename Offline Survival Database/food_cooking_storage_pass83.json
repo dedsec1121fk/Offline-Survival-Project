@@ -1,0 +1,2302 @@
+[
+  {
+    "id": "pass83-021",
+    "topic": "No-power cooking order",
+    "topic_en": "No-power cooking order",
+    "topic_el": "Σειρά μαγειρέματος χωρίς ρεύμα",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for no-power cooking order with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για σειρά μαγειρέματος χωρίς ρεύμα με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "No-power cooking order is a focused survival task, not a random note. It decides what should be eaten raw, cooked first, saved, or discarded before fuel is wasted. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Σειρά μαγειρέματος χωρίς ρεύμα» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Αποφασίζει τι τρώγεται ωμό, τι μαγειρεύεται πρώτο, τι φυλάγεται ή πετιέται πριν σπαταληθεί καύσιμο. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Shared spice and salt control",
+      "Dry staple pest inspection",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-022",
+    "topic": "Dry staple pest inspection",
+    "topic_en": "Dry staple pest inspection",
+    "topic_el": "Έλεγχος παρασίτων σε ξηρά τρόφιμα",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for dry staple pest inspection with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για έλεγχος παρασίτων σε ξηρά τρόφιμα με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Dry staple pest inspection is a focused survival task, not a random note. It catches insects, moisture, and damaged packaging before staples are mixed together. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Έλεγχος παρασίτων σε ξηρά τρόφιμα» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Εντοπίζει έντομα, υγρασία και χαλασμένες συσκευασίες πριν ανακατευτούν τα βασικά τρόφιμα. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "No-power cooking order",
+      "One-pot meal planning",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-023",
+    "topic": "One-pot meal planning",
+    "topic_en": "One-pot meal planning",
+    "topic_el": "Σχεδιασμός γεύματος μιας κατσαρόλας",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for one-pot meal planning with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για σχεδιασμός γεύματος μιας κατσαρόλας με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "One-pot meal planning is a focused survival task, not a random note. It reduces fuel, water, washing, and confusion while still feeding the group. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Σχεδιασμός γεύματος μιας κατσαρόλας» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Μειώνει καύσιμο, νερό, πλύσιμο και σύγχυση ενώ τρέφει την ομάδα. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Dry staple pest inspection",
+      "Open-can tracking board",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-024",
+    "topic": "Open-can tracking board",
+    "topic_en": "Open-can tracking board",
+    "topic_el": "Πίνακας ανοιγμένων κονσερβών",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for open-can tracking board with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για πίνακας ανοιγμένων κονσερβών με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Open-can tracking board is a focused survival task, not a random note. It prevents opened food from being forgotten until unsafe. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Πίνακας ανοιγμένων κονσερβών» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Αποτρέπει τα ανοιγμένα τρόφιμα να ξεχαστούν μέχρι να γίνουν ακατάλληλα. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "One-pot meal planning",
+      "Community kitchen queue",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-025",
+    "topic": "Community kitchen queue",
+    "topic_en": "Community kitchen queue",
+    "topic_el": "Ουρά κοινής κουζίνας",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for community kitchen queue with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για ουρά κοινής κουζίνας με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Community kitchen queue is a focused survival task, not a random note. It keeps cooking turns fair and reduces fuel waste from repeated small fires. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Ουρά κοινής κουζίνας» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Κρατά δίκαιες τις σειρές μαγειρέματος και μειώνει σπατάλη καυσίμου από πολλές μικρές φωτιές. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Open-can tracking board",
+      "Allergy and diet label table",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-026",
+    "topic": "Allergy and diet label table",
+    "topic_en": "Allergy and diet label table",
+    "topic_el": "Πίνακας αλλεργιών και ειδικής διατροφής",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for allergy and diet label table with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για πίνακας αλλεργιών και ειδικής διατροφής με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Allergy and diet label table is a focused survival task, not a random note. It stops dangerous mixing of foods for people with allergies or medical diet limits. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Πίνακας αλλεργιών και ειδικής διατροφής» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Σταματά επικίνδυνη ανάμειξη τροφίμων για άτομα με αλλεργίες ή ειδικές διατροφικές ανάγκες. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Community kitchen queue",
+      "Food barter fairness ledger",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-027",
+    "topic": "Food barter fairness ledger",
+    "topic_en": "Food barter fairness ledger",
+    "topic_el": "Βιβλίο δίκαιης ανταλλαγής τροφίμων",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for food barter fairness ledger with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για βιβλίο δίκαιης ανταλλαγής τροφίμων με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Food barter fairness ledger is a focused survival task, not a random note. It reduces conflict when food or seeds are shared or traded. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Βιβλίο δίκαιης ανταλλαγής τροφίμων» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Μειώνει σύγκρουση όταν τρόφιμα ή σπόροι μοιράζονται ή ανταλλάσσονται. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Allergy and diet label table",
+      "Animal feed versus human food decision",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-028",
+    "topic": "Animal feed versus human food decision",
+    "topic_en": "Animal feed versus human food decision",
+    "topic_el": "Απόφαση τροφής ζώων έναντι ανθρώπινης τροφής",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for animal feed versus human food decision with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για απόφαση τροφής ζώων έναντι ανθρώπινης τροφής με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Animal feed versus human food decision is a focused survival task, not a random note. It helps protect human nutrition without abandoning working or companion animals. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Απόφαση τροφής ζώων έναντι ανθρώπινης τροφής» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Βοηθά να προστατευτεί η ανθρώπινη διατροφή χωρίς εγκατάλειψη εργατικών ή συντροφικών ζώων. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Food barter fairness ledger",
+      "Bread and flatbread fuel plan",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-029",
+    "topic": "Bread and flatbread fuel plan",
+    "topic_en": "Bread and flatbread fuel plan",
+    "topic_el": "Σχέδιο καυσίμου για ψωμί και πίτες",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for bread and flatbread fuel plan with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για σχέδιο καυσίμου για ψωμί και πίτες με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Bread and flatbread fuel plan is a focused survival task, not a random note. It avoids spending too much fuel on small batches of staple bread. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Σχέδιο καυσίμου για ψωμί και πίτες» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Αποφεύγει υπερβολική σπατάλη καυσίμου για μικρές παρτίδες βασικού ψωμιού. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Animal feed versus human food decision",
+      "Low-water dishwashing order",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-030",
+    "topic": "Low-water dishwashing order",
+    "topic_en": "Low-water dishwashing order",
+    "topic_el": "Σειρά πλυσίματος πιάτων με λίγο νερό",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for low-water dishwashing order with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για σειρά πλυσίματος πιάτων με λίγο νερό με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Low-water dishwashing order is a focused survival task, not a random note. It cleans the riskiest items first and avoids contaminating clean water. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Σειρά πλυσίματος πιάτων με λίγο νερό» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Καθαρίζει πρώτα τα πιο επικίνδυνα αντικείμενα και αποφεύγει μόλυνση καθαρού νερού. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Bread and flatbread fuel plan",
+      "Sprouting safety notebook",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-031",
+    "topic": "Sprouting safety notebook",
+    "topic_en": "Sprouting safety notebook",
+    "topic_el": "Τετράδιο ασφαλείας φύτρων",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for sprouting safety notebook with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για τετράδιο ασφαλείας φύτρων με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Sprouting safety notebook is a focused survival task, not a random note. It treats sprouting as a food process that needs cleanliness and daily checks. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Τετράδιο ασφαλείας φύτρων» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Αντιμετωπίζει τα φύτρα ως διαδικασία τροφής που θέλει καθαριότητα και καθημερινό έλεγχο. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Low-water dishwashing order",
+      "Root cellar substitute plan",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-032",
+    "topic": "Root cellar substitute plan",
+    "topic_en": "Root cellar substitute plan",
+    "topic_el": "Σχέδιο εναλλακτικής υπόγειας αποθήκευσης",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for root cellar substitute plan with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για σχέδιο εναλλακτικής υπόγειας αποθήκευσης με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Root cellar substitute plan is a focused survival task, not a random note. It finds the coolest, darkest, driest place without assuming a real cellar. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Σχέδιο εναλλακτικής υπόγειας αποθήκευσης» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Βρίσκει το πιο δροσερό, σκοτεινό, στεγνό σημείο χωρίς να θεωρεί δεδομένο πραγματικό κελάρι. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Sprouting safety notebook",
+      "Cooking smoke control",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-033",
+    "topic": "Cooking smoke control",
+    "topic_en": "Cooking smoke control",
+    "topic_el": "Έλεγχος καπνού μαγειρέματος",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for cooking smoke control with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για έλεγχος καπνού μαγειρέματος με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Cooking smoke control is a focused survival task, not a random note. It protects breathing, visibility, and neighbors when cooking without normal ventilation. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Έλεγχος καπνού μαγειρέματος» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Προστατεύει αναπνοή, ορατότητα και γείτονες όταν μαγειρεύεις χωρίς κανονικό αερισμό. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Root cellar substitute plan",
+      "Leftover cooling decision",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-034",
+    "topic": "Leftover cooling decision",
+    "topic_en": "Leftover cooling decision",
+    "topic_el": "Απόφαση για ψύξη περισσευμάτων",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for leftover cooling decision with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για απόφαση για ψύξη περισσευμάτων με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Leftover cooling decision is a focused survival task, not a random note. It prevents warm leftovers from becoming a hidden illness source. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Απόφαση για ψύξη περισσευμάτων» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Αποτρέπει τα ζεστά περισσεύματα να γίνουν κρυφή πηγή ασθένειας. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Cooking smoke control",
+      "Food morale rotation",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-035",
+    "topic": "Food morale rotation",
+    "topic_en": "Food morale rotation",
+    "topic_el": "Εναλλαγή τροφίμων ηθικού",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for food morale rotation with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για εναλλαγή τροφίμων ηθικού με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Food morale rotation is a focused survival task, not a random note. It uses small treats to support morale without destroying ration fairness. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Εναλλαγή τροφίμων ηθικού» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Χρησιμοποιεί μικρές λιχουδιές για ηθικό χωρίς να καταστρέφει τη δικαιοσύνη μερίδων. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Leftover cooling decision",
+      "Seed grain protection",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-036",
+    "topic": "Seed grain protection",
+    "topic_en": "Seed grain protection",
+    "topic_el": "Προστασία σπόρου δημητριακών",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for seed grain protection with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για προστασία σπόρου δημητριακών με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Seed grain protection is a focused survival task, not a random note. It prevents seed stock from being eaten accidentally during hunger or confusion. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Προστασία σπόρου δημητριακών» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Αποτρέπει τον σπόρο καλλιέργειας να φαγωθεί κατά λάθος σε πείνα ή σύγχυση. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Food morale rotation",
+      "Foraged food verification rule",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-037",
+    "topic": "Foraged food verification rule",
+    "topic_en": "Foraged food verification rule",
+    "topic_el": "Κανόνας επαλήθευσης συλλεγμένης τροφής",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for foraged food verification rule with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για κανόνας επαλήθευσης συλλεγμένης τροφής με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Foraged food verification rule is a focused survival task, not a random note. It keeps unknown plants, mushrooms, or shellfish out of meals unless identified safely. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Κανόνας επαλήθευσης συλλεγμένης τροφής» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Κρατά άγνωστα φυτά, μανιτάρια ή όστρακα έξω από γεύματα αν δεν αναγνωριστούν με ασφάλεια. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Seed grain protection",
+      "Cooking pot contamination check",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-038",
+    "topic": "Cooking pot contamination check",
+    "topic_en": "Cooking pot contamination check",
+    "topic_el": "Έλεγχος μόλυνσης κατσαρόλας",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for cooking pot contamination check with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για έλεγχος μόλυνσης κατσαρόλας με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Cooking pot contamination check is a focused survival task, not a random note. It makes sure a pot used for chemicals, fuel, paint, or dirty water is not used for food. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Έλεγχος μόλυνσης κατσαρόλας» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Βεβαιώνει ότι κατσαρόλα που είχε χημικά, καύσιμα, μπογιά ή βρώμικο νερό δεν χρησιμοποιείται για φαγητό. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Foraged food verification rule",
+      "Infant feeding priority plan",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-039",
+    "topic": "Infant feeding priority plan",
+    "topic_en": "Infant feeding priority plan",
+    "topic_el": "Προτεραιότητα σίτισης βρέφους",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for infant feeding priority plan with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για προτεραιότητα σίτισης βρέφους με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Infant feeding priority plan is a focused survival task, not a random note. It keeps infant feeding needs visible, clean, and protected from improvised unsafe substitutions. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Προτεραιότητα σίτισης βρέφους» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Κρατά τις ανάγκες βρέφους ορατές, καθαρές και προστατευμένες από επικίνδυνες αυτοσχέδιες αντικαταστάσεις. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Cooking pot contamination check",
+      "Shared spice and salt control",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass83-040",
+    "topic": "Shared spice and salt control",
+    "topic_en": "Shared spice and salt control",
+    "topic_el": "Έλεγχος κοινών μπαχαρικών και αλατιού",
+    "category": "food_cooking_storage_pass83",
+    "subcategory": "food_operations",
+    "summary_en": "Practical offline guidance for shared spice and salt control with checks, materials, common mistakes, and safe limits.",
+    "summary_el": "Πρακτική offline καθοδήγηση για έλεγχος κοινών μπαχαρικών και αλατιού με ελέγχους, υλικά, συχνά λάθη και όρια ασφάλειας.",
+    "content_en": "Shared spice and salt control is a focused survival task, not a random note. It protects small but important food supplies from moisture, waste, and unfair use. The useful way to handle it is to make the task visible, separate clean from dirty work, write the time and person responsible, and review the result before the group depends on it. This entry is designed for an offline phone database, so it uses plain language, low-tech materials, and repeatable checks instead of assuming internet access, special equipment, or perfect conditions. When a method is uncertain, mark it as uncertain. When a risk affects children, elderly people, sick people, injured people, pregnancy, or people with disabilities, choose the more cautious option. The goal is not to look prepared; the goal is to reduce avoidable illness, injury, waste, conflict, and confusion.",
+    "content_el": "Το θέμα «Έλεγχος κοινών μπαχαρικών και αλατιού» είναι συγκεκριμένη εργασία επιβίωσης, όχι τυχαία σημείωση. Προστατεύει μικρά αλλά σημαντικά εφόδια τροφής από υγρασία, σπατάλη και άδικη χρήση. Ο χρήσιμος τρόπος είναι να γίνει η εργασία ορατή, να χωριστεί καθαρό από βρώμικο, να γραφτεί ώρα και υπεύθυνος και να ελεγχθεί το αποτέλεσμα πριν στηριχτεί πάνω του η ομάδα. Η εγγραφή είναι για offline βάση σε κινητό, άρα χρησιμοποιεί απλή γλώσσα, υλικά χαμηλής τεχνολογίας και επαναλαμβανόμενους ελέγχους αντί να θεωρεί δεδομένο ίντερνετ, ειδικό εξοπλισμό ή τέλειες συνθήκες. Όταν μια μέθοδος είναι αβέβαιη, σημείωσέ την ως αβέβαιη. Όταν ο κίνδυνος αφορά παιδιά, ηλικιωμένους, ασθενείς, τραυματίες, εγκυμοσύνη ή άτομα με αναπηρία, διάλεξε την πιο προσεκτική επιλογή. Στόχος δεν είναι να φαίνεται η ομάδα προετοιμασμένη· στόχος είναι να μειωθούν ασθένεια, τραυματισμός, σπατάλη, σύγκρουση και σύγχυση.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "varies_by_context",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass83 large continuation expansion with bilingual English and Greek parity.",
+    "tags": [
+      "food cooking storage pass83",
+      "food operations",
+      "pass83",
+      "bilingual",
+      "offline"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Clean containers or bags",
+      "Labels or tape",
+      "Gloves if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Καθαρά δοχεία ή σακούλες",
+      "Ετικέτες ή ταινία",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, location, and responsible person.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label results clearly so others do not guess.",
+      "Review the task at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, τοποθεσία και υπεύθυνο άτομο.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο επικίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα ώστε οι άλλοι να μη μαντεύουν.",
+      "Έλεγξε ξανά στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not rely on this entry when the situation is immediately dangerous; move to safety and seek qualified help when possible.",
+      "Do not hide uncertainty; label unknown quality, unknown condition, or unfinished work clearly.",
+      "Do not let one tired person make all safety decisions without a second check."
+    ],
+    "warnings_el": [
+      "Μη βασίζεσαι μόνο σε αυτή την εγγραφή όταν η κατάσταση είναι άμεσα επικίνδυνη· μετακινήσου σε ασφάλεια και ζήτησε ειδική βοήθεια όταν γίνεται.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα, άγνωστη κατάσταση ή μη ολοκληρωμένη εργασία.",
+      "Μην αφήνεις ένα κουρασμένο άτομο να παίρνει όλες τις αποφάσεις ασφάλειας χωρίς δεύτερο έλεγχο."
+    ],
+    "mistakes_en": [
+      "Starting without writing the goal and responsible person.",
+      "Mixing clean and dirty tools, water, containers, or records.",
+      "Forgetting to review the plan after weather, illness, supply, or group conditions change."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα χωρίς γραπτό στόχο και υπεύθυνο άτομο.",
+      "Ανάμειξη καθαρών και βρώμικων εργαλείων, νερού, δοχείων ή αρχείων.",
+      "Ξεχνιέται ο επανέλεγχος όταν αλλάζουν καιρός, υγεία, αποθέματα ή κατάσταση ομάδας."
+    ],
+    "alternatives_en": [
+      "Use the simplest safer method that can be repeated by the weakest trained member of the group.",
+      "If supplies are missing, delay nonessential parts and protect water, hygiene, records, rest, and communication first.",
+      "Ask a second person to check the result when the task affects health, food, water, shelter, or movement."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε την απλούστερη ασφαλέστερη μέθοδο που μπορεί να επαναλάβει το πιο αδύναμο εκπαιδευμένο μέλος της ομάδας.",
+      "Αν λείπουν υλικά, καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα νερό, υγιεινή, αρχεία, ανάπαυση και επικοινωνία.",
+      "Ζήτησε δεύτερο έλεγχο όταν η εργασία επηρεάζει υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question or dispute repeats because nothing is written.",
+      "Clean supplies, dirty waste, and unknown items start mixing."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να εξηγήσουν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση ή διαφωνία επαναλαμβάνεται επειδή τίποτα δεν είναι γραμμένο.",
+      "Καθαρά εφόδια, βρώμικα απόβλητα και άγνωστα αντικείμενα αρχίζουν να ανακατεύονται."
+    ],
+    "when_not_to_use_en": [
+      "Do not use this as a reason to delay evacuation, emergency care, or official instructions.",
+      "Do not use any improvised method that creates fire, poisoning, collapse, drowning, electric, or infection risk."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αυτή την εγγραφή ως λόγο να καθυστερήσεις εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες.",
+      "Μη χρησιμοποιείς αυτοσχέδια μέθοδο που δημιουργεί κίνδυνο φωτιάς, δηλητηρίασης, κατάρρευσης, πνιγμού, ρεύματος ή μόλυνσης."
+    ],
+    "short_term_en": "In the short term, protect people first, then water, hygiene, food, shelter, communication, and records.",
+    "short_term_el": "Βραχυπρόθεσμα, προστάτευσε πρώτα ανθρώπους και μετά νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+    "long_term_en": "In the long term, write what worked, what failed, what supplies were consumed, and what should be taught to another person.",
+    "long_term_el": "Μακροπρόθεσμα, γράψε τι δούλεψε, τι απέτυχε, ποια εφόδια καταναλώθηκαν και τι πρέπει να μάθει άλλο άτομο.",
+    "if_method_fails_en": "Stop, mark the failure, prevent people from depending on it, and switch to a simpler safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία, απέτρεψε την εξάρτηση από αυτή και άλλαξε σε απλούστερη ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water availability, group health, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, διαθέσιμο νερό, υγεία ομάδας και επίσημες οδηγίες.",
+    "related_topics": [
+      "Infant feeding priority plan",
+      "No-power cooking order",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Safe household water chain"
+    ]
+  }
+]

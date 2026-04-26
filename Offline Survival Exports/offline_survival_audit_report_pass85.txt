@@ -1,0 +1,271 @@
+Offline Survival Local Audit
+======================================================================
+Generated: 2026-04-25T20:51:06
+Database folder: /mnt/data/pass85/Offline-Survival-Project-main/Offline Survival Database
+
+JSON files: 63
+Entries: 1193
+Categories: 68
+Subcategories: 218
+Load errors: 0
+Empty files: 0
+Oversized files > 1 MB: 0
+Duplicate IDs: 0
+Duplicate English topics: 0
+Duplicate Greek topics: 0
+Missing required fields: 0
+Wrong or weak list fields: 0
+Weak content fields: 0
+Greek fields without Greek characters: 0
+English fields containing Greek characters: 0
+
+Files
+----------------------------------------------------------------------
+advanced_records_quality_control_pass85.json: 20 entries, 186840 bytes
+agriculture_livestock_soil_pass85.json: 20 entries, 185280 bytes
+agriculture_soil_plants_animals_pass84.json: 20 entries, 122550 bytes
+anatomy_biology_medicine_tools_repair_and_construction.json: 4 entries, 18702 bytes
+barter_resource_economy_pass85.json: 20 entries, 185560 bytes
+care_navigation_community_expansion_pass81.json: 9 entries, 33243 bytes
+children_elderly_accessibility_pass85.json: 20 entries, 188080 bytes
+clothing_textiles_footwear_pass85.json: 20 entries, 185980 bytes
+communications_learning_media_pass85.json: 20 entries, 187320 bytes
+community_governance_conflict_records_pass84.json: 20 entries, 122758 bytes
+community_governance_ethics_pass85.json: 20 entries, 185720 bytes
+community_governance_learning_pass83.json: 20 entries, 214311 bytes
+community_psychology_records_expansion_pass82.json: 24 entries, 237969 bytes
+deep_resilience_community_operations_pass79.json: 6 entries, 34093 bytes
+documentation_maintenance_training_pass83.json: 20 entries, 214327 bytes
+documentation_training_offline_pass85.json: 20 entries, 187800 bytes
+environment_animals_farming_pass83.json: 20 entries, 214318 bytes
+environment_cleanup_hazards_pass85.json: 20 entries, 187060 bytes
+environment_recovery_hazards_pass84.json: 20 entries, 122682 bytes
+family_pets_livestock_care_pass85.json: 20 entries, 185900 bytes
+field_craft_safe_lowtech_pass85.json: 20 entries, 186200 bytes
+food_agriculture_preservation_expansion_pass82.json: 24 entries, 238828 bytes
+food_agriculture_psychology_planning_and_daily_operations.json: 3 entries, 14557 bytes
+food_cooking_storage_pass83.json: 20 entries, 214167 bytes
+food_preservation_kitchen_planning_pass84.json: 20 entries, 123616 bytes
+food_storage_cooking_nutrition_pass85.json: 20 entries, 186500 bytes
+household_security_nonviolent_pass85.json: 20 entries, 186160 bytes
+long_term_rebuilding_civilization_pass83.json: 20 entries, 214503 bytes
+longterm_rebuilding_education_pass84.json: 20 entries, 122289 bytes
+longterm_rebuilding_skills_pass85.json: 20 entries, 187960 bytes
+medical_anatomy_body_awareness_pass85.json: 20 entries, 187200 bytes
+medicine_care_body_systems_pass83.json: 20 entries, 214951 bytes
+medicine_care_public_health_pass85.json: 20 entries, 186100 bytes
+navigation_communication_records_pass83.json: 20 entries, 214754 bytes
+navigation_mobility_communication_pass84.json: 20 entries, 123663 bytes
+offline_app_project_maintenance_pass85.json: 20 entries, 185980 bytes
+power_energy_lighting_tools_pass84.json: 20 entries, 122676 bytes
+power_light_communications_pass85.json: 20 entries, 186740 bytes
+power_tools_lowtech_repair_pass83.json: 20 entries, 214283 bytes
+preservation_storage_humidity_pass85.json: 20 entries, 186940 bytes
+rebuilding_agriculture_environment_recovery_pass81.json: 12 entries, 48432 bytes
+rebuilding_longterm_resilience_expansion_pass82.json: 24 entries, 238127 bytes
+repair_tools_materials_pass85.json: 20 entries, 184740 bytes
+route_maps_movement_pass85.json: 20 entries, 184680 bytes
+rural_coastal_mountain_pass85.json: 20 entries, 183960 bytes
+safe_care_medicine_records_pass84.json: 20 entries, 122976 bytes
+sanitation_waste_vector_control_pass85.json: 20 entries, 185940 bytes
+shelter_clothing_weather_pass83.json: 20 entries, 214896 bytes
+shelter_power_navigation_expansion_pass82.json: 24 entries, 238186 bytes
+shelter_weather_clothing_microclimate_pass84.json: 20 entries, 122951 bytes
+shelter_weather_clothing_pass85.json: 20 entries, 185080 bytes
+training_drills_offline_maintenance_pass84.json: 20 entries, 122392 bytes
+urban_greece_apartment_pass85.json: 20 entries, 185920 bytes
+urban_greece_mediterranean_scenarios_pass84.json: 20 entries, 123773 bytes
+urban_rural_specific_scenarios_pass83.json: 20 entries, 214979 bytes
+water_access_quality_pass85.json: 20 entries, 185000 bytes
+water_fire_shelter_environment_and_records.json: 4 entries, 21320 bytes
+water_food_energy_integrated_pass85.json: 20 entries, 188900 bytes
+water_hygiene_public_health_pass83.json: 20 entries, 215908 bytes
+water_sanitation_food_energy_expansion_pass81.json: 15 entries, 58492 bytes
+water_sanitation_health_expansion_pass82.json: 24 entries, 240243 bytes
+water_sanitation_public_health_pass84.json: 20 entries, 124534 bytes
+work_rest_morale_pass85.json: 20 entries, 183760 bytes
+
+Categories
+----------------------------------------------------------------------
+community_psychology_records_pass82: 24
+food_agriculture_preservation_pass82: 24
+rebuilding_longterm_resilience_pass82: 24
+shelter_power_navigation_pass82: 24
+water_sanitation_health_pass82: 24
+advanced_records_quality_control: 20
+agriculture_livestock_soil: 20
+agriculture_soil_plants_animals: 20
+barter_resource_economy: 20
+children_elderly_accessibility: 20
+clothing_textiles_footwear: 20
+communications_learning_media: 20
+community_governance_conflict_records: 20
+community_governance_ethics: 20
+community_governance_learning_pass83: 20
+documentation_maintenance_training_pass83: 20
+documentation_training_offline: 20
+environment_animals_farming_pass83: 20
+environment_cleanup_hazards: 20
+environment_recovery_hazards: 20
+family_pets_livestock_care: 20
+field_craft_safe_lowtech: 20
+food_cooking_storage_pass83: 20
+food_preservation_kitchen_planning: 20
+food_storage_cooking_nutrition: 20
+household_security_nonviolent: 20
+long_term_rebuilding_civilization_pass83: 20
+longterm_rebuilding_education: 20
+longterm_rebuilding_skills: 20
+medical_anatomy_body_awareness: 20
+medicine_care_body_systems_pass83: 20
+medicine_care_public_health: 20
+navigation_communication_records_pass83: 20
+navigation_mobility_communication: 20
+offline_app_project_maintenance: 20
+power_energy_lighting_tools: 20
+power_light_communications: 20
+power_tools_lowtech_repair_pass83: 20
+preservation_storage_humidity: 20
+repair_tools_materials: 20
+route_maps_movement: 20
+rural_coastal_mountain: 20
+safe_care_medicine_records: 20
+sanitation_waste_vector_control: 20
+shelter_clothing_weather_pass83: 20
+shelter_weather_clothing_microclimate: 20
+shelter_weather_clothing: 20
+training_drills_offline_maintenance: 20
+urban_greece_apartment: 20
+urban_greece_mediterranean_scenarios: 20
+urban_rural_specific_scenarios_pass83: 20
+water_access_quality: 20
+water_food_energy_integrated: 20
+water_hygiene_public_health_pass83: 20
+water_sanitation_public_health: 20
+work_rest_morale: 20
+rebuilding_agriculture_environment_and_long_term_recovery: 12
+water_sanitation_food_energy: 11
+medicine_records_care: 5
+water_fire_shelter_environment_and_records: 5
+anatomy_biology_medicine_tools_repair_and_construction: 4
+navigation_records_community: 4
+food_agriculture_psychology_planning_and_daily_operations: 4
+shelter_heat_cold_air: 3
+medicine_sanitation_and_public_health: 2
+animals_food_water: 1
+planning_and_daily_operations: 1
+communications_records_and_navigation: 1
+
+File category spread
+----------------------------------------------------------------------
+advanced_records_quality_control_pass85.json: advanced_records_quality_control=20
+agriculture_livestock_soil_pass85.json: agriculture_livestock_soil=20
+agriculture_soil_plants_animals_pass84.json: agriculture_soil_plants_animals=20
+anatomy_biology_medicine_tools_repair_and_construction.json: anatomy_biology_medicine_tools_repair_and_construction=4
+barter_resource_economy_pass85.json: barter_resource_economy=20
+care_navigation_community_expansion_pass81.json: medicine_records_care=4, navigation_records_community=4, animals_food_water=1
+children_elderly_accessibility_pass85.json: children_elderly_accessibility=20
+clothing_textiles_footwear_pass85.json: clothing_textiles_footwear=20
+communications_learning_media_pass85.json: communications_learning_media=20
+community_governance_conflict_records_pass84.json: community_governance_conflict_records=20
+community_governance_ethics_pass85.json: community_governance_ethics=20
+community_governance_learning_pass83.json: community_governance_learning_pass83=20
+community_psychology_records_expansion_pass82.json: community_psychology_records_pass82=24
+deep_resilience_community_operations_pass79.json: medicine_sanitation_and_public_health=2, planning_and_daily_operations=1, water_fire_shelter_environment_and_records=1, food_agriculture_psychology_planning_and_daily_operations=1, communications_records_and_navigation=1
+documentation_maintenance_training_pass83.json: documentation_maintenance_training_pass83=20
+documentation_training_offline_pass85.json: documentation_training_offline=20
+environment_animals_farming_pass83.json: environment_animals_farming_pass83=20
+environment_cleanup_hazards_pass85.json: environment_cleanup_hazards=20
+environment_recovery_hazards_pass84.json: environment_recovery_hazards=20
+family_pets_livestock_care_pass85.json: family_pets_livestock_care=20
+field_craft_safe_lowtech_pass85.json: field_craft_safe_lowtech=20
+food_agriculture_preservation_expansion_pass82.json: food_agriculture_preservation_pass82=24
+food_agriculture_psychology_planning_and_daily_operations.json: food_agriculture_psychology_planning_and_daily_operations=3
+food_cooking_storage_pass83.json: food_cooking_storage_pass83=20
+food_preservation_kitchen_planning_pass84.json: food_preservation_kitchen_planning=20
+food_storage_cooking_nutrition_pass85.json: food_storage_cooking_nutrition=20
+household_security_nonviolent_pass85.json: household_security_nonviolent=20
+long_term_rebuilding_civilization_pass83.json: long_term_rebuilding_civilization_pass83=20
+longterm_rebuilding_education_pass84.json: longterm_rebuilding_education=20
+longterm_rebuilding_skills_pass85.json: longterm_rebuilding_skills=20
+medical_anatomy_body_awareness_pass85.json: medical_anatomy_body_awareness=20
+medicine_care_body_systems_pass83.json: medicine_care_body_systems_pass83=20
+medicine_care_public_health_pass85.json: medicine_care_public_health=20
+navigation_communication_records_pass83.json: navigation_communication_records_pass83=20
+navigation_mobility_communication_pass84.json: navigation_mobility_communication=20
+offline_app_project_maintenance_pass85.json: offline_app_project_maintenance=20
+power_energy_lighting_tools_pass84.json: power_energy_lighting_tools=20
+power_light_communications_pass85.json: power_light_communications=20
+power_tools_lowtech_repair_pass83.json: power_tools_lowtech_repair_pass83=20
+preservation_storage_humidity_pass85.json: preservation_storage_humidity=20
+rebuilding_agriculture_environment_recovery_pass81.json: rebuilding_agriculture_environment_and_long_term_recovery=12
+rebuilding_longterm_resilience_expansion_pass82.json: rebuilding_longterm_resilience_pass82=24
+repair_tools_materials_pass85.json: repair_tools_materials=20
+route_maps_movement_pass85.json: route_maps_movement=20
+rural_coastal_mountain_pass85.json: rural_coastal_mountain=20
+safe_care_medicine_records_pass84.json: safe_care_medicine_records=20
+sanitation_waste_vector_control_pass85.json: sanitation_waste_vector_control=20
+shelter_clothing_weather_pass83.json: shelter_clothing_weather_pass83=20
+shelter_power_navigation_expansion_pass82.json: shelter_power_navigation_pass82=24
+shelter_weather_clothing_microclimate_pass84.json: shelter_weather_clothing_microclimate=20
+shelter_weather_clothing_pass85.json: shelter_weather_clothing=20
+training_drills_offline_maintenance_pass84.json: training_drills_offline_maintenance=20
+urban_greece_apartment_pass85.json: urban_greece_apartment=20
+urban_greece_mediterranean_scenarios_pass84.json: urban_greece_mediterranean_scenarios=20
+urban_rural_specific_scenarios_pass83.json: urban_rural_specific_scenarios_pass83=20
+water_access_quality_pass85.json: water_access_quality=20
+water_fire_shelter_environment_and_records.json: water_fire_shelter_environment_and_records=4
+water_food_energy_integrated_pass85.json: water_food_energy_integrated=20
+water_hygiene_public_health_pass83.json: water_hygiene_public_health_pass83=20
+water_sanitation_food_energy_expansion_pass81.json: water_sanitation_food_energy=11, shelter_heat_cold_air=3, medicine_records_care=1
+water_sanitation_health_expansion_pass82.json: water_sanitation_health_pass82=24
+water_sanitation_public_health_pass84.json: water_sanitation_public_health=20
+work_rest_morale_pass85.json: work_rest_morale=20
+
+Load errors
+----------------------------------------------------------------------
+None
+
+Non JSON files in database folder
+----------------------------------------------------------------------
+None
+
+Empty files
+----------------------------------------------------------------------
+None
+
+Oversized files
+----------------------------------------------------------------------
+None
+
+Duplicate IDs
+----------------------------------------------------------------------
+None
+
+Duplicate English topics
+----------------------------------------------------------------------
+None
+
+Duplicate Greek topics
+----------------------------------------------------------------------
+None
+
+Missing required fields
+----------------------------------------------------------------------
+None
+
+Wrong or weak list fields
+----------------------------------------------------------------------
+None
+
+Weak content fields
+----------------------------------------------------------------------
+None
+
+Greek fields without Greek characters
+----------------------------------------------------------------------
+None
+
+English fields containing Greek characters
+----------------------------------------------------------------------
+None

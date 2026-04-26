@@ -1,0 +1,1641 @@
+[
+  {
+    "id": "pass84-power-energy-lighting-tools-001",
+    "topic": "Battery bank priority list",
+    "topic_en": "Battery bank priority list",
+    "topic_el": "Λίστα προτεραιότητας power bank",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for deciding which devices receive power first during a long outage, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για απόφαση ποια συσκευή φορτίζεται πρώτη σε μεγάλη διακοπή, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Battery bank priority list turns a vague problem into a small routine that tired people can repeat. It focuses on deciding which devices receive power first during a long outage. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Λίστα προτεραιότητας power bank» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε απόφαση ποια συσκευή φορτίζεται πρώτη σε μεγάλη διακοπή. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "bank",
+      "priority"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Battery bank priority list' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Λίστα προτεραιότητας power bank» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-002",
+    "topic": "Flashlight rotation board",
+    "topic_en": "Flashlight rotation board",
+    "topic_el": "Πίνακας περιστροφής φακών",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for keeping lights available without draining every battery at once, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για διατήρηση φωτισμού χωρίς άδειασμα όλων των μπαταριών, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Flashlight rotation board turns a vague problem into a small routine that tired people can repeat. It focuses on keeping lights available without draining every battery at once. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Πίνακας περιστροφής φακών» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε διατήρηση φωτισμού χωρίς άδειασμα όλων των μπαταριών. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "flashlight",
+      "rotation",
+      "board"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Flashlight rotation board' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Πίνακας περιστροφής φακών» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-003",
+    "topic": "Phone airplane mode routine",
+    "topic_en": "Phone airplane mode routine",
+    "topic_el": "Ρουτίνα λειτουργίας πτήσης κινητού",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for saving phone power while keeping planned communication windows, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για εξοικονόμηση μπαταρίας με προγραμματισμένα παράθυρα επικοινωνίας, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Phone airplane mode routine turns a vague problem into a small routine that tired people can repeat. It focuses on saving phone power while keeping planned communication windows. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Ρουτίνα λειτουργίας πτήσης κινητού» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε εξοικονόμηση μπαταρίας με προγραμματισμένα παράθυρα επικοινωνίας. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "phone",
+      "airplane",
+      "mode"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Phone airplane mode routine' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Ρουτίνα λειτουργίας πτήσης κινητού» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-004",
+    "topic": "Charging station fire spacing",
+    "topic_en": "Charging station fire spacing",
+    "topic_el": "Αποστάσεις ασφάλειας σημείου φόρτισης",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for placing charging devices away from heat, fabric, water, and clutter, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για θέση συσκευών φόρτισης μακριά από ζέστη, ύφασμα, νερό και ακαταστασία, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Charging station fire spacing turns a vague problem into a small routine that tired people can repeat. It focuses on placing charging devices away from heat, fabric, water, and clutter. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Αποστάσεις ασφάλειας σημείου φόρτισης» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε θέση συσκευών φόρτισης μακριά από ζέστη, ύφασμα, νερό και ακαταστασία. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "charging",
+      "station",
+      "fire"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Charging station fire spacing' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Αποστάσεις ασφάλειας σημείου φόρτισης» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-005",
+    "topic": "Tool sharpening caution card",
+    "topic_en": "Tool sharpening caution card",
+    "topic_el": "Κάρτα προσοχής ακονίσματος εργαλείων",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for maintaining hand tools without rushing into injuries, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για συντήρηση χειροκίνητων εργαλείων χωρίς βιασύνη και τραυματισμούς, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Tool sharpening caution card turns a vague problem into a small routine that tired people can repeat. It focuses on maintaining hand tools without rushing into injuries. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Κάρτα προσοχής ακονίσματος εργαλείων» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε συντήρηση χειροκίνητων εργαλείων χωρίς βιασύνη και τραυματισμούς. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "tool",
+      "sharpening",
+      "caution"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Tool sharpening caution card' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Κάρτα προσοχής ακονίσματος εργαλείων» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-006",
+    "topic": "Hand tool checkout sheet",
+    "topic_en": "Hand tool checkout sheet",
+    "topic_el": "Φύλλο δανεισμού χειροεργαλείων",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for tracking tools so shared repair equipment does not disappear, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για καταγραφή εργαλείων ώστε κοινός εξοπλισμός να μη χάνεται, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Hand tool checkout sheet turns a vague problem into a small routine that tired people can repeat. It focuses on tracking tools so shared repair equipment does not disappear. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Φύλλο δανεισμού χειροεργαλείων» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε καταγραφή εργαλείων ώστε κοινός εξοπλισμός να μη χάνεται. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "hand",
+      "tool",
+      "checkout"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Hand tool checkout sheet' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Φύλλο δανεισμού χειροεργαλείων» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-007",
+    "topic": "Extension cord safety check",
+    "topic_en": "Extension cord safety check",
+    "topic_el": "Έλεγχος ασφάλειας προέκτασης",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for using cords only when dry, undamaged, visible, and not overloaded, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για χρήση καλωδίων μόνο στεγνών, άθικτων, ορατών και χωρίς υπερφόρτωση, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Extension cord safety check turns a vague problem into a small routine that tired people can repeat. It focuses on using cords only when dry, undamaged, visible, and not overloaded. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Έλεγχος ασφάλειας προέκτασης» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε χρήση καλωδίων μόνο στεγνών, άθικτων, ορατών και χωρίς υπερφόρτωση. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "extension",
+      "cord",
+      "safety"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Extension cord safety check' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Έλεγχος ασφάλειας προέκτασης» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-008",
+    "topic": "Manual can opener maintenance",
+    "topic_en": "Manual can opener maintenance",
+    "topic_el": "Συντήρηση χειροκίνητου ανοιχτηριού",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for keeping a small tool clean and working because it unlocks stored food, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για καθαρό και λειτουργικό μικρό εργαλείο που ανοίγει αποθηκευμένο φαγητό, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Manual can opener maintenance turns a vague problem into a small routine that tired people can repeat. It focuses on keeping a small tool clean and working because it unlocks stored food. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Συντήρηση χειροκίνητου ανοιχτηριού» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε καθαρό και λειτουργικό μικρό εργαλείο που ανοίγει αποθηκευμένο φαγητό. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "manual",
+      "can",
+      "opener"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Manual can opener maintenance' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Συντήρηση χειροκίνητου ανοιχτηριού» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-009",
+    "topic": "Low light trip hazard sweep",
+    "topic_en": "Low light trip hazard sweep",
+    "topic_el": "Έλεγχος εμποδίων σε χαμηλό φως",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for removing hazards before dark to prevent avoidable injuries, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για αφαίρεση εμποδίων πριν σκοτεινιάσει για πρόληψη τραυματισμών, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Low light trip hazard sweep turns a vague problem into a small routine that tired people can repeat. It focuses on removing hazards before dark to prevent avoidable injuries. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Έλεγχος εμποδίων σε χαμηλό φως» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε αφαίρεση εμποδίων πριν σκοτεινιάσει για πρόληψη τραυματισμών. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "low",
+      "light",
+      "trip"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Low light trip hazard sweep' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Έλεγχος εμποδίων σε χαμηλό φως» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-010",
+    "topic": "Small parts salvage box",
+    "topic_en": "Small parts salvage box",
+    "topic_el": "Κουτί διάσωσης μικρών εξαρτημάτων",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for sorting screws, washers, clips, cord ties, and handles for future repair, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για ταξινόμηση βιδών, ροδελών, κλιπ, δεματικών και λαβών για επισκευές, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Small parts salvage box turns a vague problem into a small routine that tired people can repeat. It focuses on sorting screws, washers, clips, cord ties, and handles for future repair. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Κουτί διάσωσης μικρών εξαρτημάτων» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε ταξινόμηση βιδών, ροδελών, κλιπ, δεματικών και λαβών για επισκευές. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "small",
+      "parts",
+      "salvage"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Small parts salvage box' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Κουτί διάσωσης μικρών εξαρτημάτων» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-011",
+    "topic": "Solar charging expectations",
+    "topic_en": "Solar charging expectations",
+    "topic_el": "Ρεαλιστικές προσδοκίες ηλιακής φόρτισης",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for planning slow charging realistically instead of depending on full-speed power, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για ρεαλιστικός σχεδιασμός αργής φόρτισης χωρίς εξάρτηση από πλήρη ισχύ, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Solar charging expectations turns a vague problem into a small routine that tired people can repeat. It focuses on planning slow charging realistically instead of depending on full-speed power. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Ρεαλιστικές προσδοκίες ηλιακής φόρτισης» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε ρεαλιστικός σχεδιασμός αργής φόρτισης χωρίς εξάρτηση από πλήρη ισχύ. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "solar",
+      "charging",
+      "expectations"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Solar charging expectations' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Ρεαλιστικές προσδοκίες ηλιακής φόρτισης» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-012",
+    "topic": "Night noise and light discipline",
+    "topic_en": "Night noise and light discipline",
+    "topic_el": "Πειθαρχία φωτός και θορύβου νύχτας",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for keeping rest possible while preserving safety and communication, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για διατήρηση ύπνου με ασφάλεια και επικοινωνία, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Night noise and light discipline turns a vague problem into a small routine that tired people can repeat. It focuses on keeping rest possible while preserving safety and communication. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Πειθαρχία φωτός και θορύβου νύχτας» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε διατήρηση ύπνου με ασφάλεια και επικοινωνία. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "night",
+      "noise",
+      "and"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Night noise and light discipline' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Πειθαρχία φωτός και θορύβου νύχτας» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-013",
+    "topic": "Tool injury prevention pause",
+    "topic_en": "Tool injury prevention pause",
+    "topic_el": "Παύση πρόληψης τραυματισμού εργαλείων",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for checking posture, grip, surface, and fatigue before using tools, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για έλεγχος στάσης, λαβής, επιφάνειας και κούρασης πριν από εργαλεία, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Tool injury prevention pause turns a vague problem into a small routine that tired people can repeat. It focuses on checking posture, grip, surface, and fatigue before using tools. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Παύση πρόληψης τραυματισμού εργαλείων» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε έλεγχος στάσης, λαβής, επιφάνειας και κούρασης πριν από εργαλεία. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "tool",
+      "injury",
+      "prevention"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Tool injury prevention pause' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Παύση πρόληψης τραυματισμού εργαλείων» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-014",
+    "topic": "Fuel use decision log",
+    "topic_en": "Fuel use decision log",
+    "topic_el": "Ημερολόγιο απόφασης χρήσης καυσίμου",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for recording why fuel was used so later choices improve, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για καταγραφή γιατί χρησιμοποιήθηκε καύσιμο ώστε να βελτιώνονται αποφάσεις, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Fuel use decision log turns a vague problem into a small routine that tired people can repeat. It focuses on recording why fuel was used so later choices improve. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Ημερολόγιο απόφασης χρήσης καυσίμου» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε καταγραφή γιατί χρησιμοποιήθηκε καύσιμο ώστε να βελτιώνονται αποφάσεις. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "fuel",
+      "use",
+      "decision"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Fuel use decision log' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Ημερολόγιο απόφασης χρήσης καυσίμου» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-015",
+    "topic": "Radio listening schedule",
+    "topic_en": "Radio listening schedule",
+    "topic_el": "Πρόγραμμα ακρόασης ραδιοφώνου",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for checking updates at fixed times instead of draining batteries all day, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για σταθερή ακρόαση ενημερώσεων χωρίς σπατάλη μπαταρίας όλη μέρα, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Radio listening schedule turns a vague problem into a small routine that tired people can repeat. It focuses on checking updates at fixed times instead of draining batteries all day. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Πρόγραμμα ακρόασης ραδιοφώνου» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε σταθερή ακρόαση ενημερώσεων χωρίς σπατάλη μπαταρίας όλη μέρα. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "radio",
+      "listening",
+      "schedule"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Radio listening schedule' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Πρόγραμμα ακρόασης ραδιοφώνου» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-016",
+    "topic": "USB cable inventory card",
+    "topic_en": "USB cable inventory card",
+    "topic_el": "Κάρτα απογραφής καλωδίων USB",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for matching cables, adapters, and devices before an outage worsens, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για ταίριασμα καλωδίων, αντάπτορων και συσκευών πριν χειροτερέψει η διακοπή, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "USB cable inventory card turns a vague problem into a small routine that tired people can repeat. It focuses on matching cables, adapters, and devices before an outage worsens. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Κάρτα απογραφής καλωδίων USB» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε ταίριασμα καλωδίων, αντάπτορων και συσκευών πριν χειροτερέψει η διακοπή. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "usb",
+      "cable",
+      "inventory"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'USB cable inventory card' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Κάρτα απογραφής καλωδίων USB» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-017",
+    "topic": "Tool cleaning after dirty work",
+    "topic_en": "Tool cleaning after dirty work",
+    "topic_el": "Καθαρισμός εργαλείων μετά από βρώμικη εργασία",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for preventing rust, infection risk, and loss of function, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για πρόληψη σκουριάς, κινδύνου μόλυνσης και απώλειας λειτουργίας, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Tool cleaning after dirty work turns a vague problem into a small routine that tired people can repeat. It focuses on preventing rust, infection risk, and loss of function. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Καθαρισμός εργαλείων μετά από βρώμικη εργασία» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε πρόληψη σκουριάς, κινδύνου μόλυνσης και απώλειας λειτουργίας. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "tool",
+      "cleaning",
+      "after"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Tool cleaning after dirty work' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Καθαρισμός εργαλείων μετά από βρώμικη εργασία» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-018",
+    "topic": "Powerless entertainment kit",
+    "topic_en": "Powerless entertainment kit",
+    "topic_el": "Σετ διασκέδασης χωρίς ρεύμα",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for protecting morale without using phone battery, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για προστασία ηθικού χωρίς κατανάλωση μπαταρίας κινητού, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Powerless entertainment kit turns a vague problem into a small routine that tired people can repeat. It focuses on protecting morale without using phone battery. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Σετ διασκέδασης χωρίς ρεύμα» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε προστασία ηθικού χωρίς κατανάλωση μπαταρίας κινητού. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "powerless",
+      "entertainment",
+      "kit"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Powerless entertainment kit' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Σετ διασκέδασης χωρίς ρεύμα» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-019",
+    "topic": "Safe ladder decision check",
+    "topic_en": "Safe ladder decision check",
+    "topic_el": "Έλεγχος απόφασης σκάλας",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for deciding whether a ladder task can wait until conditions are safer, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για απόφαση αν εργασία με σκάλα μπορεί να περιμένει ασφαλέστερες συνθήκες, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Safe ladder decision check turns a vague problem into a small routine that tired people can repeat. It focuses on deciding whether a ladder task can wait until conditions are safer. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Έλεγχος απόφασης σκάλας» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε απόφαση αν εργασία με σκάλα μπορεί να περιμένει ασφαλέστερες συνθήκες. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "safe",
+      "ladder",
+      "decision"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Safe ladder decision check' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Έλεγχος απόφασης σκάλας» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-power-energy-lighting-tools-020",
+    "topic": "Simple repair note tags",
+    "topic_en": "Simple repair note tags",
+    "topic_el": "Απλές ετικέτες επισκευών",
+    "category": "power_energy_lighting_tools",
+    "subcategory": "energy_and_tools",
+    "summary_en": "A practical offline checklist for marking temporary fixes so nobody trusts them blindly, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για σήμανση προσωρινών διορθώσεων ώστε κανείς να μην τις εμπιστεύεται τυφλά, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Simple repair note tags turns a vague problem into a small routine that tired people can repeat. It focuses on marking temporary fixes so nobody trusts them blindly. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Απλές ετικέτες επισκευών» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε σήμανση προσωρινών διορθώσεων ώστε κανείς να μην τις εμπιστεύεται τυφλά. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "power",
+      "tools",
+      "lighting",
+      "battery",
+      "maintenance",
+      "simple",
+      "repair",
+      "note"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Simple repair note tags' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Απλές ετικέτες επισκευών» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  }
+]

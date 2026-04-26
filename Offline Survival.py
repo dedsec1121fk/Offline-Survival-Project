@@ -9,6 +9,8 @@ import textwrap
 import subprocess
 import webbrowser
 import random
+import re
+from datetime import datetime
 from collections import Counter, defaultdict
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from threading import Thread
@@ -19,6 +21,7 @@ DB_DIR = os.path.join(BASE_DIR, "Offline Survival Database")
 UPDATES_DIR = os.path.join(BASE_DIR, "Offline Survival Updates")
 WEB_HOST = "127.0.0.1"
 WEB_PORT = 8765
+EXPORT_DIR_NAME = "Offline Survival Exports"
 
 def clear():
     os.system("clear" if os.name != "nt" else "cls")
@@ -321,7 +324,7 @@ def pick_from_entries(entries, lang):
                 print(format_entry_text(page[idx-1], lang))
                 pause()
 
-WEB_PAGE = """<!doctype html>
+WEB_PAGE = r"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -366,23 +369,19 @@ main{display:grid;grid-template-columns:minmax(320px,36%) 1fr;min-height:calc(10
 <script>
 let lastResults = []; let activeId = null;
 function esc(s){return (s||"").replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));}
-function textCard(title, text){ if(!text) return ''; return `<div class="card"><h3>${esc(title)}</h3><div class="entry-block"><p>${esc(text).replace(/
-/g,'<br><br>')}</p></div></div>`; }
+function textCard(title, text){ if(!text) return ''; return `<div class="card"><h3>${esc(title)}</h3><div class="entry-block"><p>${esc(text).replace(/\n/g,'<br><br>')}</p></div></div>`; }
 function listCard(title, items){ if(!items || !items.length) return ''; return `<div class="card"><h3>${esc(title)}</h3><ul>${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`; }
 function chipsCard(title, items){ if(!items || !items.length) return ''; return `<div class="card"><h3>${esc(title)}</h3><div class="chips">${items.map(x=>`<button class="chip" onclick="searchRelated('${String(x).replace(/'/g,'&#39;')}')">${esc(x)}</button>`).join('')}</div></div>`; }
 async function loadMeta(){ const res = await fetch('/api/meta'); const data = await res.json(); document.getElementById('stats').textContent = `${data.stats.entries} entries • ${data.stats.files} files • ${data.stats.categories} categories`; const cat=document.getElementById('cat'); const file=document.getElementById('file'); (data.categories||[]).forEach(x=>{const o=document.createElement('option');o.value=x;o.textContent=x;cat.appendChild(o);}); (data.files||[]).forEach(x=>{const o=document.createElement('option');o.value=x;o.textContent=x;file.appendChild(o);}); }
 function updateCount(n,msg=''){ document.getElementById('count').textContent = `${n} result${n===1?'':'s'}`; document.getElementById('hint').textContent = msg; window.scrollTo({top:0,behavior:'smooth'}); }
 function selectedFilters(){ return {q:document.getElementById('q').value.trim(), lang:document.getElementById('lang').value, category:document.getElementById('cat').value, file:document.getElementById('file').value}; }
 async function runSearch(){ const {q,lang,category,file}=selectedFilters(); const resultsEl=document.getElementById('results'); const viewer=document.getElementById('viewer-inner'); resultsEl.innerHTML='<div class="card empty">Searching…</div>'; const qs=new URLSearchParams({q,lang,category,file}); const res=await fetch(`/api/search?${qs.toString()}`); const data=await res.json(); lastResults=data.results||[]; if(!lastResults.length){ updateCount(0,'Try broader keywords, a different category, or remove one filter.'); resultsEl.innerHTML='<div class="card empty">No matching entries found.</div>'; viewer.innerHTML='<div class="card"><h2 class="entry-title">No result</h2><p class="entry-block">Try fewer words, remove one filter, or switch language.</p></div>'; return; } updateCount(lastResults.length,'Tap a result to open the full entry.'); resultsEl.innerHTML=lastResults.map(r=>`<div class="result ${activeId===r.id?'active':''}" onclick="loadEntry('${r.id.replace(/'/g,'&#39;')}')"><strong>${esc(r.topic)}</strong><div class="meta">${esc(r.category)} • ${esc(r.file)}</div><p>${esc((r.summary||'').slice(0,260))}</p></div>`).join(''); loadEntry(lastResults[0].id); }
-async function loadEntry(id){ activeId=id; const {lang}=selectedFilters(); const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading entry…</div>'; window.scrollTo({top:0,behavior:"smooth"}); const res=await fetch(`/api/entry?id=${encodeURIComponent(id)}&lang=${encodeURIComponent(lang)}`); const data=await res.json(); if(!data.entry){ viewer.innerHTML='<div class="card">Entry not found.</div>'; return; } const e=data.entry; const kickers=[e.category,e.subcategory,e.file].filter(Boolean).map(x=>`<span class="pill">${esc(x)}</span>`).join(''); viewer.innerHTML=`<div class="card"><h1 class="entry-title">${esc(e.topic)}</h1><div>${kickers}<span class="pill">${esc(e.id)}</span></div><div class="entry-block"><p>${esc(e.summary).replace(/
-/g,'<br>')}</p><p>${esc(e.content).replace(/
-/g,'<br><br>')}</p></div></div><div class="grid2"><div>${listCard(data.labels.materials,e.materials)}${listCard(data.labels.steps,e.steps)}${listCard(data.labels.alternatives,e.alternatives)}${listCard(data.labels.warnings,e.warnings)}${listCard(data.labels.failure_signs,e.failure_signs)}</div><div>${listCard(data.labels.when_not_to_use,e.when_not_to_use)}${listCard(data.labels.mistakes,e.mistakes)}${textCard(data.labels.short_term,e.short_term)}${textCard(data.labels.long_term,e.long_term)}${textCard(data.labels.if_method_fails,e.if_method_fails)}${textCard(data.labels.environment_notes,e.environment_notes)}</div></div>${chipsCard(data.labels.related_topics,e.related_topics)}${textCard(data.labels.update_note,e.update_note)}`; document.querySelectorAll('.result').forEach(el=>el.classList.remove('active')); const chosen=[...document.querySelectorAll('.result')].find(el=>el.getAttribute('onclick')?.includes(id)); if(chosen) chosen.classList.add('active'); }
+async function loadEntry(id){ activeId=id; const {lang}=selectedFilters(); const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading entry…</div>'; window.scrollTo({top:0,behavior:"smooth"}); const res=await fetch(`/api/entry?id=${encodeURIComponent(id)}&lang=${encodeURIComponent(lang)}`); const data=await res.json(); if(!data.entry){ viewer.innerHTML='<div class="card">Entry not found.</div>'; return; } const e=data.entry; const kickers=[e.category,e.subcategory,e.file].filter(Boolean).map(x=>`<span class="pill">${esc(x)}</span>`).join(''); viewer.innerHTML=`<div class="card"><h1 class="entry-title">${esc(e.topic)}</h1><div>${kickers}<span class="pill">${esc(e.id)}</span></div><div class="entry-block"><p>${esc(e.summary).replace(/\n/g,'<br>')}</p><p>${esc(e.content).replace(/\n/g,'<br><br>')}</p></div></div><div class="grid2"><div>${listCard(data.labels.materials,e.materials)}${listCard(data.labels.steps,e.steps)}${listCard(data.labels.alternatives,e.alternatives)}${listCard(data.labels.warnings,e.warnings)}${listCard(data.labels.failure_signs,e.failure_signs)}</div><div>${listCard(data.labels.when_not_to_use,e.when_not_to_use)}${listCard(data.labels.mistakes,e.mistakes)}${textCard(data.labels.short_term,e.short_term)}${textCard(data.labels.long_term,e.long_term)}${textCard(data.labels.if_method_fails,e.if_method_fails)}${textCard(data.labels.environment_notes,e.environment_notes)}</div></div>${chipsCard(data.labels.related_topics,e.related_topics)}${textCard(data.labels.update_note,e.update_note)}`; document.querySelectorAll('.result').forEach(el=>el.classList.remove('active')); const chosen=[...document.querySelectorAll('.result')].find(el=>el.getAttribute('onclick')?.includes(id)); if(chosen) chosen.classList.add('active'); }
 function searchRelated(term){ document.getElementById('q').value = term; runSearch(); }
 
 async function randomEntry(){ const {lang}=selectedFilters(); const res=await fetch(`/api/random?lang=${encodeURIComponent(lang)}`); const data=await res.json(); if(data && data.id){ loadEntry(data.id); } }
 async function loadUpdates(){ const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading update logs…</div>'; const res=await fetch('/api/updates'); const data=await res.json(); const logs=data.logs||[]; if(!logs.length){ viewer.innerHTML='<div class="card"><h2 class="entry-title">No update logs</h2><p class="entry-block">No text logs were found in the update folder.</p></div>'; return; } viewer.innerHTML=`<div class="card"><h2 class="entry-title">Update Logs</h2><div class="chips">${logs.map(x=>`<button class="chip" onclick="openUpdate('${String(x).replace(/'/g,'&#39;')}')">${esc(x)}</button>`).join('')}</div></div>`; }
-async function openUpdate(name){ const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading update log…</div>'; const res=await fetch(`/api/update?name=${encodeURIComponent(name)}`); const data=await res.json(); if(!data || !data.name){ viewer.innerHTML='<div class="card">Update log not found.</div>'; return; } viewer.innerHTML=`<div class="card"><h2 class="entry-title">${esc(data.name)}</h2><div class="entry-block"><p>${esc(data.content).replace(/
-/g,'<br><br>')}</p></div></div>`; }
+async function openUpdate(name){ const viewer=document.getElementById('viewer-inner'); viewer.innerHTML='<div class="card empty">Loading update log…</div>'; const res=await fetch(`/api/update?name=${encodeURIComponent(name)}`); const data=await res.json(); if(!data || !data.name){ viewer.innerHTML='<div class="card">Update log not found.</div>'; return; } viewer.innerHTML=`<div class="card"><h2 class="entry-title">${esc(data.name)}</h2><div class="entry-block"><p>${esc(data.content).replace(/\n/g,'<br><br>')}</p></div></div>`; }
 function resetView(){ document.getElementById('q').value=''; document.getElementById('cat').value=''; document.getElementById('file').value=''; updateCount(0,'Use filters or search across the local database.'); document.getElementById('results').innerHTML=''; document.getElementById('viewer-inner').innerHTML='<div class="card"><h2 class="entry-title">Ready</h2><p class="entry-block">Search, filter, load update logs, or open a random entry to browse the local database more comfortably.</p></div>'; }
 document.getElementById('q').addEventListener('keydown',ev=>{if(ev.key==='Enter') runSearch();}); document.getElementById('lang').addEventListener('change',()=>{ if(activeId){ loadEntry(activeId); } }); document.getElementById('cat').addEventListener('change',()=>runSearch()); document.getElementById('file').addEventListener('change',()=>runSearch()); loadMeta().then(()=>updateCount(0,'Use filters or search across the local database.'));
 </script>
@@ -537,6 +536,105 @@ class OfflineWebHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         return
 
+
+def slugify_filename(value, fallback="entry"):
+    text = safe_text(value).lower()
+    text = re.sub(r"[^\w\s.-]+", "", text, flags=re.UNICODE)
+    text = re.sub(r"\s+", "_", text).strip("._-")
+    return text[:90] or fallback
+
+def get_export_dir():
+    candidates = [
+        os.path.join("/storage/emulated/0/Download", EXPORT_DIR_NAME),
+        os.path.join(os.path.expanduser("~"), "storage", "downloads", EXPORT_DIR_NAME),
+        os.path.join(BASE_DIR, EXPORT_DIR_NAME),
+    ]
+    for folder in candidates:
+        try:
+            os.makedirs(folder, exist_ok=True)
+            test_path = os.path.join(folder, ".write_test")
+            with open(test_path, "w", encoding="utf-8") as fh:
+                fh.write("ok")
+            try:
+                os.remove(test_path)
+            except OSError:
+                pass
+            return folder
+        except Exception:
+            continue
+    folder = os.path.join(BASE_DIR, EXPORT_DIR_NAME)
+    os.makedirs(folder, exist_ok=True)
+    return folder
+
+def export_entries_to_txt(entries, lang="en", folder_name="export"):
+    out_root = get_export_dir()
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    out_dir = os.path.join(out_root, f"{slugify_filename(folder_name, 'export')}_{stamp}")
+    os.makedirs(out_dir, exist_ok=True)
+    written = 0
+    index_lines = ["Offline Survival Export", "=" * 23, f"Language: {lang}", f"Entries: {len(entries)}", f"Created: {stamp}", ""]
+    for idx, entry in enumerate(entries, 1):
+        title = display_topic(entry, lang)
+        filename = f"{idx:04d}_{slugify_filename(title, 'topic')}.txt"
+        path = os.path.join(out_dir, filename)
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(format_entry_text(entry, lang))
+            fh.write("\n")
+        index_lines.append(f"{idx:04d}. {title} -> {filename}")
+        written += 1
+    with open(os.path.join(out_dir, "INDEX.txt"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(index_lines).strip() + "\n")
+    return out_dir, written
+
+def export_menu(lang):
+    while True:
+        clear()
+        print("Export to TXT")
+        print("-" * 60)
+        print("1. Export entire database")
+        print("2. Export search results")
+        print("3. Export one category")
+        print("4. Export one database file")
+        print("0. Return")
+        choice = input("\n> ").strip()
+        if choice == "0" or not choice:
+            return
+        entries = []
+        label = "export"
+        if choice == "1":
+            entries = list(STORE.entries)
+            label = "entire_database"
+        elif choice == "2":
+            query = input("Search query: ").strip()
+            entries = STORE.search(query, lang=lang, limit=1000)
+            label = f"search_{query or 'all'}"
+        elif choice == "3":
+            items = sorted(STORE.by_category.items())
+            for idx, (name, data) in enumerate(items, 1):
+                print(f"{idx}. {name} ({len(data)})")
+            pick = input("Category number: ").strip()
+            if pick.isdigit() and 1 <= int(pick) <= len(items):
+                label, entries = items[int(pick)-1]
+            else:
+                pause("\nInvalid category. Press Enter...")
+                continue
+        elif choice == "4":
+            items = sorted(STORE.by_file.items())
+            for idx, (name, data) in enumerate(items, 1):
+                print(f"{idx}. {name} ({len(data)})")
+            pick = input("File number: ").strip()
+            if pick.isdigit() and 1 <= int(pick) <= len(items):
+                label, entries = items[int(pick)-1]
+            else:
+                pause("\nInvalid file. Press Enter...")
+                continue
+        if not entries:
+            pause("\nNo entries to export. Press Enter...")
+            continue
+        out_dir, written = export_entries_to_txt(entries, lang=lang, folder_name=label)
+        pause(f"\nExported {written} entries to:\n{out_dir}\n\nPress Enter to continue...")
+
+
 def browse_files(lang):
     items = sorted(STORE.by_file.items())
     while True:
@@ -670,6 +768,20 @@ def launch_web_ui():
     server.shutdown()
     server.server_close()
 
+
+def run_local_audit():
+    script = os.path.join(BASE_DIR, "Offline Survival Audit.py")
+    if not os.path.isfile(script):
+        print("Audit script not found.")
+        pause()
+        return
+    try:
+        subprocess.run([sys.executable, script], check=False)
+    except Exception as exc:
+        print(f"Audit failed: {exc}")
+    pause("\nPress Enter to return to the menu...")
+
+
 def choose_language(current):
     clear()
     print("Choose language / Επιλογή γλώσσας")
@@ -699,6 +811,8 @@ def main():
         print("8. Update logs")
         print("9. Switch language")
         print("10. Reload database")
+        print("11. Export to TXT")
+        print("12. Run local audit")
         print("0. Exit")
         choice = input("\n> ").strip()
         if choice == "1":
@@ -721,6 +835,10 @@ def main():
             show_updates()
         elif choice == "9":
             lang = choose_language(lang)
+        elif choice == "11":
+            export_menu(lang)
+        elif choice == "12":
+            run_local_audit()
         elif choice == "10":
             STORE.load()
             pause("\nDatabase reloaded. Press Enter to continue...")

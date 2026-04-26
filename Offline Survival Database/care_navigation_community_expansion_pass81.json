@@ -1,0 +1,555 @@
+[
+  {
+    "id": "pass81-care-001",
+    "topic": "Foot care and blister prevention",
+    "topic_en": "Foot care and blister prevention",
+    "topic_el": "Φροντίδα ποδιών και πρόληψη φουσκάλας",
+    "category": "medicine_records_care",
+    "subcategory": "mobility",
+    "summary_en": "Protect feet during long walking, cleanup, shelter work, and wet conditions.",
+    "summary_el": "Προστασία ποδιών σε πολύ περπάτημα, καθάρισμα, εργασίες καταφυγίου και υγρασία.",
+    "content_en": "Foot problems can stop movement, cleanup, and caregiving. Keep feet dry, rotate socks, inspect pressure points, and deal with rubbing early. Do not cut blisters casually or walk on infected-looking wounds. People with diabetes, poor circulation, numbness, or immune problems need extra caution and qualified care when possible.",
+    "content_el": "Τα προβλήματα στα πόδια σταματούν μετακίνηση, καθάρισμα και φροντίδα. Κράτα πόδια στεγνά, άλλαζε κάλτσες, έλεγχε σημεία πίεσης και διόρθωσε τρίψιμο νωρίς. Μην κόβεις φουσκάλες πρόχειρα και μην περπατάς σε πληγές που μοιάζουν μολυσμένες. Άτομα με διαβήτη, κακή κυκλοφορία, μούδιασμα ή ανοσολογικά προβλήματα χρειάζονται επιπλέον προσοχή και ειδική φροντίδα όταν γίνεται.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "feet",
+      "walking",
+      "blister",
+      "care"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Inspect feet morning and evening.",
+      "Change wet socks as soon as possible.",
+      "Reduce rubbing with better lacing, padding, or rest.",
+      "Keep small wounds clean and covered.",
+      "Record worsening pain, redness, swelling, heat, or drainage."
+    ],
+    "steps_el": [
+      "Έλεγχε πόδια πρωί και βράδυ.",
+      "Άλλαξε βρεγμένες κάλτσες όσο πιο γρήγορα γίνεται.",
+      "Μείωσε τρίψιμο με καλύτερο δέσιμο, προστασία ή ξεκούραση.",
+      "Κράτα μικρές πληγές καθαρές και καλυμμένες.",
+      "Κατέγραψε επιδείνωση πόνου, κοκκινίσματος, πρηξίματος, θερμότητας ή υγρών."
+    ],
+    "warnings_en": [
+      "Do not ignore foot wounds in people with diabetes or numbness.",
+      "Do not share dirty socks or footwear."
+    ],
+    "warnings_el": [
+      "Μην αγνοείς πληγές ποδιών σε άτομα με διαβήτη ή μούδιασμα.",
+      "Μη μοιράζεσαι βρώμικες κάλτσες ή παπούτσια."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Basic wound cleaning decision path"
+    ]
+  },
+  {
+    "id": "pass81-care-002",
+    "topic": "Symptom and illness cluster log",
+    "topic_en": "Symptom and illness cluster log",
+    "topic_el": "Ημερολόγιο συμπτωμάτων και ομάδων ασθένειας",
+    "category": "medicine_records_care",
+    "subcategory": "public_health_records",
+    "summary_en": "A non-diagnostic way to track symptoms, timing, contacts, food, water, and shared spaces.",
+    "summary_el": "Μη διαγνωστικός τρόπος παρακολούθησης συμπτωμάτων, χρόνου, επαφών, τροφής, νερού και κοινών χώρων.",
+    "content_en": "A symptom log helps notice patterns without guessing diagnoses. Record person, age group, main symptoms, start time, temperature if known, food and water exposures, shared spaces, and whether medical help was contacted. Keep privacy. Look for clusters after shared meals, water changes, cleanup work, smoke exposure, or close contact. The log supports decisions about hygiene, separation, safer food, and asking for help.",
+    "content_el": "Ένα ημερολόγιο συμπτωμάτων βοηθά να φανούν μοτίβα χωρίς διάγνωση. Κατέγραψε άτομο, ηλικιακή ομάδα, κύρια συμπτώματα, ώρα έναρξης, θερμοκρασία αν υπάρχει, τροφή και νερό, κοινόχρηστους χώρους και αν ζητήθηκε ιατρική βοήθεια. Κράτα ιδιωτικότητα. Ψάξε ομάδες μετά από κοινά γεύματα, αλλαγές νερού, καθάρισμα, έκθεση σε καπνό ή στενή επαφή. Το ημερολόγιο βοηθά αποφάσεις για υγιεινή, διαχωρισμό, ασφαλέστερο φαγητό και βοήθεια.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "illness",
+      "symptom log",
+      "public health"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Record symptoms with date and time.",
+      "Keep names private where possible.",
+      "Look for shared food, water, room, or task exposure.",
+      "Increase hygiene and reduce shared items when symptoms cluster.",
+      "Seek qualified help for severe, unusual, or worsening symptoms."
+    ],
+    "steps_el": [
+      "Κατέγραψε συμπτώματα με ημερομηνία και ώρα.",
+      "Κράτα ονόματα ιδιωτικά όπου γίνεται.",
+      "Ψάξε κοινή τροφή, νερό, δωμάτιο ή εργασία.",
+      "Αύξησε υγιεινή και μείωσε κοινά αντικείμενα όταν μαζεύονται συμπτώματα.",
+      "Ζήτησε ειδική βοήθεια για σοβαρά, ασυνήθιστα ή επιδεινούμενα συμπτώματα."
+    ],
+    "warnings_en": [
+      "Do not use the log to shame people.",
+      "Do not delay emergency care while trying to complete records."
+    ],
+    "warnings_el": [
+      "Μη χρησιμοποιείς το ημερολόγιο για ντροπή ανθρώπων.",
+      "Μην καθυστερείς επείγουσα φροντίδα για να ολοκληρώσεις καταγραφές."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Community sanitation corner",
+      "Food safety after refrigerator failure"
+    ]
+  },
+  {
+    "id": "pass81-care-003",
+    "topic": "Child routine during disruption",
+    "topic_en": "Child routine during disruption",
+    "topic_el": "Ρουτίνα παιδιών σε διακοπή κανονικότητας",
+    "category": "medicine_records_care",
+    "subcategory": "children_and_family",
+    "summary_en": "A structure for children that reduces fear, wandering, dehydration, and unsafe curiosity.",
+    "summary_el": "Δομή για παιδιά που μειώνει φόβο, περιπλάνηση, αφυδάτωση και επικίνδυνη περιέργεια.",
+    "content_en": "Children need truthful simple explanations, visible adults, small jobs, water reminders, and boundaries. A child routine can include wake time, wash time, safe play zone, quiet time, meal help, story time, and check-in words for fear. Give children jobs that help without exposing them to hazards. Do not use terrifying details as discipline.",
+    "content_el": "Τα παιδιά χρειάζονται απλές αληθινές εξηγήσεις, ορατούς ενήλικες, μικρές δουλειές, υπενθύμιση νερού και όρια. Η ρουτίνα μπορεί να έχει ώρα ξυπνήματος, πλύσιμο, ασφαλή χώρο παιχνιδιού, ησυχία, βοήθεια γεύματος, ιστορία και λέξεις ελέγχου φόβου. Δώσε δουλειές που βοηθούν χωρίς έκθεση σε κινδύνους. Μη χρησιμοποιείς τρομακτικές λεπτομέρειες ως πειθαρχία.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "children",
+      "routine",
+      "stress"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Name the safe play area.",
+      "Explain the situation in simple true words.",
+      "Give one small helpful job at a time.",
+      "Schedule water, toilet, rest, and reassurance.",
+      "Keep children away from cleanup, fuel, tools, and unknown water."
+    ],
+    "steps_el": [
+      "Ονόμασε ασφαλή χώρο παιχνιδιού.",
+      "Εξήγησε την κατάσταση με απλές αληθινές λέξεις.",
+      "Δώσε μία μικρή χρήσιμη δουλειά κάθε φορά.",
+      "Προγραμμάτισε νερό, τουαλέτα, ξεκούραση και καθησύχαση.",
+      "Κράτα παιδιά μακριά από καθάρισμα, καύσιμα, εργαλεία και άγνωστο νερό."
+    ],
+    "warnings_en": [
+      "Do not leave children unsupervised near water, fire, tools, balconies, or damaged areas.",
+      "Do not promise things you cannot control."
+    ],
+    "warnings_el": [
+      "Μην αφήνεις παιδιά χωρίς επίβλεψη κοντά σε νερό, φωτιά, εργαλεία, μπαλκόνια ή χαλασμένα σημεία.",
+      "Μην υπόσχεσαι πράγματα που δεν ελέγχεις."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Calm leadership during group stress"
+    ]
+  },
+  {
+    "id": "pass81-care-004",
+    "topic": "Elder check-in card",
+    "topic_en": "Elder check-in card",
+    "topic_el": "Κάρτα ελέγχου ηλικιωμένων",
+    "category": "medicine_records_care",
+    "subcategory": "elder_care",
+    "summary_en": "A simple card for checking hydration, heat/cold comfort, medicine timing, mobility, and mood.",
+    "summary_el": "Απλή κάρτα για έλεγχο ενυδάτωσης, θερμικής άνεσης, φαρμάκων, κινητικότητας και διάθεσης.",
+    "content_en": "Older adults may not complain loudly even when risk is rising. A check-in card makes quiet needs visible: water, food, medicine, toilet, walking safety, temperature comfort, pain, confusion, loneliness, and battery/contact needs. Keep the card respectful and private. Add a clear escalation rule: if the person misses two check-ins, sounds confused, lacks water, reports a fall, or cannot describe their location, the helper should involve a trusted neighbor, family contact, local service, or emergency support as appropriate. The card should also note pets, mobility aids, spare keys, and preferred language so help arrives faster and with less confusion.",
+    "content_el": "Οι ηλικιωμένοι μπορεί να μη διαμαρτυρηθούν δυνατά ενώ ο κίνδυνος ανεβαίνει. Μια κάρτα ελέγχου κάνει ήσυχες ανάγκες ορατές: νερό, φαγητό, φάρμακα, τουαλέτα, ασφάλεια περπατήματος, θερμική άνεση, πόνος, σύγχυση, μοναξιά και ανάγκη επικοινωνίας. Κράτα την κάρτα με σεβασμό και ιδιωτικότητα. Πρόσθεσε καθαρό κανόνα κλιμάκωσης: αν το άτομο χάσει δύο ελέγχους, ακούγεται μπερδεμένο, δεν έχει νερό, αναφέρει πτώση ή δεν μπορεί να περιγράψει πού βρίσκεται, ο βοηθός πρέπει να εμπλέξει έμπιστο γείτονα, συγγενή, τοπική υπηρεσία ή επείγουσα βοήθεια ανάλογα με την περίπτωση. Η κάρτα να γράφει και ζώα, βοηθήματα μετακίνησης, εφεδρικά κλειδιά και προτιμώμενη γλώσσα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "elderly",
+      "check-in",
+      "care"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Check at fixed times instead of waiting for complaints.",
+      "Ask about water, food, toilet, pain, temperature, medicine, and mood.",
+      "Check walking paths for trip hazards.",
+      "Keep glasses, hearing aids, cane, and phone reachable.",
+      "Escalate confusion, falls, chest pain, severe weakness, or breathing trouble."
+    ],
+    "steps_el": [
+      "Έλεγχε σε σταθερές ώρες αντί να περιμένεις παράπονα.",
+      "Ρώτα για νερό, φαγητό, τουαλέτα, πόνο, θερμοκρασία, φάρμακα και διάθεση.",
+      "Έλεγξε διαδρομές για εμπόδια πτώσης.",
+      "Κράτα γυαλιά, ακουστικά, μπαστούνι και κινητό κοντά.",
+      "Ζήτησε βοήθεια για σύγχυση, πτώσεις, πόνο στο στήθος, σοβαρή αδυναμία ή δυσκολία αναπνοής."
+    ],
+    "warnings_en": [
+      "Do not dismiss sudden confusion as normal age.",
+      "Do not move a fallen person roughly if serious injury is possible."
+    ],
+    "warnings_el": [
+      "Μη θεωρείς ξαφνική σύγχυση φυσιολογική ηλικία.",
+      "Μη μετακινείς άτσαλα άτομο που έπεσε αν μπορεί να υπάρχει σοβαρός τραυματισμός."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Caregiver rotation for exhaustion prevention"
+    ]
+  },
+  {
+    "id": "pass81-care-005",
+    "topic": "Pet and working animal emergency basics",
+    "topic_en": "Pet and working animal emergency basics",
+    "topic_el": "Βασικά έκτακτης ανάγκης για ζώα συντροφιάς και εργασίας",
+    "category": "animals_food_water",
+    "subcategory": "animal_care",
+    "summary_en": "Water, food, shelter, restraint, records, and hygiene planning for animals without risking people.",
+    "summary_el": "Σχεδιασμός νερού, τροφής, καταφυγίου, περιορισμού, αρχείων και υγιεινής για ζώα χωρίς να κινδυνεύουν άνθρωποι.",
+    "content_en": "Animals need planning too, but animal care must not contaminate human food and water or block evacuation. Keep water and feed records, secure animals safely, separate waste, and keep vaccination or medicine notes if available. Do not let stressed animals roam through food, sleeping, or clean water areas.",
+    "content_el": "Τα ζώα χρειάζονται σχέδιο, αλλά η φροντίδα τους δεν πρέπει να μολύνει ανθρώπινο φαγητό/νερό ή να εμποδίζει εκκένωση. Κράτα αρχεία νερού και τροφής, ασφάλισε ζώα σωστά, χώρισε απόβλητα και κράτα σημειώσεις εμβολίων ή φαρμάκων αν υπάρχουν. Μην αφήνεις αγχωμένα ζώα να περνούν από φαγητό, ύπνο ή καθαρό νερό.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "animals",
+      "pets",
+      "livestock"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "List animals, food, water, medicine, and restraint needs.",
+      "Keep animal waste away from human hygiene and food areas.",
+      "Prepare a safe movement plan.",
+      "Watch for stress, injury, dehydration, and aggression.",
+      "Do not risk human life for unsafe animal rescue attempts."
+    ],
+    "steps_el": [
+      "Γράψε ζώα, τροφή, νερό, φάρμακα και ανάγκες περιορισμού.",
+      "Κράτα απόβλητα ζώων μακριά από ανθρώπινη υγιεινή και φαγητό.",
+      "Ετοίμασε ασφαλές σχέδιο μετακίνησης.",
+      "Παρακολούθησε στρες, τραυματισμό, αφυδάτωση και επιθετικότητα.",
+      "Μη ρισκάρεις ανθρώπινη ζωή για επικίνδυνη διάσωση ζώου."
+    ],
+    "warnings_en": [
+      "Do not share animal medicine with people.",
+      "Do not let animal waste enter water sources."
+    ],
+    "warnings_el": [
+      "Μη μοιράζεις φάρμακα ζώων σε ανθρώπους.",
+      "Μην αφήνεις απόβλητα ζώων να μπαίνουν σε πηγές νερού."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Staple food ration board"
+    ]
+  },
+  {
+    "id": "pass81-care-006",
+    "topic": "Paper map and route notebook",
+    "topic_en": "Paper map and route notebook",
+    "topic_el": "Χάρτινος χάρτης και τετράδιο διαδρομών",
+    "category": "navigation_records_community",
+    "subcategory": "navigation",
+    "summary_en": "A low-tech route record for safe movement when phones, maps, or networks fail.",
+    "summary_el": "Χαμηλής τεχνολογίας αρχείο διαδρομών όταν κινητά, χάρτες ή δίκτυα αποτύχουν.",
+    "content_en": "A paper map and route notebook protect movement when batteries die. Mark home, water, clinic, pharmacy, meeting points, blocked roads, unsafe areas, steep paths, bridges, stairs, shade, toilets, and people needing help. Record date and source of each change. Do not send people into unknown routes alone.",
+    "content_el": "Ένας χάρτινος χάρτης και τετράδιο διαδρομών προστατεύουν μετακινήσεις όταν τελειώσουν μπαταρίες. Σημείωσε σπίτι, νερό, κλινική, φαρμακείο, σημεία συνάντησης, κλειστούς δρόμους, επικίνδυνα σημεία, ανηφόρες, γέφυρες, σκάλες, σκιά, τουαλέτες και άτομα που θέλουν βοήθεια. Κατέγραψε ημερομηνία και πηγή κάθε αλλαγής. Μη στέλνεις ανθρώπους μόνοι σε άγνωστες διαδρομές.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "map",
+      "navigation",
+      "routes"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Draw simple landmarks even if the map is rough.",
+      "Mark safe, uncertain, and blocked routes differently.",
+      "Write who confirmed each update and when.",
+      "Plan return times and check-ins.",
+      "Keep one copy dry."
+    ],
+    "steps_el": [
+      "Σχεδίασε απλά σημεία αναφοράς ακόμη κι αν ο χάρτης είναι πρόχειρος.",
+      "Σημείωσε ασφαλείς, αβέβαιες και κλειστές διαδρομές διαφορετικά.",
+      "Γράψε ποιος επιβεβαίωσε κάθε αλλαγή και πότε.",
+      "Σχεδίασε ώρες επιστροφής και επικοινωνίας.",
+      "Κράτα ένα αντίγραφο στεγνό."
+    ],
+    "warnings_en": [
+      "Do not mark private vulnerable-person details on a public map.",
+      "Do not rely on old route information after storms or unrest."
+    ],
+    "warnings_el": [
+      "Μη σημειώνεις ιδιωτικές λεπτομέρειες ευάλωτων σε δημόσιο χάρτη.",
+      "Μη βασίζεσαι σε παλιές διαδρομές μετά από καταιγίδες ή αναστάτωση."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass81-care-007",
+    "topic": "Community notice board rules",
+    "topic_en": "Community notice board rules",
+    "topic_el": "Κανόνες πίνακα ανακοινώσεων κοινότητας",
+    "category": "navigation_records_community",
+    "subcategory": "communication",
+    "summary_en": "A public board format for verified local information without exposing private details.",
+    "summary_el": "Μορφή δημόσιου πίνακα για επιβεβαιωμένη τοπική πληροφορία χωρίς έκθεση ιδιωτικών λεπτομερειών.",
+    "content_en": "A notice board reduces repeated questions and phone battery use. Use sections: verified updates, water, food, health services, missing information requests, volunteer tasks, and next meeting time. Every note needs date, time, source, and whether it is confirmed. Remove old notes or mark them old. Keep private medical or security details off the board.",
+    "content_el": "Ένας πίνακας μειώνει επαναλαμβανόμενες ερωτήσεις και χρήση μπαταρίας. Χρησιμοποίησε ενότητες: επιβεβαιωμένες ενημερώσεις, νερό, φαγητό, υπηρεσίες υγείας, αιτήματα πληροφορίας, εθελοντικές εργασίες και επόμενη συνάντηση. Κάθε σημείωση θέλει ημερομηνία, ώρα, πηγή και αν είναι επιβεβαιωμένη. Αφαίρεσε παλιές σημειώσεις ή σημείωσέ τες ως παλιές. Κράτα ιδιωτικά ιατρικά ή ασφάλειας εκτός πίνακα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "notice board",
+      "communication",
+      "community"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Create clear sections.",
+      "Require date, time, source, and confirmation status.",
+      "Update at fixed times.",
+      "Remove expired notes.",
+      "Keep handwriting large and simple."
+    ],
+    "steps_el": [
+      "Φτιάξε καθαρές ενότητες.",
+      "Ζήτησε ημερομηνία, ώρα, πηγή και κατάσταση επιβεβαίωσης.",
+      "Ενημέρωνε σε σταθερές ώρες.",
+      "Αφαίρεσε ληγμένες σημειώσεις.",
+      "Κράτα μεγάλα και απλά γράμματα."
+    ],
+    "warnings_en": [
+      "Do not publish exact locations of vulnerable people publicly.",
+      "Do not post rumors as facts."
+    ],
+    "warnings_el": [
+      "Μη δημοσιεύεις ακριβείς τοποθεσίες ευάλωτων δημόσια.",
+      "Μην αναρτάς φήμες ως γεγονότα."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Low-power communications schedule",
+      "Paper map and route notebook"
+    ]
+  },
+  {
+    "id": "pass81-care-008",
+    "topic": "Important documents grab folder",
+    "topic_en": "Important documents grab folder",
+    "topic_el": "Φάκελος άμεσης λήψης σημαντικών εγγράφων",
+    "category": "navigation_records_community",
+    "subcategory": "documents",
+    "summary_en": "A folder plan for identity, medical, ownership, contact, and recovery documents.",
+    "summary_el": "Σχέδιο φακέλου για ταυτότητα, ιατρικά, ιδιοκτησία, επαφές και έγγραφα ανάκαμψης.",
+    "content_en": "After a disruption, paperwork can decide access to care, transport, housing, repairs, aid, insurance, and family reunification. Keep copies of identity documents, medicine lists, allergy notes, emergency contacts, pet records, property papers, insurance, bank basics, and important phone numbers. Protect privacy and keep the folder easy to grab.",
+    "content_el": "Μετά από διακοπή, τα έγγραφα μπορούν να κρίνουν πρόσβαση σε φροντίδα, μετακίνηση, στέγη, επισκευές, βοήθεια, ασφάλεια και επανένωση οικογένειας. Κράτα αντίγραφα ταυτότητας, λίστας φαρμάκων, αλλεργιών, επαφών ανάγκης, εγγράφων ζώων, ιδιοκτησίας, ασφάλειας, βασικών τραπεζικών στοιχείων και σημαντικών τηλεφώνων. Προστάτευσε ιδιωτικότητα και κράτα τον φάκελο εύκολο να παρθεί.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "documents",
+      "records",
+      "go bag"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Build one physical folder and one smaller go-copy.",
+      "Keep medicine and allergy sheets near the top.",
+      "Include offline phone numbers.",
+      "Store in a dry reachable place.",
+      "Review after document changes."
+    ],
+    "steps_el": [
+      "Φτιάξε έναν φυσικό φάκελο και ένα μικρότερο αντίγραφο εξόδου.",
+      "Κράτα φάρμακα και αλλεργίες στην κορυφή.",
+      "Βάλε τηλέφωνα εκτός διαδικτύου.",
+      "Φύλαξε σε στεγνό προσβάσιμο σημείο.",
+      "Έλεγξε μετά από αλλαγές εγγράφων."
+    ],
+    "warnings_en": [
+      "Do not leave private documents in a public area.",
+      "Do not rely only on cloud storage."
+    ],
+    "warnings_el": [
+      "Μην αφήνεις ιδιωτικά έγγραφα σε δημόσιο χώρο.",
+      "Μη βασίζεσαι μόνο σε cloud."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Medicine continuity sheet"
+    ]
+  },
+  {
+    "id": "pass81-care-009",
+    "topic": "Mutual aid skills directory",
+    "topic_en": "Mutual aid skills directory",
+    "topic_el": "Κατάλογος δεξιοτήτων αλληλοβοήθειας",
+    "category": "navigation_records_community",
+    "subcategory": "community_skills",
+    "summary_en": "A privacy-respecting list of useful skills, tools, and availability in a neighborhood or small group.",
+    "summary_el": "Λίστα δεξιοτήτων, εργαλείων και διαθεσιμότητας σε γειτονιά ή μικρή ομάδα με σεβασμό ιδιωτικότητας.",
+    "content_en": "A skills directory helps find help without every task depending on one person. List skills such as first aid training, childcare, translation, cooking, repair, driving, animal care, gardening, radio use, and elder support. Record availability and limits. Keep sensitive details private and avoid turning the list into forced labor.",
+    "content_el": "Ένας κατάλογος δεξιοτήτων βοηθά να βρεθεί βοήθεια χωρίς κάθε εργασία να εξαρτάται από ένα άτομο. Γράψε δεξιότητες όπως εκπαίδευση πρώτων βοηθειών, φροντίδα παιδιών, μετάφραση, μαγείρεμα, επισκευή, οδήγηση, φροντίδα ζώων, κηπουρική, χρήση ραδιοφώνου και υποστήριξη ηλικιωμένων. Κατέγραψε διαθεσιμότητα και όρια. Κράτα ευαίσθητα στοιχεία ιδιωτικά και μην κάνεις τη λίστα καταναγκαστική εργασία.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "skills",
+      "community",
+      "mutual aid"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Ask for voluntary skills and limits.",
+      "Record tools separately from people.",
+      "Create backup people for critical tasks.",
+      "Update when people are tired or unavailable.",
+      "Keep private contact details protected."
+    ],
+    "steps_el": [
+      "Ζήτησε εθελοντικές δεξιότητες και όρια.",
+      "Κατέγραψε εργαλεία χωριστά από ανθρώπους.",
+      "Βάλε εφεδρικά άτομα για κρίσιμες εργασίες.",
+      "Ενημέρωσε όταν άνθρωποι κουράζονται ή λείπουν.",
+      "Προστάτευσε ιδιωτικές επαφές."
+    ],
+    "warnings_en": [
+      "Do not pressure untrained people into dangerous tasks.",
+      "Do not publish private contact details publicly."
+    ],
+    "warnings_el": [
+      "Μην πιέζεις ανεκπαίδευτους σε επικίνδυνες εργασίες.",
+      "Μη δημοσιεύεις ιδιωτικές επαφές δημόσια."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Community notice board rules",
+      "Tool repair triage board"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+Offline Survival Update Log
+Date: 2026-04-25
+Pass: continue_big_expansion_pass83
+
+Added 220 new bilingual English/Greek knowledge entries across 11 new JSON files.
+
+New database files:
+- water_hygiene_public_health_pass83.json
+- food_cooking_storage_pass83.json
+- medicine_care_body_systems_pass83.json
+- shelter_clothing_weather_pass83.json
+- power_tools_lowtech_repair_pass83.json
+- navigation_communication_records_pass83.json
+- community_governance_learning_pass83.json
+- long_term_rebuilding_civilization_pass83.json
+- environment_animals_farming_pass83.json
+- urban_rural_specific_scenarios_pass83.json
+- documentation_maintenance_training_pass83.json
+
+Code/docs improvements:
+- Improved Offline Survival Audit.py with stronger checks.
+- Added menu option 12 in Offline Survival.py to run the local audit directly.
+- Updated README.md with pass83 notes.
+- Updated OFFICIAL_SAFETY_SOURCES.md with source-use guidance.
+
+Safety and quality boundaries:
+- Medical records remain observational and non-diagnostic.
+- Tool and rebuilding entries focus on repair, safety, food, water, shelter, records, and community resilience.
+- English and Greek content are kept paired in the same entry.
+- The loader remains unchanged except for the audit menu option because the existing app already loads every JSON file in Offline Survival Database.

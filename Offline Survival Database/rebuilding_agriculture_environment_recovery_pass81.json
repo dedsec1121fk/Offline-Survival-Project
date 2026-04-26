@@ -1,0 +1,858 @@
+[
+  {
+    "id": "pass81-rebuild-001",
+    "topic": "Seed storage dry box",
+    "topic_en": "Seed storage dry box",
+    "topic_el": "Στεγνό κουτί αποθήκευσης σπόρων",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "seed_saving",
+    "summary_en": "A simple way to keep seeds dry, labeled, protected, and useful for later planting.",
+    "summary_el": "Απλός τρόπος να μείνουν οι σπόροι στεγνοί, σημειωμένοι, προστατευμένοι και χρήσιμοι για μελλοντική φύτευση.",
+    "content_en": "Seeds lose value when they are mixed, damp, overheated, eaten by pests, or saved without names. A dry seed box turns seed saving into a usable system. Every packet needs crop name, variety if known, source, year, location, and notes about how the plant performed. Keep food seeds away from chemicals, fuel, and wet tools.",
+    "content_el": "Οι σπόροι χάνουν αξία όταν ανακατεύονται, βρέχονται, ζεσταίνονται υπερβολικά, τρώγονται από παράσιτα ή φυλάσσονται χωρίς όνομα. Ένα στεγνό κουτί κάνει τη φύλαξη σπόρων χρήσιμο σύστημα. Κάθε φακελάκι θέλει όνομα καλλιέργειας, ποικιλία αν είναι γνωστή, πηγή, χρονιά, σημείο και σημειώσεις απόδοσης φυτού. Κράτα σπόρους τροφής μακριά από χημικά, καύσιμα και βρεγμένα εργαλεία.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "seeds",
+      "storage",
+      "agriculture"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Dry seeds fully before storage.",
+      "Label each packet before mixing anything.",
+      "Store in a cool, dry, dark place.",
+      "Check monthly for moisture, insects, and mold.",
+      "Plant older seed in test rows before depending on it."
+    ],
+    "steps_el": [
+      "Στέγνωσε καλά σπόρους πριν τη φύλαξη.",
+      "Σημείωσε κάθε φακελάκι πριν ανακατέψεις οτιδήποτε.",
+      "Φύλαξε σε δροσερό, στεγνό, σκοτεινό μέρος.",
+      "Έλεγχε κάθε μήνα για υγρασία, έντομα και μούχλα.",
+      "Φύτεψε παλιότερο σπόρο δοκιμαστικά πριν βασιστείς σε αυτόν."
+    ],
+    "warnings_en": [
+      "Do not save moldy seed.",
+      "Do not store seed beside cleaners, fuels, or pesticides."
+    ],
+    "warnings_el": [
+      "Μην κρατάς μουχλιασμένο σπόρο.",
+      "Μη φυλάς σπόρους δίπλα σε καθαριστικά, καύσιμα ή φυτοφάρμακα."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Seed and crop notebook"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-002",
+    "topic": "Compost safety boundaries",
+    "topic_en": "Compost safety boundaries",
+    "topic_el": "Όρια ασφάλειας κομπόστ",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "soil_and_waste",
+    "summary_en": "A cautious compost system that avoids attracting pests or contaminating food areas.",
+    "summary_el": "Προσεκτικό σύστημα κομπόστ που αποφεύγει παράσιτα και μόλυνση χώρων τροφής.",
+    "content_en": "Compost can improve soil, but bad compost can attract pests, smell, and spread contamination. Keep compost away from drinking water, food preparation, sleeping areas, and children’s play spaces. Avoid meat, diapers, sickroom waste, chemicals, and unknown materials. Keep a record of what goes in.",
+    "content_el": "Το κομπόστ μπορεί να βελτιώσει χώμα, αλλά κακό κομπόστ τραβά παράσιτα, μυρίζει και μεταφέρει μόλυνση. Κράτα κομπόστ μακριά από πόσιμο νερό, μαγείρεμα, ύπνο και παιχνίδι παιδιών. Απόφυγε κρέας, πάνες, απόβλητα ασθενών, χημικά και άγνωστα υλικά. Κράτα αρχείο από τι μπαίνει.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "compost",
+      "soil",
+      "waste"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Choose a site away from water and food areas.",
+      "Add plant scraps and dry carbon material when available.",
+      "Cover fresh food scraps.",
+      "Keep tools separate from kitchen tools.",
+      "Use finished compost cautiously and avoid direct contact with ready-to-eat plant parts."
+    ],
+    "steps_el": [
+      "Διάλεξε σημείο μακριά από νερό και φαγητό.",
+      "Πρόσθεσε φυτικά υπολείμματα και ξηρό υλικό άνθρακα όταν υπάρχει.",
+      "Κάλυψε φρέσκα υπολείμματα τροφής.",
+      "Κράτα εργαλεία χωριστά από κουζινικά.",
+      "Χρησιμοποίησε ώριμο κομπόστ προσεκτικά και απόφυγε επαφή με έτοιμα βρώσιμα μέρη."
+    ],
+    "warnings_en": [
+      "Do not compost human waste in a normal household compost pile.",
+      "Do not compost chemical-contaminated material."
+    ],
+    "warnings_el": [
+      "Μην κομποστοποιείς ανθρώπινα απόβλητα σε κοινό οικιακό κομπόστ.",
+      "Μην κομποστοποιείς υλικό με χημική μόλυνση."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Community sanitation corner",
+      "Household pest prevention without poison"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-003",
+    "topic": "Small tool safety routine",
+    "topic_en": "Small tool safety routine",
+    "topic_el": "Ρουτίνα ασφάλειας μικρών εργαλείων",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "tool_safety",
+    "summary_en": "A routine for hand tools, blades, handles, storage, and shared use without injuries.",
+    "summary_el": "Ρουτίνα για χειροκίνητα εργαλεία, λεπίδες, λαβές, αποθήκευση και κοινή χρήση χωρίς τραυματισμούς.",
+    "content_en": "Simple tools cause injuries when tired people use dull blades, cracked handles, missing guards, or bad lighting. Make one storage place, one repair pile, and one rule: damaged tools are labeled and not used as normal. Keep cutting edges covered and teach people to pass tools handle-first.",
+    "content_el": "Τα απλά εργαλεία τραυματίζουν όταν κουρασμένοι άνθρωποι χρησιμοποιούν στομωμένες λεπίδες, σπασμένες λαβές, χαμένα προστατευτικά ή κακό φωτισμό. Φτιάξε ένα σημείο αποθήκευσης, μία στοίβα επισκευής και έναν κανόνα: χαλασμένα εργαλεία σημειώνονται και δεν χρησιμοποιούνται σαν κανονικά. Κράτα κοπές καλυμμένες και μάθε σε όλους να δίνουν εργαλεία από τη λαβή.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "tools",
+      "safety",
+      "repair"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Inspect handles and edges before work.",
+      "Work in light, stable space.",
+      "Label damaged tools immediately.",
+      "Store sharp tools covered.",
+      "Stop work when tiredness makes hands unsafe."
+    ],
+    "steps_el": [
+      "Έλεγξε λαβές και κοπές πριν τη δουλειά.",
+      "Δούλεψε σε φωτεινό σταθερό χώρο.",
+      "Σημείωσε χαλασμένα εργαλεία αμέσως.",
+      "Φύλαξε αιχμηρά καλυμμένα.",
+      "Σταμάτα όταν η κούραση κάνει τα χέρια ανασφαλή."
+    ],
+    "warnings_en": [
+      "Do not use cracked handles or unstable ladders.",
+      "Do not let children handle sharp tools unsupervised."
+    ],
+    "warnings_el": [
+      "Μη χρησιμοποιείς σπασμένες λαβές ή ασταθείς σκάλες.",
+      "Μην αφήνεις παιδιά με αιχμηρά εργαλεία χωρίς επίβλεψη."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Tool repair triage board"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-004",
+    "topic": "Low-water laundry priority",
+    "topic_en": "Low-water laundry priority",
+    "topic_el": "Προτεραιότητα πλυσίματος με λίγο νερό",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "clothing_hygiene",
+    "summary_en": "How to decide what must be washed first when water, soap, or drying space is limited.",
+    "summary_el": "Πώς να αποφασίζεται τι πλένεται πρώτο όταν νερό, σαπούνι ή χώρος στεγνώματος είναι περιορισμένα.",
+    "content_en": "Not all laundry has equal priority. Under shortage, prioritize underwear, socks, cloths used for wounds or infants, items contaminated by waste, and clothes causing skin problems. Separate sickroom laundry if possible. Dry fully before storage to avoid mold and odor.",
+    "content_el": "Δεν έχουν όλα τα ρούχα ίδια προτεραιότητα. Σε έλλειψη, πρώτα εσώρουχα, κάλτσες, πανιά για πληγές ή βρέφη, αντικείμενα με απόβλητα και ρούχα που ερεθίζουν δέρμα. Χώρισε πλύσιμο ασθενών όπου γίνεται. Στέγνωσε πλήρως πριν την αποθήκευση για να αποφύγεις μούχλα και μυρωδιά.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "laundry",
+      "hygiene",
+      "water"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Sort by health priority, not appearance.",
+      "Wash small critical batches.",
+      "Keep dirty and clean areas separate.",
+      "Dry items completely.",
+      "Record soap and water use if supply is tight."
+    ],
+    "steps_el": [
+      "Χώρισε με βάση υγεία, όχι εμφάνιση.",
+      "Πλύνε μικρές κρίσιμες παρτίδες.",
+      "Κράτα βρώμικα και καθαρά χωριστά.",
+      "Στέγνωσε πλήρως.",
+      "Κατέγραψε χρήση σαπουνιού και νερού αν υπάρχει στενότητα."
+    ],
+    "warnings_en": [
+      "Do not store damp fabric in closed bags.",
+      "Do not mix wound cloths with kitchen cloths."
+    ],
+    "warnings_el": [
+      "Μην αποθηκεύεις νωπό ύφασμα σε κλειστές σακούλες.",
+      "Μην ανακατεύεις πανιά πληγών με πανιά κουζίνας."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Two-bucket handwashing station"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-005",
+    "topic": "Mold prevention after dampness",
+    "topic_en": "Mold prevention after dampness",
+    "topic_el": "Πρόληψη μούχλας μετά από υγρασία",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "shelter_recovery",
+    "summary_en": "A first-response plan for drying rooms, fabrics, papers, and stored supplies after damp conditions.",
+    "summary_el": "Πρώτο σχέδιο στεγνώματος δωματίων, υφασμάτων, χαρτιών και εφοδίων μετά από υγρασία.",
+    "content_en": "Dampness can ruin bedding, papers, food packaging, and indoor air. First stop the water source if safe, separate wet items, increase safe airflow, and dry critical items. Do not seal damp materials in plastic for long storage. Watch for musty smell and visible growth. People with breathing problems may need to avoid affected rooms.",
+    "content_el": "Η υγρασία μπορεί να καταστρέψει σκεπάσματα, χαρτιά, συσκευασίες τροφίμων και αέρα εσωτερικού χώρου. Πρώτα σταμάτα την πηγή αν είναι ασφαλές, χώρισε βρεγμένα αντικείμενα, αύξησε ασφαλή ροή αέρα και στέγνωσε κρίσιμα. Μην σφραγίζεις νωπά υλικά σε πλαστικό για αποθήκευση. Πρόσεξε μυρωδιά μούχλας και ορατή ανάπτυξη. Άτομα με αναπνευστικά μπορεί να χρειαστεί να αποφύγουν επηρεασμένα δωμάτια.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "mold",
+      "damp",
+      "shelter"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Stop or divert water if safe.",
+      "Move dry supplies away from damp zones.",
+      "Separate wet fabrics and papers.",
+      "Ventilate when outdoor air is safe.",
+      "Check daily until fully dry."
+    ],
+    "steps_el": [
+      "Σταμάτα ή εκτροπή νερού αν είναι ασφαλές.",
+      "Μετακίνησε στεγνά εφόδια από υγρές ζώνες.",
+      "Χώρισε βρεγμένα υφάσματα και χαρτιά.",
+      "Αέρισε όταν ο εξωτερικός αέρας είναι ασφαλής.",
+      "Έλεγχε καθημερινά μέχρι να στεγνώσει πλήρως."
+    ],
+    "warnings_en": [
+      "Do not ignore mold smell.",
+      "Do not dry contaminated flood items in living spaces without caution."
+    ],
+    "warnings_el": [
+      "Μην αγνοείς μυρωδιά μούχλας.",
+      "Μη στεγνώνεις μολυσμένα από πλημμύρα αντικείμενα σε χώρους διαβίωσης χωρίς προσοχή."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Small leak and rain entry first response"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-006",
+    "topic": "Fair distribution ledger",
+    "topic_en": "Fair distribution ledger",
+    "topic_el": "Δίκαιο βιβλίο διανομής",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "community_records",
+    "summary_en": "A simple ledger for shared supplies that reduces arguments and hidden depletion.",
+    "summary_el": "Απλό βιβλίο για κοινά εφόδια που μειώνει καβγάδες και κρυφή εξάντληση.",
+    "content_en": "Shared supplies disappear when distribution is not visible. A ledger records item, quantity, date, receiver group, reason, remaining stock, and next review. It should not humiliate people. Use categories instead of private details when possible. Fairness includes special needs, not equal portions for unequal risk.",
+    "content_el": "Τα κοινά εφόδια εξαφανίζονται όταν η διανομή δεν φαίνεται. Το βιβλίο γράφει είδος, ποσότητα, ημερομηνία, ομάδα παραλήπτη, λόγο, υπόλοιπο και επόμενο έλεγχο. Δεν πρέπει να εξευτελίζει ανθρώπους. Χρησιμοποίησε κατηγορίες αντί για ιδιωτικές λεπτομέρειες όπου γίνεται. Δικαιοσύνη σημαίνει και ειδικές ανάγκες, όχι ίσες μερίδες σε άνισο κίνδυνο.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "distribution",
+      "records",
+      "fairness"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Record every distribution immediately.",
+      "Track remaining stock after each change.",
+      "Separate privacy-sensitive needs.",
+      "Review shortages at fixed times.",
+      "Explain rule changes clearly."
+    ],
+    "steps_el": [
+      "Κατέγραψε κάθε διανομή αμέσως.",
+      "Παρακολούθησε υπόλοιπο μετά από κάθε αλλαγή.",
+      "Χώρισε ευαίσθητες ανάγκες ιδιωτικά.",
+      "Έλεγχε ελλείψεις σε σταθερές ώρες.",
+      "Εξήγησε αλλαγές κανόνων καθαρά."
+    ],
+    "warnings_en": [
+      "Do not use the ledger to punish people.",
+      "Do not hide shortages until supplies are gone."
+    ],
+    "warnings_el": [
+      "Μη χρησιμοποιείς το βιβλίο για τιμωρία.",
+      "Μην κρύβεις ελλείψεις μέχρι να τελειώσουν τα εφόδια."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Staple food ration board",
+      "Neighborhood water point rules"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-007",
+    "topic": "Community repair day plan",
+    "topic_en": "Community repair day plan",
+    "topic_el": "Σχέδιο ημέρας κοινοτικών επισκευών",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "repair_coordination",
+    "summary_en": "A structured repair day that groups tools, skills, safety checks, and priority jobs.",
+    "summary_el": "Δομημένη ημέρα επισκευών που ομαδοποιεί εργαλεία, δεξιότητες, ελέγχους ασφάλειας και προτεραιότητες.",
+    "content_en": "Repair days can restore many small things if they are organized. First choose safe jobs, gather tools, assign skilled helpers, and separate unsafe repairs. Make a waiting list. Label temporary repairs. Stop before darkness or exhaustion causes injury. A repair day also needs a stop rule, a tool return point, a parts table, drinking water, and a person who refuses unsafe jobs. Small successful repairs build confidence, but unclear repairs create hidden danger. Record every temporary patch, who checked it, and when it must be reviewed again.",
+    "content_el": "Οι ημέρες επισκευών μπορούν να επαναφέρουν πολλά μικρά πράγματα αν οργανωθούν. Πρώτα διάλεξε ασφαλείς εργασίες, μάζεψε εργαλεία, όρισε έμπειρους βοηθούς και χώρισε επικίνδυνες επισκευές. Φτιάξε λίστα αναμονής. Σημείωσε προσωρινές επισκευές. Σταμάτα πριν σκοτάδι ή εξάντληση προκαλέσει τραυματισμό. Η ημέρα επισκευών χρειάζεται επίσης κανόνα παύσης, σημείο επιστροφής εργαλείων, τραπέζι ανταλλακτικών, πόσιμο νερό και άτομο που αρνείται επικίνδυνες εργασίες. Οι μικρές επιτυχημένες επισκευές χτίζουν εμπιστοσύνη, αλλά οι ασαφείς επισκευές δημιουργούν κρυφό κίνδυνο. Κατέγραψε κάθε προσωρινό μπάλωμα, ποιος το έλεγξε και πότε χρειάζεται επανέλεγχο.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "repair",
+      "community",
+      "tools"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Collect repair requests.",
+      "Rank by safety and usefulness.",
+      "Match tasks to skill level.",
+      "Create a parts table.",
+      "Mark temporary repairs clearly."
+    ],
+    "steps_el": [
+      "Μάζεψε αιτήματα επισκευής.",
+      "Βάλε σειρά με βάση ασφάλεια και χρησιμότητα.",
+      "Ταίριαξε εργασίες με επίπεδο δεξιότητας.",
+      "Φτιάξε τραπέζι ανταλλακτικών.",
+      "Σημείωσε προσωρινές επισκευές καθαρά."
+    ],
+    "warnings_en": [
+      "Do not attempt electrical, gas, structural, or pressure repairs beyond competence.",
+      "Do not work tired with sharp tools."
+    ],
+    "warnings_el": [
+      "Μην επιχειρείς επισκευές ρεύματος, αερίου, δομικές ή πίεσης πέρα από ικανότητα.",
+      "Μη δουλεύεις κουρασμένος με αιχμηρά εργαλεία."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Tool repair triage board",
+      "Small tool safety routine"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-008",
+    "topic": "Roof and balcony object control",
+    "topic_en": "Roof and balcony object control",
+    "topic_el": "Έλεγχος αντικειμένων σε στέγη και μπαλκόνι",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "storm_preparation",
+    "summary_en": "A safety check for loose objects before wind, storm, or long absence.",
+    "summary_el": "Έλεγχος ασφάλειας για χαλαρά αντικείμενα πριν από άνεμο, καταιγίδα ή μεγάλη απουσία.",
+    "content_en": "Loose objects become hazards in wind and can also block drains. Before weather worsens, move or secure pots, chairs, tools, boards, antennas, buckets, and trash. Check drains without leaning over unsafe edges. Do not climb during active bad weather. Treat every object above head height as a possible injury source. Work from safe standing positions only, keep children away from the drop zone, and avoid last-minute fixes in high wind or rain. Record what was moved, what stayed, and what still needs a proper mount or removal.",
+    "content_el": "Χαλαρά αντικείμενα γίνονται κίνδυνοι στον άνεμο και μπορούν να κλείσουν απορροές. Πριν χειροτερέψει ο καιρός, μετακίνησε ή ασφάλισε γλάστρες, καρέκλες, εργαλεία, σανίδες, κεραίες, κουβάδες και σκουπίδια. Έλεγξε απορροές χωρίς να σκύβεις σε επικίνδυνα άκρα. Μην ανεβαίνεις σε ενεργή κακοκαιρία. Αντιμετώπισε κάθε αντικείμενο πάνω από το κεφάλι ως πιθανή πηγή τραυματισμού. Δούλεψε μόνο από ασφαλή θέση, κράτα παιδιά μακριά από τη ζώνη πτώσης και απόφυγε διορθώσεις τελευταίας στιγμής σε δυνατό άνεμο ή βροχή. Κατέγραψε τι μετακινήθηκε, τι έμεινε και τι χρειάζεται σωστή στήριξη ή αφαίρεση.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "storm",
+      "balcony",
+      "roof"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Walk the area before weather arrives.",
+      "Move loose items indoors or low and secure.",
+      "Clear safe drains if reachable.",
+      "Keep balcony exit usable.",
+      "Record damage after weather passes."
+    ],
+    "steps_el": [
+      "Πέρνα την περιοχή πριν έρθει ο καιρός.",
+      "Μετακίνησε χαλαρά αντικείμενα μέσα ή χαμηλά και ασφαλισμένα.",
+      "Καθάρισε ασφαλείς απορροές αν φτάνεις.",
+      "Κράτα έξοδο μπαλκονιού διαθέσιμη.",
+      "Κατέγραψε ζημιές μετά τον καιρό."
+    ],
+    "warnings_en": [
+      "Do not climb or lean over edges during wind or rain.",
+      "Do not block emergency exits with stored items."
+    ],
+    "warnings_el": [
+      "Μην ανεβαίνεις ή σκύβεις σε άκρα με άνεμο ή βροχή.",
+      "Μην κλείνεις εξόδους ανάγκης με αποθηκευμένα πράγματα."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Small leak and rain entry first response"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-009",
+    "topic": "Learning rotation for rebuilding skills",
+    "topic_en": "Learning rotation for rebuilding skills",
+    "topic_el": "Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "education_recovery",
+    "summary_en": "A low-pressure way for groups to teach basic useful skills without depending on one expert.",
+    "summary_el": "Ήπιος τρόπος για ομάδες να μαθαίνουν βασικές χρήσιμες δεξιότητες χωρίς εξάρτηση από έναν ειδικό.",
+    "content_en": "Knowledge becomes fragile when only one person can do a task. Create short teaching rotations: water records, food ledger, tool safety, first aid basics, seed notes, cooking safety, and radio/phone discipline. Teach one safe skill at a time and record who can now help.",
+    "content_el": "Η γνώση είναι εύθραυστη όταν μόνο ένα άτομο κάνει μια εργασία. Φτιάξε μικρές εναλλαγές μάθησης: αρχεία νερού, βιβλίο τροφίμων, ασφάλεια εργαλείων, βασικά πρώτων βοηθειών, σημειώσεις σπόρων, ασφάλεια μαγειρέματος και πειθαρχία επικοινωνίας. Δίδαξε μία ασφαλή δεξιότητα τη φορά και γράψε ποιος μπορεί πλέον να βοηθά.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "skills",
+      "education",
+      "rebuilding"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Pick one skill per session.",
+      "Demonstrate slowly.",
+      "Let a learner repeat the safe parts.",
+      "Write the checklist.",
+      "Assign a backup person for each critical task."
+    ],
+    "steps_el": [
+      "Διάλεξε μία δεξιότητα ανά μάθημα.",
+      "Δείξε αργά.",
+      "Άφησε μαθητή να επαναλάβει τα ασφαλή μέρη.",
+      "Γράψε τη λίστα ελέγχου.",
+      "Όρισε εφεδρικό άτομο για κάθε κρίσιμη εργασία."
+    ],
+    "warnings_en": [
+      "Do not teach dangerous repairs as casual lessons.",
+      "Do not shame slow learners."
+    ],
+    "warnings_el": [
+      "Μη διδάσκεις επικίνδυνες επισκευές σαν πρόχειρα μαθήματα.",
+      "Μην ντροπιάζεις αργούς μαθητές."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Mutual aid skills directory"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-010",
+    "topic": "Low-tech inventory tags",
+    "topic_en": "Low-tech inventory tags",
+    "topic_el": "Ετικέτες αποθέματος χαμηλής τεχνολογίας",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "inventory",
+    "summary_en": "A tag system for boxes, shelves, tools, food, water, medicine, and repair parts.",
+    "summary_el": "Σύστημα ετικετών για κουτιά, ράφια, εργαλεία, φαγητό, νερό, φάρμακα και ανταλλακτικά.",
+    "content_en": "When supplies are scattered, people waste time and duplicate work. Use large tags: category, count, date checked, owner/contact if needed, and use priority. Red tags can mean do not use without permission, yellow can mean check first, green can mean ready. Choose any colors or symbols that the group understands.",
+    "content_el": "Όταν τα εφόδια είναι σκορπισμένα, οι άνθρωποι χάνουν χρόνο και διπλοκάνουν δουλειές. Χρησιμοποίησε μεγάλες ετικέτες: κατηγορία, ποσότητα, ημερομηνία ελέγχου, υπεύθυνος αν χρειάζεται και προτεραιότητα χρήσης. Κόκκινο μπορεί να σημαίνει μην χρησιμοποιείς χωρίς άδεια, κίτρινο έλεγξε πρώτα, πράσινο έτοιμο. Διάλεξε χρώματα ή σύμβολα που καταλαβαίνει η ομάδα.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "inventory",
+      "tags",
+      "organization"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Tag every storage box.",
+      "Write count and last check date.",
+      "Mark restricted or fragile items clearly.",
+      "Update tags after every use.",
+      "Keep the tag system simple."
+    ],
+    "steps_el": [
+      "Βάλε ετικέτα σε κάθε κουτί.",
+      "Γράψε ποσότητα και τελευταία ημερομηνία ελέγχου.",
+      "Σημείωσε περιορισμένα ή εύθραυστα καθαρά.",
+      "Ενημέρωσε ετικέτες μετά από κάθε χρήση.",
+      "Κράτα το σύστημα απλό."
+    ],
+    "warnings_en": [
+      "Do not hide dangerous items behind vague labels.",
+      "Do not make codes so complex nobody uses them."
+    ],
+    "warnings_el": [
+      "Μην κρύβεις επικίνδυνα αντικείμενα πίσω από ασαφείς ετικέτες.",
+      "Μην κάνεις κώδικες τόσο περίπλοκους που δεν χρησιμοποιούνται."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Fair distribution ledger"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-011",
+    "topic": "Temporary sleeping area layout",
+    "topic_en": "Temporary sleeping area layout",
+    "topic_el": "Διάταξη προσωρινού χώρου ύπνου",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "shelter_layout",
+    "summary_en": "A layout for sleep, privacy, airflow, trip safety, noise, and vulnerable people in crowded conditions.",
+    "summary_el": "Διάταξη για ύπνο, ιδιωτικότητα, αέρα, ασφάλεια πτώσης, θόρυβο και ευάλωτους σε συνωστισμό.",
+    "content_en": "Crowded sleep areas fail when paths, waste, wet clothes, children, pets, and supplies overlap. Keep a clear walking path, one quiet zone, one family zone, one care zone, and one storage edge. Keep lights reachable and exits visible. A sleeping area is also a fire, hygiene, privacy, and caregiving plan. Put people who need frequent help near access routes, keep wet items away from bedding, and make a small night path to water and toilet needs. Review the layout after the first night because real movement shows problems plans miss.",
+    "content_el": "Οι γεμάτοι χώροι ύπνου αποτυγχάνουν όταν διαδρομές, σκουπίδια, βρεγμένα ρούχα, παιδιά, ζώα και εφόδια ανακατεύονται. Κράτα καθαρή διαδρομή, μία ήσυχη ζώνη, μία οικογενειακή ζώνη, μία ζώνη φροντίδας και μία άκρη αποθήκευσης. Κράτα φώτα κοντά και εξόδους ορατές. Ο χώρος ύπνου είναι και σχέδιο φωτιάς, υγιεινής, ιδιωτικότητας και φροντίδας. Βάλε όσους χρειάζονται συχνή βοήθεια κοντά σε διαδρομές πρόσβασης, κράτα βρεγμένα πράγματα μακριά από κλινοσκεπάσματα και φτιάξε μικρό νυχτερινό πέρασμα προς νερό και τουαλέτα. Έλεγξε τη διάταξη μετά την πρώτη νύχτα γιατί η πραγματική κίνηση δείχνει προβλήματα που χάνει το σχέδιο.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "sleep",
+      "shelter",
+      "layout"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Mark walking paths.",
+      "Place vulnerable people near helpers but not in traffic.",
+      "Keep wet items outside sleeping zones.",
+      "Keep exits visible.",
+      "Set quiet hours."
+    ],
+    "steps_el": [
+      "Σημείωσε διαδρομές.",
+      "Βάλε ευάλωτους κοντά σε βοηθούς αλλά όχι στη μέση κίνησης.",
+      "Κράτα βρεγμένα αντικείμενα έξω από ζώνες ύπνου.",
+      "Κράτα εξόδους ορατές.",
+      "Βάλε ώρες ησυχίας."
+    ],
+    "warnings_en": [
+      "Do not block exits.",
+      "Do not place candles in sleeping areas."
+    ],
+    "warnings_el": [
+      "Μην κλείνεις εξόδους.",
+      "Μη βάζεις κεριά σε χώρους ύπνου."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Warm room and cold room shelter plan"
+    ]
+  },
+  {
+    "id": "pass81-rebuild-012",
+    "topic": "Local recovery priorities meeting",
+    "topic_en": "Local recovery priorities meeting",
+    "topic_el": "Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης",
+    "category": "rebuilding_agriculture_environment_and_long_term_recovery",
+    "subcategory": "recovery_planning",
+    "summary_en": "A calm meeting format for deciding what to repair, clean, share, or ask for first.",
+    "summary_el": "Ήρεμη μορφή συνάντησης για το τι επισκευάζεται, καθαρίζεται, μοιράζεται ή ζητιέται πρώτο.",
+    "content_en": "Recovery can become chaotic if every person pushes a different urgent task. A priorities meeting uses one list: life and health, water, sanitation, shelter, food, communication, access, records, and comfort. Keep meetings short, factual, and recorded. Good recovery meetings protect attention. Start with confirmed facts, then list blockers, then assign only a few tasks that can be finished before the next review. Do not let the loudest person define every priority. Keep unresolved items visible instead of arguing them repeatedly.",
+    "content_el": "Η ανάκαμψη γίνεται χάος όταν κάθε άτομο πιέζει διαφορετική επείγουσα εργασία. Η συνάντηση προτεραιοτήτων χρησιμοποιεί μία λίστα: ζωή και υγεία, νερό, υγιεινή, καταφύγιο, τροφή, επικοινωνία, πρόσβαση, αρχεία και άνεση. Κράτα συναντήσεις σύντομες, πραγματικές και καταγεγραμμένες. Οι καλές συναντήσεις ανάκαμψης προστατεύουν την προσοχή. Ξεκίνα με επιβεβαιωμένα γεγονότα, μετά γράψε εμπόδια και μετά ανάθεσε λίγες εργασίες που μπορούν να τελειώσουν πριν τον επόμενο έλεγχο. Μην αφήνεις το πιο δυνατό άτομο να ορίζει κάθε προτεραιότητα. Κράτα τα άλυτα θέματα ορατά αντί να επαναλαμβάνεται ο ίδιος καβγάς.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "tags": [
+      "recovery",
+      "meeting",
+      "planning"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Dry storage",
+      "Basic hand tools if relevant"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Στεγνή αποθήκευση",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+    ],
+    "steps_en": [
+      "Start with confirmed facts.",
+      "Rank tasks by safety impact.",
+      "Assign names and review times.",
+      "Write what cannot be solved locally.",
+      "End with the next meeting time."
+    ],
+    "steps_el": [
+      "Ξεκίνα με επιβεβαιωμένα γεγονότα.",
+      "Βάλε σειρά με βάση επίδραση στην ασφάλεια.",
+      "Όρισε ονόματα και ώρες ελέγχου.",
+      "Γράψε τι δεν λύνεται τοπικά.",
+      "Κλείσε με την επόμενη ώρα συνάντησης."
+    ],
+    "warnings_en": [
+      "Do not let the loudest person become the only priority.",
+      "Do not ignore sanitation because repairs feel more visible."
+    ],
+    "warnings_el": [
+      "Μην αφήνεις τον πιο φωνακλά να γίνει η μόνη προτεραιότητα.",
+      "Μην αγνοείς υγιεινή επειδή οι επισκευές φαίνονται περισσότερο."
+    ],
+    "mistakes_en": [
+      "Working from memory only.",
+      "Letting one person control the whole system.",
+      "Skipping records because the task feels simple."
+    ],
+    "mistakes_el": [
+      "Δουλειά μόνο από μνήμη.",
+      "Ένα άτομο ελέγχει όλο το σύστημα.",
+      "Παράλειψη αρχείων επειδή η εργασία φαίνεται απλή."
+    ],
+    "related_topics": [
+      "Calm leadership during group stress",
+      "Fair distribution ledger"
+    ]
+  }
+]

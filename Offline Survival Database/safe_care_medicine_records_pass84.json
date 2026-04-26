@@ -1,0 +1,1638 @@
+[
+  {
+    "id": "pass84-safe-care-medicine-records-001",
+    "topic": "Symptom observation timeline",
+    "topic_en": "Symptom observation timeline",
+    "topic_el": "Χρονολόγιο παρατήρησης συμπτωμάτων",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for recording symptoms over time without guessing a diagnosis, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για καταγραφή συμπτωμάτων στον χρόνο χωρίς εικασία διάγνωσης, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Symptom observation timeline turns a vague problem into a small routine that tired people can repeat. It focuses on recording symptoms over time without guessing a diagnosis. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Χρονολόγιο παρατήρησης συμπτωμάτων» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε καταγραφή συμπτωμάτων στον χρόνο χωρίς εικασία διάγνωσης. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "symptom",
+      "timeline"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Symptom observation timeline' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Χρονολόγιο παρατήρησης συμπτωμάτων» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-002",
+    "topic": "Fever comfort and hydration log",
+    "topic_en": "Fever comfort and hydration log",
+    "topic_el": "Ημερολόγιο πυρετού άνεσης και ενυδάτωσης",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for tracking comfort measures, fluids, rest, and when to seek help, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για παρακολούθηση άνεσης, υγρών, ξεκούρασης και πότε ζητείται βοήθεια, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Fever comfort and hydration log turns a vague problem into a small routine that tired people can repeat. It focuses on tracking comfort measures, fluids, rest, and when to seek help. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Ημερολόγιο πυρετού άνεσης και ενυδάτωσης» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε παρακολούθηση άνεσης, υγρών, ξεκούρασης και πότε ζητείται βοήθεια. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "fever",
+      "comfort",
+      "and"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Fever comfort and hydration log' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Ημερολόγιο πυρετού άνεσης και ενυδάτωσης» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-003",
+    "topic": "Pain description card",
+    "topic_en": "Pain description card",
+    "topic_el": "Κάρτα περιγραφής πόνου",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for helping a person describe pain clearly for a caregiver or clinician, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για βοήθεια για καθαρή περιγραφή πόνου σε φροντιστή ή γιατρό, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Pain description card turns a vague problem into a small routine that tired people can repeat. It focuses on helping a person describe pain clearly for a caregiver or clinician. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Κάρτα περιγραφής πόνου» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε βοήθεια για καθαρή περιγραφή πόνου σε φροντιστή ή γιατρό. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "pain",
+      "description",
+      "card"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Pain description card' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Κάρτα περιγραφής πόνου» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-004",
+    "topic": "Medication storage without power",
+    "topic_en": "Medication storage without power",
+    "topic_el": "Φύλαξη φαρμάκων χωρίς ρεύμα",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for protecting medicines from heat, moisture, children, pets, and confusion, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για προστασία φαρμάκων από ζέστη, υγρασία, παιδιά, ζώα και σύγχυση, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Medication storage without power turns a vague problem into a small routine that tired people can repeat. It focuses on protecting medicines from heat, moisture, children, pets, and confusion. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Φύλαξη φαρμάκων χωρίς ρεύμα» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε προστασία φαρμάκων από ζέστη, υγρασία, παιδιά, ζώα και σύγχυση. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "medication",
+      "storage",
+      "without"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Medication storage without power' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Φύλαξη φαρμάκων χωρίς ρεύμα» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-005",
+    "topic": "Non-prescription medicine caution list",
+    "topic_en": "Non-prescription medicine caution list",
+    "topic_el": "Λίστα προσοχής για μη συνταγογραφούμενα φάρμακα",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for preventing double dosing, mixing, and unsuitable use, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για πρόληψη διπλής δόσης, ανάμειξης και ακατάλληλης χρήσης, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Non-prescription medicine caution list turns a vague problem into a small routine that tired people can repeat. It focuses on preventing double dosing, mixing, and unsuitable use. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Λίστα προσοχής για μη συνταγογραφούμενα φάρμακα» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε πρόληψη διπλής δόσης, ανάμειξης και ακατάλληλης χρήσης. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "non",
+      "prescription",
+      "medicine"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Non-prescription medicine caution list' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Λίστα προσοχής για μη συνταγογραφούμενα φάρμακα» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-006",
+    "topic": "Care handover in one minute",
+    "topic_en": "Care handover in one minute",
+    "topic_el": "Παράδοση φροντίδας σε ένα λεπτό",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for summarizing a person's status quickly when a new helper takes over, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για σύντομη περίληψη κατάστασης όταν αναλαμβάνει νέος βοηθός, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Care handover in one minute turns a vague problem into a small routine that tired people can repeat. It focuses on summarizing a person's status quickly when a new helper takes over. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Παράδοση φροντίδας σε ένα λεπτό» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε σύντομη περίληψη κατάστασης όταν αναλαμβάνει νέος βοηθός. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "handover",
+      "in"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Care handover in one minute' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Παράδοση φροντίδας σε ένα λεπτό» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-007",
+    "topic": "Mobility aid check routine",
+    "topic_en": "Mobility aid check routine",
+    "topic_el": "Ρουτίνα ελέγχου βοηθημάτων κίνησης",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for checking canes, walkers, wheelchairs, shoes, and paths, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για έλεγχος μπαστουνιών, περιπατητήρων, αμαξιδίων, παπουτσιών και διαδρομών, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Mobility aid check routine turns a vague problem into a small routine that tired people can repeat. It focuses on checking canes, walkers, wheelchairs, shoes, and paths. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Ρουτίνα ελέγχου βοηθημάτων κίνησης» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε έλεγχος μπαστουνιών, περιπατητήρων, αμαξιδίων, παπουτσιών και διαδρομών. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "mobility",
+      "aid",
+      "check"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Mobility aid check routine' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Ρουτίνα ελέγχου βοηθημάτων κίνησης» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-008",
+    "topic": "Sleep protection for recovery",
+    "topic_en": "Sleep protection for recovery",
+    "topic_el": "Προστασία ύπνου για ανάρρωση",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for reducing noise, light, fear, and unnecessary interruptions, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για μείωση θορύβου, φωτός, φόβου και άσκοπων διακοπών, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Sleep protection for recovery turns a vague problem into a small routine that tired people can repeat. It focuses on reducing noise, light, fear, and unnecessary interruptions. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Προστασία ύπνου για ανάρρωση» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε μείωση θορύβου, φωτός, φόβου και άσκοπων διακοπών. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "sleep",
+      "protection",
+      "for"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Sleep protection for recovery' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Προστασία ύπνου για ανάρρωση» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-009",
+    "topic": "Care space privacy screen",
+    "topic_en": "Care space privacy screen",
+    "topic_el": "Προπέτασμα ιδιωτικότητας φροντίδας",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for protecting dignity during washing, dressing, and care tasks, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για προστασία αξιοπρέπειας σε πλύσιμο, ντύσιμο και φροντίδα, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Care space privacy screen turns a vague problem into a small routine that tired people can repeat. It focuses on protecting dignity during washing, dressing, and care tasks. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Προπέτασμα ιδιωτικότητας φροντίδας» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε προστασία αξιοπρέπειας σε πλύσιμο, ντύσιμο και φροντίδα. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "space",
+      "privacy"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Care space privacy screen' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Προπέτασμα ιδιωτικότητας φροντίδας» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-010",
+    "topic": "Hydration reminder without overuse",
+    "topic_en": "Hydration reminder without overuse",
+    "topic_el": "Υπενθύμιση ενυδάτωσης χωρίς υπερβολή",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for encouraging regular drinking while respecting medical restrictions, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για ενθάρρυνση τακτικής πόσης με σεβασμό σε ιατρικούς περιορισμούς, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Hydration reminder without overuse turns a vague problem into a small routine that tired people can repeat. It focuses on encouraging regular drinking while respecting medical restrictions. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Υπενθύμιση ενυδάτωσης χωρίς υπερβολή» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε ενθάρρυνση τακτικής πόσης με σεβασμό σε ιατρικούς περιορισμούς. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "hydration",
+      "reminder",
+      "without"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Hydration reminder without overuse' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Υπενθύμιση ενυδάτωσης χωρίς υπερβολή» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-011",
+    "topic": "Minor burn cooling record",
+    "topic_en": "Minor burn cooling record",
+    "topic_el": "Αρχείο ψύξης μικρού εγκαύματος",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for tracking gentle first response and signs that need qualified help, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για καταγραφή ήπιας πρώτης αντίδρασης και σημείων για ειδική βοήθεια, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Minor burn cooling record turns a vague problem into a small routine that tired people can repeat. It focuses on tracking gentle first response and signs that need qualified help. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Αρχείο ψύξης μικρού εγκαύματος» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε καταγραφή ήπιας πρώτης αντίδρασης και σημείων για ειδική βοήθεια. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "minor",
+      "burn",
+      "cooling"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Minor burn cooling record' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Αρχείο ψύξης μικρού εγκαύματος» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-012",
+    "topic": "Blister care prevention card",
+    "topic_en": "Blister care prevention card",
+    "topic_el": "Κάρτα πρόληψης φουσκάλας",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for preventing foot problems during walking, cleanup, or long standing, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για πρόληψη προβλημάτων ποδιών σε περπάτημα, καθάρισμα ή ορθοστασία, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Blister care prevention card turns a vague problem into a small routine that tired people can repeat. It focuses on preventing foot problems during walking, cleanup, or long standing. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Κάρτα πρόληψης φουσκάλας» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε πρόληψη προβλημάτων ποδιών σε περπάτημα, καθάρισμα ή ορθοστασία. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "blister",
+      "prevention"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Blister care prevention card' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Κάρτα πρόληψης φουσκάλας» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-013",
+    "topic": "Eye irritation safety note",
+    "topic_en": "Eye irritation safety note",
+    "topic_el": "Σημείωση ασφάλειας για ερεθισμό ματιού",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for reducing rubbing, contamination, and delay when eye irritation appears, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για μείωση τριψίματος, μόλυνσης και καθυστέρησης σε ερεθισμό ματιού, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Eye irritation safety note turns a vague problem into a small routine that tired people can repeat. It focuses on reducing rubbing, contamination, and delay when eye irritation appears. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Σημείωση ασφάλειας για ερεθισμό ματιού» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε μείωση τριψίματος, μόλυνσης και καθυστέρησης σε ερεθισμό ματιού. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "eye",
+      "irritation",
+      "safety"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Eye irritation safety note' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Σημείωση ασφάλειας για ερεθισμό ματιού» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-014",
+    "topic": "Caregiver stress red flags",
+    "topic_en": "Caregiver stress red flags",
+    "topic_el": "Σημάδια πίεσης φροντιστή",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for noticing when helpers need rest before mistakes happen, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για αναγνώριση πότε οι βοηθοί χρειάζονται ανάπαυση πριν γίνουν λάθη, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Caregiver stress red flags turns a vague problem into a small routine that tired people can repeat. It focuses on noticing when helpers need rest before mistakes happen. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Σημάδια πίεσης φροντιστή» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε αναγνώριση πότε οι βοηθοί χρειάζονται ανάπαυση πριν γίνουν λάθη. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "caregiver",
+      "stress",
+      "red"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Caregiver stress red flags' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Σημάδια πίεσης φροντιστή» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-015",
+    "topic": "Child comfort after frightening event",
+    "topic_en": "Child comfort after frightening event",
+    "topic_el": "Παρηγοριά παιδιού μετά από τρομακτικό γεγονός",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for using routine, simple truth, play, and calm adults to reduce fear, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για χρήση ρουτίνας, απλής αλήθειας, παιχνιδιού και ήρεμων ενηλίκων, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Child comfort after frightening event turns a vague problem into a small routine that tired people can repeat. It focuses on using routine, simple truth, play, and calm adults to reduce fear. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Παρηγοριά παιδιού μετά από τρομακτικό γεγονός» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε χρήση ρουτίνας, απλής αλήθειας, παιχνιδιού και ήρεμων ενηλίκων. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "child",
+      "comfort",
+      "after"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Child comfort after frightening event' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Παρηγοριά παιδιού μετά από τρομακτικό γεγονός» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-016",
+    "topic": "Allergy and reaction card",
+    "topic_en": "Allergy and reaction card",
+    "topic_el": "Κάρτα αλλεργίας και αντίδρασης",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for keeping allergy information visible for care, food, and medicine decisions, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για ορατή πληροφορία αλλεργίας για φροντίδα, τροφή και φάρμακα, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Allergy and reaction card turns a vague problem into a small routine that tired people can repeat. It focuses on keeping allergy information visible for care, food, and medicine decisions. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Κάρτα αλλεργίας και αντίδρασης» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε ορατή πληροφορία αλλεργίας για φροντίδα, τροφή και φάρμακα. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "allergy",
+      "and",
+      "reaction"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Allergy and reaction card' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Κάρτα αλλεργίας και αντίδρασης» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-017",
+    "topic": "Clean bedding rotation",
+    "topic_en": "Clean bedding rotation",
+    "topic_el": "Περιστροφή καθαρών σεντονιών",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for keeping bedding dry and cleaner for people resting or ill, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για κράτημα στεγνών και καθαρότερων κλινοσκεπασμάτων για όσους αναπαύονται ή είναι άρρωστοι, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Clean bedding rotation turns a vague problem into a small routine that tired people can repeat. It focuses on keeping bedding dry and cleaner for people resting or ill. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Περιστροφή καθαρών σεντονιών» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε κράτημα στεγνών και καθαρότερων κλινοσκεπασμάτων για όσους αναπαύονται ή είναι άρρωστοι. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "clean",
+      "bedding",
+      "rotation"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Clean bedding rotation' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Περιστροφή καθαρών σεντονιών» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-018",
+    "topic": "Dizziness and fall note",
+    "topic_en": "Dizziness and fall note",
+    "topic_el": "Σημείωση ζάλης και πτώσης",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for recording dizziness, falls, hydration, heat, medicines, and hazards, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για καταγραφή ζάλης, πτώσεων, ενυδάτωσης, ζέστης, φαρμάκων και κινδύνων, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Dizziness and fall note turns a vague problem into a small routine that tired people can repeat. It focuses on recording dizziness, falls, hydration, heat, medicines, and hazards. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Σημείωση ζάλης και πτώσης» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε καταγραφή ζάλης, πτώσεων, ενυδάτωσης, ζέστης, φαρμάκων και κινδύνων. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "moderate",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "dizziness",
+      "and",
+      "fall"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Dizziness and fall note' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Σημείωση ζάλης και πτώσης» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-019",
+    "topic": "Medical appointment paper backup",
+    "topic_en": "Medical appointment paper backup",
+    "topic_el": "Χάρτινο αντίγραφο ραντεβού υγείας",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for saving critical medical contacts and planned appointments offline, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για αποθήκευση βασικών ιατρικών επαφών και ραντεβού εκτός σύνδεσης, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Medical appointment paper backup turns a vague problem into a small routine that tired people can repeat. It focuses on saving critical medical contacts and planned appointments offline. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Χάρτινο αντίγραφο ραντεβού υγείας» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε αποθήκευση βασικών ιατρικών επαφών και ραντεβού εκτός σύνδεσης. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "medical",
+      "appointment",
+      "paper"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Medical appointment paper backup' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Χάρτινο αντίγραφο ραντεβού υγείας» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  },
+  {
+    "id": "pass84-safe-care-medicine-records-020",
+    "topic": "Quiet sick area rules",
+    "topic_en": "Quiet sick area rules",
+    "topic_el": "Κανόνες ήσυχης περιοχής ασθενούς",
+    "category": "safe_care_medicine_records",
+    "subcategory": "care_and_records",
+    "summary_en": "A practical offline checklist for organizing rest, hygiene, visitors, and supplies around a sick person, with clear roles, simple records, and review points.",
+    "summary_el": "Πρακτική offline λίστα για οργάνωση ανάπαυσης, υγιεινής, επισκεπτών και εφοδίων γύρω από ασθενή, με καθαρούς ρόλους, απλές καταγραφές και σημεία επανελέγχου.",
+    "content_en": "Quiet sick area rules turns a vague problem into a small routine that tired people can repeat. It focuses on organizing rest, hygiene, visitors, and supplies around a sick person. Start by naming the exact place, person responsible, available supplies, current risk, and next review time. Keep the method simple enough to use without internet, bright light, or perfect tools. Separate confirmed facts from guesses, label anything uncertain, and write down changes immediately. The goal is not to create a perfect system; the goal is to reduce avoidable mistakes, protect vulnerable people, and make the next decision easier. Review the card after each use and improve one detail instead of rewriting everything.",
+    "content_el": "Το θέμα «Κανόνες ήσυχης περιοχής ασθενούς» μετατρέπει ένα ασαφές πρόβλημα σε μικρή ρουτίνα που μπορούν να επαναλάβουν κουρασμένοι άνθρωποι. Εστιάζει σε οργάνωση ανάπαυσης, υγιεινής, επισκεπτών και εφοδίων γύρω από ασθενή. Ξεκίνα γράφοντας ακριβές σημείο, υπεύθυνο άτομο, διαθέσιμα εφόδια, τρέχον κίνδυνο και επόμενη ώρα ελέγχου. Κράτα τη μέθοδο αρκετά απλή ώστε να δουλεύει χωρίς ίντερνετ, δυνατό φως ή τέλεια εργαλεία. Χώρισε επιβεβαιωμένα γεγονότα από υποθέσεις, σημείωσε ό,τι είναι αβέβαιο και γράφε αμέσως τις αλλαγές. Ο στόχος δεν είναι τέλειο σύστημα· είναι λιγότερα αποφευκτά λάθη, προστασία ευάλωτων ανθρώπων και ευκολότερη επόμενη απόφαση. Μετά από κάθε χρήση, βελτίωσε μία λεπτομέρεια αντί να ξαναγράφεις τα πάντα.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass84 continuation expansion: added as part of a large bilingual offline knowledge growth pass.",
+    "tags": [
+      "care",
+      "medicine records",
+      "first aid",
+      "health",
+      "observation",
+      "quiet",
+      "sick",
+      "area"
+    ],
+    "materials_en": [
+      "Notebook or paper card",
+      "Pencil",
+      "Labels or tape",
+      "Clean storage area",
+      "Clock or fixed review time"
+    ],
+    "materials_el": [
+      "Τετράδιο ή χάρτινη κάρτα",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρός χώρος φύλαξης",
+      "Ρολόι ή σταθερή ώρα ελέγχου"
+    ],
+    "steps_en": [
+      "Write the title 'Quiet sick area rules' on a visible card or notebook page.",
+      "Name the person responsible and the backup person.",
+      "List the supplies, limits, and risks that matter today.",
+      "Use the checklist once, then record what changed.",
+      "Set a fixed time for the next review.",
+      "Teach the routine to at least one other person."
+    ],
+    "steps_el": [
+      "Γράψε τον τίτλο «Κανόνες ήσυχης περιοχής ασθενούς» σε ορατή κάρτα ή σελίδα τετραδίου.",
+      "Όρισε υπεύθυνο άτομο και εφεδρικό άτομο.",
+      "Γράψε τα εφόδια, τα όρια και τους κινδύνους που έχουν σημασία σήμερα.",
+      "Χρησιμοποίησε τη λίστα μία φορά και μετά κατέγραψε τι άλλαξε.",
+      "Βάλε σταθερή ώρα για τον επόμενο έλεγχο.",
+      "Δίδαξε τη ρουτίνα σε τουλάχιστον ένα άλλο άτομο."
+    ],
+    "warnings_en": [
+      "Do not treat guesses, rumors, or memory as confirmed facts.",
+      "Do not let one exhausted person hold the whole plan alone.",
+      "Do not hide uncertainty; label it clearly and review it again."
+    ],
+    "warnings_el": [
+      "Μην αντιμετωπίζεις υποθέσεις, φήμες ή μνήμη ως επιβεβαιωμένα γεγονότα.",
+      "Μην αφήνεις ένα εξαντλημένο άτομο να κρατά όλο το σχέδιο μόνο του.",
+      "Μην κρύβεις την αβεβαιότητα· σημείωσέ την καθαρά και ξαναέλεγξέ την."
+    ],
+    "mistakes_en": [
+      "Making the plan too complicated to use under stress.",
+      "Skipping the written review time.",
+      "Letting supplies move without updating the record."
+    ],
+    "mistakes_el": [
+      "Το σχέδιο γίνεται τόσο περίπλοκο που δεν χρησιμοποιείται σε στρες.",
+      "Παραλείπεται η γραπτή ώρα επανελέγχου.",
+      "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου."
+    ],
+    "related_topics": [
+      "Offline database audit habit",
+      "Local incident and resource log",
+      "Daily operations rhythm for long disruptions"
+    ]
+  }
+]

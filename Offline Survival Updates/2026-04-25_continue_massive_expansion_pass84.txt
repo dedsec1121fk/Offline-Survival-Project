@@ -1,0 +1,44 @@
+Offline Survival Update Log
+Date: 2026-04-25
+Pass: continue_massive_expansion_pass84
+
+Scope:
+- Continued from pass83 using the full updated zip.
+- Added a new large bilingual database expansion.
+- Fixed the one older weak-content entry found before this pass.
+- Updated the audit script output naming to pass84.
+- Added a database index file and pass84 validation summaries.
+
+New database files:
+- water_sanitation_public_health_pass84.json
+- food_preservation_kitchen_planning_pass84.json
+- safe_care_medicine_records_pass84.json
+- shelter_weather_clothing_microclimate_pass84.json
+- power_energy_lighting_tools_pass84.json
+- navigation_mobility_communication_pass84.json
+- community_governance_conflict_records_pass84.json
+- agriculture_soil_plants_animals_pass84.json
+- longterm_rebuilding_education_pass84.json
+- urban_greece_mediterranean_scenarios_pass84.json
+- environment_recovery_hazards_pass84.json
+- training_drills_offline_maintenance_pass84.json
+
+New content:
+- 240 new bilingual English/Greek entries.
+- Added practical checklists for water, sanitation, food, care records, shelter, power, tools, navigation, community operations, agriculture, rebuilding education, Greek/Mediterranean situations, cleanup, and training drills.
+
+Maintenance files:
+- DATABASE_INDEX_PASS84.md
+- Offline Survival Exports/offline_survival_audit_report_pass84.txt
+- Offline Survival Exports/offline_survival_pass84_validation_summary.json
+
+Validation:
+- JSON parse: OK
+- Duplicate IDs: 0
+- Duplicate English topics: 0
+- Duplicate Greek topics: 0
+- Missing required fields: 0
+- Weak content fields: 0
+- Total database entries: 633
+- Total database files: 35
+- Total categories: 40

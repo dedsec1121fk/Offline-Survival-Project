@@ -1,0 +1,151 @@
+Offline Survival Local Audit
+======================================================================
+Generated: 2026-04-25T20:19:20
+Database folder: /mnt/data/pass83/Offline-Survival-Project-main/Offline Survival Database
+
+JSON files: 23
+Entries: 393
+Categories: 28
+Subcategories: 179
+Load errors: 0
+Empty files: 0
+Oversized files > 1 MB: 0
+Duplicate IDs: 0
+Duplicate English topics: 0
+Duplicate Greek topics: 0
+Missing required fields: 0
+Wrong or weak list fields: 0
+Weak content fields: 0
+Greek fields without Greek characters: 0
+English fields containing Greek characters: 0
+
+Files
+----------------------------------------------------------------------
+anatomy_biology_medicine_tools_repair_and_construction.json: 4 entries, 18702 bytes
+care_navigation_community_expansion_pass81.json: 9 entries, 32182 bytes
+community_governance_learning_pass83.json: 20 entries, 214311 bytes
+community_psychology_records_expansion_pass82.json: 24 entries, 237969 bytes
+deep_resilience_community_operations_pass79.json: 6 entries, 34093 bytes
+documentation_maintenance_training_pass83.json: 20 entries, 214327 bytes
+environment_animals_farming_pass83.json: 20 entries, 214318 bytes
+food_agriculture_preservation_expansion_pass82.json: 24 entries, 238828 bytes
+food_agriculture_psychology_planning_and_daily_operations.json: 3 entries, 14557 bytes
+food_cooking_storage_pass83.json: 20 entries, 214167 bytes
+long_term_rebuilding_civilization_pass83.json: 20 entries, 214503 bytes
+medicine_care_body_systems_pass83.json: 20 entries, 214951 bytes
+navigation_communication_records_pass83.json: 20 entries, 214754 bytes
+power_tools_lowtech_repair_pass83.json: 20 entries, 214283 bytes
+rebuilding_agriculture_environment_recovery_pass81.json: 12 entries, 48432 bytes
+rebuilding_longterm_resilience_expansion_pass82.json: 24 entries, 238127 bytes
+shelter_clothing_weather_pass83.json: 20 entries, 214896 bytes
+shelter_power_navigation_expansion_pass82.json: 24 entries, 238186 bytes
+urban_rural_specific_scenarios_pass83.json: 20 entries, 214979 bytes
+water_fire_shelter_environment_and_records.json: 4 entries, 21320 bytes
+water_hygiene_public_health_pass83.json: 20 entries, 215908 bytes
+water_sanitation_food_energy_expansion_pass81.json: 15 entries, 58492 bytes
+water_sanitation_health_expansion_pass82.json: 24 entries, 240243 bytes
+
+Categories
+----------------------------------------------------------------------
+community_psychology_records_pass82: 24
+food_agriculture_preservation_pass82: 24
+rebuilding_longterm_resilience_pass82: 24
+shelter_power_navigation_pass82: 24
+water_sanitation_health_pass82: 24
+community_governance_learning_pass83: 20
+documentation_maintenance_training_pass83: 20
+environment_animals_farming_pass83: 20
+food_cooking_storage_pass83: 20
+long_term_rebuilding_civilization_pass83: 20
+medicine_care_body_systems_pass83: 20
+navigation_communication_records_pass83: 20
+power_tools_lowtech_repair_pass83: 20
+shelter_clothing_weather_pass83: 20
+urban_rural_specific_scenarios_pass83: 20
+water_hygiene_public_health_pass83: 20
+rebuilding_agriculture_environment_and_long_term_recovery: 12
+water_sanitation_food_energy: 11
+medicine_records_care: 5
+water_fire_shelter_environment_and_records: 5
+anatomy_biology_medicine_tools_repair_and_construction: 4
+navigation_records_community: 4
+food_agriculture_psychology_planning_and_daily_operations: 4
+shelter_heat_cold_air: 3
+medicine_sanitation_and_public_health: 2
+animals_food_water: 1
+planning_and_daily_operations: 1
+communications_records_and_navigation: 1
+
+File category spread
+----------------------------------------------------------------------
+anatomy_biology_medicine_tools_repair_and_construction.json: anatomy_biology_medicine_tools_repair_and_construction=4
+care_navigation_community_expansion_pass81.json: medicine_records_care=4, navigation_records_community=4, animals_food_water=1
+community_governance_learning_pass83.json: community_governance_learning_pass83=20
+community_psychology_records_expansion_pass82.json: community_psychology_records_pass82=24
+deep_resilience_community_operations_pass79.json: medicine_sanitation_and_public_health=2, planning_and_daily_operations=1, water_fire_shelter_environment_and_records=1, food_agriculture_psychology_planning_and_daily_operations=1, communications_records_and_navigation=1
+documentation_maintenance_training_pass83.json: documentation_maintenance_training_pass83=20
+environment_animals_farming_pass83.json: environment_animals_farming_pass83=20
+food_agriculture_preservation_expansion_pass82.json: food_agriculture_preservation_pass82=24
+food_agriculture_psychology_planning_and_daily_operations.json: food_agriculture_psychology_planning_and_daily_operations=3
+food_cooking_storage_pass83.json: food_cooking_storage_pass83=20
+long_term_rebuilding_civilization_pass83.json: long_term_rebuilding_civilization_pass83=20
+medicine_care_body_systems_pass83.json: medicine_care_body_systems_pass83=20
+navigation_communication_records_pass83.json: navigation_communication_records_pass83=20
+power_tools_lowtech_repair_pass83.json: power_tools_lowtech_repair_pass83=20
+rebuilding_agriculture_environment_recovery_pass81.json: rebuilding_agriculture_environment_and_long_term_recovery=12
+rebuilding_longterm_resilience_expansion_pass82.json: rebuilding_longterm_resilience_pass82=24
+shelter_clothing_weather_pass83.json: shelter_clothing_weather_pass83=20
+shelter_power_navigation_expansion_pass82.json: shelter_power_navigation_pass82=24
+urban_rural_specific_scenarios_pass83.json: urban_rural_specific_scenarios_pass83=20
+water_fire_shelter_environment_and_records.json: water_fire_shelter_environment_and_records=4
+water_hygiene_public_health_pass83.json: water_hygiene_public_health_pass83=20
+water_sanitation_food_energy_expansion_pass81.json: water_sanitation_food_energy=11, shelter_heat_cold_air=3, medicine_records_care=1
+water_sanitation_health_expansion_pass82.json: water_sanitation_health_pass82=24
+
+Load errors
+----------------------------------------------------------------------
+None
+
+Non JSON files in database folder
+----------------------------------------------------------------------
+None
+
+Empty files
+----------------------------------------------------------------------
+None
+
+Oversized files
+----------------------------------------------------------------------
+None
+
+Duplicate IDs
+----------------------------------------------------------------------
+None
+
+Duplicate English topics
+----------------------------------------------------------------------
+None
+
+Duplicate Greek topics
+----------------------------------------------------------------------
+None
+
+Missing required fields
+----------------------------------------------------------------------
+None
+
+Wrong or weak list fields
+----------------------------------------------------------------------
+None
+
+Weak content fields
+----------------------------------------------------------------------
+None
+
+Greek fields without Greek characters
+----------------------------------------------------------------------
+None
+
+English fields containing Greek characters
+----------------------------------------------------------------------
+None

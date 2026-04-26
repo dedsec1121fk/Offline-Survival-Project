@@ -1,0 +1,940 @@
+[
+  {
+    "id": "pass81-ops-001",
+    "topic": "Emergency water storage rotation",
+    "topic_en": "Emergency water storage rotation",
+    "topic_el": "Περιοδική ανανέωση αποθηκευμένου νερού",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "water_storage",
+    "summary_en": "A practical record system for stored water age, container condition, household needs, and safe use priorities.",
+    "summary_el": "Πρακτικό σύστημα καταγραφής ηλικίας αποθηκευμένου νερού, κατάστασης δοχείων, αναγκών σπιτιού και προτεραιοτήτων ασφαλούς χρήσης.",
+    "content_en": "Stored water only helps if people know where it is, how old it is, what container it is in, and whether the container stayed clean. Keep a simple table with container number, source, fill date, treatment status if any, storage place, and intended use. Commercial sealed bottled water is the simplest emergency supply when available. For household-filled containers, use clean food-safe containers only. Plan water first for drinking, cooking, basic hygiene, medicine, infants, and vulnerable people. Do not treat water storage as a one-time action; it is a routine.",
+    "content_el": "Το αποθηκευμένο νερό βοηθά μόνο αν ξέρεις πού είναι, πόσο παλιό είναι, σε τι δοχείο βρίσκεται και αν το δοχείο έμεινε καθαρό. Κράτα απλό πίνακα με αριθμό δοχείου, πηγή, ημερομηνία γεμίσματος, κατάσταση επεξεργασίας αν υπάρχει, σημείο φύλαξης και χρήση. Το σφραγισμένο εμφιαλωμένο νερό είναι η απλούστερη εφεδρεία όταν υπάρχει. Για δοχεία που γεμίζει το σπίτι, χρησιμοποίησε μόνο καθαρά δοχεία κατάλληλα για τρόφιμα. Πρώτα το νερό πάει για πόση, μαγείρεμα, βασική υγιεινή, φάρμακα, βρέφη και ευάλωτους. Η αποθήκευση νερού δεν είναι μία φορά· είναι ρουτίνα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "water",
+      "storage",
+      "rotation",
+      "labels"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Number each container and write the source and fill date.",
+      "Separate drinking water from washing water.",
+      "Keep containers away from fuel, cleaners, heat, direct sun, insects, and dirty floors.",
+      "Review supply daily during disruption and weekly during normal times.",
+      "Use older safe water first and replace damaged containers."
+    ],
+    "steps_el": [
+      "Αρίθμησε κάθε δοχείο και γράψε πηγή και ημερομηνία γεμίσματος.",
+      "Χώρισε πόσιμο νερό από νερό πλυσίματος.",
+      "Κράτα δοχεία μακριά από καύσιμα, καθαριστικά, ζέστη, ήλιο, έντομα και βρώμικα πατώματα.",
+      "Έλεγχε αποθέματα καθημερινά σε διακοπή και εβδομαδιαία σε κανονικές περιόδους.",
+      "Χρησιμοποίησε πρώτα παλιότερο ασφαλές νερό και αντικατάστησε χαλασμένα δοχεία."
+    ],
+    "warnings_en": [
+      "Do not store water in containers that held chemicals, fuel, pesticides, or unknown liquids.",
+      "Do not drink water that smells or looks contaminated without qualified safety confirmation."
+    ],
+    "warnings_el": [
+      "Μην αποθηκεύεις νερό σε δοχεία που είχαν χημικά, καύσιμα, φυτοφάρμακα ή άγνωστα υγρά.",
+      "Μην πίνεις νερό που μυρίζει ή φαίνεται μολυσμένο χωρίς αξιόπιστη επιβεβαίωση ασφάλειας."
+    ],
+    "mistakes_en": [
+      "No date labels.",
+      "Mixing treated and untreated containers."
+    ],
+    "mistakes_el": [
+      "Χωρίς ημερομηνίες.",
+      "Ανάμειξη επεξεργασμένων και μη επεξεργασμένων δοχείων."
+    ],
+    "related_topics": [
+      "Safe household water chain",
+      "Neighborhood water point rules"
+    ]
+  },
+  {
+    "id": "pass81-ops-002",
+    "topic": "Rainwater capture hygiene boundaries",
+    "topic_en": "Rainwater capture hygiene boundaries",
+    "topic_el": "Όρια υγιεινής για συλλογή βρόχινου νερού",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "water_collection",
+    "summary_en": "How to collect rainwater for non-drinking use first, while keeping contamination risks visible.",
+    "summary_el": "Πώς να συλλέγεται βρόχινο νερό πρώτα για μη πόσιμη χρήση, με ορατούς τους κινδύνους μόλυνσης.",
+    "content_en": "Rainwater can reduce pressure on stored water, but roofs, gutters, dust, bird droppings, smoke residue, and dirty containers can contaminate it. Treat unknown rainwater as non-drinking unless a safe treatment plan and local guidance support drinking use. Use it for flushing, cleaning, or plants before considering any higher-risk use. Keep first runoff away from storage when possible. Label containers clearly so nobody mistakes untreated water for drinking water.",
+    "content_el": "Το βρόχινο νερό μπορεί να μειώσει πίεση στα αποθέματα, αλλά στέγες, υδρορροές, σκόνη, περιττώματα πουλιών, υπολείμματα καπνού και βρώμικα δοχεία μπορούν να το μολύνουν. Θεώρησε άγνωστο βρόχινο νερό μη πόσιμο εκτός αν υπάρχει ασφαλές σχέδιο επεξεργασίας και τοπική οδηγία. Χρησιμοποίησέ το πρώτα για καζανάκι, καθάρισμα ή φυτά πριν σκεφτείς πιο επικίνδυνη χρήση. Όταν γίνεται, μην κρατάς την πρώτη απορροή. Σημείωσε δοχεία καθαρά ώστε κανείς να μην μπερδέψει μη επεξεργασμένο νερό με πόσιμο.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "rainwater",
+      "collection",
+      "hygiene"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Clean collection containers before rain.",
+      "Divert the first dirty runoff when possible.",
+      "Cover storage to stop insects and debris.",
+      "Label as untreated unless treated and confirmed safe.",
+      "Keep drinking-water containers separate."
+    ],
+    "steps_el": [
+      "Καθάρισε δοχεία συλλογής πριν τη βροχή.",
+      "Παράκαμψε την πρώτη βρώμικη απορροή όταν γίνεται.",
+      "Κάλυψε την αποθήκευση για έντομα και σκουπίδια.",
+      "Σημείωσε ως μη επεξεργασμένο εκτός αν επεξεργάστηκε και επιβεβαιώθηκε.",
+      "Κράτα τα δοχεία πόσιμου νερού χωριστά."
+    ],
+    "warnings_en": [
+      "Do not collect from roofs contaminated by chemicals, ash, dead animals, or sewage.",
+      "Do not assume rainwater is automatically safe to drink."
+    ],
+    "warnings_el": [
+      "Μη συλλέγεις από στέγες μολυσμένες με χημικά, στάχτη, νεκρά ζώα ή λύματα.",
+      "Μη θεωρείς ότι το βρόχινο νερό είναι αυτόματα πόσιμο."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Emergency water storage rotation",
+      "Safe household water chain"
+    ]
+  },
+  {
+    "id": "pass81-ops-003",
+    "topic": "Two-bucket handwashing station",
+    "topic_en": "Two-bucket handwashing station",
+    "topic_el": "Σταθμός πλυσίματος χεριών με δύο κουβάδες",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "hygiene",
+    "summary_en": "A low-water handwashing station that separates clean water from dirty runoff.",
+    "summary_el": "Σταθμός πλυσίματος με λίγο νερό που χωρίζει καθαρό νερό από βρώμικη απορροή.",
+    "content_en": "Hand hygiene often fails when the only water source is a shared bucket. A two-bucket station keeps clean water above and dirty water below. Use a small pour spout, cup, or tap so hands do not enter the clean bucket. Place soap or an acceptable substitute beside it. Put it where people actually pass before food, after toilet use, after cleaning, and after helping sick people.",
+    "content_el": "Η υγιεινή χεριών αποτυγχάνει όταν η μόνη πηγή είναι κοινός κουβάς. Ο σταθμός δύο κουβάδων κρατά καθαρό νερό πάνω και βρώμικο κάτω. Χρησιμοποίησε μικρό στόμιο, κύπελλο ή βρυσάκι ώστε τα χέρια να μη μπαίνουν στον καθαρό κουβά. Βάλε σαπούνι ή αποδεκτό υποκατάστατο δίπλα. Τοποθέτησέ το εκεί που περνούν οι άνθρωποι πριν το φαγητό, μετά τουαλέτα, μετά καθάρισμα και μετά φροντίδα ασθενών.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "handwashing",
+      "sanitation",
+      "low water"
+    ],
+    "materials_en": [
+      "Two buckets",
+      "Cup or tap",
+      "Soap",
+      "Sign",
+      "Raised surface"
+    ],
+    "materials_el": [
+      "Δύο κουβάδες",
+      "Κύπελλο ή βρυσάκι",
+      "Σαπούνι",
+      "Πινακίδα",
+      "Υψωμένη επιφάνεια"
+    ],
+    "steps_en": [
+      "Raise or mark the clean-water bucket.",
+      "Do not dip hands into clean water.",
+      "Catch runoff in a second bucket or safe drain area.",
+      "Empty dirty water away from food and drinking water.",
+      "Refill and clean the station daily."
+    ],
+    "steps_el": [
+      "Σήκωσε ή σημείωσε τον κουβά καθαρού νερού.",
+      "Μη βουτάς χέρια στο καθαρό νερό.",
+      "Μάζεψε απορροή σε δεύτερο κουβά ή ασφαλές σημείο.",
+      "Άδειασε βρώμικο νερό μακριά από φαγητό και πόσιμο νερό.",
+      "Γέμιζε και καθάριζε καθημερινά τον σταθμό."
+    ],
+    "warnings_en": [
+      "Do not let the dirty bucket overflow.",
+      "Do not place the station beside stored drinking water."
+    ],
+    "warnings_el": [
+      "Μην αφήνεις τον βρώμικο κουβά να ξεχειλίσει.",
+      "Μην βάζεις τον σταθμό δίπλα σε αποθηκευμένο πόσιμο νερό."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Community sanitation corner"
+    ]
+  },
+  {
+    "id": "pass81-ops-004",
+    "topic": "Toilet failure first response at home",
+    "topic_en": "Toilet failure first response at home",
+    "topic_el": "Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "sanitation",
+    "summary_en": "A clean, private, and controlled plan when toilets do not flush or plumbing is unsafe.",
+    "summary_el": "Καθαρό, ιδιωτικό και ελεγχόμενο σχέδιο όταν η τουαλέτα δεν λειτουργεί ή οι σωληνώσεις δεν είναι ασφαλείς.",
+    "content_en": "Toilet failure becomes a health problem quickly if waste, hands, shoes, children, and food areas mix. Decide early whether toilets can be used, whether flushing wastes stored water, and where hygiene supplies will stay. Keep privacy and dignity. Separate human waste from regular trash when required by local guidance. Keep written rules short and visible. The goal is to stop contamination paths, smell, insects, and conflict. This version focuses specifically on toilet failure first response at home so it does not duplicate broader database entries.",
+    "content_el": "Η αποτυχία τουαλέτας γίνεται γρήγορα θέμα υγείας αν ανακατευτούν απόβλητα, χέρια, παπούτσια, παιδιά και χώροι φαγητού. Αποφάσισε νωρίς αν η τουαλέτα μπορεί να χρησιμοποιηθεί, αν το καζανάκι σπαταλά αποθηκευμένο νερό και πού θα μείνουν υλικά υγιεινής. Κράτα ιδιωτικότητα και αξιοπρέπεια. Χώρισε ανθρώπινα απόβλητα από κοινά σκουπίδια όταν το ζητούν τοπικές οδηγίες. Κράτα τους κανόνες σύντομους και ορατούς. Στόχος είναι να σταματήσουν διαδρομές μόλυνσης, μυρωδιές, έντομα και συγκρούσεις. Αυτή η έκδοση εστιάζει ειδικά στο «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» ώστε να μη διπλασιάζει γενικότερες εγγραφές της βάσης.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "toilet",
+      "sanitation",
+      "hygiene"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Check official/local plumbing guidance if available.",
+      "Set a handwashing point beside the toilet area.",
+      "Keep waste-handling tools separate and labeled.",
+      "Protect children and pets from contaminated areas.",
+      "Record when the system changed and what rule is active."
+    ],
+    "steps_el": [
+      "Έλεγξε επίσημες/τοπικές οδηγίες σωληνώσεων αν υπάρχουν.",
+      "Βάλε σημείο πλυσίματος δίπλα στην περιοχή τουαλέτας.",
+      "Κράτα εργαλεία αποβλήτων χωριστά και σημειωμένα.",
+      "Προστάτευσε παιδιά και ζώα από μολυσμένες περιοχές.",
+      "Κατέγραψε πότε άλλαξε το σύστημα και ποιος κανόνας ισχύει."
+    ],
+    "warnings_en": [
+      "Do not pour waste into storm drains, streets, wells, gardens, or waterways.",
+      "Do not mix toilet waste with food preparation areas."
+    ],
+    "warnings_el": [
+      "Μην ρίχνεις απόβλητα σε φρεάτια βροχής, δρόμους, πηγάδια, κήπους ή νερά.",
+      "Μην ανακατεύεις απόβλητα τουαλέτας με χώρους φαγητού."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Two-bucket handwashing station",
+      "Community sanitation corner"
+    ]
+  },
+  {
+    "id": "pass81-ops-005",
+    "topic": "Greywater use boundaries",
+    "topic_en": "Greywater use boundaries",
+    "topic_el": "Όρια χρήσης γκρίζου νερού",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "water_reuse",
+    "summary_en": "A cautious guide for separating lightly used wash water from dangerous wastewater.",
+    "summary_el": "Προσεκτικός οδηγός για διαχωρισμό ελαφρά χρησιμοποιημένου νερού από επικίνδυνα απόνερα.",
+    "content_en": "Greywater can help with flushing or limited cleaning, but it is not drinking water and can carry soap, dirt, food residue, and germs. Keep it clearly labeled. Use it quickly; stored greywater can smell and grow microbes. Never use water from toilets, diapers, raw meat washing, chemicals, or sickroom cleanup as greywater. Keep it away from children, drinking water containers, and food preparation.",
+    "content_el": "Το γκρίζο νερό μπορεί να βοηθήσει σε καζανάκι ή περιορισμένο καθάρισμα, αλλά δεν είναι πόσιμο και μπορεί να μεταφέρει σαπούνι, βρωμιά, υπολείμματα τροφών και μικρόβια. Κράτα το καθαρά σημειωμένο. Χρησιμοποίησέ το γρήγορα· αν μείνει, μυρίζει και αναπτύσσει μικρόβια. Ποτέ μην χρησιμοποιείς νερό από τουαλέτες, πάνες, πλύσιμο ωμού κρέατος, χημικά ή καθάρισμα ασθενών ως γκρίζο νερό. Κράτα το μακριά από παιδιά, δοχεία πόσιμου νερού και φαγητό.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "greywater",
+      "reuse",
+      "sanitation"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Label greywater containers immediately.",
+      "Use only for low-risk tasks such as flushing where appropriate.",
+      "Keep storage time short.",
+      "Empty away from food, drinking water, and play areas.",
+      "Wash hands after handling."
+    ],
+    "steps_el": [
+      "Σημείωσε αμέσως δοχεία γκρίζου νερού.",
+      "Χρησιμοποίησε μόνο για χαμηλού κινδύνου εργασίες όπως καζανάκι όπου ταιριάζει.",
+      "Κράτα μικρό χρόνο αποθήκευσης.",
+      "Άδειασε μακριά από φαγητό, πόσιμο νερό και παιχνίδι.",
+      "Πλύνε χέρια μετά τον χειρισμό."
+    ],
+    "warnings_en": [
+      "Do not drink greywater.",
+      "Do not use greywater on edible plant parts.",
+      "Do not store it beside clean water."
+    ],
+    "warnings_el": [
+      "Μην πίνεις γκρίζο νερό.",
+      "Μη χρησιμοποιείς γκρίζο νερό σε βρώσιμα μέρη φυτών.",
+      "Μην το αποθηκεύεις δίπλα σε καθαρό νερό."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Toilet failure household plan"
+    ]
+  },
+  {
+    "id": "pass81-ops-006",
+    "topic": "Cooler and ice priority plan",
+    "topic_en": "Cooler and ice priority plan",
+    "topic_el": "Σχέδιο προτεραιότητας για ψυγειάκι και πάγο",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "food_safety",
+    "summary_en": "How to use limited cold storage for the foods and medicines that matter most.",
+    "summary_el": "Πώς να χρησιμοποιηθεί περιορισμένη ψύξη για τα πιο σημαντικά τρόφιμα και φάρμακα.",
+    "content_en": "A cooler is not a second refrigerator unless it is managed. Open it rarely, keep it shaded, group items by priority, and do not use it for casual drinks if medicines or essential foods need cold. Keep raw meat sealed away from ready-to-eat food. If temperature cannot be known, treat time and ice condition as warning signals. When in doubt about perishable food safety, discard instead of risking illness.",
+    "content_el": "Ένα ψυγειάκι δεν είναι δεύτερο ψυγείο αν δεν οργανωθεί. Άνοιγέ το σπάνια, κράτα το στη σκιά, ομαδοποίησε πράγματα ανά προτεραιότητα και μην το χρησιμοποιείς για απλά ποτά αν φάρμακα ή βασικά τρόφιμα χρειάζονται ψύξη. Κράτα ωμό κρέας σφραγισμένο μακριά από έτοιμο φαγητό. Αν δεν ξέρεις θερμοκρασία, ο χρόνος και η κατάσταση πάγου είναι προειδοποιήσεις. Αν αμφιβάλλεις για ασφάλεια ευπαθούς τροφίμου, πέτα το αντί να ρισκάρεις ασθένεια.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "cooler",
+      "ice",
+      "food safety",
+      "medicine"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Choose cooler priority: medicine, infant food, essential perishables, then comfort items.",
+      "Keep a written open/close rule.",
+      "Separate raw and ready-to-eat foods.",
+      "Drain water only if it helps keep items dry and cold.",
+      "Review food safety before each meal."
+    ],
+    "steps_el": [
+      "Διάλεξε προτεραιότητα: φάρμακα, βρεφικά, βασικά ευπαθή, μετά είδη άνεσης.",
+      "Γράψε κανόνα ανοίγματος/κλεισίματος.",
+      "Χώρισε ωμά από έτοιμα τρόφιμα.",
+      "Στράγγισε νερό μόνο αν βοηθά να μείνουν πράγματα στεγνά και κρύα.",
+      "Έλεγχε ασφάλεια τροφίμων πριν από κάθε γεύμα."
+    ],
+    "warnings_en": [
+      "Do not taste questionable food to test it.",
+      "Do not put loose raw meat above ready food."
+    ],
+    "warnings_el": [
+      "Μη δοκιμάζεις αμφίβολο φαγητό για τεστ.",
+      "Μη βάζεις χύμα ωμό κρέας πάνω από έτοιμο φαγητό."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Food safety after refrigerator failure",
+      "Medicine continuity sheet"
+    ]
+  },
+  {
+    "id": "pass81-ops-007",
+    "topic": "Medication cooling contingency",
+    "topic_en": "Medication cooling contingency",
+    "topic_el": "Εφεδρικό σχέδιο ψύξης φαρμάκων",
+    "category": "medicine_records_care",
+    "subcategory": "medicine_storage",
+    "summary_en": "A record and priority plan for medicines that normally need cool storage, without changing prescribed use.",
+    "summary_el": "Σχέδιο καταγραφής και προτεραιότητας για φάρμακα που θέλουν ψύξη, χωρίς αλλαγή συνταγογραφημένης χρήσης.",
+    "content_en": "Some medicines require special storage. This entry does not tell anyone to change dose, replace medicine, or ignore a prescription. It helps record what needs cooling, how long the power has been off, what cold storage exists, and who to contact. Keep medicine in original packaging when possible, avoid freezing unless the label says so, protect from direct heat and sun, and ask a pharmacist or clinician for medicine-specific advice as soon as possible.",
+    "content_el": "Κάποια φάρμακα χρειάζονται ειδική φύλαξη. Αυτή η εγγραφή δεν λέει σε κανέναν να αλλάξει δόση, να αντικαταστήσει φάρμακο ή να αγνοήσει συνταγή. Βοηθά να καταγραφεί τι θέλει ψύξη, πόση ώρα δεν υπάρχει ρεύμα, τι ψυχρός χώρος υπάρχει και με ποιον θα γίνει επικοινωνία. Κράτα φάρμακα στην αρχική συσκευασία όταν γίνεται, απόφυγε πάγωμα εκτός αν το λέει η ετικέτα, προστάτευσε από άμεση ζέστη και ήλιο και ζήτησε ειδική συμβουλή από φαρμακοποιό ή γιατρό όσο πιο γρήγορα γίνεται.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "medicine",
+      "cooling",
+      "records",
+      "pharmacy"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "List every medicine with storage instructions from the label.",
+      "Mark which medicine is life-critical or time-sensitive.",
+      "Use the best cold space for the highest priority items.",
+      "Do not remove labels or mix packages.",
+      "Write power-off time and advice received."
+    ],
+    "steps_el": [
+      "Γράψε κάθε φάρμακο με οδηγίες φύλαξης από την ετικέτα.",
+      "Σημείωσε ποιο είναι κρίσιμο ή χρονικά ευαίσθητο.",
+      "Χρησιμοποίησε τον καλύτερο ψυχρό χώρο για τις μεγαλύτερες προτεραιότητες.",
+      "Μην αφαιρείς ετικέτες και μην ανακατεύεις συσκευασίες.",
+      "Γράψε ώρα διακοπής και συμβουλή που έλαβες."
+    ],
+    "warnings_en": [
+      "Do not freeze medicine unless the label or a professional says it is safe.",
+      "Do not change doses because storage was difficult; seek qualified advice."
+    ],
+    "warnings_el": [
+      "Μην παγώνεις φάρμακο εκτός αν η ετικέτα ή ειδικός λέει ότι είναι ασφαλές.",
+      "Μην αλλάζεις δόσεις επειδή η φύλαξη ήταν δύσκολη· ζήτησε ειδική συμβουλή."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Medicine continuity sheet",
+      "Cooler and ice priority plan"
+    ]
+  },
+  {
+    "id": "pass81-ops-008",
+    "topic": "Apartment heat refuge plan",
+    "topic_en": "Apartment heat refuge plan",
+    "topic_el": "Σχέδιο δροσερού καταφυγίου σε διαμέρισμα",
+    "category": "shelter_heat_cold_air",
+    "subcategory": "heat",
+    "summary_en": "A low-power plan for reducing heat exposure inside apartments and protecting vulnerable people.",
+    "summary_el": "Σχέδιο χαμηλής κατανάλωσης για μείωση έκθεσης στη ζέστη σε διαμερίσματα και προστασία ευάλωτων.",
+    "content_en": "Heat risk rises when rooms trap sun, air stops moving, people stop drinking, and vulnerable people are checked too late. Choose the coolest room, reduce direct sun, move activity to cooler hours, keep water visible, and check people at fixed times. Fans help only when conditions are suitable and power exists. If someone becomes confused, faint, very weak, or stops sweating in severe heat, seek urgent medical help.",
+    "content_el": "Ο κίνδυνος ζέστης ανεβαίνει όταν τα δωμάτια κρατούν ήλιο, ο αέρας σταματά, οι άνθρωποι δεν πίνουν και οι ευάλωτοι ελέγχονται αργά. Διάλεξε το πιο δροσερό δωμάτιο, μείωσε άμεσο ήλιο, βάλε δραστηριότητες σε πιο δροσερές ώρες, κράτα νερό ορατό και έλεγχε ανθρώπους σε σταθερές ώρες. Οι ανεμιστήρες βοηθούν μόνο όταν οι συνθήκες ταιριάζουν και υπάρχει ρεύμα. Αν κάποιος μπερδευτεί, λιποθυμήσει, είναι πολύ αδύναμος ή σταματήσει να ιδρώνει σε έντονη ζέστη, ζήτησε επείγουσα ιατρική βοήθεια.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "heat",
+      "apartment",
+      "cool room"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Identify the coolest room before midday.",
+      "Shade windows that receive direct sun.",
+      "Move chores to early morning or evening.",
+      "Check vulnerable people regularly.",
+      "Record water intake if someone is at risk."
+    ],
+    "steps_el": [
+      "Βρες το πιο δροσερό δωμάτιο πριν το μεσημέρι.",
+      "Σκίασε παράθυρα με άμεσο ήλιο.",
+      "Μετέφερε δουλειές σε πρωί ή βράδυ.",
+      "Έλεγχε ευάλωτους τακτικά.",
+      "Κατέγραψε πρόσληψη νερού αν κάποιος κινδυνεύει."
+    ],
+    "warnings_en": [
+      "Do not ignore confusion or fainting in heat.",
+      "Do not leave children, elderly people, sick people, or pets in hot closed spaces."
+    ],
+    "warnings_el": [
+      "Μην αγνοείς σύγχυση ή λιποθυμία στη ζέστη.",
+      "Μην αφήνεις παιδιά, ηλικιωμένους, ασθενείς ή ζώα σε ζεστούς κλειστούς χώρους."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Warm room and cold room shelter plan"
+    ]
+  },
+  {
+    "id": "pass81-ops-009",
+    "topic": "Cold exposure home routine",
+    "topic_en": "Cold exposure home routine",
+    "topic_el": "Ρουτίνα σπιτιού για έκθεση στο κρύο",
+    "category": "shelter_heat_cold_air",
+    "subcategory": "cold",
+    "summary_en": "A routine for clothing layers, warm room management, dry feet, warm drinks, and checks on vulnerable people.",
+    "summary_el": "Ρουτίνα για στρώματα ρούχων, ζεστό δωμάτιο, στεγνά πόδια, ζεστά ροφήματα και ελέγχους ευάλωτων.",
+    "content_en": "Cold protection is more than adding one heavy coat. Layers, dry socks, wind blocking, warm shared rooms, safe heating, and regular checks work together. Keep feet dry, change wet clothes quickly, and keep people from lying directly on cold floors. If someone becomes confused, unusually sleepy, clumsy, or very cold to the touch, seek help and warm gradually without unsafe heat sources.",
+    "content_el": "Η προστασία από κρύο δεν είναι μόνο ένα βαρύ μπουφάν. Στρώματα, στεγνές κάλτσες, κόψιμο αέρα, κοινό ζεστό δωμάτιο, ασφαλής θέρμανση και τακτικοί έλεγχοι δουλεύουν μαζί. Κράτα πόδια στεγνά, άλλαξε βρεγμένα ρούχα γρήγορα και μην αφήνεις ανθρώπους να ξαπλώνουν απευθείας σε κρύο πάτωμα. Αν κάποιος μπερδεύεται, νυστάζει ασυνήθιστα, είναι αδέξιος ή πολύ κρύος στην αφή, ζήτησε βοήθεια και ζέστανέ τον σταδιακά χωρίς επικίνδυνες πηγές θερμότητας.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "cold",
+      "layers",
+      "shelter"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Create one warm room.",
+      "Layer clothing without cutting circulation.",
+      "Keep socks and bedding dry.",
+      "Schedule warm drinks or meals when possible.",
+      "Check vulnerable people before night."
+    ],
+    "steps_el": [
+      "Φτιάξε ένα ζεστό δωμάτιο.",
+      "Βάλε στρώματα ρούχων χωρίς να κόβεται η κυκλοφορία.",
+      "Κράτα κάλτσες και σκεπάσματα στεγνά.",
+      "Προγραμμάτισε ζεστά ροφήματα ή φαγητό όταν γίνεται.",
+      "Έλεγξε ευάλωτους πριν τη νύχτα."
+    ],
+    "warnings_en": [
+      "Do not use outdoor heaters indoors.",
+      "Do not sleep beside open flame.",
+      "Do not ignore confusion or extreme sleepiness in cold."
+    ],
+    "warnings_el": [
+      "Μη χρησιμοποιείς εξωτερικές θερμάστρες μέσα.",
+      "Μην κοιμάσαι δίπλα σε ανοιχτή φλόγα.",
+      "Μην αγνοείς σύγχυση ή ακραία υπνηλία στο κρύο."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Blackout fire and carbon monoxide safety"
+    ]
+  },
+  {
+    "id": "pass81-ops-010",
+    "topic": "Smoke and dust clean-room plan",
+    "topic_en": "Smoke and dust clean-room plan",
+    "topic_el": "Σχέδιο καθαρού δωματίου για καπνό και σκόνη",
+    "category": "shelter_heat_cold_air",
+    "subcategory": "air_quality",
+    "summary_en": "A practical plan for reducing indoor smoke or dust exposure when outdoor air is poor.",
+    "summary_el": "Πρακτικό σχέδιο για μείωση έκθεσης σε καπνό ή σκόνη μέσα στο σπίτι όταν ο εξωτερικός αέρας είναι κακός.",
+    "content_en": "When outdoor air is smoky or dusty, choose one room to keep cleaner. Close obvious gaps, reduce indoor burning, avoid sweeping dust into the air, and keep vulnerable people in the cleanest room. If filtration equipment exists, use it according to instructions. Do not use devices that create ozone indoors. Watch breathing comfort and seek medical help for severe symptoms.",
+    "content_el": "Όταν ο εξωτερικός αέρας έχει καπνό ή σκόνη, διάλεξε ένα δωμάτιο να μείνει καθαρότερο. Κλείσε εμφανή κενά, μείωσε καύση μέσα, απόφυγε σκούπισμα που σηκώνει σκόνη και κράτα ευάλωτους στο καθαρότερο δωμάτιο. Αν υπάρχει φίλτρο, χρησιμοποίησέ το σύμφωνα με οδηγίες. Μη χρησιμοποιείς συσκευές που παράγουν όζον μέσα. Παρακολούθησε την αναπνοή και ζήτησε ιατρική βοήθεια για σοβαρά συμπτώματα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "smoke",
+      "dust",
+      "air quality"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Choose a room with few gaps and low traffic.",
+      "Keep windows and doors closed when outdoor air is poor.",
+      "Avoid candles, smoking, frying, and unnecessary indoor dust.",
+      "Use damp cleaning instead of dry sweeping.",
+      "Track symptoms and official air guidance if available."
+    ],
+    "steps_el": [
+      "Διάλεξε δωμάτιο με λίγα κενά και μικρή κίνηση.",
+      "Κράτα παράθυρα και πόρτες κλειστά όταν ο έξω αέρας είναι κακός.",
+      "Απόφυγε κεριά, κάπνισμα, τηγάνισμα και άχρηστη σκόνη.",
+      "Χρησιμοποίησε υγρό καθάρισμα αντί για στεγνό σκούπισμα.",
+      "Παρακολούθησε συμπτώματα και επίσημες οδηγίες αέρα αν υπάρχουν."
+    ],
+    "warnings_en": [
+      "Do not block ventilation around fuel-burning appliances.",
+      "Do not ignore severe breathing trouble."
+    ],
+    "warnings_el": [
+      "Μην κλείνεις αερισμό γύρω από συσκευές καύσης.",
+      "Μην αγνοείς σοβαρή δυσκολία στην αναπνοή."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Warm room and cold room shelter plan"
+    ]
+  },
+  {
+    "id": "pass81-ops-011",
+    "topic": "Power bank and flashlight discipline",
+    "topic_en": "Power bank and flashlight discipline",
+    "topic_el": "Πειθαρχία power bank και φακού",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "power",
+    "summary_en": "A simple priority system for lighting and charging during long outages.",
+    "summary_el": "Απλό σύστημα προτεραιότητας για φωτισμό και φόρτιση σε μεγάλες διακοπές.",
+    "content_en": "Battery power disappears when every device is treated as equal. Decide which phone stays most charged, which light is used for common areas, and when devices are checked. Keep brightness low, disable unneeded radios and background tasks, and write down charging order. Store batteries where children cannot short them with metal objects.",
+    "content_el": "Η μπαταρία χάνεται όταν όλες οι συσκευές θεωρούνται ίδιες. Αποφάσισε ποιο κινητό μένει πιο φορτισμένο, ποιος φακός χρησιμοποιείται σε κοινό χώρο και πότε ελέγχονται συσκευές. Κράτα χαμηλή φωτεινότητα, κλείσε άχρηστα δίκτυα και εφαρμογές παρασκηνίου και γράψε σειρά φόρτισης. Φύλαξε μπαταρίες ώστε παιδιά να μην τις βραχυκυκλώσουν με μεταλλικά αντικείμενα.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "battery",
+      "power bank",
+      "flashlight"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Choose one emergency phone.",
+      "Choose one common-area light.",
+      "Create charging windows.",
+      "Keep entertainment use separate from emergency power.",
+      "Store loose batteries safely."
+    ],
+    "steps_el": [
+      "Διάλεξε ένα κινητό έκτακτης ανάγκης.",
+      "Διάλεξε έναν κοινόχρηστο φακό.",
+      "Φτιάξε ώρες φόρτισης.",
+      "Χώρισε ψυχαγωγική χρήση από μπαταρία ανάγκης.",
+      "Φύλαξε χύμα μπαταρίες με ασφάλεια."
+    ],
+    "warnings_en": [
+      "Do not leave damaged batteries charging unattended.",
+      "Do not use open flame just because batteries were wasted."
+    ],
+    "warnings_el": [
+      "Μην αφήνεις χαλασμένες μπαταρίες να φορτίζουν χωρίς επίβλεψη.",
+      "Μην καταφεύγεις σε ανοιχτή φλόγα επειδή σπαταλήθηκαν μπαταρίες."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass81-ops-012",
+    "topic": "Community cooking schedule",
+    "topic_en": "Community cooking schedule",
+    "topic_el": "Πρόγραμμα κοινοτικού μαγειρέματος",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "cooking",
+    "summary_en": "A schedule for shared cooking that reduces fuel waste, food conflict, and unsafe leftovers.",
+    "summary_el": "Πρόγραμμα κοινού μαγειρέματος που μειώνει σπατάλη καυσίμου, συγκρούσεις τροφίμων και επικίνδυνα περισσεύματα.",
+    "content_en": "Shared cooking can save fuel and time, but it needs fairness and food safety. Plan who cooks, what ingredients are used, who gets priority portions, how utensils are cleaned, and how leftovers are avoided. Keep allergen and medical diet needs visible to cooks. Do not mix unknown food donations into communal meals without inspection.",
+    "content_el": "Το κοινό μαγείρεμα μπορεί να σώσει καύσιμο και χρόνο, αλλά θέλει δικαιοσύνη και ασφάλεια τροφίμων. Σχεδίασε ποιος μαγειρεύει, ποια υλικά χρησιμοποιούνται, ποιος παίρνει προτεραιότητα, πώς καθαρίζονται εργαλεία και πώς αποφεύγονται περισσεύματα. Κράτα αλλεργίες και ειδικές δίαιτες ορατές στους μάγειρες. Μην ανακατεύεις άγνωστες δωρεές τροφίμων σε κοινό γεύμα χωρίς έλεγχο.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "cooking",
+      "fuel",
+      "community",
+      "food safety"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Write the meal plan before cooking.",
+      "Assign cook, cleaner, fire/heat safety watcher, and portion recorder.",
+      "Cook only what can be eaten safely.",
+      "Serve vulnerable people first when appropriate.",
+      "Clean utensils before the next meal."
+    ],
+    "steps_el": [
+      "Γράψε σχέδιο γεύματος πριν το μαγείρεμα.",
+      "Όρισε μάγειρα, καθαριστή, υπεύθυνο θερμότητας και καταγραφέα μερίδων.",
+      "Μαγείρεψε μόνο ό,τι μπορεί να φαγωθεί με ασφάλεια.",
+      "Σέρβιρε ευάλωτους πρώτα όταν χρειάζεται.",
+      "Καθάρισε εργαλεία πριν το επόμενο γεύμα."
+    ],
+    "warnings_en": [
+      "Do not cook indoors with unsafe fuel-burning equipment.",
+      "Do not ignore allergies or medical diets."
+    ],
+    "warnings_el": [
+      "Μη μαγειρεύεις μέσα με επικίνδυνο εξοπλισμό καύσης.",
+      "Μην αγνοείς αλλεργίες ή ειδικές δίαιτες."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Staple food ration board",
+      "Blackout fire and carbon monoxide safety"
+    ]
+  },
+  {
+    "id": "pass81-ops-013",
+    "topic": "Safe food donation sorting",
+    "topic_en": "Safe food donation sorting",
+    "topic_el": "Ασφαλής διαλογή δωρεών τροφίμων",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "food_safety",
+    "summary_en": "A sorting table for donated or recovered food with labels, inspection, and refusal rules.",
+    "summary_el": "Πίνακας διαλογής για δωρεές ή ανακτημένα τρόφιμα με ετικέτες, έλεγχο και κανόνες απόρριψης.",
+    "content_en": "Food that arrives during a disruption may be helpful or dangerous. Sort by sealed shelf-stable, refrigerated, cooked, damaged packaging, unknown origin, special diet, infant food, and pet food. Do not accept swollen cans, leaking packages, food exposed to floodwater, or food with unclear handling when it requires cold storage. Keep a refusal pile away from the eating area so it cannot drift back into use.",
+    "content_el": "Τρόφιμα που φτάνουν σε διακοπή μπορεί να βοηθούν ή να είναι επικίνδυνα. Χώρισε σε σφραγισμένα ραφιού, ψυγείου, μαγειρεμένα, χαλασμένη συσκευασία, άγνωστη προέλευση, ειδική δίαιτα, βρεφικά και τροφή ζώων. Μην δέχεσαι φουσκωμένες κονσέρβες, συσκευασίες που στάζουν, τρόφιμα από νερό πλημμύρας ή τρόφιμα με άγνωστη ψύξη όταν τη χρειάζονται. Κράτα τη στοίβα απόρριψης μακριά από χώρο φαγητού ώστε να μη γυρίσει στη χρήση.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "donations",
+      "food safety",
+      "sorting"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Create a clean sorting surface.",
+      "Inspect packaging before opening.",
+      "Separate special diet and infant food.",
+      "Label accepted food with date received.",
+      "Discard or isolate rejected food clearly."
+    ],
+    "steps_el": [
+      "Φτιάξε καθαρή επιφάνεια διαλογής.",
+      "Έλεγξε συσκευασία πριν ανοίξεις.",
+      "Χώρισε ειδικές δίαιτες και βρεφικά.",
+      "Σημείωσε δεκτό φαγητό με ημερομηνία παραλαβής.",
+      "Πέτα ή απομόνωσε ξεκάθαρα απορριφθέν φαγητό."
+    ],
+    "warnings_en": [
+      "Do not taste unknown food to check safety.",
+      "Do not distribute food with damaged or swollen packaging."
+    ],
+    "warnings_el": [
+      "Μη δοκιμάζεις άγνωστο φαγητό για έλεγχο.",
+      "Μη διανέμεις τρόφιμα με χαλασμένη ή φουσκωμένη συσκευασία."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Staple food ration board"
+    ]
+  },
+  {
+    "id": "pass81-ops-014",
+    "topic": "Household pest prevention by cleanliness",
+    "topic_en": "Household pest prevention by cleanliness",
+    "topic_el": "Πρόληψη παρασίτων στο σπίτι με καθαριότητα",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "pest_prevention",
+    "summary_en": "Non-toxic first steps for reducing insects and rodents around food, waste, and water.",
+    "summary_el": "Μη τοξικά πρώτα βήματα για μείωση εντόμων και τρωκτικών γύρω από φαγητό, σκουπίδια και νερό.",
+    "content_en": "Pests follow food, water, shelter, and hidden waste. Before poison, fix the conditions attracting them: sealed food, covered waste, dry floors, cleaned spills, blocked holes, and regular trash movement. Poison can harm children, pets, and food safety when used badly. Keep prevention boring and consistent. This version focuses specifically on household pest prevention by cleanliness so it does not duplicate broader database entries.",
+    "content_el": "Τα παράσιτα ακολουθούν φαγητό, νερό, καταφύγιο και κρυμμένα σκουπίδια. Πριν από δηλητήριο, διόρθωσε τις συνθήκες που τα τραβούν: κλειστό φαγητό, καλυμμένα σκουπίδια, στεγνά πατώματα, καθαρισμένες διαρροές, κλειστές τρύπες και τακτική μετακίνηση σκουπιδιών. Το δηλητήριο μπορεί να βλάψει παιδιά, ζώα και ασφάλεια τροφίμων όταν χρησιμοποιηθεί άσχημα. Η πρόληψη πρέπει να είναι βαρετή και σταθερή. Αυτή η έκδοση εστιάζει ειδικά στο «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» ώστε να μη διπλασιάζει γενικότερες εγγραφές της βάσης.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "pests",
+      "food storage",
+      "sanitation"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Seal food containers.",
+      "Remove crumbs and standing water.",
+      "Keep trash covered and away from sleeping areas.",
+      "Close small entry gaps when safe.",
+      "Inspect at the same time daily."
+    ],
+    "steps_el": [
+      "Σφράγισε δοχεία τροφίμων.",
+      "Αφαίρεσε ψίχουλα και στάσιμο νερό.",
+      "Κράτα σκουπίδια καλυμμένα και μακριά από ύπνο.",
+      "Κλείσε μικρά ανοίγματα όταν είναι ασφαλές.",
+      "Έλεγχε την ίδια ώρα καθημερινά."
+    ],
+    "warnings_en": [
+      "Do not place poison where children, pets, or food can contact it.",
+      "Do not ignore droppings near food storage."
+    ],
+    "warnings_el": [
+      "Μη βάζεις δηλητήριο όπου παιδιά, ζώα ή τρόφιμα μπορούν να ακουμπήσουν.",
+      "Μην αγνοείς περιττώματα κοντά σε αποθήκη τροφίμων."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Community sanitation corner"
+    ]
+  },
+  {
+    "id": "pass81-ops-015",
+    "topic": "Floodwater contact cleanup boundaries",
+    "topic_en": "Floodwater contact cleanup boundaries",
+    "topic_el": "Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας",
+    "category": "water_sanitation_food_energy",
+    "subcategory": "cleanup",
+    "summary_en": "A cautious approach for separating contaminated items, protecting skin, and avoiding risky reuse.",
+    "summary_el": "Προσεκτική προσέγγιση για διαχωρισμό μολυσμένων αντικειμένων, προστασία δέρματος και αποφυγή επικίνδυνης επαναχρησιμοποίησης.",
+    "content_en": "Floodwater can contain sewage, fuel, chemicals, sharp objects, and hidden electrical risks. Treat contacted food, soft absorbent items, and children’s mouth-contact items with extreme caution. Separate dirty and clean zones. Wear protective clothing if available. Do not rush items back into use just because they look dry.",
+    "content_el": "Το νερό πλημμύρας μπορεί να περιέχει λύματα, καύσιμα, χημικά, αιχμηρά αντικείμενα και κρυφούς ηλεκτρικούς κινδύνους. Τρόφιμα, μαλακά απορροφητικά αντικείμενα και αντικείμενα που μπαίνουν στο στόμα παιδιών θέλουν μεγάλη προσοχή. Χώρισε βρώμικη και καθαρή ζώνη. Φόρα προστατευτικά αν υπάρχουν. Μην επιστρέφεις αντικείμενα στη χρήση επειδή φαίνονται στεγνά.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass 81 large local expansion: added after full zip inspection, with safer bilingual wording and practical offline-first structure.",
+    "tags": [
+      "flood",
+      "cleanup",
+      "contamination"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Labels",
+      "Clean storage space"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Stay out of floodwater unless necessary for safety.",
+      "Turn off electricity only if you can do so safely and dry.",
+      "Separate items touched by floodwater.",
+      "Discard unsafe food and absorbent items when appropriate.",
+      "Wash hands and exposed skin after cleanup."
+    ],
+    "steps_el": [
+      "Μείνε έξω από νερό πλημμύρας εκτός αν χρειάζεται για ασφάλεια.",
+      "Κλείσε ρεύμα μόνο αν γίνεται με ασφάλεια και στεγνά.",
+      "Χώρισε αντικείμενα που άγγιξε πλημμύρα.",
+      "Πέτα μη ασφαλή τρόφιμα και απορροφητικά αντικείμενα όταν χρειάζεται.",
+      "Πλύνε χέρια και εκτεθειμένο δέρμα μετά τον καθαρισμό."
+    ],
+    "warnings_en": [
+      "Do not let children play in floodwater.",
+      "Do not use flooded food, baby items, or medicine unless officially confirmed safe."
+    ],
+    "warnings_el": [
+      "Μην αφήνεις παιδιά να παίζουν σε νερό πλημμύρας.",
+      "Μη χρησιμοποιείς πλημμυρισμένα τρόφιμα, βρεφικά ή φάρμακα εκτός αν επιβεβαιωθεί επίσημα ότι είναι ασφαλή."
+    ],
+    "mistakes_en": [],
+    "mistakes_el": [],
+    "related_topics": [
+      "Safe food donation sorting",
+      "Safe household water chain"
+    ]
+  }
+]

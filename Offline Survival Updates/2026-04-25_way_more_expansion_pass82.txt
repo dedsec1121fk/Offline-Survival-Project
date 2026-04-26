@@ -1,0 +1,38 @@
+Offline Survival Update Log
+Date: 2026-04-25
+Pass: way_more_expansion_pass82
+
+Input:
+- Started from Offline-Survival-Project-expanded-pass81.zip.
+
+Full local inspection:
+- Counted files in the uploaded repo package.
+- Parsed all JSON database files.
+- Checked duplicate IDs.
+- Checked required English and Greek fields.
+- Checked the main Python file.
+- Checked existing README and safety sources file.
+
+Added:
+- Offline Survival Audit.py
+- Offline Survival Database/water_sanitation_health_expansion_pass82.json
+- Offline Survival Database/food_agriculture_preservation_expansion_pass82.json
+- Offline Survival Database/shelter_power_navigation_expansion_pass82.json
+- Offline Survival Database/community_psychology_records_expansion_pass82.json
+- Offline Survival Database/rebuilding_longterm_resilience_expansion_pass82.json
+
+Knowledge expansion:
+- Added 120 new bilingual English/Greek entries.
+- Expanded water, sanitation, health records, food, preservation, agriculture, shelter, blackout routines, navigation, community psychology, records, repair, long-term rebuilding, and continuity planning.
+- Each new entry includes topic_en/topic_el, summary_en/summary_el, content_en/content_el, materials, steps, warnings, mistakes, failure signs, when-not-to-use notes, short-term and long-term notes, and related topics.
+
+Maintenance:
+- README updated with pass82 instructions.
+- OFFICIAL_SAFETY_SOURCES.md updated with official source categories used for cautious safety wording.
+- Main menu order in Offline Survival.py cleaned so Reload database appears before Export to TXT.
+
+Validation target:
+- Python compile should pass.
+- Every JSON file should parse.
+- Duplicate IDs should be zero.
+- Missing required bilingual fields should be zero.

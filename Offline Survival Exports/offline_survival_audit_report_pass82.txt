@@ -1,0 +1,51 @@
+Offline Survival Audit Report
+============================================================
+Generated during pass82 package build
+JSON files: 12
+Entries: 173
+Categories: 17
+Load errors: 0
+Duplicate IDs: 0
+Missing required bilingual fields: 0
+
+Database files
+------------------------------------------------------------
+anatomy_biology_medicine_tools_repair_and_construction.json: 4 entries
+care_navigation_community_expansion_pass81.json: 9 entries
+community_psychology_records_expansion_pass82.json: 24 entries
+deep_resilience_community_operations_pass79.json: 6 entries
+food_agriculture_preservation_expansion_pass82.json: 24 entries
+food_agriculture_psychology_planning_and_daily_operations.json: 3 entries
+rebuilding_agriculture_environment_recovery_pass81.json: 12 entries
+rebuilding_longterm_resilience_expansion_pass82.json: 24 entries
+shelter_power_navigation_expansion_pass82.json: 24 entries
+water_fire_shelter_environment_and_records.json: 4 entries
+water_sanitation_food_energy_expansion_pass81.json: 15 entries
+water_sanitation_health_expansion_pass82.json: 24 entries
+
+Categories
+------------------------------------------------------------
+community_psychology_records_pass82: 24
+food_agriculture_preservation_pass82: 24
+rebuilding_longterm_resilience_pass82: 24
+shelter_power_navigation_pass82: 24
+water_sanitation_health_pass82: 24
+rebuilding_agriculture_environment_and_long_term_recovery: 12
+water_sanitation_food_energy: 11
+medicine_records_care: 5
+water_fire_shelter_environment_and_records: 5
+anatomy_biology_medicine_tools_repair_and_construction: 4
+navigation_records_community: 4
+food_agriculture_psychology_planning_and_daily_operations: 4
+shelter_heat_cold_air: 3
+medicine_sanitation_and_public_health: 2
+animals_food_water: 1
+planning_and_daily_operations: 1
+communications_records_and_navigation: 1
+
+Validation
+------------------------------------------------------------
+Python compile: OK
+JSON parse: OK
+Duplicate IDs: OK
+Required bilingual fields: OK

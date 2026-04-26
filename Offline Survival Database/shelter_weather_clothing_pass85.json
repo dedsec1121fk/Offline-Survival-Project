@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "pass85-0081",
+    "topic": "Shelter Weather Clothing morning check",
+    "topic_en": "Shelter Weather Clothing morning check",
+    "topic_el": "Πρωινός έλεγχος για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing morning check, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για πρωινός έλεγχος για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the morning check for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «πρωινός έλεγχος» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the morning check affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «πρωινός έλεγχος» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0082",
+    "topic": "Shelter Weather Clothing evening review",
+    "topic_en": "Shelter Weather Clothing evening review",
+    "topic_el": "Βραδινή ανασκόπηση για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing evening review, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για βραδινή ανασκόπηση για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the evening review for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «βραδινή ανασκόπηση» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the evening review affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «βραδινή ανασκόπηση» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0083",
+    "topic": "Shelter Weather Clothing priority list",
+    "topic_en": "Shelter Weather Clothing priority list",
+    "topic_el": "Λίστα προτεραιότητας για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing priority list, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για λίστα προτεραιότητας για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the priority list for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «λίστα προτεραιότητας» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the priority list affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «λίστα προτεραιότητας» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0084",
+    "topic": "Shelter Weather Clothing rotation schedule",
+    "topic_en": "Shelter Weather Clothing rotation schedule",
+    "topic_el": "Πρόγραμμα εναλλαγής για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing rotation schedule, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για πρόγραμμα εναλλαγής για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the rotation schedule for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «πρόγραμμα εναλλαγής» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the rotation schedule affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «πρόγραμμα εναλλαγής» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0085",
+    "topic": "Shelter Weather Clothing red label rule",
+    "topic_en": "Shelter Weather Clothing red label rule",
+    "topic_el": "Κανόνας κόκκινης ετικέτας για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing red label rule, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για κανόνας κόκκινης ετικέτας για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the red label rule for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «κανόνας κόκκινης ετικέτας» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the red label rule affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «κανόνας κόκκινης ετικέτας» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0086",
+    "topic": "Shelter Weather Clothing two-person check",
+    "topic_en": "Shelter Weather Clothing two-person check",
+    "topic_el": "Έλεγχος δύο ατόμων για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing two-person check, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για έλεγχος δύο ατόμων για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the two-person check for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «έλεγχος δύο ατόμων» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the two-person check affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «έλεγχος δύο ατόμων» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0087",
+    "topic": "Shelter Weather Clothing quiet-hour plan",
+    "topic_en": "Shelter Weather Clothing quiet-hour plan",
+    "topic_el": "Σχέδιο ώρας ησυχίας για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing quiet-hour plan, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για σχέδιο ώρας ησυχίας για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the quiet-hour plan for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «σχέδιο ώρας ησυχίας» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the quiet-hour plan affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «σχέδιο ώρας ησυχίας» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0088",
+    "topic": "Shelter Weather Clothing fallback route",
+    "topic_en": "Shelter Weather Clothing fallback route",
+    "topic_el": "Εναλλακτική διαδρομή για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing fallback route, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για εναλλακτική διαδρομή για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the fallback route for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «εναλλακτική διαδρομή» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the fallback route affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «εναλλακτική διαδρομή» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0089",
+    "topic": "Shelter Weather Clothing small-kit setup",
+    "topic_en": "Shelter Weather Clothing small-kit setup",
+    "topic_el": "Στήσιμο μικρού κιτ για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing small-kit setup, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για στήσιμο μικρού κιτ για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the small-kit setup for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «στήσιμο μικρού κιτ» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the small-kit setup affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «στήσιμο μικρού κιτ» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0090",
+    "topic": "Shelter Weather Clothing clean-dirty boundary",
+    "topic_en": "Shelter Weather Clothing clean-dirty boundary",
+    "topic_el": "Όριο καθαρού και βρώμικου για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing clean-dirty boundary, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για όριο καθαρού και βρώμικου για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the clean-dirty boundary for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «όριο καθαρού και βρώμικου» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the clean-dirty boundary affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «όριο καθαρού και βρώμικου» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0091",
+    "topic": "Shelter Weather Clothing storage map",
+    "topic_en": "Shelter Weather Clothing storage map",
+    "topic_el": "Χάρτης αποθήκευσης για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing storage map, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για χάρτης αποθήκευσης για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the storage map for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «χάρτης αποθήκευσης» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the storage map affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «χάρτης αποθήκευσης» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0092",
+    "topic": "Shelter Weather Clothing handover note",
+    "topic_en": "Shelter Weather Clothing handover note",
+    "topic_el": "Σημείωση παράδοσης για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing handover note, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για σημείωση παράδοσης για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the handover note for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «σημείωση παράδοσης» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the handover note affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «σημείωση παράδοσης» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0093",
+    "topic": "Shelter Weather Clothing risk stop rule",
+    "topic_en": "Shelter Weather Clothing risk stop rule",
+    "topic_el": "Κανόνας παύσης κινδύνου για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing risk stop rule, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για κανόνας παύσης κινδύνου για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the risk stop rule for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «κανόνας παύσης κινδύνου» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the risk stop rule affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «κανόνας παύσης κινδύνου» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0094",
+    "topic": "Shelter Weather Clothing training card",
+    "topic_en": "Shelter Weather Clothing training card",
+    "topic_el": "Κάρτα εκπαίδευσης για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing training card, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για κάρτα εκπαίδευσης για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the training card for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «κάρτα εκπαίδευσης» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the training card affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «κάρτα εκπαίδευσης» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0095",
+    "topic": "Shelter Weather Clothing resource ledger",
+    "topic_en": "Shelter Weather Clothing resource ledger",
+    "topic_el": "Βιβλίο πόρων για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing resource ledger, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για βιβλίο πόρων για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the resource ledger for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «βιβλίο πόρων» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the resource ledger affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «βιβλίο πόρων» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0096",
+    "topic": "Shelter Weather Clothing privacy note",
+    "topic_en": "Shelter Weather Clothing privacy note",
+    "topic_el": "Σημείωση ιδιωτικότητας για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing privacy note, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για σημείωση ιδιωτικότητας για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the privacy note for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «σημείωση ιδιωτικότητας» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the privacy note affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «σημείωση ιδιωτικότητας» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0097",
+    "topic": "Shelter Weather Clothing low-power habit",
+    "topic_en": "Shelter Weather Clothing low-power habit",
+    "topic_el": "Συνήθεια χαμηλής κατανάλωσης για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing low-power habit, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για συνήθεια χαμηλής κατανάλωσης για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the low-power habit for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «συνήθεια χαμηλής κατανάλωσης» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the low-power habit affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «συνήθεια χαμηλής κατανάλωσης» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0098",
+    "topic": "Shelter Weather Clothing child-safe version",
+    "topic_en": "Shelter Weather Clothing child-safe version",
+    "topic_el": "Έκδοση ασφαλής για παιδιά για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing child-safe version, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για έκδοση ασφαλής για παιδιά για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the child-safe version for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «έκδοση ασφαλής για παιδιά» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the child-safe version affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «έκδοση ασφαλής για παιδιά» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0099",
+    "topic": "Shelter Weather Clothing elder support version",
+    "topic_en": "Shelter Weather Clothing elder support version",
+    "topic_el": "Έκδοση υποστήριξης ηλικιωμένων για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing elder support version, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για έκδοση υποστήριξης ηλικιωμένων για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the elder support version for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «έκδοση υποστήριξης ηλικιωμένων» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the elder support version affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «έκδοση υποστήριξης ηλικιωμένων» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  },
+  {
+    "id": "pass85-0100",
+    "topic": "Shelter Weather Clothing Greek-English sign",
+    "topic_en": "Shelter Weather Clothing Greek-English sign",
+    "topic_el": "Ελληνοαγγλική πινακίδα για καταφυγίου, καιρού και ρούχων",
+    "category": "shelter_weather_clothing",
+    "subcategory": "shelter_weather_clothing_routine",
+    "summary_en": "Offline bilingual guidance for shelter weather clothing greek-english sign, including materials, steps, warnings, mistakes, and review signs.",
+    "summary_el": "Offline δίγλωσση καθοδήγηση για ελληνοαγγλική πινακίδα για καταφυγίου, καιρού και ρούχων, με υλικά, βήματα, προειδοποιήσεις, λάθη και σημάδια ελέγχου.",
+    "content_en": "This entry turns the Greek-English sign for shelter weather clothing into a written routine instead of a guess. It focuses on shelter, heat, cold, with conservative limits for tired people and low-end offline phones. The safe pattern is to write the goal, assign one responsible person, separate safe from unsafe items, label anything unknown, and review the result before the group depends on it. This is not meant to replace official help or expert care. It is a practical offline checklist that reduces confusion, waste, conflict, and avoidable harm when normal services are slow, overloaded, or unavailable.",
+    "content_el": "Αυτή η εγγραφή μετατρέπει το «ελληνοαγγλική πινακίδα» για καταφυγίου, καιρού και ρούχων σε γραπτή ρουτίνα αντί για μαντεψιά. Εστιάζει σε shelter, heat, cold, με προσεκτικά όρια για κουρασμένους ανθρώπους και αδύναμα offline κινητά. Το ασφαλές μοτίβο είναι να γραφτεί ο στόχος, να οριστεί ένα υπεύθυνο άτομο, να χωριστούν ασφαλή από επικίνδυνα αντικείμενα, να σημειωθεί κάθε άγνωστο και να ελεγχθεί το αποτέλεσμα πριν βασιστεί πάνω του η ομάδα. Δεν αντικαθιστά επίσημη βοήθεια ή ειδική φροντίδα. Είναι πρακτική offline λίστα που μειώνει σύγχυση, σπατάλη, σύγκρουση και αποτρέψιμη βλάβη όταν οι κανονικές υπηρεσίες αργούν, υπερφορτώνονται ή λείπουν.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "last_updated": "2026-04-25",
+    "update_note": "Pass85 continuation expansion with English and Greek parity.",
+    "tags": [
+      "shelter",
+      "heat",
+      "cold",
+      "clothing",
+      "weather",
+      "shelter_weather_clothing",
+      "shelter_weather_clothing_routine",
+      "pass85",
+      "offline",
+      "bilingual"
+    ],
+    "materials_en": [
+      "Blankets",
+      "Cloth",
+      "Tape",
+      "Flashlight",
+      "Thermometer if available"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Ετικέτες ή ταινία",
+      "Καθαρό δοχείο ή σακούλα",
+      "Γάντια αν υπάρχουν"
+    ],
+    "steps_en": [
+      "Write the goal, time, place, and responsible person.",
+      "Name how the Greek-English sign affects shelter weather clothing today.",
+      "Separate clean, dirty, safe, unsafe, and unknown items.",
+      "Use the least risky method that still solves the immediate need.",
+      "Label the result clearly for the next person.",
+      "Review it at the next morning or evening check."
+    ],
+    "steps_el": [
+      "Γράψε στόχο, ώρα, σημείο και υπεύθυνο.",
+      "Γράψε πώς το «ελληνοαγγλική πινακίδα» επηρεάζει σήμερα το πεδίο καταφυγίου, καιρού και ρούχων.",
+      "Χώρισε καθαρά, βρώμικα, ασφαλή, επικίνδυνα και άγνωστα αντικείμενα.",
+      "Χρησιμοποίησε τη λιγότερο ριψοκίνδυνη μέθοδο που λύνει την άμεση ανάγκη.",
+      "Σημείωσε καθαρά το αποτέλεσμα για τον επόμενο.",
+      "Έλεγξέ το στην επόμενη πρωινή ή βραδινή ανασκόπηση."
+    ],
+    "warnings_en": [
+      "Do not delay evacuation, emergency care, or official instructions because of this entry.",
+      "Do not hide uncertainty; label unknown quality or unfinished work clearly.",
+      "Stop if the task creates fire, electric, poisoning, collapse, infection, or injury risk."
+    ],
+    "warnings_el": [
+      "Μην καθυστερείς εκκένωση, επείγουσα φροντίδα ή επίσημες οδηγίες εξαιτίας αυτής της εγγραφής.",
+      "Μην κρύβεις αβεβαιότητα· σημείωσε καθαρά άγνωστη ποιότητα ή μισοτελειωμένη εργασία.",
+      "Σταμάτα αν η εργασία δημιουργεί κίνδυνο φωτιάς, ρεύματος, δηλητηρίασης, κατάρρευσης, μόλυνσης ή τραυματισμού."
+    ],
+    "mistakes_en": [
+      "Starting from memory instead of a written note.",
+      "Letting one exhausted person decide alone.",
+      "Mixing clean, dirty, safe, unsafe, and unknown items."
+    ],
+    "mistakes_el": [
+      "Ξεκίνημα από μνήμη αντί για γραπτή σημείωση.",
+      "Ένα εξαντλημένο άτομο αποφασίζει μόνο του.",
+      "Ανάμειξη καθαρών, βρώμικων, ασφαλών, επικίνδυνων και άγνωστων αντικειμένων."
+    ],
+    "alternatives_en": [
+      "Use a simpler method if supplies or skill are missing.",
+      "Delay nonessential parts and protect people, water, hygiene, food, shelter, communication, and records first.",
+      "Ask for a second check when health, food, water, shelter, or movement is affected."
+    ],
+    "alternatives_el": [
+      "Χρησιμοποίησε απλούστερη μέθοδο αν λείπουν εφόδια ή δεξιότητα.",
+      "Καθυστέρησε τα μη απαραίτητα και προστάτευσε πρώτα ανθρώπους, νερό, υγιεινή, τροφή, καταφύγιο, επικοινωνία και αρχεία.",
+      "Ζήτησε δεύτερο έλεγχο όταν επηρεάζονται υγεία, τροφή, νερό, καταφύγιο ή μετακίνηση."
+    ],
+    "failure_signs_en": [
+      "People cannot explain the plan in one sentence.",
+      "The same question repeats because nothing is written.",
+      "Unknown items start mixing with trusted supplies."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν εξηγούν το σχέδιο σε μία πρόταση.",
+      "Η ίδια ερώτηση επαναλαμβάνεται επειδή τίποτα δεν γράφτηκε.",
+      "Άγνωστα αντικείμενα ανακατεύονται με έμπιστα εφόδια."
+    ],
+    "when_not_to_use_en": [
+      "Do not use if safer official help or professional care is available and appropriate.",
+      "Do not use if it requires unsafe climbing, unsafe flame, unsafe electricity, or unknown chemicals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιείς αν υπάρχει ασφαλέστερη επίσημη βοήθεια ή επαγγελματική φροντίδα.",
+      "Μη χρησιμοποιείς αν απαιτεί επικίνδυνη αναρρίχηση, φλόγα, ρεύμα ή άγνωστα χημικά."
+    ],
+    "short_term_en": "Make the task visible and reduce immediate risk.",
+    "short_term_el": "Κάνε την εργασία ορατή και μείωσε τον άμεσο κίνδυνο.",
+    "long_term_en": "Teach it to another person and update the checklist after real use.",
+    "long_term_el": "Δίδαξέ το σε άλλο άτομο και ενημέρωσε τη λίστα μετά από πραγματική χρήση.",
+    "if_method_fails_en": "Stop, mark the failure, and switch to a safer fallback.",
+    "if_method_fails_el": "Σταμάτα, σημείωσε την αποτυχία και γύρνα σε ασφαλέστερη εναλλακτική.",
+    "environment_notes_en": "Adapt to local weather, building type, terrain, water access, mobility limits, and official guidance.",
+    "environment_notes_el": "Προσαρμόσου σε τοπικό καιρό, τύπο κτιρίου, έδαφος, πρόσβαση σε νερό, περιορισμούς κίνησης και επίσημες οδηγίες.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ]
+  }
+]
