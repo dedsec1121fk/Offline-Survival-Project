@@ -769,18 +769,6 @@ def launch_web_ui():
     server.server_close()
 
 
-def run_local_audit():
-    script = os.path.join(BASE_DIR, "Offline Survival Audit.py")
-    if not os.path.isfile(script):
-        print("Audit script not found.")
-        pause()
-        return
-    try:
-        subprocess.run([sys.executable, script], check=False)
-    except Exception as exc:
-        print(f"Audit failed: {exc}")
-    pause("\nPress Enter to return to the menu...")
-
 
 def choose_language(current):
     clear()
@@ -812,7 +800,6 @@ def main():
         print("9. Switch language")
         print("10. Reload database")
         print("11. Export to TXT")
-        print("12. Run local audit")
         print("0. Exit")
         choice = input("\n> ").strip()
         if choice == "1":
@@ -837,8 +824,6 @@ def main():
             lang = choose_language(lang)
         elif choice == "11":
             export_menu(lang)
-        elif choice == "12":
-            run_local_audit()
         elif choice == "10":
             STORE.load()
             pause("\nDatabase reloaded. Press Enter to continue...")

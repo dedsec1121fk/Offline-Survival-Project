@@ -81,3 +81,8 @@ Recommended official reference families for future verification:
 ## Pass85 maintenance note
 
 Pass85 keeps advice cautious, non-diagnostic, non-violent, and offline-first. Future passes should keep checking official public-health, food-safety, civil-protection, fire-safety, pharmacy, and local municipality sources when expanding details.
+
+
+## Pass86 note
+
+Pass86 keeps the README simple and keeps only one Python script: `Offline Survival.py`. New knowledge remains original, bilingual, cautious, and offline-first. Future checks should keep using reliable public-health and civil-protection sources such as CDC emergency water and food safety pages, Ready.gov power outage guidance, Red Cross preparedness pages, WHO public-health references, FAO/agricultural-extension material, and local Greek civil-protection or municipal notices.

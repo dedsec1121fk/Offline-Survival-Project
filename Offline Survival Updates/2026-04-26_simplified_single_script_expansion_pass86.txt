@@ -1,0 +1,16 @@
+Offline Survival Update Log
+Date: 2026-04-26
+Pass: simplified_single_script_expansion_pass86
+
+Changes:
+- README was made simple again.
+- Removed the separate Offline Survival Audit.py helper script.
+- Removed Python cache folders.
+- Kept only one Python program file: Offline Survival.py.
+- Removed the external audit menu option from the main menu.
+- Kept the built-in database statistics, integrity check, browser UI, update logs, and TXT export inside Offline Survival.py.
+- Added pass86_simplified_single_script_expansion.json with new bilingual English/Greek knowledge entries.
+
+Maintenance rule:
+- Future zip builds should keep only one Python script unless the user explicitly asks for separate helper scripts.
+- Future README updates should stay short and practical.

@@ -1,0 +1,24 @@
+Offline Survival Update Log
+Date: 2026-04-26
+Pass: duplicate_translation_working_polish_pass87
+
+Scope:
+- Audited the pass86 package after user requested verification for duplicates, repeated text, full translations, and working files.
+- Removed Python cache artifacts.
+- Kept only one Python script: Offline Survival.py.
+- Removed outdated database index markdown files to keep the package simpler.
+
+Fixes:
+- Fixed one duplicated Greek topic.
+- Rewrote generated pass82/pass83/pass84/pass85/pass86 content sections that had repeated boilerplate.
+- Contextualized repeated step, warning, mistake, failure-sign, when-not-to-use, and alternative lines so procedural text is no longer repeated exactly across entries.
+- Preserved English and Greek fields together in every database entry.
+
+Validation target:
+- JSON files parse correctly.
+- Database IDs and topics are unique.
+- Required English and Greek fields are present.
+- Greek fields contain Greek text.
+- Main Python file compiles.
+- Browser UI JavaScript syntax checks.
+- Zip archive validates.
