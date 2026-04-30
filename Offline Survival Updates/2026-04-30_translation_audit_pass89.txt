@@ -1,0 +1,16 @@
+Offline Survival Project Update Log - Pass 89
+Date: 2026-04-30
+
+English:
+- Re-audited bilingual translation parity across the full JSON database.
+- Checked every populated *_en field against its paired *_el field.
+- No missing Greek paired fields were found in this package.
+- Added fresh translation audit reports to the Exports folder.
+- Repacked the project as a translation-audited release for repository replacement.
+
+Ελληνικά:
+- Έγινε νέος έλεγχος δίγλωσσης ισοτιμίας μεταφράσεων σε όλη τη JSON βάση δεδομένων.
+- Ελέγχθηκε κάθε συμπληρωμένο πεδίο *_en σε σύγκριση με το αντίστοιχο *_el.
+- Δεν βρέθηκαν ελλείποντα ελληνικά ζευγαρωμένα πεδία σε αυτό το πακέτο.
+- Προστέθηκαν νέα translation audit reports στον φάκελο Exports.
+- Το project ξανασυσκευάστηκε ως translation-audited έκδοση για αντικατάσταση του repository.
