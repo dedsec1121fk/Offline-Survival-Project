@@ -73,6 +73,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Ημερολόγιο ελέγχου φημών.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Ημερολόγιο ελέγχου φημών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Rumor control log with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Rumor control log if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Rumor control log and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ημερολόγιο ελέγχου φημών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ημερολόγιο ελέγχου φημών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ημερολόγιο ελέγχου φημών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Rumor control log.",
       "Supplies become mixed and labels are no longer trusted for Rumor control log.",
@@ -91,6 +101,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Ημερολόγιο ελέγχου φημών.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Ημερολόγιο ελέγχου φημών."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -98,12 +113,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-074-conflict-cooling-protocol",
@@ -179,6 +189,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Πρωτόκολλο εκτόνωσης σύγκρουσης.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Πρωτόκολλο εκτόνωσης σύγκρουσης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Conflict cooling protocol with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Conflict cooling protocol if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Conflict cooling protocol and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πρωτόκολλο εκτόνωσης σύγκρουσης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πρωτόκολλο εκτόνωσης σύγκρουσης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πρωτόκολλο εκτόνωσης σύγκρουσης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Conflict cooling protocol.",
       "Supplies become mixed and labels are no longer trusted for Conflict cooling protocol.",
@@ -197,6 +217,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Πρωτόκολλο εκτόνωσης σύγκρουσης.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Πρωτόκολλο εκτόνωσης σύγκρουσης."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -204,12 +229,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-075-volunteer-task-ledger",
@@ -285,6 +305,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Βιβλίο εργασιών εθελοντών.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Βιβλίο εργασιών εθελοντών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Volunteer task ledger with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Volunteer task ledger if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Volunteer task ledger and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Βιβλίο εργασιών εθελοντών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Βιβλίο εργασιών εθελοντών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Βιβλίο εργασιών εθελοντών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Volunteer task ledger.",
       "Supplies become mixed and labels are no longer trusted for Volunteer task ledger.",
@@ -303,6 +333,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Βιβλίο εργασιών εθελοντών.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Βιβλίο εργασιών εθελοντών."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -310,12 +345,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-076-vulnerable-person-privacy-rule",
@@ -391,6 +421,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Κανόνας ιδιωτικότητας ευάλωτων.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Κανόνας ιδιωτικότητας ευάλωτων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Vulnerable person privacy rule with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Vulnerable person privacy rule if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Vulnerable person privacy rule and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κανόνας ιδιωτικότητας ευάλωτων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κανόνας ιδιωτικότητας ευάλωτων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κανόνας ιδιωτικότητας ευάλωτων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Vulnerable person privacy rule.",
       "Supplies become mixed and labels are no longer trusted for Vulnerable person privacy rule.",
@@ -409,6 +449,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Κανόνας ιδιωτικότητας ευάλωτων.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Κανόνας ιδιωτικότητας ευάλωτων."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -416,12 +461,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-077-door-to-door-check-map",
@@ -497,6 +537,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Χάρτης ελέγχου πόρτα-πόρτα.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Χάρτης ελέγχου πόρτα-πόρτα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Door-to-door check map with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Door-to-door check map if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Door-to-door check map and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Χάρτης ελέγχου πόρτα-πόρτα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Χάρτης ελέγχου πόρτα-πόρτα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Χάρτης ελέγχου πόρτα-πόρτα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Door-to-door check map.",
       "Supplies become mixed and labels are no longer trusted for Door-to-door check map.",
@@ -515,6 +565,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Χάρτης ελέγχου πόρτα-πόρτα.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Χάρτης ελέγχου πόρτα-πόρτα."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -522,12 +577,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-078-child-routine-board",
@@ -603,6 +653,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Πίνακας ρουτίνας παιδιών.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Πίνακας ρουτίνας παιδιών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Child routine board with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Child routine board if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Child routine board and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πίνακας ρουτίνας παιδιών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πίνακας ρουτίνας παιδιών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πίνακας ρουτίνας παιδιών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Child routine board.",
       "Supplies become mixed and labels are no longer trusted for Child routine board.",
@@ -621,6 +681,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Πίνακας ρουτίνας παιδιών.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Πίνακας ρουτίνας παιδιών."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -628,12 +693,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-079-psychological-first-aid-basics",
@@ -709,6 +769,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Βασικά ψυχολογικών πρώτων βοηθειών.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Βασικά ψυχολογικών πρώτων βοηθειών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Psychological first aid basics with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Psychological first aid basics if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Psychological first aid basics and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Βασικά ψυχολογικών πρώτων βοηθειών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Βασικά ψυχολογικών πρώτων βοηθειών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Βασικά ψυχολογικών πρώτων βοηθειών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Psychological first aid basics.",
       "Supplies become mixed and labels are no longer trusted for Psychological first aid basics.",
@@ -727,6 +797,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Βασικά ψυχολογικών πρώτων βοηθειών.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Βασικά ψυχολογικών πρώτων βοηθειών."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -734,12 +809,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-080-sleep-protection-rotation",
@@ -815,6 +885,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Εναλλαγή προστασίας ύπνου.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Εναλλαγή προστασίας ύπνου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Sleep protection rotation with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Sleep protection rotation if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Sleep protection rotation and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Εναλλαγή προστασίας ύπνου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Εναλλαγή προστασίας ύπνου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Εναλλαγή προστασίας ύπνου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Sleep protection rotation.",
       "Supplies become mixed and labels are no longer trusted for Sleep protection rotation.",
@@ -833,6 +913,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Εναλλαγή προστασίας ύπνου.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Εναλλαγή προστασίας ύπνου."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -840,12 +925,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-081-leader-handover-note",
@@ -921,6 +1001,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Σημείωμα παράδοσης υπευθύνου.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Σημείωμα παράδοσης υπευθύνου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Leader handover note with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Leader handover note if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Leader handover note and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σημείωμα παράδοσης υπευθύνου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σημείωμα παράδοσης υπευθύνου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σημείωμα παράδοσης υπευθύνου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Leader handover note.",
       "Supplies become mixed and labels are no longer trusted for Leader handover note.",
@@ -939,6 +1029,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Σημείωμα παράδοσης υπευθύνου.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Σημείωμα παράδοσης υπευθύνου."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -946,12 +1041,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-082-public-queue-fairness-plan",
@@ -1027,6 +1117,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Σχέδιο δικαιοσύνης δημόσιας ουράς.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Σχέδιο δικαιοσύνης δημόσιας ουράς."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Public queue fairness plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Public queue fairness plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Public queue fairness plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σχέδιο δικαιοσύνης δημόσιας ουράς» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σχέδιο δικαιοσύνης δημόσιας ουράς» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σχέδιο δικαιοσύνης δημόσιας ουράς» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Public queue fairness plan.",
       "Supplies become mixed and labels are no longer trusted for Public queue fairness plan.",
@@ -1045,6 +1145,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Σχέδιο δικαιοσύνης δημόσιας ουράς.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Σχέδιο δικαιοσύνης δημόσιας ουράς."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -1052,12 +1157,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-083-mutual-aid-request-format",
@@ -1133,6 +1233,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Μορφή αιτήματος αλληλοβοήθειας.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Μορφή αιτήματος αλληλοβοήθειας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Mutual aid request format with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Mutual aid request format if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Mutual aid request format and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Μορφή αιτήματος αλληλοβοήθειας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Μορφή αιτήματος αλληλοβοήθειας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Μορφή αιτήματος αλληλοβοήθειας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Mutual aid request format.",
       "Supplies become mixed and labels are no longer trusted for Mutual aid request format.",
@@ -1151,6 +1261,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Μορφή αιτήματος αλληλοβοήθειας.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Μορφή αιτήματος αλληλοβοήθειας."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -1158,12 +1273,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-084-resource-lending-agreement",
@@ -1239,6 +1349,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Συμφωνία δανεισμού πόρων.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Συμφωνία δανεισμού πόρων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Resource lending agreement with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Resource lending agreement if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Resource lending agreement and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Συμφωνία δανεισμού πόρων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Συμφωνία δανεισμού πόρων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Συμφωνία δανεισμού πόρων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Resource lending agreement.",
       "Supplies become mixed and labels are no longer trusted for Resource lending agreement.",
@@ -1257,6 +1377,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Συμφωνία δανεισμού πόρων.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Συμφωνία δανεισμού πόρων."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -1264,12 +1389,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-085-visitor-and-helper-sign-in",
@@ -1345,6 +1465,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Καταγραφή επισκεπτών και βοηθών.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Καταγραφή επισκεπτών και βοηθών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Visitor and helper sign-in with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Visitor and helper sign-in if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Visitor and helper sign-in and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Καταγραφή επισκεπτών και βοηθών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Καταγραφή επισκεπτών και βοηθών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Καταγραφή επισκεπτών και βοηθών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Visitor and helper sign-in.",
       "Supplies become mixed and labels are no longer trusted for Visitor and helper sign-in.",
@@ -1363,6 +1493,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Καταγραφή επισκεπτών και βοηθών.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Καταγραφή επισκεπτών και βοηθών."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -1370,12 +1505,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-086-group-decision-record",
@@ -1451,6 +1581,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Αρχείο ομαδικών αποφάσεων.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Αρχείο ομαδικών αποφάσεων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Group decision record with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Group decision record if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Group decision record and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Αρχείο ομαδικών αποφάσεων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Αρχείο ομαδικών αποφάσεων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Αρχείο ομαδικών αποφάσεων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Group decision record.",
       "Supplies become mixed and labels are no longer trusted for Group decision record.",
@@ -1469,6 +1609,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Αρχείο ομαδικών αποφάσεων.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Αρχείο ομαδικών αποφάσεων."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -1476,12 +1621,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-087-elder-check-circle",
@@ -1557,6 +1697,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Κύκλος ελέγχου ηλικιωμένων.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Κύκλος ελέγχου ηλικιωμένων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Elder check circle with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Elder check circle if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Elder check circle and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κύκλος ελέγχου ηλικιωμένων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κύκλος ελέγχου ηλικιωμένων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κύκλος ελέγχου ηλικιωμένων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Elder check circle.",
       "Supplies become mixed and labels are no longer trusted for Elder check circle.",
@@ -1575,6 +1725,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Κύκλος ελέγχου ηλικιωμένων.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Κύκλος ελέγχου ηλικιωμένων."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -1582,12 +1737,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-088-disability-access-checklist",
@@ -1663,6 +1813,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Λίστα πρόσβασης αναπηρίας.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Λίστα πρόσβασης αναπηρίας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Disability access checklist with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Disability access checklist if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Disability access checklist and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Λίστα πρόσβασης αναπηρίας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Λίστα πρόσβασης αναπηρίας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Λίστα πρόσβασης αναπηρίας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Disability access checklist.",
       "Supplies become mixed and labels are no longer trusted for Disability access checklist.",
@@ -1681,6 +1841,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Λίστα πρόσβασης αναπηρίας.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Λίστα πρόσβασης αναπηρίας."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -1688,12 +1853,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-089-language-translation-cards",
@@ -1769,6 +1929,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Κάρτες μετάφρασης γλώσσας.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Κάρτες μετάφρασης γλώσσας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Language translation cards with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Language translation cards if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Language translation cards and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτες μετάφρασης γλώσσας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτες μετάφρασης γλώσσας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτες μετάφρασης γλώσσας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Language translation cards.",
       "Supplies become mixed and labels are no longer trusted for Language translation cards.",
@@ -1787,6 +1957,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Κάρτες μετάφρασης γλώσσας.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Κάρτες μετάφρασης γλώσσας."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -1794,12 +1969,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-090-pet-and-service-animal-plan",
@@ -1875,6 +2045,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Σχέδιο κατοικιδίων και ζώων υποστήριξης.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Σχέδιο κατοικιδίων και ζώων υποστήριξης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Pet and service animal plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Pet and service animal plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Pet and service animal plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σχέδιο κατοικιδίων και ζώων υποστήριξης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σχέδιο κατοικιδίων και ζώων υποστήριξης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σχέδιο κατοικιδίων και ζώων υποστήριξης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Pet and service animal plan.",
       "Supplies become mixed and labels are no longer trusted for Pet and service animal plan.",
@@ -1893,6 +2073,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Σχέδιο κατοικιδίων και ζώων υποστήριξης.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Σχέδιο κατοικιδίων και ζώων υποστήριξης."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -1900,12 +2085,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-091-education-routine-during-disruption",
@@ -1981,6 +2161,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Ρουτίνα μάθησης σε διακοπή.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Ρουτίνα μάθησης σε διακοπή."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Education routine during disruption with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Education routine during disruption if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Education routine during disruption and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ρουτίνα μάθησης σε διακοπή» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ρουτίνα μάθησης σε διακοπή» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ρουτίνα μάθησης σε διακοπή» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Education routine during disruption.",
       "Supplies become mixed and labels are no longer trusted for Education routine during disruption.",
@@ -1999,6 +2189,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Ρουτίνα μάθησης σε διακοπή.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Ρουτίνα μάθησης σε διακοπή."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -2006,12 +2201,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-092-community-repair-priority-meeting",
@@ -2087,6 +2277,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Συνάντηση προτεραιότητας επισκευών κοινότητας.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Συνάντηση προτεραιότητας επισκευών κοινότητας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Community repair priority meeting with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Community repair priority meeting if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Community repair priority meeting and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Συνάντηση προτεραιότητας επισκευών κοινότητας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Συνάντηση προτεραιότητας επισκευών κοινότητας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Συνάντηση προτεραιότητας επισκευών κοινότητας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Community repair priority meeting.",
       "Supplies become mixed and labels are no longer trusted for Community repair priority meeting.",
@@ -2105,6 +2305,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Συνάντηση προτεραιότητας επισκευών κοινότητας.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Συνάντηση προτεραιότητας επισκευών κοινότητας."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -2112,12 +2317,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-093-quiet-grief-support-corner",
@@ -2193,6 +2393,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Ήσυχη γωνία στήριξης πένθους.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Ήσυχη γωνία στήριξης πένθους."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Quiet grief support corner with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Quiet grief support corner if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Quiet grief support corner and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ήσυχη γωνία στήριξης πένθους» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ήσυχη γωνία στήριξης πένθους» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ήσυχη γωνία στήριξης πένθους» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Quiet grief support corner.",
       "Supplies become mixed and labels are no longer trusted for Quiet grief support corner.",
@@ -2211,6 +2421,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Ήσυχη γωνία στήριξης πένθους.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Ήσυχη γωνία στήριξης πένθους."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -2218,12 +2433,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-094-community-skills-inventory",
@@ -2299,6 +2509,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Απογραφή δεξιοτήτων κοινότητας.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Απογραφή δεξιοτήτων κοινότητας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Community skills inventory with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Community skills inventory if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Community skills inventory and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Απογραφή δεξιοτήτων κοινότητας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Απογραφή δεξιοτήτων κοινότητας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Απογραφή δεξιοτήτων κοινότητας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Community skills inventory.",
       "Supplies become mixed and labels are no longer trusted for Community skills inventory.",
@@ -2317,6 +2537,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Απογραφή δεξιοτήτων κοινότητας.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Απογραφή δεξιοτήτων κοινότητας."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -2324,12 +2549,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-095-fair-complaint-and-correction-box",
@@ -2405,6 +2625,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Κουτί δίκαιων παραπόνων και διορθώσεων.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Κουτί δίκαιων παραπόνων και διορθώσεων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Fair complaint and correction box with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Fair complaint and correction box if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Fair complaint and correction box and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κουτί δίκαιων παραπόνων και διορθώσεων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κουτί δίκαιων παραπόνων και διορθώσεων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κουτί δίκαιων παραπόνων και διορθώσεων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Fair complaint and correction box.",
       "Supplies become mixed and labels are no longer trusted for Fair complaint and correction box.",
@@ -2423,6 +2653,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Κουτί δίκαιων παραπόνων και διορθώσεων.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Κουτί δίκαιων παραπόνων και διορθώσεων."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -2430,12 +2665,7 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   },
   {
     "id": "2026-04-25-pass82-096-community-celebration-without-waste",
@@ -2511,6 +2741,16 @@
       "Χρήση δοχείων χωρίς ετικέτες, ανακατεμένων εργαλείων ή αποφάσεων από μνήμη για: Μικρή γιορτή κοινότητας χωρίς σπατάλη.",
       "Ξεχνιέται η επόμενη ώρα ελέγχου για: Μικρή γιορτή κοινότητας χωρίς σπατάλη."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Community celebration without waste with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Community celebration without waste if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Community celebration without waste and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Μικρή γιορτή κοινότητας χωρίς σπατάλη» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Μικρή γιορτή κοινότητας χωρίς σπατάλη» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Μικρή γιορτή κοινότητας χωρίς σπατάλη» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
     "failure_signs_en": [
       "People disagree about what was decided because nothing was written for Community celebration without waste.",
       "Supplies become mixed and labels are no longer trusted for Community celebration without waste.",
@@ -2529,6 +2769,11 @@
       "Μην το χρησιμοποιείς αντί για εντολές εκκένωσης ή υπηρεσίες έκτακτης ανάγκης για: Μικρή γιορτή κοινότητας χωρίς σπατάλη.",
       "Μη συνεχίζεις αν οι συνθήκες γίνουν μη ασφαλείς για: Μικρή γιορτή κοινότητας χωρίς σπατάλη."
     ],
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Calm leadership during group stress"
+    ],
     "short_term_en": "During the first day, keep the routine short. Complete the simple version before adding detail.",
     "short_term_el": "Την πρώτη ημέρα κράτα τη ρουτίνα μικρή. Ολοκλήρωσε την απλή έκδοση πριν προσθέσεις λεπτομέρεια.",
     "long_term_en": "For longer use, rotate responsibility, compare notes, remove repeated work, and revise the routine when weather, health, supplies, or official instructions change.",
@@ -2536,11 +2781,6 @@
     "if_method_fails_en": "Return to basics: protect people, stop contamination, save clean water, reduce risky movement, write facts, and ask for qualified help when possible.",
     "if_method_fails_el": "Γύρνα στα βασικά: προστάτευσε ανθρώπους, σταμάτα μόλυνση, φύλαξε καθαρό νερό, μείωσε επικίνδυνη κίνηση, γράψε γεγονότα και ζήτησε ειδική βοήθεια όταν γίνεται.",
     "environment_notes_en": "Adapt this to apartments, villages, mountains, coastal humidity, heatwaves, cold, smoke, heavy rain, and the actual supplies available.",
-    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια.",
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Local incident and resource log",
-      "Calm leadership during group stress"
-    ]
+    "environment_notes_el": "Προσάρμοσέ το σε πολυκατοικίες, χωριά, βουνά, υγρασία ακτής, καύσωνα, κρύο, καπνό, δυνατή βροχή και τα πραγματικά διαθέσιμα εφόδια."
   }
 ]

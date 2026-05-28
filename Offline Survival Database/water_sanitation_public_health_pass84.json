@@ -74,11 +74,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ρουτίνα διακοπής νερού σε διαμέρισμα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ρουτίνα διακοπής νερού σε διαμέρισμα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Apartment water shutoff routine with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Apartment water shutoff routine if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Apartment water shutoff routine and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ρουτίνα διακοπής νερού σε διαμέρισμα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ρουτίνα διακοπής νερού σε διαμέρισμα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ρουτίνα διακοπής νερού σε διαμέρισμα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Apartment water shutoff routine or when the next check happens.",
+      "Supplies connected to Apartment water shutoff routine are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ρουτίνα διακοπής νερού σε διαμέρισμα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ρουτίνα διακοπής νερού σε διαμέρισμα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Apartment water shutoff routine as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Apartment water shutoff routine when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Apartment water shutoff routine."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ρουτίνα διακοπής νερού σε διαμέρισμα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ρουτίνα διακοπής νερού σε διαμέρισμα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ρουτίνα διακοπής νερού σε διαμέρισμα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Apartment water shutoff routine, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ρουτίνα διακοπής νερού σε διαμέρισμα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Apartment water shutoff routine remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ρουτίνα διακοπής νερού σε διαμέρισμα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Apartment water shutoff routine fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ρουτίνα διακοπής νερού σε διαμέρισμα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Apartment water shutoff routine to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα διακοπής νερού σε διαμέρισμα» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-002",
@@ -156,11 +194,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Greywater reuse labels for apartments with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Greywater reuse labels for apartments if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Greywater reuse labels for apartments and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Greywater reuse labels for apartments or when the next check happens.",
+      "Supplies connected to Greywater reuse labels for apartments are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Greywater reuse labels for apartments as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Greywater reuse labels for apartments when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Greywater reuse labels for apartments."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Greywater reuse labels for apartments, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Greywater reuse labels for apartments remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Greywater reuse labels for apartments fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Greywater reuse labels for apartments to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ετικέτες επαναχρησιμοποίησης γκρίζου νερού σε διαμέρισμα» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-003",
@@ -238,11 +314,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σταθμός πλυσίματος χεριών χωρίς υδραυλικά.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σταθμός πλυσίματος χεριών χωρίς υδραυλικά."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Handwashing station without plumbing with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Handwashing station without plumbing if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Handwashing station without plumbing and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Handwashing station without plumbing or when the next check happens.",
+      "Supplies connected to Handwashing station without plumbing are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Handwashing station without plumbing as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Handwashing station without plumbing when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Handwashing station without plumbing."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Handwashing station without plumbing, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Handwashing station without plumbing remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Handwashing station without plumbing fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Handwashing station without plumbing to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σταθμός πλυσίματος χεριών χωρίς υδραυλικά» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-004",
@@ -320,11 +434,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Μερίδες σαπουνιού και προτεραιότητα υγιεινής.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Μερίδες σαπουνιού και προτεραιότητα υγιεινής."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Soap ration and hygiene priority with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Soap ration and hygiene priority if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Soap ration and hygiene priority and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Μερίδες σαπουνιού και προτεραιότητα υγιεινής» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Soap ration and hygiene priority or when the next check happens.",
+      "Supplies connected to Soap ration and hygiene priority are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Soap ration and hygiene priority as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Soap ration and hygiene priority when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Soap ration and hygiene priority."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Soap ration and hygiene priority, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Μερίδες σαπουνιού και προτεραιότητα υγιεινής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Soap ration and hygiene priority remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Soap ration and hygiene priority fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Soap ration and hygiene priority to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Μερίδες σαπουνιού και προτεραιότητα υγιεινής» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-005",
@@ -402,11 +554,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σχέδιο ιδιωτικότητας για κουβά τουαλέτας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σχέδιο ιδιωτικότητας για κουβά τουαλέτας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Toilet bucket privacy plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Toilet bucket privacy plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Toilet bucket privacy plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Toilet bucket privacy plan or when the next check happens.",
+      "Supplies connected to Toilet bucket privacy plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Toilet bucket privacy plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Toilet bucket privacy plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Toilet bucket privacy plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Toilet bucket privacy plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Toilet bucket privacy plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Toilet bucket privacy plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Toilet bucket privacy plan to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο ιδιωτικότητας για κουβά τουαλέτας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-006",
@@ -484,11 +674,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Προτεραιότητα μπουγάδας σε έλλειψη νερού.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Προτεραιότητα μπουγάδας σε έλλειψη νερού."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Laundry triage during water shortage with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Laundry triage during water shortage if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Laundry triage during water shortage and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Προτεραιότητα μπουγάδας σε έλλειψη νερού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Προτεραιότητα μπουγάδας σε έλλειψη νερού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Προτεραιότητα μπουγάδας σε έλλειψη νερού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Laundry triage during water shortage or when the next check happens.",
+      "Supplies connected to Laundry triage during water shortage are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Προτεραιότητα μπουγάδας σε έλλειψη νερού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Προτεραιότητα μπουγάδας σε έλλειψη νερού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Laundry triage during water shortage as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Laundry triage during water shortage when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Laundry triage during water shortage."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Προτεραιότητα μπουγάδας σε έλλειψη νερού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Προτεραιότητα μπουγάδας σε έλλειψη νερού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Προτεραιότητα μπουγάδας σε έλλειψη νερού»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Laundry triage during water shortage, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Προτεραιότητα μπουγάδας σε έλλειψη νερού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Laundry triage during water shortage remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Προτεραιότητα μπουγάδας σε έλλειψη νερού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Laundry triage during water shortage fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Προτεραιότητα μπουγάδας σε έλλειψη νερού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Laundry triage during water shortage to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Προτεραιότητα μπουγάδας σε έλλειψη νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-007",
@@ -566,11 +794,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Παρακολούθηση μούχλας μετά από υγρές μέρες.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Παρακολούθηση μούχλας μετά από υγρές μέρες."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Mold watch after damp days with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Mold watch after damp days if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Mold watch after damp days and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Παρακολούθηση μούχλας μετά από υγρές μέρες» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Παρακολούθηση μούχλας μετά από υγρές μέρες» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Παρακολούθηση μούχλας μετά από υγρές μέρες» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Mold watch after damp days or when the next check happens.",
+      "Supplies connected to Mold watch after damp days are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Παρακολούθηση μούχλας μετά από υγρές μέρες» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Παρακολούθηση μούχλας μετά από υγρές μέρες» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Mold watch after damp days as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Mold watch after damp days when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Mold watch after damp days."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Παρακολούθηση μούχλας μετά από υγρές μέρες» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Παρακολούθηση μούχλας μετά από υγρές μέρες» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Παρακολούθηση μούχλας μετά από υγρές μέρες»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Mold watch after damp days, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Παρακολούθηση μούχλας μετά από υγρές μέρες», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Mold watch after damp days remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Παρακολούθηση μούχλας μετά από υγρές μέρες» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Mold watch after damp days fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Παρακολούθηση μούχλας μετά από υγρές μέρες», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Mold watch after damp days to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Παρακολούθηση μούχλας μετά από υγρές μέρες» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-008",
@@ -647,11 +913,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Παιχνίδι ρουτίνας υγιεινής παιδιών.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Παιχνίδι ρουτίνας υγιεινής παιδιών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Child hygiene game routine with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Child hygiene game routine if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Child hygiene game routine and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Παιχνίδι ρουτίνας υγιεινής παιδιών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Παιχνίδι ρουτίνας υγιεινής παιδιών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Παιχνίδι ρουτίνας υγιεινής παιδιών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Child hygiene game routine or when the next check happens.",
+      "Supplies connected to Child hygiene game routine are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Παιχνίδι ρουτίνας υγιεινής παιδιών» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Παιχνίδι ρουτίνας υγιεινής παιδιών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Child hygiene game routine as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Child hygiene game routine when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Child hygiene game routine."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Παιχνίδι ρουτίνας υγιεινής παιδιών» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Παιχνίδι ρουτίνας υγιεινής παιδιών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Παιχνίδι ρουτίνας υγιεινής παιδιών»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Child hygiene game routine, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Παιχνίδι ρουτίνας υγιεινής παιδιών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Child hygiene game routine remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Παιχνίδι ρουτίνας υγιεινής παιδιών» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Child hygiene game routine fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Παιχνίδι ρουτίνας υγιεινής παιδιών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Child hygiene game routine to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Παιχνίδι ρουτίνας υγιεινής παιδιών» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-009",
@@ -729,11 +1033,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Βάρδιες καθαρισμού κοινής τουαλέτας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Βάρδιες καθαρισμού κοινής τουαλέτας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Shared bathroom cleaning rota with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Shared bathroom cleaning rota if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Shared bathroom cleaning rota and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Βάρδιες καθαρισμού κοινής τουαλέτας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Βάρδιες καθαρισμού κοινής τουαλέτας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Βάρδιες καθαρισμού κοινής τουαλέτας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Shared bathroom cleaning rota or when the next check happens.",
+      "Supplies connected to Shared bathroom cleaning rota are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Βάρδιες καθαρισμού κοινής τουαλέτας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Βάρδιες καθαρισμού κοινής τουαλέτας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Shared bathroom cleaning rota as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Shared bathroom cleaning rota when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Shared bathroom cleaning rota."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Βάρδιες καθαρισμού κοινής τουαλέτας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Βάρδιες καθαρισμού κοινής τουαλέτας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Βάρδιες καθαρισμού κοινής τουαλέτας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Shared bathroom cleaning rota, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Βάρδιες καθαρισμού κοινής τουαλέτας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Shared bathroom cleaning rota remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Βάρδιες καθαρισμού κοινής τουαλέτας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Shared bathroom cleaning rota fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Βάρδιες καθαρισμού κοινής τουαλέτας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Shared bathroom cleaning rota to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Βάρδιες καθαρισμού κοινής τουαλέτας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-010",
@@ -811,11 +1153,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σύστημα χωριστών ποτηριών πόσης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σύστημα χωριστών ποτηριών πόσης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Drinking cup separation system with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Drinking cup separation system if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Drinking cup separation system and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σύστημα χωριστών ποτηριών πόσης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σύστημα χωριστών ποτηριών πόσης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σύστημα χωριστών ποτηριών πόσης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Drinking cup separation system or when the next check happens.",
+      "Supplies connected to Drinking cup separation system are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σύστημα χωριστών ποτηριών πόσης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σύστημα χωριστών ποτηριών πόσης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Drinking cup separation system as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Drinking cup separation system when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Drinking cup separation system."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σύστημα χωριστών ποτηριών πόσης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σύστημα χωριστών ποτηριών πόσης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σύστημα χωριστών ποτηριών πόσης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Drinking cup separation system, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σύστημα χωριστών ποτηριών πόσης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Drinking cup separation system remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σύστημα χωριστών ποτηριών πόσης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Drinking cup separation system fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σύστημα χωριστών ποτηριών πόσης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Drinking cup separation system to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σύστημα χωριστών ποτηριών πόσης» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-011",
@@ -892,11 +1272,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ημερολόγιο μυρωδιάς και χρώματος νερού.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ημερολόγιο μυρωδιάς και χρώματος νερού."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Water smell and color log with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Water smell and color log if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Water smell and color log and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ημερολόγιο μυρωδιάς και χρώματος νερού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ημερολόγιο μυρωδιάς και χρώματος νερού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ημερολόγιο μυρωδιάς και χρώματος νερού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Water smell and color log or when the next check happens.",
+      "Supplies connected to Water smell and color log are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ημερολόγιο μυρωδιάς και χρώματος νερού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ημερολόγιο μυρωδιάς και χρώματος νερού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Water smell and color log as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Water smell and color log when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Water smell and color log."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ημερολόγιο μυρωδιάς και χρώματος νερού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ημερολόγιο μυρωδιάς και χρώματος νερού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ημερολόγιο μυρωδιάς και χρώματος νερού»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Water smell and color log, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ημερολόγιο μυρωδιάς και χρώματος νερού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Water smell and color log remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ημερολόγιο μυρωδιάς και χρώματος νερού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Water smell and color log fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ημερολόγιο μυρωδιάς και χρώματος νερού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Water smell and color log to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ημερολόγιο μυρωδιάς και χρώματος νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-012",
@@ -974,11 +1392,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Λίστα επαναφοράς καθαρών δοχείων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Λίστα επαναφοράς καθαρών δοχείων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Clean container recovery checklist with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Clean container recovery checklist if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Clean container recovery checklist and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Λίστα επαναφοράς καθαρών δοχείων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Λίστα επαναφοράς καθαρών δοχείων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Λίστα επαναφοράς καθαρών δοχείων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Clean container recovery checklist or when the next check happens.",
+      "Supplies connected to Clean container recovery checklist are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Λίστα επαναφοράς καθαρών δοχείων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Λίστα επαναφοράς καθαρών δοχείων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Clean container recovery checklist as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Clean container recovery checklist when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Clean container recovery checklist."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Λίστα επαναφοράς καθαρών δοχείων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Λίστα επαναφοράς καθαρών δοχείων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Λίστα επαναφοράς καθαρών δοχείων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Clean container recovery checklist, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Λίστα επαναφοράς καθαρών δοχείων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Clean container recovery checklist remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Λίστα επαναφοράς καθαρών δοχείων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Clean container recovery checklist fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Λίστα επαναφοράς καθαρών δοχείων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Clean container recovery checklist to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Λίστα επαναφοράς καθαρών δοχείων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-013",
@@ -1056,11 +1512,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Υγιεινή πλήθους σε δημόσια βρύση.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Υγιεινή πλήθους σε δημόσια βρύση."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Public tap crowd hygiene with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Public tap crowd hygiene if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Public tap crowd hygiene and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Υγιεινή πλήθους σε δημόσια βρύση» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Υγιεινή πλήθους σε δημόσια βρύση» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Υγιεινή πλήθους σε δημόσια βρύση» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Public tap crowd hygiene or when the next check happens.",
+      "Supplies connected to Public tap crowd hygiene are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Υγιεινή πλήθους σε δημόσια βρύση» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Υγιεινή πλήθους σε δημόσια βρύση» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Public tap crowd hygiene as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Public tap crowd hygiene when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Public tap crowd hygiene."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Υγιεινή πλήθους σε δημόσια βρύση» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Υγιεινή πλήθους σε δημόσια βρύση» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Υγιεινή πλήθους σε δημόσια βρύση»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Public tap crowd hygiene, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Υγιεινή πλήθους σε δημόσια βρύση», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Public tap crowd hygiene remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Υγιεινή πλήθους σε δημόσια βρύση» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Public tap crowd hygiene fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Υγιεινή πλήθους σε δημόσια βρύση», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Public tap crowd hygiene to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Υγιεινή πλήθους σε δημόσια βρύση» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-014",
@@ -1137,11 +1631,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Χωρισμός νερού για ζώα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Χωρισμός νερού για ζώα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Animal water separation with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Animal water separation if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Animal water separation and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Χωρισμός νερού για ζώα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Χωρισμός νερού για ζώα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Χωρισμός νερού για ζώα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Animal water separation or when the next check happens.",
+      "Supplies connected to Animal water separation are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Χωρισμός νερού για ζώα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Χωρισμός νερού για ζώα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Animal water separation as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Animal water separation when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Animal water separation."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Χωρισμός νερού για ζώα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Χωρισμός νερού για ζώα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Χωρισμός νερού για ζώα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Animal water separation, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Χωρισμός νερού για ζώα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Animal water separation remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Χωρισμός νερού για ζώα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Animal water separation fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Χωρισμός νερού για ζώα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Animal water separation to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Χωρισμός νερού για ζώα» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-015",
@@ -1219,11 +1751,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Illness after shared meal log with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Illness after shared meal log if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Illness after shared meal log and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Illness after shared meal log or when the next check happens.",
+      "Supplies connected to Illness after shared meal log are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Illness after shared meal log as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Illness after shared meal log when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Illness after shared meal log."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Illness after shared meal log, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Illness after shared meal log remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Illness after shared meal log fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Illness after shared meal log to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ημερολόγιο αδιαθεσίας μετά από κοινό γεύμα» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-016",
@@ -1301,11 +1871,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Πλύσιμο σώματος με ελάχιστο νερό.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Πλύσιμο σώματος με ελάχιστο νερό."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Bathing with minimal water with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Bathing with minimal water if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Bathing with minimal water and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πλύσιμο σώματος με ελάχιστο νερό» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πλύσιμο σώματος με ελάχιστο νερό» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πλύσιμο σώματος με ελάχιστο νερό» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Bathing with minimal water or when the next check happens.",
+      "Supplies connected to Bathing with minimal water are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πλύσιμο σώματος με ελάχιστο νερό» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πλύσιμο σώματος με ελάχιστο νερό» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Bathing with minimal water as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Bathing with minimal water when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Bathing with minimal water."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πλύσιμο σώματος με ελάχιστο νερό» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πλύσιμο σώματος με ελάχιστο νερό» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πλύσιμο σώματος με ελάχιστο νερό»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Bathing with minimal water, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πλύσιμο σώματος με ελάχιστο νερό», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Bathing with minimal water remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πλύσιμο σώματος με ελάχιστο νερό» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Bathing with minimal water fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πλύσιμο σώματος με ελάχιστο νερό», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Bathing with minimal water to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πλύσιμο σώματος με ελάχιστο νερό» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-017",
@@ -1383,11 +1991,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ρουτίνα σήμανσης σακούλας απορριμμάτων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ρουτίνα σήμανσης σακούλας απορριμμάτων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Waste bag labeling routine with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Waste bag labeling routine if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Waste bag labeling routine and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ρουτίνα σήμανσης σακούλας απορριμμάτων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ρουτίνα σήμανσης σακούλας απορριμμάτων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ρουτίνα σήμανσης σακούλας απορριμμάτων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Waste bag labeling routine or when the next check happens.",
+      "Supplies connected to Waste bag labeling routine are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ρουτίνα σήμανσης σακούλας απορριμμάτων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ρουτίνα σήμανσης σακούλας απορριμμάτων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Waste bag labeling routine as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Waste bag labeling routine when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Waste bag labeling routine."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ρουτίνα σήμανσης σακούλας απορριμμάτων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ρουτίνα σήμανσης σακούλας απορριμμάτων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ρουτίνα σήμανσης σακούλας απορριμμάτων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Waste bag labeling routine, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ρουτίνα σήμανσης σακούλας απορριμμάτων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Waste bag labeling routine remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ρουτίνα σήμανσης σακούλας απορριμμάτων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Waste bag labeling routine fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ρουτίνα σήμανσης σακούλας απορριμμάτων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Waste bag labeling routine to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα σήμανσης σακούλας απορριμμάτων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-018",
@@ -1465,11 +2111,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Έλεγχος μυγών χωρίς δηλητήριο.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Έλεγχος μυγών χωρίς δηλητήριο."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Fly control without poison with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Fly control without poison if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Fly control without poison and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Έλεγχος μυγών χωρίς δηλητήριο» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Έλεγχος μυγών χωρίς δηλητήριο» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Έλεγχος μυγών χωρίς δηλητήριο» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Fly control without poison or when the next check happens.",
+      "Supplies connected to Fly control without poison are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Έλεγχος μυγών χωρίς δηλητήριο» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Έλεγχος μυγών χωρίς δηλητήριο» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Fly control without poison as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Fly control without poison when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Fly control without poison."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Έλεγχος μυγών χωρίς δηλητήριο» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Έλεγχος μυγών χωρίς δηλητήριο» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Έλεγχος μυγών χωρίς δηλητήριο»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Fly control without poison, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Έλεγχος μυγών χωρίς δηλητήριο», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Fly control without poison remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Έλεγχος μυγών χωρίς δηλητήριο» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Fly control without poison fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Έλεγχος μυγών χωρίς δηλητήριο», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Fly control without poison to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Έλεγχος μυγών χωρίς δηλητήριο» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-019",
@@ -1547,11 +2231,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ασφαλής σειρά πλυσίματος πιάτων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ασφαλής σειρά πλυσίματος πιάτων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Safe dishwashing sequence with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Safe dishwashing sequence if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Safe dishwashing sequence and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ασφαλής σειρά πλυσίματος πιάτων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ασφαλής σειρά πλυσίματος πιάτων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ασφαλής σειρά πλυσίματος πιάτων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Safe dishwashing sequence or when the next check happens.",
+      "Supplies connected to Safe dishwashing sequence are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ασφαλής σειρά πλυσίματος πιάτων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ασφαλής σειρά πλυσίματος πιάτων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Safe dishwashing sequence as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Safe dishwashing sequence when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Safe dishwashing sequence."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ασφαλής σειρά πλυσίματος πιάτων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ασφαλής σειρά πλυσίματος πιάτων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ασφαλής σειρά πλυσίματος πιάτων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Safe dishwashing sequence, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ασφαλής σειρά πλυσίματος πιάτων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Safe dishwashing sequence remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ασφαλής σειρά πλυσίματος πιάτων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Safe dishwashing sequence fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ασφαλής σειρά πλυσίματος πιάτων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Safe dishwashing sequence to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ασφαλής σειρά πλυσίματος πιάτων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-water-sanitation-public-health-020",
@@ -1628,10 +2350,48 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κάρτα αποθέματος υγιεινής.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κάρτα αποθέματος υγιεινής."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Hygiene supply inventory card with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Hygiene supply inventory card if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Hygiene supply inventory card and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτα αποθέματος υγιεινής» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτα αποθέματος υγιεινής» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτα αποθέματος υγιεινής» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Hygiene supply inventory card or when the next check happens.",
+      "Supplies connected to Hygiene supply inventory card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα αποθέματος υγιεινής» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κάρτα αποθέματος υγιεινής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Hygiene supply inventory card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Hygiene supply inventory card when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Hygiene supply inventory card."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κάρτα αποθέματος υγιεινής» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κάρτα αποθέματος υγιεινής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα αποθέματος υγιεινής»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Hygiene supply inventory card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κάρτα αποθέματος υγιεινής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Hygiene supply inventory card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κάρτα αποθέματος υγιεινής» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Hygiene supply inventory card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κάρτα αποθέματος υγιεινής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Hygiene supply inventory card to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα αποθέματος υγιεινής» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   }
 ]

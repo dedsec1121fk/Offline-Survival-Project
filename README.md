@@ -318,6 +318,70 @@ This update keeps the project centered on realistic offline use:
 
 ---
 
+---
+
+## 🧭 Latest Update — Pass92 Schema Repair And Final Cleanup
+
+<details>
+<summary><strong>🇬🇧 English</strong></summary>
+
+Pass92 fixes the project structure and database consistency instead of adding a new topic batch. It preserves all existing knowledge and normalizes older entries to the current bilingual schema.
+
+This pass fixed:
+
+- empty `mistakes_en` / `mistakes_el` lists in older Pass81 records
+- empty `related_topics` lists in Pass90 and Pass91 records
+- older entries that were missing newer fields such as alternatives, failure signs, when-not-to-use boundaries, short-term guidance, long-term guidance, fallback notes, and environment notes
+- latest audit files so they now describe the current build instead of older passes only
+- README and official-source notes so the latest pass is clear
+
+Validation after Pass92:
+
+- **67 JSON database files**
+- **1373 loaded knowledge entries**
+- **27 database files repaired**
+- **0 JSON load errors**
+- **0 duplicate IDs**
+- **0 duplicate normalized topics**
+- **0 missing expected schema fields**
+- **0 empty expected schema fields**
+- **0 one-sided English/Greek translation pairs**
+- **0 placeholder-like database hits**
+- **Offline Survival.py syntax check passed**
+
+</details>
+
+<details>
+<summary><strong>🇬🇷 Ελληνικά</strong></summary>
+
+Το Pass92 διορθώνει τη δομή και τη συνέπεια της βάσης αντί να προσθέσει νέο batch θεμάτων. Διατηρεί όλη την υπάρχουσα γνώση και φέρνει παλιότερες εγγραφές στο τρέχον δίγλωσσο schema.
+
+Αυτό το pass διόρθωσε:
+
+- άδειες λίστες `mistakes_en` / `mistakes_el` σε παλιότερες εγγραφές Pass81
+- άδειες λίστες `related_topics` σε εγγραφές Pass90 και Pass91
+- παλιότερες εγγραφές που δεν είχαν ακόμη νεότερα πεδία όπως εναλλακτικές, σημάδια αποτυχίας, όρια πότε να μη χρησιμοποιηθεί, βραχυπρόθεσμες οδηγίες, μακροπρόθεσμες οδηγίες, εφεδρικές σημειώσεις και περιβαλλοντικές σημειώσεις
+- τα latest audit files ώστε να περιγράφουν την τρέχουσα έκδοση και όχι μόνο παλιότερα passes
+- το README και τις σημειώσεις official sources ώστε το τελευταίο pass να είναι ξεκάθαρο
+
+Έλεγχος μετά το Pass92:
+
+- **67 JSON database files**
+- **1373 loaded knowledge entries**
+- **27 database files repaired**
+- **0 JSON load errors**
+- **0 duplicate IDs**
+- **0 duplicate normalized topics**
+- **0 missing expected schema fields**
+- **0 empty expected schema fields**
+- **0 one-sided English/Greek translation pairs**
+- **0 placeholder-like database hits**
+- **Το Offline Survival.py πέρασε τον syntax check**
+
+</details>
+
+---
+
 ## 📝 Important Use Notes
 
 <details>
@@ -359,3 +423,21 @@ This project is a survival knowledge base, not a replacement for emergency servi
 Αυτό το project είναι βάση survival γνώσης και όχι υποκατάστατο για υπηρεσίες έκτακτης ανάγκης ή αδειοδοτημένους επαγγελματίες. Σε επείγουσες καταστάσεις, δώσε προτεραιότητα σε εκκένωση, επείγουσα φροντίδα, πυρασφάλεια, στατική ασφάλεια, οδηγίες για δηλητηριάσεις και επίσημες τοπικές οδηγίες.
 
 </details>
+
+
+---
+
+## Pass91 worst-case scenarios expansion — 2026-05-28
+
+Added **42** new bilingual entries for severe civilian emergencies: radiological/nuclear sheltering, chemical shelter-in-place, grid collapse, sanitation failure, public-health collapse, nonviolent civil-unrest safety, extreme weather, evacuation, displacement, knowledge preservation, and community coordination. The pass avoids dangerous weapon, explosive, evasion, and medical-dosing instructions.
+
+Προστέθηκαν **42** νέες δίγλωσσες εγγραφές για ακραίες πολιτικές καταστάσεις έκτακτης ανάγκης: ραδιολογική/πυρηνική παραμονή σε καταφύγιο, χημική παραμονή σε εσωτερικό χώρο, κατάρρευση ρεύματος, αποτυχία υγιεινής, κατάρρευση δημόσιας υγείας, μη βίαιη ασφάλεια σε κοινωνική αναταραχή, ακραία καιρικά φαινόμενα, εκκένωση, μετεγκατάσταση, διατήρηση γνώσης και συντονισμό κοινότητας. Η προσθήκη αποφεύγει επικίνδυνες οδηγίες για όπλα, εκρηκτικά, παράκαμψη αρχών και δοσολογίες φαρμάκων.
+
+
+---
+
+## Pass92 schema repair and final cleanup — 2026-05-28
+
+Fixed schema consistency across older and newer JSON entries. No existing knowledge was deleted. The database now has filled bilingual safety/check fields, non-empty related topics, and updated latest validation files.
+
+Διορθώθηκε η συνέπεια schema ανάμεσα σε παλιότερες και νεότερες JSON εγγραφές. Δεν διαγράφηκε υπάρχουσα γνώση. Η βάση έχει πλέον συμπληρωμένα δίγλωσσα πεδία ασφαλείας/ελέγχου, μη άδεια related topics και ενημερωμένα latest validation files.

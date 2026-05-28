@@ -1,0 +1,21 @@
+Offline Survival Pass91 Audit Report
+Date: 2026-05-28
+
+Files checked: 180
+Text lines scanned: 147073
+JSON database files: 67
+Total knowledge entries: 1373
+New entries added: 42
+JSON errors: 0
+One-sided English/Greek translation pairs or core missing fields: 0
+Duplicate IDs: 0
+Duplicate normalized topics: 0
+Duplicate content signatures: 0
+Placeholder-like database hits: 0
+Offline Survival.py syntax OK: True
+Older optional schema gaps found: 18
+
+New file: Offline Survival Database/pass91_worst_case_scenarios_expansion.json
+
+Note:
+Some older database files use earlier schemas and do not include every newer optional field such as update_note, mistakes_en/mistakes_el, or related_topics. These are tracked as optional schema gaps, not translation failures.

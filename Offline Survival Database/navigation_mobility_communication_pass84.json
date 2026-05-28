@@ -75,11 +75,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κλίμακα βεβαιότητας χάρτινης διαδρομής.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κλίμακα βεβαιότητας χάρτινης διαδρομής."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Paper route confidence scale with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Paper route confidence scale if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Paper route confidence scale and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κλίμακα βεβαιότητας χάρτινης διαδρομής» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κλίμακα βεβαιότητας χάρτινης διαδρομής» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κλίμακα βεβαιότητας χάρτινης διαδρομής» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Paper route confidence scale or when the next check happens.",
+      "Supplies connected to Paper route confidence scale are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κλίμακα βεβαιότητας χάρτινης διαδρομής» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κλίμακα βεβαιότητας χάρτινης διαδρομής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Paper route confidence scale as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Paper route confidence scale when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Paper route confidence scale."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κλίμακα βεβαιότητας χάρτινης διαδρομής» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κλίμακα βεβαιότητας χάρτινης διαδρομής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κλίμακα βεβαιότητας χάρτινης διαδρομής»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Paper route confidence scale, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κλίμακα βεβαιότητας χάρτινης διαδρομής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Paper route confidence scale remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κλίμακα βεβαιότητας χάρτινης διαδρομής» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Paper route confidence scale fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κλίμακα βεβαιότητας χάρτινης διαδρομής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Paper route confidence scale to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κλίμακα βεβαιότητας χάρτινης διαδρομής» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-002",
@@ -157,11 +195,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κάρτα οικογενειακού σημείου συνάντησης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κάρτα οικογενειακού σημείου συνάντησης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Meeting point family card with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Meeting point family card if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Meeting point family card and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτα οικογενειακού σημείου συνάντησης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτα οικογενειακού σημείου συνάντησης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτα οικογενειακού σημείου συνάντησης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Meeting point family card or when the next check happens.",
+      "Supplies connected to Meeting point family card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα οικογενειακού σημείου συνάντησης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κάρτα οικογενειακού σημείου συνάντησης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Meeting point family card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Meeting point family card when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Meeting point family card."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κάρτα οικογενειακού σημείου συνάντησης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κάρτα οικογενειακού σημείου συνάντησης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα οικογενειακού σημείου συνάντησης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Meeting point family card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κάρτα οικογενειακού σημείου συνάντησης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Meeting point family card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κάρτα οικογενειακού σημείου συνάντησης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Meeting point family card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κάρτα οικογενειακού σημείου συνάντησης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Meeting point family card to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα οικογενειακού σημείου συνάντησης» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-003",
@@ -239,11 +315,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Χάρτης τοπικών σημείων για παιδιά.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Χάρτης τοπικών σημείων για παιδιά."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Local landmark map for children with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Local landmark map for children if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Local landmark map for children and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Χάρτης τοπικών σημείων για παιδιά» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Χάρτης τοπικών σημείων για παιδιά» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Χάρτης τοπικών σημείων για παιδιά» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Local landmark map for children or when the next check happens.",
+      "Supplies connected to Local landmark map for children are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Χάρτης τοπικών σημείων για παιδιά» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Χάρτης τοπικών σημείων για παιδιά» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Local landmark map for children as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Local landmark map for children when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Local landmark map for children."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Χάρτης τοπικών σημείων για παιδιά» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Χάρτης τοπικών σημείων για παιδιά» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Χάρτης τοπικών σημείων για παιδιά»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Local landmark map for children, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Χάρτης τοπικών σημείων για παιδιά», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Local landmark map for children remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Χάρτης τοπικών σημείων για παιδιά» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Local landmark map for children fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Χάρτης τοπικών σημείων για παιδιά», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Local landmark map for children to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Χάρτης τοπικών σημείων για παιδιά» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-004",
@@ -320,11 +434,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σχέδιο μετακίνησης για περιορισμένη κινητικότητα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σχέδιο μετακίνησης για περιορισμένη κινητικότητα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Mobility-limited movement plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Mobility-limited movement plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Mobility-limited movement plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Mobility-limited movement plan or when the next check happens.",
+      "Supplies connected to Mobility-limited movement plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Mobility-limited movement plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Mobility-limited movement plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Mobility-limited movement plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Mobility-limited movement plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Mobility-limited movement plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Mobility-limited movement plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Mobility-limited movement plan to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο μετακίνησης για περιορισμένη κινητικότητα» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-005",
@@ -402,11 +554,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Τετράδιο μεταφοράς μηνυμάτων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Τετράδιο μεταφοράς μηνυμάτων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Message relay notebook with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Message relay notebook if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Message relay notebook and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Τετράδιο μεταφοράς μηνυμάτων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Τετράδιο μεταφοράς μηνυμάτων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Τετράδιο μεταφοράς μηνυμάτων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Message relay notebook or when the next check happens.",
+      "Supplies connected to Message relay notebook are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Τετράδιο μεταφοράς μηνυμάτων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Τετράδιο μεταφοράς μηνυμάτων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Message relay notebook as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Message relay notebook when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Message relay notebook."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Τετράδιο μεταφοράς μηνυμάτων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Τετράδιο μεταφοράς μηνυμάτων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Τετράδιο μεταφοράς μηνυμάτων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Message relay notebook, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Τετράδιο μεταφοράς μηνυμάτων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Message relay notebook remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Τετράδιο μεταφοράς μηνυμάτων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Message relay notebook fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Τετράδιο μεταφοράς μηνυμάτων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Message relay notebook to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Τετράδιο μεταφοράς μηνυμάτων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-006",
@@ -484,11 +674,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Πρόχειρος χάρτης κινδύνων δρόμου.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Πρόχειρος χάρτης κινδύνων δρόμου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Street hazard sketch map with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Street hazard sketch map if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Street hazard sketch map and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πρόχειρος χάρτης κινδύνων δρόμου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πρόχειρος χάρτης κινδύνων δρόμου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πρόχειρος χάρτης κινδύνων δρόμου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Street hazard sketch map or when the next check happens.",
+      "Supplies connected to Street hazard sketch map are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πρόχειρος χάρτης κινδύνων δρόμου» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πρόχειρος χάρτης κινδύνων δρόμου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Street hazard sketch map as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Street hazard sketch map when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Street hazard sketch map."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πρόχειρος χάρτης κινδύνων δρόμου» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πρόχειρος χάρτης κινδύνων δρόμου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πρόχειρος χάρτης κινδύνων δρόμου»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Street hazard sketch map, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πρόχειρος χάρτης κινδύνων δρόμου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Street hazard sketch map remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πρόχειρος χάρτης κινδύνων δρόμου» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Street hazard sketch map fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πρόχειρος χάρτης κινδύνων δρόμου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Street hazard sketch map to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πρόχειρος χάρτης κινδύνων δρόμου» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-007",
@@ -566,11 +794,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κανόνας επιστροφής πριν σκοτεινιάσει.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κανόνας επιστροφής πριν σκοτεινιάσει."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Return before dark rule with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Return before dark rule if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Return before dark rule and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κανόνας επιστροφής πριν σκοτεινιάσει» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κανόνας επιστροφής πριν σκοτεινιάσει» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κανόνας επιστροφής πριν σκοτεινιάσει» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Return before dark rule or when the next check happens.",
+      "Supplies connected to Return before dark rule are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κανόνας επιστροφής πριν σκοτεινιάσει» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κανόνας επιστροφής πριν σκοτεινιάσει» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Return before dark rule as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Return before dark rule when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Return before dark rule."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κανόνας επιστροφής πριν σκοτεινιάσει» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κανόνας επιστροφής πριν σκοτεινιάσει» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κανόνας επιστροφής πριν σκοτεινιάσει»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Return before dark rule, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κανόνας επιστροφής πριν σκοτεινιάσει», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Return before dark rule remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κανόνας επιστροφής πριν σκοτεινιάσει» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Return before dark rule fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κανόνας επιστροφής πριν σκοτεινιάσει», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Return before dark rule to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κανόνας επιστροφής πριν σκοτεινιάσει» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-008",
@@ -648,11 +914,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ετικέτα τσάντας με στοιχεία ανάγκης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ετικέτα τσάντας με στοιχεία ανάγκης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Bag tag identity backup with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Bag tag identity backup if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Bag tag identity backup and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ετικέτα τσάντας με στοιχεία ανάγκης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ετικέτα τσάντας με στοιχεία ανάγκης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ετικέτα τσάντας με στοιχεία ανάγκης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Bag tag identity backup or when the next check happens.",
+      "Supplies connected to Bag tag identity backup are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ετικέτα τσάντας με στοιχεία ανάγκης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ετικέτα τσάντας με στοιχεία ανάγκης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Bag tag identity backup as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Bag tag identity backup when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Bag tag identity backup."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ετικέτα τσάντας με στοιχεία ανάγκης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ετικέτα τσάντας με στοιχεία ανάγκης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ετικέτα τσάντας με στοιχεία ανάγκης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Bag tag identity backup, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ετικέτα τσάντας με στοιχεία ανάγκης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Bag tag identity backup remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ετικέτα τσάντας με στοιχεία ανάγκης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Bag tag identity backup fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ετικέτα τσάντας με στοιχεία ανάγκης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Bag tag identity backup to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ετικέτα τσάντας με στοιχεία ανάγκης» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-009",
@@ -730,11 +1034,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Πρωτόκολλο σημειώματος σε πόρτα γείτονα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Πρωτόκολλο σημειώματος σε πόρτα γείτονα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Neighbor door note protocol with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Neighbor door note protocol if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Neighbor door note protocol and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πρωτόκολλο σημειώματος σε πόρτα γείτονα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Neighbor door note protocol or when the next check happens.",
+      "Supplies connected to Neighbor door note protocol are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Neighbor door note protocol as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Neighbor door note protocol when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Neighbor door note protocol."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Neighbor door note protocol, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πρωτόκολλο σημειώματος σε πόρτα γείτονα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Neighbor door note protocol remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Neighbor door note protocol fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Neighbor door note protocol to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πρωτόκολλο σημειώματος σε πόρτα γείτονα» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-010",
@@ -812,11 +1154,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κανόνας μετακίνησης δύο ατόμων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κανόνας μετακίνησης δύο ατόμων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Two-person errand rule with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Two-person errand rule if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Two-person errand rule and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κανόνας μετακίνησης δύο ατόμων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κανόνας μετακίνησης δύο ατόμων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κανόνας μετακίνησης δύο ατόμων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Two-person errand rule or when the next check happens.",
+      "Supplies connected to Two-person errand rule are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κανόνας μετακίνησης δύο ατόμων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κανόνας μετακίνησης δύο ατόμων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Two-person errand rule as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Two-person errand rule when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Two-person errand rule."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κανόνας μετακίνησης δύο ατόμων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κανόνας μετακίνησης δύο ατόμων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κανόνας μετακίνησης δύο ατόμων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Two-person errand rule, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κανόνας μετακίνησης δύο ατόμων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Two-person errand rule remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κανόνας μετακίνησης δύο ατόμων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Two-person errand rule fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κανόνας μετακίνησης δύο ατόμων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Two-person errand rule to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κανόνας μετακίνησης δύο ατόμων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-011",
@@ -894,11 +1274,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ήσυχο σχέδιο σήματος ελέγχου.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ήσυχο σχέδιο σήματος ελέγχου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Quiet check-in signal plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Quiet check-in signal plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Quiet check-in signal plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ήσυχο σχέδιο σήματος ελέγχου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ήσυχο σχέδιο σήματος ελέγχου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ήσυχο σχέδιο σήματος ελέγχου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Quiet check-in signal plan or when the next check happens.",
+      "Supplies connected to Quiet check-in signal plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ήσυχο σχέδιο σήματος ελέγχου» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ήσυχο σχέδιο σήματος ελέγχου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Quiet check-in signal plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Quiet check-in signal plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Quiet check-in signal plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ήσυχο σχέδιο σήματος ελέγχου» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ήσυχο σχέδιο σήματος ελέγχου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ήσυχο σχέδιο σήματος ελέγχου»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Quiet check-in signal plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ήσυχο σχέδιο σήματος ελέγχου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Quiet check-in signal plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ήσυχο σχέδιο σήματος ελέγχου» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Quiet check-in signal plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ήσυχο σχέδιο σήματος ελέγχου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Quiet check-in signal plan to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ήσυχο σχέδιο σήματος ελέγχου» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-012",
@@ -976,11 +1394,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κάρτα διακοπής δημόσιας συγκοινωνίας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κάρτα διακοπής δημόσιας συγκοινωνίας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Public transport disruption card with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Public transport disruption card if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Public transport disruption card and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτα διακοπής δημόσιας συγκοινωνίας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτα διακοπής δημόσιας συγκοινωνίας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτα διακοπής δημόσιας συγκοινωνίας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Public transport disruption card or when the next check happens.",
+      "Supplies connected to Public transport disruption card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα διακοπής δημόσιας συγκοινωνίας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κάρτα διακοπής δημόσιας συγκοινωνίας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Public transport disruption card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Public transport disruption card when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Public transport disruption card."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κάρτα διακοπής δημόσιας συγκοινωνίας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κάρτα διακοπής δημόσιας συγκοινωνίας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα διακοπής δημόσιας συγκοινωνίας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Public transport disruption card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κάρτα διακοπής δημόσιας συγκοινωνίας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Public transport disruption card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κάρτα διακοπής δημόσιας συγκοινωνίας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Public transport disruption card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κάρτα διακοπής δημόσιας συγκοινωνίας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Public transport disruption card to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα διακοπής δημόσιας συγκοινωνίας» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-013",
@@ -1058,11 +1514,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σημείωση μετακίνησης ζώου.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σημείωση μετακίνησης ζώου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Pet movement note with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Pet movement note if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Pet movement note and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σημείωση μετακίνησης ζώου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σημείωση μετακίνησης ζώου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σημείωση μετακίνησης ζώου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Pet movement note or when the next check happens.",
+      "Supplies connected to Pet movement note are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σημείωση μετακίνησης ζώου» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σημείωση μετακίνησης ζώου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Pet movement note as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Pet movement note when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Pet movement note."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σημείωση μετακίνησης ζώου» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σημείωση μετακίνησης ζώου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σημείωση μετακίνησης ζώου»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Pet movement note, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σημείωση μετακίνησης ζώου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Pet movement note remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σημείωση μετακίνησης ζώου» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Pet movement note fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σημείωση μετακίνησης ζώου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Pet movement note to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σημείωση μετακίνησης ζώου» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-014",
@@ -1140,11 +1634,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κανόνας ρυθμού βαδίσματος ομάδας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κανόνας ρυθμού βαδίσματος ομάδας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Walking pace group rule with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Walking pace group rule if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Walking pace group rule and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κανόνας ρυθμού βαδίσματος ομάδας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κανόνας ρυθμού βαδίσματος ομάδας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κανόνας ρυθμού βαδίσματος ομάδας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Walking pace group rule or when the next check happens.",
+      "Supplies connected to Walking pace group rule are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κανόνας ρυθμού βαδίσματος ομάδας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κανόνας ρυθμού βαδίσματος ομάδας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Walking pace group rule as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Walking pace group rule when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Walking pace group rule."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κανόνας ρυθμού βαδίσματος ομάδας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κανόνας ρυθμού βαδίσματος ομάδας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κανόνας ρυθμού βαδίσματος ομάδας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Walking pace group rule, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κανόνας ρυθμού βαδίσματος ομάδας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Walking pace group rule remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κανόνας ρυθμού βαδίσματος ομάδας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Walking pace group rule fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κανόνας ρυθμού βαδίσματος ομάδας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Walking pace group rule to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κανόνας ρυθμού βαδίσματος ομάδας» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-015",
@@ -1222,11 +1754,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Επαλήθευση φήμης διαδρομής.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Επαλήθευση φήμης διαδρομής."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Route rumor verification with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Route rumor verification if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Route rumor verification and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Επαλήθευση φήμης διαδρομής» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Επαλήθευση φήμης διαδρομής» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Επαλήθευση φήμης διαδρομής» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Route rumor verification or when the next check happens.",
+      "Supplies connected to Route rumor verification are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Επαλήθευση φήμης διαδρομής» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Επαλήθευση φήμης διαδρομής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Route rumor verification as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Route rumor verification when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Route rumor verification."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Επαλήθευση φήμης διαδρομής» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Επαλήθευση φήμης διαδρομής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Επαλήθευση φήμης διαδρομής»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Route rumor verification, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Επαλήθευση φήμης διαδρομής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Route rumor verification remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Επαλήθευση φήμης διαδρομής» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Route rumor verification fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Επαλήθευση φήμης διαδρομής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Route rumor verification to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Επαλήθευση φήμης διαδρομής» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-016",
@@ -1304,11 +1874,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ανανέωση offline βιβλίου διευθύνσεων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ανανέωση offline βιβλίου διευθύνσεων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Offline address book refresh with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Offline address book refresh if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Offline address book refresh and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ανανέωση offline βιβλίου διευθύνσεων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ανανέωση offline βιβλίου διευθύνσεων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ανανέωση offline βιβλίου διευθύνσεων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Offline address book refresh or when the next check happens.",
+      "Supplies connected to Offline address book refresh are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ανανέωση offline βιβλίου διευθύνσεων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ανανέωση offline βιβλίου διευθύνσεων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Offline address book refresh as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Offline address book refresh when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Offline address book refresh."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ανανέωση offline βιβλίου διευθύνσεων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ανανέωση offline βιβλίου διευθύνσεων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ανανέωση offline βιβλίου διευθύνσεων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Offline address book refresh, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ανανέωση offline βιβλίου διευθύνσεων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Offline address book refresh remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ανανέωση offline βιβλίου διευθύνσεων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Offline address book refresh fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ανανέωση offline βιβλίου διευθύνσεων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Offline address book refresh to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ανανέωση offline βιβλίου διευθύνσεων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-017",
@@ -1386,11 +1994,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κάρτα απλής εξάσκησης πυξίδας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κάρτα απλής εξάσκησης πυξίδας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Simple compass practice card with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Simple compass practice card if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Simple compass practice card and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτα απλής εξάσκησης πυξίδας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτα απλής εξάσκησης πυξίδας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτα απλής εξάσκησης πυξίδας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Simple compass practice card or when the next check happens.",
+      "Supplies connected to Simple compass practice card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα απλής εξάσκησης πυξίδας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κάρτα απλής εξάσκησης πυξίδας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Simple compass practice card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Simple compass practice card when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Simple compass practice card."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κάρτα απλής εξάσκησης πυξίδας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κάρτα απλής εξάσκησης πυξίδας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα απλής εξάσκησης πυξίδας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Simple compass practice card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κάρτα απλής εξάσκησης πυξίδας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Simple compass practice card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κάρτα απλής εξάσκησης πυξίδας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Simple compass practice card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κάρτα απλής εξάσκησης πυξίδας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Simple compass practice card to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα απλής εξάσκησης πυξίδας» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-018",
@@ -1468,11 +2114,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Διάταξη κοινοτικού πίνακα ανακοινώσεων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Διάταξη κοινοτικού πίνακα ανακοινώσεων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Community notice board layout with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Community notice board layout if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Community notice board layout and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Διάταξη κοινοτικού πίνακα ανακοινώσεων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Διάταξη κοινοτικού πίνακα ανακοινώσεων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Διάταξη κοινοτικού πίνακα ανακοινώσεων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Community notice board layout or when the next check happens.",
+      "Supplies connected to Community notice board layout are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Διάταξη κοινοτικού πίνακα ανακοινώσεων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Διάταξη κοινοτικού πίνακα ανακοινώσεων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Community notice board layout as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Community notice board layout when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Community notice board layout."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Διάταξη κοινοτικού πίνακα ανακοινώσεων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Διάταξη κοινοτικού πίνακα ανακοινώσεων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Διάταξη κοινοτικού πίνακα ανακοινώσεων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Community notice board layout, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Διάταξη κοινοτικού πίνακα ανακοινώσεων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Community notice board layout remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Διάταξη κοινοτικού πίνακα ανακοινώσεων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Community notice board layout fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Διάταξη κοινοτικού πίνακα ανακοινώσεων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Community notice board layout to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Διάταξη κοινοτικού πίνακα ανακοινώσεων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-019",
@@ -1550,11 +2234,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Φύλλο πληροφοριών χαμένου ατόμου.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Φύλλο πληροφοριών χαμένου ατόμου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Lost person information sheet with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Lost person information sheet if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Lost person information sheet and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Φύλλο πληροφοριών χαμένου ατόμου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Φύλλο πληροφοριών χαμένου ατόμου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Φύλλο πληροφοριών χαμένου ατόμου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Lost person information sheet or when the next check happens.",
+      "Supplies connected to Lost person information sheet are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Φύλλο πληροφοριών χαμένου ατόμου» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Φύλλο πληροφοριών χαμένου ατόμου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Lost person information sheet as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Lost person information sheet when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Lost person information sheet."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Φύλλο πληροφοριών χαμένου ατόμου» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Φύλλο πληροφοριών χαμένου ατόμου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Φύλλο πληροφοριών χαμένου ατόμου»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Lost person information sheet, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Φύλλο πληροφοριών χαμένου ατόμου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Lost person information sheet remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Φύλλο πληροφοριών χαμένου ατόμου» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Lost person information sheet fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Φύλλο πληροφοριών χαμένου ατόμου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Lost person information sheet to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Φύλλο πληροφοριών χαμένου ατόμου» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-navigation-mobility-communication-020",
@@ -1632,10 +2354,48 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Στεγνό πακέτο εγγράφων μετακίνησης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Στεγνό πακέτο εγγράφων μετακίνησης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Travel document dry packet with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Travel document dry packet if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Travel document dry packet and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Στεγνό πακέτο εγγράφων μετακίνησης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Στεγνό πακέτο εγγράφων μετακίνησης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Στεγνό πακέτο εγγράφων μετακίνησης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Travel document dry packet or when the next check happens.",
+      "Supplies connected to Travel document dry packet are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Στεγνό πακέτο εγγράφων μετακίνησης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Στεγνό πακέτο εγγράφων μετακίνησης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Travel document dry packet as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Travel document dry packet when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Travel document dry packet."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Στεγνό πακέτο εγγράφων μετακίνησης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Στεγνό πακέτο εγγράφων μετακίνησης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Στεγνό πακέτο εγγράφων μετακίνησης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Travel document dry packet, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Στεγνό πακέτο εγγράφων μετακίνησης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Travel document dry packet remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Στεγνό πακέτο εγγράφων μετακίνησης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Travel document dry packet fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Στεγνό πακέτο εγγράφων μετακίνησης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Travel document dry packet to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Στεγνό πακέτο εγγράφων μετακίνησης» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   }
 ]

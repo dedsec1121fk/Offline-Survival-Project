@@ -75,11 +75,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Τετράδιο μαθητείας δεξιοτήτων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Τετράδιο μαθητείας δεξιοτήτων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Skill apprenticeship notebook with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Skill apprenticeship notebook if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Skill apprenticeship notebook and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Τετράδιο μαθητείας δεξιοτήτων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Τετράδιο μαθητείας δεξιοτήτων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Τετράδιο μαθητείας δεξιοτήτων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Skill apprenticeship notebook or when the next check happens.",
+      "Supplies connected to Skill apprenticeship notebook are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Τετράδιο μαθητείας δεξιοτήτων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Τετράδιο μαθητείας δεξιοτήτων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Skill apprenticeship notebook as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Skill apprenticeship notebook when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Skill apprenticeship notebook."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Τετράδιο μαθητείας δεξιοτήτων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Τετράδιο μαθητείας δεξιοτήτων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Τετράδιο μαθητείας δεξιοτήτων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Skill apprenticeship notebook, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Τετράδιο μαθητείας δεξιοτήτων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Skill apprenticeship notebook remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Τετράδιο μαθητείας δεξιοτήτων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Skill apprenticeship notebook fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Τετράδιο μαθητείας δεξιοτήτων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Skill apprenticeship notebook to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Τετράδιο μαθητείας δεξιοτήτων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-002",
@@ -157,11 +195,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Βασικά μαθηματικά για αποθέματα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Βασικά μαθηματικά για αποθέματα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Basic math for supplies with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Basic math for supplies if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Basic math for supplies and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Βασικά μαθηματικά για αποθέματα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Βασικά μαθηματικά για αποθέματα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Βασικά μαθηματικά για αποθέματα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Basic math for supplies or when the next check happens.",
+      "Supplies connected to Basic math for supplies are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Βασικά μαθηματικά για αποθέματα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Βασικά μαθηματικά για αποθέματα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Basic math for supplies as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Basic math for supplies when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Basic math for supplies."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Βασικά μαθηματικά για αποθέματα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Βασικά μαθηματικά για αποθέματα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Βασικά μαθηματικά για αποθέματα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Basic math for supplies, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Βασικά μαθηματικά για αποθέματα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Basic math for supplies remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Βασικά μαθηματικά για αποθέματα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Basic math for supplies fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Βασικά μαθηματικά για αποθέματα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Basic math for supplies to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Βασικά μαθηματικά για αποθέματα» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-003",
@@ -239,11 +315,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ομάδα ανάγνωσης εγχειριδίων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ομάδα ανάγνωσης εγχειριδίων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Reading group for manuals with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Reading group for manuals if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Reading group for manuals and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ομάδα ανάγνωσης εγχειριδίων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ομάδα ανάγνωσης εγχειριδίων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ομάδα ανάγνωσης εγχειριδίων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Reading group for manuals or when the next check happens.",
+      "Supplies connected to Reading group for manuals are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ομάδα ανάγνωσης εγχειριδίων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ομάδα ανάγνωσης εγχειριδίων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Reading group for manuals as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Reading group for manuals when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Reading group for manuals."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ομάδα ανάγνωσης εγχειριδίων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ομάδα ανάγνωσης εγχειριδίων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ομάδα ανάγνωσης εγχειριδίων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Reading group for manuals, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ομάδα ανάγνωσης εγχειριδίων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Reading group for manuals remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ομάδα ανάγνωσης εγχειριδίων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Reading group for manuals fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ομάδα ανάγνωσης εγχειριδίων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Reading group for manuals to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ομάδα ανάγνωσης εγχειριδίων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-004",
@@ -321,11 +435,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Μάθημα μετά από επισκευή.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Μάθημα μετά από επισκευή."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Repair lesson after action with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Repair lesson after action if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Repair lesson after action and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Μάθημα μετά από επισκευή» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Μάθημα μετά από επισκευή» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Μάθημα μετά από επισκευή» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Repair lesson after action or when the next check happens.",
+      "Supplies connected to Repair lesson after action are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Μάθημα μετά από επισκευή» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Μάθημα μετά από επισκευή» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Repair lesson after action as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Repair lesson after action when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Repair lesson after action."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Μάθημα μετά από επισκευή» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Μάθημα μετά από επισκευή» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Μάθημα μετά από επισκευή»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Repair lesson after action, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Μάθημα μετά από επισκευή», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Repair lesson after action remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Μάθημα μετά από επισκευή» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Repair lesson after action fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Μάθημα μετά από επισκευή», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Repair lesson after action to the real environment: check fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Μάθημα μετά από επισκευή» στο πραγματικό περιβάλλον: έλεγξε κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-005",
@@ -403,11 +555,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Μάθηση παιδιών σε διακοπή.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Μάθηση παιδιών σε διακοπή."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Child learning during disruption with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Child learning during disruption if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Child learning during disruption and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Μάθηση παιδιών σε διακοπή» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Μάθηση παιδιών σε διακοπή» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Μάθηση παιδιών σε διακοπή» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Child learning during disruption or when the next check happens.",
+      "Supplies connected to Child learning during disruption are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Μάθηση παιδιών σε διακοπή» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Μάθηση παιδιών σε διακοπή» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Child learning during disruption as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Child learning during disruption when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Child learning during disruption."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Μάθηση παιδιών σε διακοπή» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Μάθηση παιδιών σε διακοπή» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Μάθηση παιδιών σε διακοπή»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Child learning during disruption, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Μάθηση παιδιών σε διακοπή», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Child learning during disruption remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Μάθηση παιδιών σε διακοπή» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Child learning during disruption fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Μάθηση παιδιών σε διακοπή», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Child learning during disruption to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Μάθηση παιδιών σε διακοπή» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-006",
@@ -485,11 +675,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Τοπικό έργο μνήμης ιστορίας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Τοπικό έργο μνήμης ιστορίας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Local history memory project with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Local history memory project if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Local history memory project and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Τοπικό έργο μνήμης ιστορίας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Τοπικό έργο μνήμης ιστορίας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Τοπικό έργο μνήμης ιστορίας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Local history memory project or when the next check happens.",
+      "Supplies connected to Local history memory project are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Τοπικό έργο μνήμης ιστορίας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Τοπικό έργο μνήμης ιστορίας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Local history memory project as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Local history memory project when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Local history memory project."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Τοπικό έργο μνήμης ιστορίας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Τοπικό έργο μνήμης ιστορίας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Τοπικό έργο μνήμης ιστορίας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Local history memory project, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Τοπικό έργο μνήμης ιστορίας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Local history memory project remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Τοπικό έργο μνήμης ιστορίας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Local history memory project fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Τοπικό έργο μνήμης ιστορίας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Local history memory project to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Τοπικό έργο μνήμης ιστορίας» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-007",
@@ -567,11 +795,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Στεγνό ράφι μικρής βιβλιοθήκης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Στεγνό ράφι μικρής βιβλιοθήκης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Simple library dry shelf with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Simple library dry shelf if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Simple library dry shelf and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Στεγνό ράφι μικρής βιβλιοθήκης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Στεγνό ράφι μικρής βιβλιοθήκης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Στεγνό ράφι μικρής βιβλιοθήκης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Simple library dry shelf or when the next check happens.",
+      "Supplies connected to Simple library dry shelf are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Στεγνό ράφι μικρής βιβλιοθήκης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Στεγνό ράφι μικρής βιβλιοθήκης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Simple library dry shelf as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Simple library dry shelf when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Simple library dry shelf."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Στεγνό ράφι μικρής βιβλιοθήκης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Στεγνό ράφι μικρής βιβλιοθήκης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Στεγνό ράφι μικρής βιβλιοθήκης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Simple library dry shelf, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Στεγνό ράφι μικρής βιβλιοθήκης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Simple library dry shelf remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Στεγνό ράφι μικρής βιβλιοθήκης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Simple library dry shelf fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Στεγνό ράφι μικρής βιβλιοθήκης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Simple library dry shelf to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Στεγνό ράφι μικρής βιβλιοθήκης» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-008",
@@ -649,11 +915,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κάρτα διδασκαλίας ασφάλειας εργαλείων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κάρτα διδασκαλίας ασφάλειας εργαλείων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Tool safety teaching card with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Tool safety teaching card if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Tool safety teaching card and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτα διδασκαλίας ασφάλειας εργαλείων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτα διδασκαλίας ασφάλειας εργαλείων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτα διδασκαλίας ασφάλειας εργαλείων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Tool safety teaching card or when the next check happens.",
+      "Supplies connected to Tool safety teaching card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα διδασκαλίας ασφάλειας εργαλείων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κάρτα διδασκαλίας ασφάλειας εργαλείων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Tool safety teaching card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Tool safety teaching card when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Tool safety teaching card."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κάρτα διδασκαλίας ασφάλειας εργαλείων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κάρτα διδασκαλίας ασφάλειας εργαλείων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα διδασκαλίας ασφάλειας εργαλείων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Tool safety teaching card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κάρτα διδασκαλίας ασφάλειας εργαλείων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Tool safety teaching card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κάρτα διδασκαλίας ασφάλειας εργαλείων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Tool safety teaching card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κάρτα διδασκαλίας ασφάλειας εργαλείων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Tool safety teaching card to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα διδασκαλίας ασφάλειας εργαλείων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-009",
@@ -731,11 +1035,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Εβδομαδιαία ανασκόπηση γνώσης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Εβδομαδιαία ανασκόπηση γνώσης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Weekly knowledge review with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Weekly knowledge review if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Weekly knowledge review and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Εβδομαδιαία ανασκόπηση γνώσης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Εβδομαδιαία ανασκόπηση γνώσης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Εβδομαδιαία ανασκόπηση γνώσης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Weekly knowledge review or when the next check happens.",
+      "Supplies connected to Weekly knowledge review are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Εβδομαδιαία ανασκόπηση γνώσης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Εβδομαδιαία ανασκόπηση γνώσης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Weekly knowledge review as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Weekly knowledge review when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Weekly knowledge review."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Εβδομαδιαία ανασκόπηση γνώσης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Εβδομαδιαία ανασκόπηση γνώσης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Εβδομαδιαία ανασκόπηση γνώσης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Weekly knowledge review, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Εβδομαδιαία ανασκόπηση γνώσης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Weekly knowledge review remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Εβδομαδιαία ανασκόπηση γνώσης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Weekly knowledge review fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Εβδομαδιαία ανασκόπηση γνώσης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Weekly knowledge review to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Εβδομαδιαία ανασκόπηση γνώσης» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-010",
@@ -813,11 +1155,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σύστημα ζευγαριού μετάφρασης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σύστημα ζευγαριού μετάφρασης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Language translation buddy system with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Language translation buddy system if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Language translation buddy system and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σύστημα ζευγαριού μετάφρασης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σύστημα ζευγαριού μετάφρασης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σύστημα ζευγαριού μετάφρασης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Language translation buddy system or when the next check happens.",
+      "Supplies connected to Language translation buddy system are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σύστημα ζευγαριού μετάφρασης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σύστημα ζευγαριού μετάφρασης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Language translation buddy system as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Language translation buddy system when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Language translation buddy system."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σύστημα ζευγαριού μετάφρασης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σύστημα ζευγαριού μετάφρασης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σύστημα ζευγαριού μετάφρασης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Language translation buddy system, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σύστημα ζευγαριού μετάφρασης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Language translation buddy system remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σύστημα ζευγαριού μετάφρασης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Language translation buddy system fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σύστημα ζευγαριού μετάφρασης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Language translation buddy system to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σύστημα ζευγαριού μετάφρασης» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-011",
@@ -895,11 +1275,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κάρτα κοινών μετρήσεων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κάρτα κοινών μετρήσεων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Measurement standards card with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Measurement standards card if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Measurement standards card and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτα κοινών μετρήσεων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτα κοινών μετρήσεων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτα κοινών μετρήσεων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Measurement standards card or when the next check happens.",
+      "Supplies connected to Measurement standards card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα κοινών μετρήσεων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κάρτα κοινών μετρήσεων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Measurement standards card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Measurement standards card when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Measurement standards card."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κάρτα κοινών μετρήσεων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κάρτα κοινών μετρήσεων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα κοινών μετρήσεων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Measurement standards card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κάρτα κοινών μετρήσεων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Measurement standards card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κάρτα κοινών μετρήσεων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Measurement standards card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κάρτα κοινών μετρήσεων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Measurement standards card to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα κοινών μετρήσεων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-012",
@@ -976,11 +1394,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κουτί εναλλασσόμενου αρχείου κοινότητας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κουτί εναλλασσόμενου αρχείου κοινότητας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Community archive rotation box with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Community archive rotation box if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Community archive rotation box and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κουτί εναλλασσόμενου αρχείου κοινότητας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κουτί εναλλασσόμενου αρχείου κοινότητας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κουτί εναλλασσόμενου αρχείου κοινότητας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Community archive rotation box or when the next check happens.",
+      "Supplies connected to Community archive rotation box are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κουτί εναλλασσόμενου αρχείου κοινότητας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κουτί εναλλασσόμενου αρχείου κοινότητας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Community archive rotation box as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Community archive rotation box when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Community archive rotation box."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κουτί εναλλασσόμενου αρχείου κοινότητας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κουτί εναλλασσόμενου αρχείου κοινότητας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κουτί εναλλασσόμενου αρχείου κοινότητας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Community archive rotation box, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κουτί εναλλασσόμενου αρχείου κοινότητας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Community archive rotation box remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κουτί εναλλασσόμενου αρχείου κοινότητας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Community archive rotation box fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κουτί εναλλασσόμενου αρχείου κοινότητας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Community archive rotation box to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κουτί εναλλασσόμενου αρχείου κοινότητας» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-013",
@@ -1058,11 +1514,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Διδασκαλία μιας δεξιότητας τη φορά.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Διδασκαλία μιας δεξιότητας τη φορά."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Teaching one skill at a time with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Teaching one skill at a time if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Teaching one skill at a time and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Διδασκαλία μιας δεξιότητας τη φορά» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Διδασκαλία μιας δεξιότητας τη φορά» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Διδασκαλία μιας δεξιότητας τη φορά» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Teaching one skill at a time or when the next check happens.",
+      "Supplies connected to Teaching one skill at a time are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Διδασκαλία μιας δεξιότητας τη φορά» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Διδασκαλία μιας δεξιότητας τη φορά» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Teaching one skill at a time as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Teaching one skill at a time when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Teaching one skill at a time."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Διδασκαλία μιας δεξιότητας τη φορά» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Διδασκαλία μιας δεξιότητας τη φορά» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Διδασκαλία μιας δεξιότητας τη φορά»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Teaching one skill at a time, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Διδασκαλία μιας δεξιότητας τη φορά», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Teaching one skill at a time remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Διδασκαλία μιας δεξιότητας τη φορά» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Teaching one skill at a time fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Διδασκαλία μιας δεξιότητας τη φορά», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Teaching one skill at a time to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Διδασκαλία μιας δεξιότητας τη φορά» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-014",
@@ -1140,11 +1634,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κατάλογος τοπικών υλικών.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κατάλογος τοπικών υλικών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Local material catalog with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Local material catalog if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Local material catalog and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κατάλογος τοπικών υλικών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κατάλογος τοπικών υλικών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κατάλογος τοπικών υλικών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Local material catalog or when the next check happens.",
+      "Supplies connected to Local material catalog are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κατάλογος τοπικών υλικών» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κατάλογος τοπικών υλικών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Local material catalog as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Local material catalog when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Local material catalog."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κατάλογος τοπικών υλικών» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κατάλογος τοπικών υλικών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κατάλογος τοπικών υλικών»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Local material catalog, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κατάλογος τοπικών υλικών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Local material catalog remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κατάλογος τοπικών υλικών» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Local material catalog fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κατάλογος τοπικών υλικών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Local material catalog to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κατάλογος τοπικών υλικών» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-015",
@@ -1222,11 +1754,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Βασικό βιβλίο λογαριασμών.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Βασικό βιβλίο λογαριασμών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Basic accounting ledger with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Basic accounting ledger if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Basic accounting ledger and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Βασικό βιβλίο λογαριασμών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Βασικό βιβλίο λογαριασμών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Βασικό βιβλίο λογαριασμών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Basic accounting ledger or when the next check happens.",
+      "Supplies connected to Basic accounting ledger are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Βασικό βιβλίο λογαριασμών» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Βασικό βιβλίο λογαριασμών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Basic accounting ledger as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Basic accounting ledger when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Basic accounting ledger."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Βασικό βιβλίο λογαριασμών» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Βασικό βιβλίο λογαριασμών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Βασικό βιβλίο λογαριασμών»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Basic accounting ledger, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Βασικό βιβλίο λογαριασμών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Basic accounting ledger remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Βασικό βιβλίο λογαριασμών» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Basic accounting ledger fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Βασικό βιβλίο λογαριασμών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Basic accounting ledger to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Βασικό βιβλίο λογαριασμών» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-016",
@@ -1304,11 +1874,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Μάθημα προτεραιότητας επισκευών.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Μάθημα προτεραιότητας επισκευών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Repair priority classroom with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Repair priority classroom if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Repair priority classroom and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Μάθημα προτεραιότητας επισκευών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Μάθημα προτεραιότητας επισκευών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Μάθημα προτεραιότητας επισκευών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Repair priority classroom or when the next check happens.",
+      "Supplies connected to Repair priority classroom are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Μάθημα προτεραιότητας επισκευών» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Μάθημα προτεραιότητας επισκευών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Repair priority classroom as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Repair priority classroom when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Repair priority classroom."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Μάθημα προτεραιότητας επισκευών» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Μάθημα προτεραιότητας επισκευών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Μάθημα προτεραιότητας επισκευών»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Repair priority classroom, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Μάθημα προτεραιότητας επισκευών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Repair priority classroom remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Μάθημα προτεραιότητας επισκευών» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Repair priority classroom fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Μάθημα προτεραιότητας επισκευών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Repair priority classroom to the real environment: check fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Μάθημα προτεραιότητας επισκευών» στο πραγματικό περιβάλλον: έλεγξε κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-017",
@@ -1386,11 +1994,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Εξάσκηση καθαρής γραφής.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Εξάσκηση καθαρής γραφής."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Handwriting clarity practice with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Handwriting clarity practice if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Handwriting clarity practice and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Εξάσκηση καθαρής γραφής» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Εξάσκηση καθαρής γραφής» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Εξάσκηση καθαρής γραφής» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Handwriting clarity practice or when the next check happens.",
+      "Supplies connected to Handwriting clarity practice are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Εξάσκηση καθαρής γραφής» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Εξάσκηση καθαρής γραφής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Handwriting clarity practice as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Handwriting clarity practice when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Handwriting clarity practice."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Εξάσκηση καθαρής γραφής» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Εξάσκηση καθαρής γραφής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Εξάσκηση καθαρής γραφής»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Handwriting clarity practice, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Εξάσκηση καθαρής γραφής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Handwriting clarity practice remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Εξάσκηση καθαρής γραφής» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Handwriting clarity practice fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Εξάσκηση καθαρής γραφής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Handwriting clarity practice to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Εξάσκηση καθαρής γραφής» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-018",
@@ -1468,11 +2114,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Επίπεδα βεβαιότητας δεξιοτήτων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Επίπεδα βεβαιότητας δεξιοτήτων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Skill confidence levels with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Skill confidence levels if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Skill confidence levels and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Επίπεδα βεβαιότητας δεξιοτήτων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Επίπεδα βεβαιότητας δεξιοτήτων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Επίπεδα βεβαιότητας δεξιοτήτων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Skill confidence levels or when the next check happens.",
+      "Supplies connected to Skill confidence levels are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Επίπεδα βεβαιότητας δεξιοτήτων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Επίπεδα βεβαιότητας δεξιοτήτων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Skill confidence levels as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Skill confidence levels when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Skill confidence levels."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Επίπεδα βεβαιότητας δεξιοτήτων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Επίπεδα βεβαιότητας δεξιοτήτων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Επίπεδα βεβαιότητας δεξιοτήτων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Skill confidence levels, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Επίπεδα βεβαιότητας δεξιοτήτων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Skill confidence levels remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Επίπεδα βεβαιότητας δεξιοτήτων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Skill confidence levels fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Επίπεδα βεβαιότητας δεξιοτήτων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Skill confidence levels to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Επίπεδα βεβαιότητας δεξιοτήτων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-019",
@@ -1550,11 +2234,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σύστημα καρτών ευρετηρίου εγχειριδίων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σύστημα καρτών ευρετηρίου εγχειριδίων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Manual index card system with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Manual index card system if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Manual index card system and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σύστημα καρτών ευρετηρίου εγχειριδίων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σύστημα καρτών ευρετηρίου εγχειριδίων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σύστημα καρτών ευρετηρίου εγχειριδίων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Manual index card system or when the next check happens.",
+      "Supplies connected to Manual index card system are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σύστημα καρτών ευρετηρίου εγχειριδίων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σύστημα καρτών ευρετηρίου εγχειριδίων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Manual index card system as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Manual index card system when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Manual index card system."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σύστημα καρτών ευρετηρίου εγχειριδίων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σύστημα καρτών ευρετηρίου εγχειριδίων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σύστημα καρτών ευρετηρίου εγχειριδίων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Manual index card system, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σύστημα καρτών ευρετηρίου εγχειριδίων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Manual index card system remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σύστημα καρτών ευρετηρίου εγχειριδίων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Manual index card system fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σύστημα καρτών ευρετηρίου εγχειριδίων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Manual index card system to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σύστημα καρτών ευρετηρίου εγχειριδίων» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-longterm-rebuilding-education-020",
@@ -1632,10 +2354,48 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Πλάνο πρόληψης απώλειας γνώσης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Πλάνο πρόληψης απώλειας γνώσης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Knowledge loss prevention plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Knowledge loss prevention plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Knowledge loss prevention plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πλάνο πρόληψης απώλειας γνώσης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πλάνο πρόληψης απώλειας γνώσης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πλάνο πρόληψης απώλειας γνώσης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Knowledge loss prevention plan or when the next check happens.",
+      "Supplies connected to Knowledge loss prevention plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πλάνο πρόληψης απώλειας γνώσης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πλάνο πρόληψης απώλειας γνώσης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Knowledge loss prevention plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Knowledge loss prevention plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Knowledge loss prevention plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πλάνο πρόληψης απώλειας γνώσης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πλάνο πρόληψης απώλειας γνώσης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πλάνο πρόληψης απώλειας γνώσης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Knowledge loss prevention plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πλάνο πρόληψης απώλειας γνώσης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Knowledge loss prevention plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πλάνο πρόληψης απώλειας γνώσης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Knowledge loss prevention plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πλάνο πρόληψης απώλειας γνώσης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Knowledge loss prevention plan to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πλάνο πρόληψης απώλειας γνώσης» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   }
 ]

@@ -74,11 +74,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Προϋπολογισμός νερού για γλάστρες.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Προϋπολογισμός νερού για γλάστρες."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Container garden water budget with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Container garden water budget if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Container garden water budget and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Προϋπολογισμός νερού για γλάστρες» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Προϋπολογισμός νερού για γλάστρες» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Προϋπολογισμός νερού για γλάστρες» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Container garden water budget or when the next check happens.",
+      "Supplies connected to Container garden water budget are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Προϋπολογισμός νερού για γλάστρες» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Προϋπολογισμός νερού για γλάστρες» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Container garden water budget as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Container garden water budget when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Container garden water budget."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Προϋπολογισμός νερού για γλάστρες» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Προϋπολογισμός νερού για γλάστρες» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Προϋπολογισμός νερού για γλάστρες»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Container garden water budget, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Προϋπολογισμός νερού για γλάστρες», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Container garden water budget remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Προϋπολογισμός νερού για γλάστρες» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Container garden water budget fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Προϋπολογισμός νερού για γλάστρες», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Container garden water budget to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Προϋπολογισμός νερού για γλάστρες» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-002",
@@ -156,11 +194,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Έλεγχος βάρους καλλιέργειας σε μπαλκόνι.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Έλεγχος βάρους καλλιέργειας σε μπαλκόνι."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Balcony growing weight check with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Balcony growing weight check if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Balcony growing weight check and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Balcony growing weight check or when the next check happens.",
+      "Supplies connected to Balcony growing weight check are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Balcony growing weight check as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Balcony growing weight check when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Balcony growing weight check."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Balcony growing weight check, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Balcony growing weight check remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Balcony growing weight check fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Balcony growing weight check to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Έλεγχος βάρους καλλιέργειας σε μπαλκόνι» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-003",
@@ -238,11 +314,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Αδιαβροχοποίηση ετικέτας σπόρου.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Αδιαβροχοποίηση ετικέτας σπόρου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Seed label weatherproofing with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Seed label weatherproofing if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Seed label weatherproofing and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Αδιαβροχοποίηση ετικέτας σπόρου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Αδιαβροχοποίηση ετικέτας σπόρου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Αδιαβροχοποίηση ετικέτας σπόρου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Seed label weatherproofing or when the next check happens.",
+      "Supplies connected to Seed label weatherproofing are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Αδιαβροχοποίηση ετικέτας σπόρου» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Αδιαβροχοποίηση ετικέτας σπόρου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Seed label weatherproofing as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Seed label weatherproofing when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Seed label weatherproofing."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Αδιαβροχοποίηση ετικέτας σπόρου» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Αδιαβροχοποίηση ετικέτας σπόρου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Αδιαβροχοποίηση ετικέτας σπόρου»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Seed label weatherproofing, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Αδιαβροχοποίηση ετικέτας σπόρου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Seed label weatherproofing remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Αδιαβροχοποίηση ετικέτας σπόρου» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Seed label weatherproofing fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Αδιαβροχοποίηση ετικέτας σπόρου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Seed label weatherproofing to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Αδιαβροχοποίηση ετικέτας σπόρου» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-004",
@@ -320,11 +434,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Όρια υγιεινής κομπόστ σε μπαλκόνι.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Όρια υγιεινής κομπόστ σε μπαλκόνι."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Balcony compost hygiene boundary with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Balcony compost hygiene boundary if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Balcony compost hygiene boundary and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Όρια υγιεινής κομπόστ σε μπαλκόνι» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Όρια υγιεινής κομπόστ σε μπαλκόνι» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Όρια υγιεινής κομπόστ σε μπαλκόνι» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Balcony compost hygiene boundary or when the next check happens.",
+      "Supplies connected to Balcony compost hygiene boundary are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Όρια υγιεινής κομπόστ σε μπαλκόνι» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Όρια υγιεινής κομπόστ σε μπαλκόνι» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Balcony compost hygiene boundary as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Balcony compost hygiene boundary when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Balcony compost hygiene boundary."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Όρια υγιεινής κομπόστ σε μπαλκόνι» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Όρια υγιεινής κομπόστ σε μπαλκόνι» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Όρια υγιεινής κομπόστ σε μπαλκόνι»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Balcony compost hygiene boundary, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Όρια υγιεινής κομπόστ σε μπαλκόνι», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Balcony compost hygiene boundary remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Όρια υγιεινής κομπόστ σε μπαλκόνι» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Balcony compost hygiene boundary fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Όρια υγιεινής κομπόστ σε μπαλκόνι», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Balcony compost hygiene boundary to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Όρια υγιεινής κομπόστ σε μπαλκόνι» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-005",
@@ -402,11 +554,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Kitchen scrap regrowth notes with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Kitchen scrap regrowth notes if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Kitchen scrap regrowth notes and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Kitchen scrap regrowth notes or when the next check happens.",
+      "Supplies connected to Kitchen scrap regrowth notes are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Kitchen scrap regrowth notes as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Kitchen scrap regrowth notes when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Kitchen scrap regrowth notes."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Kitchen scrap regrowth notes, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Kitchen scrap regrowth notes remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Kitchen scrap regrowth notes fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Kitchen scrap regrowth notes to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σημειώσεις αναβλάστησης υπολειμμάτων κουζίνας» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-006",
@@ -484,11 +674,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ημερολόγιο επικονιαστών.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ημερολόγιο επικονιαστών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Pollinator observation log with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Pollinator observation log if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Pollinator observation log and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ημερολόγιο επικονιαστών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ημερολόγιο επικονιαστών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ημερολόγιο επικονιαστών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Pollinator observation log or when the next check happens.",
+      "Supplies connected to Pollinator observation log are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ημερολόγιο επικονιαστών» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ημερολόγιο επικονιαστών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Pollinator observation log as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Pollinator observation log when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Pollinator observation log."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ημερολόγιο επικονιαστών» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ημερολόγιο επικονιαστών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ημερολόγιο επικονιαστών»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Pollinator observation log, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ημερολόγιο επικονιαστών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Pollinator observation log remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ημερολόγιο επικονιαστών» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Pollinator observation log fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ημερολόγιο επικονιαστών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Pollinator observation log to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ημερολόγιο επικονιαστών» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-007",
@@ -565,11 +793,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Απλός έλεγχος υγρασίας χώματος.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Απλός έλεγχος υγρασίας χώματος."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Simple soil moisture check with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Simple soil moisture check if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Simple soil moisture check and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Απλός έλεγχος υγρασίας χώματος» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Απλός έλεγχος υγρασίας χώματος» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Απλός έλεγχος υγρασίας χώματος» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Simple soil moisture check or when the next check happens.",
+      "Supplies connected to Simple soil moisture check are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Απλός έλεγχος υγρασίας χώματος» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Απλός έλεγχος υγρασίας χώματος» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Simple soil moisture check as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Simple soil moisture check when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Simple soil moisture check."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Απλός έλεγχος υγρασίας χώματος» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Απλός έλεγχος υγρασίας χώματος» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Απλός έλεγχος υγρασίας χώματος»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Simple soil moisture check, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Απλός έλεγχος υγρασίας χώματος», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Simple soil moisture check remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Απλός έλεγχος υγρασίας χώματος» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Simple soil moisture check fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Απλός έλεγχος υγρασίας χώματος», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Simple soil moisture check to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Απλός έλεγχος υγρασίας χώματος» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-008",
@@ -647,11 +913,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κάρτα σχεδίου ζημιάς από παράσιτα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κάρτα σχεδίου ζημιάς από παράσιτα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Pest damage sketch card with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Pest damage sketch card if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Pest damage sketch card and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτα σχεδίου ζημιάς από παράσιτα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτα σχεδίου ζημιάς από παράσιτα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτα σχεδίου ζημιάς από παράσιτα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Pest damage sketch card or when the next check happens.",
+      "Supplies connected to Pest damage sketch card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα σχεδίου ζημιάς από παράσιτα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κάρτα σχεδίου ζημιάς από παράσιτα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Pest damage sketch card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Pest damage sketch card when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Pest damage sketch card."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κάρτα σχεδίου ζημιάς από παράσιτα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κάρτα σχεδίου ζημιάς από παράσιτα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα σχεδίου ζημιάς από παράσιτα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Pest damage sketch card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κάρτα σχεδίου ζημιάς από παράσιτα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Pest damage sketch card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κάρτα σχεδίου ζημιάς από παράσιτα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Pest damage sketch card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κάρτα σχεδίου ζημιάς από παράσιτα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Pest damage sketch card to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα σχεδίου ζημιάς από παράσιτα» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-009",
@@ -729,11 +1033,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Χωριστό απόθεμα τροφής ζώων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Χωριστό απόθεμα τροφής ζώων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Animal feed inventory split with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Animal feed inventory split if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Animal feed inventory split and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Χωριστό απόθεμα τροφής ζώων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Χωριστό απόθεμα τροφής ζώων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Χωριστό απόθεμα τροφής ζώων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Animal feed inventory split or when the next check happens.",
+      "Supplies connected to Animal feed inventory split are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Χωριστό απόθεμα τροφής ζώων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Χωριστό απόθεμα τροφής ζώων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Animal feed inventory split as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Animal feed inventory split when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Animal feed inventory split."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Χωριστό απόθεμα τροφής ζώων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Χωριστό απόθεμα τροφής ζώων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Χωριστό απόθεμα τροφής ζώων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Animal feed inventory split, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Χωριστό απόθεμα τροφής ζώων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Animal feed inventory split remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Χωριστό απόθεμα τροφής ζώων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Animal feed inventory split fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Χωριστό απόθεμα τροφής ζώων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Animal feed inventory split to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Χωριστό απόθεμα τροφής ζώων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-010",
@@ -811,11 +1153,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Βάρδιες καθαριότητας κοτετσιού.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Βάρδιες καθαριότητας κοτετσιού."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Chicken coop cleanliness rota with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Chicken coop cleanliness rota if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Chicken coop cleanliness rota and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Βάρδιες καθαριότητας κοτετσιού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Βάρδιες καθαριότητας κοτετσιού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Βάρδιες καθαριότητας κοτετσιού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Chicken coop cleanliness rota or when the next check happens.",
+      "Supplies connected to Chicken coop cleanliness rota are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Βάρδιες καθαριότητας κοτετσιού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Βάρδιες καθαριότητας κοτετσιού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Chicken coop cleanliness rota as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Chicken coop cleanliness rota when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Chicken coop cleanliness rota."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Βάρδιες καθαριότητας κοτετσιού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Βάρδιες καθαριότητας κοτετσιού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Βάρδιες καθαριότητας κοτετσιού»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Chicken coop cleanliness rota, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Βάρδιες καθαριότητας κοτετσιού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Chicken coop cleanliness rota remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Βάρδιες καθαριότητας κοτετσιού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Chicken coop cleanliness rota fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Βάρδιες καθαριότητας κοτετσιού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Chicken coop cleanliness rota to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Βάρδιες καθαριότητας κοτετσιού» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-011",
@@ -893,11 +1273,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Παρακολούθηση θερμικού στρες κουνελιών.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Παρακολούθηση θερμικού στρες κουνελιών."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Rabbit heat stress watch with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Rabbit heat stress watch if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Rabbit heat stress watch and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Παρακολούθηση θερμικού στρες κουνελιών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Παρακολούθηση θερμικού στρες κουνελιών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Παρακολούθηση θερμικού στρες κουνελιών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Rabbit heat stress watch or when the next check happens.",
+      "Supplies connected to Rabbit heat stress watch are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Παρακολούθηση θερμικού στρες κουνελιών» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Παρακολούθηση θερμικού στρες κουνελιών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Rabbit heat stress watch as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Rabbit heat stress watch when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Rabbit heat stress watch."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Παρακολούθηση θερμικού στρες κουνελιών» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Παρακολούθηση θερμικού στρες κουνελιών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Παρακολούθηση θερμικού στρες κουνελιών»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Rabbit heat stress watch, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Παρακολούθηση θερμικού στρες κουνελιών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Rabbit heat stress watch remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Παρακολούθηση θερμικού στρες κουνελιών» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Rabbit heat stress watch fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Παρακολούθηση θερμικού στρες κουνελιών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Rabbit heat stress watch to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Παρακολούθηση θερμικού στρες κουνελιών» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-012",
@@ -975,11 +1393,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σημείωση επισκευής φράχτη κατσίκας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σημείωση επισκευής φράχτη κατσίκας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Goat fence repair note with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Goat fence repair note if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Goat fence repair note and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σημείωση επισκευής φράχτη κατσίκας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σημείωση επισκευής φράχτη κατσίκας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σημείωση επισκευής φράχτη κατσίκας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Goat fence repair note or when the next check happens.",
+      "Supplies connected to Goat fence repair note are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σημείωση επισκευής φράχτη κατσίκας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σημείωση επισκευής φράχτη κατσίκας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Goat fence repair note as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Goat fence repair note when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Goat fence repair note."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σημείωση επισκευής φράχτη κατσίκας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σημείωση επισκευής φράχτη κατσίκας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σημείωση επισκευής φράχτη κατσίκας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Goat fence repair note, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σημείωση επισκευής φράχτη κατσίκας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Goat fence repair note remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σημείωση επισκευής φράχτη κατσίκας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Goat fence repair note fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σημείωση επισκευής φράχτη κατσίκας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Goat fence repair note to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σημείωση επισκευής φράχτη κατσίκας» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-013",
@@ -1057,11 +1513,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κανόνας δίκαιης ανταλλαγής σπόρων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κανόνας δίκαιης ανταλλαγής σπόρων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Seed sharing fairness rule with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Seed sharing fairness rule if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Seed sharing fairness rule and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κανόνας δίκαιης ανταλλαγής σπόρων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κανόνας δίκαιης ανταλλαγής σπόρων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κανόνας δίκαιης ανταλλαγής σπόρων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Seed sharing fairness rule or when the next check happens.",
+      "Supplies connected to Seed sharing fairness rule are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κανόνας δίκαιης ανταλλαγής σπόρων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κανόνας δίκαιης ανταλλαγής σπόρων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Seed sharing fairness rule as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Seed sharing fairness rule when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Seed sharing fairness rule."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κανόνας δίκαιης ανταλλαγής σπόρων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κανόνας δίκαιης ανταλλαγής σπόρων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κανόνας δίκαιης ανταλλαγής σπόρων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Seed sharing fairness rule, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κανόνας δίκαιης ανταλλαγής σπόρων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Seed sharing fairness rule remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κανόνας δίκαιης ανταλλαγής σπόρων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Seed sharing fairness rule fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κανόνας δίκαιης ανταλλαγής σπόρων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Seed sharing fairness rule to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κανόνας δίκαιης ανταλλαγής σπόρων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-014",
@@ -1139,11 +1633,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Πλάνο παρτεριού ανθεκτικό στην ξηρασία.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Πλάνο παρτεριού ανθεκτικό στην ξηρασία."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Drought-tolerant bed plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Drought-tolerant bed plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Drought-tolerant bed plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πλάνο παρτεριού ανθεκτικό στην ξηρασία» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Drought-tolerant bed plan or when the next check happens.",
+      "Supplies connected to Drought-tolerant bed plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Drought-tolerant bed plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Drought-tolerant bed plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Drought-tolerant bed plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Drought-tolerant bed plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πλάνο παρτεριού ανθεκτικό στην ξηρασία», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Drought-tolerant bed plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Drought-tolerant bed plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Drought-tolerant bed plan to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πλάνο παρτεριού ανθεκτικό στην ξηρασία» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-015",
@@ -1221,11 +1753,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σημείωση καθαριότητας βαρελιού βροχής.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σημείωση καθαριότητας βαρελιού βροχής."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Rain barrel cleanliness note with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Rain barrel cleanliness note if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Rain barrel cleanliness note and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σημείωση καθαριότητας βαρελιού βροχής» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σημείωση καθαριότητας βαρελιού βροχής» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σημείωση καθαριότητας βαρελιού βροχής» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Rain barrel cleanliness note or when the next check happens.",
+      "Supplies connected to Rain barrel cleanliness note are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σημείωση καθαριότητας βαρελιού βροχής» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σημείωση καθαριότητας βαρελιού βροχής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Rain barrel cleanliness note as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Rain barrel cleanliness note when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Rain barrel cleanliness note."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σημείωση καθαριότητας βαρελιού βροχής» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σημείωση καθαριότητας βαρελιού βροχής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σημείωση καθαριότητας βαρελιού βροχής»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Rain barrel cleanliness note, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σημείωση καθαριότητας βαρελιού βροχής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Rain barrel cleanliness note remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σημείωση καθαριότητας βαρελιού βροχής» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Rain barrel cleanliness note fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σημείωση καθαριότητας βαρελιού βροχής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Rain barrel cleanliness note to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σημείωση καθαριότητας βαρελιού βροχής» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-016",
@@ -1303,11 +1873,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Πλάνο πρώτης χρήσης συγκομιδής.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Πλάνο πρώτης χρήσης συγκομιδής."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Harvest first use plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Harvest first use plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Harvest first use plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πλάνο πρώτης χρήσης συγκομιδής» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πλάνο πρώτης χρήσης συγκομιδής» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πλάνο πρώτης χρήσης συγκομιδής» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Harvest first use plan or when the next check happens.",
+      "Supplies connected to Harvest first use plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πλάνο πρώτης χρήσης συγκομιδής» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πλάνο πρώτης χρήσης συγκομιδής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Harvest first use plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Harvest first use plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Harvest first use plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πλάνο πρώτης χρήσης συγκομιδής» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πλάνο πρώτης χρήσης συγκομιδής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πλάνο πρώτης χρήσης συγκομιδής»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Harvest first use plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πλάνο πρώτης χρήσης συγκομιδής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Harvest first use plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πλάνο πρώτης χρήσης συγκομιδής» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Harvest first use plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πλάνο πρώτης χρήσης συγκομιδής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Harvest first use plan to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πλάνο πρώτης χρήσης συγκομιδής» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-017",
@@ -1384,11 +1992,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Όριο υγιεινής εργαλείων κήπου.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Όριο υγιεινής εργαλείων κήπου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Garden tool hygiene boundary with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Garden tool hygiene boundary if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Garden tool hygiene boundary and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Όριο υγιεινής εργαλείων κήπου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Όριο υγιεινής εργαλείων κήπου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Όριο υγιεινής εργαλείων κήπου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Garden tool hygiene boundary or when the next check happens.",
+      "Supplies connected to Garden tool hygiene boundary are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Όριο υγιεινής εργαλείων κήπου» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Όριο υγιεινής εργαλείων κήπου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Garden tool hygiene boundary as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Garden tool hygiene boundary when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Garden tool hygiene boundary."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Όριο υγιεινής εργαλείων κήπου» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Όριο υγιεινής εργαλείων κήπου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Όριο υγιεινής εργαλείων κήπου»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Garden tool hygiene boundary, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Όριο υγιεινής εργαλείων κήπου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Garden tool hygiene boundary remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Όριο υγιεινής εργαλείων κήπου» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Garden tool hygiene boundary fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Όριο υγιεινής εργαλείων κήπου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Garden tool hygiene boundary to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Όριο υγιεινής εργαλείων κήπου» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-018",
@@ -1466,11 +2112,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Αρχείο αυτοσχέδιας σκίασης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Αρχείο αυτοσχέδιας σκίασης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Shade cloth improvisation record with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Shade cloth improvisation record if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Shade cloth improvisation record and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Αρχείο αυτοσχέδιας σκίασης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Αρχείο αυτοσχέδιας σκίασης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Αρχείο αυτοσχέδιας σκίασης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Shade cloth improvisation record or when the next check happens.",
+      "Supplies connected to Shade cloth improvisation record are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Αρχείο αυτοσχέδιας σκίασης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Αρχείο αυτοσχέδιας σκίασης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Shade cloth improvisation record as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Shade cloth improvisation record when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Shade cloth improvisation record."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Αρχείο αυτοσχέδιας σκίασης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Αρχείο αυτοσχέδιας σκίασης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Αρχείο αυτοσχέδιας σκίασης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Shade cloth improvisation record, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Αρχείο αυτοσχέδιας σκίασης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Shade cloth improvisation record remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Αρχείο αυτοσχέδιας σκίασης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Shade cloth improvisation record fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Αρχείο αυτοσχέδιας σκίασης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Shade cloth improvisation record to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Αρχείο αυτοσχέδιας σκίασης» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-019",
@@ -1548,11 +2232,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ρουτίνα νερού μικρών ζώων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ρουτίνα νερού μικρών ζώων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Small animal water routine with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Small animal water routine if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Small animal water routine and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ρουτίνα νερού μικρών ζώων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ρουτίνα νερού μικρών ζώων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ρουτίνα νερού μικρών ζώων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Small animal water routine or when the next check happens.",
+      "Supplies connected to Small animal water routine are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ρουτίνα νερού μικρών ζώων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ρουτίνα νερού μικρών ζώων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Small animal water routine as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Small animal water routine when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Small animal water routine."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ρουτίνα νερού μικρών ζώων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ρουτίνα νερού μικρών ζώων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ρουτίνα νερού μικρών ζώων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Small animal water routine, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ρουτίνα νερού μικρών ζώων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Small animal water routine remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ρουτίνα νερού μικρών ζώων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Small animal water routine fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ρουτίνα νερού μικρών ζώων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Small animal water routine to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα νερού μικρών ζώων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-agriculture-soil-plants-animals-020",
@@ -1630,10 +2352,48 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Εποχικός χάρτης μνήμης φύτευσης.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Εποχικός χάρτης μνήμης φύτευσης."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Seasonal planting memory map with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Seasonal planting memory map if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Seasonal planting memory map and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Εποχικός χάρτης μνήμης φύτευσης» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Εποχικός χάρτης μνήμης φύτευσης» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Εποχικός χάρτης μνήμης φύτευσης» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Seasonal planting memory map or when the next check happens.",
+      "Supplies connected to Seasonal planting memory map are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Εποχικός χάρτης μνήμης φύτευσης» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Εποχικός χάρτης μνήμης φύτευσης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Seasonal planting memory map as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Seasonal planting memory map when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Seasonal planting memory map."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Εποχικός χάρτης μνήμης φύτευσης» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Εποχικός χάρτης μνήμης φύτευσης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Εποχικός χάρτης μνήμης φύτευσης»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Seasonal planting memory map, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Εποχικός χάρτης μνήμης φύτευσης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Seasonal planting memory map remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Εποχικός χάρτης μνήμης φύτευσης» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Seasonal planting memory map fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Εποχικός χάρτης μνήμης φύτευσης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Seasonal planting memory map to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Εποχικός χάρτης μνήμης φύτευσης» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   }
 ]

@@ -86,3 +86,44 @@ Pass85 keeps advice cautious, non-diagnostic, non-violent, and offline-first. Fu
 ## Pass86 note
 
 Pass86 keeps the README simple and keeps only one Python script: `Offline Survival.py`. New knowledge remains original, bilingual, cautious, and offline-first. Future checks should keep using reliable public-health and civil-protection sources such as CDC emergency water and food safety pages, Ready.gov power outage guidance, Red Cross preparedness pages, WHO public-health references, FAO/agricultural-extension material, and local Greek civil-protection or municipal notices.
+
+---
+
+## Pass90 source-alignment note — 2026-05-28
+
+This pass expanded practical offline routines while keeping safety wording aligned with official/public guidance where possible:
+
+- Ready.gov — Build A Kit: https://www.ready.gov/kit
+- Ready.gov — Food: https://www.ready.gov/food
+- CDC — How to Create and Store an Emergency Water Supply: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
+- CDC — How to Make Water Safe in an Emergency: https://www.cdc.gov/water-emergency/about/index.html
+- American Red Cross — Check, Call, Care emergency action steps: https://www.redcross.org/take-a-class/resources/articles/the-three-cs-of-first-aid-check-call-care
+- WHO — Water, sanitation and health in humanitarian emergencies: https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/humanitarian-emergencies
+
+Use these sources for future verification of water, hygiene, preparedness, food, and first-aid framing. Do not copy official pages verbatim; keep project entries practical, original, bilingual, offline-friendly, and conservative where safety matters.
+
+
+
+---
+
+## Pass91 source-alignment note — 2026-05-28
+
+Pass91 expanded worst-case civilian emergency routines while keeping guidance conservative and aligned with official emergency-preparedness framing where possible. Useful reference families for future verification include:
+
+- Ready.gov — Radiation Emergencies: https://www.ready.gov/radiation
+- CDC — What to Do in Radiation Emergencies: https://www.cdc.gov/radiation-emergencies/response/index.html
+- Ready.gov — Chemicals and Hazardous Materials Incidents: https://www.ready.gov/hazmat
+- CDC — Shelter in Place for a Chemical Emergency: https://www.cdc.gov/chemical-emergencies/response/shelter-in-place.html
+- Ready.gov — Power Outages: https://www.ready.gov/power-outages
+- American Red Cross — Nuclear Explosion and Radiation Emergencies: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/nuclear-explosion-radiation-emergencies.html
+
+Maintenance rule: keep CBRN, chemical, medical, and security-related entries defensive and civilian. Do not add weapon construction, explosive handling, combat tactics, evasion, diagnosis, drug dosing, or dangerous chemical procedures.
+
+
+---
+
+## Pass92 schema repair note — 2026-05-28
+
+Pass92 did not add dangerous operational content. It normalized older entries so every database record has the same bilingual safety/check fields: mistakes, alternatives, failure signs, when-not-to-use boundaries, short-term notes, long-term notes, fallback notes, environment notes, and related topics.
+
+Maintenance rule: future passes should keep these paired English/Greek fields filled with practical, original, non-diagnostic, non-violent, civilian survival guidance. Do not add weapon construction, evasion, explosive handling, hazardous chemical procedures, medical dosing, or unsafe repair instructions.

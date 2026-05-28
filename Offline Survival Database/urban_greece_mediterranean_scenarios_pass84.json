@@ -74,11 +74,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Apartment stairwell safety map with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Apartment stairwell safety map if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Apartment stairwell safety map and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Apartment stairwell safety map or when the next check happens.",
+      "Supplies connected to Apartment stairwell safety map are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Apartment stairwell safety map as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Apartment stairwell safety map when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Apartment stairwell safety map."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Apartment stairwell safety map, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Apartment stairwell safety map remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Apartment stairwell safety map fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Apartment stairwell safety map to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Χάρτης ασφάλειας κλιμακοστασίου πολυκατοικίας» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-002",
@@ -156,11 +194,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ρουτίνα θερινού blackout στην Αθήνα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ρουτίνα θερινού blackout στην Αθήνα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Athens summer blackout routine with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Athens summer blackout routine if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Athens summer blackout routine and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ρουτίνα θερινού blackout στην Αθήνα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ρουτίνα θερινού blackout στην Αθήνα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ρουτίνα θερινού blackout στην Αθήνα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Athens summer blackout routine or when the next check happens.",
+      "Supplies connected to Athens summer blackout routine are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ρουτίνα θερινού blackout στην Αθήνα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ρουτίνα θερινού blackout στην Αθήνα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Athens summer blackout routine as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Athens summer blackout routine when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Athens summer blackout routine."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ρουτίνα θερινού blackout στην Αθήνα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ρουτίνα θερινού blackout στην Αθήνα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ρουτίνα θερινού blackout στην Αθήνα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Athens summer blackout routine, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ρουτίνα θερινού blackout στην Αθήνα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Athens summer blackout routine remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ρουτίνα θερινού blackout στην Αθήνα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Athens summer blackout routine fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ρουτίνα θερινού blackout στην Αθήνα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Athens summer blackout routine to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα θερινού blackout στην Αθήνα» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-003",
@@ -238,11 +314,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Balcony shade without falling objects with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Balcony shade without falling objects if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Balcony shade without falling objects and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Balcony shade without falling objects or when the next check happens.",
+      "Supplies connected to Balcony shade without falling objects are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Balcony shade without falling objects as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Balcony shade without falling objects when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Balcony shade without falling objects."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Balcony shade without falling objects, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Balcony shade without falling objects remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Balcony shade without falling objects fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Balcony shade without falling objects to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σκίαση μπαλκονιού χωρίς πτώση αντικειμένων» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-004",
@@ -320,11 +434,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Προσοχή μετακίνησης σε στενό δρόμο.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Προσοχή μετακίνησης σε στενό δρόμο."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Narrow street movement caution with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Narrow street movement caution if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Narrow street movement caution and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Προσοχή μετακίνησης σε στενό δρόμο» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Προσοχή μετακίνησης σε στενό δρόμο» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Προσοχή μετακίνησης σε στενό δρόμο» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Narrow street movement caution or when the next check happens.",
+      "Supplies connected to Narrow street movement caution are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Προσοχή μετακίνησης σε στενό δρόμο» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Προσοχή μετακίνησης σε στενό δρόμο» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Narrow street movement caution as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Narrow street movement caution when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Narrow street movement caution."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Προσοχή μετακίνησης σε στενό δρόμο» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Προσοχή μετακίνησης σε στενό δρόμο» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Προσοχή μετακίνησης σε στενό δρόμο»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Narrow street movement caution, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Προσοχή μετακίνησης σε στενό δρόμο», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Narrow street movement caution remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Προσοχή μετακίνησης σε στενό δρόμο» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Narrow street movement caution fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Προσοχή μετακίνησης σε στενό δρόμο», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Narrow street movement caution to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Προσοχή μετακίνησης σε στενό δρόμο» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-005",
@@ -401,11 +553,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Εφεδρική λίστα θυροτηλεφώνου.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Εφεδρική λίστα θυροτηλεφώνου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Apartment intercom fallback list with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Apartment intercom fallback list if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Apartment intercom fallback list and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Εφεδρική λίστα θυροτηλεφώνου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Εφεδρική λίστα θυροτηλεφώνου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Εφεδρική λίστα θυροτηλεφώνου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Apartment intercom fallback list or when the next check happens.",
+      "Supplies connected to Apartment intercom fallback list are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Εφεδρική λίστα θυροτηλεφώνου» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Εφεδρική λίστα θυροτηλεφώνου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Apartment intercom fallback list as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Apartment intercom fallback list when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Apartment intercom fallback list."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Εφεδρική λίστα θυροτηλεφώνου» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Εφεδρική λίστα θυροτηλεφώνου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Εφεδρική λίστα θυροτηλεφώνου»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Apartment intercom fallback list, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Εφεδρική λίστα θυροτηλεφώνου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Apartment intercom fallback list remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Εφεδρική λίστα θυροτηλεφώνου» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Apartment intercom fallback list fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Εφεδρική λίστα θυροτηλεφώνου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Apartment intercom fallback list to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Εφεδρική λίστα θυροτηλεφώνου» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-006",
@@ -483,11 +673,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κάρτα διαδρομής φαρμακείου.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κάρτα διαδρομής φαρμακείου."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Pharmacy route card with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Pharmacy route card if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Pharmacy route card and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτα διαδρομής φαρμακείου» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτα διαδρομής φαρμακείου» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτα διαδρομής φαρμακείου» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Pharmacy route card or when the next check happens.",
+      "Supplies connected to Pharmacy route card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα διαδρομής φαρμακείου» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κάρτα διαδρομής φαρμακείου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Pharmacy route card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Pharmacy route card when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Pharmacy route card."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κάρτα διαδρομής φαρμακείου» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κάρτα διαδρομής φαρμακείου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα διαδρομής φαρμακείου»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Pharmacy route card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κάρτα διαδρομής φαρμακείου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Pharmacy route card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κάρτα διαδρομής φαρμακείου» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Pharmacy route card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κάρτα διαδρομής φαρμακείου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Pharmacy route card to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα διαδρομής φαρμακείου» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-007",
@@ -565,11 +793,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Έλεγχος πληροφορίας από περίπτερο.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Έλεγχος πληροφορίας από περίπτερο."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Neighborhood kiosk information check with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Neighborhood kiosk information check if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Neighborhood kiosk information check and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Έλεγχος πληροφορίας από περίπτερο» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Έλεγχος πληροφορίας από περίπτερο» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Έλεγχος πληροφορίας από περίπτερο» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Neighborhood kiosk information check or when the next check happens.",
+      "Supplies connected to Neighborhood kiosk information check are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Έλεγχος πληροφορίας από περίπτερο» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Έλεγχος πληροφορίας από περίπτερο» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Neighborhood kiosk information check as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Neighborhood kiosk information check when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Neighborhood kiosk information check."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Έλεγχος πληροφορίας από περίπτερο» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Έλεγχος πληροφορίας από περίπτερο» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Έλεγχος πληροφορίας από περίπτερο»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Neighborhood kiosk information check, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Έλεγχος πληροφορίας από περίπτερο», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Neighborhood kiosk information check remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Έλεγχος πληροφορίας από περίπτερο» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Neighborhood kiosk information check fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Έλεγχος πληροφορίας από περίπτερο», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Neighborhood kiosk information check to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Έλεγχος πληροφορίας από περίπτερο» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-008",
@@ -646,11 +912,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Μετατόπιση γεύματος σε μεσογειακή ζέστη.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Μετατόπιση γεύματος σε μεσογειακή ζέστη."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Mediterranean heat meal shift with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Mediterranean heat meal shift if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Mediterranean heat meal shift and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Μετατόπιση γεύματος σε μεσογειακή ζέστη» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Μετατόπιση γεύματος σε μεσογειακή ζέστη» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Μετατόπιση γεύματος σε μεσογειακή ζέστη» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Mediterranean heat meal shift or when the next check happens.",
+      "Supplies connected to Mediterranean heat meal shift are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores shelter safety, weather exposure, ventilation, dry clothing, and exit routes and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Μετατόπιση γεύματος σε μεσογειακή ζέστη» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Μετατόπιση γεύματος σε μεσογειακή ζέστη» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Mediterranean heat meal shift as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Mediterranean heat meal shift when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Mediterranean heat meal shift."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Μετατόπιση γεύματος σε μεσογειακή ζέστη» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Μετατόπιση γεύματος σε μεσογειακή ζέστη» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Μετατόπιση γεύματος σε μεσογειακή ζέστη»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Mediterranean heat meal shift, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Μετατόπιση γεύματος σε μεσογειακή ζέστη», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Mediterranean heat meal shift remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Μετατόπιση γεύματος σε μεσογειακή ζέστη» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Mediterranean heat meal shift fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Μετατόπιση γεύματος σε μεσογειακή ζέστη», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Mediterranean heat meal shift to the real environment: check shelter safety, weather exposure, ventilation, dry clothing, and exit routes, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Μετατόπιση γεύματος σε μεσογειακή ζέστη» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-009",
@@ -727,11 +1031,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Προσοχή πρόσβασης σε ταράτσα.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Προσοχή πρόσβασης σε ταράτσα."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Apartment roof access caution with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Apartment roof access caution if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Apartment roof access caution and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Προσοχή πρόσβασης σε ταράτσα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Προσοχή πρόσβασης σε ταράτσα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Προσοχή πρόσβασης σε ταράτσα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Apartment roof access caution or when the next check happens.",
+      "Supplies connected to Apartment roof access caution are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Προσοχή πρόσβασης σε ταράτσα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Προσοχή πρόσβασης σε ταράτσα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Apartment roof access caution as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Apartment roof access caution when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Apartment roof access caution."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Προσοχή πρόσβασης σε ταράτσα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Προσοχή πρόσβασης σε ταράτσα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Προσοχή πρόσβασης σε ταράτσα»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Apartment roof access caution, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Προσοχή πρόσβασης σε ταράτσα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Apartment roof access caution remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Προσοχή πρόσβασης σε ταράτσα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Apartment roof access caution fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Προσοχή πρόσβασης σε ταράτσα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Apartment roof access caution to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Προσοχή πρόσβασης σε ταράτσα» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-010",
@@ -809,11 +1151,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ανακοίνωση νερού πολυκατοικίας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ανακοίνωση νερού πολυκατοικίας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Shared building water notice with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Shared building water notice if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Shared building water notice and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ανακοίνωση νερού πολυκατοικίας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ανακοίνωση νερού πολυκατοικίας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ανακοίνωση νερού πολυκατοικίας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Shared building water notice or when the next check happens.",
+      "Supplies connected to Shared building water notice are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ανακοίνωση νερού πολυκατοικίας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ανακοίνωση νερού πολυκατοικίας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Shared building water notice as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Shared building water notice when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Shared building water notice."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ανακοίνωση νερού πολυκατοικίας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ανακοίνωση νερού πολυκατοικίας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ανακοίνωση νερού πολυκατοικίας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Shared building water notice, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ανακοίνωση νερού πολυκατοικίας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Shared building water notice remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ανακοίνωση νερού πολυκατοικίας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Shared building water notice fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ανακοίνωση νερού πολυκατοικίας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Shared building water notice to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ανακοίνωση νερού πολυκατοικίας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-011",
@@ -891,11 +1271,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Elevator outage elder plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Elevator outage elder plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Elevator outage elder plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Elevator outage elder plan or when the next check happens.",
+      "Supplies connected to Elevator outage elder plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Elevator outage elder plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Elevator outage elder plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Elevator outage elder plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Elevator outage elder plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Elevator outage elder plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Elevator outage elder plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Elevator outage elder plan to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο ηλικιωμένων σε διακοπή ασανσέρ» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-012",
@@ -972,11 +1390,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Διάδρομοι αποθήκευσης μικρού σπιτιού.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Διάδρομοι αποθήκευσης μικρού σπιτιού."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Small apartment storage lanes with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Small apartment storage lanes if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Small apartment storage lanes and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Διάδρομοι αποθήκευσης μικρού σπιτιού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Διάδρομοι αποθήκευσης μικρού σπιτιού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Διάδρομοι αποθήκευσης μικρού σπιτιού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Small apartment storage lanes or when the next check happens.",
+      "Supplies connected to Small apartment storage lanes are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Διάδρομοι αποθήκευσης μικρού σπιτιού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Διάδρομοι αποθήκευσης μικρού σπιτιού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Small apartment storage lanes as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Small apartment storage lanes when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Small apartment storage lanes."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Διάδρομοι αποθήκευσης μικρού σπιτιού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Διάδρομοι αποθήκευσης μικρού σπιτιού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Διάδρομοι αποθήκευσης μικρού σπιτιού»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Small apartment storage lanes, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Διάδρομοι αποθήκευσης μικρού σπιτιού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Small apartment storage lanes remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Διάδρομοι αποθήκευσης μικρού σπιτιού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Small apartment storage lanes fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Διάδρομοι αποθήκευσης μικρού σπιτιού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Small apartment storage lanes to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Διάδρομοι αποθήκευσης μικρού σπιτιού» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-013",
@@ -1054,11 +1510,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σχέδιο καθυστέρησης προμηθειών σε νησί.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σχέδιο καθυστέρησης προμηθειών σε νησί."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Greek island supply delay plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Greek island supply delay plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Greek island supply delay plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σχέδιο καθυστέρησης προμηθειών σε νησί» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σχέδιο καθυστέρησης προμηθειών σε νησί» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σχέδιο καθυστέρησης προμηθειών σε νησί» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Greek island supply delay plan or when the next check happens.",
+      "Supplies connected to Greek island supply delay plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο καθυστέρησης προμηθειών σε νησί» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σχέδιο καθυστέρησης προμηθειών σε νησί» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Greek island supply delay plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Greek island supply delay plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Greek island supply delay plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σχέδιο καθυστέρησης προμηθειών σε νησί» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σχέδιο καθυστέρησης προμηθειών σε νησί» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο καθυστέρησης προμηθειών σε νησί»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Greek island supply delay plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σχέδιο καθυστέρησης προμηθειών σε νησί», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Greek island supply delay plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σχέδιο καθυστέρησης προμηθειών σε νησί» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Greek island supply delay plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σχέδιο καθυστέρησης προμηθειών σε νησί», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Greek island supply delay plan to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο καθυστέρησης προμηθειών σε νησί» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-014",
@@ -1136,11 +1630,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κύκλος γνώσης ηλικιωμένων χωριού.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κύκλος γνώσης ηλικιωμένων χωριού."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Village elder knowledge round with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Village elder knowledge round if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Village elder knowledge round and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κύκλος γνώσης ηλικιωμένων χωριού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κύκλος γνώσης ηλικιωμένων χωριού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κύκλος γνώσης ηλικιωμένων χωριού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Village elder knowledge round or when the next check happens.",
+      "Supplies connected to Village elder knowledge round are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κύκλος γνώσης ηλικιωμένων χωριού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κύκλος γνώσης ηλικιωμένων χωριού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Village elder knowledge round as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Village elder knowledge round when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Village elder knowledge round."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κύκλος γνώσης ηλικιωμένων χωριού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κύκλος γνώσης ηλικιωμένων χωριού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κύκλος γνώσης ηλικιωμένων χωριού»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Village elder knowledge round, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κύκλος γνώσης ηλικιωμένων χωριού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Village elder knowledge round remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κύκλος γνώσης ηλικιωμένων χωριού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Village elder knowledge round fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κύκλος γνώσης ηλικιωμένων χωριού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Village elder knowledge round to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κύκλος γνώσης ηλικιωμένων χωριού» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-015",
@@ -1218,11 +1750,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Wildfire smoke indoor routine with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Wildfire smoke indoor routine if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Wildfire smoke indoor routine and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Wildfire smoke indoor routine or when the next check happens.",
+      "Supplies connected to Wildfire smoke indoor routine are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores shelter safety, weather exposure, ventilation, dry clothing, and exit routes and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Wildfire smoke indoor routine as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Wildfire smoke indoor routine when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Wildfire smoke indoor routine."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Wildfire smoke indoor routine, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Wildfire smoke indoor routine remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Wildfire smoke indoor routine fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Wildfire smoke indoor routine to the real environment: check shelter safety, weather exposure, ventilation, dry clothing, and exit routes, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα εσωτερικού χώρου με καπνό φωτιάς» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-016",
@@ -1300,11 +1870,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Κάρτα ελέγχου μετά από σεισμό.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Κάρτα ελέγχου μετά από σεισμό."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Earthquake after-check card with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Earthquake after-check card if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Earthquake after-check card and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Κάρτα ελέγχου μετά από σεισμό» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Κάρτα ελέγχου μετά από σεισμό» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Κάρτα ελέγχου μετά από σεισμό» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Earthquake after-check card or when the next check happens.",
+      "Supplies connected to Earthquake after-check card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores shelter safety, weather exposure, ventilation, dry clothing, and exit routes and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα ελέγχου μετά από σεισμό» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Κάρτα ελέγχου μετά από σεισμό» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Earthquake after-check card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Earthquake after-check card when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Earthquake after-check card."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Κάρτα ελέγχου μετά από σεισμό» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Κάρτα ελέγχου μετά από σεισμό» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα ελέγχου μετά από σεισμό»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Earthquake after-check card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Κάρτα ελέγχου μετά από σεισμό», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Earthquake after-check card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Κάρτα ελέγχου μετά από σεισμό» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Earthquake after-check card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Κάρτα ελέγχου μετά από σεισμό», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Earthquake after-check card to the real environment: check shelter safety, weather exposure, ventilation, dry clothing, and exit routes, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα ελέγχου μετά από σεισμό» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-017",
@@ -1381,11 +1989,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Τηλεφωνικό δέντρο πολυκατοικίας.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Τηλεφωνικό δέντρο πολυκατοικίας."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Apartment neighbor phone tree with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Apartment neighbor phone tree if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Apartment neighbor phone tree and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Τηλεφωνικό δέντρο πολυκατοικίας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Τηλεφωνικό δέντρο πολυκατοικίας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Τηλεφωνικό δέντρο πολυκατοικίας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Apartment neighbor phone tree or when the next check happens.",
+      "Supplies connected to Apartment neighbor phone tree are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Τηλεφωνικό δέντρο πολυκατοικίας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Τηλεφωνικό δέντρο πολυκατοικίας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Apartment neighbor phone tree as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Apartment neighbor phone tree when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Apartment neighbor phone tree."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Τηλεφωνικό δέντρο πολυκατοικίας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Τηλεφωνικό δέντρο πολυκατοικίας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Τηλεφωνικό δέντρο πολυκατοικίας»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Apartment neighbor phone tree, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Τηλεφωνικό δέντρο πολυκατοικίας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Apartment neighbor phone tree remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Τηλεφωνικό δέντρο πολυκατοικίας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Apartment neighbor phone tree fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Τηλεφωνικό δέντρο πολυκατοικίας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Apartment neighbor phone tree to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Τηλεφωνικό δέντρο πολυκατοικίας» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-018",
@@ -1463,11 +2109,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Πλάνο προμηθειών ημέρας λαϊκής.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Πλάνο προμηθειών ημέρας λαϊκής."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Market day supply planning with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Market day supply planning if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Market day supply planning and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πλάνο προμηθειών ημέρας λαϊκής» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πλάνο προμηθειών ημέρας λαϊκής» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πλάνο προμηθειών ημέρας λαϊκής» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Market day supply planning or when the next check happens.",
+      "Supplies connected to Market day supply planning are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πλάνο προμηθειών ημέρας λαϊκής» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πλάνο προμηθειών ημέρας λαϊκής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Market day supply planning as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Market day supply planning when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Market day supply planning."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πλάνο προμηθειών ημέρας λαϊκής» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πλάνο προμηθειών ημέρας λαϊκής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πλάνο προμηθειών ημέρας λαϊκής»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Market day supply planning, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πλάνο προμηθειών ημέρας λαϊκής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Market day supply planning remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πλάνο προμηθειών ημέρας λαϊκής» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Market day supply planning fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πλάνο προμηθειών ημέρας λαϊκής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Market day supply planning to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πλάνο προμηθειών ημέρας λαϊκής» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-019",
@@ -1545,11 +2229,49 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Μεσογειακή κουζίνα εξοικονόμησης νερού.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Μεσογειακή κουζίνα εξοικονόμησης νερού."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Mediterranean water saving kitchen with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Mediterranean water saving kitchen if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Mediterranean water saving kitchen and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Μεσογειακή κουζίνα εξοικονόμησης νερού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Μεσογειακή κουζίνα εξοικονόμησης νερού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Μεσογειακή κουζίνα εξοικονόμησης νερού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Mediterranean water saving kitchen or when the next check happens.",
+      "Supplies connected to Mediterranean water saving kitchen are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Μεσογειακή κουζίνα εξοικονόμησης νερού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Μεσογειακή κουζίνα εξοικονόμησης νερού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Mediterranean water saving kitchen as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Mediterranean water saving kitchen when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Mediterranean water saving kitchen."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Μεσογειακή κουζίνα εξοικονόμησης νερού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Μεσογειακή κουζίνα εξοικονόμησης νερού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Μεσογειακή κουζίνα εξοικονόμησης νερού»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Mediterranean water saving kitchen, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Μεσογειακή κουζίνα εξοικονόμησης νερού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Mediterranean water saving kitchen remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Μεσογειακή κουζίνα εξοικονόμησης νερού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Mediterranean water saving kitchen fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Μεσογειακή κουζίνα εξοικονόμησης νερού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Mediterranean water saving kitchen to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Μεσογειακή κουζίνα εξοικονόμησης νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass84-urban-greece-mediterranean-scenarios-020",
@@ -1627,10 +2349,48 @@
       "Παραλείπεται η γραπτή ώρα επανελέγχου για: Σημείωση δροσερού δωματίου σε πέτρινο σπίτι.",
       "Μετακινούνται εφόδια χωρίς ενημέρωση αρχείου για: Σημείωση δροσερού δωματίου σε πέτρινο σπίτι."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Stone building cool room note with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Stone building cool room note if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Stone building cool room note and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Stone building cool room note or when the next check happens.",
+      "Supplies connected to Stone building cool room note are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores local safety, scarce supplies, written roles, and a review time and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Stone building cool room note as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Stone building cool room note when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Stone building cool room note."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι»."
+    ],
     "related_topics": [
       "Offline database audit habit",
       "Local incident and resource log",
       "Daily operations rhythm for long disruptions"
-    ]
+    ],
+    "short_term_en": "For the first hours of Stone building cool room note, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Stone building cool room note remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Stone building cool room note fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Stone building cool room note to the real environment: check local safety, scarce supplies, written roles, and a review time, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σημείωση δροσερού δωματίου σε πέτρινο σπίτι» στο πραγματικό περιβάλλον: έλεγξε τοπική ασφάλεια, περιορισμένα αποθέματα, γραπτούς ρόλους και ώρα επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   }
 ]

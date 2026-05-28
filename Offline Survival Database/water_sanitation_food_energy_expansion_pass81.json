@@ -63,10 +63,48 @@
       "Χωρίς ημερομηνίες.",
       "Ανάμειξη επεξεργασμένων και μη επεξεργασμένων δοχείων."
     ],
+    "alternatives_en": [
+      "Run a smaller version of Emergency water storage rotation with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Emergency water storage rotation if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Emergency water storage rotation and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Περιοδική ανανέωση αποθηκευμένου νερού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Περιοδική ανανέωση αποθηκευμένου νερού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Περιοδική ανανέωση αποθηκευμένου νερού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Emergency water storage rotation or when the next check happens.",
+      "Supplies connected to Emergency water storage rotation are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Περιοδική ανανέωση αποθηκευμένου νερού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Περιοδική ανανέωση αποθηκευμένου νερού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Emergency water storage rotation as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Emergency water storage rotation when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Emergency water storage rotation."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Περιοδική ανανέωση αποθηκευμένου νερού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Περιοδική ανανέωση αποθηκευμένου νερού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Περιοδική ανανέωση αποθηκευμένου νερού»."
+    ],
     "related_topics": [
       "Safe household water chain",
       "Neighborhood water point rules"
-    ]
+    ],
+    "short_term_en": "For the first hours of Emergency water storage rotation, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Περιοδική ανανέωση αποθηκευμένου νερού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Emergency water storage rotation remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Περιοδική ανανέωση αποθηκευμένου νερού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Emergency water storage rotation fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Περιοδική ανανέωση αποθηκευμένου νερού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Emergency water storage rotation to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Περιοδική ανανέωση αποθηκευμένου νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-002",
@@ -123,12 +161,58 @@
       "Μη συλλέγεις από στέγες μολυσμένες με χημικά, στάχτη, νεκρά ζώα ή λύματα.",
       "Μη θεωρείς ότι το βρόχινο νερό είναι αυτόματα πόσιμο."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Rainwater capture hygiene boundaries as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Rainwater capture hygiene boundaries without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Rainwater capture hygiene boundaries because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Όρια υγιεινής για συλλογή βρόχινου νερού» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Όρια υγιεινής για συλλογή βρόχινου νερού» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Όρια υγιεινής για συλλογή βρόχινου νερού» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Rainwater capture hygiene boundaries with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Rainwater capture hygiene boundaries if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Rainwater capture hygiene boundaries and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Όρια υγιεινής για συλλογή βρόχινου νερού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Όρια υγιεινής για συλλογή βρόχινου νερού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Όρια υγιεινής για συλλογή βρόχινου νερού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Rainwater capture hygiene boundaries or when the next check happens.",
+      "Supplies connected to Rainwater capture hygiene boundaries are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Όρια υγιεινής για συλλογή βρόχινου νερού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Όρια υγιεινής για συλλογή βρόχινου νερού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Rainwater capture hygiene boundaries as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Rainwater capture hygiene boundaries when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Rainwater capture hygiene boundaries."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Όρια υγιεινής για συλλογή βρόχινου νερού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Όρια υγιεινής για συλλογή βρόχινου νερού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Όρια υγιεινής για συλλογή βρόχινου νερού»."
+    ],
     "related_topics": [
       "Emergency water storage rotation",
       "Safe household water chain"
-    ]
+    ],
+    "short_term_en": "For the first hours of Rainwater capture hygiene boundaries, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Όρια υγιεινής για συλλογή βρόχινου νερού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Rainwater capture hygiene boundaries remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Όρια υγιεινής για συλλογή βρόχινου νερού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Rainwater capture hygiene boundaries fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Όρια υγιεινής για συλλογή βρόχινου νερού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Rainwater capture hygiene boundaries to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Όρια υγιεινής για συλλογή βρόχινου νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-003",
@@ -187,11 +271,57 @@
       "Μην αφήνεις τον βρώμικο κουβά να ξεχειλίσει.",
       "Μην βάζεις τον σταθμό δίπλα σε αποθηκευμένο πόσιμο νερό."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Two-bucket handwashing station as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Two-bucket handwashing station without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Two-bucket handwashing station because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Σταθμός πλυσίματος χεριών με δύο κουβάδες» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Two-bucket handwashing station with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Two-bucket handwashing station if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Two-bucket handwashing station and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σταθμός πλυσίματος χεριών με δύο κουβάδες» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Two-bucket handwashing station or when the next check happens.",
+      "Supplies connected to Two-bucket handwashing station are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Two-bucket handwashing station as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Two-bucket handwashing station when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Two-bucket handwashing station."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σταθμός πλυσίματος χεριών με δύο κουβάδες»."
+    ],
     "related_topics": [
       "Community sanitation corner"
-    ]
+    ],
+    "short_term_en": "For the first hours of Two-bucket handwashing station, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σταθμός πλυσίματος χεριών με δύο κουβάδες», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Two-bucket handwashing station remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Two-bucket handwashing station fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σταθμός πλυσίματος χεριών με δύο κουβάδες», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Two-bucket handwashing station to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σταθμός πλυσίματος χεριών με δύο κουβάδες» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-004",
@@ -248,12 +378,58 @@
       "Μην ρίχνεις απόβλητα σε φρεάτια βροχής, δρόμους, πηγάδια, κήπους ή νερά.",
       "Μην ανακατεύεις απόβλητα τουαλέτας με χώρους φαγητού."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Toilet failure first response at home as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Toilet failure first response at home without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Toilet failure first response at home because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Toilet failure first response at home with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Toilet failure first response at home if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Toilet failure first response at home and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Toilet failure first response at home or when the next check happens.",
+      "Supplies connected to Toilet failure first response at home are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Toilet failure first response at home as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Toilet failure first response at home when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Toilet failure first response at home."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι»."
+    ],
     "related_topics": [
       "Two-bucket handwashing station",
       "Community sanitation corner"
-    ]
+    ],
+    "short_term_en": "For the first hours of Toilet failure first response at home, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Toilet failure first response at home remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Toilet failure first response at home fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Toilet failure first response at home to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πρώτη αντίδραση σε αποτυχία τουαλέτας στο σπίτι» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-005",
@@ -312,11 +488,57 @@
       "Μη χρησιμοποιείς γκρίζο νερό σε βρώσιμα μέρη φυτών.",
       "Μην το αποθηκεύεις δίπλα σε καθαρό νερό."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Greywater use boundaries as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Greywater use boundaries without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Greywater use boundaries because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Όρια χρήσης γκρίζου νερού» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Όρια χρήσης γκρίζου νερού» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Όρια χρήσης γκρίζου νερού» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Greywater use boundaries with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Greywater use boundaries if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Greywater use boundaries and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Όρια χρήσης γκρίζου νερού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Όρια χρήσης γκρίζου νερού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Όρια χρήσης γκρίζου νερού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Greywater use boundaries or when the next check happens.",
+      "Supplies connected to Greywater use boundaries are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Όρια χρήσης γκρίζου νερού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Όρια χρήσης γκρίζου νερού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Greywater use boundaries as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Greywater use boundaries when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Greywater use boundaries."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Όρια χρήσης γκρίζου νερού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Όρια χρήσης γκρίζου νερού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Όρια χρήσης γκρίζου νερού»."
+    ],
     "related_topics": [
       "Toilet failure household plan"
-    ]
+    ],
+    "short_term_en": "For the first hours of Greywater use boundaries, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Όρια χρήσης γκρίζου νερού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Greywater use boundaries remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Όρια χρήσης γκρίζου νερού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Greywater use boundaries fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Όρια χρήσης γκρίζου νερού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Greywater use boundaries to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Όρια χρήσης γκρίζου νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-006",
@@ -374,12 +596,58 @@
       "Μη δοκιμάζεις αμφίβολο φαγητό για τεστ.",
       "Μη βάζεις χύμα ωμό κρέας πάνω από έτοιμο φαγητό."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Cooler and ice priority plan as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Cooler and ice priority plan without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Cooler and ice priority plan because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Cooler and ice priority plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Cooler and ice priority plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Cooler and ice priority plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Cooler and ice priority plan or when the next check happens.",
+      "Supplies connected to Cooler and ice priority plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Cooler and ice priority plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Cooler and ice priority plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Cooler and ice priority plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο»."
+    ],
     "related_topics": [
       "Food safety after refrigerator failure",
       "Medicine continuity sheet"
-    ]
+    ],
+    "short_term_en": "For the first hours of Cooler and ice priority plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Cooler and ice priority plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Cooler and ice priority plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Cooler and ice priority plan to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο προτεραιότητας για ψυγειάκι και πάγο» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-007",
@@ -437,12 +705,58 @@
       "Μην παγώνεις φάρμακο εκτός αν η ετικέτα ή ειδικός λέει ότι είναι ασφαλές.",
       "Μην αλλάζεις δόσεις επειδή η φύλαξη ήταν δύσκολη· ζήτησε ειδική συμβουλή."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Medication cooling contingency as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Medication cooling contingency without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Medication cooling contingency because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Εφεδρικό σχέδιο ψύξης φαρμάκων» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Εφεδρικό σχέδιο ψύξης φαρμάκων» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Εφεδρικό σχέδιο ψύξης φαρμάκων» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Medication cooling contingency with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Medication cooling contingency if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Medication cooling contingency and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Εφεδρικό σχέδιο ψύξης φαρμάκων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Εφεδρικό σχέδιο ψύξης φαρμάκων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Εφεδρικό σχέδιο ψύξης φαρμάκων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Medication cooling contingency or when the next check happens.",
+      "Supplies connected to Medication cooling contingency are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Εφεδρικό σχέδιο ψύξης φαρμάκων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Εφεδρικό σχέδιο ψύξης φαρμάκων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Medication cooling contingency as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Medication cooling contingency when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Medication cooling contingency."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Εφεδρικό σχέδιο ψύξης φαρμάκων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Εφεδρικό σχέδιο ψύξης φαρμάκων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Εφεδρικό σχέδιο ψύξης φαρμάκων»."
+    ],
     "related_topics": [
       "Medicine continuity sheet",
       "Cooler and ice priority plan"
-    ]
+    ],
+    "short_term_en": "For the first hours of Medication cooling contingency, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Εφεδρικό σχέδιο ψύξης φαρμάκων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Medication cooling contingency remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Εφεδρικό σχέδιο ψύξης φαρμάκων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Medication cooling contingency fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Εφεδρικό σχέδιο ψύξης φαρμάκων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Medication cooling contingency to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Εφεδρικό σχέδιο ψύξης φαρμάκων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-008",
@@ -499,11 +813,57 @@
       "Μην αγνοείς σύγχυση ή λιποθυμία στη ζέστη.",
       "Μην αφήνεις παιδιά, ηλικιωμένους, ασθενείς ή ζώα σε ζεστούς κλειστούς χώρους."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Apartment heat refuge plan as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Apartment heat refuge plan without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Apartment heat refuge plan because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Apartment heat refuge plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Apartment heat refuge plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Apartment heat refuge plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Apartment heat refuge plan or when the next check happens.",
+      "Supplies connected to Apartment heat refuge plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores shelter safety, weather exposure, ventilation, dry clothing, and exit routes and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Apartment heat refuge plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Apartment heat refuge plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Apartment heat refuge plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα»."
+    ],
     "related_topics": [
       "Warm room and cold room shelter plan"
-    ]
+    ],
+    "short_term_en": "For the first hours of Apartment heat refuge plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Apartment heat refuge plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Apartment heat refuge plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Apartment heat refuge plan to the real environment: check shelter safety, weather exposure, ventilation, dry clothing, and exit routes, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο δροσερού καταφυγίου σε διαμέρισμα» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-009",
@@ -562,11 +922,57 @@
       "Μην κοιμάσαι δίπλα σε ανοιχτή φλόγα.",
       "Μην αγνοείς σύγχυση ή ακραία υπνηλία στο κρύο."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Cold exposure home routine as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Cold exposure home routine without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Cold exposure home routine because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Ρουτίνα σπιτιού για έκθεση στο κρύο» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Ρουτίνα σπιτιού για έκθεση στο κρύο» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Ρουτίνα σπιτιού για έκθεση στο κρύο» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Cold exposure home routine with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Cold exposure home routine if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Cold exposure home routine and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ρουτίνα σπιτιού για έκθεση στο κρύο» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ρουτίνα σπιτιού για έκθεση στο κρύο» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ρουτίνα σπιτιού για έκθεση στο κρύο» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Cold exposure home routine or when the next check happens.",
+      "Supplies connected to Cold exposure home routine are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores shelter safety, weather exposure, ventilation, dry clothing, and exit routes and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ρουτίνα σπιτιού για έκθεση στο κρύο» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ρουτίνα σπιτιού για έκθεση στο κρύο» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Cold exposure home routine as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Cold exposure home routine when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Cold exposure home routine."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ρουτίνα σπιτιού για έκθεση στο κρύο» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ρουτίνα σπιτιού για έκθεση στο κρύο» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ρουτίνα σπιτιού για έκθεση στο κρύο»."
+    ],
     "related_topics": [
       "Blackout fire and carbon monoxide safety"
-    ]
+    ],
+    "short_term_en": "For the first hours of Cold exposure home routine, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ρουτίνα σπιτιού για έκθεση στο κρύο», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Cold exposure home routine remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ρουτίνα σπιτιού για έκθεση στο κρύο» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Cold exposure home routine fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ρουτίνα σπιτιού για έκθεση στο κρύο», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Cold exposure home routine to the real environment: check shelter safety, weather exposure, ventilation, dry clothing, and exit routes, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα σπιτιού για έκθεση στο κρύο» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-010",
@@ -623,11 +1029,57 @@
       "Μην κλείνεις αερισμό γύρω από συσκευές καύσης.",
       "Μην αγνοείς σοβαρή δυσκολία στην αναπνοή."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Smoke and dust clean-room plan as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Smoke and dust clean-room plan without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Smoke and dust clean-room plan because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Smoke and dust clean-room plan with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Smoke and dust clean-room plan if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Smoke and dust clean-room plan and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Smoke and dust clean-room plan or when the next check happens.",
+      "Supplies connected to Smoke and dust clean-room plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores shelter safety, weather exposure, ventilation, dry clothing, and exit routes and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Smoke and dust clean-room plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Smoke and dust clean-room plan when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Smoke and dust clean-room plan."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη»."
+    ],
     "related_topics": [
       "Warm room and cold room shelter plan"
-    ]
+    ],
+    "short_term_en": "For the first hours of Smoke and dust clean-room plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Σχέδιο καθαρού δωματίου για καπνό και σκόνη», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Smoke and dust clean-room plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Smoke and dust clean-room plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Smoke and dust clean-room plan to the real environment: check shelter safety, weather exposure, ventilation, dry clothing, and exit routes, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο καθαρού δωματίου για καπνό και σκόνη» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-011",
@@ -684,11 +1136,57 @@
       "Μην αφήνεις χαλασμένες μπαταρίες να φορτίζουν χωρίς επίβλεψη.",
       "Μην καταφεύγεις σε ανοιχτή φλόγα επειδή σπαταλήθηκαν μπαταρίες."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Power bank and flashlight discipline as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Power bank and flashlight discipline without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Power bank and flashlight discipline because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Πειθαρχία power bank και φακού» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Πειθαρχία power bank και φακού» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Πειθαρχία power bank και φακού» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Power bank and flashlight discipline with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Power bank and flashlight discipline if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Power bank and flashlight discipline and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πειθαρχία power bank και φακού» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πειθαρχία power bank και φακού» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πειθαρχία power bank και φακού» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Power bank and flashlight discipline or when the next check happens.",
+      "Supplies connected to Power bank and flashlight discipline are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πειθαρχία power bank και φακού» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πειθαρχία power bank και φακού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Power bank and flashlight discipline as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Power bank and flashlight discipline when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Power bank and flashlight discipline."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πειθαρχία power bank και φακού» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πειθαρχία power bank και φακού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πειθαρχία power bank και φακού»."
+    ],
     "related_topics": [
       "Low-power communications schedule"
-    ]
+    ],
+    "short_term_en": "For the first hours of Power bank and flashlight discipline, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πειθαρχία power bank και φακού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Power bank and flashlight discipline remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πειθαρχία power bank και φακού» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Power bank and flashlight discipline fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πειθαρχία power bank και φακού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Power bank and flashlight discipline to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πειθαρχία power bank και φακού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-012",
@@ -746,12 +1244,58 @@
       "Μη μαγειρεύεις μέσα με επικίνδυνο εξοπλισμό καύσης.",
       "Μην αγνοείς αλλεργίες ή ειδικές δίαιτες."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Community cooking schedule as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Community cooking schedule without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Community cooking schedule because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Πρόγραμμα κοινοτικού μαγειρέματος» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Πρόγραμμα κοινοτικού μαγειρέματος» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Πρόγραμμα κοινοτικού μαγειρέματος» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Community cooking schedule with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Community cooking schedule if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Community cooking schedule and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πρόγραμμα κοινοτικού μαγειρέματος» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πρόγραμμα κοινοτικού μαγειρέματος» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πρόγραμμα κοινοτικού μαγειρέματος» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Community cooking schedule or when the next check happens.",
+      "Supplies connected to Community cooking schedule are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πρόγραμμα κοινοτικού μαγειρέματος» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πρόγραμμα κοινοτικού μαγειρέματος» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Community cooking schedule as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Community cooking schedule when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Community cooking schedule."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πρόγραμμα κοινοτικού μαγειρέματος» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πρόγραμμα κοινοτικού μαγειρέματος» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πρόγραμμα κοινοτικού μαγειρέματος»."
+    ],
     "related_topics": [
       "Staple food ration board",
       "Blackout fire and carbon monoxide safety"
-    ]
+    ],
+    "short_term_en": "For the first hours of Community cooking schedule, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πρόγραμμα κοινοτικού μαγειρέματος», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Community cooking schedule remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πρόγραμμα κοινοτικού μαγειρέματος» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Community cooking schedule fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πρόγραμμα κοινοτικού μαγειρέματος», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Community cooking schedule to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πρόγραμμα κοινοτικού μαγειρέματος» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-013",
@@ -808,11 +1352,57 @@
       "Μη δοκιμάζεις άγνωστο φαγητό για έλεγχο.",
       "Μη διανέμεις τρόφιμα με χαλασμένη ή φουσκωμένη συσκευασία."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Safe food donation sorting as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Safe food donation sorting without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Safe food donation sorting because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Ασφαλής διαλογή δωρεών τροφίμων» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Ασφαλής διαλογή δωρεών τροφίμων» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Ασφαλής διαλογή δωρεών τροφίμων» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Safe food donation sorting with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Safe food donation sorting if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Safe food donation sorting and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ασφαλής διαλογή δωρεών τροφίμων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ασφαλής διαλογή δωρεών τροφίμων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ασφαλής διαλογή δωρεών τροφίμων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Safe food donation sorting or when the next check happens.",
+      "Supplies connected to Safe food donation sorting are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ασφαλής διαλογή δωρεών τροφίμων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ασφαλής διαλογή δωρεών τροφίμων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Safe food donation sorting as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Safe food donation sorting when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Safe food donation sorting."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ασφαλής διαλογή δωρεών τροφίμων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ασφαλής διαλογή δωρεών τροφίμων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ασφαλής διαλογή δωρεών τροφίμων»."
+    ],
     "related_topics": [
       "Staple food ration board"
-    ]
+    ],
+    "short_term_en": "For the first hours of Safe food donation sorting, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ασφαλής διαλογή δωρεών τροφίμων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Safe food donation sorting remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ασφαλής διαλογή δωρεών τροφίμων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Safe food donation sorting fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ασφαλής διαλογή δωρεών τροφίμων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Safe food donation sorting to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ασφαλής διαλογή δωρεών τροφίμων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-014",
@@ -869,11 +1459,57 @@
       "Μη βάζεις δηλητήριο όπου παιδιά, ζώα ή τρόφιμα μπορούν να ακουμπήσουν.",
       "Μην αγνοείς περιττώματα κοντά σε αποθήκη τροφίμων."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Household pest prevention by cleanliness as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Household pest prevention by cleanliness without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Household pest prevention by cleanliness because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Household pest prevention by cleanliness with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Household pest prevention by cleanliness if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Household pest prevention by cleanliness and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Household pest prevention by cleanliness or when the next check happens.",
+      "Supplies connected to Household pest prevention by cleanliness are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Household pest prevention by cleanliness as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Household pest prevention by cleanliness when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Household pest prevention by cleanliness."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα»."
+    ],
     "related_topics": [
       "Community sanitation corner"
-    ]
+    ],
+    "short_term_en": "For the first hours of Household pest prevention by cleanliness, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πρόληψη παρασίτων στο σπίτι με καθαριότητα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Household pest prevention by cleanliness remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Household pest prevention by cleanliness fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Household pest prevention by cleanliness to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πρόληψη παρασίτων στο σπίτι με καθαριότητα» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "pass81-ops-015",
@@ -930,11 +1566,57 @@
       "Μην αφήνεις παιδιά να παίζουν σε νερό πλημμύρας.",
       "Μη χρησιμοποιείς πλημμυρισμένα τρόφιμα, βρεφικά ή φάρμακα εκτός αν επιβεβαιωθεί επίσημα ότι είναι ασφαλή."
     ],
-    "mistakes_en": [],
-    "mistakes_el": [],
+    "mistakes_en": [
+      "Treating Floodwater contact cleanup boundaries as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Floodwater contact cleanup boundaries without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Floodwater contact cleanup boundaries because labels, dates, or responsible names were not written down."
+    ],
+    "mistakes_el": [
+      "Να θεωρηθεί το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» τελειωμένο μετά την πρώτη προσπάθεια, χωρίς να γραφτεί η επόμενη ώρα επανελέγχου.",
+      "Να μετακινηθούν άνθρωποι ή προμήθειες για το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» χωρίς πρώτα έλεγχο ευάλωτων ατόμων, εξόδων και ασφαλών ορίων.",
+      "Να μπερδευτούν καθαρά και μη ασφαλή πράγματα στο «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» επειδή δεν γράφτηκαν ετικέτες, ημερομηνίες ή υπεύθυνοι."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Floodwater contact cleanup boundaries with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Floodwater contact cleanup boundaries if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Floodwater contact cleanup boundaries and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Floodwater contact cleanup boundaries or when the next check happens.",
+      "Supplies connected to Floodwater contact cleanup boundaries are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Floodwater contact cleanup boundaries as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Floodwater contact cleanup boundaries when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Floodwater contact cleanup boundaries."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας»."
+    ],
     "related_topics": [
       "Safe food donation sorting",
       "Safe household water chain"
-    ]
+    ],
+    "short_term_en": "For the first hours of Floodwater contact cleanup boundaries, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Floodwater contact cleanup boundaries remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Floodwater contact cleanup boundaries fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Floodwater contact cleanup boundaries to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Όρια καθαρισμού μετά από επαφή με νερό πλημμύρας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   }
 ]

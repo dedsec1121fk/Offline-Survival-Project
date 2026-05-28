@@ -1,0 +1,42 @@
+{
+  "project": "Offline Survival",
+  "latest_pass": "pass90",
+  "date": "2026-05-28",
+  "database_files": 66,
+  "entries": 1331,
+  "one_sided_translation_pairs_count": 0,
+  "one_sided_translation_pairs_sample": [],
+  "missing_required_fields_count": 0,
+  "missing_required_fields_sample": [],
+  "english_greek_pair_fields_checked": [
+    [
+      "topic_en",
+      "topic_el"
+    ],
+    [
+      "summary_en",
+      "summary_el"
+    ],
+    [
+      "content_en",
+      "content_el"
+    ],
+    [
+      "materials_en",
+      "materials_el"
+    ],
+    [
+      "steps_en",
+      "steps_el"
+    ],
+    [
+      "warnings_en",
+      "warnings_el"
+    ],
+    [
+      "mistakes_en",
+      "mistakes_el"
+    ]
+  ],
+  "result": "No one-sided English/Greek translation pairs found by the automated audit."
+}

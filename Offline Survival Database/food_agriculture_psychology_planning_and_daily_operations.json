@@ -14,16 +14,108 @@
     "urgency": "high",
     "priority": "critical",
     "last_updated": "2026-04-25",
-    "tags": ["food", "ration", "shortage", "meal plan", "vulnerable people", "records"],
-    "materials_en": ["Notebook", "Pencil", "Food list", "Measuring cup if available", "Clean storage area"],
-    "materials_el": ["Τετράδιο", "Μολύβι", "Λίστα τροφίμων", "Μεζούρα αν υπάρχει", "Καθαρός χώρος αποθήκευσης"],
-    "steps_en": ["Count food by category and write quantities clearly.", "Separate fresh food from shelf-stable food.", "Plan the next three days first, then the next week.", "Reserve suitable foods for vulnerable people and medical diet needs.", "Schedule cooking so leftovers are minimized.", "Review the board daily after the first meal."],
-    "steps_el": ["Μέτρησε τρόφιμα ανά κατηγορία και γράψε ποσότητες καθαρά.", "Χώρισε φρέσκα τρόφιμα από τρόφιμα ραφιού.", "Σχεδίασε πρώτα τις επόμενες τρεις ημέρες και μετά την εβδομάδα.", "Κράτα κατάλληλα τρόφιμα για ευάλωτους και ειδικές δίαιτες.", "Προγραμμάτισε μαγείρεμα ώστε να μειωθούν περισσεύματα.", "Έλεγχε τον πίνακα καθημερινά μετά το πρώτο γεύμα."],
-    "warnings_en": ["Do not give questionable food to vulnerable people.", "Do not create warm leftovers when cooling is unreliable.", "Do not hide food counts from people depending on the plan unless privacy or safety requires discretion."],
-    "warnings_el": ["Μη δίνεις αμφίβολο φαγητό σε ευάλωτους.", "Μη δημιουργείς ζεστά περισσεύματα όταν η ψύξη είναι αναξιόπιστη.", "Μην κρύβεις τα αποθέματα από όσους εξαρτώνται από το σχέδιο εκτός αν ιδιωτικότητα ή ασφάλεια απαιτεί διακριτικότητα."],
-    "mistakes_en": ["Eating comfort foods first with no plan.", "Forgetting salt, oil, and infant food.", "Counting food but not counting water or cooking fuel."],
-    "mistakes_el": ["Κατανάλωση τροφών παρηγοριάς πρώτα χωρίς σχέδιο.", "Ξεχνιούνται αλάτι, λάδι και βρεφικά.", "Μετρώνται τρόφιμα αλλά όχι νερό ή καύσιμο μαγειρέματος."],
-    "related_topics": ["Food safety after refrigerator failure", "Household first 72 hours command sheet", "Local incident and resource log"]
+    "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with rationing_and_kitchen. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με rationing_and_kitchen.",
+    "tags": [
+      "food",
+      "ration",
+      "shortage",
+      "meal plan",
+      "vulnerable people",
+      "records"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Food list",
+      "Measuring cup if available",
+      "Clean storage area"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Λίστα τροφίμων",
+      "Μεζούρα αν υπάρχει",
+      "Καθαρός χώρος αποθήκευσης"
+    ],
+    "steps_en": [
+      "Count food by category and write quantities clearly.",
+      "Separate fresh food from shelf-stable food.",
+      "Plan the next three days first, then the next week.",
+      "Reserve suitable foods for vulnerable people and medical diet needs.",
+      "Schedule cooking so leftovers are minimized.",
+      "Review the board daily after the first meal."
+    ],
+    "steps_el": [
+      "Μέτρησε τρόφιμα ανά κατηγορία και γράψε ποσότητες καθαρά.",
+      "Χώρισε φρέσκα τρόφιμα από τρόφιμα ραφιού.",
+      "Σχεδίασε πρώτα τις επόμενες τρεις ημέρες και μετά την εβδομάδα.",
+      "Κράτα κατάλληλα τρόφιμα για ευάλωτους και ειδικές δίαιτες.",
+      "Προγραμμάτισε μαγείρεμα ώστε να μειωθούν περισσεύματα.",
+      "Έλεγχε τον πίνακα καθημερινά μετά το πρώτο γεύμα."
+    ],
+    "warnings_en": [
+      "Do not give questionable food to vulnerable people.",
+      "Do not create warm leftovers when cooling is unreliable.",
+      "Do not hide food counts from people depending on the plan unless privacy or safety requires discretion."
+    ],
+    "warnings_el": [
+      "Μη δίνεις αμφίβολο φαγητό σε ευάλωτους.",
+      "Μη δημιουργείς ζεστά περισσεύματα όταν η ψύξη είναι αναξιόπιστη.",
+      "Μην κρύβεις τα αποθέματα από όσους εξαρτώνται από το σχέδιο εκτός αν ιδιωτικότητα ή ασφάλεια απαιτεί διακριτικότητα."
+    ],
+    "mistakes_en": [
+      "Eating comfort foods first with no plan.",
+      "Forgetting salt, oil, and infant food.",
+      "Counting food but not counting water or cooking fuel."
+    ],
+    "mistakes_el": [
+      "Κατανάλωση τροφών παρηγοριάς πρώτα χωρίς σχέδιο.",
+      "Ξεχνιούνται αλάτι, λάδι και βρεφικά.",
+      "Μετρώνται τρόφιμα αλλά όχι νερό ή καύσιμο μαγειρέματος."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Staple food ration board with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Staple food ration board if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Staple food ration board and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Πίνακας μερίδων βασικών τροφίμων» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Πίνακας μερίδων βασικών τροφίμων» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Πίνακας μερίδων βασικών τροφίμων» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Staple food ration board or when the next check happens.",
+      "Supplies connected to Staple food ration board are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πίνακας μερίδων βασικών τροφίμων» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Πίνακας μερίδων βασικών τροφίμων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Staple food ration board as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Staple food ration board when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Staple food ration board."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Πίνακας μερίδων βασικών τροφίμων» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Πίνακας μερίδων βασικών τροφίμων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πίνακας μερίδων βασικών τροφίμων»."
+    ],
+    "related_topics": [
+      "Food safety after refrigerator failure",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log"
+    ],
+    "short_term_en": "For the first hours of Staple food ration board, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Πίνακας μερίδων βασικών τροφίμων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Staple food ration board remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Πίνακας μερίδων βασικών τροφίμων» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Staple food ration board fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Πίνακας μερίδων βασικών τροφίμων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Staple food ration board to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Πίνακας μερίδων βασικών τροφίμων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "core-food-planning-002",
@@ -40,16 +132,110 @@
     "urgency": "low",
     "priority": "high",
     "last_updated": "2026-04-25",
-    "tags": ["seeds", "agriculture", "garden", "records", "food production", "crop planning"],
-    "materials_en": ["Notebook", "Pencil", "Seed packets or saved seed", "Labels", "Water log", "Simple map of beds or pots"],
-    "materials_el": ["Τετράδιο", "Μολύβι", "Φακελάκια ή κρατημένοι σπόροι", "Ετικέτες", "Ημερολόγιο νερού", "Απλός χάρτης παρτεριών ή γλαστρών"],
-    "steps_en": ["Number each bed, pot, or row.", "Record seed name, source, and date planted.", "Track watering, weather, pests, and germination.", "Mark failures clearly; failed notes prevent repeated waste.", "Record harvest amount and storage result.", "Save seed only from healthy plants when suitable."],
-    "steps_el": ["Αρίθμησε κάθε παρτέρι, γλάστρα ή σειρά.", "Γράψε όνομα σπόρου, πηγή και ημερομηνία φύτευσης.", "Παρακολούθησε πότισμα, καιρό, παράσιτα και φύτρωμα.", "Σημείωσε αποτυχίες καθαρά· οι αποτυχίες προλαμβάνουν επανάληψη σπατάλης.", "Κατέγραψε ποσότητα συγκομιδής και αποτέλεσμα αποθήκευσης.", "Κράτα σπόρο μόνο από υγιή φυτά όταν είναι κατάλληλο."],
-    "warnings_en": ["Do not eat unknown plants because they look similar to edible crops.", "Do not depend on one crop or one seed source.", "Do not save moldy or diseased seed."],
-    "warnings_el": ["Μην τρως άγνωστα φυτά επειδή μοιάζουν με βρώσιμες καλλιέργειες.", "Μη βασίζεσαι σε μία καλλιέργεια ή μία πηγή σπόρου.", "Μην κρατάς μουχλιασμένο ή άρρωστο σπόρο."],
-    "mistakes_en": ["Planting everything at once.", "Forgetting which seed went where.", "Throwing away failure notes."],
-    "mistakes_el": ["Φύτευση όλων μαζί.", "Ξεχνιέται ποιος σπόρος μπήκε πού.", "Πετιούνται οι σημειώσεις αποτυχίας."],
-    "related_topics": ["Staple food ration board", "Safe household water chain", "Local incident and resource log"]
+    "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with agriculture_records. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με agriculture_records.",
+    "tags": [
+      "seeds",
+      "agriculture",
+      "garden",
+      "records",
+      "food production",
+      "crop planning"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Pencil",
+      "Seed packets or saved seed",
+      "Labels",
+      "Water log",
+      "Simple map of beds or pots"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Μολύβι",
+      "Φακελάκια ή κρατημένοι σπόροι",
+      "Ετικέτες",
+      "Ημερολόγιο νερού",
+      "Απλός χάρτης παρτεριών ή γλαστρών"
+    ],
+    "steps_en": [
+      "Number each bed, pot, or row.",
+      "Record seed name, source, and date planted.",
+      "Track watering, weather, pests, and germination.",
+      "Mark failures clearly; failed notes prevent repeated waste.",
+      "Record harvest amount and storage result.",
+      "Save seed only from healthy plants when suitable."
+    ],
+    "steps_el": [
+      "Αρίθμησε κάθε παρτέρι, γλάστρα ή σειρά.",
+      "Γράψε όνομα σπόρου, πηγή και ημερομηνία φύτευσης.",
+      "Παρακολούθησε πότισμα, καιρό, παράσιτα και φύτρωμα.",
+      "Σημείωσε αποτυχίες καθαρά· οι αποτυχίες προλαμβάνουν επανάληψη σπατάλης.",
+      "Κατέγραψε ποσότητα συγκομιδής και αποτέλεσμα αποθήκευσης.",
+      "Κράτα σπόρο μόνο από υγιή φυτά όταν είναι κατάλληλο."
+    ],
+    "warnings_en": [
+      "Do not eat unknown plants because they look similar to edible crops.",
+      "Do not depend on one crop or one seed source.",
+      "Do not save moldy or diseased seed."
+    ],
+    "warnings_el": [
+      "Μην τρως άγνωστα φυτά επειδή μοιάζουν με βρώσιμες καλλιέργειες.",
+      "Μη βασίζεσαι σε μία καλλιέργεια ή μία πηγή σπόρου.",
+      "Μην κρατάς μουχλιασμένο ή άρρωστο σπόρο."
+    ],
+    "mistakes_en": [
+      "Planting everything at once.",
+      "Forgetting which seed went where.",
+      "Throwing away failure notes."
+    ],
+    "mistakes_el": [
+      "Φύτευση όλων μαζί.",
+      "Ξεχνιέται ποιος σπόρος μπήκε πού.",
+      "Πετιούνται οι σημειώσεις αποτυχίας."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Seed and crop notebook with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Seed and crop notebook if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Seed and crop notebook and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Τετράδιο σπόρων και καλλιεργειών» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Τετράδιο σπόρων και καλλιεργειών» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Τετράδιο σπόρων και καλλιεργειών» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Seed and crop notebook or when the next check happens.",
+      "Supplies connected to Seed and crop notebook are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Τετράδιο σπόρων και καλλιεργειών» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Τετράδιο σπόρων και καλλιεργειών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Seed and crop notebook as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Seed and crop notebook when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Seed and crop notebook."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Τετράδιο σπόρων και καλλιεργειών» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Τετράδιο σπόρων και καλλιεργειών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Τετράδιο σπόρων και καλλιεργειών»."
+    ],
+    "related_topics": [
+      "Staple food ration board",
+      "Safe household water chain",
+      "Local incident and resource log"
+    ],
+    "short_term_en": "For the first hours of Seed and crop notebook, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Τετράδιο σπόρων και καλλιεργειών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Seed and crop notebook remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Τετράδιο σπόρων και καλλιεργειών» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Seed and crop notebook fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Τετράδιο σπόρων και καλλιεργειών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Seed and crop notebook to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Τετράδιο σπόρων και καλλιεργειών» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   },
   {
     "id": "core-food-planning-003",
@@ -66,15 +252,105 @@
     "urgency": "medium",
     "priority": "high",
     "last_updated": "2026-04-25",
-    "tags": ["psychology", "group", "stress", "leadership", "conflict", "morale"],
-    "materials_en": ["Notebook", "Task list", "Quiet meeting spot", "Visible schedule"],
-    "materials_el": ["Τετράδιο", "Λίστα εργασιών", "Ήσυχο σημείο συνάντησης", "Ορατό πρόγραμμα"],
-    "steps_en": ["Hold short meetings at predictable times.", "List confirmed facts before opinions.", "Assign clear tasks with names and review times.", "Rotate hard or unpleasant jobs.", "Stop rumor chains by asking for source and confirmation.", "End meetings with the next check-in time."],
-    "steps_el": ["Κάνε σύντομες συναντήσεις σε προβλέψιμες ώρες.", "Γράψε επιβεβαιωμένα γεγονότα πριν από γνώμες.", "Μοίρασε καθαρές εργασίες με ονόματα και ώρα ελέγχου.", "Άλλαζε δύσκολες ή δυσάρεστες δουλειές.", "Σταμάτα αλυσίδες φημών ρωτώντας πηγή και επιβεβαίωση.", "Κλείσε τη συνάντηση με την επόμενη ώρα επαφής."],
-    "warnings_en": ["Do not use fear as the main motivator; it burns people out.", "Do not let one person control all information.", "Do not ignore quiet people; they may notice risks."],
-    "warnings_el": ["Μη χρησιμοποιείς φόβο ως κύριο κίνητρο· εξαντλεί τους ανθρώπους.", "Μην αφήνεις ένα άτομο να ελέγχει όλη την πληροφορία.", "Μην αγνοείς ήσυχους ανθρώπους· μπορεί να βλέπουν κινδύνους."],
-    "mistakes_en": ["Long meetings during exhaustion.", "Giving vague tasks like help more.", "Treating anxiety as disobedience."],
-    "mistakes_el": ["Μεγάλες συναντήσεις ενώ όλοι είναι εξαντλημένοι.", "Ασαφείς εργασίες όπως βοήθα περισσότερο.", "Το άγχος αντιμετωπίζεται σαν ανυπακοή."],
-    "related_topics": ["Caregiver rotation for exhaustion prevention", "Low-power communications schedule", "Staple food ration board"]
+    "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with psychology_and_group_operations. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με psychology_and_group_operations.",
+    "tags": [
+      "psychology",
+      "group",
+      "stress",
+      "leadership",
+      "conflict",
+      "morale"
+    ],
+    "materials_en": [
+      "Notebook",
+      "Task list",
+      "Quiet meeting spot",
+      "Visible schedule"
+    ],
+    "materials_el": [
+      "Τετράδιο",
+      "Λίστα εργασιών",
+      "Ήσυχο σημείο συνάντησης",
+      "Ορατό πρόγραμμα"
+    ],
+    "steps_en": [
+      "Hold short meetings at predictable times.",
+      "List confirmed facts before opinions.",
+      "Assign clear tasks with names and review times.",
+      "Rotate hard or unpleasant jobs.",
+      "Stop rumor chains by asking for source and confirmation.",
+      "End meetings with the next check-in time."
+    ],
+    "steps_el": [
+      "Κάνε σύντομες συναντήσεις σε προβλέψιμες ώρες.",
+      "Γράψε επιβεβαιωμένα γεγονότα πριν από γνώμες.",
+      "Μοίρασε καθαρές εργασίες με ονόματα και ώρα ελέγχου.",
+      "Άλλαζε δύσκολες ή δυσάρεστες δουλειές.",
+      "Σταμάτα αλυσίδες φημών ρωτώντας πηγή και επιβεβαίωση.",
+      "Κλείσε τη συνάντηση με την επόμενη ώρα επαφής."
+    ],
+    "warnings_en": [
+      "Do not use fear as the main motivator; it burns people out.",
+      "Do not let one person control all information.",
+      "Do not ignore quiet people; they may notice risks."
+    ],
+    "warnings_el": [
+      "Μη χρησιμοποιείς φόβο ως κύριο κίνητρο· εξαντλεί τους ανθρώπους.",
+      "Μην αφήνεις ένα άτομο να ελέγχει όλη την πληροφορία.",
+      "Μην αγνοείς ήσυχους ανθρώπους· μπορεί να βλέπουν κινδύνους."
+    ],
+    "mistakes_en": [
+      "Long meetings during exhaustion.",
+      "Giving vague tasks like help more.",
+      "Treating anxiety as disobedience."
+    ],
+    "mistakes_el": [
+      "Μεγάλες συναντήσεις ενώ όλοι είναι εξαντλημένοι.",
+      "Ασαφείς εργασίες όπως βοήθα περισσότερο.",
+      "Το άγχος αντιμετωπίζεται σαν ανυπακοή."
+    ],
+    "alternatives_en": [
+      "Run a smaller version of Calm leadership during group stress with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Calm leadership during group stress if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Calm leadership during group stress and verify the written record with a second person before moving scarce supplies."
+    ],
+    "alternatives_el": [
+      "Εφάρμοσε μικρότερη έκδοση του «Ήρεμη καθοδήγηση σε ομαδικό στρες» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Ήρεμη καθοδήγηση σε ομαδικό στρες» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Ήρεμη καθοδήγηση σε ομαδικό στρες» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+    ],
+    "failure_signs_en": [
+      "People cannot explain who is responsible for Calm leadership during group stress or when the next check happens.",
+      "Supplies connected to Calm leadership during group stress are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+    ],
+    "failure_signs_el": [
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ήρεμη καθοδήγηση σε ομαδικό στρες» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Ήρεμη καθοδήγηση σε ομαδικό στρες» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+    ],
+    "when_not_to_use_en": [
+      "Do not use Calm leadership during group stress as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Calm leadership during group stress when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Calm leadership during group stress."
+    ],
+    "when_not_to_use_el": [
+      "Μη χρησιμοποιήσεις το «Ήρεμη καθοδήγηση σε ομαδικό στρες» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Ήρεμη καθοδήγηση σε ομαδικό στρες» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ήρεμη καθοδήγηση σε ομαδικό στρες»."
+    ],
+    "related_topics": [
+      "Caregiver rotation for exhaustion prevention",
+      "Low-power communications schedule",
+      "Staple food ration board"
+    ],
+    "short_term_en": "For the first hours of Calm leadership during group stress, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Ήρεμη καθοδήγηση σε ομαδικό στρες», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Calm leadership during group stress remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Ήρεμη καθοδήγηση σε ομαδικό στρες» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Calm leadership during group stress fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Ήρεμη καθοδήγηση σε ομαδικό στρες», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Calm leadership during group stress to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Ήρεμη καθοδήγηση σε ομαδικό στρες» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
   }
 ]

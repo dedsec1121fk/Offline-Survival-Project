@@ -1,0 +1,60 @@
+Offline Survival update — Pass90 deep gap expansion
+Date: 2026-05-28
+
+What changed:
+- Added 24 new bilingual English/Greek knowledge entries in:
+  Offline Survival Database/pass90_deep_gap_expansion.json
+- Focus areas: water routines, hygiene, sanitation placement, food triage, indoor cooking safety, heatwave planning, medication continuity, evacuation planning, radio discipline, offline map corrections, rumor control, scarce-resource decisions, hand-tool maintenance, seed testing, compost/runoff hygiene, apprenticeship, balcony gardening, and Greek summer work-rest planning.
+- Cleaned one existing wording issue in core-water-fire-shelter-004 so it no longer looks like placeholder wording.
+- Removed generated Python cache folders from the distributable output.
+- Updated README, official source notes, validation summaries, translation audit, and audit report.
+
+New entries:
+- pass90-0001 — Household water priority board / Πίνακας προτεραιότητας νερού σπιτιού
+- pass90-0002 — Boil advisory kitchen routine / Ρουτίνα κουζίνας σε οδηγία βρασμού νερού
+- pass90-0003 — Emergency handwashing station / Σταθμός πλυσίματος χεριών έκτακτης ανάγκης
+- pass90-0004 — Latrine location risk map / Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας
+- pass90-0005 — Diarrhea watch and hydration record / Καταγραφή διάρροιας και ενυδάτωσης
+- pass90-0006 — Container cleaning rotation / Κυκλικό καθάρισμα δοχείων νερού
+- pass90-0007 — Refrigerator power-outage food triage / Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος
+- pass90-0008 — Dry-store pest barrier / Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη
+- pass90-0009 — Community meal ration board / Πίνακας μερίδων για κοινά γεύματα
+- pass90-0010 — Smoke-free indoor cooking rule / Κανόνας μαγειρέματος μέσα χωρίς καπνό
+- pass90-0011 — Heatwave cool-room plan / Σχέδιο δροσερού δωματίου σε καύσωνα
+- pass90-0012 — Medication continuity bag / Τσάντα συνέχειας φαρμάκων
+- pass90-0013 — Two-route evacuation card / Κάρτα εκκένωσης δύο διαδρομών
+- pass90-0014 — Family reunification paper plan / Χάρτινο σχέδιο επανένωσης οικογένειας
+- pass90-0015 — Low-battery radio listening schedule / Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία
+- pass90-0016 — Offline map correction log / Αρχείο διορθώσεων offline χάρτη
+- pass90-0017 — Rumor control board / Πίνακας ελέγχου φημών
+- pass90-0018 — Decision log for scarce resources / Αρχείο αποφάσεων για σπάνιους πόρους
+- pass90-0019 — Hand-tool maintenance bench / Πάγκος συντήρησης χειροεργαλείων
+- pass90-0020 — Seed viability towel test / Δοκιμή βιωσιμότητας σπόρων με πετσέτα
+- pass90-0021 — Compost runoff and harvest hygiene boundary / Όριο απορροής κομπόστ και υγιεινής σοδειάς
+- pass90-0022 — Apprenticeship rotation board / Πίνακας κυκλικής μαθητείας
+- pass90-0023 — Balcony garden wind safety / Ασφάλεια μπαλκονιού με φυτά στον αέρα
+- pass90-0024 — Greek summer noon work pause / Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι
+
+Validation summary:
+- Database JSON files: 66
+- Total loaded entries: 1331
+- New entries added: 24
+- JSON load errors: 0
+- Duplicate IDs: 0
+- Duplicate normalized topics: 0
+- Missing required fields: 0
+- One-sided English/Greek translation pairs: 0
+- Placeholder-like database hits: 0
+- Duplicate content signatures: 0
+- Offline Survival.py compile error: None
+- Files checked before report write: 171
+- Text lines scanned before report write: 142943
+
+Safety/source alignment:
+- CDC emergency water storage and water safety guidance.
+- Ready.gov build-a-kit, water, and food preparedness guidance.
+- Red Cross emergency preparedness and first-aid action steps.
+- WHO WASH emergency priorities: safe water, sanitation, and hygiene behaviours.
+
+Important continuation rule:
+Preserve all existing content. Add bilingual English/Greek entries together. Avoid duplicate IDs, duplicate topics, repeated filler, missing translations, and placeholder text.
