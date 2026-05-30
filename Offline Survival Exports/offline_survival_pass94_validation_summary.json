@@ -1,0 +1,19 @@
+{
+  "pass": "Pass94 dedicated medical expansion",
+  "date": "2026-05-30",
+  "files_checked": 189,
+  "text_lines_scanned": 180034,
+  "json_database_files": 69,
+  "total_knowledge_entries": 1487,
+  "new_pass94_entries": 78,
+  "json_errors": 0,
+  "duplicate_ids": 0,
+  "duplicate_normalized_topics": 0,
+  "duplicate_content_signatures": 0,
+  "missing_expected_schema_fields": 0,
+  "empty_expected_schema_fields": 0,
+  "one_sided_translation_pairs": 0,
+  "placeholder_like_hits": 0,
+  "offline_survival_py_syntax_ok": true,
+  "syntax_error": ""
+}

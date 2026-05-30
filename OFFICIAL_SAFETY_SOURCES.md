@@ -127,3 +127,30 @@ Maintenance rule: keep CBRN, chemical, medical, and security-related entries def
 Pass92 did not add dangerous operational content. It normalized older entries so every database record has the same bilingual safety/check fields: mistakes, alternatives, failure signs, when-not-to-use boundaries, short-term notes, long-term notes, fallback notes, environment notes, and related topics.
 
 Maintenance rule: future passes should keep these paired English/Greek fields filled with practical, original, non-diagnostic, non-violent, civilian survival guidance. Do not add weapon construction, evasion, explosive handling, hazardous chemical procedures, medical dosing, or unsafe repair instructions.
+
+## Added/confirmed for pass93
+
+Pass93 strengthened weak areas while keeping guidance conservative and non-invasive. Future updates should continue checking current official sources before adding medical, water-treatment, food-safety, heat, power-outage, or hazardous-cleanup details.
+
+- Ready.gov — Build A Kit
+- Ready.gov — Plan Ahead for Disasters
+- CDC — Water, Sanitation, and Hygiene (WASH)-related Emergencies and Outbreaks
+- CDC — What to Do to Protect Yourself During a Power Outage
+- WHO — Water, sanitation and hygiene (WASH)
+
+
+
+## Pass94 medical safety source note
+
+Pass94 was written around conservative first-aid and public-health principles: call emergency help for red flags, use clean hands and barriers, keep records for handover, prevent infection spread, protect vulnerable people, and avoid diagnosis, surgery, or medicine-dose guessing. Useful official reference families include Ready.gov emergency preparedness, CDC wound care and hygiene guidance, American Red Cross first aid guidance, WHO community first aid/psychological first aid material, and local emergency medical services.
+
+
+## Pass95 Medical and Extreme Situation Source Alignment
+
+- Ready.gov emergency planning and power outage medical-device preparedness.
+- CDC wound care, disaster wound hygiene, tetanus-risk clinical guidance, and outbreak hygiene principles.
+- Red Cross / American Heart Association first-aid principles for bleeding, burns, CPR/AED readiness, and emergency escalation.
+- WHO psychological first aid principles for humane, supportive, practical help during serious crisis events.
+- Poison center / local emergency medical services guidance should override this offline guide when available.
+
+Medical note: Pass95 content is not medical advice, not a doctor's advice, and not a replacement for professional evaluation, prescription guidance, or emergency services.

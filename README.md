@@ -1,3 +1,7 @@
+# Latest Update - Pass95 Focused Extreme Medical Expansion
+
+Pass95 adds focused extreme-situation medical support entries for mass casualty organization, severe trauma red flags, contamination, outbreak sheltering, chronic illness continuity, pregnancy and newborn danger signs, mental crisis safety, disaster clinic flow, transport, medicine ethics, and CBRN-related medical records. It includes a clear warning that the medical content is not medical advice and not a doctor's advice.
+
 # Offline Survival / Επιβίωση Χωρίς Σύνδεση
 
 Serious bilingual offline survival guide for Android + Termux, built to stay useful when the internet is unavailable, unstable, censored, or no longer practical.
@@ -37,6 +41,15 @@ This README follows the same bilingual structure style as the example you provid
 - [Safety Reminder](#️-safety-reminder)
 
 ---
+
+
+## Important Medical Warning / Σημαντική ιατρική προειδοποίηση
+
+**English:** This is not medical advice and it is not a doctor's advice. It is offline emergency organization guidance only. Use local emergency numbers, trained first aid, pharmacists, clinics, doctors, poison centers, and official public-health instructions whenever available. Do not perform surgery, invasive procedures, diagnosis, prescription changes, or medicine dosing from this guide.
+
+**Ελληνικά:** Δεν είναι ιατρική συμβουλή και δεν είναι συμβουλή γιατρού. Είναι μόνο οδηγία οργάνωσης για offline κατάσταση ανάγκης. Χρησιμοποίησε τοπικούς αριθμούς έκτακτης ανάγκης, εκπαιδευμένες πρώτες βοήθειες, φαρμακοποιούς, κλινικές, γιατρούς, κέντρα δηλητηριάσεων και επίσημες οδηγίες δημόσιας υγείας όταν υπάρχουν. Μην κάνεις χειρουργείο, επεμβατικές πράξεις, διάγνωση, αλλαγές σε συνταγές ή δόσεις φαρμάκων από αυτόν τον οδηγό.
+
+See also: `MEDICAL_WARNING_PASS95.md`.
 
 ## 📦 What This Project Includes
 
@@ -441,3 +454,12 @@ Added **42** new bilingual entries for severe civilian emergencies: radiological
 Fixed schema consistency across older and newer JSON entries. No existing knowledge was deleted. The database now has filled bilingual safety/check fields, non-empty related topics, and updated latest validation files.
 
 Διορθώθηκε η συνέπεια schema ανάμεσα σε παλιότερες και νεότερες JSON εγγραφές. Δεν διαγράφηκε υπάρχουσα γνώση. Η βάση έχει πλέον συμπληρωμένα δίγλωσσα πεδία ασφαλείας/ελέγχου, μη άδεια related topics και ενημερωμένα latest validation files.
+
+---
+
+## Pass93 weak-area deepening expansion — 2026-05-28
+
+Added **36** new bilingual entries to strengthen the less-developed areas found in the previous review: medical support records, fever/dehydration watch, accessibility evacuation, mental crisis support, Mediterranean food production, seed saving, greywater safety, water-source protection, rainwater limits, shelter repairs, Greek apartment/heat/earthquake/wildfire scenarios, and long-term community rebuilding systems.
+
+Προστέθηκαν **36** νέες δίγλωσσες εγγραφές για ενίσχυση των λιγότερο δυνατών περιοχών που εντοπίστηκαν στον προηγούμενο έλεγχο: ιατρικές καταγραφές υποστήριξης, παρακολούθηση πυρετού/αφυδάτωσης, προσβάσιμη εκκένωση, υποστήριξη ψυχικής κρίσης, μεσογειακή παραγωγή τροφής, φύλαξη σπόρων, ασφάλεια γκρίζου νερού, προστασία πηγών νερού, όρια βρόχινου νερού, επισκευές καταφυγίου, ελληνικά σενάρια πολυκατοικίας/καύσωνα/σεισμού/πυρκαγιάς και μακροχρόνια συστήματα ανασυγκρότησης κοινότητας.
+
