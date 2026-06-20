@@ -13,7 +13,7 @@
     "difficulty": "basic",
     "urgency": "immediate",
     "priority": "critical",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass 79 supplemental expansion added after inspecting the loader, README, update logs, and split database pattern.",
     "tags": [
       "72 hours",
@@ -27,17 +27,17 @@
     "materials_en": [
       "Notebook and pencil",
       "Clean water containers",
-      "Flashlight",
+      "Flashlight. Context: “Household first 72 hours command sheet”.",
       "Phone power bank",
-      "Trash bags",
+      "Trash bags. Context: “Household first 72 hours command sheet”.",
       "Basic first aid kit"
     ],
     "materials_el": [
       "Τετράδιο και μολύβι",
       "Καθαρά δοχεία νερού",
-      "Φακός",
-      "Power bank κινητού",
-      "Σακούλες σκουπιδιών",
+      "Φακός. Πλαίσιο: «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών».",
+      "ενέργεια τράπεζα κινητού",
+      "Σακούλες σκουπιδιών. Πλαίσιο: «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών».",
       "Βασικό φαρμακείο"
     ],
     "steps_en": [
@@ -89,12 +89,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Household first 72 hours command sheet or when the next check happens.",
       "Supplies connected to Household first 72 hours command sheet are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Household first 72 hours command sheet”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών»"
     ],
     "when_not_to_use_en": [
       "Do not use Household first 72 hours command sheet as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -106,12 +106,6 @@
       "Μη χρησιμοποιήσεις το «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών»."
     ],
-    "related_topics": [
-      "medicine continuity sheet",
-      "low-power communications schedule",
-      "food safety after refrigerator failure",
-      "community sanitation corner"
-    ],
     "short_term_en": "For the first hours of Household first 72 hours command sheet, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Household first 72 hours command sheet remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -119,7 +113,35 @@
     "if_method_fails_en": "If Household first 72 hours command sheet fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Household first 72 hours command sheet to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Οικιακό φύλλο ελέγχου πρώτων 72 ωρών» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "medicine continuity sheet",
+      "low-power communications schedule",
+      "food safety after refrigerator failure",
+      "community sanitation corner"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Planning · Daily operations",
+    "category_el": "σχεδιασμός · Καθημερινές λειτουργίες",
+    "subcategory_en": "First · 72 · Hours",
+    "subcategory_el": "πρώτο · 72 ώρες · ώρες",
+    "related_topics_en": [
+      "medicine continuity sheet",
+      "low-power communications schedule",
+      "food safety after refrigerator failure",
+      "community sanitation corner"
+    ],
+    "related_topics_el": [
+      "Φύλλο συνέχειας φαρμάκων",
+      "Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης",
+      "Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου",
+      "Γωνία υγιεινής κοινότητας"
+    ]
   },
   {
     "id": "2026-04-25-pass79-002",
@@ -135,7 +157,7 @@
     "difficulty": "moderate",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Adds community-level water discipline and fair distribution structure.",
     "tags": [
       "water",
@@ -147,16 +169,16 @@
     ],
     "materials_en": [
       "Rules sign",
-      "Notebook",
-      "Pencil",
+      "Notebook. Context: “Neighborhood water point rules”.",
+      "Pencil. Context: “Neighborhood water point rules”.",
       "Rope or chairs for queue path",
       "Covered clean container",
       "Handwashing point away from source"
     ],
     "materials_el": [
       "Πινακίδα κανόνων",
-      "Τετράδιο",
-      "Μολύβι",
+      "Τετράδιο. Πλαίσιο: «Κανόνες σημείου νερού γειτονιάς».",
+      "Μολύβι. Πλαίσιο: «Κανόνες σημείου νερού γειτονιάς».",
       "Σχοινί ή καρέκλες για ουρά",
       "Καλυμμένο καθαρό δοχείο",
       "Σημείο πλυσίματος μακριά από την πηγή"
@@ -210,12 +232,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Neighborhood water point rules or when the next check happens.",
       "Supplies connected to Neighborhood water point rules are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Neighborhood water point rules”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κανόνες σημείου νερού γειτονιάς» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Κανόνες σημείου νερού γειτονιάς» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Κανόνες σημείου νερού γειτονιάς»"
     ],
     "when_not_to_use_en": [
       "Do not use Neighborhood water point rules as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -227,12 +249,6 @@
       "Μη χρησιμοποιήσεις το «Κανόνες σημείου νερού γειτονιάς» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κανόνες σημείου νερού γειτονιάς»."
     ],
-    "related_topics": [
-      "household first 72 hours command sheet",
-      "community sanitation corner",
-      "illness cluster log",
-      "conflict de-escalation"
-    ],
     "short_term_en": "For the first hours of Neighborhood water point rules, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Κανόνες σημείου νερού γειτονιάς», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Neighborhood water point rules remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -240,7 +256,35 @@
     "if_method_fails_en": "If Neighborhood water point rules fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Κανόνες σημείου νερού γειτονιάς», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Neighborhood water point rules to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Κανόνες σημείου νερού γειτονιάς» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Κανόνες σημείου νερού γειτονιάς» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "household first 72 hours command sheet",
+      "community sanitation corner",
+      "illness cluster log",
+      "conflict de-escalation"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Water · Fire · Shelter · Environment · Records",
+    "category_el": "νερό · πυρκαγιά · καταφύγιο · περιβάλλον · αρχεία",
+    "subcategory_en": "Community · Water",
+    "subcategory_el": "κοινότητα · νερό",
+    "related_topics_en": [
+      "household first 72 hours command sheet",
+      "community sanitation corner",
+      "illness cluster log",
+      "conflict de-escalation"
+    ],
+    "related_topics_el": [
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών",
+      "Γωνία υγιεινής κοινότητας",
+      "Καταγραφή συρροής ασθενειών",
+      "Αποκλιμάκωση σύγκρουσης"
+    ]
   },
   {
     "id": "2026-04-25-pass79-003",
@@ -256,7 +300,7 @@
     "difficulty": "moderate",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Adds public-health behavior control for long disruptions.",
     "tags": [
       "sanitation",
@@ -270,18 +314,18 @@
       "Sign board",
       "Soap or clean ash",
       "Covered bucket",
-      "Trash bags",
+      "Trash bags. Context: “Community sanitation corner”.",
       "Dedicated cleaning cloths",
-      "Gloves if available",
+      "Gloves if available. Context: “Community sanitation corner”.",
       "Tongs or cardboard for sharp waste"
     ],
     "materials_el": [
-      "Πινακίδα",
+      "Πινακίδα. Πλαίσιο: «Γωνία υγιεινής κοινότητας».",
       "Σαπούνι ή καθαρή στάχτη",
       "Καλυμμένος κουβάς",
-      "Σακούλες",
+      "Σακούλες. Πλαίσιο: «Γωνία υγιεινής κοινότητας».",
       "Ξεχωριστά πανιά καθαρισμού",
-      "Γάντια αν υπάρχουν",
+      "Γάντια αν υπάρχουν. Πλαίσιο: «Γωνία υγιεινής κοινότητας».",
       "Τσιμπίδα ή χαρτόνι για αιχμηρά"
     ],
     "steps_en": [
@@ -311,7 +355,7 @@
       "Μην ανακατεύεις αιχμηρά με κοινά σκουπίδια."
     ],
     "mistakes_en": [
-      "Putting the station too far away.",
+      "Putting the station too far away while carrying out “Community sanitation corner”",
       "Using the same cloth for toilet, floor, table, and water containers.",
       "Treating flies and smell as normal."
     ],
@@ -333,12 +377,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Community sanitation corner or when the next check happens.",
       "Supplies connected to Community sanitation corner are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Community sanitation corner”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Γωνία υγιεινής κοινότητας» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Γωνία υγιεινής κοινότητας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Γωνία υγιεινής κοινότητας»"
     ],
     "when_not_to_use_en": [
       "Do not use Community sanitation corner as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -350,12 +394,6 @@
       "Μη χρησιμοποιήσεις το «Γωνία υγιεινής κοινότητας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Γωνία υγιεινής κοινότητας»."
     ],
-    "related_topics": [
-      "neighborhood water point rules",
-      "food safety after refrigerator failure",
-      "medicine continuity sheet",
-      "household first 72 hours command sheet"
-    ],
     "short_term_en": "For the first hours of Community sanitation corner, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Γωνία υγιεινής κοινότητας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Community sanitation corner remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -363,7 +401,35 @@
     "if_method_fails_en": "If Community sanitation corner fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Γωνία υγιεινής κοινότητας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Community sanitation corner to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Γωνία υγιεινής κοινότητας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Γωνία υγιεινής κοινότητας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "neighborhood water point rules",
+      "food safety after refrigerator failure",
+      "medicine continuity sheet",
+      "household first 72 hours command sheet"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Medicine · Sanitation · Public health",
+    "category_el": "φάρμακα · αποχέτευση και υγιεινή · Δημόσια υγεία",
+    "subcategory_en": "Waste · Hygiene",
+    "subcategory_el": "απόβλητα · υγιεινή",
+    "related_topics_en": [
+      "neighborhood water point rules",
+      "food safety after refrigerator failure",
+      "medicine continuity sheet",
+      "household first 72 hours command sheet"
+    ],
+    "related_topics_el": [
+      "Κανόνες σημείου νερού γειτονιάς",
+      "Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου",
+      "Φύλλο συνέχειας φαρμάκων",
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών"
+    ]
   },
   {
     "id": "2026-04-25-pass79-004",
@@ -379,7 +445,7 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Adds continuity documentation for chronic care without giving diagnosis or dosing advice.",
     "tags": [
       "medicine",
@@ -391,16 +457,16 @@
     ],
     "materials_en": [
       "Paper",
-      "Pen",
+      "Pen. Context: “Medicine continuity sheet”.",
       "Original boxes or labels",
       "Small waterproof bag",
       "Phone photo backup if battery allows"
     ],
     "materials_el": [
       "Χαρτί",
-      "Στυλό",
+      "Στυλό. Πλαίσιο: «Φύλλο συνέχειας φαρμάκων».",
       "Αρχικά κουτιά ή ετικέτες",
-      "Μικρό αδιάβροχο σακουλάκι",
+      "Μικρό αδιάβροχο σακουλάκι — για «Φύλλο συνέχειας φαρμάκων»",
       "Φωτογραφία στο κινητό αν επιτρέπει η μπαταρία"
     ],
     "steps_en": [
@@ -452,12 +518,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Medicine continuity sheet or when the next check happens.",
       "Supplies connected to Medicine continuity sheet are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Medicine continuity sheet”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Φύλλο συνέχειας φαρμάκων» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Φύλλο συνέχειας φαρμάκων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Φύλλο συνέχειας φαρμάκων»"
     ],
     "when_not_to_use_en": [
       "Do not use Medicine continuity sheet as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -469,12 +535,6 @@
       "Μη χρησιμοποιήσεις το «Φύλλο συνέχειας φαρμάκων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Φύλλο συνέχειας φαρμάκων»."
     ],
-    "related_topics": [
-      "household first 72 hours command sheet",
-      "community sanitation corner",
-      "heat control in blackout apartments",
-      "caregiver rotation"
-    ],
     "short_term_en": "For the first hours of Medicine continuity sheet, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Φύλλο συνέχειας φαρμάκων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Medicine continuity sheet remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -482,7 +542,35 @@
     "if_method_fails_en": "If Medicine continuity sheet fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Φύλλο συνέχειας φαρμάκων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Medicine continuity sheet to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Φύλλο συνέχειας φαρμάκων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Φύλλο συνέχειας φαρμάκων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "household first 72 hours command sheet",
+      "community sanitation corner",
+      "heat control in blackout apartments",
+      "caregiver rotation"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "category_en": "Medicine · Sanitation · Public health",
+    "category_el": "φάρμακα · αποχέτευση και υγιεινή · Δημόσια υγεία",
+    "subcategory_en": "Chronic · Care",
+    "subcategory_el": "χρόνιο · φροντίδα",
+    "related_topics_en": [
+      "household first 72 hours command sheet",
+      "community sanitation corner",
+      "heat control in blackout apartments",
+      "caregiver rotation"
+    ],
+    "related_topics_el": [
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών",
+      "Γωνία υγιεινής κοινότητας",
+      "Έλεγχος ζέστης σε διαμερίσματα χωρίς ρεύμα",
+      "Εναλλαγή φροντιστών"
+    ]
   },
   {
     "id": "2026-04-25-pass79-005",
@@ -498,7 +586,7 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Adds cautious post-blackout food safety support.",
     "tags": [
       "food safety",
@@ -510,18 +598,18 @@
     ],
     "materials_en": [
       "Notebook or tape label",
-      "Thermometer if available",
+      "Thermometer if available. Context: “Food safety after refrigerator failure”.",
       "Clean utensils",
-      "Trash bags",
-      "Soap",
+      "Trash bags. Context: “Food safety after refrigerator failure”.",
+      "Soap. Context: “Food safety after refrigerator failure”.",
       "Cooler with ice if available"
     ],
     "materials_el": [
       "Τετράδιο ή ταινία ετικέτας",
-      "Θερμόμετρο αν υπάρχει",
+      "Θερμόμετρο αν υπάρχει. Πλαίσιο: «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου».",
       "Καθαρά εργαλεία",
-      "Σακούλες σκουπιδιών",
-      "Σαπούνι",
+      "Σακούλες σκουπιδιών. Πλαίσιο: «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου».",
+      "Σαπούνι. Πλαίσιο: «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου».",
       "Ψυγειάκι με πάγο αν υπάρχει"
     ],
     "steps_en": [
@@ -573,12 +661,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Food safety after refrigerator failure or when the next check happens.",
       "Supplies connected to Food safety after refrigerator failure are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Food safety after refrigerator failure”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου»"
     ],
     "when_not_to_use_en": [
       "Do not use Food safety after refrigerator failure as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -590,12 +678,6 @@
       "Μη χρησιμοποιήσεις το «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου»."
     ],
-    "related_topics": [
-      "household first 72 hours command sheet",
-      "community sanitation corner",
-      "blackout cooking safety",
-      "illness cluster log"
-    ],
     "short_term_en": "For the first hours of Food safety after refrigerator failure, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Food safety after refrigerator failure remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -603,7 +685,35 @@
     "if_method_fails_en": "If Food safety after refrigerator failure fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Food safety after refrigerator failure to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "household first 72 hours command sheet",
+      "community sanitation corner",
+      "blackout cooking safety",
+      "illness cluster log"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "category_en": "Food · Agriculture · Psychology · Planning · Daily operations",
+    "category_el": "τρόφιμα · γεωργία · ψυχολογία · σχεδιασμός · Καθημερινές λειτουργίες",
+    "subcategory_en": "Food · Safety",
+    "subcategory_el": "τρόφιμα · ασφάλεια",
+    "related_topics_en": [
+      "household first 72 hours command sheet",
+      "community sanitation corner",
+      "blackout cooking safety",
+      "illness cluster log"
+    ],
+    "related_topics_el": [
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών",
+      "Γωνία υγιεινής κοινότητας",
+      "Διακοπή ρεύματος μαγείρεμα ασφάλεια",
+      "Καταγραφή συρροής ασθενειών"
+    ]
   },
   {
     "id": "2026-04-25-pass79-006",
@@ -619,7 +729,7 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Adds communication discipline for outages and overloaded networks.",
     "tags": [
       "communication",
@@ -630,18 +740,18 @@
       "family"
     ],
     "materials_en": [
-      "Phone and charger",
+      "Phone and charger. Context: “Low-power communications schedule”.",
       "Power bank",
       "Paper contact list",
-      "Pencil",
+      "Pencil. Context: “Low-power communications schedule”.",
       "Radio if available",
       "Notice board if available"
     ],
     "materials_el": [
-      "Κινητό και φορτιστής",
-      "Power bank",
+      "Κινητό και φορτιστής. Πλαίσιο: «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης».",
+      "ενέργεια τράπεζα",
       "Χάρτινη λίστα επαφών",
-      "Μολύβι",
+      "Μολύβι. Πλαίσιο: «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης».",
       "Ραδιόφωνο αν υπάρχει",
       "Πίνακας αν υπάρχει"
     ],
@@ -681,7 +791,7 @@
     "mistakes_el": [
       "Δυνατή φωτεινότητα για επαναλαμβανόμενες ενημερώσεις.",
       "Καλείς όλους ξεχωριστά αντί για έναν ενδιάμεσο.",
-      "Τα ομαδικά chats γίνονται μηχανές φημών."
+      "Τα ομαδικά συνομιλίες γίνονται μηχανές φημών."
     ],
     "alternatives_en": [
       "Run a smaller version of Low-power communications schedule with one responsible person, one helper, and one visible paper note.",
@@ -696,12 +806,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Low-power communications schedule or when the next check happens.",
       "Supplies connected to Low-power communications schedule are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation and starts creating new risk instead of reducing existing risk."
+      "The routine ignores fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation and starts creating new risk instead of reducing existing risk during “Low-power communications schedule”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης»"
     ],
     "when_not_to_use_en": [
       "Do not use Low-power communications schedule as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -713,12 +823,6 @@
       "Μη χρησιμοποιήσεις το «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης»."
     ],
-    "related_topics": [
-      "household first 72 hours command sheet",
-      "local map and movement notebook",
-      "community notice board",
-      "calm leadership during group stress"
-    ],
     "short_term_en": "For the first hours of Low-power communications schedule, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Low-power communications schedule remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -726,6 +830,34 @@
     "if_method_fails_en": "If Low-power communications schedule fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Low-power communications schedule to the real environment: check fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης» στο πραγματικό περιβάλλον: έλεγξε κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης» στο πραγματικό περιβάλλον: έλεγξε κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "household first 72 hours command sheet",
+      "local map and movement notebook",
+      "community notice board",
+      "calm leadership during group stress"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+      "https://www.ready.gov/power-outages"
+    ],
+    "category_en": "Communications · Records · Navigation",
+    "category_el": "επικοινωνίες · αρχεία · προσανατολισμός",
+    "subcategory_en": "Battery · Management",
+    "subcategory_el": "μπαταρία · διαχείριση",
+    "related_topics_en": [
+      "household first 72 hours command sheet",
+      "local map and movement notebook",
+      "community notice board",
+      "calm leadership during group stress"
+    ],
+    "related_topics_el": [
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών",
+      "Τοπικός χάρτης και σημειωματάριο μετακινήσεων",
+      "Πίνακας ανακοινώσεων κοινότητας",
+      "Ήρεμη καθοδήγηση σε ομαδικό στρες"
+    ]
   }
 ]

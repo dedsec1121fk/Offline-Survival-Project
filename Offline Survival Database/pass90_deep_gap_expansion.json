@@ -13,8 +13,8 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Household water priority board” entry.",
     "tags": [
       "water",
       "household",
@@ -23,14 +23,14 @@
     ],
     "materials_en": [
       "Cardboard or notebook",
-      "Marker",
-      "Tape",
+      "Marker. Context: “Household water priority board”.",
+      "Tape. Context: “Household water priority board”.",
       "Container labels"
     ],
     "materials_el": [
       "Χαρτόνι ή τετράδιο",
-      "Μαρκαδόρος",
-      "Ταινία",
+      "Μαρκαδόρος. Πλαίσιο: «Πίνακας προτεραιότητας νερού σπιτιού».",
+      "Ταινία. Πλαίσιο: «Πίνακας προτεραιότητας νερού σπιτιού».",
       "Ετικέτες δοχείων"
     ],
     "steps_en": [
@@ -80,12 +80,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Household water priority board or when the next check happens.",
       "Supplies connected to Household water priority board are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Household water priority board”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πίνακας προτεραιότητας νερού σπιτιού» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πίνακας προτεραιότητας νερού σπιτιού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πίνακας προτεραιότητας νερού σπιτιού»"
     ],
     "when_not_to_use_en": [
       "Do not use Household water priority board as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -97,12 +97,6 @@
       "Μη χρησιμοποιήσεις το «Πίνακας προτεραιότητας νερού σπιτιού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πίνακας προτεραιότητας νερού σπιτιού»."
     ],
-    "related_topics": [
-      "Boil advisory kitchen routine",
-      "Emergency handwashing station",
-      "Latrine location risk map",
-      "Diarrhea watch and hydration record"
-    ],
     "short_term_en": "For the first hours of Household water priority board, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πίνακας προτεραιότητας νερού σπιτιού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Household water priority board remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -110,7 +104,35 @@
     "if_method_fails_en": "If Household water priority board fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πίνακας προτεραιότητας νερού σπιτιού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Household water priority board to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πίνακας προτεραιότητας νερού σπιτιού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πίνακας προτεραιότητας νερού σπιτιού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Latrine location risk map",
+      "Diarrhea watch and hydration record"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Water · Hygiene · Public health",
+    "category_el": "νερό · υγιεινή · Δημόσια υγεία",
+    "subcategory_en": "Water · Planning",
+    "subcategory_el": "νερό · σχεδιασμός",
+    "related_topics_en": [
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Latrine location risk map",
+      "Diarrhea watch and hydration record"
+    ],
+    "related_topics_el": [
+      "Ρουτίνα κουζίνας σε οδηγία βρασμού νερού",
+      "Σταθμός πλυσίματος χεριών έκτακτης ανάγκης",
+      "Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας",
+      "Καταγραφή διάρροιας και ενυδάτωσης"
+    ]
   },
   {
     "id": "pass90-0002",
@@ -122,12 +144,12 @@
     "summary_en": "A kitchen workflow for preventing old tap-water habits during a boil-water notice.",
     "summary_el": "Ροή κουζίνας για να μη συνεχιστούν παλιές συνήθειες νερού βρύσης όταν υπάρχει οδηγία βρασμού.",
     "content_en": "A boil-water notice changes ordinary actions: drinking, brushing teeth, rinsing food, making ice, preparing baby items, and washing some utensils. Put a stop note near the tap, create one safe-water station, and route all mouth-contact uses through that station until authorities lift the notice.",
-    "content_el": "Η οδηγία βρασμού αλλάζει συνηθισμένες πράξεις: πόση, δόντια, ξέπλυμα τροφίμων, πάγο, μωρουδιακά και πλύσιμο ορισμένων σκευών. Βάλε σημείωμα stop στη βρύση, φτιάξε ένα σημείο ασφαλούς νερού και πέρασε όλες τις χρήσεις που ακουμπούν στόμα από εκεί μέχρι να αρθεί η οδηγία.",
+    "content_el": "Η οδηγία βρασμού αλλάζει συνηθισμένες πράξεις: πόση, δόντια, ξέπλυμα τροφίμων, πάγο, μωρουδιακά και πλύσιμο ορισμένων σκευών. Βάλε σημείωμα στάση στη βρύση, φτιάξε ένα σημείο ασφαλούς νερού και πέρασε όλες τις χρήσεις που ακουμπούν στόμα από εκεί μέχρι να αρθεί η οδηγία.",
     "difficulty": "basic",
     "urgency": "high",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Boil advisory kitchen routine” entry.",
     "tags": [
       "boil water",
       "kitchen",
@@ -137,13 +159,13 @@
     "materials_en": [
       "Paper sign",
       "Clean container",
-      "Soap",
+      "Soap. Context: “Boil advisory kitchen routine”.",
       "Separate safe-water cup"
     ],
     "materials_el": [
       "Χάρτινη πινακίδα",
       "Καθαρό δοχείο",
-      "Σαπούνι",
+      "Σαπούνι. Πλαίσιο: «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού».",
       "Ξεχωριστό ποτήρι ασφαλούς νερού"
     ],
     "steps_en": [
@@ -193,12 +215,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Boil advisory kitchen routine or when the next check happens.",
       "Supplies connected to Boil advisory kitchen routine are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Boil advisory kitchen routine”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού»"
     ],
     "when_not_to_use_en": [
       "Do not use Boil advisory kitchen routine as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -210,12 +232,6 @@
       "Μη χρησιμοποιήσεις το «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού»."
     ],
-    "related_topics": [
-      "Household water priority board",
-      "Emergency handwashing station",
-      "Latrine location risk map",
-      "Diarrhea watch and hydration record"
-    ],
     "short_term_en": "For the first hours of Boil advisory kitchen routine, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Boil advisory kitchen routine remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -223,7 +239,35 @@
     "if_method_fails_en": "If Boil advisory kitchen routine fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Boil advisory kitchen routine to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα κουζίνας σε οδηγία βρασμού νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Household water priority board",
+      "Emergency handwashing station",
+      "Latrine location risk map",
+      "Diarrhea watch and hydration record"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "category_en": "Water · Hygiene · Public health",
+    "category_el": "νερό · υγιεινή · Δημόσια υγεία",
+    "subcategory_en": "Boil · Advisory",
+    "subcategory_el": "βρασμός · ανακοίνωση",
+    "related_topics_en": [
+      "Household water priority board",
+      "Emergency handwashing station",
+      "Latrine location risk map",
+      "Diarrhea watch and hydration record"
+    ],
+    "related_topics_el": [
+      "Πίνακας προτεραιότητας νερού σπιτιού",
+      "Σταθμός πλυσίματος χεριών έκτακτης ανάγκης",
+      "Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας",
+      "Καταγραφή διάρροιας και ενυδάτωσης"
+    ]
   },
   {
     "id": "pass90-0003",
@@ -239,8 +283,8 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Emergency handwashing station” entry.",
     "tags": [
       "hygiene",
       "handwashing",
@@ -249,14 +293,14 @@
     ],
     "materials_en": [
       "Pour container",
-      "Soap",
+      "Soap. Context: “Emergency handwashing station”.",
       "Catch basin",
       "Clean towel or air-dry area",
       "Reminder card"
     ],
     "materials_el": [
       "Δοχείο που ρίχνει νερό",
-      "Σαπούνι",
+      "Σαπούνι. Πλαίσιο: «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης».",
       "Λεκάνη συλλογής",
       "Καθαρή πετσέτα ή σημείο στεγνώματος",
       "Κάρτα υπενθύμισης"
@@ -286,7 +330,7 @@
       "Μην αφήνεις απόνερα να τρέχουν προς τρόφιμα."
     ],
     "mistakes_en": [
-      "Putting the station too far away.",
+      "Putting the station too far away while carrying out “Emergency handwashing station”",
       "Using an open bucket everyone touches.",
       "Forgetting handwashing before touching safe water."
     ],
@@ -308,12 +352,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Emergency handwashing station or when the next check happens.",
       "Supplies connected to Emergency handwashing station are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Emergency handwashing station”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης»"
     ],
     "when_not_to_use_en": [
       "Do not use Emergency handwashing station as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -325,12 +369,6 @@
       "Μη χρησιμοποιήσεις το «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης»."
     ],
-    "related_topics": [
-      "Household water priority board",
-      "Boil advisory kitchen routine",
-      "Latrine location risk map",
-      "Diarrhea watch and hydration record"
-    ],
     "short_term_en": "For the first hours of Emergency handwashing station, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Emergency handwashing station remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -338,7 +376,35 @@
     "if_method_fails_en": "If Emergency handwashing station fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Emergency handwashing station to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Σταθμός πλυσίματος χεριών έκτακτης ανάγκης» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Latrine location risk map",
+      "Diarrhea watch and hydration record"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Water · Hygiene · Public health",
+    "category_el": "νερό · υγιεινή · Δημόσια υγεία",
+    "subcategory_en": "Hygiene · Station",
+    "subcategory_el": "υγιεινή · σταθμός",
+    "related_topics_en": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Latrine location risk map",
+      "Diarrhea watch and hydration record"
+    ],
+    "related_topics_el": [
+      "Πίνακας προτεραιότητας νερού σπιτιού",
+      "Ρουτίνα κουζίνας σε οδηγία βρασμού νερού",
+      "Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας",
+      "Καταγραφή διάρροιας και ενυδάτωσης"
+    ]
   },
   {
     "id": "pass90-0004",
@@ -354,8 +420,8 @@
     "difficulty": "intermediate",
     "urgency": "high",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Latrine location risk map” entry.",
     "tags": [
       "sanitation",
       "latrine",
@@ -363,14 +429,14 @@
       "water protection"
     ],
     "materials_en": [
-      "Paper map",
-      "Marker",
+      "Paper map. Context: “Latrine location risk map”.",
+      "Marker. Context: “Latrine location risk map”.",
       "Rope or tape",
-      "Handwashing supplies"
+      "Handwashing supplies. Context: “Latrine location risk map”."
     ],
     "materials_el": [
       "Χάρτινος χάρτης",
-      "Μαρκαδόρος",
+      "Μαρκαδόρος. Πλαίσιο: «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας».",
       "Σχοινί ή ταινία",
       "Υλικά πλυσίματος χεριών"
     ],
@@ -421,12 +487,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Latrine location risk map or when the next check happens.",
       "Supplies connected to Latrine location risk map are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Latrine location risk map”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας»"
     ],
     "when_not_to_use_en": [
       "Do not use Latrine location risk map as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -438,12 +504,6 @@
       "Μη χρησιμοποιήσεις το «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας»."
     ],
-    "related_topics": [
-      "Household water priority board",
-      "Boil advisory kitchen routine",
-      "Emergency handwashing station",
-      "Diarrhea watch and hydration record"
-    ],
     "short_term_en": "For the first hours of Latrine location risk map, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Latrine location risk map remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -451,7 +511,35 @@
     "if_method_fails_en": "If Latrine location risk map fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Latrine location risk map to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Diarrhea watch and hydration record"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Water · Hygiene · Public health",
+    "category_el": "νερό · υγιεινή · Δημόσια υγεία",
+    "subcategory_en": "Sanitation · Planning",
+    "subcategory_el": "αποχέτευση και υγιεινή · σχεδιασμός",
+    "related_topics_en": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Diarrhea watch and hydration record"
+    ],
+    "related_topics_el": [
+      "Πίνακας προτεραιότητας νερού σπιτιού",
+      "Ρουτίνα κουζίνας σε οδηγία βρασμού νερού",
+      "Σταθμός πλυσίματος χεριών έκτακτης ανάγκης",
+      "Καταγραφή διάρροιας και ενυδάτωσης"
+    ]
   },
   {
     "id": "pass90-0005",
@@ -467,8 +555,8 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Diarrhea watch and hydration record” entry.",
     "tags": [
       "health records",
       "diarrhea",
@@ -476,14 +564,14 @@
       "public health"
     ],
     "materials_en": [
-      "Notebook",
-      "Clock",
+      "Notebook. Context: “Diarrhea watch and hydration record”.",
+      "Clock. Context: “Diarrhea watch and hydration record”.",
       "Separate cup",
-      "Handwashing supplies"
+      "Handwashing supplies. Context: “Diarrhea watch and hydration record”."
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Ρολόι",
+      "Τετράδιο. Πλαίσιο: «Καταγραφή διάρροιας και ενυδάτωσης».",
+      "Ρολόι. Πλαίσιο: «Καταγραφή διάρροιας και ενυδάτωσης».",
       "Ξεχωριστό ποτήρι",
       "Υλικά πλυσίματος"
     ],
@@ -534,12 +622,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Diarrhea watch and hydration record or when the next check happens.",
       "Supplies connected to Diarrhea watch and hydration record are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Diarrhea watch and hydration record”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Καταγραφή διάρροιας και ενυδάτωσης» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Καταγραφή διάρροιας και ενυδάτωσης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Καταγραφή διάρροιας και ενυδάτωσης»"
     ],
     "when_not_to_use_en": [
       "Do not use Diarrhea watch and hydration record as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -551,12 +639,6 @@
       "Μη χρησιμοποιήσεις το «Καταγραφή διάρροιας και ενυδάτωσης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Καταγραφή διάρροιας και ενυδάτωσης»."
     ],
-    "related_topics": [
-      "Household water priority board",
-      "Boil advisory kitchen routine",
-      "Emergency handwashing station",
-      "Latrine location risk map"
-    ],
     "short_term_en": "For the first hours of Diarrhea watch and hydration record, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Καταγραφή διάρροιας και ενυδάτωσης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Diarrhea watch and hydration record remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -564,7 +646,35 @@
     "if_method_fails_en": "If Diarrhea watch and hydration record fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Καταγραφή διάρροιας και ενυδάτωσης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Diarrhea watch and hydration record to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Καταγραφή διάρροιας και ενυδάτωσης» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Καταγραφή διάρροιας και ενυδάτωσης» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Latrine location risk map"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Water · Hygiene · Public health",
+    "category_el": "νερό · υγιεινή · Δημόσια υγεία",
+    "subcategory_en": "Illness · Records",
+    "subcategory_el": "ασθένεια · αρχεία",
+    "related_topics_en": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Latrine location risk map"
+    ],
+    "related_topics_el": [
+      "Πίνακας προτεραιότητας νερού σπιτιού",
+      "Ρουτίνα κουζίνας σε οδηγία βρασμού νερού",
+      "Σταθμός πλυσίματος χεριών έκτακτης ανάγκης",
+      "Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας"
+    ]
   },
   {
     "id": "pass90-0006",
@@ -580,8 +690,8 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Container cleaning rotation” entry.",
     "tags": [
       "water storage",
       "containers",
@@ -589,13 +699,13 @@
       "inspection"
     ],
     "materials_en": [
-      "Marker",
+      "Marker. Context: “Container cleaning rotation”.",
       "Drying rack or clean surface",
       "Container log",
       "Brush used only for containers"
     ],
     "materials_el": [
-      "Μαρκαδόρος",
+      "Μαρκαδόρος. Πλαίσιο: «Κυκλικό καθάρισμα δοχείων νερού».",
       "Σχάρα στεγνώματος ή καθαρή επιφάνεια",
       "Αρχείο δοχείων",
       "Βούρτσα μόνο για δοχεία"
@@ -647,12 +757,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Container cleaning rotation or when the next check happens.",
       "Supplies connected to Container cleaning rotation are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Container cleaning rotation”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κυκλικό καθάρισμα δοχείων νερού» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Κυκλικό καθάρισμα δοχείων νερού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Κυκλικό καθάρισμα δοχείων νερού»"
     ],
     "when_not_to_use_en": [
       "Do not use Container cleaning rotation as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -664,12 +774,6 @@
       "Μη χρησιμοποιήσεις το «Κυκλικό καθάρισμα δοχείων νερού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κυκλικό καθάρισμα δοχείων νερού»."
     ],
-    "related_topics": [
-      "Household water priority board",
-      "Boil advisory kitchen routine",
-      "Emergency handwashing station",
-      "Latrine location risk map"
-    ],
     "short_term_en": "For the first hours of Container cleaning rotation, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Κυκλικό καθάρισμα δοχείων νερού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Container cleaning rotation remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -677,7 +781,35 @@
     "if_method_fails_en": "If Container cleaning rotation fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Κυκλικό καθάρισμα δοχείων νερού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Container cleaning rotation to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Κυκλικό καθάρισμα δοχείων νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Κυκλικό καθάρισμα δοχείων νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Latrine location risk map"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Water · Hygiene · Public health",
+    "category_el": "νερό · υγιεινή · Δημόσια υγεία",
+    "subcategory_en": "Container · Hygiene",
+    "subcategory_el": "δοχείο · υγιεινή",
+    "related_topics_en": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Latrine location risk map"
+    ],
+    "related_topics_el": [
+      "Πίνακας προτεραιότητας νερού σπιτιού",
+      "Ρουτίνα κουζίνας σε οδηγία βρασμού νερού",
+      "Σταθμός πλυσίματος χεριών έκτακτης ανάγκης",
+      "Χάρτης κινδύνου για θέση πρόχειρης τουαλέτας"
+    ]
   },
   {
     "id": "pass90-0007",
@@ -693,8 +825,8 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Refrigerator power-outage food triage” entry.",
     "tags": [
       "food safety",
       "power outage",
@@ -705,13 +837,13 @@
       "Outage log",
       "Tape sign",
       "Cooler if available",
-      "Thermometer if available"
+      "Thermometer if available. Context: “Refrigerator power-outage food triage”."
     ],
     "materials_el": [
       "Αρχείο διακοπής",
       "Σημείωμα με ταινία",
       "Φορητό ψυγείο αν υπάρχει",
-      "Θερμόμετρο αν υπάρχει"
+      "Θερμόμετρο αν υπάρχει. Πλαίσιο: «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος»."
     ],
     "steps_en": [
       "Write the outage start time or best estimate.",
@@ -760,12 +892,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Refrigerator power-outage food triage or when the next check happens.",
       "Supplies connected to Refrigerator power-outage food triage are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Refrigerator power-outage food triage”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος»"
     ],
     "when_not_to_use_en": [
       "Do not use Refrigerator power-outage food triage as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -777,12 +909,6 @@
       "Μη χρησιμοποιήσεις το «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος»."
     ],
-    "related_topics": [
-      "Dry-store pest barrier",
-      "Community meal ration board",
-      "Smoke-free indoor cooking rule",
-      "Heatwave cool-room plan"
-    ],
     "short_term_en": "For the first hours of Refrigerator power-outage food triage, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Refrigerator power-outage food triage remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -790,7 +916,35 @@
     "if_method_fails_en": "If Refrigerator power-outage food triage fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Refrigerator power-outage food triage to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Dry-store pest barrier",
+      "Community meal ration board",
+      "Smoke-free indoor cooking rule",
+      "Heatwave cool-room plan"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "category_en": "Food · Shelter · Health · Operations",
+    "category_el": "τρόφιμα · καταφύγιο · υγεία · λειτουργίες",
+    "subcategory_en": "Food · Safety · Power · Outage",
+    "subcategory_el": "τρόφιμα · ασφάλεια · ενέργεια · διακοπή",
+    "related_topics_en": [
+      "Dry-store pest barrier",
+      "Community meal ration board",
+      "Smoke-free indoor cooking rule",
+      "Heatwave cool-room plan"
+    ],
+    "related_topics_el": [
+      "Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη",
+      "Πίνακας μερίδων για κοινά γεύματα",
+      "Κανόνας μαγειρέματος μέσα χωρίς καπνό",
+      "Σχέδιο δροσερού δωματίου σε καύσωνα"
+    ]
   },
   {
     "id": "pass90-0008",
@@ -806,8 +960,8 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Dry-store pest barrier” entry.",
     "tags": [
       "food storage",
       "pests",
@@ -817,13 +971,13 @@
     "materials_en": [
       "Shelves or boxes",
       "Sealed jars or bins",
-      "Broom",
+      "Broom. Context: “Dry-store pest barrier”.",
       "Inspection sheet"
     ],
     "materials_el": [
       "Ράφια ή κούτες",
       "Βάζα ή δοχεία που κλείνουν",
-      "Σκούπα",
+      "Σκούπα. Πλαίσιο: «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη».",
       "Φύλλο ελέγχου"
     ],
     "steps_en": [
@@ -841,7 +995,7 @@
       "Χώρισε ζωοτροφές από ανθρώπινα τρόφιμα."
     ],
     "warnings_en": [
-      "Do not place poison where children, pets, or food can contact it.",
+      "Do not place poison where children, pets, or food can contact it. Treat this as a specific boundary while managing “Dry-store pest barrier”.",
       "Do not save contaminated dry food by washing it.",
       "Do not store food beside fuel or cleaners."
     ],
@@ -873,12 +1027,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Dry-store pest barrier or when the next check happens.",
       "Supplies connected to Dry-store pest barrier are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Dry-store pest barrier”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη»"
     ],
     "when_not_to_use_en": [
       "Do not use Dry-store pest barrier as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -890,12 +1044,6 @@
       "Μη χρησιμοποιήσεις το «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη»."
     ],
-    "related_topics": [
-      "Refrigerator power-outage food triage",
-      "Community meal ration board",
-      "Smoke-free indoor cooking rule",
-      "Heatwave cool-room plan"
-    ],
     "short_term_en": "For the first hours of Dry-store pest barrier, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Dry-store pest barrier remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -903,7 +1051,35 @@
     "if_method_fails_en": "If Dry-store pest barrier fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Dry-store pest barrier to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Refrigerator power-outage food triage",
+      "Community meal ration board",
+      "Smoke-free indoor cooking rule",
+      "Heatwave cool-room plan"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "category_en": "Food · Shelter · Health · Operations",
+    "category_el": "τρόφιμα · καταφύγιο · υγεία · λειτουργίες",
+    "subcategory_en": "Dry · Food · Storage",
+    "subcategory_el": "ξηρό · τρόφιμα · αποθήκευση",
+    "related_topics_en": [
+      "Refrigerator power-outage food triage",
+      "Community meal ration board",
+      "Smoke-free indoor cooking rule",
+      "Heatwave cool-room plan"
+    ],
+    "related_topics_el": [
+      "Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος",
+      "Πίνακας μερίδων για κοινά γεύματα",
+      "Κανόνας μαγειρέματος μέσα χωρίς καπνό",
+      "Σχέδιο δροσερού δωματίου σε καύσωνα"
+    ]
   },
   {
     "id": "pass90-0009",
@@ -919,8 +1095,8 @@
     "difficulty": "intermediate",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Community meal ration board” entry.",
     "tags": [
       "food planning",
       "rationing",
@@ -991,12 +1167,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Community meal ration board or when the next check happens.",
       "Supplies connected to Community meal ration board are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Community meal ration board”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πίνακας μερίδων για κοινά γεύματα» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πίνακας μερίδων για κοινά γεύματα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πίνακας μερίδων για κοινά γεύματα»"
     ],
     "when_not_to_use_en": [
       "Do not use Community meal ration board as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1008,12 +1184,6 @@
       "Μη χρησιμοποιήσεις το «Πίνακας μερίδων για κοινά γεύματα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πίνακας μερίδων για κοινά γεύματα»."
     ],
-    "related_topics": [
-      "Refrigerator power-outage food triage",
-      "Dry-store pest barrier",
-      "Smoke-free indoor cooking rule",
-      "Heatwave cool-room plan"
-    ],
     "short_term_en": "For the first hours of Community meal ration board, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πίνακας μερίδων για κοινά γεύματα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Community meal ration board remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1021,7 +1191,35 @@
     "if_method_fails_en": "If Community meal ration board fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πίνακας μερίδων για κοινά γεύματα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Community meal ration board to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πίνακας μερίδων για κοινά γεύματα» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πίνακας μερίδων για κοινά γεύματα» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Refrigerator power-outage food triage",
+      "Dry-store pest barrier",
+      "Smoke-free indoor cooking rule",
+      "Heatwave cool-room plan"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "category_en": "Food · Shelter · Health · Operations",
+    "category_el": "τρόφιμα · καταφύγιο · υγεία · λειτουργίες",
+    "subcategory_en": "Community · Meals",
+    "subcategory_el": "κοινότητα · γεύματα",
+    "related_topics_en": [
+      "Refrigerator power-outage food triage",
+      "Dry-store pest barrier",
+      "Smoke-free indoor cooking rule",
+      "Heatwave cool-room plan"
+    ],
+    "related_topics_el": [
+      "Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος",
+      "Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη",
+      "Κανόνας μαγειρέματος μέσα χωρίς καπνό",
+      "Σχέδιο δροσερού δωματίου σε καύσωνα"
+    ]
   },
   {
     "id": "pass90-0010",
@@ -1037,8 +1235,8 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Smoke-free indoor cooking rule” entry.",
     "tags": [
       "carbon monoxide",
       "indoor air",
@@ -1105,12 +1303,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Smoke-free indoor cooking rule or when the next check happens.",
       "Supplies connected to Smoke-free indoor cooking rule are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Smoke-free indoor cooking rule”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κανόνας μαγειρέματος μέσα χωρίς καπνό» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Κανόνας μαγειρέματος μέσα χωρίς καπνό» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Κανόνας μαγειρέματος μέσα χωρίς καπνό»"
     ],
     "when_not_to_use_en": [
       "Do not use Smoke-free indoor cooking rule as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1122,12 +1320,6 @@
       "Μη χρησιμοποιήσεις το «Κανόνας μαγειρέματος μέσα χωρίς καπνό» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κανόνας μαγειρέματος μέσα χωρίς καπνό»."
     ],
-    "related_topics": [
-      "Refrigerator power-outage food triage",
-      "Dry-store pest barrier",
-      "Community meal ration board",
-      "Heatwave cool-room plan"
-    ],
     "short_term_en": "For the first hours of Smoke-free indoor cooking rule, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Κανόνας μαγειρέματος μέσα χωρίς καπνό», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Smoke-free indoor cooking rule remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1135,7 +1327,35 @@
     "if_method_fails_en": "If Smoke-free indoor cooking rule fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Κανόνας μαγειρέματος μέσα χωρίς καπνό», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Smoke-free indoor cooking rule to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Κανόνας μαγειρέματος μέσα χωρίς καπνό» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Κανόνας μαγειρέματος μέσα χωρίς καπνό» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Refrigerator power-outage food triage",
+      "Dry-store pest barrier",
+      "Community meal ration board",
+      "Heatwave cool-room plan"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "category_en": "Food · Shelter · Health · Operations",
+    "category_el": "τρόφιμα · καταφύγιο · υγεία · λειτουργίες",
+    "subcategory_en": "Indoor · Air · Safety",
+    "subcategory_el": "εσωτερικός χώρος · αέρας · ασφάλεια",
+    "related_topics_en": [
+      "Refrigerator power-outage food triage",
+      "Dry-store pest barrier",
+      "Community meal ration board",
+      "Heatwave cool-room plan"
+    ],
+    "related_topics_el": [
+      "Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος",
+      "Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη",
+      "Πίνακας μερίδων για κοινά γεύματα",
+      "Σχέδιο δροσερού δωματίου σε καύσωνα"
+    ]
   },
   {
     "id": "pass90-0011",
@@ -1151,8 +1371,8 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Heatwave cool-room plan” entry.",
     "tags": [
       "heatwave",
       "shelter",
@@ -1170,7 +1390,7 @@
       "Κουρτίνες ή πανιά",
       "Πίνακας νερού",
       "Ανεμιστήρας αν υπάρχει ρεύμα",
-      "Λίστα ελέγχου"
+      "Λίστα ελέγχου. Πλαίσιο: «Σχέδιο δροσερού δωματίου σε καύσωνα»."
     ],
     "steps_en": [
       "Find the coolest room at the hottest hour.",
@@ -1219,12 +1439,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Heatwave cool-room plan or when the next check happens.",
       "Supplies connected to Heatwave cool-room plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Heatwave cool-room plan”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο δροσερού δωματίου σε καύσωνα» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Σχέδιο δροσερού δωματίου σε καύσωνα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Σχέδιο δροσερού δωματίου σε καύσωνα»"
     ],
     "when_not_to_use_en": [
       "Do not use Heatwave cool-room plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1236,12 +1456,6 @@
       "Μη χρησιμοποιήσεις το «Σχέδιο δροσερού δωματίου σε καύσωνα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο δροσερού δωματίου σε καύσωνα»."
     ],
-    "related_topics": [
-      "Refrigerator power-outage food triage",
-      "Dry-store pest barrier",
-      "Community meal ration board",
-      "Smoke-free indoor cooking rule"
-    ],
     "short_term_en": "For the first hours of Heatwave cool-room plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Σχέδιο δροσερού δωματίου σε καύσωνα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Heatwave cool-room plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1249,7 +1463,35 @@
     "if_method_fails_en": "If Heatwave cool-room plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Σχέδιο δροσερού δωματίου σε καύσωνα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Heatwave cool-room plan to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Σχέδιο δροσερού δωματίου σε καύσωνα» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο δροσερού δωματίου σε καύσωνα» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Refrigerator power-outage food triage",
+      "Dry-store pest barrier",
+      "Community meal ration board",
+      "Smoke-free indoor cooking rule"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "category_en": "Food · Shelter · Health · Operations",
+    "category_el": "τρόφιμα · καταφύγιο · υγεία · λειτουργίες",
+    "subcategory_en": "Heat · Safety",
+    "subcategory_el": "ζέστη · ασφάλεια",
+    "related_topics_en": [
+      "Refrigerator power-outage food triage",
+      "Dry-store pest barrier",
+      "Community meal ration board",
+      "Smoke-free indoor cooking rule"
+    ],
+    "related_topics_el": [
+      "Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος",
+      "Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη",
+      "Πίνακας μερίδων για κοινά γεύματα",
+      "Κανόνας μαγειρέματος μέσα χωρίς καπνό"
+    ]
   },
   {
     "id": "pass90-0012",
@@ -1265,8 +1507,8 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Medication continuity bag” entry.",
     "tags": [
       "medicine",
       "records",
@@ -1283,7 +1525,7 @@
     ],
     "materials_el": [
       "Μικρή τσάντα",
-      "Λίστα φαρμάκων",
+      "Λίστα φαρμάκων. Πλαίσιο: «Τσάντα συνέχειας φαρμάκων».",
       "Αντίγραφα συνταγών αν υπάρχουν",
       "Τηλέφωνα φαρμακείων",
       "Κάρτα επαφής ανάγκης"
@@ -1335,12 +1577,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Medication continuity bag or when the next check happens.",
       "Supplies connected to Medication continuity bag are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Medication continuity bag”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Τσάντα συνέχειας φαρμάκων» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Τσάντα συνέχειας φαρμάκων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Τσάντα συνέχειας φαρμάκων»"
     ],
     "when_not_to_use_en": [
       "Do not use Medication continuity bag as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1352,12 +1594,6 @@
       "Μη χρησιμοποιήσεις το «Τσάντα συνέχειας φαρμάκων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Τσάντα συνέχειας φαρμάκων»."
     ],
-    "related_topics": [
-      "Refrigerator power-outage food triage",
-      "Dry-store pest barrier",
-      "Community meal ration board",
-      "Smoke-free indoor cooking rule"
-    ],
     "short_term_en": "For the first hours of Medication continuity bag, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Τσάντα συνέχειας φαρμάκων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Medication continuity bag remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1365,7 +1601,35 @@
     "if_method_fails_en": "If Medication continuity bag fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Τσάντα συνέχειας φαρμάκων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Medication continuity bag to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Τσάντα συνέχειας φαρμάκων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Τσάντα συνέχειας φαρμάκων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Refrigerator power-outage food triage",
+      "Dry-store pest barrier",
+      "Community meal ration board",
+      "Smoke-free indoor cooking rule"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "category_en": "Food · Shelter · Health · Operations",
+    "category_el": "τρόφιμα · καταφύγιο · υγεία · λειτουργίες",
+    "subcategory_en": "Medicine · Continuity",
+    "subcategory_el": "φάρμακα · συνέχεια",
+    "related_topics_en": [
+      "Refrigerator power-outage food triage",
+      "Dry-store pest barrier",
+      "Community meal ration board",
+      "Smoke-free indoor cooking rule"
+    ],
+    "related_topics_el": [
+      "Διαλογή τροφίμων ψυγείου σε διακοπή ρεύματος",
+      "Φράγμα εντόμων και τρωκτικών στην ξηρή αποθήκη",
+      "Πίνακας μερίδων για κοινά γεύματα",
+      "Κανόνας μαγειρέματος μέσα χωρίς καπνό"
+    ]
   },
   {
     "id": "pass90-0013",
@@ -1381,8 +1645,8 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Two-route evacuation card” entry.",
     "tags": [
       "evacuation",
       "routes",
@@ -1392,14 +1656,14 @@
     ],
     "materials_en": [
       "Index card",
-      "Pen",
+      "Pen. Context: “Two-route evacuation card”.",
       "Local map",
       "Emergency contacts",
       "Plastic sleeve"
     ],
     "materials_el": [
       "Καρτέλα",
-      "Στυλό",
+      "Στυλό. Πλαίσιο: «Κάρτα εκκένωσης δύο διαδρομών».",
       "Τοπικός χάρτης",
       "Επαφές ανάγκης",
       "Πλαστική θήκη"
@@ -1451,12 +1715,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Two-route evacuation card or when the next check happens.",
       "Supplies connected to Two-route evacuation card are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk during “Two-route evacuation card”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Κάρτα εκκένωσης δύο διαδρομών» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Κάρτα εκκένωσης δύο διαδρομών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, εκτός σύνδεσης αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Κάρτα εκκένωσης δύο διαδρομών»"
     ],
     "when_not_to_use_en": [
       "Do not use Two-route evacuation card as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1468,12 +1732,6 @@
       "Μη χρησιμοποιήσεις το «Κάρτα εκκένωσης δύο διαδρομών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Κάρτα εκκένωσης δύο διαδρομών»."
     ],
-    "related_topics": [
-      "Family reunification paper plan",
-      "Low-battery radio listening schedule",
-      "Offline map correction log",
-      "Rumor control board"
-    ],
     "short_term_en": "For the first hours of Two-route evacuation card, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Κάρτα εκκένωσης δύο διαδρομών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Two-route evacuation card remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1481,7 +1739,35 @@
     "if_method_fails_en": "If Two-route evacuation card fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Κάρτα εκκένωσης δύο διαδρομών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Two-route evacuation card to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Κάρτα εκκένωσης δύο διαδρομών» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Κάρτα εκκένωσης δύο διαδρομών» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, εκτός σύνδεσης αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Offline map correction log",
+      "Rumor control board"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/112",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Mobility · Communication · Records",
+    "category_el": "κινητικότητα · επικοινωνία · αρχεία",
+    "subcategory_en": "Evacuation · Planning",
+    "subcategory_el": "εκκένωση · σχεδιασμός",
+    "related_topics_en": [
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Offline map correction log",
+      "Rumor control board"
+    ],
+    "related_topics_el": [
+      "Χάρτινο σχέδιο επανένωσης οικογένειας",
+      "Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία",
+      "Αρχείο διορθώσεων εκτός σύνδεσης χάρτη",
+      "Πίνακας ελέγχου φημών"
+    ]
   },
   {
     "id": "pass90-0014",
@@ -1497,8 +1783,8 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Family reunification paper plan” entry.",
     "tags": [
       "family",
       "school",
@@ -1541,7 +1827,7 @@
     ],
     "warnings_el": [
       "Μη βάζεις ευαίσθητα στοιχεία σε αντίγραφα που μπορεί να χαθούν.",
-      "Μη βασίζεσαι σε social media σε κρίση.",
+      "Μη βασίζεσαι σε κοινωνικά μέσα σε κρίση.",
       "Μην αφήνεις μη επιβεβαιωμένους ενήλικες να παραλάβουν παιδιά."
     ],
     "mistakes_en": [
@@ -1552,7 +1838,7 @@
     "mistakes_el": [
       "Μόνο ένας γονιός ξέρει το σχέδιο.",
       "Το σημείο συνάντησης είναι πολύ αόριστο.",
-      "Το σχέδιο ξεχνά ανθρώπους χωρίς smartphone."
+      "Το σχέδιο ξεχνά ανθρώπους χωρίς έξυπνο τηλέφωνο."
     ],
     "alternatives_en": [
       "Run a smaller version of Family reunification paper plan with one responsible person, one helper, and one visible paper note.",
@@ -1567,12 +1853,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Family reunification paper plan or when the next check happens.",
       "Supplies connected to Family reunification paper plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk during “Family reunification paper plan”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Χάρτινο σχέδιο επανένωσης οικογένειας» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Χάρτινο σχέδιο επανένωσης οικογένειας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, εκτός σύνδεσης αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Χάρτινο σχέδιο επανένωσης οικογένειας»"
     ],
     "when_not_to_use_en": [
       "Do not use Family reunification paper plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1584,12 +1870,6 @@
       "Μη χρησιμοποιήσεις το «Χάρτινο σχέδιο επανένωσης οικογένειας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Χάρτινο σχέδιο επανένωσης οικογένειας»."
     ],
-    "related_topics": [
-      "Two-route evacuation card",
-      "Low-battery radio listening schedule",
-      "Offline map correction log",
-      "Rumor control board"
-    ],
     "short_term_en": "For the first hours of Family reunification paper plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Χάρτινο σχέδιο επανένωσης οικογένειας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Family reunification paper plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1597,7 +1877,35 @@
     "if_method_fails_en": "If Family reunification paper plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Χάρτινο σχέδιο επανένωσης οικογένειας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Family reunification paper plan to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Χάρτινο σχέδιο επανένωσης οικογένειας» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Χάρτινο σχέδιο επανένωσης οικογένειας» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, εκτός σύνδεσης αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Two-route evacuation card",
+      "Low-battery radio listening schedule",
+      "Offline map correction log",
+      "Rumor control board"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Mobility · Communication · Records",
+    "category_el": "κινητικότητα · επικοινωνία · αρχεία",
+    "subcategory_en": "Family · Reunification",
+    "subcategory_el": "οικογένεια · επανένωση",
+    "related_topics_en": [
+      "Two-route evacuation card",
+      "Low-battery radio listening schedule",
+      "Offline map correction log",
+      "Rumor control board"
+    ],
+    "related_topics_el": [
+      "Κάρτα εκκένωσης δύο διαδρομών",
+      "Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία",
+      "Αρχείο διορθώσεων εκτός σύνδεσης χάρτη",
+      "Πίνακας ελέγχου φημών"
+    ]
   },
   {
     "id": "pass90-0015",
@@ -1613,8 +1921,8 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Low-battery radio listening schedule” entry.",
     "tags": [
       "radio",
       "battery",
@@ -1625,14 +1933,14 @@
     "materials_en": [
       "Radio or phone",
       "Battery log",
-      "Notebook",
+      "Notebook. Context: “Low-battery radio listening schedule”.",
       "Station list",
       "Charging plan"
     ],
     "materials_el": [
       "Ραδιόφωνο ή κινητό",
       "Αρχείο μπαταρίας",
-      "Τετράδιο",
+      "Τετράδιο. Πλαίσιο: «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία».",
       "Λίστα σταθμών",
       "Σχέδιο φόρτισης"
     ],
@@ -1667,7 +1975,7 @@
     ],
     "mistakes_el": [
       "Σάρωση για ώρες χωρίς αρχείο.",
-      "Ένας αγχωμένος κάνει συνεχώς refresh.",
+      "Ένας αγχωμένος κάνει συνεχώς ανανέωση.",
       "Σύνοψη χωρίς πηγή ή ώρα."
     ],
     "alternatives_en": [
@@ -1683,12 +1991,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Low-battery radio listening schedule or when the next check happens.",
       "Supplies connected to Low-battery radio listening schedule are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation and starts creating new risk instead of reducing existing risk."
+      "The routine ignores fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation and starts creating new risk instead of reducing existing risk during “Low-battery radio listening schedule”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία»"
     ],
     "when_not_to_use_en": [
       "Do not use Low-battery radio listening schedule as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1700,12 +2008,6 @@
       "Μη χρησιμοποιήσεις το «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία»."
     ],
-    "related_topics": [
-      "Two-route evacuation card",
-      "Family reunification paper plan",
-      "Offline map correction log",
-      "Rumor control board"
-    ],
     "short_term_en": "For the first hours of Low-battery radio listening schedule, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Low-battery radio listening schedule remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1713,24 +2015,52 @@
     "if_method_fails_en": "If Low-battery radio listening schedule fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Low-battery radio listening schedule to the real environment: check fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία» στο πραγματικό περιβάλλον: έλεγξε κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία» στο πραγματικό περιβάλλον: έλεγξε κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Offline map correction log",
+      "Rumor control board"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+      "https://www.ready.gov/power-outages"
+    ],
+    "category_en": "Mobility · Communication · Records",
+    "category_el": "κινητικότητα · επικοινωνία · αρχεία",
+    "subcategory_en": "Communications · Power",
+    "subcategory_el": "επικοινωνίες · ενέργεια",
+    "related_topics_en": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Offline map correction log",
+      "Rumor control board"
+    ],
+    "related_topics_el": [
+      "Κάρτα εκκένωσης δύο διαδρομών",
+      "Χάρτινο σχέδιο επανένωσης οικογένειας",
+      "Αρχείο διορθώσεων εκτός σύνδεσης χάρτη",
+      "Πίνακας ελέγχου φημών"
+    ]
   },
   {
     "id": "pass90-0016",
     "topic": "Offline map correction log",
     "topic_en": "Offline map correction log",
-    "topic_el": "Αρχείο διορθώσεων offline χάρτη",
+    "topic_el": "Αρχείο διορθώσεων εκτός σύνδεσης χάρτη",
     "category": "pass89_mobility_communication_records",
     "subcategory": "navigation_records",
     "summary_en": "A paper log for marking blocked roads, unsafe bridges, water points, pharmacies, shelters, and changed landmarks.",
     "summary_el": "Χάρτινο αρχείο για κλειστούς δρόμους, επικίνδυνες γέφυρες, σημεία νερού, φαρμακεία, καταφύγια και αλλαγμένα σημεία αναφοράς.",
     "content_en": "Offline maps become wrong after fire, flood, construction, landslide, police closure, or crowd movement. Every correction needs date, time, observer, exact place, type of change, confidence level, and whether it came from direct observation or another source.",
-    "content_el": "Οι offline χάρτες γίνονται λάθος μετά από φωτιά, πλημμύρα, έργα, κατολίσθηση, αστυνομικό κλείσιμο ή μετακίνηση πλήθους. Κάθε διόρθωση θέλει ημερομηνία, ώρα, παρατηρητή, ακριβές σημείο, είδος αλλαγής, βεβαιότητα και αν είναι άμεση παρατήρηση ή άλλη πηγή.",
+    "content_el": "Οι εκτός σύνδεσης χάρτες γίνονται λάθος μετά από φωτιά, πλημμύρα, έργα, κατολίσθηση, αστυνομικό κλείσιμο ή μετακίνηση πλήθους. Κάθε διόρθωση θέλει ημερομηνία, ώρα, παρατηρητή, ακριβές σημείο, είδος αλλαγής, βεβαιότητα και αν είναι άμεση παρατήρηση ή άλλη πηγή.",
     "difficulty": "intermediate",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Offline map correction log” entry.",
     "tags": [
       "offline maps",
       "navigation",
@@ -1740,13 +2070,13 @@
     ],
     "materials_en": [
       "Printed map",
-      "Pencil",
+      "Pencil. Context: “Offline map correction log”.",
       "Correction log",
       "Landmark list"
     ],
     "materials_el": [
       "Εκτυπωμένος χάρτης",
-      "Μολύβι",
+      "Μολύβι. Πλαίσιο: «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη».",
       "Αρχείο διορθώσεων",
       "Λίστα σημείων αναφοράς"
     ],
@@ -1790,19 +2120,19 @@
       "Pause Offline map correction log and verify the written record with a second person before moving scarce supplies."
     ],
     "alternatives_el": [
-      "Εφάρμοσε μικρότερη έκδοση του «Αρχείο διορθώσεων offline χάρτη» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
-      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Αρχείο διορθώσεων offline χάρτη» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
-      "Σταμάτα προσωρινά το «Αρχείο διορθώσεων offline χάρτη» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
+      "Εφάρμοσε μικρότερη έκδοση του «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη» με έναν υπεύθυνο, έναν βοηθό και ένα ορατό χαρτί σημειώσεων.",
+      "Χρησιμοποίησε ασφαλέστερη εφεδρική θέση ή μέθοδο για το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη» αν η πρώτη επιλογή γίνει βρεγμένη, γεμάτη, μολυσμένη, σκοτεινή, ασταθής ή μη ασφαλής.",
+      "Σταμάτα προσωρινά το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη» και επιβεβαίωσε το γραπτό αρχείο με δεύτερο άτομο πριν μετακινηθούν σπάνιες προμήθειες."
     ],
     "failure_signs_en": [
       "People cannot explain who is responsible for Offline map correction log or when the next check happens.",
       "Supplies connected to Offline map correction log are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Offline map correction log”"
     ],
     "failure_signs_el": [
-      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Αρχείο διορθώσεων offline χάρτη» ή πότε γίνεται ο επόμενος έλεγχος.",
-      "Οι προμήθειες που σχετίζονται με το «Αρχείο διορθώσεων offline χάρτη» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη» ή πότε γίνεται ο επόμενος έλεγχος.",
+      "Οι προμήθειες που σχετίζονται με το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη»"
     ],
     "when_not_to_use_en": [
       "Do not use Offline map correction log as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1810,24 +2140,46 @@
       "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Offline map correction log."
     ],
     "when_not_to_use_el": [
-      "Μη χρησιμοποιήσεις το «Αρχείο διορθώσεων offline χάρτη» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
-      "Μη χρησιμοποιήσεις το «Αρχείο διορθώσεων offline χάρτη» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
-      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Αρχείο διορθώσεων offline χάρτη»."
+      "Μη χρησιμοποιήσεις το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη» ως λόγο για καθυστέρηση εκκένωσης, κλήσης ανάγκης, ιατρικής φροντίδας, αντιμετώπισης φωτιάς ή επίσημων τοπικών οδηγιών.",
+      "Μη χρησιμοποιήσεις το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
+      "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη»."
     ],
+    "short_term_en": "For the first hours of Offline map correction log, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "short_term_el": "Τις πρώτες ώρες του «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
+    "long_term_en": "If Offline map correction log remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "long_term_el": "Αν το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
+    "if_method_fails_en": "If Offline map correction log fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "if_method_fails_el": "Αν αποτύχει το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
+    "environment_notes_en": "Adapt Offline map correction log to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "environment_notes_el": "Προσάρμοσε το «Αρχείο διορθώσεων εκτός σύνδεσης χάρτη» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
     "related_topics": [
       "Two-route evacuation card",
       "Family reunification paper plan",
       "Low-battery radio listening schedule",
       "Rumor control board"
     ],
-    "short_term_en": "For the first hours of Offline map correction log, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
-    "short_term_el": "Τις πρώτες ώρες του «Αρχείο διορθώσεων offline χάρτη», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
-    "long_term_en": "If Offline map correction log remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
-    "long_term_el": "Αν το «Αρχείο διορθώσεων offline χάρτη» χρειάζεται για μέρες ή εβδομάδες, κάνε κυκλική αλλαγή ρόλων, κράτα γραπτά μαθήματα, αντικατάστησε εύθραυστες προμήθειες και εκπαίδευσε δεύτερο άτομο ώστε η ομάδα να μη βασίζεται σε έναν ειδικό.",
-    "if_method_fails_en": "If Offline map correction log fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
-    "if_method_fails_el": "Αν αποτύχει το «Αρχείο διορθώσεων offline χάρτη», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
-    "environment_notes_en": "Adapt Offline map correction log to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Αρχείο διορθώσεων offline χάρτη» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Mobility · Communication · Records",
+    "category_el": "κινητικότητα · επικοινωνία · αρχεία",
+    "subcategory_en": "Navigation · Records",
+    "subcategory_el": "προσανατολισμός · αρχεία",
+    "related_topics_en": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Rumor control board"
+    ],
+    "related_topics_el": [
+      "Κάρτα εκκένωσης δύο διαδρομών",
+      "Χάρτινο σχέδιο επανένωσης οικογένειας",
+      "Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία",
+      "Πίνακας ελέγχου φημών"
+    ]
   },
   {
     "id": "pass90-0017",
@@ -1843,8 +2195,8 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Rumor control board” entry.",
     "tags": [
       "rumor control",
       "communications",
@@ -1853,13 +2205,13 @@
     ],
     "materials_en": [
       "Board or wall paper",
-      "Marker",
+      "Marker. Context: “Rumor control board”.",
       "Source list",
       "Update schedule"
     ],
     "materials_el": [
       "Πίνακας ή χαρτί τοίχου",
-      "Μαρκαδόρος",
+      "Μαρκαδόρος. Πλαίσιο: «Πίνακας ελέγχου φημών».",
       "Λίστα πηγών",
       "Πρόγραμμα ενημέρωσης"
     ],
@@ -1910,12 +2262,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Rumor control board or when the next check happens.",
       "Supplies connected to Rumor control board are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk."
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk during “Rumor control board”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πίνακας ελέγχου φημών» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πίνακας ελέγχου φημών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί καθαρά αρχεία, επιβεβαιωμένα μηνύματα, εκτός σύνδεσης αντίγραφα και ώρες επανελέγχου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πίνακας ελέγχου φημών»"
     ],
     "when_not_to_use_en": [
       "Do not use Rumor control board as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1927,12 +2279,6 @@
       "Μη χρησιμοποιήσεις το «Πίνακας ελέγχου φημών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πίνακας ελέγχου φημών»."
     ],
-    "related_topics": [
-      "Two-route evacuation card",
-      "Family reunification paper plan",
-      "Low-battery radio listening schedule",
-      "Offline map correction log"
-    ],
     "short_term_en": "For the first hours of Rumor control board, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πίνακας ελέγχου φημών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Rumor control board remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1940,7 +2286,35 @@
     "if_method_fails_en": "If Rumor control board fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πίνακας ελέγχου φημών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Rumor control board to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πίνακας ελέγχου φημών» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, offline αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πίνακας ελέγχου φημών» στο πραγματικό περιβάλλον: έλεγξε καθαρά αρχεία, επιβεβαιωμένα μηνύματα, εκτός σύνδεσης αντίγραφα και ώρες επανελέγχου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Offline map correction log"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Mobility · Communication · Records",
+    "category_el": "κινητικότητα · επικοινωνία · αρχεία",
+    "subcategory_en": "Information · Discipline",
+    "subcategory_el": "πληροφορίες · πειθαρχία",
+    "related_topics_en": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Offline map correction log"
+    ],
+    "related_topics_el": [
+      "Κάρτα εκκένωσης δύο διαδρομών",
+      "Χάρτινο σχέδιο επανένωσης οικογένειας",
+      "Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία",
+      "Αρχείο διορθώσεων εκτός σύνδεσης χάρτη"
+    ]
   },
   {
     "id": "pass90-0018",
@@ -1956,8 +2330,8 @@
     "difficulty": "intermediate",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Decision log for scarce resources” entry.",
     "tags": [
       "governance",
       "scarcity",
@@ -1968,13 +2342,13 @@
     "materials_en": [
       "Decision notebook",
       "Inventory sheet",
-      "Review time",
+      "Review time. Context: “Decision log for scarce resources”.",
       "Witness initials"
     ],
     "materials_el": [
       "Τετράδιο αποφάσεων",
       "Φύλλο απογραφής",
-      "Ώρα επανελέγχου",
+      "Ώρα επανελέγχου. Πλαίσιο: «Αρχείο αποφάσεων για σπάνιους πόρους».",
       "Μονογραφές μαρτύρων"
     ],
     "steps_en": [
@@ -2024,12 +2398,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Decision log for scarce resources or when the next check happens.",
       "Supplies connected to Decision log for scarce resources are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Decision log for scarce resources”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Αρχείο αποφάσεων για σπάνιους πόρους» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Αρχείο αποφάσεων για σπάνιους πόρους» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Αρχείο αποφάσεων για σπάνιους πόρους»"
     ],
     "when_not_to_use_en": [
       "Do not use Decision log for scarce resources as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -2041,12 +2415,6 @@
       "Μη χρησιμοποιήσεις το «Αρχείο αποφάσεων για σπάνιους πόρους» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Αρχείο αποφάσεων για σπάνιους πόρους»."
     ],
-    "related_topics": [
-      "Two-route evacuation card",
-      "Family reunification paper plan",
-      "Low-battery radio listening schedule",
-      "Offline map correction log"
-    ],
     "short_term_en": "For the first hours of Decision log for scarce resources, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Αρχείο αποφάσεων για σπάνιους πόρους», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Decision log for scarce resources remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -2054,7 +2422,35 @@
     "if_method_fails_en": "If Decision log for scarce resources fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Αρχείο αποφάσεων για σπάνιους πόρους», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Decision log for scarce resources to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Αρχείο αποφάσεων για σπάνιους πόρους» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Αρχείο αποφάσεων για σπάνιους πόρους» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Offline map correction log"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Mobility · Communication · Records",
+    "category_el": "κινητικότητα · επικοινωνία · αρχεία",
+    "subcategory_en": "Resource · Governance",
+    "subcategory_el": "πόρος · διακυβέρνηση",
+    "related_topics_en": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Offline map correction log"
+    ],
+    "related_topics_el": [
+      "Κάρτα εκκένωσης δύο διαδρομών",
+      "Χάρτινο σχέδιο επανένωσης οικογένειας",
+      "Πρόγραμμα ακρόασης ραδιοφώνου με χαμηλή μπαταρία",
+      "Αρχείο διορθώσεων εκτός σύνδεσης χάρτη"
+    ]
   },
   {
     "id": "pass90-0019",
@@ -2064,14 +2460,14 @@
     "category": "pass89_longterm_rebuilding_lowtech_skills",
     "subcategory": "tool_maintenance",
     "summary_en": "A low-tech bench routine for keeping common hand tools safe, dry, sharp, counted, and removed from use when damaged.",
-    "summary_el": "Low-tech ρουτίνα πάγκου για να μένουν τα χειροεργαλεία ασφαλή, στεγνά, ακονισμένα, μετρημένα και εκτός χρήσης όταν χαλάσουν.",
+    "summary_el": "χαμηλής τεχνολογίας ρουτίνα πάγκου για να μένουν τα χειροεργαλεία ασφαλή, στεγνά, ακονισμένα, μετρημένα και εκτός χρήσης όταν χαλάσουν.",
     "content_en": "Tools multiply survival capacity, but neglected tools injure people and waste effort. A maintenance bench is a stable surface, cleaning area, drying point, edge-care routine, handle inspection, and checkout log. Unsafe tools are removed before urgent work begins.",
     "content_el": "Τα εργαλεία πολλαπλασιάζουν δυνατότητες επιβίωσης, αλλά παραμελημένα εργαλεία τραυματίζουν και σπαταλούν κόπο. Ο πάγκος είναι σταθερή επιφάνεια, σημείο καθαρισμού, στέγνωμα, φροντίδα κόψης, έλεγχος λαβής και αρχείο δανεισμού. Τα επικίνδυνα εργαλεία βγαίνουν πριν αρχίσει επείγουσα δουλειά.",
     "difficulty": "intermediate",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Hand-tool maintenance bench” entry.",
     "tags": [
       "tools",
       "maintenance",
@@ -2082,14 +2478,14 @@
     "materials_en": [
       "Stable bench",
       "Rags",
-      "Brush",
+      "Brush. Context: “Hand-tool maintenance bench”.",
       "Light oil if appropriate",
       "Tool log"
     ],
     "materials_el": [
       "Σταθερός πάγκος",
       "Πανιά",
-      "Βούρτσα",
+      "Βούρτσα. Πλαίσιο: «Πάγκος συντήρησης χειροεργαλείων».",
       "Ελαφρύ λάδι όπου ταιριάζει",
       "Αρχείο εργαλείων"
     ],
@@ -2140,12 +2536,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Hand-tool maintenance bench or when the next check happens.",
       "Supplies connected to Hand-tool maintenance bench are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation and starts creating new risk instead of reducing existing risk."
+      "The routine ignores fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation and starts creating new risk instead of reducing existing risk during “Hand-tool maintenance bench”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πάγκος συντήρησης χειροεργαλείων» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πάγκος συντήρησης χειροεργαλείων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πάγκος συντήρησης χειροεργαλείων»"
     ],
     "when_not_to_use_en": [
       "Do not use Hand-tool maintenance bench as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -2157,12 +2553,6 @@
       "Μη χρησιμοποιήσεις το «Πάγκος συντήρησης χειροεργαλείων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πάγκος συντήρησης χειροεργαλείων»."
     ],
-    "related_topics": [
-      "Seed viability towel test",
-      "Compost runoff and harvest hygiene boundary",
-      "Apprenticeship rotation board",
-      "Household water priority board"
-    ],
     "short_term_en": "For the first hours of Hand-tool maintenance bench, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πάγκος συντήρησης χειροεργαλείων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Hand-tool maintenance bench remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -2170,7 +2560,35 @@
     "if_method_fails_en": "If Hand-tool maintenance bench fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πάγκος συντήρησης χειροεργαλείων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Hand-tool maintenance bench to the real environment: check fire risk, carbon monoxide risk, tool condition, batteries, and safe isolation, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πάγκος συντήρησης χειροεργαλείων» στο πραγματικό περιβάλλον: έλεγξε κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πάγκος συντήρησης χειροεργαλείων» στο πραγματικό περιβάλλον: έλεγξε κίνδυνο φωτιάς, μονοξείδιο άνθρακα, κατάσταση εργαλείων, μπαταρίες και ασφαλή απομόνωση, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Seed viability towel test",
+      "Compost runoff and harvest hygiene boundary",
+      "Apprenticeship rotation board",
+      "Household water priority board"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Long-term · Rebuilding · Low-tech · Skills",
+    "category_el": "Μακροπρόθεσμα · ανασυγκρότηση · Χαμηλή τεχνολογία · δεξιότητες",
+    "subcategory_en": "Tool · Maintenance",
+    "subcategory_el": "εργαλείο · συντήρηση",
+    "related_topics_en": [
+      "Seed viability towel test",
+      "Compost runoff and harvest hygiene boundary",
+      "Apprenticeship rotation board",
+      "Household water priority board"
+    ],
+    "related_topics_el": [
+      "Δοκιμή βιωσιμότητας σπόρων με πετσέτα",
+      "Όριο απορροής κομπόστ και υγιεινής σοδειάς",
+      "Πίνακας κυκλικής μαθητείας",
+      "Πίνακας προτεραιότητας νερού σπιτιού"
+    ]
   },
   {
     "id": "pass90-0020",
@@ -2186,8 +2604,8 @@
     "difficulty": "basic",
     "urgency": "low",
     "priority": "medium",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Seed viability towel test” entry.",
     "tags": [
       "seeds",
       "agriculture",
@@ -2198,16 +2616,16 @@
     "materials_en": [
       "Small seed sample",
       "Clean damp paper or cloth",
-      "Label",
+      "Label. Context: “Seed viability towel test”.",
       "Plate or bag",
-      "Notebook"
+      "Notebook. Context: “Seed viability towel test”."
     ],
     "materials_el": [
       "Μικρό δείγμα σπόρων",
       "Καθαρό υγρό χαρτί ή πανί",
-      "Ετικέτα",
+      "Ετικέτα. Πλαίσιο: «Δοκιμή βιωσιμότητας σπόρων με πετσέτα».",
       "Πιάτο ή σακουλάκι",
-      "Τετράδιο"
+      "Τετράδιο. Πλαίσιο: «Δοκιμή βιωσιμότητας σπόρων με πετσέτα»."
     ],
     "steps_en": [
       "Choose a small counted sample.",
@@ -2256,12 +2674,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Seed viability towel test or when the next check happens.",
       "Supplies connected to Seed viability towel test are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Seed viability towel test”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Δοκιμή βιωσιμότητας σπόρων με πετσέτα» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Δοκιμή βιωσιμότητας σπόρων με πετσέτα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Δοκιμή βιωσιμότητας σπόρων με πετσέτα»"
     ],
     "when_not_to_use_en": [
       "Do not use Seed viability towel test as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -2273,12 +2691,6 @@
       "Μη χρησιμοποιήσεις το «Δοκιμή βιωσιμότητας σπόρων με πετσέτα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Δοκιμή βιωσιμότητας σπόρων με πετσέτα»."
     ],
-    "related_topics": [
-      "Hand-tool maintenance bench",
-      "Compost runoff and harvest hygiene boundary",
-      "Apprenticeship rotation board",
-      "Household water priority board"
-    ],
     "short_term_en": "For the first hours of Seed viability towel test, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Δοκιμή βιωσιμότητας σπόρων με πετσέτα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Seed viability towel test remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -2286,7 +2698,35 @@
     "if_method_fails_en": "If Seed viability towel test fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Δοκιμή βιωσιμότητας σπόρων με πετσέτα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Seed viability towel test to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Δοκιμή βιωσιμότητας σπόρων με πετσέτα» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Δοκιμή βιωσιμότητας σπόρων με πετσέτα» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Hand-tool maintenance bench",
+      "Compost runoff and harvest hygiene boundary",
+      "Apprenticeship rotation board",
+      "Household water priority board"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Long-term · Rebuilding · Low-tech · Skills",
+    "category_el": "Μακροπρόθεσμα · ανασυγκρότηση · Χαμηλή τεχνολογία · δεξιότητες",
+    "subcategory_en": "Seed · Saving",
+    "subcategory_el": "σπόροι · αποθήκευση",
+    "related_topics_en": [
+      "Hand-tool maintenance bench",
+      "Compost runoff and harvest hygiene boundary",
+      "Apprenticeship rotation board",
+      "Household water priority board"
+    ],
+    "related_topics_el": [
+      "Πάγκος συντήρησης χειροεργαλείων",
+      "Όριο απορροής κομπόστ και υγιεινής σοδειάς",
+      "Πίνακας κυκλικής μαθητείας",
+      "Πίνακας προτεραιότητας νερού σπιτιού"
+    ]
   },
   {
     "id": "pass90-0021",
@@ -2302,8 +2742,8 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Compost runoff and harvest hygiene boundary” entry.",
     "tags": [
       "compost",
       "garden",
@@ -2313,16 +2753,16 @@
     ],
     "materials_en": [
       "Compost boundary",
-      "Gloves if available",
+      "Gloves if available. Context: “Compost runoff and harvest hygiene boundary”.",
       "Handwashing station",
-      "Cover material",
+      "Cover material. Context: “Compost runoff and harvest hygiene boundary”.",
       "Pest barrier"
     ],
     "materials_el": [
       "Όριο κομπόστ",
-      "Γάντια αν υπάρχουν",
-      "Σταθμός πλυσίματος",
-      "Υλικό κάλυψης",
+      "Γάντια αν υπάρχουν. Πλαίσιο: «Όριο απορροής κομπόστ και υγιεινής σοδειάς».",
+      "Σταθμός πλυσίματος. Πλαίσιο: «Όριο απορροής κομπόστ και υγιεινής σοδειάς».",
+      "Υλικό κάλυψης. Πλαίσιο: «Όριο απορροής κομπόστ και υγιεινής σοδειάς».",
       "Φράγμα παρασίτων"
     ],
     "steps_en": [
@@ -2372,12 +2812,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Compost runoff and harvest hygiene boundary or when the next check happens.",
       "Supplies connected to Compost runoff and harvest hygiene boundary are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Compost runoff and harvest hygiene boundary”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Όριο απορροής κομπόστ και υγιεινής σοδειάς» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Όριο απορροής κομπόστ και υγιεινής σοδειάς» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Όριο απορροής κομπόστ και υγιεινής σοδειάς»"
     ],
     "when_not_to_use_en": [
       "Do not use Compost runoff and harvest hygiene boundary as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -2389,12 +2829,6 @@
       "Μη χρησιμοποιήσεις το «Όριο απορροής κομπόστ και υγιεινής σοδειάς» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Όριο απορροής κομπόστ και υγιεινής σοδειάς»."
     ],
-    "related_topics": [
-      "Hand-tool maintenance bench",
-      "Seed viability towel test",
-      "Apprenticeship rotation board",
-      "Household water priority board"
-    ],
     "short_term_en": "For the first hours of Compost runoff and harvest hygiene boundary, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Όριο απορροής κομπόστ και υγιεινής σοδειάς», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Compost runoff and harvest hygiene boundary remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -2402,7 +2836,35 @@
     "if_method_fails_en": "If Compost runoff and harvest hygiene boundary fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Όριο απορροής κομπόστ και υγιεινής σοδειάς», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Compost runoff and harvest hygiene boundary to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Όριο απορροής κομπόστ και υγιεινής σοδειάς» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Όριο απορροής κομπόστ και υγιεινής σοδειάς» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Hand-tool maintenance bench",
+      "Seed viability towel test",
+      "Apprenticeship rotation board",
+      "Household water priority board"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Long-term · Rebuilding · Low-tech · Skills",
+    "category_el": "Μακροπρόθεσμα · ανασυγκρότηση · Χαμηλή τεχνολογία · δεξιότητες",
+    "subcategory_en": "Compost · Safety",
+    "subcategory_el": "κομπόστ · ασφάλεια",
+    "related_topics_en": [
+      "Hand-tool maintenance bench",
+      "Seed viability towel test",
+      "Apprenticeship rotation board",
+      "Household water priority board"
+    ],
+    "related_topics_el": [
+      "Πάγκος συντήρησης χειροεργαλείων",
+      "Δοκιμή βιωσιμότητας σπόρων με πετσέτα",
+      "Πίνακας κυκλικής μαθητείας",
+      "Πίνακας προτεραιότητας νερού σπιτιού"
+    ]
   },
   {
     "id": "pass90-0022",
@@ -2418,8 +2880,8 @@
     "difficulty": "intermediate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Apprenticeship rotation board” entry.",
     "tags": [
       "training",
       "skills",
@@ -2429,14 +2891,14 @@
     ],
     "materials_en": [
       "Training board",
-      "Task list",
+      "Task list. Context: “Apprenticeship rotation board”.",
       "Safety notes",
       "Practice schedule",
       "Sign-off column"
     ],
     "materials_el": [
       "Πίνακας εκπαίδευσης",
-      "Λίστα εργασιών",
+      "Λίστα εργασιών. Πλαίσιο: «Πίνακας κυκλικής μαθητείας».",
       "Σημειώσεις ασφάλειας",
       "Πρόγραμμα πρακτικής",
       "Στήλη έγκρισης"
@@ -2457,7 +2919,7 @@
     ],
     "warnings_en": [
       "Do not train dangerous electrical, gas, medical, structural, or chemical work beyond competence.",
-      "Do not shame slow learners.",
+      "Do not shame slow learners. Treat this as a specific boundary while managing “Apprenticeship rotation board”.",
       "Do not let training interrupt urgent safety needs."
     ],
     "warnings_el": [
@@ -2488,12 +2950,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Apprenticeship rotation board or when the next check happens.",
       "Supplies connected to Apprenticeship rotation board are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Apprenticeship rotation board”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πίνακας κυκλικής μαθητείας» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πίνακας κυκλικής μαθητείας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πίνακας κυκλικής μαθητείας»"
     ],
     "when_not_to_use_en": [
       "Do not use Apprenticeship rotation board as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -2505,12 +2967,6 @@
       "Μη χρησιμοποιήσεις το «Πίνακας κυκλικής μαθητείας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πίνακας κυκλικής μαθητείας»."
     ],
-    "related_topics": [
-      "Hand-tool maintenance bench",
-      "Seed viability towel test",
-      "Compost runoff and harvest hygiene boundary",
-      "Household water priority board"
-    ],
     "short_term_en": "For the first hours of Apprenticeship rotation board, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πίνακας κυκλικής μαθητείας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Apprenticeship rotation board remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -2518,7 +2974,35 @@
     "if_method_fails_en": "If Apprenticeship rotation board fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πίνακας κυκλικής μαθητείας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Apprenticeship rotation board to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πίνακας κυκλικής μαθητείας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πίνακας κυκλικής μαθητείας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Hand-tool maintenance bench",
+      "Seed viability towel test",
+      "Compost runoff and harvest hygiene boundary",
+      "Household water priority board"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Long-term · Rebuilding · Low-tech · Skills",
+    "category_el": "Μακροπρόθεσμα · ανασυγκρότηση · Χαμηλή τεχνολογία · δεξιότητες",
+    "subcategory_en": "Skills · Training",
+    "subcategory_el": "δεξιότητες · εκπαίδευση",
+    "related_topics_en": [
+      "Hand-tool maintenance bench",
+      "Seed viability towel test",
+      "Compost runoff and harvest hygiene boundary",
+      "Household water priority board"
+    ],
+    "related_topics_el": [
+      "Πάγκος συντήρησης χειροεργαλείων",
+      "Δοκιμή βιωσιμότητας σπόρων με πετσέτα",
+      "Όριο απορροής κομπόστ και υγιεινής σοδειάς",
+      "Πίνακας προτεραιότητας νερού σπιτιού"
+    ]
   },
   {
     "id": "pass90-0023",
@@ -2534,8 +3018,8 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "medium",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Balcony garden wind safety” entry.",
     "tags": [
       "balcony",
       "garden",
@@ -2604,12 +3088,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Balcony garden wind safety or when the next check happens.",
       "Supplies connected to Balcony garden wind safety are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores shelter safety, weather exposure, ventilation, dry clothing, and exit routes and starts creating new risk instead of reducing existing risk."
+      "The routine ignores shelter safety, weather exposure, ventilation, dry clothing, and exit routes and starts creating new risk instead of reducing existing risk during “Balcony garden wind safety”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ασφάλεια μπαλκονιού με φυτά στον αέρα» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Ασφάλεια μπαλκονιού με φυτά στον αέρα» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Ασφάλεια μπαλκονιού με φυτά στον αέρα»"
     ],
     "when_not_to_use_en": [
       "Do not use Balcony garden wind safety as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -2621,12 +3105,6 @@
       "Μη χρησιμοποιήσεις το «Ασφάλεια μπαλκονιού με φυτά στον αέρα» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ασφάλεια μπαλκονιού με φυτά στον αέρα»."
     ],
-    "related_topics": [
-      "Greek summer noon work pause",
-      "Household water priority board",
-      "Boil advisory kitchen routine",
-      "Emergency handwashing station"
-    ],
     "short_term_en": "For the first hours of Balcony garden wind safety, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Ασφάλεια μπαλκονιού με φυτά στον αέρα», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Balcony garden wind safety remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -2634,7 +3112,35 @@
     "if_method_fails_en": "If Balcony garden wind safety fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Ασφάλεια μπαλκονιού με φυτά στον αέρα», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Balcony garden wind safety to the real environment: check shelter safety, weather exposure, ventilation, dry clothing, and exit routes, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Ασφάλεια μπαλκονιού με φυτά στον αέρα» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Ασφάλεια μπαλκονιού με φυτά στον αέρα» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια καταφυγίου, έκθεση στον καιρό, αερισμό, στεγνά ρούχα και διαδρομές εξόδου, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Greek summer noon work pause",
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Greece · Mediterranean · Apartment · Resilience",
+    "category_el": "Ελλάδα · μεσογειακό · διαμέρισμα · ανθεκτικότητα",
+    "subcategory_en": "Balcony · Garden",
+    "subcategory_el": "μπαλκόνι · κήπος",
+    "related_topics_en": [
+      "Greek summer noon work pause",
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station"
+    ],
+    "related_topics_el": [
+      "Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι",
+      "Πίνακας προτεραιότητας νερού σπιτιού",
+      "Ρουτίνα κουζίνας σε οδηγία βρασμού νερού",
+      "Σταθμός πλυσίματος χεριών έκτακτης ανάγκης"
+    ]
   },
   {
     "id": "pass90-0024",
@@ -2646,12 +3152,12 @@
     "summary_en": "A work-rest rule that moves heavy outdoor tasks away from dangerous heat and makes water, shade, and buddy checks mandatory.",
     "summary_el": "Κανόνας δουλειάς-ξεκούρασης που μεταφέρει βαριές εξωτερικές εργασίες μακριά από επικίνδυνη ζέστη και κάνει νερό, σκιά και ζευγάρια υποχρεωτικά.",
     "content_en": "Survival work can create its own emergency when people dig, carry, repair, or walk during peak Greek summer heat. Heavy work moves to early morning or evening, nobody works alone in heat, water and shade are part of the job, and symptoms are stop signs, not weakness.",
-    "content_el": "Η δουλειά επιβίωσης μπορεί να φτιάξει δικό της επείγον όταν άνθρωποι σκάβουν, κουβαλούν, επισκευάζουν ή περπατούν στην κορύφωση του ελληνικού καλοκαιριού. Βαριές δουλειές πάνε πρωί ή βράδυ, κανείς δεν δουλεύει μόνος στη ζέστη, νερό και σκιά είναι μέρος της δουλειάς και τα συμπτώματα είναι σήμα stop, όχι αδυναμία.",
+    "content_el": "Η δουλειά επιβίωσης μπορεί να φτιάξει δικό της επείγον όταν άνθρωποι σκάβουν, κουβαλούν, επισκευάζουν ή περπατούν στην κορύφωση του ελληνικού καλοκαιριού. Βαριές δουλειές πάνε πρωί ή βράδυ, κανείς δεν δουλεύει μόνος στη ζέστη, νερό και σκιά είναι μέρος της δουλειάς και τα συμπτώματα είναι σήμα στάση, όχι αδυναμία.",
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-05-28",
-    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass90 deep bilingual expansion: practical original guidance added after full project audit. This note applies specifically to the “Greek summer noon work pause” entry.",
     "tags": [
       "heat",
       "work rest",
@@ -2663,7 +3169,7 @@
       "Work schedule",
       "Water plan",
       "Shade marker",
-      "Buddy list",
+      "Buddy list. Context: “Greek summer noon work pause”.",
       "Symptom card"
     ],
     "materials_el": [
@@ -2720,12 +3226,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Greek summer noon work pause or when the next check happens.",
       "Supplies connected to Greek summer noon work pause are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Greek summer noon work pause”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι»"
     ],
     "when_not_to_use_en": [
       "Do not use Greek summer noon work pause as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -2737,12 +3243,6 @@
       "Μη χρησιμοποιήσεις το «Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι»."
     ],
-    "related_topics": [
-      "Balcony garden wind safety",
-      "Household water priority board",
-      "Boil advisory kitchen routine",
-      "Emergency handwashing station"
-    ],
     "short_term_en": "For the first hours of Greek summer noon work pause, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Greek summer noon work pause remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -2750,6 +3250,34 @@
     "if_method_fails_en": "If Greek summer noon work pause fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Greek summer noon work pause to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Παύση μεσημεριανής δουλειάς στο ελληνικό καλοκαίρι» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Balcony garden wind safety",
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Greece · Mediterranean · Apartment · Resilience",
+    "category_el": "Ελλάδα · μεσογειακό · διαμέρισμα · ανθεκτικότητα",
+    "subcategory_en": "Heat · Work · Planning",
+    "subcategory_el": "ζέστη · εργασία · σχεδιασμός",
+    "related_topics_en": [
+      "Balcony garden wind safety",
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station"
+    ],
+    "related_topics_el": [
+      "Ασφάλεια μπαλκονιού με φυτά στον αέρα",
+      "Πίνακας προτεραιότητας νερού σπιτιού",
+      "Ρουτίνα κουζίνας σε οδηγία βρασμού νερού",
+      "Σταθμός πλυσίματος χεριών έκτακτης ανάγκης"
+    ]
   }
 ]

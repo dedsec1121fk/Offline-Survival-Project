@@ -1,0 +1,34 @@
+Offline Survival — Pass 100
+Date: 19 June 2026
+
+Structural continuity, unsafe-water, accessibility, digital-resilience, animal,
+exposure, and recovery expansion.
+
+Current database:
+- 1,712 bilingual entries
+- 74 JSON files
+- 144 categories
+- 48 consistent fields per entry
+- complete English/Greek required pairs
+- source lists present for every entry
+- verified SQLite full-text search index covering every record
+
+Pass 100 additions:
+- 30 new bilingual field cards
+- collapse, entrapment, damaged-building, missing-person, and reunification procedures
+- landslide, debris-flow, hail, destructive-wind, and whiteout decisions
+- differentiated water advisories, infant feeding, infant hygiene, and flooded-well recovery
+- wheelchair, sensory, hearing-device, oxygen, and dialysis continuity
+- cash, documents, evidence, ransomware, and lost-phone recovery
+- service animals, livestock, marine stings, mushroom exposure, and safe return home
+- corrected explicit language selection on a fresh first launch and graceful end-of-input exit
+
+Strict release audit result:
+- duplicate IDs or topics: 0
+- exact repeated core text: 0
+- missing or unequal bilingual pairs: 0
+- English leakage in Greek fields: 0
+- semantic mismatch flags: 0
+- shallow entries: 0
+- entries without sources: 0
+- JSON load errors: 0

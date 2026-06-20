@@ -1,35 +1,40 @@
-Offline Survival Pass92 audit report — 2026-05-28
+OFFLINE SURVIVAL — PASS 100 STRICT AUDIT
+Date: 19 June 2026
 
-Scope:
-- Files checked: 182
-- Text lines scanned: 165805
-- JSON database files: 67
-- Loaded knowledge entries: 1373
-- Modified database files: 27
-- Missing fields added: 3036
-- Empty fields filled: 3192
+Database
+- Entries: 1,712
+- JSON files: 74
+- Categories: 144
+- Fields per record: 48
+- New Pass 100 cards: 30
+- Search-index records: 1712
+- Database signature: 948f7c4627a1ac5cb4f2c3f246d3b4487b35c780bca13d324de98701c87b248e
 
-Fixes applied:
-- Added missing modern schema fields to older entries where they were absent.
-- Filled empty mistakes fields in older Pass81 files.
-- Filled empty related_topics in Pass90 and Pass91.
-- Kept English and Greek paired for every added field.
-- Rewrote affected JSON files with UTF-8 and stable indentation.
-- Updated README, OFFICIAL_SAFETY_SOURCES.md, latest audit JSON, and update log.
+Audit results
+- duplicate_ids: 0
+- duplicate_topics: 0
+- duplicate_topics_el: 0
+- duplicate_blocks: 0
+- repeated_core_text: 0
+- missing_pairs: 0
+- ascii_leaks: 0
+- legacy_template_flags: 0
+- semantic_mismatches: 0
+- shallow_entries: 0
+- sources_missing: 0
+- placeholder_topics: 0
+- load_errors: 0
 
-Validation:
-- JSON errors: 0
-- Duplicate IDs: 0
-- Duplicate normalized topics: 0
-- Duplicate content signatures: 0
-- Missing expected schema fields: 0
-- Empty expected schema fields: 0
-- One-sided English/Greek translation pairs: 0
-- Greek low-signal fields: 0
-- Placeholder-like database hits: 0
-- Offline Survival.py syntax check passed: True
+Functional validation
+- Python compilation: passed
+- Terminal startup and exit: passed
+- Guided emergency packs: passed
+- Greek urgent helper: passed
+- English and accent-insensitive Greek search: passed
+- Local browser page and API routes: passed
+- Embedded JavaScript syntax: passed
 
-Notes:
-- The browser search input still uses an HTML placeholder attribute; this is UI behavior, not database placeholder text.
-- No existing knowledge entries were deleted.
-- Safety-sensitive wording remains defensive, civilian, non-diagnostic, and non-weaponized.
+Interpretation
+Zero repeated core text means no complete core instruction, paragraph, warning,
+or list item is exactly copied between different records. Necessary emergency
+terms, numbers, source links, and short labels may recur where accuracy requires.

@@ -1,0 +1,63 @@
+{
+  "release": "Pass 98",
+  "date": "2026-06-18",
+  "entries": 1682,
+  "json_files": 73,
+  "categories": 138,
+  "schema_variants": 1,
+  "minimum_fields": 42,
+  "maximum_fields": 42,
+  "duplicate_ids": 0,
+  "duplicate_topics_en": 0,
+  "duplicate_topics_el": 0,
+  "duplicate_blocks": 0,
+  "repeated_core_text": 0,
+  "missing_pairs": 0,
+  "unequal_pair_lengths": 0,
+  "empty_bilingual_items": 0,
+  "ascii_leaks_in_greek_fields": 0,
+  "legacy_template_flags": 0,
+  "semantic_mismatches": 0,
+  "shallow_entries": 0,
+  "awkward_greek_phrase_flags": 0,
+  "load_errors": 0,
+  "python_compile_ok": true,
+  "app_store_entries": 1682,
+  "english_search_results": 6,
+  "greek_accentless_search_results": 1,
+  "new_pack_search_results": 87,
+  "app_audit_counts": {
+    "duplicate_ids": 0,
+    "duplicate_topics": 0,
+    "duplicate_blocks": 0,
+    "repeated_core_text": 0,
+    "missing_pairs": 0,
+    "ascii_leaks": 0,
+    "legacy_template_flags": 0,
+    "semantic_mismatches": 0,
+    "shallow_entries": 0,
+    "load_errors": 0
+  },
+  "terminal_exit_test": {
+    "ok": true,
+    "returncode": 0,
+    "needle": "What is happening now?"
+  },
+  "terminal_helper_test": {
+    "ok": true,
+    "returncode": 0,
+    "needle": "Immediate danger or someone seriously unwell"
+  },
+  "terminal_pack_test": {
+    "ok": true,
+    "returncode": 0,
+    "needle": "First 30 minutes"
+  },
+  "browser_page_ok": true,
+  "api_meta_ok": true,
+  "api_greek_search_ok": true,
+  "api_new_entry_ok": true,
+  "api_pass98_log_ok": true,
+  "all_content_checks_pass": true,
+  "all_functional_checks_pass": true
+}

@@ -1,0 +1,33 @@
+Offline Survival Pass 98 — Accessibility, Continuity, Recovery, and Usability Audit
+Date: 2026-06-18
+
+Database entries: 1,682
+JSON files: 73
+Categories: 138
+Fields per record: 42–42
+Schema variants: 1
+
+Duplicate IDs: 0
+Duplicate English topics: 0
+Duplicate Greek topics: 0
+Exact duplicate long blocks: 0
+Exact repeated core text: 0
+Missing bilingual pairs: 0
+Unequal bilingual list lengths: 0
+Reviewable English leakage in Greek fields: 0
+Legacy generic-template flags: 0
+Known semantic mismatches: 0
+Shallow entries: 0
+JSON load errors: 0
+
+Python compile: PASS
+English search: PASS
+Accent-insensitive Greek search: PASS
+Terminal launch and exit: PASS
+“What is happening now?” helper: PASS
+Guided packs: PASS
+Local browser page: PASS
+API metadata/search/entry/log routes: PASS
+
+Content checks: PASS
+Functional checks: PASS

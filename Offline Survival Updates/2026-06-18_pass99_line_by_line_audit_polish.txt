@@ -1,0 +1,113 @@
+OFFLINE SURVIVAL — PASS 99
+LINE-BY-LINE AUDIT, TRANSLATION, SEARCH, AND USABILITY POLISH
+================================================================
+Date: 18 June 2026
+
+ENGLISH
+-------
+Pass 99 rechecked every JSON record and every public project file. It preserves
+all 1,682 records while correcting inherited template wording, localized
+metadata, source coverage, duplicate detection, mobile navigation, and search
+performance.
+
+Database work:
+- 73 JSON files and 1,682 records loaded successfully.
+- One 48-field schema is used across every record.
+- All required English/Greek scalar and list pairs are present and aligned.
+- 1,224 inherited broad-template records were rebuilt conservatively.
+- 458 already subject-specific records were preserved.
+- 36 numbered placeholder titles were renamed with useful bilingual topics.
+- Category, subcategory, and related-topic English/Greek fields were added.
+- Every entry now has a source list.
+- Six obsolete Ready.gov disability links were corrected to the current page.
+- Awkward action fragments, doubled topic suffixes, unknown related-topic
+  placeholders, and known domain-classification errors were corrected.
+
+Application work:
+- Added a bundled SQLite full-text index verified against the JSON database.
+- English and accent-free Greek deep searches are now effectively immediate.
+- Greek mode now localizes categories, subcategories, related topics, browser
+  filters, and statistics.
+- Terminal pages show 25 results instead of 60.
+- Added direct access to the official safety-source guide.
+- Expanded the integrity audit with Greek-topic, source, placeholder, shallow,
+  template, semantic, and exact-repetition checks.
+- Improved browser metadata refresh when changing language.
+
+Release validation:
+- duplicate IDs: 0
+- duplicate English topics: 0
+- duplicate Greek topics: 0
+- exact repeated core items across records: 0
+- duplicate record bodies: 0
+- missing translation pairs: 0
+- unequal bilingual list lengths: 0
+- reviewable English leakage in Greek fields: 0
+- entries without sources: 0
+- placeholder topics: 0
+- shallow entries: 0
+- semantic mismatch flags: 0
+- JSON load errors: 0
+
+The audit cannot prove universal factual perfection. Official instructions,
+local authorities, and qualified professionals override the offline guide.
+Common emergency terms and safety boundaries may recur where accuracy requires
+consistent wording; accidental complete duplicate instructions do not.
+
+ΕΛΛΗΝΙΚΑ
+--------
+Η Έκδοση 99 επανέλεγξε κάθε εγγραφή JSON και κάθε δημόσιο αρχείο του έργου.
+Διατηρεί και τις 1.682 εγγραφές, ενώ διορθώνει παλαιότερη γενική διατύπωση,
+τοπικοποιημένα μεταδεδομένα, κάλυψη πηγών, εντοπισμό διπλοτύπων, πλοήγηση σε
+κινητό και ταχύτητα αναζήτησης.
+
+Εργασία στη βάση:
+- Φορτώθηκαν σωστά 73 αρχεία JSON και 1.682 εγγραφές.
+- Κάθε εγγραφή χρησιμοποιεί το ίδιο σχήμα 48 πεδίων.
+- Όλα τα απαραίτητα αγγλικά/ελληνικά πεδία και οι λίστες είναι συμπληρωμένα και
+  ευθυγραμμισμένα.
+- Αναδομήθηκαν συντηρητικά 1.224 εγγραφές με παλαιότερο γενικό πρότυπο.
+- Διατηρήθηκαν 458 ήδη εξειδικευμένες εγγραφές.
+- Μετονομάστηκαν 36 αριθμημένοι προσωρινοί τίτλοι.
+- Προστέθηκαν αγγλικά/ελληνικά πεδία κατηγορίας, υποκατηγορίας και σχετικών
+  θεμάτων.
+- Κάθε εγγραφή διαθέτει πλέον λίστα πηγών.
+- Διορθώθηκαν έξι παλιοί σύνδεσμοι προσβασιμότητας του Ready.gov.
+- Διορθώθηκαν αδέξια τμήματα φράσεων, διπλές καταλήξεις θέματος, άγνωστες
+  μεταφράσεις σχετικών θεμάτων και γνωστά λάθη ταξινόμησης τομέα.
+
+Εργασία στην εφαρμογή:
+- Προστέθηκε ευρετήριο πλήρους κειμένου SQLite που επαληθεύεται με τη βάση JSON.
+- Η βαθιά αναζήτηση στα αγγλικά και στα ελληνικά χωρίς τόνους είναι πλέον άμεση.
+- Η ελληνική λειτουργία τοπικοποιεί κατηγορίες, υποκατηγορίες, σχετικά θέματα,
+  φίλτρα περιήγησης και στατιστικά.
+- Οι σελίδες τερματικού εμφανίζουν 25 αποτελέσματα αντί για 60.
+- Προστέθηκε άμεση πρόσβαση στον οδηγό επίσημων πηγών ασφάλειας.
+- Επεκτάθηκε ο έλεγχος ακεραιότητας.
+
+Ο έλεγχος δεν μπορεί να αποδείξει καθολική πραγματολογική τελειότητα. Οι
+επίσημες οδηγίες, οι τοπικές αρχές και οι ειδικευμένοι επαγγελματίες
+υπερισχύουν του οδηγού χωρίς σύνδεση. Αναγκαίοι όροι και όρια ασφάλειας μπορούν
+να επαναλαμβάνονται για λόγους ακρίβειας· δεν υπάρχουν ακούσια πλήρως
+διπλότυπες οδηγίες μεταξύ εγγραφών.
+
+FINAL LINE-BY-LINE CORRECTIONS
+------------------------------
+The last independent audit found and corrected six records that still carried
+an unrelated human-medical template: childcare quiet hour, hand-tool edge care,
+manual-pump maintenance, power-bank cold-weather care, a shared foot-care
+station, and foot care during long walking. Their complete English and Greek
+procedures, materials, warnings, alternatives, failure signs, stop rules, and
+sources were rebuilt. Four generic Greek related-topic placeholders were also
+replaced. The final strict cross-record repetition and semantic audits return
+zero findings.
+
+ΤΕΛΙΚΕΣ ΔΙΟΡΘΩΣΕΙΣ ΓΡΑΜΜΗ ΠΡΟΣ ΓΡΑΜΜΗ
+--------------------------------------
+Ο τελευταίος ανεξάρτητος έλεγχος εντόπισε και διόρθωσε έξι εγγραφές που είχαν
+ακόμη άσχετο ιατρικό πρότυπο: ήσυχη ώρα παιδιών, φροντίδα κόψης εργαλείων,
+συντήρηση χειροκίνητης αντλίας, φορητός φορτιστής σε κρύο, κοινόχρηστος σταθμός
+ποδιών και φροντίδα ποδιών σε πολύωρο περπάτημα. Αναδομήθηκαν πλήρως και στις
+δύο γλώσσες. Διορθώθηκαν επίσης τέσσερις γενικές μεταφράσεις σχετικών θεμάτων.
+Οι τελικοί αυστηροί έλεγχοι επανάληψης και σημασιολογικής αντιστοίχισης δεν
+επιστρέφουν κανένα εύρημα.

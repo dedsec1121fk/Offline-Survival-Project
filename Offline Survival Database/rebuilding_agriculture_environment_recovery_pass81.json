@@ -13,26 +13,26 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Seed storage dry box” entry.",
     "tags": [
       "seeds",
       "storage",
       "agriculture"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Seed storage dry box”.",
+      "Pencil. Context: “Seed storage dry box”.",
+      "Labels. Context: “Seed storage dry box”.",
+      "Dry storage. Context: “Seed storage dry box”.",
+      "Basic hand tools if relevant — for «Seed storage dry box»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Στεγνό κουτί αποθήκευσης σπόρων».",
+      "Μολύβι. Πλαίσιο: «Στεγνό κουτί αποθήκευσης σπόρων».",
+      "Ετικέτες. Πλαίσιο: «Στεγνό κουτί αποθήκευσης σπόρων».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Στεγνό κουτί αποθήκευσης σπόρων».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Στεγνό κουτί αποθήκευσης σπόρων»"
     ],
     "steps_en": [
       "Dry seeds fully before storage.",
@@ -79,12 +79,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Seed storage dry box or when the next check happens.",
       "Supplies connected to Seed storage dry box are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Seed storage dry box”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Στεγνό κουτί αποθήκευσης σπόρων» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Στεγνό κουτί αποθήκευσης σπόρων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Στεγνό κουτί αποθήκευσης σπόρων»"
     ],
     "when_not_to_use_en": [
       "Do not use Seed storage dry box as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -96,9 +96,6 @@
       "Μη χρησιμοποιήσεις το «Στεγνό κουτί αποθήκευσης σπόρων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Στεγνό κουτί αποθήκευσης σπόρων»."
     ],
-    "related_topics": [
-      "Seed and crop notebook"
-    ],
     "short_term_en": "For the first hours of Seed storage dry box, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Στεγνό κουτί αποθήκευσης σπόρων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Seed storage dry box remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -106,7 +103,26 @@
     "if_method_fails_en": "If Seed storage dry box fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Στεγνό κουτί αποθήκευσης σπόρων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Seed storage dry box to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Στεγνό κουτί αποθήκευσης σπόρων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Στεγνό κουτί αποθήκευσης σπόρων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Seed and crop notebook"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Seed · Saving",
+    "subcategory_el": "σπόροι · αποθήκευση",
+    "related_topics_en": [
+      "Seed and crop notebook"
+    ],
+    "related_topics_el": [
+      "Τετράδιο σπόρων και καλλιεργειών"
+    ]
   },
   {
     "id": "pass81-rebuild-002",
@@ -122,26 +138,26 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Compost safety boundaries” entry.",
     "tags": [
       "compost",
       "soil",
       "waste"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Compost safety boundaries”.",
+      "Pencil. Context: “Compost safety boundaries”.",
+      "Labels. Context: “Compost safety boundaries”.",
+      "Dry storage. Context: “Compost safety boundaries”.",
+      "Basic hand tools if relevant — for «Compost safety boundaries»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Όρια ασφάλειας κομπόστ».",
+      "Μολύβι. Πλαίσιο: «Όρια ασφάλειας κομπόστ».",
+      "Ετικέτες. Πλαίσιο: «Όρια ασφάλειας κομπόστ».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Όρια ασφάλειας κομπόστ».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Όρια ασφάλειας κομπόστ»"
     ],
     "steps_en": [
       "Choose a site away from water and food areas.",
@@ -188,12 +204,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Compost safety boundaries or when the next check happens.",
       "Supplies connected to Compost safety boundaries are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Compost safety boundaries”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Όρια ασφάλειας κομπόστ» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Όρια ασφάλειας κομπόστ» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Όρια ασφάλειας κομπόστ»"
     ],
     "when_not_to_use_en": [
       "Do not use Compost safety boundaries as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -205,10 +221,6 @@
       "Μη χρησιμοποιήσεις το «Όρια ασφάλειας κομπόστ» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Όρια ασφάλειας κομπόστ»."
     ],
-    "related_topics": [
-      "Community sanitation corner",
-      "Household pest prevention without poison"
-    ],
     "short_term_en": "For the first hours of Compost safety boundaries, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Όρια ασφάλειας κομπόστ», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Compost safety boundaries remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -216,7 +228,29 @@
     "if_method_fails_en": "If Compost safety boundaries fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Όρια ασφάλειας κομπόστ», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Compost safety boundaries to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Όρια ασφάλειας κομπόστ» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Όρια ασφάλειας κομπόστ» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Community sanitation corner",
+      "Household pest prevention without poison"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Soil · Waste",
+    "subcategory_el": "έδαφος · απόβλητα",
+    "related_topics_en": [
+      "Community sanitation corner",
+      "Household pest prevention without poison"
+    ],
+    "related_topics_el": [
+      "Γωνία υγιεινής κοινότητας",
+      "Πρόληψη παρασίτων στο σπίτι χωρίς δηλητήριο"
+    ]
   },
   {
     "id": "pass81-rebuild-003",
@@ -232,26 +266,26 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Small tool safety routine” entry.",
     "tags": [
       "tools",
       "safety",
       "repair"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Small tool safety routine”.",
+      "Pencil. Context: “Small tool safety routine”.",
+      "Labels. Context: “Small tool safety routine”.",
+      "Dry storage. Context: “Small tool safety routine”.",
+      "Basic hand tools if relevant — for «Small tool safety routine»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Ρουτίνα ασφάλειας μικρών εργαλείων».",
+      "Μολύβι. Πλαίσιο: «Ρουτίνα ασφάλειας μικρών εργαλείων».",
+      "Ετικέτες. Πλαίσιο: «Ρουτίνα ασφάλειας μικρών εργαλείων».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Ρουτίνα ασφάλειας μικρών εργαλείων».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Ρουτίνα ασφάλειας μικρών εργαλείων»"
     ],
     "steps_en": [
       "Inspect handles and edges before work.",
@@ -298,12 +332,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Small tool safety routine or when the next check happens.",
       "Supplies connected to Small tool safety routine are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Small tool safety routine”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ρουτίνα ασφάλειας μικρών εργαλείων» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Ρουτίνα ασφάλειας μικρών εργαλείων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Ρουτίνα ασφάλειας μικρών εργαλείων»"
     ],
     "when_not_to_use_en": [
       "Do not use Small tool safety routine as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -315,9 +349,6 @@
       "Μη χρησιμοποιήσεις το «Ρουτίνα ασφάλειας μικρών εργαλείων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ρουτίνα ασφάλειας μικρών εργαλείων»."
     ],
-    "related_topics": [
-      "Tool repair triage board"
-    ],
     "short_term_en": "For the first hours of Small tool safety routine, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Ρουτίνα ασφάλειας μικρών εργαλείων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Small tool safety routine remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -325,7 +356,26 @@
     "if_method_fails_en": "If Small tool safety routine fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Ρουτίνα ασφάλειας μικρών εργαλείων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Small tool safety routine to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα ασφάλειας μικρών εργαλείων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Ρουτίνα ασφάλειας μικρών εργαλείων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Tool repair triage board"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Tool · Safety",
+    "subcategory_el": "εργαλείο · ασφάλεια",
+    "related_topics_en": [
+      "Tool repair triage board"
+    ],
+    "related_topics_el": [
+      "Πίνακας προτεραιότητας επισκευής εργαλείων"
+    ]
   },
   {
     "id": "pass81-rebuild-004",
@@ -341,26 +391,26 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Low-water laundry priority” entry.",
     "tags": [
       "laundry",
       "hygiene",
       "water"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Low-water laundry priority”.",
+      "Pencil. Context: “Low-water laundry priority”.",
+      "Labels. Context: “Low-water laundry priority”.",
+      "Dry storage. Context: “Low-water laundry priority”.",
+      "Basic hand tools if relevant — for «Low-water laundry priority»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Προτεραιότητα πλυσίματος με λίγο νερό».",
+      "Μολύβι. Πλαίσιο: «Προτεραιότητα πλυσίματος με λίγο νερό».",
+      "Ετικέτες. Πλαίσιο: «Προτεραιότητα πλυσίματος με λίγο νερό».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Προτεραιότητα πλυσίματος με λίγο νερό».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Προτεραιότητα πλυσίματος με λίγο νερό»"
     ],
     "steps_en": [
       "Sort by health priority, not appearance.",
@@ -407,12 +457,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Low-water laundry priority or when the next check happens.",
       "Supplies connected to Low-water laundry priority are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Low-water laundry priority”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Προτεραιότητα πλυσίματος με λίγο νερό» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Προτεραιότητα πλυσίματος με λίγο νερό» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Προτεραιότητα πλυσίματος με λίγο νερό»"
     ],
     "when_not_to_use_en": [
       "Do not use Low-water laundry priority as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -424,9 +474,6 @@
       "Μη χρησιμοποιήσεις το «Προτεραιότητα πλυσίματος με λίγο νερό» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Προτεραιότητα πλυσίματος με λίγο νερό»."
     ],
-    "related_topics": [
-      "Two-bucket handwashing station"
-    ],
     "short_term_en": "For the first hours of Low-water laundry priority, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Προτεραιότητα πλυσίματος με λίγο νερό», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Low-water laundry priority remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -434,7 +481,26 @@
     "if_method_fails_en": "If Low-water laundry priority fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Προτεραιότητα πλυσίματος με λίγο νερό», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Low-water laundry priority to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Προτεραιότητα πλυσίματος με λίγο νερό» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Προτεραιότητα πλυσίματος με λίγο νερό» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Two-bucket handwashing station"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Clothing · Hygiene",
+    "subcategory_el": "ρουχισμός · υγιεινή",
+    "related_topics_en": [
+      "Two-bucket handwashing station"
+    ],
+    "related_topics_el": [
+      "Σταθμός πλυσίματος χεριών με δύο κουβάδες"
+    ]
   },
   {
     "id": "pass81-rebuild-005",
@@ -450,26 +516,26 @@
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Mold prevention after dampness” entry.",
     "tags": [
       "mold",
       "damp",
       "shelter"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Mold prevention after dampness”.",
+      "Pencil. Context: “Mold prevention after dampness”.",
+      "Labels. Context: “Mold prevention after dampness”.",
+      "Dry storage. Context: “Mold prevention after dampness”.",
+      "Basic hand tools if relevant — for «Mold prevention after dampness»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Πρόληψη μούχλας μετά από υγρασία».",
+      "Μολύβι. Πλαίσιο: «Πρόληψη μούχλας μετά από υγρασία».",
+      "Ετικέτες. Πλαίσιο: «Πρόληψη μούχλας μετά από υγρασία».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Πρόληψη μούχλας μετά από υγρασία».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Πρόληψη μούχλας μετά από υγρασία»"
     ],
     "steps_en": [
       "Stop or divert water if safe.",
@@ -516,12 +582,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Mold prevention after dampness or when the next check happens.",
       "Supplies connected to Mold prevention after dampness are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Mold prevention after dampness”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πρόληψη μούχλας μετά από υγρασία» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πρόληψη μούχλας μετά από υγρασία» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πρόληψη μούχλας μετά από υγρασία»"
     ],
     "when_not_to_use_en": [
       "Do not use Mold prevention after dampness as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -533,9 +599,6 @@
       "Μη χρησιμοποιήσεις το «Πρόληψη μούχλας μετά από υγρασία» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πρόληψη μούχλας μετά από υγρασία»."
     ],
-    "related_topics": [
-      "Small leak and rain entry first response"
-    ],
     "short_term_en": "For the first hours of Mold prevention after dampness, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πρόληψη μούχλας μετά από υγρασία», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Mold prevention after dampness remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -543,7 +606,26 @@
     "if_method_fails_en": "If Mold prevention after dampness fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πρόληψη μούχλας μετά από υγρασία», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Mold prevention after dampness to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πρόληψη μούχλας μετά από υγρασία» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πρόληψη μούχλας μετά από υγρασία» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Small leak and rain entry first response"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Shelter · Recovery",
+    "subcategory_el": "καταφύγιο · αποκατάσταση",
+    "related_topics_en": [
+      "Small leak and rain entry first response"
+    ],
+    "related_topics_el": [
+      "Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής"
+    ]
   },
   {
     "id": "pass81-rebuild-006",
@@ -559,26 +641,26 @@
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Fair distribution ledger” entry.",
     "tags": [
       "distribution",
       "records",
       "fairness"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Fair distribution ledger”.",
+      "Pencil. Context: “Fair distribution ledger”.",
+      "Labels. Context: “Fair distribution ledger”.",
+      "Dry storage. Context: “Fair distribution ledger”.",
+      "Basic hand tools if relevant — for «Fair distribution ledger»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Δίκαιο βιβλίο διανομής».",
+      "Μολύβι. Πλαίσιο: «Δίκαιο βιβλίο διανομής».",
+      "Ετικέτες. Πλαίσιο: «Δίκαιο βιβλίο διανομής».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Δίκαιο βιβλίο διανομής».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Δίκαιο βιβλίο διανομής»"
     ],
     "steps_en": [
       "Record every distribution immediately.",
@@ -625,12 +707,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Fair distribution ledger or when the next check happens.",
       "Supplies connected to Fair distribution ledger are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Fair distribution ledger”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Δίκαιο βιβλίο διανομής» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Δίκαιο βιβλίο διανομής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Δίκαιο βιβλίο διανομής»"
     ],
     "when_not_to_use_en": [
       "Do not use Fair distribution ledger as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -642,10 +724,6 @@
       "Μη χρησιμοποιήσεις το «Δίκαιο βιβλίο διανομής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Δίκαιο βιβλίο διανομής»."
     ],
-    "related_topics": [
-      "Staple food ration board",
-      "Neighborhood water point rules"
-    ],
     "short_term_en": "For the first hours of Fair distribution ledger, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Δίκαιο βιβλίο διανομής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Fair distribution ledger remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -653,7 +731,29 @@
     "if_method_fails_en": "If Fair distribution ledger fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Δίκαιο βιβλίο διανομής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Fair distribution ledger to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Δίκαιο βιβλίο διανομής» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Δίκαιο βιβλίο διανομής» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Staple food ration board",
+      "Neighborhood water point rules"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Community · Records",
+    "subcategory_el": "κοινότητα · αρχεία",
+    "related_topics_en": [
+      "Staple food ration board",
+      "Neighborhood water point rules"
+    ],
+    "related_topics_el": [
+      "Πίνακας μερίδων βασικών τροφίμων",
+      "Κανόνες σημείου νερού γειτονιάς"
+    ]
   },
   {
     "id": "pass81-rebuild-007",
@@ -669,26 +769,26 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Community repair day plan” entry.",
     "tags": [
       "repair",
       "community",
       "tools"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Community repair day plan”.",
+      "Pencil. Context: “Community repair day plan”.",
+      "Labels. Context: “Community repair day plan”.",
+      "Dry storage. Context: “Community repair day plan”.",
+      "Basic hand tools if relevant — for «Community repair day plan»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Σχέδιο ημέρας κοινοτικών επισκευών».",
+      "Μολύβι. Πλαίσιο: «Σχέδιο ημέρας κοινοτικών επισκευών».",
+      "Ετικέτες. Πλαίσιο: «Σχέδιο ημέρας κοινοτικών επισκευών».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Σχέδιο ημέρας κοινοτικών επισκευών».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Σχέδιο ημέρας κοινοτικών επισκευών»"
     ],
     "steps_en": [
       "Collect repair requests.",
@@ -735,12 +835,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Community repair day plan or when the next check happens.",
       "Supplies connected to Community repair day plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Community repair day plan”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο ημέρας κοινοτικών επισκευών» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Σχέδιο ημέρας κοινοτικών επισκευών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Σχέδιο ημέρας κοινοτικών επισκευών»"
     ],
     "when_not_to_use_en": [
       "Do not use Community repair day plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -752,10 +852,6 @@
       "Μη χρησιμοποιήσεις το «Σχέδιο ημέρας κοινοτικών επισκευών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο ημέρας κοινοτικών επισκευών»."
     ],
-    "related_topics": [
-      "Tool repair triage board",
-      "Small tool safety routine"
-    ],
     "short_term_en": "For the first hours of Community repair day plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Σχέδιο ημέρας κοινοτικών επισκευών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Community repair day plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -763,7 +859,29 @@
     "if_method_fails_en": "If Community repair day plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Σχέδιο ημέρας κοινοτικών επισκευών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Community repair day plan to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Σχέδιο ημέρας κοινοτικών επισκευών» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο ημέρας κοινοτικών επισκευών» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Tool repair triage board",
+      "Small tool safety routine"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Repair · Coordination",
+    "subcategory_el": "επισκευή · συντονισμός",
+    "related_topics_en": [
+      "Tool repair triage board",
+      "Small tool safety routine"
+    ],
+    "related_topics_el": [
+      "Πίνακας προτεραιότητας επισκευής εργαλείων",
+      "Ρουτίνα ασφάλειας μικρών εργαλείων"
+    ]
   },
   {
     "id": "pass81-rebuild-008",
@@ -779,26 +897,26 @@
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Roof and balcony object control” entry.",
     "tags": [
       "storm",
       "balcony",
       "roof"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Roof and balcony object control”.",
+      "Pencil. Context: “Roof and balcony object control”.",
+      "Labels. Context: “Roof and balcony object control”.",
+      "Dry storage. Context: “Roof and balcony object control”.",
+      "Basic hand tools if relevant — for «Roof and balcony object control»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι».",
+      "Μολύβι. Πλαίσιο: «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι».",
+      "Ετικέτες. Πλαίσιο: «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι»"
     ],
     "steps_en": [
       "Walk the area before weather arrives.",
@@ -845,12 +963,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Roof and balcony object control or when the next check happens.",
       "Supplies connected to Roof and balcony object control are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Roof and balcony object control”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι»"
     ],
     "when_not_to_use_en": [
       "Do not use Roof and balcony object control as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -862,9 +980,6 @@
       "Μη χρησιμοποιήσεις το «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι»."
     ],
-    "related_topics": [
-      "Small leak and rain entry first response"
-    ],
     "short_term_en": "For the first hours of Roof and balcony object control, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Roof and balcony object control remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -872,7 +987,26 @@
     "if_method_fails_en": "If Roof and balcony object control fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Roof and balcony object control to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Έλεγχος αντικειμένων σε στέγη και μπαλκόνι» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Small leak and rain entry first response"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Storm · Preparation",
+    "subcategory_el": "καταιγίδα · προετοιμασία",
+    "related_topics_en": [
+      "Small leak and rain entry first response"
+    ],
+    "related_topics_el": [
+      "Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής"
+    ]
   },
   {
     "id": "pass81-rebuild-009",
@@ -888,26 +1022,26 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Learning rotation for rebuilding skills” entry.",
     "tags": [
       "skills",
       "education",
       "rebuilding"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Learning rotation for rebuilding skills”.",
+      "Pencil. Context: “Learning rotation for rebuilding skills”.",
+      "Labels. Context: “Learning rotation for rebuilding skills”.",
+      "Dry storage. Context: “Learning rotation for rebuilding skills”.",
+      "Basic hand tools if relevant — for «Learning rotation for rebuilding skills»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης».",
+      "Μολύβι. Πλαίσιο: «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης».",
+      "Ετικέτες. Πλαίσιο: «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης»"
     ],
     "steps_en": [
       "Pick one skill per session.",
@@ -925,7 +1059,7 @@
     ],
     "warnings_en": [
       "Do not teach dangerous repairs as casual lessons.",
-      "Do not shame slow learners."
+      "Do not shame slow learners. Treat this as a specific boundary while managing “Learning rotation for rebuilding skills”."
     ],
     "warnings_el": [
       "Μη διδάσκεις επικίνδυνες επισκευές σαν πρόχειρα μαθήματα.",
@@ -954,12 +1088,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Learning rotation for rebuilding skills or when the next check happens.",
       "Supplies connected to Learning rotation for rebuilding skills are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Learning rotation for rebuilding skills”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης»"
     ],
     "when_not_to_use_en": [
       "Do not use Learning rotation for rebuilding skills as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -971,9 +1105,6 @@
       "Μη χρησιμοποιήσεις το «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης»."
     ],
-    "related_topics": [
-      "Mutual aid skills directory"
-    ],
     "short_term_en": "For the first hours of Learning rotation for rebuilding skills, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Learning rotation for rebuilding skills remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -981,7 +1112,26 @@
     "if_method_fails_en": "If Learning rotation for rebuilding skills fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Learning rotation for rebuilding skills to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Εναλλαγή μάθησης δεξιοτήτων ανοικοδόμησης» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Mutual aid skills directory"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Education · Recovery",
+    "subcategory_el": "εκπαίδευση · αποκατάσταση",
+    "related_topics_en": [
+      "Mutual aid skills directory"
+    ],
+    "related_topics_el": [
+      "Κατάλογος δεξιοτήτων αλληλοβοήθειας"
+    ]
   },
   {
     "id": "pass81-rebuild-010",
@@ -997,26 +1147,26 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Low-tech inventory tags” entry.",
     "tags": [
       "inventory",
       "tags",
       "organization"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Low-tech inventory tags”.",
+      "Pencil. Context: “Low-tech inventory tags”.",
+      "Labels. Context: “Low-tech inventory tags”.",
+      "Dry storage. Context: “Low-tech inventory tags”.",
+      "Basic hand tools if relevant — for «Low-tech inventory tags»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Ετικέτες αποθέματος χαμηλής τεχνολογίας».",
+      "Μολύβι. Πλαίσιο: «Ετικέτες αποθέματος χαμηλής τεχνολογίας».",
+      "Ετικέτες. Πλαίσιο: «Ετικέτες αποθέματος χαμηλής τεχνολογίας».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Ετικέτες αποθέματος χαμηλής τεχνολογίας».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Ετικέτες αποθέματος χαμηλής τεχνολογίας»"
     ],
     "steps_en": [
       "Tag every storage box.",
@@ -1063,12 +1213,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Low-tech inventory tags or when the next check happens.",
       "Supplies connected to Low-tech inventory tags are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Low-tech inventory tags”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ετικέτες αποθέματος χαμηλής τεχνολογίας» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Ετικέτες αποθέματος χαμηλής τεχνολογίας» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Ετικέτες αποθέματος χαμηλής τεχνολογίας»"
     ],
     "when_not_to_use_en": [
       "Do not use Low-tech inventory tags as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1080,9 +1230,6 @@
       "Μη χρησιμοποιήσεις το «Ετικέτες αποθέματος χαμηλής τεχνολογίας» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ετικέτες αποθέματος χαμηλής τεχνολογίας»."
     ],
-    "related_topics": [
-      "Fair distribution ledger"
-    ],
     "short_term_en": "For the first hours of Low-tech inventory tags, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Ετικέτες αποθέματος χαμηλής τεχνολογίας», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Low-tech inventory tags remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1090,7 +1237,26 @@
     "if_method_fails_en": "If Low-tech inventory tags fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Ετικέτες αποθέματος χαμηλής τεχνολογίας», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Low-tech inventory tags to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Ετικέτες αποθέματος χαμηλής τεχνολογίας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Ετικέτες αποθέματος χαμηλής τεχνολογίας» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Fair distribution ledger"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Inventory",
+    "subcategory_el": "απογραφή",
+    "related_topics_en": [
+      "Fair distribution ledger"
+    ],
+    "related_topics_el": [
+      "Δίκαιο βιβλίο διανομής"
+    ]
   },
   {
     "id": "pass81-rebuild-011",
@@ -1106,26 +1272,26 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Temporary sleeping area layout” entry.",
     "tags": [
       "sleep",
       "shelter",
       "layout"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Temporary sleeping area layout”.",
+      "Pencil. Context: “Temporary sleeping area layout”.",
+      "Labels. Context: “Temporary sleeping area layout”.",
+      "Dry storage. Context: “Temporary sleeping area layout”.",
+      "Basic hand tools if relevant — for «Temporary sleeping area layout»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Διάταξη προσωρινού χώρου ύπνου».",
+      "Μολύβι. Πλαίσιο: «Διάταξη προσωρινού χώρου ύπνου».",
+      "Ετικέτες. Πλαίσιο: «Διάταξη προσωρινού χώρου ύπνου».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Διάταξη προσωρινού χώρου ύπνου».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Διάταξη προσωρινού χώρου ύπνου»"
     ],
     "steps_en": [
       "Mark walking paths.",
@@ -1172,12 +1338,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Temporary sleeping area layout or when the next check happens.",
       "Supplies connected to Temporary sleeping area layout are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Temporary sleeping area layout”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Διάταξη προσωρινού χώρου ύπνου» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Διάταξη προσωρινού χώρου ύπνου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Διάταξη προσωρινού χώρου ύπνου»"
     ],
     "when_not_to_use_en": [
       "Do not use Temporary sleeping area layout as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1189,9 +1355,6 @@
       "Μη χρησιμοποιήσεις το «Διάταξη προσωρινού χώρου ύπνου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Διάταξη προσωρινού χώρου ύπνου»."
     ],
-    "related_topics": [
-      "Warm room and cold room shelter plan"
-    ],
     "short_term_en": "For the first hours of Temporary sleeping area layout, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Διάταξη προσωρινού χώρου ύπνου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Temporary sleeping area layout remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1199,7 +1362,26 @@
     "if_method_fails_en": "If Temporary sleeping area layout fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Διάταξη προσωρινού χώρου ύπνου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Temporary sleeping area layout to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Διάταξη προσωρινού χώρου ύπνου» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Διάταξη προσωρινού χώρου ύπνου» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Warm room and cold room shelter plan"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Shelter · Layout",
+    "subcategory_el": "καταφύγιο · διάταξη",
+    "related_topics_en": [
+      "Warm room and cold room shelter plan"
+    ],
+    "related_topics_el": [
+      "Σχέδιο ζεστού και δροσερού δωματίου"
+    ]
   },
   {
     "id": "pass81-rebuild-012",
@@ -1215,26 +1397,26 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
-    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass 81 long-term recovery expansion added from the uploaded full repository zip. This note applies specifically to the “Local recovery priorities meeting” entry.",
     "tags": [
       "recovery",
       "meeting",
       "planning"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
-      "Labels",
-      "Dry storage",
-      "Basic hand tools if relevant"
+      "Notebook. Context: “Local recovery priorities meeting”.",
+      "Pencil. Context: “Local recovery priorities meeting”.",
+      "Labels. Context: “Local recovery priorities meeting”.",
+      "Dry storage. Context: “Local recovery priorities meeting”.",
+      "Basic hand tools if relevant — for «Local recovery priorities meeting»"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
-      "Ετικέτες",
-      "Στεγνή αποθήκευση",
-      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται"
+      "Τετράδιο. Πλαίσιο: «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης».",
+      "Μολύβι. Πλαίσιο: «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης».",
+      "Ετικέτες. Πλαίσιο: «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης».",
+      "Στεγνή αποθήκευση. Πλαίσιο: «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης».",
+      "Βασικά χειροκίνητα εργαλεία αν χρειάζονται — για «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης»"
     ],
     "steps_en": [
       "Start with confirmed facts.",
@@ -1281,12 +1463,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Local recovery priorities meeting or when the next check happens.",
       "Supplies connected to Local recovery priorities meeting are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Local recovery priorities meeting”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης»"
     ],
     "when_not_to_use_en": [
       "Do not use Local recovery priorities meeting as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -1298,10 +1480,6 @@
       "Μη χρησιμοποιήσεις το «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης»."
     ],
-    "related_topics": [
-      "Calm leadership during group stress",
-      "Fair distribution ledger"
-    ],
     "short_term_en": "For the first hours of Local recovery priorities meeting, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Local recovery priorities meeting remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -1309,6 +1487,28 @@
     "if_method_fails_en": "If Local recovery priorities meeting fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Local recovery priorities meeting to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Συνάντηση τοπικών προτεραιοτήτων ανάκαμψης» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Calm leadership during group stress",
+      "Fair distribution ledger"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Rebuilding · Agriculture · Environment · Long-term · Recovery",
+    "category_el": "ανασυγκρότηση · γεωργία · περιβάλλον · Μακροπρόθεσμα · αποκατάσταση",
+    "subcategory_en": "Recovery · Planning",
+    "subcategory_el": "αποκατάσταση · σχεδιασμός",
+    "related_topics_en": [
+      "Calm leadership during group stress",
+      "Fair distribution ledger"
+    ],
+    "related_topics_el": [
+      "Ήρεμη καθοδήγηση σε ομαδικό στρες",
+      "Δίκαιο βιβλίο διανομής"
+    ]
   }
 ]

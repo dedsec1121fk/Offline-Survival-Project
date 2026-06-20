@@ -13,7 +13,7 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with field_care. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με field_care.",
     "tags": [
       "wound",
@@ -24,18 +24,18 @@
       "records"
     ],
     "materials_en": [
-      "Clean water",
+      "Clean water. Context: “Basic wound cleaning decision path”.",
       "Soap for hands",
       "Clean cloth or gauze",
-      "Gloves if available",
-      "Notebook"
+      "Gloves if available. Context: “Basic wound cleaning decision path”.",
+      "Notebook. Context: “Basic wound cleaning decision path”."
     ],
     "materials_el": [
-      "Καθαρό νερό",
+      "Καθαρό νερό. Πλαίσιο: «Βασική πορεία απόφασης για καθαρισμό πληγής».",
       "Σαπούνι για χέρια",
       "Καθαρό πανί ή γάζα",
-      "Γάντια αν υπάρχουν",
-      "Τετράδιο"
+      "Γάντια αν υπάρχουν. Πλαίσιο: «Βασική πορεία απόφασης για καθαρισμό πληγής».",
+      "Τετράδιο. Πλαίσιο: «Βασική πορεία απόφασης για καθαρισμό πληγής»."
     ],
     "steps_en": [
       "Check for severe bleeding and seek emergency help if present.",
@@ -86,12 +86,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Basic wound cleaning decision path or when the next check happens.",
       "Supplies connected to Basic wound cleaning decision path are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores non-diagnostic care, warning signs, records, and referral to qualified help and starts creating new risk instead of reducing existing risk."
+      "The routine ignores non-diagnostic care, warning signs, records, and referral to qualified help and starts creating new risk instead of reducing existing risk during “Basic wound cleaning decision path”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Βασική πορεία απόφασης για καθαρισμό πληγής» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Βασική πορεία απόφασης για καθαρισμό πληγής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Βασική πορεία απόφασης για καθαρισμό πληγής»"
     ],
     "when_not_to_use_en": [
       "Do not use Basic wound cleaning decision path as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -103,11 +103,6 @@
       "Μη χρησιμοποιήσεις το «Βασική πορεία απόφασης για καθαρισμό πληγής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Βασική πορεία απόφασης για καθαρισμό πληγής»."
     ],
-    "related_topics": [
-      "Medicine continuity sheet",
-      "Community sanitation corner",
-      "Local incident and resource log"
-    ],
     "short_term_en": "For the first hours of Basic wound cleaning decision path, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Βασική πορεία απόφασης για καθαρισμό πληγής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Basic wound cleaning decision path remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -115,7 +110,32 @@
     "if_method_fails_en": "If Basic wound cleaning decision path fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Βασική πορεία απόφασης για καθαρισμό πληγής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Basic wound cleaning decision path to the real environment: check non-diagnostic care, warning signs, records, and referral to qualified help, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Βασική πορεία απόφασης για καθαρισμό πληγής» στο πραγματικό περιβάλλον: έλεγξε μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Βασική πορεία απόφασης για καθαρισμό πληγής» στο πραγματικό περιβάλλον: έλεγξε μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Medicine continuity sheet",
+      "Community sanitation corner",
+      "Local incident and resource log"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "category_en": "Anatomy · Biology · Medicine · Tools · Repair · Construction",
+    "category_el": "ανατομία · βιολογία · φάρμακα · εργαλεία · επισκευή · κατασκευή",
+    "subcategory_en": "Field · Care",
+    "subcategory_el": "πεδίου · φροντίδα",
+    "related_topics_en": [
+      "Medicine continuity sheet",
+      "Community sanitation corner",
+      "Local incident and resource log"
+    ],
+    "related_topics_el": [
+      "Φύλλο συνέχειας φαρμάκων",
+      "Γωνία υγιεινής κοινότητας",
+      "Τοπικό ημερολόγιο συμβάντων και πόρων"
+    ]
   },
   {
     "id": "core-medicine-repair-002",
@@ -131,7 +151,7 @@
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with tools_and_repair. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με tools_and_repair.",
     "tags": [
       "tools",
@@ -143,14 +163,14 @@
     ],
     "materials_en": [
       "Board or paper",
-      "Pencil",
+      "Pencil. Context: “Tool repair triage board”.",
       "Small bags for parts",
       "Tape labels",
       "Basic hand tools"
     ],
     "materials_el": [
       "Πίνακας ή χαρτί",
-      "Μολύβι",
+      "Μολύβι. Πλαίσιο: «Πίνακας προτεραιότητας επισκευής εργαλείων».",
       "Μικρά σακουλάκια για κομμάτια",
       "Ετικέτες ταινίας",
       "Βασικά χειροκίνητα εργαλεία"
@@ -204,12 +224,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Tool repair triage board or when the next check happens.",
       "Supplies connected to Tool repair triage board are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores non-diagnostic care, warning signs, records, and referral to qualified help and starts creating new risk instead of reducing existing risk."
+      "The routine ignores non-diagnostic care, warning signs, records, and referral to qualified help and starts creating new risk instead of reducing existing risk during “Tool repair triage board”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πίνακας προτεραιότητας επισκευής εργαλείων» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πίνακας προτεραιότητας επισκευής εργαλείων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πίνακας προτεραιότητας επισκευής εργαλείων»"
     ],
     "when_not_to_use_en": [
       "Do not use Tool repair triage board as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -221,11 +241,6 @@
       "Μη χρησιμοποιήσεις το «Πίνακας προτεραιότητας επισκευής εργαλείων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πίνακας προτεραιότητας επισκευής εργαλείων»."
     ],
-    "related_topics": [
-      "Local incident and resource log",
-      "Shelter leak first response",
-      "Safe household water chain"
-    ],
     "short_term_en": "For the first hours of Tool repair triage board, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πίνακας προτεραιότητας επισκευής εργαλείων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Tool repair triage board remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -233,7 +248,32 @@
     "if_method_fails_en": "If Tool repair triage board fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πίνακας προτεραιότητας επισκευής εργαλείων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Tool repair triage board to the real environment: check non-diagnostic care, warning signs, records, and referral to qualified help, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πίνακας προτεραιότητας επισκευής εργαλείων» στο πραγματικό περιβάλλον: έλεγξε μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πίνακας προτεραιότητας επισκευής εργαλείων» στο πραγματικό περιβάλλον: έλεγξε μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Local incident and resource log",
+      "Shelter leak first response",
+      "Safe household water chain"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "category_en": "Anatomy · Biology · Medicine · Tools · Repair · Construction",
+    "category_el": "ανατομία · βιολογία · φάρμακα · εργαλεία · επισκευή · κατασκευή",
+    "subcategory_en": "Tools · Repair",
+    "subcategory_el": "εργαλεία · επισκευή",
+    "related_topics_en": [
+      "Local incident and resource log",
+      "Shelter leak first response",
+      "Safe household water chain"
+    ],
+    "related_topics_el": [
+      "Τοπικό ημερολόγιο συμβάντων και πόρων",
+      "Καταφύγιο διαρροή πρώτο αντίδραση",
+      "Ασφαλής αλυσίδα οικιακού νερού"
+    ]
   },
   {
     "id": "core-medicine-repair-003",
@@ -249,7 +289,7 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "high",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with shelter_repair. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με shelter_repair.",
     "tags": [
       "rain",
@@ -260,22 +300,22 @@
       "documents"
     ],
     "materials_en": [
-      "Buckets",
+      "Buckets. Context: “Small leak and rain entry first response”.",
       "Towels",
       "Plastic sheet",
-      "Tape",
-      "Marker",
-      "Flashlight",
-      "Gloves"
+      "Tape. Context: “Small leak and rain entry first response”.",
+      "Marker. Context: “Small leak and rain entry first response”.",
+      "Flashlight. Context: “Small leak and rain entry first response”.",
+      "Gloves. Context: “Small leak and rain entry first response”."
     ],
     "materials_el": [
-      "Κουβάδες",
+      "Κουβάδες. Πλαίσιο: «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής».",
       "Πετσέτες",
       "Πλαστικό φύλλο",
-      "Ταινία",
-      "Μαρκαδόρος",
-      "Φακός",
-      "Γάντια"
+      "Ταινία. Πλαίσιο: «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής».",
+      "Μαρκαδόρος. Πλαίσιο: «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής».",
+      "Φακός. Πλαίσιο: «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής».",
+      "Γάντια. Πλαίσιο: «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής»."
     ],
     "steps_en": [
       "Move people and supplies away from water paths.",
@@ -326,12 +366,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Small leak and rain entry first response or when the next check happens.",
       "Supplies connected to Small leak and rain entry first response are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores non-diagnostic care, warning signs, records, and referral to qualified help and starts creating new risk instead of reducing existing risk."
+      "The routine ignores non-diagnostic care, warning signs, records, and referral to qualified help and starts creating new risk instead of reducing existing risk during “Small leak and rain entry first response”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής»"
     ],
     "when_not_to_use_en": [
       "Do not use Small leak and rain entry first response as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -343,11 +383,6 @@
       "Μη χρησιμοποιήσεις το «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής»."
     ],
-    "related_topics": [
-      "Tool repair triage board",
-      "Warm room and cold room shelter plan",
-      "Local incident and resource log"
-    ],
     "short_term_en": "For the first hours of Small leak and rain entry first response, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Small leak and rain entry first response remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -355,7 +390,32 @@
     "if_method_fails_en": "If Small leak and rain entry first response fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Small leak and rain entry first response to the real environment: check non-diagnostic care, warning signs, records, and referral to qualified help, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής» στο πραγματικό περιβάλλον: έλεγξε μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πρώτη αντίδραση σε μικρή διαρροή και είσοδο βροχής» στο πραγματικό περιβάλλον: έλεγξε μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Tool repair triage board",
+      "Warm room and cold room shelter plan",
+      "Local incident and resource log"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "category_en": "Anatomy · Biology · Medicine · Tools · Repair · Construction",
+    "category_el": "ανατομία · βιολογία · φάρμακα · εργαλεία · επισκευή · κατασκευή",
+    "subcategory_en": "Shelter · Repair",
+    "subcategory_el": "καταφύγιο · επισκευή",
+    "related_topics_en": [
+      "Tool repair triage board",
+      "Warm room and cold room shelter plan",
+      "Local incident and resource log"
+    ],
+    "related_topics_el": [
+      "Πίνακας προτεραιότητας επισκευής εργαλείων",
+      "Σχέδιο ζεστού και δροσερού δωματίου",
+      "Τοπικό ημερολόγιο συμβάντων και πόρων"
+    ]
   },
   {
     "id": "core-medicine-repair-004",
@@ -371,7 +431,7 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with care_and_human_factors. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με care_and_human_factors.",
     "tags": [
       "caregiver",
@@ -384,14 +444,14 @@
     "materials_en": [
       "Paper schedule",
       "Medicine sheet",
-      "Water",
+      "Water. Context: “Caregiver rotation for exhaustion prevention”.",
       "Quiet rest place",
       "Handover note"
     ],
     "materials_el": [
       "Χάρτινο πρόγραμμα",
       "Φύλλο φαρμάκων",
-      "Νερό",
+      "Νερό. Πλαίσιο: «Εναλλαγή φροντιστών για πρόληψη εξάντλησης».",
       "Ήσυχο σημείο ανάπαυσης",
       "Σημείωμα παράδοσης"
     ],
@@ -440,12 +500,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Caregiver rotation for exhaustion prevention or when the next check happens.",
       "Supplies connected to Caregiver rotation for exhaustion prevention are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores non-diagnostic care, warning signs, records, and referral to qualified help and starts creating new risk instead of reducing existing risk."
+      "The routine ignores non-diagnostic care, warning signs, records, and referral to qualified help and starts creating new risk instead of reducing existing risk during “Caregiver rotation for exhaustion prevention”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Εναλλαγή φροντιστών για πρόληψη εξάντλησης» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Εναλλαγή φροντιστών για πρόληψη εξάντλησης» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Εναλλαγή φροντιστών για πρόληψη εξάντλησης»"
     ],
     "when_not_to_use_en": [
       "Do not use Caregiver rotation for exhaustion prevention as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -457,11 +517,6 @@
       "Μη χρησιμοποιήσεις το «Εναλλαγή φροντιστών για πρόληψη εξάντλησης» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Εναλλαγή φροντιστών για πρόληψη εξάντλησης»."
     ],
-    "related_topics": [
-      "Medicine continuity sheet",
-      "Household first 72 hours command sheet",
-      "Calm leadership during group stress"
-    ],
     "short_term_en": "For the first hours of Caregiver rotation for exhaustion prevention, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Εναλλαγή φροντιστών για πρόληψη εξάντλησης», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Caregiver rotation for exhaustion prevention remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -469,6 +524,31 @@
     "if_method_fails_en": "If Caregiver rotation for exhaustion prevention fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Εναλλαγή φροντιστών για πρόληψη εξάντλησης», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Caregiver rotation for exhaustion prevention to the real environment: check non-diagnostic care, warning signs, records, and referral to qualified help, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Εναλλαγή φροντιστών για πρόληψη εξάντλησης» στο πραγματικό περιβάλλον: έλεγξε μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Εναλλαγή φροντιστών για πρόληψη εξάντλησης» στο πραγματικό περιβάλλον: έλεγξε μη διαγνωστική φροντίδα, σημάδια κινδύνου, αρχεία και παραπομπή σε ειδικό, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Medicine continuity sheet",
+      "Household first 72 hours command sheet",
+      "Calm leadership during group stress"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "category_en": "Anatomy · Biology · Medicine · Tools · Repair · Construction",
+    "category_el": "ανατομία · βιολογία · φάρμακα · εργαλεία · επισκευή · κατασκευή",
+    "subcategory_en": "Care · Human · Factors",
+    "subcategory_el": "φροντίδα · ανθρώπινο · παράγοντες",
+    "related_topics_en": [
+      "Medicine continuity sheet",
+      "Household first 72 hours command sheet",
+      "Calm leadership during group stress"
+    ],
+    "related_topics_el": [
+      "Φύλλο συνέχειας φαρμάκων",
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών",
+      "Ήρεμη καθοδήγηση σε ομαδικό στρες"
+    ]
   }
 ]

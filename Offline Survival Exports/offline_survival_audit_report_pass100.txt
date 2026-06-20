@@ -1,0 +1,40 @@
+OFFLINE SURVIVAL — PASS 100 STRICT AUDIT
+Date: 19 June 2026
+
+Database
+- Entries: 1,712
+- JSON files: 74
+- Categories: 144
+- Fields per record: 48
+- New Pass 100 cards: 30
+- Search-index records: 1712
+- Database signature: 948f7c4627a1ac5cb4f2c3f246d3b4487b35c780bca13d324de98701c87b248e
+
+Audit results
+- duplicate_ids: 0
+- duplicate_topics: 0
+- duplicate_topics_el: 0
+- duplicate_blocks: 0
+- repeated_core_text: 0
+- missing_pairs: 0
+- ascii_leaks: 0
+- legacy_template_flags: 0
+- semantic_mismatches: 0
+- shallow_entries: 0
+- sources_missing: 0
+- placeholder_topics: 0
+- load_errors: 0
+
+Functional validation
+- Python compilation: passed
+- Terminal startup and exit: passed
+- Guided emergency packs: passed
+- Greek urgent helper: passed
+- English and accent-insensitive Greek search: passed
+- Local browser page and API routes: passed
+- Embedded JavaScript syntax: passed
+
+Interpretation
+Zero repeated core text means no complete core instruction, paragraph, warning,
+or list item is exactly copied between different records. Necessary emergency
+terms, numbers, source links, and short labels may recur where accuracy requires.

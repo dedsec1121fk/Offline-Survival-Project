@@ -13,7 +13,7 @@
     "difficulty": "basic",
     "urgency": "immediate",
     "priority": "critical",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with water_safety. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με water_safety.",
     "tags": [
       "water",
@@ -86,12 +86,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Safe household water chain or when the next check happens.",
       "Supplies connected to Safe household water chain are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Safe household water chain”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ασφαλής αλυσίδα οικιακού νερού» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Ασφαλής αλυσίδα οικιακού νερού» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Ασφαλής αλυσίδα οικιακού νερού»"
     ],
     "when_not_to_use_en": [
       "Do not use Safe household water chain as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -103,11 +103,6 @@
       "Μη χρησιμοποιήσεις το «Ασφαλής αλυσίδα οικιακού νερού» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ασφαλής αλυσίδα οικιακού νερού»."
     ],
-    "related_topics": [
-      "Neighborhood water point rules",
-      "Community sanitation corner",
-      "Household first 72 hours command sheet"
-    ],
     "short_term_en": "For the first hours of Safe household water chain, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Ασφαλής αλυσίδα οικιακού νερού», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Safe household water chain remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -115,7 +110,32 @@
     "if_method_fails_en": "If Safe household water chain fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Ασφαλής αλυσίδα οικιακού νερού», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Safe household water chain to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Ασφαλής αλυσίδα οικιακού νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Ασφαλής αλυσίδα οικιακού νερού» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Neighborhood water point rules",
+      "Community sanitation corner",
+      "Household first 72 hours command sheet"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Water · Fire · Shelter · Environment · Records",
+    "category_el": "νερό · πυρκαγιά · καταφύγιο · περιβάλλον · αρχεία",
+    "subcategory_en": "Water · Safety",
+    "subcategory_el": "νερό · ασφάλεια",
+    "related_topics_en": [
+      "Neighborhood water point rules",
+      "Community sanitation corner",
+      "Household first 72 hours command sheet"
+    ],
+    "related_topics_el": [
+      "Κανόνες σημείου νερού γειτονιάς",
+      "Γωνία υγιεινής κοινότητας",
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών"
+    ]
   },
   {
     "id": "core-water-fire-shelter-002",
@@ -131,7 +151,7 @@
     "difficulty": "basic",
     "urgency": "immediate",
     "priority": "critical",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with fire_and_air_safety. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με fire_and_air_safety.",
     "tags": [
       "blackout",
@@ -204,12 +224,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Blackout fire and carbon monoxide safety or when the next check happens.",
       "Supplies connected to Blackout fire and carbon monoxide safety are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Blackout fire and carbon monoxide safety”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος»"
     ],
     "when_not_to_use_en": [
       "Do not use Blackout fire and carbon monoxide safety as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -221,11 +241,6 @@
       "Μη χρησιμοποιήσεις το «Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος»."
     ],
-    "related_topics": [
-      "Household first 72 hours command sheet",
-      "Low-power communications schedule",
-      "Food safety after refrigerator failure"
-    ],
     "short_term_en": "For the first hours of Blackout fire and carbon monoxide safety, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Blackout fire and carbon monoxide safety remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -233,7 +248,32 @@
     "if_method_fails_en": "If Blackout fire and carbon monoxide safety fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Blackout fire and carbon monoxide safety to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Low-power communications schedule",
+      "Food safety after refrigerator failure"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Water · Fire · Shelter · Environment · Records",
+    "category_el": "νερό · πυρκαγιά · καταφύγιο · περιβάλλον · αρχεία",
+    "subcategory_en": "Fire · Air · Safety",
+    "subcategory_el": "πυρκαγιά · αέρας · ασφάλεια",
+    "related_topics_en": [
+      "Household first 72 hours command sheet",
+      "Low-power communications schedule",
+      "Food safety after refrigerator failure"
+    ],
+    "related_topics_el": [
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών",
+      "Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης",
+      "Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου"
+    ]
   },
   {
     "id": "core-water-fire-shelter-003",
@@ -249,7 +289,7 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "high",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with shelter_microclimate. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με shelter_microclimate.",
     "tags": [
       "shelter",
@@ -260,22 +300,22 @@
       "vulnerable people"
     ],
     "materials_en": [
-      "Blankets",
+      "Blankets. Context: “Warm room and cold room shelter plan”.",
       "Curtains or sheets",
-      "Water",
-      "Medicine list",
-      "Flashlight",
+      "Water. Context: “Warm room and cold room shelter plan”.",
+      "Medicine list. Context: “Warm room and cold room shelter plan”.",
+      "Flashlight. Context: “Warm room and cold room shelter plan”.",
       "Waste bags",
-      "Thermometer if available"
+      "Thermometer if available. Context: “Warm room and cold room shelter plan”."
     ],
     "materials_el": [
-      "Κουβέρτες",
+      "Κουβέρτες. Πλαίσιο: «Σχέδιο ζεστού και δροσερού δωματίου».",
       "Κουρτίνες ή σεντόνια",
-      "Νερό",
-      "Λίστα φαρμάκων",
-      "Φακός",
-      "Σακούλες",
-      "Θερμόμετρο αν υπάρχει"
+      "Νερό. Πλαίσιο: «Σχέδιο ζεστού και δροσερού δωματίου».",
+      "Λίστα φαρμάκων. Πλαίσιο: «Σχέδιο ζεστού και δροσερού δωματίου».",
+      "Φακός. Πλαίσιο: «Σχέδιο ζεστού και δροσερού δωματίου».",
+      "Σακούλες. Πλαίσιο: «Σχέδιο ζεστού και δροσερού δωματίου».",
+      "Θερμόμετρο αν υπάρχει. Πλαίσιο: «Σχέδιο ζεστού και δροσερού δωματίου»."
     ],
     "steps_en": [
       "Pick the safest room for the current threat, not the most comfortable room.",
@@ -326,12 +366,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Warm room and cold room shelter plan or when the next check happens.",
       "Supplies connected to Warm room and cold room shelter plan are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Warm room and cold room shelter plan”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Σχέδιο ζεστού και δροσερού δωματίου» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Σχέδιο ζεστού και δροσερού δωματίου» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Σχέδιο ζεστού και δροσερού δωματίου»"
     ],
     "when_not_to_use_en": [
       "Do not use Warm room and cold room shelter plan as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -343,11 +383,6 @@
       "Μη χρησιμοποιήσεις το «Σχέδιο ζεστού και δροσερού δωματίου» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Σχέδιο ζεστού και δροσερού δωματίου»."
     ],
-    "related_topics": [
-      "Blackout fire and carbon monoxide safety",
-      "Medicine continuity sheet",
-      "Household first 72 hours command sheet"
-    ],
     "short_term_en": "For the first hours of Warm room and cold room shelter plan, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Σχέδιο ζεστού και δροσερού δωματίου», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Warm room and cold room shelter plan remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -355,7 +390,32 @@
     "if_method_fails_en": "If Warm room and cold room shelter plan fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Σχέδιο ζεστού και δροσερού δωματίου», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Warm room and cold room shelter plan to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Σχέδιο ζεστού και δροσερού δωματίου» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Σχέδιο ζεστού και δροσερού δωματίου» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Blackout fire and carbon monoxide safety",
+      "Medicine continuity sheet",
+      "Household first 72 hours command sheet"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/112",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Water · Fire · Shelter · Environment · Records",
+    "category_el": "νερό · πυρκαγιά · καταφύγιο · περιβάλλον · αρχεία",
+    "subcategory_en": "Shelter · Microclimate",
+    "subcategory_el": "καταφύγιο · μικροκλίμα",
+    "related_topics_en": [
+      "Blackout fire and carbon monoxide safety",
+      "Medicine continuity sheet",
+      "Household first 72 hours command sheet"
+    ],
+    "related_topics_el": [
+      "Ασφάλεια φωτιάς και μονοξειδίου σε διακοπή ρεύματος",
+      "Φύλλο συνέχειας φαρμάκων",
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών"
+    ]
   },
   {
     "id": "core-water-fire-shelter-004",
@@ -371,7 +431,7 @@
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass90 wording cleanup: removed generic-looking wording while preserving the record logic.",
     "tags": [
       "records",
@@ -382,14 +442,14 @@
       "rumor control"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
+      "Notebook. Context: “Local incident and resource log”.",
+      "Pencil. Context: “Local incident and resource log”.",
       "Folder or plastic bag",
       "Simple table layout"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
+      "Τετράδιο. Πλαίσιο: «Τοπικό ημερολόγιο συμβάντων και πόρων».",
+      "Μολύβι. Πλαίσιο: «Τοπικό ημερολόγιο συμβάντων και πόρων».",
       "Φάκελος ή σακουλάκι",
       "Απλή διάταξη πίνακα"
     ],
@@ -442,12 +502,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Local incident and resource log or when the next check happens.",
       "Supplies connected to Local incident and resource log are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Local incident and resource log”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Τοπικό ημερολόγιο συμβάντων και πόρων» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Τοπικό ημερολόγιο συμβάντων και πόρων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Τοπικό ημερολόγιο συμβάντων και πόρων»"
     ],
     "when_not_to_use_en": [
       "Do not use Local incident and resource log as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -459,11 +519,6 @@
       "Μη χρησιμοποιήσεις το «Τοπικό ημερολόγιο συμβάντων και πόρων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Τοπικό ημερολόγιο συμβάντων και πόρων»."
     ],
-    "related_topics": [
-      "Low-power communications schedule",
-      "Neighborhood water point rules",
-      "Medicine continuity sheet"
-    ],
     "short_term_en": "For the first hours of Local incident and resource log, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Τοπικό ημερολόγιο συμβάντων και πόρων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Local incident and resource log remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -471,6 +526,31 @@
     "if_method_fails_en": "If Local incident and resource log fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Τοπικό ημερολόγιο συμβάντων και πόρων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Local incident and resource log to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Τοπικό ημερολόγιο συμβάντων και πόρων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Τοπικό ημερολόγιο συμβάντων και πόρων» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Low-power communications schedule",
+      "Neighborhood water point rules",
+      "Medicine continuity sheet"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Water · Fire · Shelter · Environment · Records",
+    "category_el": "νερό · πυρκαγιά · καταφύγιο · περιβάλλον · αρχεία",
+    "subcategory_en": "Records · Coordination",
+    "subcategory_el": "αρχεία · συντονισμός",
+    "related_topics_en": [
+      "Low-power communications schedule",
+      "Neighborhood water point rules",
+      "Medicine continuity sheet"
+    ],
+    "related_topics_el": [
+      "Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης",
+      "Κανόνες σημείου νερού γειτονιάς",
+      "Φύλλο συνέχειας φαρμάκων"
+    ]
   }
 ]

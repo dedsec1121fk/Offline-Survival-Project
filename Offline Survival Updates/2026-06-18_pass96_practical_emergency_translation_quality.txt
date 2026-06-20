@@ -1,0 +1,103 @@
+OFFLINE SURVIVAL — PASS 96
+Date: 2026-06-18
+Title: Practical emergency, translation, duplicate-removal, and interface rebuild
+
+ENGLISH
+=======
+
+Database work
+-------------
+- Preserved the useful existing bilingual database.
+- Added 53 new high-priority English/Greek records.
+- Increased the database to 1,605 records in 71 JSON files and 121 categories.
+- Added Greece-focused records for 112 communication, poison-centre calls, wildfire readiness, earthquake aftermath, heat, evacuation, household coordination, vulnerable people, pets, utilities, sanitation, food, and communications.
+- Rebuilt 1,244 template-heavy records with more topic-specific procedures.
+- Contextualized repeated materials, steps, warnings, mistakes, alternatives, failure signs, fallback boundaries, and maintenance notes.
+- Removed exact repeated core text across separate records.
+- Removed duplicate IDs and duplicate English topics.
+- Completed every required English/Greek field pair.
+- Removed reviewable English leakage from Greek database fields while retaining recognized technical acronyms and names.
+
+Application work
+----------------
+- Rebuilt Offline Survival.py as a dependency-free bilingual Termux application.
+- Added accent-insensitive English/Greek search.
+- Added topic, category, and database-file browsing.
+- Added favorites and recent-entry history.
+- Added quick emergency cards ordered by risk and priority.
+- Added a preparedness self-check with a saved report.
+- Added a one-page household emergency-plan builder.
+- Added full, filtered, category, file, favorite, quick-pack, and bilingual TXT exports.
+- Added statistics and machine-readable --stats output.
+- Added a stricter --audit mode.
+- Added a local browser interface with responsive layout, language switching, filters, text sizing, favorites, print, copy, and source display.
+- Added local-port fallback from 8765 through 8775.
+
+Documentation work
+------------------
+- Replaced the stale Pass 95 README with a complete Pass 96 bilingual README.
+- Replaced the Pass 95 medical warning with MEDICAL_SAFETY_WARNING.md.
+- Consolidated repeated source notes into one current bilingual OFFICIAL_SAFETY_SOURCES.md.
+- Added official Greece, WHO, CDC, and Red Cross verification references.
+- Updated audit summaries and translation reports.
+
+Final audit
+-----------
+- Duplicate IDs: 0
+- Duplicate English topics: 0
+- Exact duplicate long bilingual blocks: 0
+- Exact repeated core text across different entries: 0
+- Missing bilingual pairs: 0
+- Reviewable English leakage in Greek fields: 0
+- JSON load errors: 0
+- Python syntax check: passed
+
+ΕΛΛΗΝΙΚΑ
+========
+
+Εργασίες βάσης
+---------------
+- Διατηρήθηκε η χρήσιμη υπάρχουσα δίγλωσση βάση.
+- Προστέθηκαν 53 νέες εγγραφές υψηλής προτεραιότητας στα αγγλικά και στα ελληνικά.
+- Η βάση αυξήθηκε σε 1.605 εγγραφές, 71 αρχεία JSON και 121 κατηγορίες.
+- Προστέθηκαν εγγραφές προσαρμοσμένες στην Ελλάδα για επικοινωνία με 112, κλήση στο Κέντρο Δηλητηριάσεων, προετοιμασία για δασική πυρκαγιά, κατάσταση μετά από σεισμό, καύσωνα, εκκένωση, συντονισμό νοικοκυριού, ευάλωτα άτομα, ζώα, παροχές, υγιεινή, τρόφιμα και επικοινωνίες.
+- Ανακατασκευάστηκαν 1.244 εγγραφές που βασίζονταν υπερβολικά σε πρότυπα, με διαδικασίες προσαρμοσμένες στο κάθε θέμα.
+- Προσαρμόστηκαν στο κάθε θέμα επαναλαμβανόμενα υλικά, βήματα, προειδοποιήσεις, λάθη, εναλλακτικές, σημάδια αποτυχίας, όρια εφεδρείας και σημειώσεις συντήρησης.
+- Αφαιρέθηκε το ακριβώς επαναλαμβανόμενο κύριο κείμενο μεταξύ διαφορετικών εγγραφών.
+- Αφαιρέθηκαν διπλότυπα αναγνωριστικά και διπλότυποι αγγλικοί τίτλοι.
+- Συμπληρώθηκαν όλα τα απαραίτητα αγγλικά και ελληνικά ζεύγη πεδίων.
+- Αφαιρέθηκε το αγγλικό κείμενο που χρειαζόταν έλεγχο μέσα στα ελληνικά πεδία, διατηρώντας αναγνωρισμένα τεχνικά ακρωνύμια και ονομασίες.
+
+Εργασίες εφαρμογής
+------------------
+- Ανακατασκευάστηκε το Offline Survival.py ως δίγλωσση εφαρμογή Termux χωρίς εξωτερικές βιβλιοθήκες.
+- Προστέθηκε αναζήτηση αγγλικών και ελληνικών χωρίς εξάρτηση από τόνους.
+- Προστέθηκε περιήγηση ανά θέμα, κατηγορία και αρχείο βάσης.
+- Προστέθηκαν αγαπημένα και ιστορικό πρόσφατων εγγραφών.
+- Προστέθηκαν γρήγορες κάρτες ανάγκης ταξινομημένες κατά κίνδυνο και προτεραιότητα.
+- Προστέθηκε αυτοέλεγχος ετοιμότητας με αποθηκευμένη αναφορά.
+- Προστέθηκε δημιουργία μονοσέλιδου σχεδίου ανάγκης για νοικοκυριό.
+- Προστέθηκαν εξαγωγές πλήρους βάσης, φίλτρων, κατηγορίας, αρχείου, αγαπημένων, γρήγορου πακέτου και δίγλωσσου TXT.
+- Προστέθηκαν στατιστικά και αποτέλεσμα --stats αναγνώσιμο από πρόγραμμα.
+- Προστέθηκε αυστηρότερη λειτουργία --audit.
+- Προστέθηκε τοπικό περιβάλλον φυλλομετρητή με προσαρμοζόμενη διάταξη, αλλαγή γλώσσας, φίλτρα, μέγεθος κειμένου, αγαπημένα, εκτύπωση, αντιγραφή και προβολή πηγών.
+- Προστέθηκε εναλλακτική επιλογή θυρών από 8765 έως 8775.
+
+Εργασίες τεκμηρίωσης
+---------------------
+- Αντικαταστάθηκε το παλιό README της Έκδοσης 95 με πλήρες δίγλωσσο README της Έκδοσης 96.
+- Αντικαταστάθηκε η παλιά ιατρική προειδοποίηση με το MEDICAL_SAFETY_WARNING.md.
+- Ενοποιήθηκαν οι επαναλαμβανόμενες σημειώσεις πηγών σε ένα ενημερωμένο δίγλωσσο OFFICIAL_SAFETY_SOURCES.md.
+- Προστέθηκαν επίσημες πηγές επαλήθευσης από Ελλάδα, Παγκόσμιο Οργανισμό Υγείας, CDC και Ερυθρό Σταυρό.
+- Ενημερώθηκαν οι συνόψεις ελέγχου και οι αναφορές μετάφρασης.
+
+Τελικός έλεγχος
+---------------
+- Διπλότυπα αναγνωριστικά: 0
+- Διπλότυποι αγγλικοί τίτλοι: 0
+- Ακριβώς διπλότυπα μεγάλα δίγλωσσα κείμενα: 0
+- Ακριβώς επαναλαμβανόμενο κύριο κείμενο μεταξύ διαφορετικών εγγραφών: 0
+- Ελλιπή δίγλωσσα ζεύγη: 0
+- Αγγλικό κείμενο προς έλεγχο στα ελληνικά πεδία: 0
+- Σφάλματα φόρτωσης JSON: 0
+- Έλεγχος σύνταξης Python: επιτυχής

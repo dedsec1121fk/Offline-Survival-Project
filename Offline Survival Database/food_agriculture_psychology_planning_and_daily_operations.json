@@ -13,7 +13,7 @@
     "difficulty": "basic",
     "urgency": "high",
     "priority": "critical",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with rationing_and_kitchen. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με rationing_and_kitchen.",
     "tags": [
       "food",
@@ -24,18 +24,18 @@
       "records"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
+      "Notebook. Context: “Staple food ration board”.",
+      "Pencil. Context: “Staple food ration board”.",
       "Food list",
       "Measuring cup if available",
       "Clean storage area"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
+      "Τετράδιο. Πλαίσιο: «Πίνακας μερίδων βασικών τροφίμων».",
+      "Μολύβι. Πλαίσιο: «Πίνακας μερίδων βασικών τροφίμων».",
       "Λίστα τροφίμων",
       "Μεζούρα αν υπάρχει",
-      "Καθαρός χώρος αποθήκευσης"
+      "Καθαρός χώρος αποθήκευσης — για «Πίνακας μερίδων βασικών τροφίμων»"
     ],
     "steps_en": [
       "Count food by category and write quantities clearly.",
@@ -86,12 +86,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Staple food ration board or when the next check happens.",
       "Supplies connected to Staple food ration board are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Staple food ration board”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Πίνακας μερίδων βασικών τροφίμων» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Πίνακας μερίδων βασικών τροφίμων» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Πίνακας μερίδων βασικών τροφίμων»"
     ],
     "when_not_to_use_en": [
       "Do not use Staple food ration board as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -103,11 +103,6 @@
       "Μη χρησιμοποιήσεις το «Πίνακας μερίδων βασικών τροφίμων» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Πίνακας μερίδων βασικών τροφίμων»."
     ],
-    "related_topics": [
-      "Food safety after refrigerator failure",
-      "Household first 72 hours command sheet",
-      "Local incident and resource log"
-    ],
     "short_term_en": "For the first hours of Staple food ration board, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Πίνακας μερίδων βασικών τροφίμων», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Staple food ration board remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -115,7 +110,32 @@
     "if_method_fails_en": "If Staple food ration board fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Πίνακας μερίδων βασικών τροφίμων», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Staple food ration board to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Πίνακας μερίδων βασικών τροφίμων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Πίνακας μερίδων βασικών τροφίμων» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Food safety after refrigerator failure",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "category_en": "Food · Agriculture · Psychology · Planning · Daily operations",
+    "category_el": "τρόφιμα · γεωργία · ψυχολογία · σχεδιασμός · Καθημερινές λειτουργίες",
+    "subcategory_en": "Rationing · Kitchen",
+    "subcategory_el": "δελτίο διανομής · κουζίνα",
+    "related_topics_en": [
+      "Food safety after refrigerator failure",
+      "Household first 72 hours command sheet",
+      "Local incident and resource log"
+    ],
+    "related_topics_el": [
+      "Ασφάλεια τροφίμων μετά από αποτυχία ψυγείου",
+      "Οικιακό φύλλο ελέγχου πρώτων 72 ωρών",
+      "Τοπικό ημερολόγιο συμβάντων και πόρων"
+    ]
   },
   {
     "id": "core-food-planning-002",
@@ -131,7 +151,7 @@
     "difficulty": "moderate",
     "urgency": "low",
     "priority": "high",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with agriculture_records. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με agriculture_records.",
     "tags": [
       "seeds",
@@ -142,18 +162,18 @@
       "crop planning"
     ],
     "materials_en": [
-      "Notebook",
-      "Pencil",
+      "Notebook. Context: “Seed and crop notebook”.",
+      "Pencil. Context: “Seed and crop notebook”.",
       "Seed packets or saved seed",
-      "Labels",
+      "Labels. Context: “Seed and crop notebook”.",
       "Water log",
       "Simple map of beds or pots"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Μολύβι",
+      "Τετράδιο. Πλαίσιο: «Τετράδιο σπόρων και καλλιεργειών».",
+      "Μολύβι. Πλαίσιο: «Τετράδιο σπόρων και καλλιεργειών».",
       "Φακελάκια ή κρατημένοι σπόροι",
-      "Ετικέτες",
+      "Ετικέτες. Πλαίσιο: «Τετράδιο σπόρων και καλλιεργειών».",
       "Ημερολόγιο νερού",
       "Απλός χάρτης παρτεριών ή γλαστρών"
     ],
@@ -206,12 +226,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Seed and crop notebook or when the next check happens.",
       "Supplies connected to Seed and crop notebook are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk."
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Seed and crop notebook”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Τετράδιο σπόρων και καλλιεργειών» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Τετράδιο σπόρων και καλλιεργειών» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Τετράδιο σπόρων και καλλιεργειών»"
     ],
     "when_not_to_use_en": [
       "Do not use Seed and crop notebook as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -223,11 +243,6 @@
       "Μη χρησιμοποιήσεις το «Τετράδιο σπόρων και καλλιεργειών» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Τετράδιο σπόρων και καλλιεργειών»."
     ],
-    "related_topics": [
-      "Staple food ration board",
-      "Safe household water chain",
-      "Local incident and resource log"
-    ],
     "short_term_en": "For the first hours of Seed and crop notebook, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Τετράδιο σπόρων και καλλιεργειών», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Seed and crop notebook remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -235,7 +250,32 @@
     "if_method_fails_en": "If Seed and crop notebook fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Τετράδιο σπόρων και καλλιεργειών», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Seed and crop notebook to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Τετράδιο σπόρων και καλλιεργειών» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Τετράδιο σπόρων και καλλιεργειών» στο πραγματικό περιβάλλον: έλεγξε όρια νερού, υγιεινής, επαφής τροφίμων και απορριμμάτων, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Staple food ration board",
+      "Safe household water chain",
+      "Local incident and resource log"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Food · Agriculture · Psychology · Planning · Daily operations",
+    "category_el": "τρόφιμα · γεωργία · ψυχολογία · σχεδιασμός · Καθημερινές λειτουργίες",
+    "subcategory_en": "Agriculture · Records",
+    "subcategory_el": "γεωργία · αρχεία",
+    "related_topics_en": [
+      "Staple food ration board",
+      "Safe household water chain",
+      "Local incident and resource log"
+    ],
+    "related_topics_el": [
+      "Πίνακας μερίδων βασικών τροφίμων",
+      "Ασφαλής αλυσίδα οικιακού νερού",
+      "Τοπικό ημερολόγιο συμβάντων και πόρων"
+    ]
   },
   {
     "id": "core-food-planning-003",
@@ -251,7 +291,7 @@
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-06-18",
     "update_note": "Pass92 schema repair: preserved existing content, added missing bilingual safety/check fields, and kept the entry aligned with psychology_and_group_operations. / Διόρθωση schema Pass92: διατηρήθηκε το υπάρχον περιεχόμενο, προστέθηκαν ελλείποντα δίγλωσσα πεδία ασφαλείας/ελέγχου και η εγγραφή κρατήθηκε ευθυγραμμισμένη με psychology_and_group_operations.",
     "tags": [
       "psychology",
@@ -262,14 +302,14 @@
       "morale"
     ],
     "materials_en": [
-      "Notebook",
-      "Task list",
+      "Notebook. Context: “Calm leadership during group stress”.",
+      "Task list. Context: “Calm leadership during group stress”.",
       "Quiet meeting spot",
       "Visible schedule"
     ],
     "materials_el": [
-      "Τετράδιο",
-      "Λίστα εργασιών",
+      "Τετράδιο. Πλαίσιο: «Ήρεμη καθοδήγηση σε ομαδικό στρες».",
+      "Λίστα εργασιών. Πλαίσιο: «Ήρεμη καθοδήγηση σε ομαδικό στρες».",
       "Ήσυχο σημείο συνάντησης",
       "Ορατό πρόγραμμα"
     ],
@@ -322,12 +362,12 @@
     "failure_signs_en": [
       "People cannot explain who is responsible for Calm leadership during group stress or when the next check happens.",
       "Supplies connected to Calm leadership during group stress are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk."
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Calm leadership during group stress”"
     ],
     "failure_signs_el": [
       "Οι άνθρωποι δεν μπορούν να πουν ποιος είναι υπεύθυνος για το «Ήρεμη καθοδήγηση σε ομαδικό στρες» ή πότε γίνεται ο επόμενος έλεγχος.",
       "Οι προμήθειες που σχετίζονται με το «Ήρεμη καθοδήγηση σε ομαδικό στρες» είναι χωρίς ετικέτα, υγρές, μολυσμένες, χαλασμένες, λείπουν ή χρησιμοποιούνται για λάθος σκοπό.",
-      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα."
+      "Η ρουτίνα αγνοεί ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού και αρχίζει να δημιουργεί νέο κίνδυνο αντί να μειώνει τον υπάρχοντα κατά τη διαχείριση του θέματος «Ήρεμη καθοδήγηση σε ομαδικό στρες»"
     ],
     "when_not_to_use_en": [
       "Do not use Calm leadership during group stress as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
@@ -339,11 +379,6 @@
       "Μη χρησιμοποιήσεις το «Ήρεμη καθοδήγηση σε ομαδικό στρες» όταν ο χώρος είναι στατικά επικίνδυνος, χημικά ύποπτος, γεμάτος καπνό, πλημμυρισμένος, βίαιος ή άμεσα επικίνδυνος.",
       "Μην αυτοσχεδιάζεις επικίνδυνες επισκευές, δοσολογίες, χημικούς χειρισμούς, χρήση όπλων ή ηλεκτρολογικά/αέρια με πρόσχημα το «Ήρεμη καθοδήγηση σε ομαδικό στρες»."
     ],
-    "related_topics": [
-      "Caregiver rotation for exhaustion prevention",
-      "Low-power communications schedule",
-      "Staple food ration board"
-    ],
     "short_term_en": "For the first hours of Calm leadership during group stress, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
     "short_term_el": "Τις πρώτες ώρες του «Ήρεμη καθοδήγηση σε ομαδικό στρες», κράτα την ενέργεια μικρή, ορατή και αναστρέψιμη: γράψε τον στόχο, όρισε έναν υπεύθυνο, προστάτευσε ευάλωτους ανθρώπους, χώρισε ασφαλείς από μη ασφαλείς προμήθειες και βάλε ώρα επανελέγχου.",
     "long_term_en": "If Calm leadership during group stress remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
@@ -351,6 +386,31 @@
     "if_method_fails_en": "If Calm leadership during group stress fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
     "if_method_fails_el": "Αν αποτύχει το «Ήρεμη καθοδήγηση σε ομαδικό στρες», σταμάτα την κλιμάκωση, πήγαινε στην ασφαλέστερη εφεδρική λύση, γράψε τι απέτυχε, προστάτευσε πρώτα τους ανθρώπους και ξανάρχισε μόνο με απλούστερο γραπτό σχέδιο.",
     "environment_notes_en": "Adapt Calm leadership during group stress to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
-    "environment_notes_el": "Προσάρμοσε το «Ήρεμη καθοδήγηση σε ομαδικό στρες» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα."
+    "environment_notes_el": "Προσάρμοσε το «Ήρεμη καθοδήγηση σε ομαδικό στρες» στο πραγματικό περιβάλλον: έλεγξε ασφάλεια τροφίμων, ξηρή αποθήκευση, καθαρά εργαλεία, έντομα/τρωκτικά και χρήση νερού, τοπικό καιρό, κατάσταση κτιρίου, πρόσβαση σε νερό, φως, θόρυβο, ζώα, γείτονες και ασφαλείς εξόδους πριν επαναλάβεις τη ρουτίνα.",
+    "related_topics": [
+      "Caregiver rotation for exhaustion prevention",
+      "Low-power communications schedule",
+      "Staple food ration board"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Food · Agriculture · Psychology · Planning · Daily operations",
+    "category_el": "τρόφιμα · γεωργία · ψυχολογία · σχεδιασμός · Καθημερινές λειτουργίες",
+    "subcategory_en": "Psychology · Group · Operations",
+    "subcategory_el": "ψυχολογία · ομάδα · λειτουργίες",
+    "related_topics_en": [
+      "Caregiver rotation for exhaustion prevention",
+      "Low-power communications schedule",
+      "Staple food ration board"
+    ],
+    "related_topics_el": [
+      "Εναλλαγή φροντιστών για πρόληψη εξάντλησης",
+      "Πρόγραμμα επικοινωνίας χαμηλής κατανάλωσης",
+      "Πίνακας μερίδων βασικών τροφίμων"
+    ]
   }
 ]

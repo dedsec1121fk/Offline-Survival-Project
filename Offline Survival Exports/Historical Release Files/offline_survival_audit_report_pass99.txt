@@ -1,0 +1,72 @@
+OFFLINE SURVIVAL — PASS 99 FINAL LINE-BY-LINE AUDIT
+====================================================
+Date: 18 June 2026
+
+SCOPE
+-----
+- 1,682 bilingual records in 73 JSON files
+- 138 categories
+- one consistent 48-field schema
+- Python application, embedded browser UI, documentation, update logs, source
+  references, SQLite search index, and release metadata
+
+CORRECTIONS FOUND DURING THE FINAL REVIEW
+-----------------------------------------
+- Replaced six inherited procedures that used the wrong medical-response
+  template: shared childcare quiet hour, hand-tool edge care, manual-pump log,
+  power-bank cold-weather care, shoe/foot-care station, and long-walk foot care.
+- Replaced four generic Greek related-topic placeholders with meaningful
+  English/Greek titles.
+- Corrected source coverage with relevant official OSHA, WHO, CDC, CPSC, FAA,
+  Ready.gov, Greek Civil Protection, and Greek Ministry of Health references.
+- Rebuilt and signature-verified the bundled SQLite full-text index.
+- Removed a malformed phrase literal and trailing whitespace found in the final
+  public-file scan.
+
+FINAL DATABASE CHECKS
+---------------------
+Duplicate IDs: 0
+Duplicate English topics: 0
+Duplicate Greek topics: 0
+Exact repeated core items between different records: 0
+Duplicate record bodies: 0
+Missing bilingual pairs: 0
+Bilingual type mismatches: 0
+Unequal bilingual list lengths: 0
+Reviewable English leakage in Greek fields: 0
+Greek fields without Greek script: 0
+Entries without source lists: 0
+Source URL/domain validation errors: 0
+Shallow entries: 0
+Numbered placeholder topics: 0
+Malformed phrase flags: 0
+Semantic mismatch flags: 0
+Unsafe affirmative-instruction flags: 0
+JSON load errors: 0
+Text-file encoding/control-character errors: 0
+Stale current-release claims: 0
+
+SEARCH INDEX
+------------
+Status: ready and matched to the authoritative JSON database
+Indexed entries: 1682
+Database signature: e45031d58551204523698f99dd4b49c694b6efb440def3be2fc2471fe1856c4a
+Index SHA-256: 82bb20be7d393ed2828704e882ce6e877cbe78f095a850914d7a47f8150316d2
+
+IMPORTANT INTERPRETATION
+------------------------
+The release audit can verify structure, translation pairing, repeated content,
+known malformed patterns, search behavior, source-list presence, and tested
+application paths. It cannot prove that every possible real-world situation is
+covered or replace official instructions and qualified professional judgment.
+Necessary emergency terms and safety boundaries may recur; accidental exact
+duplicate core instructions do not.
+
+ΕΛΛΗΝΙΚΗ ΣΥΝΟΨΗ
+----------------
+Ελέγχθηκαν 1.682 δίγλωσσες εγγραφές, 73 αρχεία JSON, η εφαρμογή, το τοπικό
+περιβάλλον περιήγησης, τα έγγραφα, οι πηγές και το ευρετήριο αναζήτησης.
+Διορθώθηκαν έξι διαδικασίες με λάθος ιατρικό πρότυπο και τέσσερις γενικές
+μεταφράσεις σχετικών θεμάτων. Όλοι οι τελικοί έλεγχοι διπλοτύπων, μετάφρασης,
+σημασιολογικής αντιστοίχισης, πηγών και φόρτωσης επιστρέφουν μηδέν σφάλματα.
+Οι επίσημες οδηγίες και οι ειδικευμένοι επαγγελματίες υπερισχύουν πάντα.

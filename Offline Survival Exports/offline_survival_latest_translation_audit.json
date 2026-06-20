@@ -1,9 +1,8 @@
 {
-  "pass": "Pass92 schema repair and final cleanup",
-  "date": "2026-05-28",
-  "one_sided_translation_pairs_count": 0,
-  "greek_low_signal_fields_count": 0,
-  "missing_expected_schema_fields_count": 0,
-  "empty_expected_schema_fields_count": 0,
-  "result": "PASS"
+  "release": "Pass 100",
+  "entries_checked": 1712,
+  "required_pairs_complete": true,
+  "greek_ascii_leaks": 0,
+  "unequal_or_missing_pairs": 0,
+  "result": "passed"
 }

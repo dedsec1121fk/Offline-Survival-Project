@@ -1,0 +1,19 @@
+OFFLINE SURVIVAL — PASS 100 RELEASE VALIDATION
+Date: 19 June 2026
+
+Database: 1,712 records / 74 JSON files / 144 categories
+Schema: 48 fields per record
+Expansion: 30 new English/Greek field cards
+Search index: rebuilt for all 1,712 records
+
+VALIDATION TARGETS
+- all previous records preserved
+- no duplicate ID or English/Greek topic
+- no accidental exact repeated core text between different records
+- complete and equal English/Greek required fields
+- no reviewable English leakage in Greek fields
+- no shallow, placeholder, source-less, or unloadable record
+- new cards available in terminal helper, scenario packs, and offline search
+- Python source compiles and SQLite index matches the JSON database signature
+- explicit --lang selection works on a clean first launch and end-of-input exits cleanly
+- final archive manifest verifies after fresh extraction

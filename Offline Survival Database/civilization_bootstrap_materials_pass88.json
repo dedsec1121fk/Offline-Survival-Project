@@ -13,8 +13,8 @@
     "difficulty": "moderate",
     "urgency": "non_immediate",
     "priority": "medium",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Clay brick drying rack routine” entry.",
     "tags": [
       "brick",
       "clay",
@@ -30,7 +30,7 @@
       "Fiber such as straw",
       "Mold or form",
       "Flat rack or boards",
-      "Notebook"
+      "Notebook. Context: “Clay brick drying rack routine”."
     ],
     "materials_el": [
       "Χώμα με πηλό",
@@ -38,7 +38,7 @@
       "Ίνες όπως άχυρο",
       "Καλούπι ή φόρμα",
       "Επίπεδο ράφι ή σανίδες",
-      "Τετράδιο"
+      "Τετράδιο. Πλαίσιο: «Ρουτίνα ραφιού ξήρανσης για πλίνθους από πηλό»."
     ],
     "steps_en": [
       "Record the soil mix, date, and weather for the batch.",
@@ -116,6 +116,26 @@
       "Earthen cool storage pit upkeep",
       "Limewash mixing safety routine",
       "Small tool handle refitting guide"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Clay · Brick · Work",
+    "subcategory_el": "πηλός · τούβλο · εργασία",
+    "related_topics_en": [
+      "Earthen cool storage pit upkeep",
+      "Limewash mixing safety routine",
+      "Small tool handle refitting guide"
+    ],
+    "related_topics_el": [
+      "Συντήρηση υπόγειου χωμάτινου λάκκου δροσερής αποθήκευσης",
+      "Ρουτίνα ασφαλείας για ανάμειξη ασβεστόνερου και ασβεστώματος",
+      "Οδηγός επανατοποθέτησης λαβής σε μικρό εργαλείο"
     ]
   },
   {
@@ -132,8 +152,8 @@
     "difficulty": "basic_to_moderate",
     "urgency": "non_immediate",
     "priority": "medium",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Limewash mixing safety routine” entry.",
     "tags": [
       "limewash",
       "sanitation",
@@ -145,18 +165,18 @@
     ],
     "materials_en": [
       "Known lime source",
-      "Clean water",
-      "Bucket",
+      "Clean water. Context: “Limewash mixing safety routine”.",
+      "Bucket. Context: “Limewash mixing safety routine”.",
       "Stirring stick",
-      "Gloves",
+      "Gloves. Context: “Limewash mixing safety routine”.",
       "Eye protection"
     ],
     "materials_el": [
       "Γνωστή πηγή ασβέστη",
-      "Καθαρό νερό",
-      "Κουβάς",
-      "Ξύλο ανακατέματος",
-      "Γάντια",
+      "Καθαρό νερό. Πλαίσιο: «Ρουτίνα ασφαλείας για ανάμειξη ασβεστόνερου και ασβεστώματος».",
+      "Κουβάς. Πλαίσιο: «Ρουτίνα ασφαλείας για ανάμειξη ασβεστόνερου και ασβεστώματος».",
+      "Ξύλο ανακατέματος. Πλαίσιο: «Ρουτίνα ασφαλείας για ανάμειξη ασβεστόνερου και ασβεστώματος».",
+      "Γάντια. Πλαίσιο: «Ρουτίνα ασφαλείας για ανάμειξη ασβεστόνερου και ασβεστώματος».",
       "Προστασία ματιών"
     ],
     "steps_en": [
@@ -235,6 +255,26 @@
       "Clay brick drying rack routine",
       "Ash-based soap making notes",
       "Community apprenticeship ledger"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Lime · Surface · Sanitation",
+    "subcategory_el": "ασβέστης · επιφάνεια · αποχέτευση και υγιεινή",
+    "related_topics_en": [
+      "Clay brick drying rack routine",
+      "Ash-based soap making notes",
+      "Community apprenticeship ledger"
+    ],
+    "related_topics_el": [
+      "Ρουτίνα ραφιού ξήρανσης για πλίνθους από πηλό",
+      "Σημειώσεις για παρασκευή σαπουνιού με βάση τη στάχτη",
+      "Κοινοτικό βιβλίο μαθητείας και μετάδοσης δεξιοτήτων"
     ]
   },
   {
@@ -247,12 +287,12 @@
     "summary_en": "Basic notes for documenting small-batch ash-based cleaning soap experiments with emphasis on labeling, safety, and cautious testing.",
     "summary_el": "Βασικές σημειώσεις για καταγραφή μικρών δοκιμών καθαριστικού σαπουνιού με βάση τη στάχτη, με έμφαση σε ετικέτες, ασφάλεια και προσεκτική δοκιμή.",
     "content_en": "Ash-based soap making notes are useful for long-term low-tech cleaning experiments, but they require patience and labeling because caustic solutions can harm skin and eyes. Start with clean ash from untreated wood only, not painted, glued, pressure-treated, or plastic-contaminated burn waste. Filter the ash liquid, label it clearly, and keep test batches small. If any fat or oil is used, write down the source, smell, storage condition, and whether the material shows spoilage. Test the final soap on tools, cloth, or dirty hands in a controlled way before relying on it for regular hygiene. Keep separate notes on skin irritation, cleaning strength, and storage stability so the next batch becomes safer instead of repeating the same uncertainty.",
-    "content_el": "Οι σημειώσεις για παρασκευή σαπουνιού με βάση τη στάχτη είναι χρήσιμες για μακροπρόθεσμα low-tech πειράματα καθαρισμού, αλλά απαιτούν υπομονή και ετικέτες επειδή τα καυστικά διαλύματα μπορούν να βλάψουν δέρμα και μάτια. Ξεκίνα μόνο με καθαρή στάχτη από ακατέργαστο ξύλο και όχι από βαμμένα, κολλημένα, εμποτισμένα ξύλα ή καψίματα μολυσμένα με πλαστικά. Φιλτράρισε το υγρό της στάχτης, βάλε καθαρή ετικέτα και κράτα τις δοκιμαστικές παρτίδες μικρές. Αν χρησιμοποιηθεί λίπος ή λάδι, γράψε την προέλευση, τη μυρωδιά, την κατάσταση αποθήκευσης και το αν φαίνεται χαλασμένο. Δοκίμασε το τελικό σαπούνι πρώτα σε εργαλεία, ύφασμα ή βρώμικα χέρια με ελεγχόμενο τρόπο πριν βασιστείς σε αυτό για τακτική υγιεινή. Κράτα ξεχωριστές σημειώσεις για ερεθισμό δέρματος, δύναμη καθαρισμού και σταθερότητα αποθήκευσης ώστε η επόμενη παρτίδα να γίνει ασφαλέστερη και να μη 반복άνει την ίδια αβεβαιότητα.",
+    "content_el": "Οι σημειώσεις για παρασκευή σαπουνιού με βάση τη στάχτη είναι χρήσιμες για μακροπρόθεσμα χαμηλής τεχνολογίας πειράματα καθαρισμού, αλλά απαιτούν υπομονή και ετικέτες επειδή τα καυστικά διαλύματα μπορούν να βλάψουν δέρμα και μάτια. Ξεκίνα μόνο με καθαρή στάχτη από ακατέργαστο ξύλο και όχι από βαμμένα, κολλημένα, εμποτισμένα ξύλα ή καψίματα μολυσμένα με πλαστικά. Φιλτράρισε το υγρό της στάχτης, βάλε καθαρή ετικέτα και κράτα τις δοκιμαστικές παρτίδες μικρές. Αν χρησιμοποιηθεί λίπος ή λάδι, γράψε την προέλευση, τη μυρωδιά, την κατάσταση αποθήκευσης και το αν φαίνεται χαλασμένο. Δοκίμασε το τελικό σαπούνι πρώτα σε εργαλεία, ύφασμα ή βρώμικα χέρια με ελεγχόμενο τρόπο πριν βασιστείς σε αυτό για τακτική υγιεινή. Κράτα ξεχωριστές σημειώσεις για ερεθισμό δέρματος, δύναμη καθαρισμού και σταθερότητα αποθήκευσης ώστε η επόμενη παρτίδα να γίνει ασφαλέστερη και να μη 반복άνει την ίδια αβεβαιότητα.",
     "difficulty": "moderate",
     "urgency": "non_immediate",
     "priority": "medium",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Ash-based soap making notes” entry.",
     "tags": [
       "soap",
       "ash",
@@ -264,19 +304,19 @@
     ],
     "materials_en": [
       "Clean wood ash",
-      "Water",
+      "Water. Context: “Ash-based soap making notes”.",
       "Filter cloth",
       "Labeled container",
       "Stir stick",
-      "Gloves"
+      "Gloves. Context: “Ash-based soap making notes”."
     ],
     "materials_el": [
       "Καθαρή στάχτη ξύλου",
-      "Νερό",
+      "Νερό. Πλαίσιο: «Σημειώσεις για παρασκευή σαπουνιού με βάση τη στάχτη».",
       "Πανί φιλτραρίσματος",
       "Δοχείο με ετικέτα",
-      "Ξύλο ανακατέματος",
-      "Γάντια"
+      "Ξύλο ανακατέματος. Πλαίσιο: «Σημειώσεις για παρασκευή σαπουνιού με βάση τη στάχτη».",
+      "Γάντια. Πλαίσιο: «Σημειώσεις για παρασκευή σαπουνιού με βάση τη στάχτη»."
     ],
     "steps_en": [
       "Use only clean untreated wood ash.",
@@ -354,6 +394,26 @@
       "Limewash mixing safety routine",
       "Seed saving dry storage checklist",
       "Community apprenticeship ledger"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Cleaning · Sanitation · Basics",
+    "subcategory_el": "καθαρισμός · αποχέτευση και υγιεινή · βασικά",
+    "related_topics_en": [
+      "Limewash mixing safety routine",
+      "Seed saving dry storage checklist",
+      "Community apprenticeship ledger"
+    ],
+    "related_topics_el": [
+      "Ρουτίνα ασφαλείας για ανάμειξη ασβεστόνερου και ασβεστώματος",
+      "Λίστα ελέγχου για αποθήκευση σπόρων σε ξηρό περιβάλλον",
+      "Κοινοτικό βιβλίο μαθητείας και μετάδοσης δεξιοτήτων"
     ]
   },
   {
@@ -370,8 +430,8 @@
     "difficulty": "basic",
     "urgency": "seasonal",
     "priority": "high",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Seed saving dry storage checklist” entry.",
     "tags": [
       "seeds",
       "storage",
@@ -383,17 +443,17 @@
     ],
     "materials_en": [
       "Seeds",
-      "Labels",
+      "Labels. Context: “Seed saving dry storage checklist”.",
       "Dry containers or packets",
-      "Notebook",
+      "Notebook. Context: “Seed saving dry storage checklist”.",
       "Shelving",
       "Pest barrier if available"
     ],
     "materials_el": [
       "Σπόροι",
-      "Ετικέτες",
+      "Ετικέτες. Πλαίσιο: «Λίστα ελέγχου για αποθήκευση σπόρων σε ξηρό περιβάλλον».",
       "Ξηρά δοχεία ή φακελάκια",
-      "Τετράδιο",
+      "Τετράδιο. Πλαίσιο: «Λίστα ελέγχου για αποθήκευση σπόρων σε ξηρό περιβάλλον».",
       "Ράφια",
       "Φράγμα για παράσιτα αν υπάρχει"
     ],
@@ -473,6 +533,26 @@
       "Earthen cool storage pit upkeep",
       "Hand-powered grain grinding station notes",
       "Community apprenticeship ledger"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Seed · Garden · Continuity",
+    "subcategory_el": "σπόροι · κήπος · συνέχεια",
+    "related_topics_en": [
+      "Earthen cool storage pit upkeep",
+      "Hand-powered grain grinding station notes",
+      "Community apprenticeship ledger"
+    ],
+    "related_topics_el": [
+      "Συντήρηση υπόγειου χωμάτινου λάκκου δροσερής αποθήκευσης",
+      "Σημειώσεις για χειροκίνητο σταθμό άλεσης σιτηρών",
+      "Κοινοτικό βιβλίο μαθητείας και μετάδοσης δεξιοτήτων"
     ]
   },
   {
@@ -483,14 +563,14 @@
     "category": "civilization_bootstrap_materials",
     "subcategory": "food_processing_basics",
     "summary_en": "Notes for setting up a low-tech grain grinding station with attention to dust, cleaning order, spare parts, and labor pacing.",
-    "summary_el": "Σημειώσεις για στήσιμο low-tech σταθμού άλεσης σιτηρών με προσοχή σε σκόνη, σειρά καθαρισμού, ανταλλακτικά και ρυθμό εργασίας.",
+    "summary_el": "Σημειώσεις για στήσιμο χαμηλής τεχνολογίας σταθμού άλεσης σιτηρών με προσοχή σε σκόνη, σειρά καθαρισμού, ανταλλακτικά και ρυθμό εργασίας.",
     "content_en": "Hand-powered grain grinding station notes are useful when a community needs repeatable flour or meal production without electricity. Start by choosing a stable location with enough light, sweepable floors, and a place to separate clean grain, waiting grain, finished flour, and sweep waste. Check the grinding surfaces for cracks, looseness, or metal fragments before each session. Assign one person to feed grain, one to catch output, and one to watch dust, fatigue, and contamination. Record what grain was processed, how much effort it took, and whether the meal quality changed across the session. Clean in a fixed order from cleanest area to dirtiest so yesterday’s residue does not silently become today’s contamination.",
     "content_el": "Οι σημειώσεις για χειροκίνητο σταθμό άλεσης σιτηρών είναι χρήσιμες όταν μια κοινότητα χρειάζεται επαναλήψιμη παραγωγή αλευριού ή χονδροαλεσμένου καρπού χωρίς ηλεκτρικό ρεύμα. Ξεκίνα διαλέγοντας σταθερό σημείο με αρκετό φως, δάπεδο που σκουπίζεται εύκολα και χώρο για να χωρίζονται ο καθαρός καρπός, ο καρπός που περιμένει, το έτοιμο αλεύρι και τα απορρίμματα από το σκούπισμα. Έλεγχε τις επιφάνειες άλεσης για ρωγμές, χαλαρότητα ή μεταλλικά θραύσματα πριν από κάθε συνεδρία. Ανάθεσε ένα άτομο να τροφοδοτεί τον καρπό, ένα να παραλαμβάνει την έξοδο και ένα να παρακολουθεί σκόνη, κόπωση και επιμολύνσεις. Κατέγραψε ποιο σιτηρό αλέστηκε, πόση προσπάθεια χρειάστηκε και αν άλλαξε η ποιότητα της άλεσης μέσα στη συνεδρία. Καθάριζε με σταθερή σειρά από το πιο καθαρό σημείο προς το πιο βρώμικο ώστε τα υπολείμματα της χθεσινής ημέρας να μη γίνονται αθόρυβα η σημερινή επιμόλυνση.",
     "difficulty": "basic_to_moderate",
     "urgency": "context_dependent",
     "priority": "medium",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Hand-powered grain grinding station notes” entry.",
     "tags": [
       "grain",
       "milling",
@@ -502,18 +582,18 @@
     ],
     "materials_en": [
       "Hand mill or grinding stones",
-      "Brush",
-      "Containers",
+      "Brush. Context: “Hand-powered grain grinding station notes”.",
+      "Containers. Context: “Hand-powered grain grinding station notes”.",
       "Cloth cover",
-      "Notebook",
+      "Notebook. Context: “Hand-powered grain grinding station notes”.",
       "Repair wedges or simple tools"
     ],
     "materials_el": [
       "Χειροκίνητος μύλος ή πέτρες άλεσης",
-      "Βούρτσα",
-      "Δοχεία",
+      "Βούρτσα. Πλαίσιο: «Σημειώσεις για χειροκίνητο σταθμό άλεσης σιτηρών».",
+      "Δοχεία. Πλαίσιο: «Σημειώσεις για χειροκίνητο σταθμό άλεσης σιτηρών».",
       "Υφασμάτινο κάλυμμα",
-      "Τετράδιο",
+      "Τετράδιο. Πλαίσιο: «Σημειώσεις για χειροκίνητο σταθμό άλεσης σιτηρών».",
       "Σφήνες επισκευής ή απλά εργαλεία"
     ],
     "steps_en": [
@@ -592,6 +672,26 @@
       "Seed saving dry storage checklist",
       "Ash-based soap making notes",
       "Small tool handle refitting guide"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Food · Processing · Basics",
+    "subcategory_el": "τρόφιμα · επεξεργασία · βασικά",
+    "related_topics_en": [
+      "Seed saving dry storage checklist",
+      "Ash-based soap making notes",
+      "Small tool handle refitting guide"
+    ],
+    "related_topics_el": [
+      "Λίστα ελέγχου για αποθήκευση σπόρων σε ξηρό περιβάλλον",
+      "Σημειώσεις για παρασκευή σαπουνιού με βάση τη στάχτη",
+      "Οδηγός επανατοποθέτησης λαβής σε μικρό εργαλείο"
     ]
   },
   {
@@ -602,14 +702,14 @@
     "category": "civilization_bootstrap_materials",
     "subcategory": "cool_storage_and_food_protection",
     "summary_en": "Guidance for maintaining a low-tech cool storage pit while preventing water damage, rot, and access confusion.",
-    "summary_el": "Οδηγίες για συντήρηση low-tech υπόγειου δροσερού χώρου αποθήκευσης με πρόληψη υγρασίας, σαπίσματος και σύγχυσης πρόσβασης.",
+    "summary_el": "Οδηγίες για συντήρηση χαμηλής τεχνολογίας υπόγειου δροσερού χώρου αποθήκευσης με πρόληψη υγρασίας, σαπίσματος και σύγχυσης πρόσβασης.",
     "content_en": "Earthen cool storage pit upkeep supports longer food life in places without refrigeration, but only when dryness, drainage, and rotation are watched carefully. Choose a site above obvious flood lines and watch how water behaves after rain before relying on the pit. Use raised supports, baskets, shelves, or divided sections so containers do not sit in standing dampness. Keep a written map or list of what is inside, because forgotten stores become rot, pests, or dangerous surprises. Inspect the pit regularly for smell changes, roof weakness, water seepage, insect pressure, and signs that humans are opening it too often during the hottest hours. Use the coolest storage for the items that truly need it and leave breathing space around containers.",
     "content_el": "Η συντήρηση υπόγειου χωμάτινου λάκκου δροσερής αποθήκευσης βοηθά να παραταθεί η ζωή των τροφίμων σε μέρη χωρίς ψυγείο, αλλά μόνο όταν παρακολουθούνται προσεκτικά η ξηρότητα, η αποστράγγιση και η εναλλαγή αποθεμάτων. Διάλεξε σημείο πάνω από προφανείς γραμμές πλημμύρας και παρατήρησε πώς συμπεριφέρεται το νερό μετά από βροχή πριν βασιστείς στον λάκκο. Χρησιμοποίησε υπερυψωμένα στηρίγματα, καλάθια, ράφια ή χωρισμένα τμήματα ώστε τα δοχεία να μην κάθονται μέσα σε στάσιμη υγρασία. Κράτα γραπτό χάρτη ή λίστα με το τι υπάρχει μέσα, γιατί τα ξεχασμένα αποθέματα γίνονται σάπισμα, παράσιτα ή επικίνδυνες εκπλήξεις. Έλεγχε τακτικά τον λάκκο για αλλαγές στη μυρωδιά, αδυναμία οροφής, διείσδυση νερού, πίεση εντόμων και σημάδια ότι οι άνθρωποι τον ανοίγουν πολύ συχνά στις πιο ζεστές ώρες. Χρησιμοποίησε το πιο δροσερό σημείο για όσα πράγματα το χρειάζονται πραγματικά και άφηνε χώρο αερισμού γύρω από τα δοχεία.",
     "difficulty": "moderate",
     "urgency": "seasonal",
     "priority": "medium",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Earthen cool storage pit upkeep” entry.",
     "tags": [
       "storage",
       "pit",
@@ -622,18 +722,18 @@
     "materials_en": [
       "Shovel",
       "Raised supports or crates",
-      "Containers",
+      "Containers. Context: “Earthen cool storage pit upkeep”.",
       "Notebook map",
       "Drainage tools",
-      "Cover material"
+      "Cover material. Context: “Earthen cool storage pit upkeep”."
     ],
     "materials_el": [
       "Φτυάρι",
       "Υπερυψωμένα στηρίγματα ή τελάρα",
-      "Δοχεία",
+      "Δοχεία. Πλαίσιο: «Συντήρηση υπόγειου χωμάτινου λάκκου δροσερής αποθήκευσης».",
       "Χάρτης σε τετράδιο",
       "Εργαλεία αποστράγγισης",
-      "Υλικό κάλυψης"
+      "Υλικό κάλυψης. Πλαίσιο: «Συντήρηση υπόγειου χωμάτινου λάκκου δροσερής αποθήκευσης»."
     ],
     "steps_en": [
       "Check drainage before depending on the pit.",
@@ -702,7 +802,7 @@
     "short_term_en": "Keep part of the food supply cooler and more organized.",
     "short_term_el": "Κράτα μέρος της τροφής πιο δροσερό και πιο οργανωμένο.",
     "long_term_en": "Develop reliable low-tech storage continuity across seasons.",
-    "long_term_el": "Ανάπτυξε αξιόπιστη low-tech συνέχεια αποθήκευσης μέσα στις εποχές.",
+    "long_term_el": "Ανάπτυξε αξιόπιστη χαμηλής τεχνολογίας συνέχεια αποθήκευσης μέσα στις εποχές.",
     "if_method_fails_en": "Move the stock, dry or abandon the site, and rewrite the storage map.",
     "if_method_fails_el": "Μετέφερε το απόθεμα, στέγνωσε ή εγκατάλειψε το σημείο και ξαναγράψε τον χάρτη αποθήκευσης.",
     "environment_notes_en": "Groundwater, rainfall pattern, soil type, and shade decide whether the pit stays useful.",
@@ -711,6 +811,26 @@
       "Seed saving dry storage checklist",
       "Rain gutter first-flush barrel routine",
       "Hand-powered grain grinding station notes"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Cool · Storage · Food · Protection",
+    "subcategory_el": "δροσερό · αποθήκευση · τρόφιμα · προστασία",
+    "related_topics_en": [
+      "Seed saving dry storage checklist",
+      "Rain gutter first-flush barrel routine",
+      "Hand-powered grain grinding station notes"
+    ],
+    "related_topics_el": [
+      "Λίστα ελέγχου για αποθήκευση σπόρων σε ξηρό περιβάλλον",
+      "Ρουτίνα πρώτης έκπλυσης για βαρέλι συλλογής βρόχινου νερού από υδρορροή",
+      "Σημειώσεις για χειροκίνητο σταθμό άλεσης σιτηρών"
     ]
   },
   {
@@ -727,8 +847,8 @@
     "difficulty": "moderate",
     "urgency": "seasonal",
     "priority": "medium",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Rain gutter first-flush barrel routine” entry.",
     "tags": [
       "rainwater",
       "gutter",
@@ -743,16 +863,16 @@
       "Diversion section",
       "Barrel with lid",
       "Screen or insect barrier",
-      "Brush",
-      "Notebook"
+      "Brush. Context: “Rain gutter first-flush barrel routine”.",
+      "Notebook. Context: “Rain gutter first-flush barrel routine”."
     ],
     "materials_el": [
       "Υδρορροή",
       "Τμήμα εκτροπής",
       "Βαρέλι με καπάκι",
       "Σήτα ή φράγμα εντόμων",
-      "Βούρτσα",
-      "Τετράδιο"
+      "Βούρτσα. Πλαίσιο: «Ρουτίνα πρώτης έκπλυσης για βαρέλι συλλογής βρόχινου νερού από υδρορροή».",
+      "Τετράδιο. Πλαίσιο: «Ρουτίνα πρώτης έκπλυσης για βαρέλι συλλογής βρόχινου νερού από υδρορροή»."
     ],
     "steps_en": [
       "Document the roof and collection setup.",
@@ -830,6 +950,26 @@
       "Earthen cool storage pit upkeep",
       "Limewash mixing safety routine",
       "Community apprenticeship ledger"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Water · Collection · Infrastructure",
+    "subcategory_el": "νερό · συλλογή · υποδομές",
+    "related_topics_en": [
+      "Earthen cool storage pit upkeep",
+      "Limewash mixing safety routine",
+      "Community apprenticeship ledger"
+    ],
+    "related_topics_el": [
+      "Συντήρηση υπόγειου χωμάτινου λάκκου δροσερής αποθήκευσης",
+      "Ρουτίνα ασφαλείας για ανάμειξη ασβεστόνερου και ασβεστώματος",
+      "Κοινοτικό βιβλίο μαθητείας και μετάδοσης δεξιοτήτων"
     ]
   },
   {
@@ -846,8 +986,8 @@
     "difficulty": "basic_to_moderate",
     "urgency": "context_dependent",
     "priority": "medium",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Small tool handle refitting guide” entry.",
     "tags": [
       "tools",
       "repair",
@@ -862,7 +1002,7 @@
       "Replacement handle",
       "Wedges",
       "Knife or rasp",
-      "Brush",
+      "Brush. Context: “Small tool handle refitting guide”.",
       "Repair log"
     ],
     "materials_el": [
@@ -870,7 +1010,7 @@
       "Λαβή αντικατάστασης",
       "Σφήνες",
       "Μαχαίρι ή ράσπα",
-      "Βούρτσα",
+      "Βούρτσα. Πλαίσιο: «Οδηγός επανατοποθέτησης λαβής σε μικρό εργαλείο».",
       "Αρχείο επισκευών"
     ],
     "steps_en": [
@@ -949,6 +1089,26 @@
       "Hand-powered grain grinding station notes",
       "Clay brick drying rack routine",
       "Leather patch stitching routine"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Tool · Maintenance · Repair",
+    "subcategory_el": "εργαλείο · συντήρηση · επισκευή",
+    "related_topics_en": [
+      "Hand-powered grain grinding station notes",
+      "Clay brick drying rack routine",
+      "Leather patch stitching routine"
+    ],
+    "related_topics_el": [
+      "Σημειώσεις για χειροκίνητο σταθμό άλεσης σιτηρών",
+      "Ρουτίνα ραφιού ξήρανσης για πλίνθους από πηλό",
+      "Ρουτίνα ραψίματος μπαλώματος σε δέρμα"
     ]
   },
   {
@@ -965,8 +1125,8 @@
     "difficulty": "basic_to_moderate",
     "urgency": "context_dependent",
     "priority": "medium",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Leather patch stitching routine” entry.",
     "tags": [
       "leather",
       "repair",
@@ -1068,6 +1228,26 @@
       "Small tool handle refitting guide",
       "Seed saving dry storage checklist",
       "Community apprenticeship ledger"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Clothing · Gear · Repair",
+    "subcategory_el": "ρουχισμός · εξοπλισμός · επισκευή",
+    "related_topics_en": [
+      "Small tool handle refitting guide",
+      "Seed saving dry storage checklist",
+      "Community apprenticeship ledger"
+    ],
+    "related_topics_el": [
+      "Οδηγός επανατοποθέτησης λαβής σε μικρό εργαλείο",
+      "Λίστα ελέγχου για αποθήκευση σπόρων σε ξηρό περιβάλλον",
+      "Κοινοτικό βιβλίο μαθητείας και μετάδοσης δεξιοτήτων"
     ]
   },
   {
@@ -1084,8 +1264,8 @@
     "difficulty": "basic",
     "urgency": "non_immediate",
     "priority": "high",
-    "last_updated": "2026-04-30",
-    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries.",
+    "last_updated": "2026-06-18",
+    "update_note": "Pass88 README bilingual rebuild and new low-tech rebuilding entries. This note applies specifically to the “Community apprenticeship ledger” entry.",
     "tags": [
       "records",
       "training",
@@ -1097,14 +1277,14 @@
     ],
     "materials_en": [
       "Notebook or ledger",
-      "Pencils",
+      "Pencils. Context: “Community apprenticeship ledger”.",
       "Simple symbols or status marks",
       "Date list",
       "Skill categories"
     ],
     "materials_el": [
       "Τετράδιο ή βιβλίο καταγραφής",
-      "Μολύβια",
+      "Μολύβια. Πλαίσιο: «Κοινοτικό βιβλίο μαθητείας και μετάδοσης δεξιοτήτων».",
       "Απλά σύμβολα ή σημάδια κατάστασης",
       "Λίστα ημερομηνιών",
       "Κατηγορίες δεξιοτήτων"
@@ -1132,7 +1312,7 @@
     ],
     "warnings_el": [
       "Μην υπερβάλλεις για την ικανότητα μέσα στο βιβλίο.",
-      "Μην κρατάς μόνο ένα άτομο για κρίσιμη δεξιότητα όταν είναι δυνατό το cross-training.",
+      "Μην κρατάς μόνο ένα άτομο για κρίσιμη δεξιότητα όταν είναι δυνατό το διασταυρούμενη εκπαίδευση.",
       "Μην αφήνεις το βιβλίο να αντικαθιστά την άμεση επίβλεψη σε επικίνδυνες εργασίες."
     ],
     "mistakes_en": [
@@ -1185,6 +1365,26 @@
       "Small tool handle refitting guide",
       "Seed saving dry storage checklist",
       "Hand-powered grain grinding station notes"
+    ],
+    "update_note_en": "Pass 99 line-by-line audit: translation, usability, repetition, safety boundaries, metadata, sources, and mobile performance were reviewed and corrected where needed.",
+    "update_note_el": "Έλεγχος έκδοσης 99 γραμμή προς γραμμή: εξετάστηκαν και διορθώθηκαν όπου χρειαζόταν η μετάφραση, η ευχρηστία, οι επαναλήψεις, τα όρια ασφάλειας, τα μεταδεδομένα, οι πηγές και η απόδοση σε κινητό.",
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "category_en": "Civilization · Bootstrap · Materials",
+    "category_el": "πολιτισμός · αρχική επανεκκίνηση · υλικά",
+    "subcategory_en": "Skill · Transfer · Records",
+    "subcategory_el": "δεξιότητα · μεταφορά · αρχεία",
+    "related_topics_en": [
+      "Small tool handle refitting guide",
+      "Seed saving dry storage checklist",
+      "Hand-powered grain grinding station notes"
+    ],
+    "related_topics_el": [
+      "Οδηγός επανατοποθέτησης λαβής σε μικρό εργαλείο",
+      "Λίστα ελέγχου για αποθήκευση σπόρων σε ξηρό περιβάλλον",
+      "Σημειώσεις για χειροκίνητο σταθμό άλεσης σιτηρών"
     ]
   }
 ]

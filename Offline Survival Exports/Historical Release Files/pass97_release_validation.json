@@ -1,0 +1,26 @@
+{
+  "entries": 1642,
+  "json_files": 72,
+  "categories": 130,
+  "pass97_new_entries": 37,
+  "semantic_repairs": 1281,
+  "scenario_packs": 9,
+  "audit": {
+    "duplicate_ids": 0,
+    "duplicate_topics": 0,
+    "duplicate_blocks": 0,
+    "repeated_core_text": 0,
+    "missing_pairs": 0,
+    "ascii_leaks": 0,
+    "legacy_template_flags": 0,
+    "semantic_mismatches": 0,
+    "shallow_entries": 0,
+    "load_errors": 0
+  },
+  "syntax": "pass",
+  "english_search": "pass",
+  "greek_accentless_search": "pass",
+  "web_ui": "pass",
+  "api_routes": "pass",
+  "terminal_scenario_menu": "pass"
+}
