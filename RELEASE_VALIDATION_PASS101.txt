@@ -1,0 +1,32 @@
+OFFLINE SURVIVAL — PASS 101 RELEASE VALIDATION
+Date: 20 June 2026
+
+PURPOSE
+Keep every repository file below the project's strict 40,000,000-byte safety
+limit without removing knowledge, translations, sources, or offline search.
+
+DATABASE PRESERVED
+- 1,712 records
+- 74 JSON files
+- 144 categories
+- 48 fields per record
+- complete English/Greek content retained
+
+SIZE REPAIR
+- previous SQLite search index: approximately 53.2 MB
+- Pass 101 compact contentless index: approximately 1.4 MB
+- largest remaining project file: below 40,000,000 bytes
+- no split database loader was required because every JSON file was already safe
+
+FUNCTIONAL VALIDATION TARGETS
+- Python source compiles
+- all JSON files load
+- compact index signature matches the authoritative database
+- English search works
+- Greek search works
+- accent-insensitive Greek search works
+- terminal launch and clean exit work
+- local browser and APIs work
+- index rebuild tool works atomically
+- repository size checker reports no oversized files
+- release manifest verifies after fresh extraction

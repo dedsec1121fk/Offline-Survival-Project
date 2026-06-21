@@ -1,0 +1,55 @@
+OFFLINE SURVIVAL — PASS 102 RELEASE VALIDATION
+Date: 20 June 2026
+
+PURPOSE
+Polish usability, search, browser state, exports, documentation, and maintenance
+without removing or weakening existing bilingual survival knowledge.
+
+DATABASE PRESERVED
+- 1,712 records
+- 74 authoritative JSON files
+- 144 categories
+- 48 fields per record
+- all English/Greek content, identifiers, categories, and sources retained
+
+PASS 102 FUNCTIONAL CHANGES
+- strict multi-word search with ranked related-result fallback
+- direct --search, --entry, and --version commands
+- paginated/filterable category, file, and update menus
+- shared browser/terminal favorites and recent entries
+- browser priority filtering and persistent language/text size
+- combined two-file bilingual export
+- expanded schema, source-link, index, and 40 MB validation
+- one-command full validation tool
+
+VALIDATION COMPLETED
+- Python compilation passed
+- all 74 JSON files loaded
+- one 48-field schema detected
+- duplicate IDs/topics: 0
+- accidental repeated core text: 0
+- missing bilingual pairs: 0
+- reviewable English leakage in Greek fields: 0
+- source-less entries: 0
+- invalid source-link records: 0
+- semantic mismatch flags: 0
+- stale or invalid search index: 0
+- files at or above 40,000,000 bytes: 0
+- English search passed
+- Greek search without accents passed
+- related-result fallback passed
+- browser HTML and JavaScript syntax passed
+- browser metadata, search, entry, recent, favorites POST/GET, and update APIs passed
+- combined bilingual export passed
+- category and update pagination/filtering passed
+
+OFFICIAL NUMBER CHECK
+- Greece/EU emergency number 112 confirmed on the official Greek Civil Protection site
+- Greek Poison Centre 210 7793777 confirmed on the official Ministry of Health site
+
+FINAL REPOSITORY MEASUREMENTS
+- manifest-protected files before manifest: 238
+- largest file: Offline Survival Database/pass86_simplified_single_script_expansion.json
+- largest file bytes: 2,799,797
+- compact search index bytes: 1,429,504
+

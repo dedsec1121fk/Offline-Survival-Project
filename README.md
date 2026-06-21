@@ -1,91 +1,62 @@
 # Offline Survival
 
-**Pass 100 — structural continuity, unsafe-water, accessibility, digital-resilience, and recovery expansion**
+**Pass 103 — daily operations expansion, urgent-helper polish, and GitHub-safe release**
 
-Offline Survival is a dependency-free English/Greek preparedness reader for
-Android and Termux. It keeps the complete knowledge database, search,
-emergency navigation, planning tools, exports, favorites, and the local web
-interface available without an internet connection.
+Offline Survival is a dependency-free English/Greek preparedness reader for Android and Termux. The complete database, search, guided packs, planning tools, favorites, exports, validation tools, and local browser work offline on the phone.
 
-> **Safety boundary:** This project supports preparation, organization,
-> records, safer decisions, and recognition of danger signs. It does not
-> replace 112, official instructions, certified first-aid training, clinicians,
-> pharmacists, engineers, electricians, gas technicians, veterinarians, or
-> other qualified professionals.
+[Μετάβαση στην ελληνική ενότητα](#επιβίωση-χωρίς-σύνδεση)
+
+> **Safety boundary:** This project helps with preparation, organization, records, safer decisions, and recognition of danger signs. It does not replace 112, official instructions, certified first-aid training, clinicians, pharmacists, engineers, electricians, gas technicians, veterinarians, or other qualified professionals.
 
 ## Current build
 
-| Item | Pass 100 status |
+| Item | Pass 103 status |
 |---|---:|
-| Bilingual knowledge entries | **1,712** |
-| JSON database files | **74** |
-| Categories | **144** |
+| Bilingual knowledge entries | **1,752** |
+| Authoritative JSON files | **75** |
+| Categories | **184** |
 | Fields per record | **48** |
-| Duplicate IDs | **0** |
-| Duplicate English topics | **0** |
-| Duplicate Greek topics | **0** |
-| Accidental exact repeated core text | **0** |
+| New Pass 103 practical cards | **40** |
+| Duplicate IDs/topics | **0** |
+| Accidental repeated core instructions | **0** |
 | Missing or unequal English/Greek pairs | **0** |
 | Reviewable English leakage in Greek fields | **0** |
-| Entries without reference sources | **0** |
-| Shallow records detected by the release audit | **0** |
+| Entries without sources | **0** |
 | JSON loading errors | **0** |
+| Files at or above 40 MB | **0** |
+| Largest repository file | **2,799,797 bytes** |
 
-“Zero repeated core text” means the audit found no accidentally copied complete
-instruction, warning, paragraph, or list item between different records.
-Necessary terms, emergency boundaries, official numbers, and source links may
-recur where accuracy requires them.
+All Pass 102 knowledge, translations, identifiers, and sources were preserved. Pass 103 adds practical daily-operation cards for moments that often happen after the first emergency shock: night movement, smoke in stairwells, phone-battery triage, generator sharing, sewer backup, water queues, welfare checks, rumours, shelter conflict, tool sharing, medicine refill tracking, child separation, fuel separation, and bilingual shelter notices.
 
-## What Pass 100 adds and improves
+## Pass 103 improvements
 
-- Preserves all **1,682** Pass 99 entries and adds **30 new, fully bilingual field cards** without reusing an existing identifier or topic.
-- Adds dedicated structural-collapse, entrapment, damaged-building, missing-person, and family-reunification procedures.
-- Adds landslide, post-wildfire debris-flow, hail, destructive-wind, and whiteout travel-stop cards.
-- Distinguishes **boil-water**, **do-not-drink**, and **do-not-use** advisories and adds infant-formula, infant-equipment cleaning, and flooded-well continuity guidance.
-- Adds person-led wheelchair evacuation, sensory communication, hearing-device power, oxygen-concentrator outage, and dialysis-disruption plans.
-- Adds cash-only outage, protected document, damage-evidence, ransomware-isolation, and lost-phone account-recovery cards.
-- Adds service-animal and livestock evacuation, snakebite, suspected poisonous-mushroom exposure, and staged return-home procedures.
-- Integrates the new cards into **What is happening now?**, Guided emergency packs, Quick emergency cards, English search, and accent-insensitive Greek search.
-- Makes `--lang en` and `--lang el` work correctly on a completely fresh first launch and exits cleanly on end-of-input.
-- Rebuilds and signs the bundled SQLite full-text index for all **1,712** records.
-- Retains the Pass 99 strict audit rules for duplicate IDs/topics, exact repeated core text, bilingual parity, Greek-language leakage, shallow records, semantic mismatches, source lists, placeholders, and JSON load failures.
+- Added **40** fully bilingual practical field cards.
+- Added new urgent-helper choices for night evacuation, apartment-stair smoke, sewer backup, rumour/welfare/shelter conflict, and other daily emergency operations.
+- Updated browser quick buttons so phone users can jump directly to first five minutes, night routes, smoke stairs, phone battery, generator safety, water queue, sewer backup, rumours, welfare checks, documents, pets, maps, recovery, digital continuity, and food.
+- Added scenario-pack labels for shelter operations and animal/pet support.
+- Rebuilt the compact offline search index for all **1,752** entries.
+- Updated release documentation, validation reports, audit summaries, and the SHA-256 manifest.
+- Kept every repository file safely below the 40 MB GitHub limit.
 
 ## Fastest way to use it
 
-1. Run the program.
+1. Run `python "Offline Survival.py"`.
 2. Choose English or Greek.
 3. During an active problem, open **1. What is happening now?**
-4. For preparation, use **Guided emergency packs**, search, the preparedness
-   self-check, or the one-page emergency-plan builder.
-5. In immediate danger in Greece, call **112**. For poisoning advice, use the
-   official Greek Poison Centre number **210 7793777**.
+4. For preparation, use guided packs, search, the self-check, or the one-page emergency-plan builder.
+5. In immediate danger in Greece, call **112**. For poisoning advice, use the official Greek Poison Centre number **210 7793777**.
 
 Official instructions and emergency services always override an offline card.
 
-## Termux installation
+## Termux installation or update
 
-Put the ZIP in the phone’s **Download** folder, then run:
+Place the ZIP in the phone's **Download** folder and run:
 
 ```bash
-pkg install python unzip -y
-termux-setup-storage
-
-cd "$HOME" || exit 1
-
-if [ -d "Offline-Survival-Project-main" ]; then
-    mv "Offline-Survival-Project-main" \
-       "Offline-Survival-Project-backup-$(date +%Y%m%d-%H%M%S)"
-fi
-
-unzip -o \
-"/storage/emulated/0/Download/Offline-Survival-Project-Pass100-Structural-Continuity-Recovery-Expansion.zip" \
--d "$HOME"
-
-cd "$HOME/Offline-Survival-Project-main" || exit 1
-python "Offline Survival.py"
+pkg install python unzip -y && termux-setup-storage && cd "$HOME" && if [ -d "Offline-Survival-Project-main" ]; then mv "Offline-Survival-Project-main" "Offline-Survival-Project-backup-$(date +%Y%m%d-%H%M%S)"; fi && unzip -o "/storage/emulated/0/Download/Offline-Survival-Project-Pass103-Daily-Operations-Expanded-Polished.zip" -d "$HOME" && cd "$HOME/Offline-Survival-Project-main" && python "Offline Survival.py"
 ```
 
-The previous installation is preserved as a dated backup.
+The previous installation is retained as a dated backup.
 
 ## Main menu
 
@@ -100,7 +71,7 @@ The previous installation is preserved as a dated backup.
 9. Browse database files
 10. Preparedness self-check
 11. Build a one-page emergency plan
-12. Launch the local browser interface
+12. Launch local browser interface
 13. Export knowledge
 14. Database statistics
 15. Integrity and translation audit
@@ -110,38 +81,32 @@ The previous installation is preserved as a dated backup.
 19. Reload database
 0. Exit
 
-## Search
+In long category, file, and update lists, use `N` and `P` for pages, `/text` to filter, `C` to clear the filter, and Enter to return.
 
-Search accepts English, Greek, and Greek text without accents. The bundled file
-`Offline Survival Search Index.sqlite3` contains only a normalized search index;
-the 74 JSON files remain the authoritative knowledge database. The application
-checks the index against a SHA-256 signature of the database before using it.
-If the index is absent or stale, search falls back to the JSON data rather than
-returning unverified results.
+## Search and command-line use
 
-Examples:
+Search accepts English, Greek, and Greek without accents. The compact SQLite index is verified against the authoritative JSON database before use. If it is missing or stale, the application safely searches the JSON records instead.
 
 ```bash
+python "Offline Survival.py" --search "sewer backup" --lang en
+python "Offline Survival.py" --search "λυματα αποχετευση" --lang el
+python "Offline Survival.py" --entry pass103-0006-sewer-backup-stop-rules-for-a-home --lang en
 python "Offline Survival.py" --stats
 python "Offline Survival.py" --audit
-python "Offline Survival.py" --lang el
+python "Offline Survival.py" --version
 ```
 
 ## Local browser interface
 
-The browser interface runs only on `127.0.0.1` and is intended for the same
-phone. It provides:
+The browser server listens only on `127.0.0.1`, for the same phone. It includes English/Greek switching, accent-insensitive search, related-result fallback, category and priority filters, shared favorites/recent entries, persistent text size, quick hazard buttons, complete entry cards, copy/print actions, and phone-friendly layout.
 
-- English/Greek language switching
-- localized category filters
-- accent-insensitive search
-- quick hazard buttons
-- favorites stored in the browser
-- readable cards for steps, warnings, alternatives, failure signs, and sources
-- copy and print actions
-- larger/smaller text controls
+## Maintenance
 
-Stop the local server by returning to Termux and pressing Enter.
+```bash
+python "Maintenance/Rebuild Search Index.py"
+python "Maintenance/Check GitHub File Sizes.py"
+python "Maintenance/Run Full Validation.py"
+```
 
 ## Project structure
 
@@ -149,150 +114,79 @@ Stop the local server by returning to Termux and pressing Enter.
 Offline-Survival-Project-main/
 ├── Offline Survival.py
 ├── Offline Survival Search Index.sqlite3
-├── Offline Survival Database/        # 74 authoritative JSON files
-├── Offline Survival Exports/         # current and historical audit material
-├── Offline Survival Updates/         # release history
+├── Offline Survival Database/        # 75 authoritative JSON files
+├── Maintenance/                       # index, size, and full validation tools
+├── Offline Survival Exports/          # current and historical audit material
+├── Offline Survival Updates/          # release history
 ├── OFFICIAL_SAFETY_SOURCES.md
 ├── MEDICAL_SAFETY_WARNING.md
-├── RELEASE_VALIDATION_PASS100.txt
+├── RELEASE_VALIDATION_PASS103.txt
 ├── LAST_UPDATE.txt
 └── README.md
 ```
 
 ## Reference policy
 
-The project favors current pages from governments, public-health agencies,
-emergency services, recognized humanitarian organizations, and primary
-technical guidance. Source lists are reference starting points, not a claim
-that every sentence is copied from or individually endorsed by a listed body.
-The bilingual text is original and intentionally avoids reproducing complete
-articles or manuals.
+The project favors government, public-health, emergency-service, recognized humanitarian, and primary technical sources. Source lists are reference starting points, not a claim that every sentence is copied from or separately endorsed by a listed organization. The bilingual text is original and does not reproduce complete articles or manuals.
 
-See `OFFICIAL_SAFETY_SOURCES.md` for the reviewed source families and safety
-boundaries.
+See `OFFICIAL_SAFETY_SOURCES.md` for source families and safety boundaries.
 
 ---
 
 # Επιβίωση Χωρίς Σύνδεση
 
-**Έκδοση 100 — επέκταση δομικής συνέχειας, μη ασφαλούς νερού, προσβασιμότητας, ψηφιακής ανθεκτικότητας και αποκατάστασης**
+**Έκδοση 103 — επέκταση καθημερινών λειτουργιών, βελτίωση βοηθού ανάγκης και έκδοση ασφαλής για GitHub**
 
-Το Offline Survival είναι δίγλωσσο εργαλείο ετοιμότητας χωρίς εξωτερικές
-βιβλιοθήκες για Android και Termux. Διατηρεί διαθέσιμα χωρίς διαδίκτυο ολόκληρη
-τη βάση γνώσης, την αναζήτηση, την πλοήγηση σε καταστάσεις ανάγκης, τα εργαλεία
-σχεδιασμού, τις εξαγωγές, τα αγαπημένα και το τοπικό περιβάλλον περιήγησης.
+Το Offline Survival είναι δίγλωσσο εργαλείο ετοιμότητας χωρίς εξωτερικές βιβλιοθήκες για Android και Termux. Ολόκληρη η βάση, η αναζήτηση, τα καθοδηγούμενα πακέτα, τα εργαλεία σχεδιασμού, τα αγαπημένα, οι εξαγωγές, οι έλεγχοι και το τοπικό περιβάλλον λειτουργούν χωρίς διαδίκτυο στο κινητό.
 
-> **Όριο ασφάλειας:** Το έργο βοηθά στην προετοιμασία, την οργάνωση, την
-> καταγραφή, τις ασφαλέστερες αποφάσεις και την αναγνώριση επικίνδυνων σημείων.
-> Δεν αντικαθιστά το 112, τις επίσημες οδηγίες, την πιστοποιημένη εκπαίδευση
-> πρώτων βοηθειών, τους γιατρούς, τους φαρμακοποιούς, τους μηχανικούς, τους
-> ηλεκτρολόγους, τους τεχνικούς αερίου, τους κτηνιάτρους ή άλλους ειδικευμένους
-> επαγγελματίες.
+> **Όριο ασφάλειας:** Το έργο βοηθά στην προετοιμασία, την οργάνωση, τις καταγραφές, τις ασφαλέστερες αποφάσεις και την αναγνώριση σημείων κινδύνου. Δεν αντικαθιστά το 112, τις επίσημες οδηγίες, την πιστοποιημένη εκπαίδευση πρώτων βοηθειών, γιατρούς, φαρμακοποιούς, μηχανικούς, ηλεκτρολόγους, τεχνικούς αερίου, κτηνιάτρους ή άλλους ειδικούς.
 
 ## Τρέχουσα έκδοση
 
-| Στοιχείο | Κατάσταση Έκδοσης 100 |
+| Στοιχείο | Κατάσταση Έκδοσης 103 |
 |---|---:|
-| Δίγλωσσες εγγραφές γνώσης | **1.712** |
-| Αρχεία βάσης JSON | **74** |
-| Κατηγορίες | **144** |
+| Δίγλωσσες εγγραφές γνώσης | **1,752** |
+| Επίσημα αρχεία JSON | **75** |
+| Κατηγορίες | **184** |
 | Πεδία ανά εγγραφή | **48** |
-| Διπλότυπα αναγνωριστικά | **0** |
-| Διπλότυποι αγγλικοί τίτλοι | **0** |
-| Διπλότυποι ελληνικοί τίτλοι | **0** |
-| Ακούσια ακριβώς επαναλαμβανόμενο κύριο κείμενο | **0** |
-| Ελλιπή ή άνισα αγγλικά/ελληνικά ζεύγη | **0** |
-| Αγγλικό κείμενο προς έλεγχο σε ελληνικά πεδία | **0** |
-| Εγγραφές χωρίς πηγές αναφοράς | **0** |
-| Ρηχές εγγραφές που εντόπισε ο έλεγχος έκδοσης | **0** |
+| Νέες πρακτικές κάρτες Έκδοσης 103 | **40** |
+| Διπλά αναγνωριστικά ή θέματα | **0** |
+| Τυχαίες επαναλήψεις βασικών οδηγιών | **0** |
+| Ελλιπή ή άνισα ζεύγη Αγγλικών/Ελληνικών | **0** |
+| Αγγλικά που χρειάζονται έλεγχο σε ελληνικά πεδία | **0** |
+| Εγγραφές χωρίς πηγές | **0** |
 | Σφάλματα φόρτωσης JSON | **0** |
+| Αρχεία ίσα ή πάνω από 40 MB | **0** |
+| Μεγαλύτερο αρχείο αποθετηρίου | **2,799,797 bytes** |
 
-Το «μηδενικό επαναλαμβανόμενο κύριο κείμενο» σημαίνει ότι ο έλεγχος δεν βρήκε
-τυχαία αντιγραμμένη πλήρη οδηγία, προειδοποίηση, παράγραφο ή στοιχείο λίστας
-ανάμεσα σε διαφορετικές εγγραφές. Αναγκαίοι όροι, όρια έκτακτης ανάγκης,
-επίσημοι αριθμοί και σύνδεσμοι πηγών μπορούν να επαναλαμβάνονται όταν το απαιτεί
-η ακρίβεια.
+Διατηρήθηκαν όλες οι γνώσεις, μεταφράσεις, αναγνωριστικά και πηγές της Έκδοσης 102. Η Έκδοση 103 προσθέτει πρακτικές κάρτες καθημερινής λειτουργίας για καταστάσεις μετά το πρώτο σοκ: νυχτερινή μετακίνηση, καπνό σε σκάλες, μπαταρία κινητού, κοινή γεννήτρια, επιστροφή λυμάτων, ουρά νερού, έλεγχο ηλικιωμένων, φήμες, σύγκρουση σε καταφύγιο, κοινά εργαλεία, ανανέωση φαρμάκων, χωρισμό παιδιών, καύσιμα και δίγλωσσες ανακοινώσεις.
 
-## Τι προσθέτει και βελτιώνει η Έκδοση 100
+## Βελτιώσεις Έκδοσης 103
 
-- Διατηρεί και τις **1.682** εγγραφές της Έκδοσης 99 και προσθέτει **30 νέες, πλήρως δίγλωσσες κάρτες πεδίου** χωρίς επανάληψη αναγνωριστικού ή θέματος.
-- Προσθέτει ειδικές διαδικασίες για δομική κατάρρευση, παγίδευση, κατεστραμμένο κτίριο, αγνοούμενο άτομο και οικογενειακή επανένωση.
-- Προσθέτει κάρτες για κατολίσθηση, ροή φερτών υλικών μετά από πυρκαγιά, χαλάζι, καταστροφικό άνεμο και διακοπή μετακίνησης σε μηδενική ορατότητα.
-- Ξεχωρίζει τις οδηγίες **βρασμού**, **μη πόσης** και **πλήρους απαγόρευσης χρήσης** νερού και προσθέτει συνέχεια βρεφικού γάλακτος, καθαρισμό ειδών σίτισης και αποκατάσταση πλημμυρισμένου πηγαδιού.
-- Προσθέτει σχέδια για εκκένωση αμαξιδίου με επιλογές του ατόμου, αισθητηριακή επικοινωνία, ενέργεια συσκευών ακοής, διακοπή συμπυκνωτή οξυγόνου και διαταραχή αιμοκάθαρσης.
-- Προσθέτει κάρτες για πληρωμές μόνο με μετρητά, προστατευμένα έγγραφα, αποδεικτικά ζημιών, απομόνωση επίθεσης με λύτρα και ανάκτηση λογαριασμών μετά από απώλεια τηλεφώνου.
-- Προσθέτει εκκένωση ζώου βοήθειας και παραγωγικών ζώων, αντιμετώπιση δαγκώματος φιδιού, ύποπτη δηλητηρίαση από μανιτάρι και σταδιακή ασφαλή επιστροφή στο σπίτι.
-- Ενσωματώνει τις νέες κάρτες στο **Τι συμβαίνει τώρα;**, στα καθοδηγούμενα πακέτα, στις γρήγορες κάρτες και στην αγγλική ή ελληνική αναζήτηση χωρίς τόνους.
-- Διορθώνει τα `--lang en` και `--lang el` ώστε να λειτουργούν και στην πρώτη εκκίνηση και προσθέτει καθαρή έξοδο όταν τελειώσει η είσοδος.
-- Ανακατασκευάζει και υπογράφει το πλήρες ευρετήριο SQLite για όλες τις **1.712** εγγραφές.
-- Διατηρεί τους αυστηρούς ελέγχους της Έκδοσης 99 για διπλότυπα, επαναλαμβανόμενο βασικό κείμενο, δίγλωσση ισοτιμία, αγγλική διαρροή στα ελληνικά, ρηχές εγγραφές, σημασιολογικές αστοχίες, πηγές, προσωρινούς τίτλους και σφάλματα φόρτωσης.
+- Προστέθηκαν **40** πλήρως δίγλωσσες πρακτικές κάρτες πεδίου.
+- Προστέθηκαν νέες επιλογές στον βοηθό ανάγκης για νυχτερινή εκκένωση, καπνό σε κλιμακοστάσιο, επιστροφή λυμάτων, φήμες, ελέγχους ευημερίας, σύγκρουση σε καταφύγιο και πρακτικές καθημερινές λειτουργίες.
+- Ενημερώθηκαν τα γρήγορα κουμπιά του τοπικού περιβάλλοντος για χρήση από κινητό.
+- Προστέθηκαν ετικέτες πακέτων για λειτουργίες καταφυγίου και ζώα/κατοικίδια.
+- Ξαναχτίστηκε το συμπαγές ευρετήριο αναζήτησης για όλες τις **1,752** εγγραφές.
+- Ενημερώθηκαν τεκμηρίωση, αναφορές ελέγχου, σύνοψη ακεραιότητας και αρχείο SHA-256.
+- Κάθε αρχείο του αποθετηρίου παραμένει με ασφάλεια κάτω από το όριο των 40 MB.
 
-## Γρηγορότερη χρήση
+## Γρήγορη χρήση
 
-1. Άνοιξε το πρόγραμμα.
-2. Επίλεξε αγγλικά ή ελληνικά.
+1. Τρέξε `python "Offline Survival.py"`.
+2. Διάλεξε Αγγλικά ή Ελληνικά.
 3. Σε ενεργό πρόβλημα, άνοιξε **1. Τι συμβαίνει τώρα;**
-4. Για προετοιμασία, χρησιμοποίησε τα **Καθοδηγούμενα πακέτα έκτακτης ανάγκης**,
-   την αναζήτηση, τον αυτοέλεγχο ετοιμότητας ή το μονοσέλιδο σχέδιο ανάγκης.
-5. Σε άμεσο κίνδυνο στην Ελλάδα, κάλεσε **112**. Για συμβουλή δηλητηρίασης,
-   χρησιμοποίησε τον επίσημο αριθμό του Κέντρου Δηλητηριάσεων **210 7793777**.
+4. Για προετοιμασία, χρησιμοποίησε τα πακέτα, την αναζήτηση, τον αυτοέλεγχο ή το μονοσέλιδο σχέδιο ανάγκης.
+5. Σε άμεσο κίνδυνο στην Ελλάδα, κάλεσε **112**. Για δηλητηρίαση, χρησιμοποίησε τον επίσημο αριθμό του Κέντρου Δηλητηριάσεων **210 7793777**.
 
-Οι επίσημες οδηγίες και οι υπηρεσίες έκτακτης ανάγκης υπερισχύουν πάντα μιας
-κάρτας χωρίς σύνδεση.
+Οι επίσημες οδηγίες και οι υπηρεσίες ανάγκης υπερισχύουν πάντα κάθε κάρτας εκτός σύνδεσης.
 
-## Εγκατάσταση στο Termux
+## Εγκατάσταση ή ενημέρωση σε Termux
 
-Τοποθέτησε το ZIP στον φάκελο **Download** του κινητού και εκτέλεσε την εντολή
-της αγγλικής ενότητας παραπάνω. Η προηγούμενη εγκατάσταση διατηρείται αυτόματα
-ως αντίγραφο ασφαλείας με ημερομηνία και ώρα.
+Βάλε το ZIP στον φάκελο **Download** του κινητού και τρέξε:
 
-## Κύριο μενού
+```bash
+pkg install python unzip -y && termux-setup-storage && cd "$HOME" && if [ -d "Offline-Survival-Project-main" ]; then mv "Offline-Survival-Project-main" "Offline-Survival-Project-backup-$(date +%Y%m%d-%H%M%S)"; fi && unzip -o "/storage/emulated/0/Download/Offline-Survival-Project-Pass103-Daily-Operations-Expanded-Polished.zip" -d "$HOME" && cd "$HOME/Offline-Survival-Project-main" && python "Offline Survival.py"
+```
 
-1. Τι συμβαίνει τώρα;
-2. Αναζήτηση
-3. Καθοδηγούμενα πακέτα έκτακτης ανάγκης
-4. Γρήγορες κάρτες έκτακτης ανάγκης
-5. Πρόσφατα θέματα
-6. Αγαπημένα
-7. Περιήγηση θεμάτων
-8. Περιήγηση κατηγοριών
-9. Περιήγηση αρχείων βάσης
-10. Αυτοέλεγχος ετοιμότητας
-11. Δημιουργία μονοσέλιδου σχεδίου ανάγκης
-12. Άνοιγμα τοπικού περιβάλλοντος περιήγησης
-13. Εξαγωγή γνώσης
-14. Στατιστικά βάσης
-15. Έλεγχος ακεραιότητας και μετάφρασης
-16. Αρχεία ενημερώσεων
-17. Οδηγός επίσημων πηγών ασφάλειας
-18. Αλλαγή γλώσσας
-19. Επαναφόρτωση βάσης
-0. Έξοδος
-
-## Αναζήτηση
-
-Η αναζήτηση δέχεται αγγλικά, ελληνικά και ελληνικό κείμενο χωρίς τόνους. Το
-αρχείο `Offline Survival Search Index.sqlite3` περιέχει μόνο κανονικοποιημένο
-ευρετήριο αναζήτησης· τα 74 αρχεία JSON παραμένουν η έγκυρη βάση γνώσης. Η
-εφαρμογή ελέγχει το ευρετήριο με υπογραφή SHA-256 της βάσης πριν το χρησιμοποιήσει.
-Αν λείπει ή είναι παλιό, η εφαρμογή επιστρέφει στα δεδομένα JSON αντί να
-εμφανίσει μη επαληθευμένα αποτελέσματα.
-
-## Τοπικό περιβάλλον περιήγησης
-
-Το περιβάλλον λειτουργεί μόνο στη διεύθυνση `127.0.0.1` και προορίζεται για το
-ίδιο κινητό. Παρέχει αλλαγή γλώσσας, τοπικοποιημένα φίλτρα, αναζήτηση χωρίς
-τόνους, γρήγορα κουμπιά κινδύνων, αγαπημένα, πλήρεις κάρτες οδηγιών, αντιγραφή,
-εκτύπωση και ρύθμιση μεγέθους κειμένου.
-
-## Πολιτική πηγών
-
-Το έργο προτιμά ενημερωμένες σελίδες κυβερνήσεων, φορέων δημόσιας υγείας,
-υπηρεσιών έκτακτης ανάγκης, αναγνωρισμένων ανθρωπιστικών οργανισμών και
-πρωτογενών τεχνικών οδηγιών. Οι λίστες πηγών είναι σημεία αφετηρίας αναφοράς και
-όχι ισχυρισμός ότι κάθε πρόταση αντιγράφηκε ή εγκρίθηκε ξεχωριστά από τον
-αντίστοιχο φορέα. Το δίγλωσσο κείμενο είναι πρωτότυπο και δεν αναπαράγει πλήρη
-άρθρα ή εγχειρίδια.
-
-Δες το `OFFICIAL_SAFETY_SOURCES.md` για τις ελεγμένες οικογένειες πηγών και τα
-όρια ασφάλειας.
+Η προηγούμενη εγκατάσταση κρατιέται ως αντίγραφο με ημερομηνία.

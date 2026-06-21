@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Offline Survival — Pass 100 expanded, audited bilingual Termux knowledge reader."""
+"""Offline Survival — Pass 103 practical daily-operations expansion and usability polish."""
 
 import hashlib
 import json
@@ -29,6 +29,10 @@ SEARCH_INDEX_FILE = os.path.join(BASE_DIR, "Offline Survival Search Index.sqlite
 WEB_HOST = "127.0.0.1"
 WEB_PORT_START = 8765
 WEB_PORT_END = 8775
+APP_VERSION = "103.0"
+RELEASE_NAME = "Pass 103"
+MAX_REPOSITORY_FILE_BYTES = 40_000_000
+BROWSE_PAGE_SIZE = 20
 
 TEXT_KEYS = [
     "id", "topic", "topic_en", "topic_el", "category", "subcategory",
@@ -178,6 +182,22 @@ I18N = {
         "notes": "Other critical notes",
         "plan_saved": "Emergency plan saved",
         "choose_language": "Choose language / Επιλογή γλώσσας",
+        "browse_prompt": "Number: open • N/P: page • /text: filter • C: clear filter • Enter: return",
+        "filter_active": "Filter",
+        "page": "Page",
+        "relaxed_results": "No exact all-word match; showing the closest useful matches.",
+        "search_mode_exact": "Exact search",
+        "search_mode_relaxed": "Related search",
+        "recent_web": "Recent",
+        "priority_all": "All priorities",
+        "priority_critical": "Critical",
+        "priority_high": "High",
+        "priority_medium": "Medium",
+        "export_combined": "Export the full database as two combined TXT files",
+        "schema_mismatches": "Schema mismatches",
+        "invalid_sources": "Invalid source links",
+        "oversized_files": "Repository files at or above 40 MB",
+        "index_mismatch": "Search-index validation errors",
     },
     "el": {
         "app": "Offline Survival / Επιβίωση Χωρίς Σύνδεση",
@@ -296,6 +316,22 @@ I18N = {
         "notes": "Άλλες κρίσιμες σημειώσεις",
         "plan_saved": "Το σχέδιο ανάγκης αποθηκεύτηκε",
         "choose_language": "Choose language / Επιλογή γλώσσας",
+        "browse_prompt": "Αριθμός: άνοιγμα • N/P: σελίδα • /κείμενο: φίλτρο • C: καθαρισμός • Enter: επιστροφή",
+        "filter_active": "Φίλτρο",
+        "page": "Σελίδα",
+        "relaxed_results": "Δεν βρέθηκε ακριβής αντιστοίχιση όλων των λέξεων· εμφανίζονται τα πιο χρήσιμα σχετικά αποτελέσματα.",
+        "search_mode_exact": "Ακριβής αναζήτηση",
+        "search_mode_relaxed": "Σχετική αναζήτηση",
+        "recent_web": "Πρόσφατα",
+        "priority_all": "Όλες οι προτεραιότητες",
+        "priority_critical": "Κρίσιμη",
+        "priority_high": "Υψηλή",
+        "priority_medium": "Μεσαία",
+        "export_combined": "Εξαγωγή ολόκληρης της βάσης σε δύο ενιαία αρχεία TXT",
+        "schema_mismatches": "Ασυμφωνίες σχήματος",
+        "invalid_sources": "Μη έγκυροι σύνδεσμοι πηγών",
+        "oversized_files": "Αρχεία αποθετηρίου ίσα ή μεγαλύτερα από 40 MB",
+        "index_mismatch": "Σφάλματα επαλήθευσης ευρετηρίου αναζήτησης",
     },
 }
 
@@ -372,6 +408,7 @@ class OfflineSurvivalStore:
         self.load_errors = []
         self.last_loaded_files = []
         self.search_index_ready = False
+        self.search_index_format = "none"
 
     def normalize_entry(self, raw, source_file):
         e = dict(raw) if isinstance(raw, dict) else {}
@@ -434,6 +471,7 @@ class OfflineSurvivalStore:
 
     def validate_search_index(self):
         self.search_index_ready = False
+        self.search_index_format = "none"
         if not os.path.isfile(SEARCH_INDEX_FILE):
             return
         try:
@@ -443,25 +481,45 @@ class OfflineSurvivalStore:
                     return
                 if metadata.get("database_signature") != self.database_signature():
                     return
-                con.execute("SELECT entry_id FROM entries_fts LIMIT 1").fetchone()
+                index_format = metadata.get("index_format", "legacy")
+                if index_format == "contentless-v2":
+                    con.execute("SELECT entry_id FROM entry_map LIMIT 1").fetchone()
+                    table_check = con.execute(
+                        "SELECT 1 FROM sqlite_master WHERE type='table' AND name='entries_fts'"
+                    ).fetchone()
+                    if table_check is None:
+                        return
+                else:
+                    con.execute("SELECT entry_id FROM entries_fts LIMIT 1").fetchone()
+            self.search_index_format = index_format
             self.search_index_ready = True
         except (sqlite3.Error, OSError):
             self.search_index_ready = False
+            self.search_index_format = "none"
 
-    def indexed_candidates(self, tokens, limit=1200):
+    def indexed_candidates(self, tokens, limit=1200, match_all=True):
         if not self.search_index_ready or not tokens:
             return None
         safe_tokens = [re.sub(r"[^\w]+", "", token, flags=re.UNICODE) for token in tokens]
         safe_tokens = [token for token in safe_tokens if token]
         if not safe_tokens:
             return None
-        expression = " AND ".join('"' + token.replace('"', '""') + '"' for token in safe_tokens)
+        joiner = " AND " if match_all else " OR "
+        expression = joiner.join('"' + token.replace('"', '""') + '"' for token in safe_tokens)
         try:
             with sqlite3.connect(f"file:{SEARCH_INDEX_FILE}?mode=ro", uri=True) as con:
-                rows = con.execute(
-                    "SELECT entry_id FROM entries_fts WHERE entries_fts MATCH ? LIMIT ?",
-                    (expression, int(limit)),
-                ).fetchall()
+                if self.search_index_format == "contentless-v2":
+                    rows = con.execute(
+                        "SELECT entry_map.entry_id "
+                        "FROM entries_fts JOIN entry_map ON entry_map.rowid = entries_fts.rowid "
+                        "WHERE entries_fts MATCH ? LIMIT ?",
+                        (expression, int(limit)),
+                    ).fetchall()
+                else:
+                    rows = con.execute(
+                        "SELECT entry_id FROM entries_fts WHERE entries_fts MATCH ? LIMIT ?",
+                        (expression, int(limit)),
+                    ).fetchall()
             return [self.by_id[row[0]] for row in rows if row[0] in self.by_id]
         except sqlite3.Error:
             return None
@@ -474,6 +532,7 @@ class OfflineSurvivalStore:
         self.load_errors = []
         self.last_loaded_files = []
         self.search_index_ready = False
+        self.search_index_format = "none"
         if not os.path.isdir(DB_DIR):
             self.load_errors.append(f"Database folder not found: {DB_DIR}")
             return
@@ -508,23 +567,29 @@ class OfflineSurvivalStore:
             "categories": len(self.by_category),
             "load_errors": len(self.load_errors),
             "favorites": len([x for x in STATE.get("favorites", []) if x in self.by_id]),
+            "recent": len([x for x in STATE.get("recent", []) if x in self.by_id]),
             "search_index": "ready" if self.search_index_ready else "fallback",
+            "search_index_format": self.search_index_format,
+            "version": APP_VERSION,
         }
 
-    def search(self, query, lang="en", limit=500):
+    def search(self, query, lang="en", limit=500, relaxed=False):
         q = normalize_search(query)
         tokens = [t for t in q.split() if t]
         if not tokens:
             return list(self.entries[:limit])
         scored = []
-        indexed = self.indexed_candidates(tokens, max(limit * 8, 1200))
+        indexed = self.indexed_candidates(tokens, max(limit * 8, 1200), match_all=not relaxed)
         candidates = indexed if indexed is not None else self.entries
         for e in candidates:
             primary = e["_search_primary"]
-            if indexed is None and not all(token in primary for token in tokens):
-                blob = self.build_full_search_blob(e)
-                if not all(token in blob for token in tokens):
-                    continue
+            if indexed is None:
+                primary_hits = [token in primary for token in tokens]
+                if (not relaxed and not all(primary_hits)) or (relaxed and not any(primary_hits)):
+                    blob = self.build_full_search_blob(e)
+                    full_hits = [token in blob for token in tokens]
+                    if (not relaxed and not all(full_hits)) or (relaxed and not any(full_hits)):
+                        continue
             topic = normalize_search(" ".join([e.get("topic_en", ""), e.get("topic_el", "")]))
             summary = normalize_search(" ".join([e.get("summary_en", ""), e.get("summary_el", "")]))
             category = normalize_search(" ".join([
@@ -532,19 +597,23 @@ class OfflineSurvivalStore:
                 e.get("category_en", ""), e.get("category_el", ""),
                 e.get("subcategory_en", ""), e.get("subcategory_el", ""),
             ]))
+            topic_hits = sum(1 for t in tokens if t in topic)
+            summary_hits = sum(1 for t in tokens if t in summary)
+            category_hits = sum(1 for t in tokens if t in category)
             score = 0
             if q == topic:
                 score += 250
             elif q in topic:
                 score += 120
-            if all(t in topic for t in tokens):
+            if topic_hits == len(tokens):
                 score += 75
             if q in summary:
                 score += 45
             if q in category:
                 score += 30
-            score += sum(8 for t in tokens if t in topic)
-            score += sum(3 for t in tokens if t in summary)
+            score += topic_hits * 14 + summary_hits * 5 + category_hits * 4
+            if relaxed:
+                score += (topic_hits + summary_hits + category_hits) * 2
             priority = normalize_search(e.get("priority", ""))
             urgency = normalize_search(e.get("urgency", ""))
             if priority in {"critical", "high"}:
@@ -554,6 +623,31 @@ class OfflineSurvivalStore:
             scored.append((score, e))
         scored.sort(key=lambda x: (-x[0], display_topic(x[1], lang).casefold()))
         return [e for _, e in scored[:limit]]
+
+    def search_with_mode(self, query, lang="en", limit=500):
+        rows = self.search(query, lang, limit, relaxed=False)
+        if rows or len(normalize_search(query).split()) <= 1:
+            return rows, "exact"
+        return self.search(query, lang, limit, relaxed=True), "relaxed"
+
+    def repository_size_report(self):
+        oversized = []
+        largest = []
+        for current, dirs, files in os.walk(BASE_DIR):
+            dirs[:] = [name for name in dirs if name not in {".git", "__pycache__"}]
+            for name in files:
+                file_path = os.path.join(current, name)
+                try:
+                    size = os.path.getsize(file_path)
+                except OSError:
+                    continue
+                rel = os.path.relpath(file_path, BASE_DIR)
+                largest.append((size, rel))
+                if size >= MAX_REPOSITORY_FILE_BYTES:
+                    oversized.append((size, rel))
+        largest.sort(reverse=True)
+        oversized.sort(reverse=True)
+        return largest, oversized
 
     def quick_entries(self):
         def rank(e):
@@ -658,6 +752,25 @@ class OfflineSurvivalStore:
                 sources_missing.append(e["id"])
             if re.search(r"(?:page|note|checkpoint|entry)\s+\d+$", e.get("topic_en", ""), re.I):
                 placeholder_topics.append(e["id"])
+        expected_schema = set(TEXT_KEYS + LIST_KEYS)
+        schema_mismatches = []
+        invalid_sources = []
+        for e in self.entries:
+            public_keys = {key for key in e if not key.startswith("_")}
+            missing = sorted(expected_schema - public_keys)
+            extra = sorted(public_keys - expected_schema)
+            if missing or extra:
+                schema_mismatches.append((e["id"], missing, extra))
+            for source in e.get("sources", []):
+                urls = re.findall(r"https?://[^\s)\]]+", str(source))
+                if not urls or any(
+                    urlparse(url).scheme not in {"http", "https"} or not urlparse(url).netloc
+                    for url in urls
+                ):
+                    invalid_sources.append((e["id"], source))
+        _largest, oversized_files = self.repository_size_report()
+        index_mismatch = [] if self.search_index_ready else [self.search_index_format or "search index unavailable or stale"]
+
         return {
             "duplicate_ids": duplicate_ids,
             "duplicate_topics": duplicate_topics,
@@ -671,6 +784,10 @@ class OfflineSurvivalStore:
             "shallow_entries": shallow_entries,
             "sources_missing": sources_missing,
             "placeholder_topics": placeholder_topics,
+            "schema_mismatches": schema_mismatches,
+            "invalid_sources": invalid_sources,
+            "oversized_files": oversized_files,
+            "index_mismatch": index_mismatch,
             "load_errors": list(self.load_errors),
         }
 
@@ -795,7 +912,7 @@ def toggle_favorite(entry_id, lang):
     return message
 
 
-def pick_from_entries(entries, lang, page_size=25):
+def pick_from_entries(entries, lang, page_size=25, notice=""):
     if not entries:
         print(tr(lang, "no_entries"))
         pause(lang)
@@ -810,6 +927,9 @@ def pick_from_entries(entries, lang, page_size=25):
             continue
         print(f"{tr(lang, 'entries')}: {len(entries)}")
         print("-" * 72)
+        if notice:
+            print(notice)
+            print("-" * 72)
         favorites = set(STATE.get("favorites", []))
         for index, e in enumerate(page, start + 1):
             star = "★ " if e["id"] in favorites else ""
@@ -849,58 +969,84 @@ WEB_PAGE = r'''<!doctype html>
 <head>
 <meta charset="utf-8">
 <title>Offline Survival</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c0f14">
 <style>
 :root{--bg:#0c0f14;--card:#151a22;--card2:#1b2330;--line:#2c3545;--text:#eef2f8;--muted:#aeb8ca;--accent:#89b4ff;--accent2:#7bdcb5;--danger:#ffb4a8;--font:16px}
-*{box-sizing:border-box}html{font-size:var(--font)}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
-header{position:sticky;top:0;z-index:10;background:rgba(12,15,20,.97);border-bottom:1px solid var(--line);padding:12px}.header-row{display:flex;justify-content:space-between;gap:12px;align-items:center}.title{font-size:1.08rem;font-weight:800}.sub,.meta{color:var(--muted);font-size:.86rem}.controls{display:grid;grid-template-columns:minmax(190px,1fr) 120px minmax(150px,.55fr) minmax(150px,.55fr) repeat(7,auto);gap:8px;margin-top:10px;align-items:center}
+*{box-sizing:border-box}html{font-size:var(--font);scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+button,input,select{min-height:44px}header{position:sticky;top:0;z-index:10;background:rgba(12,15,20,.98);border-bottom:1px solid var(--line);padding:12px max(12px,env(safe-area-inset-right)) 12px max(12px,env(safe-area-inset-left))}.header-row{display:flex;justify-content:space-between;gap:12px;align-items:center}.title{font-size:1.08rem;font-weight:800}.sub,.meta{color:var(--muted);font-size:.86rem}.controls{display:grid;grid-template-columns:minmax(200px,1fr) 115px minmax(145px,.55fr) minmax(145px,.55fr) 135px repeat(8,auto);gap:8px;margin-top:10px;align-items:center}
 input,select,button{font:inherit;padding:10px 11px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text)}button{cursor:pointer}button.primary{background:var(--accent);color:#07111f;border-color:transparent;font-weight:800}button:hover{background:var(--card2)}button.primary:hover{filter:brightness(1.06)}
-main{display:grid;grid-template-columns:minmax(300px,35%) 1fr;min-height:calc(100vh - 190px)}aside{border-right:1px solid var(--line);overflow:auto;max-height:calc(100vh - 190px);position:sticky;top:190px}.panel{padding:12px}.card,.result{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}.result{cursor:pointer}.result:hover,.result.active{border-color:var(--accent);background:var(--card2)}.result p{margin-bottom:0}.entry-title{margin:.1rem 0 .6rem;font-size:1.5rem}.entry-block{line-height:1.62;white-space:normal}.meta-line{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.pill{padding:4px 8px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:.8rem}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.count{font-weight:800;color:var(--accent2)}.empty{color:var(--muted)}ul{padding-left:21px;line-height:1.55}.chips{display:flex;flex-wrap:wrap;gap:7px}.chip{padding:7px 9px;border-radius:999px}.source a{color:var(--accent);word-break:break-word}.toolbar{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.warning{border-color:#6e4f4a;color:var(--danger)}.emergency-strip{margin-top:9px;padding:8px 10px;border:1px solid #6e4f4a;border-radius:10px;background:#241b1b;color:#ffd4cd;font-weight:700}.quickbar{display:flex;gap:7px;overflow:auto;margin-top:8px}.quickbar button{white-space:nowrap;padding:8px 10px}
-@media(max-width:1250px){.controls{grid-template-columns:1fr 110px 1fr 1fr repeat(4,auto)}.controls .secondary{display:none}}
-@media(max-width:900px){header{position:relative}.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}main{grid-template-columns:1fr}aside{position:relative;top:0;max-height:45vh;border-right:0;border-bottom:1px solid var(--line)}.grid2{grid-template-columns:1fr}.header-row{align-items:flex-start}}
-@media print{header,aside,.toolbar{display:none!important}main{display:block}.card{border:0;box-shadow:none}.panel{padding:0}body{background:white;color:black}}
+main{display:grid;grid-template-columns:minmax(300px,35%) 1fr;min-height:calc(100vh - 200px)}aside{border-right:1px solid var(--line);overflow:auto;max-height:calc(100vh - 200px);position:sticky;top:200px}.panel{padding:12px}.card,.result{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}.result{cursor:pointer}.result:hover,.result.active{border-color:var(--accent);background:var(--card2)}.result p{margin-bottom:0}.entry-title{margin:.1rem 0 .6rem;font-size:1.5rem}.entry-block{line-height:1.62;white-space:normal}.meta-line{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.pill{padding:4px 8px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:.8rem}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.count{font-weight:800;color:var(--accent2)}.empty{color:var(--muted)}ul{padding-left:21px;line-height:1.55}.chips,.toolbar{display:flex;flex-wrap:wrap;gap:7px}.chip{padding:7px 9px;border-radius:999px}.source a{color:var(--accent);word-break:break-word}.toolbar{margin-top:10px}.warning{border-color:#6e4f4a;color:var(--danger)}.emergency-strip{margin-top:9px;padding:8px 10px;border:1px solid #6e4f4a;border-radius:10px;background:#241b1b;color:#ffd4cd;font-weight:700}.quickbar{display:flex;gap:7px;overflow:auto;margin-top:8px;padding-bottom:2px}.quickbar button{white-space:nowrap;padding:8px 10px}.mobile-top{display:none;position:fixed;right:14px;bottom:14px;z-index:20;border-radius:999px;background:var(--accent);color:#07111f;font-weight:800}
+@media(max-width:1350px){.controls{grid-template-columns:1fr 110px 1fr 1fr 130px repeat(5,auto)}.controls .secondary{display:none}}
+@media(max-width:900px){header{position:relative}.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.controls select{min-width:0}main{grid-template-columns:1fr}aside{position:relative;top:0;max-height:48vh;border-right:0;border-bottom:1px solid var(--line)}.grid2{grid-template-columns:1fr}.header-row{align-items:flex-start}.mobile-top{display:block}}
+@media print{header,aside,.toolbar,.mobile-top{display:none!important}main{display:block}.card{border:0;box-shadow:none}.panel{padding:0}body{background:white;color:black}}
 </style>
 </head>
 <body>
-<header>
- <div class="header-row"><div><div class="title" id="appTitle">Offline Survival</div><div class="sub" id="appSub"></div></div><div class="meta" id="stats"></div></div>
+<header id="top">
+ <div class="header-row"><div><div class="title">Offline Survival</div><div class="sub" id="appSub"></div></div><div class="meta" id="stats"></div></div>
  <div class="controls">
-  <input id="q"><select id="lang"><option value="en">English</option><option value="el">Ελληνικά</option></select>
-  <select id="cat"></select><select id="file"></select>
+  <input id="q" autocomplete="off"><select id="lang"><option value="en">English</option><option value="el">Ελληνικά</option></select>
+  <select id="cat"></select><select id="file"></select><select id="priority"></select>
   <button class="primary" id="searchBtn" onclick="runSearch()"></button>
-  <button id="randomBtn" onclick="randomEntry()"></button><button id="favBtn" onclick="showFavorites()">★</button>
+  <button id="randomBtn" onclick="randomEntry()"></button><button id="favBtn" onclick="showFavorites()">★</button><button id="recentBtn" onclick="showRecent()"></button>
   <button id="updatesBtn" onclick="loadUpdates()"></button><button class="secondary" onclick="fontSize(-1)">A−</button><button class="secondary" onclick="fontSize(1)">A+</button><button class="secondary" id="clearBtn" onclick="resetView()"></button>
  </div>
- <div class="emergency-strip" id="emergencyStrip"></div>
- <div class="quickbar" id="quickbar"></div>
+ <div class="emergency-strip" id="emergencyStrip"></div><div class="quickbar" id="quickbar"></div>
 </header>
-<main><aside><div class="panel"><div class="card"><div class="count" id="count"></div><div class="empty" id="hint"></div></div><div id="results"></div></div></aside><section><div class="panel" id="viewer"></div></section></main>
+<main><aside id="resultPane"><div class="panel"><div class="card"><div class="count" id="count"></div><div class="empty" id="hint"></div></div><div id="results"></div></div></aside><section><div class="panel" id="viewer"></div></section></main>
+<button class="mobile-top" onclick="document.getElementById('resultPane').scrollIntoView()">↑</button>
 <script>
-const UI={en:{sub:'Private local reader for the bilingual survival database. No internet is required.',search:'Search',random:'Random',updates:'Updates',clear:'Clear',allcat:'All categories',allfiles:'All files',placeholder:'Search topic, symptom, tool, method, food, terrain…',results:'results',hint:'Search or use a filter. Tap a result to read the full entry.',none:'No matching entries.',ready:'Ready',readytext:'Search, open a random entry, or use favorites. Official instructions and emergency services override this guide.',materials:'Materials',steps:'Steps',alternatives:'Alternatives',warnings:'Warnings',failure:'Failure signs',notuse:'When not to use',mistakes:'Common mistakes',short:'Short-term',long:'Long-term',fallback:'If the method fails',environment:'Environment notes',related:'Related topics',sources:'Official/reference sources',update:'Update note',copy:'Copy entry',print:'Print',favorite:'Favorite',unfavorite:'Remove favorite',favorites:'Favorites',nofav:'No saved favorites.',loading:'Loading…',entrymissing:'Entry not found.',source:'Source',copied:'Copied to clipboard',emergency:'Greece: 112 emergency • Poison Centre: 210 7793777',files:'files',categories:'categories',quick:['First 30 min','Earthquake','Wildfire','Flood','Power','Heat','Water','Medicine','Accessibility','Collapse','Digital','Recovery']},el:{sub:'Ιδιωτικός τοπικός αναγνώστης της δίγλωσσης βάσης επιβίωσης. Δεν απαιτείται διαδίκτυο.',search:'Αναζήτηση',random:'Τυχαίο',updates:'Ενημερώσεις',clear:'Καθαρισμός',allcat:'Όλες οι κατηγορίες',allfiles:'Όλα τα αρχεία',placeholder:'Αναζήτηση θέματος, συμπτώματος, εργαλείου, μεθόδου, τροφής, εδάφους…',results:'αποτελέσματα',hint:'Κάνε αναζήτηση ή χρησιμοποίησε φίλτρο. Πάτησε αποτέλεσμα για πλήρη ανάγνωση.',none:'Δεν βρέθηκαν αποτελέσματα.',ready:'Έτοιμο',readytext:'Κάνε αναζήτηση, άνοιξε τυχαία εγγραφή ή χρησιμοποίησε αγαπημένα. Οι επίσημες οδηγίες και οι υπηρεσίες ανάγκης υπερισχύουν του οδηγού.',materials:'Υλικά',steps:'Βήματα',alternatives:'Εναλλακτικές',warnings:'Προειδοποιήσεις',failure:'Σημάδια αποτυχίας',notuse:'Πότε να μη χρησιμοποιηθεί',mistakes:'Συχνά λάθη',short:'Βραχυπρόθεσμα',long:'Μακροπρόθεσμα',fallback:'Αν αποτύχει η μέθοδος',environment:'Σημειώσεις περιβάλλοντος',related:'Σχετικά θέματα',sources:'Επίσημες/βοηθητικές πηγές',update:'Σημείωση ενημέρωσης',copy:'Αντιγραφή εγγραφής',print:'Εκτύπωση',favorite:'Αγαπημένο',unfavorite:'Αφαίρεση αγαπημένου',favorites:'Αγαπημένα',nofav:'Δεν υπάρχουν αγαπημένα.',loading:'Φόρτωση…',entrymissing:'Η εγγραφή δεν βρέθηκε.',source:'Πηγή',copied:'Αντιγράφηκε',emergency:'Ελλάδα: 112 έκτακτη ανάγκη • Κέντρο Δηλητηριάσεων: 210 7793777',files:'αρχεία',categories:'κατηγορίες',quick:['Πρώτα 30 λεπτά','Σεισμός','Πυρκαγιά','Πλημμύρα','Ρεύμα','Καύσωνας','Νερό','Φάρμακα','Προσβασιμότητα','Κατάρρευση','Ψηφιακά','Αποκατάσταση']}};
-let lastResults=[],activeId=null,meta=null,currentText='';
-const $=id=>document.getElementById(id);const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const lang=()=>$('lang').value;const t=k=>UI[lang()][k]||k;
-function favs(){try{return JSON.parse(localStorage.getItem('offlineSurvivalFavorites')||'[]')}catch(e){return[]}}function saveFavs(v){localStorage.setItem('offlineSurvivalFavorites',JSON.stringify([...new Set(v)]))}function isFav(id){return favs().includes(id)}
-function applyUI(){document.documentElement.lang=lang();$('appSub').textContent=t('sub');$('searchBtn').textContent=t('search');$('randomBtn').textContent=t('random');$('updatesBtn').textContent=t('updates');$('clearBtn').textContent=t('clear');$('q').placeholder=t('placeholder');$('cat').options[0].text=t('allcat');$('file').options[0].text=t('allfiles');$('emergencyStrip').textContent=t('emergency');const queries=['first 30 minutes','earthquake','wildfire','flood','power outage','heatwave','unsafe water','medicine','accessibility','collapse trapped debris','ransomware phone cash documents','recovery cleanup'];$('quickbar').innerHTML=t('quick').map((x,i)=>`<button onclick="quickSearch('${queries[i]}')">${esc(x)}</button>`).join('');if(!activeId) resetView(false);}
+const UI={
+en:{sub:'Private local bilingual survival reader. No internet is required.',search:'Search',random:'Random',updates:'Updates',clear:'Clear',recent:'Recent',allcat:'All categories',allfiles:'All files',allpriority:'All priorities',critical:'Critical',high:'High',medium:'Medium',placeholder:'Search topic, symptom, tool, method, food, terrain…',results:'results',hint:'Search or use a filter. Tap a result to read the full entry.',none:'No matching entries.',relaxed:'No exact all-word match; showing the closest useful matches.',ready:'Ready',readytext:'Search, open a random entry, or use favorites. Official instructions and emergency services override this guide.',materials:'Materials',steps:'Steps',alternatives:'Alternatives',warnings:'Warnings',failure:'Failure signs',notuse:'When not to use',mistakes:'Common mistakes',short:'Short-term',long:'Long-term',fallback:'If the method fails',environment:'Environment notes',related:'Related topics',sources:'Official/reference sources',update:'Update note',copy:'Copy entry',print:'Print',favorite:'Favorite',unfavorite:'Remove favorite',favorites:'Favorites',nofav:'No saved favorites.',norecent:'No recently viewed entries.',loading:'Loading…',entrymissing:'Entry not found.',copied:'Copied to clipboard',emergency:'Greece: 112 emergency • Poison Centre: 210 7793777',files:'files',categories:'categories',quick:['First 5 min','Night evac','Smoke stairs','Phone battery','Generator','Water queue','Sewer','Medicine','Rumours','Welfare','Documents','Pets','Maps','Recovery','Digital','Food']},
+el:{sub:'Ιδιωτικός τοπικός δίγλωσσος οδηγός επιβίωσης. Δεν απαιτείται διαδίκτυο.',search:'Αναζήτηση',random:'Τυχαίο',updates:'Ενημερώσεις',clear:'Καθαρισμός',recent:'Πρόσφατα',allcat:'Όλες οι κατηγορίες',allfiles:'Όλα τα αρχεία',allpriority:'Όλες οι προτεραιότητες',critical:'Κρίσιμη',high:'Υψηλή',medium:'Μεσαία',placeholder:'Αναζήτηση θέματος, συμπτώματος, εργαλείου, μεθόδου, τροφής, εδάφους…',results:'αποτελέσματα',hint:'Κάνε αναζήτηση ή χρησιμοποίησε φίλτρο. Πάτησε αποτέλεσμα για πλήρη ανάγνωση.',none:'Δεν βρέθηκαν αποτελέσματα.',relaxed:'Δεν βρέθηκε ακριβής αντιστοίχιση όλων των λέξεων· εμφανίζονται τα πιο χρήσιμα σχετικά αποτελέσματα.',ready:'Έτοιμο',readytext:'Κάνε αναζήτηση, άνοιξε τυχαία εγγραφή ή χρησιμοποίησε αγαπημένα. Οι επίσημες οδηγίες και οι υπηρεσίες ανάγκης υπερισχύουν του οδηγού.',materials:'Υλικά',steps:'Βήματα',alternatives:'Εναλλακτικές',warnings:'Προειδοποιήσεις',failure:'Σημάδια αποτυχίας',notuse:'Πότε να μη χρησιμοποιηθεί',mistakes:'Συχνά λάθη',short:'Βραχυπρόθεσμα',long:'Μακροπρόθεσμα',fallback:'Αν αποτύχει η μέθοδος',environment:'Σημειώσεις περιβάλλοντος',related:'Σχετικά θέματα',sources:'Επίσημες/βοηθητικές πηγές',update:'Σημείωση ενημέρωσης',copy:'Αντιγραφή εγγραφής',print:'Εκτύπωση',favorite:'Αγαπημένο',unfavorite:'Αφαίρεση αγαπημένου',favorites:'Αγαπημένα',nofav:'Δεν υπάρχουν αγαπημένα.',norecent:'Δεν υπάρχουν πρόσφατες εγγραφές.',loading:'Φόρτωση…',entrymissing:'Η εγγραφή δεν βρέθηκε.',copied:'Αντιγράφηκε',emergency:'Ελλάδα: 112 έκτακτη ανάγκη • Κέντρο Δηλητηριάσεων: 210 7793777',files:'αρχεία',categories:'κατηγορίες',quick:['Πρώτα 5 λεπτά','Νυχτερινή έξοδος','Καπνός σκάλας','Μπαταρία κινητού','Γεννήτρια','Ουρά νερού','Λύματα','Φάρμακα','Φήμες','Ηλικιωμένοι','Έγγραφα','Ζώα','Χάρτες','Αποκατάσταση','Ψηφιακά','Τρόφιμα']}}
+;
+let lastResults=[],activeId=null,currentText='',sharedFavorites=[];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const lang=()=>$('lang').value;
+const t=k=>UI[lang()][k]||k;
+function favs(){return sharedFavorites}
+async function saveFavs(v){sharedFavorites=[...new Set(v)];await fetch('/api/favorites',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ids:sharedFavorites})})}
+function isFav(id){return favs().includes(id)}
+function applyUI(){
+ document.documentElement.lang=lang();localStorage.setItem('offlineSurvivalLang',lang());$('appSub').textContent=t('sub');$('searchBtn').textContent=t('search');$('randomBtn').textContent=t('random');$('updatesBtn').textContent=t('updates');$('recentBtn').textContent=t('recent');$('clearBtn').textContent=t('clear');$('q').placeholder=t('placeholder');$('cat').options[0].text=t('allcat');$('file').options[0].text=t('allfiles');$('priority').innerHTML=`<option value="">${t('allpriority')}</option><option value="critical">${t('critical')}</option><option value="high">${t('high')}</option><option value="medium">${t('medium')}</option>`;$('emergencyStrip').textContent=t('emergency');const queries=['first five minutes household command reset','night evacuation without street lighting','apartment stairwell smoke','phone battery triage outage','shared generator carbon monoxide log','water queue hygiene fairness','sewer backup stop rules','medicine refill diabetes asthma','community rumor control board','elderly neighbor welfare rotation','document photo inventory evacuation','pet heat stress early check','offline map correction walk','return home smell sound inspection','ransomware phone cash documents','food ration allergy medicine'];$('quickbar').innerHTML=t('quick').map((x,i)=>`<button onclick="quickSearch('${queries[i]}')">${esc(x)}</button>`).join('');if(!activeId)resetView(false)
+}
 function textCard(title,text,cls=''){if(!text)return'';return `<div class="card ${cls}"><h3>${esc(title)}</h3><div class="entry-block">${esc(text).replace(/\n/g,'<br><br>')}</div></div>`}
 function listCard(title,items,cls=''){if(!items||!items.length)return'';return `<div class="card ${cls}"><h3>${esc(title)}</h3><ul>${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`}
 function sourceCard(items){if(!items||!items.length)return'';return `<div class="card source"><h3>${esc(t('sources'))}</h3><ul>${items.map(x=>{const m=String(x).match(/(https?:\/\/\S+)/);return m?`<li>${esc(x.slice(0,m.index))}<a href="${esc(m[1])}" target="_blank" rel="noreferrer">${esc(m[1])}</a></li>`:`<li>${esc(x)}</li>`}).join('')}</ul></div>`}
-function chipCard(title,items){if(!items||!items.length)return'';return `<div class="card"><h3>${esc(title)}</h3><div class="chips">${items.map(x=>`<button class="chip" onclick="searchRelated('${String(x).replace(/'/g,"\\'")}')">${esc(x)}</button>`).join('')}</div></div>`}
-async function loadMeta(){const oldCat=$('cat').value,oldFile=$('file').value;const r=await fetch('/api/meta?lang='+lang());meta=await r.json();$('stats').textContent=`${meta.stats.entries} • ${meta.stats.files} ${t('files')} • ${meta.stats.categories} ${t('categories')}`;for(const [id,items] of [['cat',meta.categories],['file',meta.files]]){const s=$(id);s.innerHTML='<option value=""></option>';items.forEach(x=>{const o=document.createElement('option');o.value=(typeof x==='object'?x.value:x);o.textContent=(typeof x==='object'?x.label:x);s.appendChild(o)})}if([...$('cat').options].some(o=>o.value===oldCat))$('cat').value=oldCat;if([...$('file').options].some(o=>o.value===oldFile))$('file').value=oldFile;applyUI()}
+function chipCard(title,items){if(!items||!items.length)return'';return `<div class="card"><h3>${esc(title)}</h3><div class="chips">${items.map(x=>`<button class="chip" data-related="${esc(x)}">${esc(x)}</button>`).join('')}</div></div>`}
+async function loadMeta(){
+ const oldCat=$('cat').value,oldFile=$('file').value,oldPriority=$('priority').value;const r=await fetch('/api/meta?lang='+lang());const meta=await r.json();sharedFavorites=meta.favorites||[];$('stats').textContent=`v${meta.version} • ${meta.stats.entries} • ${meta.stats.files} ${t('files')} • ${meta.stats.categories} ${t('categories')}`;
+ for(const [id,items] of [['cat',meta.categories],['file',meta.files]]){const s=$(id);s.innerHTML='<option value=""></option>';items.forEach(x=>{const o=document.createElement('option');o.value=(typeof x==='object'?x.value:x);o.textContent=(typeof x==='object'?x.label:x);s.appendChild(o)})}
+ applyUI();if([...$('cat').options].some(o=>o.value===oldCat))$('cat').value=oldCat;if([...$('file').options].some(o=>o.value===oldFile))$('file').value=oldFile;$('priority').value=oldPriority
+}
 function updateCount(n,msg){$('count').textContent=`${n} ${t('results')}`;$('hint').textContent=msg||t('hint')}
-async function runSearch(){const qs=new URLSearchParams({q:$('q').value.trim(),lang:lang(),category:$('cat').value,file:$('file').value});$('results').innerHTML=`<div class="card empty">${t('loading')}</div>`;const r=await fetch('/api/search?'+qs);const d=await r.json();lastResults=d.results||[];renderResults(lastResults);if(lastResults.length)loadEntry(lastResults[0].id);else $('viewer').innerHTML=textCard(t('none'),t('hint'))}
-function renderResults(rows){updateCount(rows.length,rows.length?t('hint'):t('none'));$('results').innerHTML=rows.map(r=>`<div class="result ${activeId===r.id?'active':''}" onclick="loadEntry('${esc(r.id)}')"><strong>${isFav(r.id)?'★ ':''}${esc(r.topic)}</strong><div class="meta">${esc(r.category)} • ${esc(r.file)}</div><p>${esc((r.summary||'').slice(0,280))}</p></div>`).join('')||`<div class="card empty">${t('none')}</div>`}
-async function loadEntry(id){activeId=id;$('viewer').innerHTML=`<div class="card empty">${t('loading')}</div>`;const r=await fetch(`/api/entry?id=${encodeURIComponent(id)}&lang=${lang()}`);const d=await r.json();if(!d.entry){$('viewer').innerHTML=textCard(t('entrymissing'),'');return}const e=d.entry;currentText=e.text||'';const pills=[e.category,e.subcategory,e.file,e.priority,e.urgency].filter(Boolean).map(x=>`<span class="pill">${esc(x)}</span>`).join('');$('viewer').innerHTML=`<div class="card"><h1 class="entry-title">${esc(e.topic)}</h1><div class="meta-line">${pills}<span class="pill">${esc(e.id)}</span></div><div class="entry-block"><strong>${esc(e.summary)}</strong><br><br>${esc(e.content).replace(/\n/g,'<br><br>')}</div><div class="toolbar"><button onclick="toggleFav('${esc(e.id)}')">${isFav(e.id)?'★ '+t('unfavorite'):'☆ '+t('favorite')}</button><button onclick="copyEntry()">${t('copy')}</button><button onclick="window.print()">${t('print')}</button></div></div><div class="grid2"><div>${listCard(t('materials'),e.materials)}${listCard(t('steps'),e.steps)}${listCard(t('alternatives'),e.alternatives)}${listCard(t('warnings'),e.warnings,'warning')}${listCard(t('failure'),e.failure_signs,'warning')}</div><div>${listCard(t('notuse'),e.when_not_to_use,'warning')}${listCard(t('mistakes'),e.mistakes)}${textCard(t('short'),e.short_term)}${textCard(t('long'),e.long_term)}${textCard(t('fallback'),e.if_method_fails)}${textCard(t('environment'),e.environment_notes)}</div></div>${chipCard(t('related'),e.related_topics)}${sourceCard(e.sources)}${textCard(t('update'),e.update_note)}`;document.querySelectorAll('.result').forEach(x=>x.classList.remove('active'));renderResults(lastResults)}
-function toggleFav(id){let f=favs();f=f.includes(id)?f.filter(x=>x!==id):[...f,id];saveFavs(f);loadEntry(id)}
-async function showFavorites(){const ids=favs();if(!ids.length){lastResults=[];renderResults([]);$('viewer').innerHTML=textCard(t('favorites'),t('nofav'));return}const r=await fetch('/api/favorites?ids='+encodeURIComponent(ids.join(','))+'&lang='+lang());const d=await r.json();lastResults=d.results||[];renderResults(lastResults);if(lastResults.length)loadEntry(lastResults[0].id)}
+async function runSearch(){const qs=new URLSearchParams({q:$('q').value.trim(),lang:lang(),category:$('cat').value,file:$('file').value,priority:$('priority').value});$('results').innerHTML=`<div class="card empty">${t('loading')}</div>`;const r=await fetch('/api/search?'+qs);const d=await r.json();lastResults=d.results||[];renderResults(lastResults,d.mode==='relaxed'?t('relaxed'):null);if(lastResults.length)loadEntry(lastResults[0].id);else $('viewer').innerHTML=textCard(t('none'),t('hint'))}
+function renderResults(rows,msg){updateCount(rows.length,msg||(rows.length?t('hint'):t('none')));$('results').innerHTML=rows.map(r=>`<div class="result ${activeId===r.id?'active':''}" data-entry="${esc(r.id)}"><strong>${isFav(r.id)?'★ ':''}${esc(r.topic)}</strong><div class="meta">${esc(r.category)} • ${esc(r.file)}</div><p>${esc((r.summary||'').slice(0,280))}</p></div>`).join('')||`<div class="card empty">${t('none')}</div>`}
+async function loadEntry(id){
+ activeId=id;$('viewer').innerHTML=`<div class="card empty">${t('loading')}</div>`;const r=await fetch(`/api/entry?id=${encodeURIComponent(id)}&lang=${lang()}`);const d=await r.json();if(!d.entry){$('viewer').innerHTML=textCard(t('entrymissing'),'');return}const e=d.entry;currentText=e.text||'';const pills=[e.category,e.subcategory,e.file,e.priority,e.urgency].filter(Boolean).map(x=>`<span class="pill">${esc(x)}</span>`).join('');
+ $('viewer').innerHTML=`<div class="card"><h1 class="entry-title">${esc(e.topic)}</h1><div class="meta-line">${pills}<span class="pill">${esc(e.id)}</span></div><div class="entry-block"><strong>${esc(e.summary)}</strong><br><br>${esc(e.content).replace(/\n/g,'<br><br>')}</div><div class="toolbar"><button id="entryFav">${isFav(e.id)?'★ '+t('unfavorite'):'☆ '+t('favorite')}</button><button id="copyBtn">${t('copy')}</button><button onclick="window.print()">${t('print')}</button></div></div><div class="grid2"><div>${listCard(t('materials'),e.materials)}${listCard(t('steps'),e.steps)}${listCard(t('alternatives'),e.alternatives)}${listCard(t('warnings'),e.warnings,'warning')}${listCard(t('failure'),e.failure_signs,'warning')}</div><div>${listCard(t('notuse'),e.when_not_to_use,'warning')}${listCard(t('mistakes'),e.mistakes)}${textCard(t('short'),e.short_term)}${textCard(t('long'),e.long_term)}${textCard(t('fallback'),e.if_method_fails)}${textCard(t('environment'),e.environment_notes)}</div></div>${chipCard(t('related'),e.related_topics)}${sourceCard(e.sources)}${textCard(t('update'),e.update_note)}`;
+ $('entryFav').onclick=()=>toggleFav(e.id);$('copyBtn').onclick=copyEntry;document.querySelectorAll('[data-related]').forEach(x=>x.onclick=()=>searchRelated(x.dataset.related));renderResults(lastResults)
+}
+async function toggleFav(id){const next=favs().includes(id)?favs().filter(x=>x!==id):[...favs(),id];await saveFavs(next);await loadEntry(id)}
+async function showFavorites(){const r=await fetch('/api/favorites?lang='+lang());const d=await r.json();sharedFavorites=d.ids||sharedFavorites;lastResults=d.results||[];renderResults(lastResults);if(lastResults.length)loadEntry(lastResults[0].id);else $('viewer').innerHTML=textCard(t('favorites'),t('nofav'))}
+async function showRecent(){const r=await fetch('/api/recent?lang='+lang());const d=await r.json();lastResults=d.results||[];renderResults(lastResults);if(lastResults.length)loadEntry(lastResults[0].id);else $('viewer').innerHTML=textCard(t('recent'),t('norecent'))}
 async function randomEntry(){const r=await fetch('/api/random?lang='+lang());const d=await r.json();if(d.id)loadEntry(d.id)}
-async function loadUpdates(){const r=await fetch('/api/updates');const d=await r.json();lastResults=[];$('results').innerHTML=(d.logs||[]).slice().reverse().map(x=>`<div class="result" onclick="loadUpdate('${String(x).replace(/'/g,"\\'")}')"><strong>${esc(x)}</strong></div>`).join('');updateCount((d.logs||[]).length,t('updates'))}
+async function loadUpdates(){const r=await fetch('/api/updates');const d=await r.json();lastResults=[];$('results').innerHTML=(d.logs||[]).slice().reverse().map(x=>`<div class="result" data-update="${esc(x)}"><strong>${esc(x)}</strong></div>`).join('');document.querySelectorAll('[data-update]').forEach(x=>x.onclick=()=>loadUpdate(x.dataset.update));updateCount((d.logs||[]).length,t('updates'))}
 async function loadUpdate(name){const r=await fetch('/api/update?name='+encodeURIComponent(name));const d=await r.json();$('viewer').innerHTML=textCard(d.name||t('updates'),d.content||'')}
-function searchRelated(x){$('q').value=x;runSearch()}function quickSearch(x){$('q').value=x;$('cat').value='';$('file').value='';runSearch()}function resetView(reset=true){if(reset){$('q').value='';$('cat').value='';$('file').value='';$('results').innerHTML=''}activeId=null;updateCount(0,t('hint'));$('viewer').innerHTML=textCard(t('ready'),t('readytext'))}
-function fontSize(delta){const cur=parseInt(getComputedStyle(document.documentElement).fontSize)||16;document.documentElement.style.setProperty('--font',Math.max(13,Math.min(22,cur+delta))+'px')}async function copyEntry(){try{await navigator.clipboard.writeText(currentText);alert(t('copied'))}catch(e){}}
-$('q').addEventListener('keydown',e=>{if(e.key==='Enter')runSearch()});$('lang').addEventListener('change',async()=>{await loadMeta();if(activeId)await loadEntry(activeId);else if(lastResults.length)await runSearch();});$('cat').addEventListener('change',runSearch);$('file').addEventListener('change',runSearch);loadMeta();
+function searchRelated(x){$('q').value=x;runSearch()}
+function quickSearch(x){$('q').value=x;$('cat').value='';$('file').value='';$('priority').value='';runSearch()}
+function resetView(reset=true){if(reset){$('q').value='';$('cat').value='';$('file').value='';$('priority').value='';$('results').innerHTML=''}activeId=null;updateCount(0,t('hint'));$('viewer').innerHTML=textCard(t('ready'),t('readytext'))}
+function fontSize(delta){const cur=parseInt(getComputedStyle(document.documentElement).fontSize)||16;const next=Math.max(13,Math.min(22,cur+delta));document.documentElement.style.setProperty('--font',next+'px');localStorage.setItem('offlineSurvivalFont',next)}
+async function copyEntry(){try{await navigator.clipboard.writeText(currentText);alert(t('copied'))}catch(e){}}
+$('results').addEventListener('click',e=>{const row=e.target.closest('[data-entry]');if(row)loadEntry(row.dataset.entry)});
+$('q').addEventListener('keydown',e=>{if(e.key==='Enter')runSearch()});$('lang').addEventListener('change',async()=>{await loadMeta();if(activeId)await loadEntry(activeId);else if(lastResults.length)await runSearch()});$('cat').addEventListener('change',runSearch);$('file').addEventListener('change',runSearch);$('priority').addEventListener('change',runSearch);
+const savedLang=localStorage.getItem('offlineSurvivalLang');if(savedLang==='el'||savedLang==='en')$('lang').value=savedLang;const savedFont=parseInt(localStorage.getItem('offlineSurvivalFont'));document.documentElement.style.setProperty('--font',Math.max(13,Math.min(22,savedFont||16))+'px');loadMeta();
 </script>
-</body></html>'''
+</body>
+</html>
+'''
 
 
 def browser_labels(lang):
@@ -938,7 +1084,7 @@ class OfflineWebHandler(BaseHTTPRequestHandler):
             for value in sorted(STORE.by_category):
                 rows = STORE.by_category[value]
                 categories.append({"value": value, "label": display_category(rows[0], lang) if rows else value})
-            self.send_json({"categories": categories, "files": sorted(STORE.by_file), "stats": STORE.stats()})
+            self.send_json({"categories": categories, "files": sorted(STORE.by_file), "stats": STORE.stats(), "favorites": [x for x in STATE.get("favorites", []) if x in STORE.by_id], "recent": [x for x in STATE.get("recent", []) if x in STORE.by_id], "version": APP_VERSION})
             return
         if parsed.path == "/api/random":
             if not STORE.entries:
@@ -952,17 +1098,29 @@ class OfflineWebHandler(BaseHTTPRequestHandler):
             lang = qs.get("lang", ["en"])[0]
             category = qs.get("category", [""])[0]
             file_name = qs.get("file", [""])[0]
-            rows = STORE.search(query, lang, 1000) if query else list(STORE.entries)
+            priority = qs.get("priority", [""])[0]
+            if query:
+                rows, mode = STORE.search_with_mode(query, lang, len(STORE.entries))
+            else:
+                rows, mode = list(STORE.entries), "exact"
             if category:
                 rows = [e for e in rows if e["category"] == category]
             if file_name:
                 rows = [e for e in rows if e["_source_file"] == file_name]
-            self.send_json({"results": [result_payload(e, lang) for e in rows[:250]]})
+            if priority:
+                rows = [e for e in rows if normalize_search(e.get("priority", "")) == normalize_search(priority)]
+            self.send_json({"results": [result_payload(e, lang) for e in rows[:250]], "total": len(rows), "mode": mode})
             return
         if parsed.path == "/api/favorites":
             lang = qs.get("lang", ["en"])[0]
-            ids = [x for x in qs.get("ids", [""])[0].split(",") if x]
-            self.send_json({"results": [result_payload(STORE.by_id[x], lang) for x in ids if x in STORE.by_id]})
+            requested = [x for x in qs.get("ids", [""])[0].split(",") if x]
+            ids = requested or [x for x in STATE.get("favorites", []) if x in STORE.by_id]
+            self.send_json({"ids": ids, "results": [result_payload(STORE.by_id[x], lang) for x in ids if x in STORE.by_id]})
+            return
+        if parsed.path == "/api/recent":
+            lang = qs.get("lang", ["en"])[0]
+            ids = [x for x in STATE.get("recent", []) if x in STORE.by_id]
+            self.send_json({"ids": ids, "results": [result_payload(STORE.by_id[x], lang) for x in ids]})
             return
         if parsed.path == "/api/entry":
             entry_id = qs.get("id", [""])[0]
@@ -971,6 +1129,7 @@ class OfflineWebHandler(BaseHTTPRequestHandler):
             if not e:
                 self.send_json({"entry": None}, 404)
                 return
+            remember_recent(entry_id)
             suffix = "el" if lang == "el" else "en"
             payload = {
                 "id": e["id"], "topic": display_topic(e, lang), "summary": e.get(f"summary_{suffix}", ""),
@@ -1002,6 +1161,30 @@ class OfflineWebHandler(BaseHTTPRequestHandler):
                     self.send_json({"name": name, "content": fh.read()})
             return
         self.send_json({"error": "Not found"}, 404)
+
+    def do_POST(self):
+        parsed = urlparse(self.path)
+        if parsed.path != "/api/favorites":
+            self.send_json({"error": "Not found"}, 404)
+            return
+        try:
+            length = max(0, min(int(self.headers.get("Content-Length", "0")), 64_000))
+            payload = json.loads(self.rfile.read(length).decode("utf-8") or "{}")
+            ids = payload.get("ids", [])
+            if not isinstance(ids, list):
+                raise ValueError("ids must be a list")
+            clean = []
+            for entry_id in ids:
+                entry_id = safe_text(entry_id)
+                if entry_id in STORE.by_id and entry_id not in clean:
+                    clean.append(entry_id)
+                if len(clean) >= 500:
+                    break
+            STATE["favorites"] = clean
+            save_state(STATE)
+            self.send_json({"ok": True, "ids": clean})
+        except (ValueError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+            self.send_json({"ok": False, "error": str(exc)}, 400)
 
     def log_message(self, _format, *_args):
         return
@@ -1052,12 +1235,30 @@ def export_entries(entries, lang="en", name="export"):
     return folder, len(entries)
 
 
+def export_combined_bilingual(entries, name="offline_survival_complete"):
+    root = export_root()
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    folder = os.path.join(root, f"{slugify(name, 'export')}_{stamp}")
+    os.makedirs(folder, exist_ok=True)
+    written = []
+    for lang, filename in (("en", "Offline_Survival_English.txt"), ("el", "Offline_Survival_Greek.txt")):
+        out = os.path.join(folder, filename)
+        with open(out, "w", encoding="utf-8") as fh:
+            fh.write(f"{tr(lang, 'app')}\n{'=' * 72}\n{tr(lang, 'entries')}: {len(entries)}\n\n")
+            for number, entry in enumerate(entries, 1):
+                fh.write(f"\n\n[{number}/{len(entries)}]\n")
+                fh.write(format_entry_text(entry, lang))
+                fh.write("\n" + ("-" * 72) + "\n")
+        written.append(out)
+    return folder, written
+
+
 def export_menu(lang):
     while True:
         clear()
         print(tr(lang, "export_title"))
         print("-" * 60)
-        options = ["export_all", "export_search", "export_category", "export_file", "export_favorites", "export_quick", "export_both"]
+        options = ["export_all", "export_search", "export_category", "export_file", "export_favorites", "export_quick", "export_both", "export_combined"]
         for i, key in enumerate(options, 1):
             print(f"{i}. {tr(lang, key)}")
         print(f"0. {tr(lang, 'return')}")
@@ -1099,6 +1300,10 @@ def export_menu(lang):
                 folder_el, _ = export_entries(entries, "el", label + "_greek")
                 pause(lang, f"\n{tr(lang, 'exported')} {n} + {n}\n{folder_en}\n{folder_el}\n\n{tr(lang, 'press_enter')}")
             continue
+        elif choice == "8":
+            folder, files = export_combined_bilingual(list(STORE.entries))
+            pause(lang, f"\n{tr(lang, 'exported')} {len(STORE.entries)} + {len(STORE.entries)} {tr(lang, 'to')}:\n{folder}\n" + "\n".join(files) + f"\n\n{tr(lang, 'press_enter')}")
+            continue
         if not entries:
             pause(lang, f"\n{tr(lang, 'nothing_export')}\n\n{tr(lang, 'press_enter')}")
             continue
@@ -1107,19 +1312,44 @@ def export_menu(lang):
 
 
 def browse_mapping(mapping, lang, title_key):
-    items = sorted(mapping.items())
+    all_items = sorted(mapping.items())
+    page_index = 0
+    filter_text = ""
     while True:
-        clear()
-        print(tr(lang, title_key))
-        print("-" * 72)
-        for i, (name, data) in enumerate(items, 1):
+        items = all_items
+        if filter_text:
+            needle = normalize_search(filter_text)
+            items = [item for item in all_items if needle in normalize_search(
+                display_category(item[1][0], lang) if title_key == "categories" and item[1] else item[0]
+            )]
+        max_page = max(1, (len(items) + BROWSE_PAGE_SIZE - 1) // BROWSE_PAGE_SIZE)
+        page_index = min(page_index, max_page - 1)
+        start_at = page_index * BROWSE_PAGE_SIZE
+        page = items[start_at:start_at + BROWSE_PAGE_SIZE]
+        clear(); print(tr(lang, title_key)); print("-" * 72)
+        if filter_text:
+            print(f"{tr(lang, 'filter_active')}: {filter_text}\n")
+        for offset, (name, data) in enumerate(page, start_at + 1):
             label = display_category(data[0], lang) if title_key == "categories" and data else name
-            print(f"{i}. {label} ({len(data)})")
-        print("\n" + tr(lang, "choose_number"))
-        choice = input("> ").strip()
+            print(f"{offset}. {label} ({len(data)})")
+        print(f"\n{tr(lang, 'page')} {page_index + 1}/{max_page} • {tr(lang, 'showing')} {len(page)} {tr(lang, 'of')} {len(items)}")
+        print(tr(lang, "browse_prompt"))
+        try:
+            choice = input("> ").strip()
+        except EOFError:
+            return
         if not choice:
             return
-        if choice.isdigit() and 1 <= int(choice) <= len(items):
+        low = choice.casefold()
+        if low == "n" and page_index + 1 < max_page:
+            page_index += 1
+        elif low == "p" and page_index > 0:
+            page_index -= 1
+        elif low == "c":
+            filter_text = ""; page_index = 0
+        elif choice.startswith("/"):
+            filter_text = choice[1:].strip(); page_index = 0
+        elif choice.isdigit() and 1 <= int(choice) <= len(items):
             pick_from_entries(items[int(choice) - 1][1], lang)
 
 
@@ -1155,6 +1385,10 @@ def show_integrity(lang):
         ("shallow_entries", len(report["shallow_entries"])),
         ("sources_missing", len(report["sources_missing"])),
         ("placeholder_topics", len(report["placeholder_topics"])),
+        ("schema_mismatches", len(report["schema_mismatches"])),
+        ("invalid_sources", len(report["invalid_sources"])),
+        ("oversized_files", len(report["oversized_files"])),
+        ("index_mismatch", len(report["index_mismatch"])),
         ("load_errors", len(report["load_errors"])),
     ]
     for key, value in pairs:
@@ -1162,7 +1396,7 @@ def show_integrity(lang):
     if all(value == 0 for _, value in pairs):
         print("\n✓ " + tr(lang, "clean_audit"))
     else:
-        for key in ["duplicate_ids", "duplicate_topics", "duplicate_topics_el", "duplicate_blocks", "repeated_core_text", "missing_pairs", "ascii_leaks", "legacy_template_flags", "semantic_mismatches", "shallow_entries", "sources_missing", "placeholder_topics", "load_errors"]:
+        for key in ["duplicate_ids", "duplicate_topics", "duplicate_topics_el", "duplicate_blocks", "repeated_core_text", "missing_pairs", "ascii_leaks", "legacy_template_flags", "semantic_mismatches", "shallow_entries", "sources_missing", "placeholder_topics", "schema_mismatches", "invalid_sources", "oversized_files", "index_mismatch", "load_errors"]:
             if report[key]:
                 print(f"\n{tr(lang, key)}:")
                 for item in report[key][:40]:
@@ -1184,24 +1418,45 @@ def show_source_guide(lang):
 
 
 def show_updates(lang):
-    clear()
-    print(tr(lang, "update_logs"))
-    print("-" * 72)
-    logs = [x for x in sorted(os.listdir(UPDATES_DIR)) if x.endswith(".txt")] if os.path.isdir(UPDATES_DIR) else []
+    logs = [x for x in sorted(os.listdir(UPDATES_DIR), reverse=True) if x.endswith(".txt")] if os.path.isdir(UPDATES_DIR) else []
     if not logs:
-        print(tr(lang, "no_logs"))
-        pause(lang)
-        return
-    logs.reverse()
-    for i, name in enumerate(logs, 1):
-        print(f"{i}. {name}")
-    choice = input("\n> ").strip()
-    if choice.isdigit() and 1 <= int(choice) <= len(logs):
-        path = os.path.join(UPDATES_DIR, logs[int(choice) - 1])
-        clear()
-        with open(path, "r", encoding="utf-8") as fh:
-            print(fh.read())
-        pause(lang)
+        clear(); print(tr(lang, "no_logs")); pause(lang); return
+    page_index = 0
+    filter_text = ""
+    while True:
+        rows = [name for name in logs if normalize_search(filter_text) in normalize_search(name)] if filter_text else logs
+        max_page = max(1, (len(rows) + BROWSE_PAGE_SIZE - 1) // BROWSE_PAGE_SIZE)
+        page_index = min(page_index, max_page - 1)
+        start_at = page_index * BROWSE_PAGE_SIZE
+        page = rows[start_at:start_at + BROWSE_PAGE_SIZE]
+        clear(); print(tr(lang, "update_logs")); print("-" * 72)
+        if filter_text:
+            print(f"{tr(lang, 'filter_active')}: {filter_text}\n")
+        for i, name in enumerate(page, start_at + 1):
+            print(f"{i}. {name}")
+        print(f"\n{tr(lang, 'page')} {page_index + 1}/{max_page} • {tr(lang, 'showing')} {len(page)} {tr(lang, 'of')} {len(rows)}")
+        print(tr(lang, "browse_prompt"))
+        try:
+            choice = input("\n> ").strip()
+        except EOFError:
+            return
+        if not choice:
+            return
+        low = choice.casefold()
+        if low == "n" and page_index + 1 < max_page:
+            page_index += 1
+        elif low == "p" and page_index > 0:
+            page_index -= 1
+        elif low == "c":
+            filter_text = ""; page_index = 0
+        elif choice.startswith("/"):
+            filter_text = choice[1:].strip(); page_index = 0
+        elif choice.isdigit() and 1 <= int(choice) <= len(rows):
+            file_path = os.path.join(UPDATES_DIR, rows[int(choice) - 1])
+            clear()
+            with open(file_path, "r", encoding="utf-8") as fh:
+                print(fh.read())
+            pause(lang)
 
 
 def find_free_port():
@@ -1362,6 +1617,10 @@ EMERGENCY_CHOICES = {
         ("Landslide or destructive weather", "landslide debris flow hail whiteout wind"),
         ("Unsafe water or infant feeding disruption", "water advisory infant formula feeding"),
         ("Cash, documents, phone, or cyber outage", "cash documents phone ransomware recovery"),
+        ("Night evacuation or dark route", "night evacuation without street lighting"),
+        ("Smoke in apartment stairs", "apartment stairwell smoke decision"),
+        ("Sewer backup or contaminated drain", "sewer backup stop rules"),
+        ("Rumours, welfare checks, or shared shelter conflict", "rumor control elderly welfare shelter quiet conflict"),
     ],
     "el": [
         ("Άμεσος κίνδυνος ή σοβαρή αδιαθεσία", "πρώτα 30 λεπτά 112"),
@@ -1381,6 +1640,10 @@ EMERGENCY_CHOICES = {
         ("Κατολίσθηση ή καταστροφικός καιρός", "κατολίσθηση φερτά υλικά χαλάζι χιονοθύελλα άνεμος"),
         ("Μη ασφαλές νερό ή διακοπή βρεφικής σίτισης", "οδηγία νερού βρεφικό γάλα σίτιση"),
         ("Μετρητά, έγγραφα, τηλέφωνο ή ψηφιακή διακοπή", "μετρητά έγγραφα τηλέφωνο επίθεση λύτρα ανάκτηση"),
+        ("Νυχτερινή εκκένωση ή σκοτεινή διαδρομή", "νυχτερινή εκκένωση χωρίς φωτισμό"),
+        ("Καπνός σε σκάλες πολυκατοικίας", "καπνός κλιμακοστάσιο πολυκατοικία"),
+        ("Επιστροφή λυμάτων ή μολυσμένη αποχέτευση", "λύματα αποχέτευση επιστροφή"),
+        ("Φήμες, έλεγχοι ευημερίας ή σύγκρουση σε καταφύγιο", "φήμες ηλικιωμένοι ευημερία ησυχία καταφύγιο"),
     ],
 }
 
@@ -1401,17 +1664,9 @@ def emergency_helper(lang):
             return
         if choice.isdigit() and 1 <= int(choice) <= len(rows):
             query = rows[int(choice)-1][1]
-            results = STORE.search(query, lang, 120)
-            # Broad fallback: OR-like search if strict token matching is too narrow.
-            if not results:
-                terms = query.split()
-                merged, seen = [], set()
-                for term in terms:
-                    for e in STORE.search(term, lang, 60):
-                        if e["id"] not in seen:
-                            seen.add(e["id"]); merged.append(e)
-                results = merged[:120]
-            pick_from_entries(results, lang)
+            results, mode = STORE.search_with_mode(query, lang, 120)
+            notice = tr(lang, "relaxed_results") if mode == "relaxed" else ""
+            pick_from_entries(results, lang, notice=notice)
 
 
 def show_recent(lang):
@@ -1445,8 +1700,10 @@ def scenario_pack_menu(lang):
         "greece": ("Greece, islands, villages and coast", "Ελλάδα, νησιά, χωριά και ακτές"),
         "structural": ("Collapse, entrapment and missing people", "Κατάρρευση, παγίδευση και αγνοούμενοι"),
         "continuity": ("Financial and digital continuity", "Οικονομική και ψηφιακή συνέχεια"),
+        "shelter": ("Shelter operations", "Λειτουργίες καταφυγίου"),
+        "animal": ("Animals and pets", "Ζώα και κατοικίδια"),
     }
-    preferred = ["first30","earthquake","wildfire","flood","storm","outage","utilities","water","food","medicine","accessibility","travel","recovery","coordination","structural","continuity","greece"]
+    preferred = ["first30","earthquake","wildfire","flood","storm","outage","utilities","water","food","medicine","accessibility","shelter","travel","recovery","coordination","structural","continuity","animal","greece"]
     keys = [k for k in preferred if k in packs] + sorted(k for k in packs if k not in preferred)
     while True:
         clear(); print(tr(lang, "scenario_packs")); print("-" * 72)
@@ -1471,6 +1728,30 @@ def main():
                 explicit_language = True
         except (ValueError, IndexError):
             pass
+    if "--version" in sys.argv:
+        print(f"Offline Survival {APP_VERSION} ({RELEASE_NAME})")
+        return
+    if "--entry" in sys.argv:
+        try:
+            entry_id = sys.argv[sys.argv.index("--entry") + 1]
+        except (ValueError, IndexError):
+            print("Missing ID after --entry", file=sys.stderr); raise SystemExit(2)
+        entry = STORE.by_id.get(entry_id)
+        if not entry:
+            print(f"Entry not found: {entry_id}", file=sys.stderr); raise SystemExit(1)
+        print(format_entry_text(entry, lang)); return
+    if "--search" in sys.argv:
+        try:
+            query = sys.argv[sys.argv.index("--search") + 1]
+        except (ValueError, IndexError):
+            print("Missing query after --search", file=sys.stderr); raise SystemExit(2)
+        rows, mode = STORE.search_with_mode(query, lang, 50)
+        print(f"{tr(lang, 'search_mode_relaxed' if mode == 'relaxed' else 'search_mode_exact')}: {query}")
+        for number, entry in enumerate(rows, 1):
+            print(f"{number}. {display_topic(entry, lang)} [{display_category(entry, lang)}] ({entry['id']})")
+        if not rows:
+            print(tr(lang, "no_entries"))
+        return
     if "--audit" in sys.argv:
         report = STORE.integrity_report()
         print(json.dumps({k: len(v) for k, v in report.items()}, ensure_ascii=False, indent=2))
@@ -1493,7 +1774,9 @@ def main():
             emergency_helper(lang)
         elif choice == "2":
             query = input(f"{tr(lang, 'query')}: ").strip()
-            pick_from_entries(STORE.search(query, lang), lang)
+            rows, mode = STORE.search_with_mode(query, lang)
+            notice = tr(lang, "relaxed_results") if mode == "relaxed" else ""
+            pick_from_entries(rows, lang, notice=notice)
         elif choice == "3":
             scenario_pack_menu(lang)
         elif choice == "4":

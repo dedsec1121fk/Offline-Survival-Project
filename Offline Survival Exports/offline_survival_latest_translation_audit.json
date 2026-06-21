@@ -1,8 +1,7 @@
 {
-  "release": "Pass 100",
-  "entries_checked": 1712,
-  "required_pairs_complete": true,
-  "greek_ascii_leaks": 0,
-  "unequal_or_missing_pairs": 0,
-  "result": "passed"
+  "pass": "103",
+  "missing_pairs": 0,
+  "ascii_leaks_in_greek_fields": 0,
+  "duplicate_topics_el": 0,
+  "status": "PASS"
 }

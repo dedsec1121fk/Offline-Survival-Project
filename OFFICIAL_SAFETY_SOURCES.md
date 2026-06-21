@@ -361,3 +361,8 @@ utility advice overrides the offline cards.
 μεταφορά μετά από δάγκωμα φιδιού, συλλογή πληροφοριών δηλητηρίασης και σταδιακή
 επιστροφή σε κατεστραμμένη ή μολυσμένη κατοικία. Οι οδηγίες κτηνιάτρου, Κέντρου
 Δηλητηριάσεων, υπηρεσιών έκτακτης ανάγκης και ειδικευμένων τεχνικών υπερισχύουν.
+
+
+## Pass 103 source note
+
+Pass 103 continued using official emergency, public-health, civil-protection, and humanitarian preparedness sources for new daily-operation cards. New cards reference source families including Greek Civil Protection/112, Ready.gov planning and outage guidance, CDC emergency water, food, heat, flood, and cleanup guidance, and Red Cross preparedness planning. Source links are reference anchors and do not mean the wording is copied from those pages.

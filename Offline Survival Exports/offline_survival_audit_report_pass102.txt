@@ -1,0 +1,27 @@
+OFFLINE SURVIVAL — PASS 102 AUDIT REPORT
+Date: 2026-06-20
+
+Entries: 1712
+Files: 74
+Categories: 144
+Fields per record: 48
+
+duplicate_ids: 0
+duplicate_topics: 0
+duplicate_topics_el: 0
+duplicate_blocks: 0
+repeated_core_text: 0
+missing_pairs: 0
+ascii_leaks: 0
+legacy_template_flags: 0
+semantic_mismatches: 0
+shallow_entries: 0
+sources_missing: 0
+placeholder_topics: 0
+schema_mismatches: 0
+invalid_sources: 0
+oversized_files: 0
+index_mismatch: 0
+load_errors: 0
+
+Result: PASS
