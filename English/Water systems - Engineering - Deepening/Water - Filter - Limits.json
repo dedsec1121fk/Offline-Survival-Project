@@ -1,0 +1,67 @@
+[
+  {
+    "id": "pass93-0016",
+    "language": "English",
+    "title": "Slow sand filter operation and limits log",
+    "category": "Water systems · Engineering · Deepening",
+    "subcategory": "Water · Filter · Limits",
+    "summary": "Records operation of slow sand filtration while clearly stating what it cannot solve.",
+    "content": "Slow sand filter operation and limits log is a practical offline routine for water filter limits. Use only for sources not suspected of chemicals, fuel, heavy metals, sewage surge, or industrial contamination. Label source, date, flow rate, turbidity, smell, maintenance, and post-treatment method. Keep dirty inlet tools separate from clean outlet containers. Do not call filtered water safe until suitable disinfection or official guidance is satisfied. Stop use if flow changes suddenly, cracks appear, odor appears, or illness is linked to the water. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "bilingual",
+      "filter",
+      "limits",
+      "offline",
+      "pass93",
+      "water",
+      "weak_area_deepening"
+    ],
+    "materials": [
+      "Filter log",
+      "Source labels",
+      "Flow cup",
+      "Maintenance schedule"
+    ],
+    "steps": [
+      "Use only for sources not suspected of chemicals, fuel, heavy metals, sewage surge, or industrial contamination.",
+      "Label source, date, flow rate, turbidity, smell, maintenance, and post-treatment method.",
+      "Keep dirty inlet tools separate from clean outlet containers.",
+      "Do not call filtered water safe until suitable disinfection or official guidance is satisfied.",
+      "Stop use if flow changes suddenly, cracks appear, odor appears, or illness is linked to the water."
+    ],
+    "warnings": [
+      "Use Slow sand filter operation and limits log as practical support, not as a replacement for official guidance, trained help, or evacuation when needed.",
+      "Filtering alone does not make chemically contaminated, fuel-contaminated, sewage-contaminated, or floodwater safe. Treat this as a specific boundary while managing “Slow sand filter operation and limits log”."
+    ],
+    "common_mistakes": [
+      "Starting from memory instead of written notes while carrying out “Slow sand filter operation and limits log”",
+      "Letting one tired person control the whole process while carrying out “Slow sand filter operation and limits log”",
+      "Ignoring the review time while carrying out “Slow sand filter operation and limits log”"
+    ],
+    "alternatives": [
+      "Use a wall board when many people are involved as a fallback for “Slow sand filter operation and limits log”",
+      "Use pocket cards when movement is required as a fallback for “Slow sand filter operation and limits log”"
+    ],
+    "failure_signs": [
+      "People disagree about the facts, the plan is not being followed, or the situation worsens after the first review during “Slow sand filter operation and limits log”"
+    ],
+    "when_not_to_use": [
+      "Do not use Slow sand filter operation and limits log to delay emergency care, evacuation, fire response, or official instructions."
+    ],
+    "short_term": "Write the first safe action, responsible person, materials, and next review time. This note applies specifically to Slow sand filter operation and limits log.",
+    "long_term": "Convert the routine into a repeatable checklist with handover notes and backups. This note applies specifically to Slow sand filter operation and limits log.",
+    "if_method_fails": "Reduce complexity, stop unsafe work, and switch to the safest available fallback. This note applies specifically to Slow sand filter operation and limits log.",
+    "environment_notes": "Adapt the routine to heat, cold, crowding, darkness, limited water, and local hazards. This note applies specifically to Slow sand filter operation and limits log.",
+    "related_topics": [
+      "household_water_priority_board"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

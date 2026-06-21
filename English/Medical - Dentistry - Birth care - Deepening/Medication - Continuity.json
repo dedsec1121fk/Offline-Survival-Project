@@ -1,0 +1,67 @@
+[
+  {
+    "id": "pass93-0006",
+    "language": "English",
+    "title": "Medication shortage substitution decision log",
+    "category": "Medical · Dentistry · Birth care · Deepening",
+    "subcategory": "Medication · Continuity",
+    "summary": "Documents medicine shortages safely without guessing substitutions or sharing medicines.",
+    "content": "Medication shortage substitution decision log is a practical offline routine for medication continuity. List each medicine from its original label with person, remaining quantity, and prescriber if known. Mark medicines that the person was warned not to stop suddenly. Contact a pharmacist, doctor, clinic, or emergency line before changing dose or substitution. Count remaining days and warn before the last doses instead of waiting until empty. Store medicines by person and label, away from heat, moisture, children, and mixed containers. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "bilingual",
+      "medical",
+      "medicine",
+      "offline",
+      "pass93",
+      "pharmacy",
+      "weak_area_deepening"
+    ],
+    "materials": [
+      "Original medicine boxes",
+      "Prescription copies. Context: “Medication shortage substitution decision log”.",
+      "Pharmacy contacts",
+      "Notebook. Context: “Medication shortage substitution decision log”."
+    ],
+    "steps": [
+      "List each medicine from its original label with person, remaining quantity, and prescriber if known.",
+      "Mark medicines that the person was warned not to stop suddenly.",
+      "Contact a pharmacist, doctor, clinic, or emergency line before changing dose or substitution.",
+      "Count remaining days and warn before the last doses instead of waiting until empty.",
+      "Store medicines by person and label, away from heat, moisture, children, and mixed containers."
+    ],
+    "warnings": [
+      "Use Medication shortage substitution decision log as practical support, not as a replacement for official guidance, trained help, or evacuation when needed.",
+      "This is not diagnosis; red flags need professional or emergency help. Treat this as a specific boundary while managing “Medication shortage substitution decision log”."
+    ],
+    "common_mistakes": [
+      "Starting from memory instead of written notes while carrying out “Medication shortage substitution decision log”",
+      "Letting one tired person control the whole process while carrying out “Medication shortage substitution decision log”",
+      "Ignoring the review time while carrying out “Medication shortage substitution decision log”"
+    ],
+    "alternatives": [
+      "Use a wall board when many people are involved as a fallback for “Medication shortage substitution decision log”",
+      "Use pocket cards when movement is required as a fallback for “Medication shortage substitution decision log”"
+    ],
+    "failure_signs": [
+      "People disagree about the facts, the plan is not being followed, or the situation worsens after the first review during “Medication shortage substitution decision log”"
+    ],
+    "when_not_to_use": [
+      "Do not use Medication shortage substitution decision log to delay emergency care, evacuation, fire response, or official instructions."
+    ],
+    "short_term": "Write the first safe action, responsible person, materials, and next review time.",
+    "long_term": "Convert the routine into a repeatable checklist with handover notes and backups.",
+    "if_method_fails": "Reduce complexity, stop unsafe work, and switch to the safest available fallback.",
+    "environment_notes": "Adapt the routine to heat, cold, crowding, darkness, limited water, and local hazards.",
+    "related_topics": [
+      "medication_continuity_bag"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

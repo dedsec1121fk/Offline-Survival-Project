@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pass97-0015-flood-food-discard",
+    "language": "English",
+    "title": "Floodwater food discard station",
+    "category": "Flood · Scenario pack",
+    "subcategory": "Flood · Food · Field · Card",
+    "summary": "Separate food exposed to floodwater from usable stocks so uncertainty does not re-enter the kitchen.",
+    "content": "Separate food exposed to floodwater from usable stocks so uncertainty does not re-enter the kitchen.\n\nField sequence: Mark and isolate exposed food, porous packaging, damaged seals, and items with uncertain storage history; follow official food-safety instructions rather than tasting. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Floodwater food discard station”. Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “Floodwater food discard station”. Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “Floodwater food discard station”. Label portions with contents, preparation time, priority users, and discard or review time for “Floodwater food discard station”. Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Floodwater food discard station”. Safety limits: Official instructions and emergency services override “Floodwater food discard station”; do not delay evacuation or urgent help to complete the card. Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “Floodwater food discard station”. Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “Floodwater food discard station”. Reduced fallback: If “dated food labels for “Floodwater food discard station”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:flood",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "food",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "dated food labels for “Floodwater food discard station”",
+      "clean utensils for “Floodwater food discard station”",
+      "covered food-grade containers for “Floodwater food discard station”",
+      "temperature or outage log when relevant for “Floodwater food discard station”",
+      "separate discard container for “Floodwater food discard station”"
+    ],
+    "steps": [
+      "Mark and isolate exposed food, porous packaging, damaged seals, and items with uncertain storage history; follow official food-safety instructions rather than tasting.",
+      "Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Floodwater food discard station”.",
+      "Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “Floodwater food discard station”.",
+      "Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “Floodwater food discard station”.",
+      "Label portions with contents, preparation time, priority users, and discard or review time for “Floodwater food discard station”.",
+      "Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Floodwater food discard station”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Floodwater food discard station”; do not delay evacuation or urgent help to complete the card.",
+      "Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “Floodwater food discard station”.",
+      "Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “Floodwater food discard station”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Floodwater food discard station” unreliable: Mark and isolate exposed food, porous packaging, damaged seals, and items with uncertain storage history; follow official food-safety instructions rather than tasting.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Floodwater food discard station”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Floodwater food discard station”."
+    ],
+    "alternatives": [
+      "If “dated food labels for “Floodwater food discard station”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Floodwater food discard station”, complete the first two verified actions—Mark and isolate exposed food, porous packaging, damaged seals, and items with uncertain storage history; follow official food-safety instructions rather than tasting. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Floodwater food discard station”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Floodwater food discard station” when temperature history, seal integrity, source, or contamination status cannot be established.",
+      "Stop and reassess “Floodwater food discard station” when users develop vomiting, diarrhoea, severe abdominal symptoms, allergic reaction, or unusual clustering of illness."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Floodwater food discard station” while the source may contain sewage, fuel, pesticides, salt, floodwater, radioactive material, or another hazard that the chosen treatment cannot remove.",
+      "This card is not authorization to declare unknown water safe, mix treatment chemicals, or use a container that previously held toxic products. Topic-specific stop check for “Floodwater food discard station”: also follow this warning: “Official instructions and emergency services override “Floodwater food discard station”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Floodwater food discard station”, carry out mark and isolate exposed food, porous packaging, damaged seals, and items with uncertain storage history; follow official food-safety instructions rather than tasting. Follow with check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Floodwater food discard station”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Floodwater food discard station” when temperature history, seal integrity, source, or contamination status cannot be established.",
+    "long_term": "For repeated use of “Floodwater food discard station”, keep “clean utensils for “Floodwater food discard station”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Floodwater food discard station” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Separate collection, treatment, drinking, washing, and wastewater containers; follow local boil-water or do-not-use notices exactly. For “Floodwater food discard station”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Flooded-road turn-around rule",
+      "Flooded-basement no-entry boundary",
+      "Flooded-well hold and testing plan"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/plimmyres"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

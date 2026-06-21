@@ -1,0 +1,331 @@
+[
+  {
+    "id": "pass98-0011",
+    "language": "English",
+    "title": "Refrigerated medicine outage decision record",
+    "category": "Medicine · Practical pack",
+    "subcategory": "Field · Card",
+    "summary": "Preserve time and temperature information and obtain product-specific advice instead of guessing whether a refrigerated medicine remains usable.",
+    "content": "Preserve time and temperature information and obtain product-specific advice instead of guessing whether a refrigerated medicine remains usable.\n\nAction sequence: Keep the refrigerator closed and record the outage start time. Copy the medicine name, strength, form, storage range, batch, expiry, and whether it froze or was exposed to heat. Contact the pharmacist, prescriber, manufacturer, or emergency service for product-specific instructions. Separate questionable stock, label its exposure history, and replace it as soon as advised. Safety boundary: Do not discard a life-sustaining medicine or change its use without product-specific professional advice when help is reachable. Do not place medicine directly on ice or freeze it unless its official instructions explicitly allow that.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:medicine",
+      "pass98",
+      "practical",
+      "bilingual",
+      "offline",
+      "greece"
+    ],
+    "materials": [
+      "medicine label and leaflet",
+      "thermometer when available",
+      "pharmacy and prescriber contacts"
+    ],
+    "steps": [
+      "Keep the refrigerator closed and record the outage start time.",
+      "Copy the medicine name, strength, form, storage range, batch, expiry, and whether it froze or was exposed to heat.",
+      "Contact the pharmacist, prescriber, manufacturer, or emergency service for product-specific instructions.",
+      "Separate questionable stock, label its exposure history, and replace it as soon as advised."
+    ],
+    "warnings": [
+      "Do not discard a life-sustaining medicine or change its use without product-specific professional advice when help is reachable.",
+      "Do not place medicine directly on ice or freeze it unless its official instructions explicitly allow that."
+    ],
+    "common_mistakes": [
+      "Starting “Refrigerated medicine outage decision record” without the listed materials or first safety check.",
+      "Continuing after this warning appears: Do not discard a life-sustaining medicine or change its use without product-specific professional advice when help is reachable.",
+      "Leaving the final decision, time, or responsible person undocumented. Topic-specific verification for “Refrigerated medicine outage decision record”: before closing the card, confirm completion of “Separate questionable stock, label its exposure history, and replace it as soon as advised.”."
+    ],
+    "alternatives": [
+      "If “medicine label and leaflet” is unavailable, use a clean, clearly labelled substitute only when it serves the same safety function.",
+      "When the full card cannot be completed, perform the first safe action, record the limitation, and transfer the unresolved part to 112, the competent authority, or a qualified professional. The safest reduced starting action for “Refrigerated medicine outage decision record” is: “Keep the refrigerator closed and record the outage start time.”."
+    ],
+    "failure_signs": [
+      "The plan for “Refrigerated medicine outage decision record” no longer matches the real location, people, hazard, or official instruction.",
+      "A required person, route, supply, communication method, or safety boundary cannot be verified. For “Refrigerated medicine outage decision record”, reassess immediately against this warning: “Do not place medicine directly on ice or freeze it unless its official instructions explicitly allow that.”."
+    ],
+    "when_not_to_use": [
+      "Do not use “Refrigerated medicine outage decision record” as a substitute for 112, evacuation orders, poison-centre advice, medical care, or qualified utility and structural assessment.",
+      "Do not continue when the scene exposes people to fire, smoke, floodwater, live electricity, gas, violence, unstable structures, or another uncontrolled hazard. Topic-specific stop check for “Refrigerated medicine outage decision record”: also follow this warning: “Do not discard a life-sustaining medicine or change its use without product-specific professional advice when help is reachable.”."
+    ],
+    "short_term": "Use “Refrigerated medicine outage decision record” for the current operational period, then reassess after every alert, route change, symptom, utility change, loss of contact, or new hazard.",
+    "long_term": "Practise “Refrigerated medicine outage decision record” at least seasonally, replace expired supplies, update contacts and access needs, and keep one offline paper version with a second trained person.",
+    "if_method_fails": "If “Refrigerated medicine outage decision record” fails, stop depending on the failed route or resource, protect people from the immediate consequence, communicate the exact gap, and move to the safest verified fallback or qualified service.",
+    "environment_notes": "Adapt “Refrigerated medicine outage decision record” to Greek Civil Protection and 112 information, municipality instructions, season, terrain, building type, island or rural access, language, disability, children, older adults, animals, and available transport.",
+    "related_topics": [
+      "Seven-day medicine continuity sheet",
+      "Poisoning call preparation in Greece",
+      "Emergency pharmacy handover note"
+    ],
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+      "https://www.cdc.gov/diabetes/articles/managing-insulin-in-emergency.html"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass98-0012",
+    "language": "English",
+    "title": "Seven-day medicine continuity sheet",
+    "category": "Medicine · Practical pack",
+    "subcategory": "Field · Card",
+    "summary": "Create a portable, private record that lets a pharmacy or clinician quickly understand regular medicines and critical supply gaps.",
+    "content": "Create a portable, private record that lets a pharmacy or clinician quickly understand regular medicines and critical supply gaps.\n\nAction sequence: List generic and brand name, strength, form, usual schedule, reason, prescriber, pharmacy, allergies, and last dose. Mark medicines that must not be stopped suddenly and those requiring refrigeration, monitoring, or special devices. Count the usable supply and write the date each item will run out at the usual schedule. Keep one protected paper copy with the person and one copy with a trusted contact. Safety boundary: Do not share the full list publicly or with people who do not need it. Do not ration, split, substitute, or change doses without qualified advice.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:medicine",
+      "pass98",
+      "practical",
+      "bilingual",
+      "offline",
+      "greece"
+    ],
+    "materials": [
+      "medicine list. Context: “Seven-day medicine continuity sheet”.",
+      "prescription copies. Context: “Seven-day medicine continuity sheet”.",
+      "small waterproof envelope"
+    ],
+    "steps": [
+      "List generic and brand name, strength, form, usual schedule, reason, prescriber, pharmacy, allergies, and last dose.",
+      "Mark medicines that must not be stopped suddenly and those requiring refrigeration, monitoring, or special devices.",
+      "Count the usable supply and write the date each item will run out at the usual schedule.",
+      "Keep one protected paper copy with the person and one copy with a trusted contact."
+    ],
+    "warnings": [
+      "Do not share the full list publicly or with people who do not need it.",
+      "Do not ration, split, substitute, or change doses without qualified advice."
+    ],
+    "common_mistakes": [
+      "Starting “Seven-day medicine continuity sheet” without the listed materials or first safety check.",
+      "Continuing after this warning appears: Do not share the full list publicly or with people who do not need it.",
+      "Leaving the final decision, time, or responsible person undocumented. Topic-specific verification for “Seven-day medicine continuity sheet”: before closing the card, confirm completion of “Keep one protected paper copy with the person and one copy with a trusted contact.”."
+    ],
+    "alternatives": [
+      "If “medicine list” is unavailable, use a clean, clearly labelled substitute only when it serves the same safety function.",
+      "When the full card cannot be completed, perform the first safe action, record the limitation, and transfer the unresolved part to 112, the competent authority, or a qualified professional. The safest reduced starting action for “Seven-day medicine continuity sheet” is: “List generic and brand name, strength, form, usual schedule, reason, prescriber, pharmacy, allergies, and last dose.”."
+    ],
+    "failure_signs": [
+      "The plan for “Seven-day medicine continuity sheet” no longer matches the real location, people, hazard, or official instruction.",
+      "A required person, route, supply, communication method, or safety boundary cannot be verified. For “Seven-day medicine continuity sheet”, reassess immediately against this warning: “Do not ration, split, substitute, or change doses without qualified advice.”."
+    ],
+    "when_not_to_use": [
+      "Do not use “Seven-day medicine continuity sheet” as a substitute for 112, evacuation orders, poison-centre advice, medical care, or qualified utility and structural assessment.",
+      "Do not continue when the scene exposes people to fire, smoke, floodwater, live electricity, gas, violence, unstable structures, or another uncontrolled hazard. Topic-specific stop check for “Seven-day medicine continuity sheet”: also follow this warning: “Do not share the full list publicly or with people who do not need it.”."
+    ],
+    "short_term": "Use “Seven-day medicine continuity sheet” for the current operational period, then reassess after every alert, route change, symptom, utility change, loss of contact, or new hazard.",
+    "long_term": "Practise “Seven-day medicine continuity sheet” at least seasonally, replace expired supplies, update contacts and access needs, and keep one offline paper version with a second trained person.",
+    "if_method_fails": "If “Seven-day medicine continuity sheet” fails, stop depending on the failed route or resource, protect people from the immediate consequence, communicate the exact gap, and move to the safest verified fallback or qualified service.",
+    "environment_notes": "Adapt “Seven-day medicine continuity sheet” to Greek Civil Protection and 112 information, municipality instructions, season, terrain, building type, island or rural access, language, disability, children, older adults, animals, and available transport.",
+    "related_topics": [
+      "Refrigerated medicine outage decision record",
+      "Poisoning call preparation in Greece",
+      "Emergency pharmacy handover note"
+    ],
+    "sources": [
+      "https://www.ready.gov/plan",
+      "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass98-0013",
+    "language": "English",
+    "title": "Poisoning call preparation in Greece",
+    "category": "Medicine · Practical pack",
+    "subcategory": "Field · Card",
+    "summary": "Collect the container, exposure details, symptoms, and person information while immediately contacting the Greek Poison Centre or 112 as appropriate.",
+    "content": "Collect the container, exposure details, symptoms, and person information while immediately contacting the Greek Poison Centre or 112 as appropriate.\n\nAction sequence: For collapse, breathing trouble, seizure, severe burns, or immediate danger call 112. Otherwise call the Greek Poison Centre at 210 7793777 and follow its instructions. State age, approximate weight, substance, amount, route, time, symptoms, first actions already taken, and exact location. Keep the product and packaging available and note every instruction and time. Safety boundary: Do not induce vomiting or give food, drink, medicine, or a home remedy unless the Poison Centre or emergency professional instructs it. Do not enter a contaminated area or touch the substance without appropriate protection.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:medicine",
+      "pass98",
+      "practical",
+      "bilingual",
+      "offline",
+      "greece"
+    ],
+    "materials": [
+      "product container or photo",
+      "paper and pen. Context: “Poisoning call preparation in Greece”.",
+      "phone. Context: “Poisoning call preparation in Greece”."
+    ],
+    "steps": [
+      "For collapse, breathing trouble, seizure, severe burns, or immediate danger call 112.",
+      "Otherwise call the Greek Poison Centre at 210 7793777 and follow its instructions.",
+      "State age, approximate weight, substance, amount, route, time, symptoms, first actions already taken, and exact location.",
+      "Keep the product and packaging available and note every instruction and time."
+    ],
+    "warnings": [
+      "Do not induce vomiting or give food, drink, medicine, or a home remedy unless the Poison Centre or emergency professional instructs it.",
+      "Do not enter a contaminated area or touch the substance without appropriate protection."
+    ],
+    "common_mistakes": [
+      "Starting “Poisoning call preparation in Greece” without the listed materials or first safety check.",
+      "Continuing after this warning appears: Do not induce vomiting or give food, drink, medicine, or a home remedy unless the Poison Centre or emergency professional instructs it.",
+      "Leaving the final decision, time, or responsible person undocumented. Topic-specific verification for “Poisoning call preparation in Greece”: before closing the card, confirm completion of “Keep the product and packaging available and note every instruction and time.”."
+    ],
+    "alternatives": [
+      "If “product container or photo” is unavailable, use a clean, clearly labelled substitute only when it serves the same safety function.",
+      "When the full card cannot be completed, perform the first safe action, record the limitation, and transfer the unresolved part to 112, the competent authority, or a qualified professional. The safest reduced starting action for “Poisoning call preparation in Greece” is: “For collapse, breathing trouble, seizure, severe burns, or immediate danger call 112.”."
+    ],
+    "failure_signs": [
+      "The plan for “Poisoning call preparation in Greece” no longer matches the real location, people, hazard, or official instruction.",
+      "A required person, route, supply, communication method, or safety boundary cannot be verified. For “Poisoning call preparation in Greece”, reassess immediately against this warning: “Do not enter a contaminated area or touch the substance without appropriate protection.”."
+    ],
+    "when_not_to_use": [
+      "Do not use “Poisoning call preparation in Greece” as a substitute for 112, evacuation orders, poison-centre advice, medical care, or qualified utility and structural assessment.",
+      "Do not continue when the scene exposes people to fire, smoke, floodwater, live electricity, gas, violence, unstable structures, or another uncontrolled hazard. Topic-specific stop check for “Poisoning call preparation in Greece”: also follow this warning: “Do not induce vomiting or give food, drink, medicine, or a home remedy unless the Poison Centre or emergency professional instructs it.”."
+    ],
+    "short_term": "Use “Poisoning call preparation in Greece” for the current operational period, then reassess after every alert, route change, symptom, utility change, loss of contact, or new hazard.",
+    "long_term": "Practise “Poisoning call preparation in Greece” at least seasonally, replace expired supplies, update contacts and access needs, and keep one offline paper version with a second trained person.",
+    "if_method_fails": "If “Poisoning call preparation in Greece” fails, stop depending on the failed route or resource, protect people from the immediate consequence, communicate the exact gap, and move to the safest verified fallback or qualified service.",
+    "environment_notes": "Adapt “Poisoning call preparation in Greece” to Greek Civil Protection and 112 information, municipality instructions, season, terrain, building type, island or rural access, language, disability, children, older adults, animals, and available transport.",
+    "related_topics": [
+      "Refrigerated medicine outage decision record",
+      "Seven-day medicine continuity sheet",
+      "Emergency pharmacy handover note"
+    ],
+    "sources": [
+      "https://www.moh.gov.gr/articles/citizen/xrhsima-thlefwna-amp-dieythynseis/203-210-7793777-kentro-dhlhthriasewn",
+      "https://civilprotection.gov.gr/en/112"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass98-0014",
+    "language": "English",
+    "title": "Emergency pharmacy handover note",
+    "category": "Medicine · Practical pack",
+    "subcategory": "Field · Card",
+    "summary": "Give a pharmacist a concise verified record so urgent continuity questions can be solved without relying on memory.",
+    "content": "Give a pharmacist a concise verified record so urgent continuity questions can be solved without relying on memory.\n\nAction sequence: Separate confirmed information from what the person only remembers approximately. Present current medicines, allergies, last doses, remaining supply, storage exposure, and the exact reason continuity is at risk. Ask the pharmacist to write product-specific instructions, substitutions authorized by the prescriber, and the next review point. Update the household medicine sheet immediately after the handover. Safety boundary: Do not ask an unqualified person to identify loose tablets by appearance. Do not combine old and replacement instructions without confirming which plan is current.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:medicine",
+      "pass98",
+      "practical",
+      "bilingual",
+      "offline",
+      "greece"
+    ],
+    "materials": [
+      "identification and health number where applicable",
+      "medicine packages",
+      "prescription or clinician details"
+    ],
+    "steps": [
+      "Separate confirmed information from what the person only remembers approximately.",
+      "Present current medicines, allergies, last doses, remaining supply, storage exposure, and the exact reason continuity is at risk.",
+      "Ask the pharmacist to write product-specific instructions, substitutions authorized by the prescriber, and the next review point.",
+      "Update the household medicine sheet immediately after the handover."
+    ],
+    "warnings": [
+      "Do not ask an unqualified person to identify loose tablets by appearance.",
+      "Do not combine old and replacement instructions without confirming which plan is current."
+    ],
+    "common_mistakes": [
+      "Starting “Emergency pharmacy handover note” without the listed materials or first safety check.",
+      "Continuing after this warning appears: Do not ask an unqualified person to identify loose tablets by appearance.",
+      "Leaving the final decision, time, or responsible person undocumented. Topic-specific verification for “Emergency pharmacy handover note”: before closing the card, confirm completion of “Update the household medicine sheet immediately after the handover.”."
+    ],
+    "alternatives": [
+      "If “identification and health number where applicable” is unavailable, use a clean, clearly labelled substitute only when it serves the same safety function.",
+      "When the full card cannot be completed, perform the first safe action, record the limitation, and transfer the unresolved part to 112, the competent authority, or a qualified professional. The safest reduced starting action for “Emergency pharmacy handover note” is: “Separate confirmed information from what the person only remembers approximately.”."
+    ],
+    "failure_signs": [
+      "The plan for “Emergency pharmacy handover note” no longer matches the real location, people, hazard, or official instruction.",
+      "A required person, route, supply, communication method, or safety boundary cannot be verified. For “Emergency pharmacy handover note”, reassess immediately against this warning: “Do not combine old and replacement instructions without confirming which plan is current.”."
+    ],
+    "when_not_to_use": [
+      "Do not use “Emergency pharmacy handover note” as a substitute for 112, evacuation orders, poison-centre advice, medical care, or qualified utility and structural assessment.",
+      "Do not continue when the scene exposes people to fire, smoke, floodwater, live electricity, gas, violence, unstable structures, or another uncontrolled hazard. Topic-specific stop check for “Emergency pharmacy handover note”: also follow this warning: “Do not ask an unqualified person to identify loose tablets by appearance.”."
+    ],
+    "short_term": "Use “Emergency pharmacy handover note” for the current operational period, then reassess after every alert, route change, symptom, utility change, loss of contact, or new hazard.",
+    "long_term": "Practise “Emergency pharmacy handover note” at least seasonally, replace expired supplies, update contacts and access needs, and keep one offline paper version with a second trained person.",
+    "if_method_fails": "If “Emergency pharmacy handover note” fails, stop depending on the failed route or resource, protect people from the immediate consequence, communicate the exact gap, and move to the safest verified fallback or qualified service.",
+    "environment_notes": "Adapt “Emergency pharmacy handover note” to Greek Civil Protection and 112 information, municipality instructions, season, terrain, building type, island or rural access, language, disability, children, older adults, animals, and available transport.",
+    "related_topics": [
+      "Refrigerated medicine outage decision record",
+      "Seven-day medicine continuity sheet",
+      "Poisoning call preparation in Greece"
+    ],
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass98-0015",
+    "language": "English",
+    "title": "Medicine go-bag rotation without missed doses",
+    "category": "Medicine · Practical pack",
+    "subcategory": "Field · Card",
+    "summary": "Rotate emergency medicine stock through normal use with a written handover so the bag stays current without creating double dosing or shortages.",
+    "content": "Rotate emergency medicine stock through normal use with a written handover so the bag stays current without creating double dosing or shortages.\n\nAction sequence: Choose a fixed monthly date and one responsible person for checking expiry, damage, temperature exposure, quantity, devices, and documents. Move the oldest suitable stock into normal use only after the active supply and dosing schedule are confirmed. Replace the emergency quantity before removing the old stock and record package identifiers and new expiry dates. Have a second person compare the final bag with the current medicine list. Safety boundary: Do not store medicines in a hot vehicle, direct sun, damp bathroom, or unlabelled container. Do not create an emergency supply by skipping prescribed doses.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:medicine",
+      "pass98",
+      "practical",
+      "bilingual",
+      "offline",
+      "greece"
+    ],
+    "materials": [
+      "dated medicine pouch",
+      "rotation checklist",
+      "current medicine list"
+    ],
+    "steps": [
+      "Choose a fixed monthly date and one responsible person for checking expiry, damage, temperature exposure, quantity, devices, and documents.",
+      "Move the oldest suitable stock into normal use only after the active supply and dosing schedule are confirmed.",
+      "Replace the emergency quantity before removing the old stock and record package identifiers and new expiry dates.",
+      "Have a second person compare the final bag with the current medicine list."
+    ],
+    "warnings": [
+      "Do not store medicines in a hot vehicle, direct sun, damp bathroom, or unlabelled container.",
+      "Do not create an emergency supply by skipping prescribed doses."
+    ],
+    "common_mistakes": [
+      "Starting “Medicine go-bag rotation without missed doses” without the listed materials or first safety check.",
+      "Continuing after this warning appears: Do not store medicines in a hot vehicle, direct sun, damp bathroom, or unlabelled container.",
+      "Leaving the final decision, time, or responsible person undocumented. Topic-specific verification for “Medicine go-bag rotation without missed doses”: before closing the card, confirm completion of “Have a second person compare the final bag with the current medicine list.”."
+    ],
+    "alternatives": [
+      "If “dated medicine pouch” is unavailable, use a clean, clearly labelled substitute only when it serves the same safety function.",
+      "When the full card cannot be completed, perform the first safe action, record the limitation, and transfer the unresolved part to 112, the competent authority, or a qualified professional. The safest reduced starting action for “Medicine go-bag rotation without missed doses” is: “Choose a fixed monthly date and one responsible person for checking expiry, damage, temperature exposure, quantity, devices, and documents.”."
+    ],
+    "failure_signs": [
+      "The plan for “Medicine go-bag rotation without missed doses” no longer matches the real location, people, hazard, or official instruction.",
+      "A required person, route, supply, communication method, or safety boundary cannot be verified. For “Medicine go-bag rotation without missed doses”, reassess immediately against this warning: “Do not create an emergency supply by skipping prescribed doses.”."
+    ],
+    "when_not_to_use": [
+      "Do not use “Medicine go-bag rotation without missed doses” as a substitute for 112, evacuation orders, poison-centre advice, medical care, or qualified utility and structural assessment.",
+      "Do not continue when the scene exposes people to fire, smoke, floodwater, live electricity, gas, violence, unstable structures, or another uncontrolled hazard. Topic-specific stop check for “Medicine go-bag rotation without missed doses”: also follow this warning: “Do not store medicines in a hot vehicle, direct sun, damp bathroom, or unlabelled container.”."
+    ],
+    "short_term": "Use “Medicine go-bag rotation without missed doses” for the current operational period, then reassess after every alert, route change, symptom, utility change, loss of contact, or new hazard.",
+    "long_term": "Practise “Medicine go-bag rotation without missed doses” at least seasonally, replace expired supplies, update contacts and access needs, and keep one offline paper version with a second trained person.",
+    "if_method_fails": "If “Medicine go-bag rotation without missed doses” fails, stop depending on the failed route or resource, protect people from the immediate consequence, communicate the exact gap, and move to the safest verified fallback or qualified service.",
+    "environment_notes": "Adapt “Medicine go-bag rotation without missed doses” to Greek Civil Protection and 112 information, municipality instructions, season, terrain, building type, island or rural access, language, disability, children, older adults, animals, and available transport.",
+    "related_topics": [
+      "Refrigerated medicine outage decision record",
+      "Seven-day medicine continuity sheet",
+      "Poisoning call preparation in Greece"
+    ],
+    "sources": [
+      "https://www.ready.gov/kit",
+      "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

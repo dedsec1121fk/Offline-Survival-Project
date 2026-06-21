@@ -1,0 +1,75 @@
+[
+  {
+    "id": "core-water-fire-shelter-004",
+    "language": "English",
+    "title": "Local incident and resource log",
+    "category": "Water · Fire · Shelter · Environment · Records",
+    "subcategory": "Records · Coordination",
+    "summary": "A paper log for tracking events, decisions, resources, injuries, repairs, contacts, and unresolved risks.",
+    "content": "Memory becomes unreliable during stress. A simple log protects the group from repeating arguments, forgetting repairs, losing supply counts, and confusing rumor with fact. Use short entries: date, time, observer, fact, action taken, person responsible, and next review. Keep opinion separate from confirmed information. Record injuries and symptoms without guessing diagnoses. Record resource changes honestly. A log is also useful later for insurance, aid requests, medical handover, repairs, and learning what failed.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "tags": [
+      "records",
+      "planning",
+      "resources",
+      "incident log",
+      "coordination",
+      "rumor control"
+    ],
+    "materials": [
+      "Notebook. Context: “Local incident and resource log”.",
+      "Pencil. Context: “Local incident and resource log”.",
+      "Folder or plastic bag",
+      "Simple table layout"
+    ],
+    "steps": [
+      "Start with the date, location, people present, and main problem.",
+      "Write only one event per line.",
+      "Separate confirmed facts from rumors and guesses.",
+      "Assign a next action and review time for unresolved problems.",
+      "Record supply changes immediately after distribution or use.",
+      "Keep the log dry and readable."
+    ],
+    "warnings": [
+      "Do not write private details where strangers can read them.",
+      "Do not let the log become a blame book.",
+      "Do not erase old decisions; mark corrections with time and reason."
+    ],
+    "common_mistakes": [
+      "Relying on memory for medicine, water, and repairs.",
+      "Recording rumors as facts.",
+      "Letting handwriting become unreadable under stress."
+    ],
+    "alternatives": [
+      "Run a smaller version of Local incident and resource log with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Local incident and resource log if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Local incident and resource log and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Local incident and resource log or when the next check happens.",
+      "Supplies connected to Local incident and resource log are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Local incident and resource log”"
+    ],
+    "when_not_to_use": [
+      "Do not use Local incident and resource log as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Local incident and resource log when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Local incident and resource log."
+    ],
+    "short_term": "For the first hours of Local incident and resource log, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Local incident and resource log remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Local incident and resource log fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Local incident and resource log to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Low-power communications schedule",
+      "Neighborhood water point rules",
+      "Medicine continuity sheet"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

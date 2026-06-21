@@ -1,0 +1,76 @@
+[
+  {
+    "id": "pass97-0021-outage-cold-log",
+    "language": "English",
+    "title": "Refrigerator and freezer outage log",
+    "category": "Outage · Scenario pack",
+    "subcategory": "Outage · Food · Field · Card",
+    "summary": "Preserve cold safely by recording outage time and limiting door opening instead of repeatedly checking food.",
+    "content": "Preserve cold safely by recording outage time and limiting door opening instead of repeatedly checking food.\n\nPractical sequence: Write the outage start, keep doors closed, note thermometer readings when available, prioritise vulnerable foods, and use official discard guidance after the safe window. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Refrigerator and freezer outage log”. Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “Refrigerator and freezer outage log”. Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “Refrigerator and freezer outage log”. Label portions with contents, preparation time, priority users, and discard or review time for “Refrigerator and freezer outage log”. Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Refrigerator and freezer outage log”. Safety limits: Official instructions and emergency services override “Refrigerator and freezer outage log”; do not delay evacuation or urgent help to complete the card. Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “Refrigerator and freezer outage log”. Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “Refrigerator and freezer outage log”. Reduced fallback: If “dated food labels for “Refrigerator and freezer outage log”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:outage",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "food",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "dated food labels for “Refrigerator and freezer outage log”",
+      "clean utensils for “Refrigerator and freezer outage log”",
+      "covered food-grade containers for “Refrigerator and freezer outage log”",
+      "temperature or outage log when relevant for “Refrigerator and freezer outage log”",
+      "separate discard container for “Refrigerator and freezer outage log”"
+    ],
+    "steps": [
+      "Write the outage start, keep doors closed, note thermometer readings when available, prioritise vulnerable foods, and use official discard guidance after the safe window.",
+      "Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Refrigerator and freezer outage log”.",
+      "Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “Refrigerator and freezer outage log”.",
+      "Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “Refrigerator and freezer outage log”.",
+      "Label portions with contents, preparation time, priority users, and discard or review time for “Refrigerator and freezer outage log”.",
+      "Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Refrigerator and freezer outage log”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Refrigerator and freezer outage log”; do not delay evacuation or urgent help to complete the card.",
+      "Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “Refrigerator and freezer outage log”.",
+      "Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “Refrigerator and freezer outage log”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Refrigerator and freezer outage log” unreliable: Write the outage start, keep doors closed, note thermometer readings when available, prioritise vulnerable foods, and use official discard guidance after the safe window.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Refrigerator and freezer outage log”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Refrigerator and freezer outage log”."
+    ],
+    "alternatives": [
+      "If “dated food labels for “Refrigerator and freezer outage log”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Refrigerator and freezer outage log”, complete the first two verified actions—Write the outage start, keep doors closed, note thermometer readings when available, prioritise vulnerable foods, and use official discard guidance after the safe window. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Refrigerator and freezer outage log”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Refrigerator and freezer outage log” when temperature history, seal integrity, source, or contamination status cannot be established.",
+      "Stop and reassess “Refrigerator and freezer outage log” when users develop vomiting, diarrhoea, severe abdominal symptoms, allergic reaction, or unusual clustering of illness."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Refrigerator and freezer outage log” while temperature history, allergen status, flood contact, packaging integrity, or the origin of the food cannot be established.",
+      "This card is not authorization to taste questionable food to test it, hide spoilage with cooking, or serve an unknown ingredient to someone with a serious allergy. Topic-specific stop check for “Refrigerator and freezer outage log”: also follow this warning: “Official instructions and emergency services override “Refrigerator and freezer outage log”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Refrigerator and freezer outage log”, carry out write the outage start, keep doors closed, note thermometer readings when available, prioritise vulnerable foods, and use official discard guidance after the safe window. Follow with check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Refrigerator and freezer outage log”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Refrigerator and freezer outage log” when temperature history, seal integrity, source, or contamination status cannot be established.",
+    "long_term": "For repeated use of “Refrigerator and freezer outage log”, keep “clean utensils for “Refrigerator and freezer outage log”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Refrigerator and freezer outage log” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Plan for Greek summer heat, refrigerator outages, limited clean water, shared kitchens, infants, older adults, allergies, and culturally acceptable meals. For “Refrigerator and freezer outage log”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Power-outage critical-load budget",
+      "Generator carbon-monoxide boundary",
+      "Medicine cold-chain outage plan"
+    ],
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/safety/index.html",
+      "https://www.cdc.gov/food-safety/about/index.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

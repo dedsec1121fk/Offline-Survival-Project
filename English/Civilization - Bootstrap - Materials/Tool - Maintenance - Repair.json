@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pass88-0008",
+    "language": "English",
+    "title": "Small tool handle refitting guide",
+    "category": "Civilization · Bootstrap · Materials",
+    "subcategory": "Tool · Maintenance · Repair",
+    "summary": "A guide for refitting loose small-tool handles with attention to grain direction, wedges, labeling, and test use.",
+    "content": "Small tool handle refitting guide helps keep frequently used hand tools serviceable instead of dangerous. Start by cleaning the eye or socket of the tool head and removing rotten fragments, old wedges, and loose debris. Check the new handle for straight grain, cracks, and fit before forcing anything together. Seat the head gradually and align it with the working direction of the tool, not just with what looks centered at a glance. Use wedges or other secure fitting methods carefully and then mark the date of repair on a tool log or tag. Test the tool with gentle motions first and stop immediately if the head shifts, rattles, or bites unevenly.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "medium",
+    "tags": [
+      "tools",
+      "repair",
+      "handle",
+      "maintenance",
+      "offline",
+      "bilingual",
+      "pass88"
+    ],
+    "materials": [
+      "Tool head",
+      "Replacement handle",
+      "Wedges",
+      "Knife or rasp",
+      "Brush. Context: “Small tool handle refitting guide”.",
+      "Repair log"
+    ],
+    "steps": [
+      "Clean the socket or eye of the tool head.",
+      "Check the new handle for straight grain and cracks.",
+      "Fit the handle gradually and align it correctly.",
+      "Secure it with wedges or another reliable method.",
+      "Write the repair date in a tool log.",
+      "Test gently before normal work."
+    ],
+    "warnings": [
+      "A loose head can cause severe injury.",
+      "Do not use cracked handles for striking work.",
+      "Stop if the fit worsens under light testing."
+    ],
+    "common_mistakes": [
+      "Fitting a handle with poor grain direction.",
+      "Skipping cleanup inside the socket.",
+      "Using the tool hard before testing it gently."
+    ],
+    "alternatives": [
+      "Reserve the tool for light duty until a better handle is available.",
+      "Swap parts with a less critical tool if the fit is better.",
+      "Retire the tool if safe repair cannot be achieved."
+    ],
+    "failure_signs": [
+      "The head shifts during light swings.",
+      "The wedge loosens quickly.",
+      "The handle shows fresh cracking near the head."
+    ],
+    "when_not_to_use": [
+      "Do not use for heavy striking when fit remains uncertain.",
+      "Do not use improvised repairs for life-critical rescue work."
+    ],
+    "short_term": "Return a useful hand tool to safer light service.",
+    "long_term": "Keep a local repair culture instead of wasting limited tools.",
+    "if_method_fails": "Disassemble, inspect again, and either re-fit correctly or retire the tool.",
+    "environment_notes": "Dryness, wood quality, and repeated wet-dry cycles affect handle fit.",
+    "related_topics": [
+      "Hand-powered grain grinding station notes",
+      "Clay brick drying rack routine",
+      "Leather patch stitching routine"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

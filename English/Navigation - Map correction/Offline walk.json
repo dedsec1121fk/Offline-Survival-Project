@@ -1,0 +1,68 @@
+[
+  {
+    "id": "pass103-0016-offline-map-correction-walk",
+    "language": "English",
+    "title": "Offline map correction walk",
+    "category": "Navigation · Map correction",
+    "subcategory": "Offline walk",
+    "summary": "A safe daylight walk for correcting offline maps, blocked paths, water points, steep slopes, gates, and hazards before the next evacuation or supply run.",
+    "content": "A safe daylight walk for correcting offline maps, blocked paths, water points, steep slopes, gates, and hazards before the next evacuation or supply run.\n\nUse it when the situation is real but still manageable. Work slowly, keep one written decision log, and prefer the safest reversible action over a dramatic improvisation.\n\nCore sequence: 1) Walk only in daylight with a return time and a second person knowing the route. 2) Mark obstacles, dogs, locked gates, flooded points, shade, water, and places with phone signal. 3) Use simple symbols and update the date so old hazards are not treated as current. 4) Return before tiredness changes judgment; the correction walk is not a rescue mission.\n\nStop point: Do not use offline map correction walk to enter a restricted, contaminated, structurally unsafe, or officially closed area. Main warnings: Do not continue offline map correction walk after the stop signs named in the steps appear. Do not let urgency turn offline map correction walk into a task done alone without a visible check-in.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:travel",
+      "pass103 practical",
+      "offline-map-correction-walk",
+      "pass103",
+      "offline",
+      "bilingual"
+    ],
+    "materials": [
+      "paper map with pencil grid",
+      "small route card for each correction",
+      "visible buddy check time",
+      "water and closed shoes for the walker"
+    ],
+    "steps": [
+      "Walk only in daylight with a return time and a second person knowing the route.",
+      "Mark obstacles, dogs, locked gates, flooded points, shade, water, and places with phone signal.",
+      "Use simple symbols and update the date so old hazards are not treated as current.",
+      "Return before tiredness changes judgment; the correction walk is not a rescue mission."
+    ],
+    "warnings": [
+      "Do not continue offline map correction walk after the stop signs named in the steps appear.",
+      "Do not let urgency turn offline map correction walk into a task done alone without a visible check-in."
+    ],
+    "common_mistakes": [
+      "Leaving offline map correction walk undocumented makes the next person repeat the same risk.",
+      "Ignoring the first small warning during offline map correction walk often creates a larger recovery problem."
+    ],
+    "alternatives": [
+      "If the normal method for offline map correction walk is blocked, do the smallest safe observation and return to a known safe point.",
+      "Ask a second person to read back the decision when stress or darkness affects offline map correction walk."
+    ],
+    "failure_signs": [
+      "There is no named owner for offline map correction walk after the first action.",
+      "The environment changes faster than the group can record the result of offline map correction walk."
+    ],
+    "when_not_to_use": [
+      "Do not use offline map correction walk to enter a restricted, contaminated, structurally unsafe, or officially closed area.",
+      "Do not continue offline map correction walk if it delays urgent medical care or an emergency call."
+    ],
+    "short_term": "Complete one documented cycle of offline map correction walk and confirm that the next person can repeat it safely.",
+    "long_term": "Review offline map correction walk after each real disruption and update the route, storage, contact, or stop rule that failed.",
+    "if_method_fails": "If offline map correction walk fails, retreat to the last safe state, write the reason, and choose a smaller action with a named owner.",
+    "environment_notes": "Adjust offline map correction walk for heat, rain, smoke, darkness, crowds, language barriers, limited mobility, and unreliable power.",
+    "related_topics": [
+      "First five minutes household command reset",
+      "Local incident and resource log",
+      "What is happening now helper"
+    ],
+    "sources": [
+      "https://www.ready.gov/plan",
+      "https://www.ready.gov/kit"
+    ],
+    "last_updated": "2026-06-21"
+  }
+]

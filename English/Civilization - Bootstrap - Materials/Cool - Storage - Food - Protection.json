@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pass88-0006",
+    "language": "English",
+    "title": "Earthen cool storage pit upkeep",
+    "category": "Civilization · Bootstrap · Materials",
+    "subcategory": "Cool · Storage · Food · Protection",
+    "summary": "Guidance for maintaining a low-tech cool storage pit while preventing water damage, rot, and access confusion.",
+    "content": "Earthen cool storage pit upkeep supports longer food life in places without refrigeration, but only when dryness, drainage, and rotation are watched carefully. Choose a site above obvious flood lines and watch how water behaves after rain before relying on the pit. Use raised supports, baskets, shelves, or divided sections so containers do not sit in standing dampness. Keep a written map or list of what is inside, because forgotten stores become rot, pests, or dangerous surprises. Inspect the pit regularly for smell changes, roof weakness, water seepage, insect pressure, and signs that humans are opening it too often during the hottest hours. Use the coolest storage for the items that truly need it and leave breathing space around containers.",
+    "difficulty": "moderate",
+    "urgency": "seasonal",
+    "priority": "medium",
+    "tags": [
+      "storage",
+      "pit",
+      "cooling",
+      "food",
+      "offline",
+      "bilingual",
+      "pass88"
+    ],
+    "materials": [
+      "Shovel",
+      "Raised supports or crates",
+      "Containers. Context: “Earthen cool storage pit upkeep”.",
+      "Notebook map",
+      "Drainage tools",
+      "Cover material. Context: “Earthen cool storage pit upkeep”."
+    ],
+    "steps": [
+      "Check drainage before depending on the pit.",
+      "Raise stored goods above the lowest damp point.",
+      "Keep a written map of contents and dates.",
+      "Inspect for smell, seepage, and pests regularly.",
+      "Rotate older food forward.",
+      "Repair covers and supports before failure spreads."
+    ],
+    "warnings": [
+      "Do not enter unsafe pits with collapse risk or low oxygen concerns.",
+      "Do not store food directly against wet soil.",
+      "Treat any sour, earthy, or hidden decay smell as a sign to inspect the whole pit immediately."
+    ],
+    "common_mistakes": [
+      "Using the lowest point on the land.",
+      "Forgetting what is stored inside.",
+      "Letting one leak continue for weeks."
+    ],
+    "alternatives": [
+      "Use shaded above-ground storage if drainage is poor.",
+      "Split sensitive goods across multiple storage spots.",
+      "Use smaller cool boxes within the pit instead of one large pile."
+    ],
+    "failure_signs": [
+      "Persistent damp walls or dripping.",
+      "Fast spoilage despite cool conditions.",
+      "Rodent or insect activity increases every week."
+    ],
+    "when_not_to_use": [
+      "Do not use flood-prone or collapse-prone sites.",
+      "Do not use for food that requires stricter temperature control than the pit can provide."
+    ],
+    "short_term": "Keep part of the food supply cooler and more organized.",
+    "long_term": "Develop reliable low-tech storage continuity across seasons.",
+    "if_method_fails": "Move the stock, dry or abandon the site, and rewrite the storage map.",
+    "environment_notes": "Groundwater, rainfall pattern, soil type, and shade decide whether the pit stays useful.",
+    "related_topics": [
+      "Seed saving dry storage checklist",
+      "Rain gutter first-flush barrel routine",
+      "Hand-powered grain grinding station notes"
+    ],
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

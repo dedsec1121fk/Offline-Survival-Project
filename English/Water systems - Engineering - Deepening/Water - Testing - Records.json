@@ -1,0 +1,67 @@
+[
+  {
+    "id": "pass93-0019",
+    "language": "English",
+    "title": "Water sample chain-of-custody log",
+    "category": "Water systems · Engineering · Deepening",
+    "subcategory": "Water · Testing · Records",
+    "summary": "Keeps water samples identifiable when official testing or community comparison is possible.",
+    "content": "Water sample chain-of-custody log is a practical offline routine for water testing records. Label source, exact place, date, time, collector, weather, recent flood/fire/repair, and intended test if known. Do not touch inside the cap or container with dirty hands. Collect before treatment and after treatment only in clearly separate labeled containers. Record who handled the sample so results can be trusted. Do not use home observation as proof that water is safe. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "bilingual",
+      "offline",
+      "pass93",
+      "records",
+      "testing",
+      "water",
+      "weak_area_deepening"
+    ],
+    "materials": [
+      "Clean sample container",
+      "Label. Context: “Water sample chain-of-custody log”.",
+      "Marker. Context: “Water sample chain-of-custody log”.",
+      "Notebook. Context: “Water sample chain-of-custody log”."
+    ],
+    "steps": [
+      "Label source, exact place, date, time, collector, weather, recent flood/fire/repair, and intended test if known.",
+      "Do not touch inside the cap or container with dirty hands.",
+      "Collect before treatment and after treatment only in clearly separate labeled containers.",
+      "Record who handled the sample so results can be trusted.",
+      "Do not use home observation as proof that water is safe."
+    ],
+    "warnings": [
+      "Use Water sample chain-of-custody log as practical support, not as a replacement for official guidance, trained help, or evacuation when needed.",
+      "Filtering alone does not make chemically contaminated, fuel-contaminated, sewage-contaminated, or floodwater safe. Treat this as a specific boundary while managing “Water sample chain-of-custody log”."
+    ],
+    "common_mistakes": [
+      "Starting from memory instead of written notes while carrying out “Water sample chain-of-custody log”",
+      "Letting one tired person control the whole process while carrying out “Water sample chain-of-custody log”",
+      "Ignoring the review time while carrying out “Water sample chain-of-custody log”"
+    ],
+    "alternatives": [
+      "Use a wall board when many people are involved as a fallback for “Water sample chain-of-custody log”",
+      "Use pocket cards when movement is required as a fallback for “Water sample chain-of-custody log”"
+    ],
+    "failure_signs": [
+      "People disagree about the facts, the plan is not being followed, or the situation worsens after the first review during “Water sample chain-of-custody log”"
+    ],
+    "when_not_to_use": [
+      "Do not use Water sample chain-of-custody log to delay emergency care, evacuation, fire response, or official instructions."
+    ],
+    "short_term": "Write the first safe action, responsible person, materials, and next review time. This note applies specifically to Water sample chain-of-custody log.",
+    "long_term": "Convert the routine into a repeatable checklist with handover notes and backups. This note applies specifically to Water sample chain-of-custody log.",
+    "if_method_fails": "Reduce complexity, stop unsafe work, and switch to the safest available fallback. This note applies specifically to Water sample chain-of-custody log.",
+    "environment_notes": "Adapt the routine to heat, cold, crowding, darkness, limited water, and local hazards. This note applies specifically to Water sample chain-of-custody log.",
+    "related_topics": [
+      "offline_map_correction_log"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

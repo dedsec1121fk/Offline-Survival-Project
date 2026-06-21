@@ -1,0 +1,70 @@
+[
+  {
+    "id": "pass103-0004-phone-battery-triage-during-a-long-outage",
+    "language": "English",
+    "title": "Phone battery triage during a long outage",
+    "category": "Power · Phone continuity",
+    "subcategory": "Battery triage",
+    "summary": "A phone-preservation routine for outages lasting more than a few hours, when calls, maps, medicine reminders, and emergency alerts compete for the same battery.",
+    "content": "A phone-preservation routine for outages lasting more than a few hours, when calls, maps, medicine reminders, and emergency alerts compete for the same battery.\n\nUse it when the situation is real but still manageable. Work slowly, keep one written decision log, and prefer the safest reversible action over a dramatic improvisation.\n\nCore sequence: 1) Set one household phone as the alert phone and keep it on but unused for entertainment. 2) Write essential numbers on paper before battery drops below half. 3) Use airplane mode between scheduled check-ins if official alerts are still being received another way. 4) Charge one device at a time from a power bank and record the remaining percentage after each use.\n\nStop point: Do not use this card for phone battery triage during a long outage to replace emergency services, medical prescriptions, utility professionals, or official evacuation orders. Main warnings: Do not treat phone battery triage during a long outage as finished until the result is visible, dated, and understood by the next person. Do not continue phone battery triage during a long outage when smell, heat, illness, violence, rising water, or official instructions indicate immediate danger.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:outage",
+      "pack:continuity",
+      "phone",
+      "battery",
+      "power",
+      "pass103",
+      "offline",
+      "bilingual"
+    ],
+    "materials": [
+      "visible label sheet reserved for Phone battery triage during a long outage",
+      "clean container or pouch dedicated to Phone battery triage during a long outage",
+      "pencil log with date and responsible person for Phone battery triage during a long outage",
+      "safe storage spot chosen for Power · Phone continuity"
+    ],
+    "steps": [
+      "Set one household phone as the alert phone and keep it on but unused for entertainment.",
+      "Write essential numbers on paper before battery drops below half.",
+      "Use airplane mode between scheduled check-ins if official alerts are still being received another way.",
+      "Charge one device at a time from a power bank and record the remaining percentage after each use."
+    ],
+    "warnings": [
+      "Do not treat phone battery triage during a long outage as finished until the result is visible, dated, and understood by the next person.",
+      "Do not continue phone battery triage during a long outage when smell, heat, illness, violence, rising water, or official instructions indicate immediate danger."
+    ],
+    "common_mistakes": [
+      "Keeping the plan for phone battery triage during a long outage only in one person’s memory makes handover fail during fatigue.",
+      "Using unmarked supplies during phone battery triage during a long outage causes accidental mixing, waste, or unfair distribution."
+    ],
+    "alternatives": [
+      "If the full setup for phone battery triage during a long outage is impossible, protect the highest-risk person or area first and record what remains undone.",
+      "Use a spoken read-back and a paper mark when devices or normal forms are unavailable for phone battery triage during a long outage."
+    ],
+    "failure_signs": [
+      "The same question about phone battery triage during a long outage is repeated because nobody can see the current decision.",
+      "A person affected by phone battery triage during a long outage is excluded from the plan or cannot explain the next safe step."
+    ],
+    "when_not_to_use": [
+      "Do not use this card for phone battery triage during a long outage to replace emergency services, medical prescriptions, utility professionals, or official evacuation orders.",
+      "Do not hide private information collected for phone battery triage during a long outage in a public place without clear need and consent."
+    ],
+    "short_term": "Within the first operating period for phone battery triage during a long outage, create a visible status mark, name one owner, and check whether the highest-risk person is safer than before.",
+    "long_term": "After the disruption, review phone battery triage during a long outage with the people who used it and replace unclear labels, weak storage choices, and steps that caused delay.",
+    "if_method_fails": "If phone battery triage during a long outage fails, pause the routine, isolate the unsafe part, document the failure point, and use the simplest safe fallback until qualified help or official guidance arrives.",
+    "environment_notes": "Adapt phone battery triage during a long outage for apartment stairs, villages, ferries, camps, heat, cold, smoke, water shortage, and disability access without removing the stop rule.",
+    "related_topics": [
+      "First five minutes household command reset",
+      "Local incident and resource log",
+      "Preparedness self-check"
+    ],
+    "sources": [
+      "https://www.ready.gov/power-outages",
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+    ],
+    "last_updated": "2026-06-21"
+  }
+]

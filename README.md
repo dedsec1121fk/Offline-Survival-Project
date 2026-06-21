@@ -1,58 +1,61 @@
-# Offline Survival Project — Pass 104
+# Offline Survival Project
 
-**Pass 104 — complete export restore, GitHub-safe file sizes, and Pass 103 content preserved**
+A clean offline survival reference organized as JSON databases in English and Greek.
 
-This release keeps the full Pass 103 knowledge base and fixes the problem that made the package look too small: the complete English and Greek field-manual exports are now included again. The project is still safe for GitHub because every individual repository file remains below 40 MB.
+## Repository structure
 
-## Current status
-
-| Item | Status |
-|---|---:|
-| Bilingual entries | **1752** |
-| JSON database files | **75** |
-| Categories | **182** |
-| Fields per record | **48** |
-| Complete English export | **13.8 MB** |
-| Complete Greek export | **28.2 MB** |
-| Largest repository file | **28,174,037 bytes** |
-| Files over 40 MB | **0** |
-
-## What changed in Pass 104
-
-- Restored `Offline Survival Exports/COMPLETE_ENGLISH_FIELD_MANUAL_EXPORT.txt`.
-- Restored `Offline Survival Exports/COMPLETE_GREEK_FIELD_MANUAL_EXPORT.txt`.
-- Kept all Pass 103 database records, translations, sources, urgent-helper improvements and compact offline search.
-- Updated the application version to **104.0 / Pass 104**.
-- Added a fresh Pass 104 release validation file and SHA-256 manifest.
-- Verified that no file inside the repository is bigger than 40 MB.
-
-The ZIP may still compress smaller than expected because plain text and JSON compress very strongly. After extraction, the repository folder is much larger and includes the full export TXT files.
-
-## Termux run command
-
-```bash
-python "Offline Survival.py"
+```text
+English/
+  Category name/
+    Subcategory name.json
+Ελληνικά/
+  Category name/
+    Subcategory name.json
+README.md
+UPDATE_LOG.md
 ```
 
-## Useful direct commands
+Both language folders use the same category and file layout so the Greek database can be compared directly with the English one.
 
-```bash
-python "Offline Survival.py" --version
-python "Offline Survival.py" --search "water" --lang en
-python "Offline Survival.py" --search "νερο" --lang el
-python "Maintenance/Check GitHub File Sizes.py"
-python "Maintenance/Run Full Validation.py"
-```
+## Current database
 
-## GitHub-safe update note
+- Entries per language: 1752
+- Source database files reorganized: 75
+- Category folders: 182
+- JSON database files per language: 566
 
-Do **not** upload the ZIP itself as a repository file. Use the update command that unzips it and pushes the extracted project. All extracted files are below the 40 MB limit.
+## JSON format
 
-## Ελληνικά
+Each JSON file contains a list of records. A record includes:
 
-Το Pass 104 κρατά όλο το περιεχόμενο του Pass 103 και επαναφέρει τις πλήρεις εξαγωγές σε TXT. Το αρχείο ZIP μπορεί να φαίνεται μικρό επειδή τα κείμενα συμπιέζονται πολύ, αλλά μετά την αποσυμπίεση υπάρχουν ξανά τα μεγάλα αρχεία εξαγωγής:
+- `id`
+- `language`
+- `title`
+- `category`
+- `subcategory`
+- `summary`
+- `content`
+- `difficulty`
+- `urgency`
+- `priority`
+- `tags`
+- `materials`
+- `steps`
+- `warnings`
+- `common_mistakes`
+- `alternatives`
+- `failure_signs`
+- `when_not_to_use`
+- `short_term`
+- `long_term`
+- `if_method_fails`
+- `environment_notes`
+- `related_topics`
+- `sources`
+- `last_updated`
 
-- `COMPLETE_ENGLISH_FIELD_MANUAL_EXPORT.txt`
-- `COMPLETE_GREEK_FIELD_MANUAL_EXPORT.txt`
+## Notes
 
-Κανένα αρχείο του repository δεν ξεπερνά τα 40 MB.
+This repository is meant to stay simple: no app files, no generated cache, no search index, no exports, and no validation folders. It is only the organized knowledge database plus this README and the update log.
+
+Emergency guidance can become outdated or differ by country. For real emergencies, follow local authorities and emergency services first.

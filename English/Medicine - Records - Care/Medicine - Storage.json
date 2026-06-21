@@ -1,0 +1,70 @@
+[
+  {
+    "id": "pass81-ops-007",
+    "language": "English",
+    "title": "Medication cooling contingency",
+    "category": "Medicine · Records · Care",
+    "subcategory": "Medicine · Storage",
+    "summary": "A record and priority plan for medicines that normally need cool storage, without changing prescribed use.",
+    "content": "Some medicines require special storage. This entry does not tell anyone to change dose, replace medicine, or ignore a prescription. It helps record what needs cooling, how long the power has been off, what cold storage exists, and who to contact. Keep medicine in original packaging when possible, avoid freezing unless the label says so, protect from direct heat and sun, and ask a pharmacist or clinician for medicine-specific advice as soon as possible.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "tags": [
+      "medicine",
+      "cooling",
+      "records",
+      "pharmacy"
+    ],
+    "materials": [
+      "Notebook. Context: “Medication cooling contingency”.",
+      "Pencil. Context: “Medication cooling contingency”.",
+      "Labels. Context: “Medication cooling contingency”.",
+      "Clean storage space. Context: “Medication cooling contingency”."
+    ],
+    "steps": [
+      "List every medicine with storage instructions from the label.",
+      "Mark which medicine is life-critical or time-sensitive.",
+      "Use the best cold space for the highest priority items.",
+      "Do not remove labels or mix packages.",
+      "Write power-off time and advice received."
+    ],
+    "warnings": [
+      "Do not freeze medicine unless the label or a professional says it is safe.",
+      "Do not change doses because storage was difficult; seek qualified advice."
+    ],
+    "common_mistakes": [
+      "Treating Medication cooling contingency as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Medication cooling contingency without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Medication cooling contingency because labels, dates, or responsible names were not written down."
+    ],
+    "alternatives": [
+      "Run a smaller version of Medication cooling contingency with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Medication cooling contingency if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Medication cooling contingency and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Medication cooling contingency or when the next check happens.",
+      "Supplies connected to Medication cooling contingency are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores food safety, dry storage, clean tools, pests, and water use and starts creating new risk instead of reducing existing risk during “Medication cooling contingency”"
+    ],
+    "when_not_to_use": [
+      "Do not use Medication cooling contingency as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Medication cooling contingency when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Medication cooling contingency."
+    ],
+    "short_term": "For the first hours of Medication cooling contingency, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Medication cooling contingency remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Medication cooling contingency fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Medication cooling contingency to the real environment: check food safety, dry storage, clean tools, pests, and water use, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Medicine continuity sheet",
+      "Cooler and ice priority plan"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

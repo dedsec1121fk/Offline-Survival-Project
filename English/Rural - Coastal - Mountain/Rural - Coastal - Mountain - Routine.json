@@ -1,0 +1,1482 @@
+[
+  {
+    "id": "pass85-0241",
+    "language": "English",
+    "title": "Rural Coastal Mountain morning check",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Run a short sunrise check of people, official alerts, weather, water, power, communications, and access routes before routine work begins.",
+    "content": "Run a short sunrise check of people, official alerts, weather, water, power, communications, and access routes before routine work begins.\n\nProcedure: Confirm every expected person and note anyone away, isolated, or needing assistance. Check official civil-protection alerts, weather, wind, sea state, fire conditions, and visible slope or drainage changes. Verify drinking water, essential power, one communication method, and the safest usable route out of the area. Write the single highest-priority correction, assign a responsible person, and set the next review time.\n\nSafety limits: Do not enter a closed road, unstable slope, smoke-filled zone, flooded crossing, or rough shoreline merely to complete the check. A quiet morning does not cancel an official warning or remove the need for a backup route.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Printed local map with safe high ground and road alternatives",
+      "Battery radio or charged phone reserved for official alerts",
+      "One-page status sheet and pencil kept in a dry sleeve"
+    ],
+    "steps": [
+      "Confirm every expected person and note anyone away, isolated, or needing assistance.",
+      "Check official civil-protection alerts, weather, wind, sea state, fire conditions, and visible slope or drainage changes.",
+      "Verify drinking water, essential power, one communication method, and the safest usable route out of the area.",
+      "Write the single highest-priority correction, assign a responsible person, and set the next review time."
+    ],
+    "warnings": [
+      "Do not enter a closed road, unstable slope, smoke-filled zone, flooded crossing, or rough shoreline merely to complete the check.",
+      "A quiet morning does not cancel an official warning or remove the need for a backup route."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain morning check” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain morning check”: before closing the card, confirm completion of “Write the single highest-priority correction, assign a responsible person, and set the next review time.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain morning check” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain morning check” is: “Confirm every expected person and note anyone away, isolated, or needing assistance.”."
+    ],
+    "failure_signs": [
+      "An expected person cannot be contacted or located.",
+      "No verified route, safe water source, or communication method remains available."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain morning check” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain morning check”: also follow this warning: “Do not enter a closed road, unstable slope, smoke-filled zone, flooded crossing, or rough shoreline merely to complete the check.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain morning check”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain morning check”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain morning check” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain morning check”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0242",
+    "language": "English",
+    "title": "Rural Coastal Mountain evening review",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Close the day with a written review of people, weather changes, supplies used, unfinished hazards, charging, and the overnight watch plan.",
+    "content": "Close the day with a written review of people, weather changes, supplies used, unfinished hazards, charging, and the overnight watch plan.\n\nProcedure: Account for all people and record the location of anyone staying elsewhere overnight. Compare the morning status with current wind, rain, heat, sea, fire, road, and utility conditions. Record water, food, fuel, battery, and medicine use; move tomorrow’s critical items to an accessible dry place. Assign any overnight check, define what will wake the group, and state the first action for the morning.\n\nSafety limits: Do not leave fuel-burning equipment, candles, chargers, or damaged batteries operating unattended overnight. Fatigue can hide worsening conditions; use a second person to review critical entries.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Evening status log",
+      "Working light with spare power",
+      "Weather and official-alert source"
+    ],
+    "steps": [
+      "Account for all people and record the location of anyone staying elsewhere overnight.",
+      "Compare the morning status with current wind, rain, heat, sea, fire, road, and utility conditions.",
+      "Record water, food, fuel, battery, and medicine use; move tomorrow’s critical items to an accessible dry place.",
+      "Assign any overnight check, define what will wake the group, and state the first action for the morning."
+    ],
+    "warnings": [
+      "Do not leave fuel-burning equipment, candles, chargers, or damaged batteries operating unattended overnight.",
+      "Fatigue can hide worsening conditions; use a second person to review critical entries."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain evening review” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain evening review”: before closing the card, confirm completion of “Assign any overnight check, define what will wake the group, and state the first action for the morning.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain evening review” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain evening review” is: “Account for all people and record the location of anyone staying elsewhere overnight.”."
+    ],
+    "failure_signs": [
+      "The overnight responsible person, alarm trigger, or backup light is not confirmed.",
+      "A worsening hazard is recorded without a matching action or departure decision."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain evening review” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain evening review”: also follow this warning: “Do not leave fuel-burning equipment, candles, chargers, or damaged batteries operating unattended overnight.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain evening review”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain evening review”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain evening review” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain evening review”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0243",
+    "language": "English",
+    "title": "Rural Coastal Mountain priority list",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Build one visible priority list that protects life first, then communication, safe water, shelter, medicine, food, sanitation, and recovery work.",
+    "content": "Build one visible priority list that protects life first, then communication, safe water, shelter, medicine, food, sanitation, and recovery work.\n\nProcedure: List only unresolved needs and identify which could injure someone within the next hour. Rank life safety, evacuation, communication, water, shelter, medicine, food, sanitation, and property in that order unless official instructions require otherwise. Give each top item one owner, one deadline, and one clear completion test. Cross out completed work, move blocked work to a separate column, and rebuild the list at each major change.\n\nSafety limits: Do not let property protection outrank evacuation, medical danger, or safe water. A long list without owners and deadlines is not an operational plan.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Large paper or board",
+      "Marker and clock",
+      "Current people, hazard, and supply status"
+    ],
+    "steps": [
+      "List only unresolved needs and identify which could injure someone within the next hour.",
+      "Rank life safety, evacuation, communication, water, shelter, medicine, food, sanitation, and property in that order unless official instructions require otherwise.",
+      "Give each top item one owner, one deadline, and one clear completion test.",
+      "Cross out completed work, move blocked work to a separate column, and rebuild the list at each major change."
+    ],
+    "warnings": [
+      "Do not let property protection outrank evacuation, medical danger, or safe water.",
+      "A long list without owners and deadlines is not an operational plan."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain priority list” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain priority list”: before closing the card, confirm completion of “Cross out completed work, move blocked work to a separate column, and rebuild the list at each major change.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain priority list” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain priority list” is: “List only unresolved needs and identify which could injure someone within the next hour.”."
+    ],
+    "failure_signs": [
+      "Two critical items compete for the same person or resource with no decision.",
+      "The list is older than the latest official alert or major condition change."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain priority list” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain priority list”: also follow this warning: “Do not let property protection outrank evacuation, medical danger, or safe water.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain priority list”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain priority list”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain priority list” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain priority list”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0244",
+    "language": "English",
+    "title": "Rural Coastal Mountain rotation schedule",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Rotate demanding tasks so observation, communication, water handling, cooking, care, and rest continue without exhausting one person.",
+    "content": "Rotate demanding tasks so observation, communication, water handling, cooking, care, and rest continue without exhausting one person.\n\nProcedure: List essential recurring tasks and the minimum skill or physical ability each requires. Use short shifts for heat, cold, smoke, night watch, heavy carrying, or stressful communication. Pair inexperienced or vulnerable members with suitable support and protect uninterrupted rest periods. At every handover, state current conditions, unfinished work, equipment location, and the exact trigger for escalation.\n\nSafety limits: Do not assign a person to a task that conflicts with medication, mobility, hearing, vision, age, or fatigue limits. Continuous work without protected rest increases mistakes and injuries.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Shift board with names and times",
+      "Task-skill and accessibility notes",
+      "Handover checklist"
+    ],
+    "steps": [
+      "List essential recurring tasks and the minimum skill or physical ability each requires.",
+      "Use short shifts for heat, cold, smoke, night watch, heavy carrying, or stressful communication.",
+      "Pair inexperienced or vulnerable members with suitable support and protect uninterrupted rest periods.",
+      "At every handover, state current conditions, unfinished work, equipment location, and the exact trigger for escalation."
+    ],
+    "warnings": [
+      "Do not assign a person to a task that conflicts with medication, mobility, hearing, vision, age, or fatigue limits.",
+      "Continuous work without protected rest increases mistakes and injuries."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain rotation schedule” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain rotation schedule”: before closing the card, confirm completion of “At every handover, state current conditions, unfinished work, equipment location, and the exact trigger for escalation.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain rotation schedule” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain rotation schedule” is: “List essential recurring tasks and the minimum skill or physical ability each requires.”."
+    ],
+    "failure_signs": [
+      "A shift has no named replacement or handover time.",
+      "The same person repeatedly misses rest, meals, medicine, or hydration."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain rotation schedule” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain rotation schedule”: also follow this warning: “Do not assign a person to a task that conflicts with medication, mobility, hearing, vision, age, or fatigue limits.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain rotation schedule”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain rotation schedule”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain rotation schedule” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain rotation schedule”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0245",
+    "language": "English",
+    "title": "Rural Coastal Mountain red label rule",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Use a red label to isolate an unsafe room, route, container, tool, food, water source, or electrical item until a competent review clears it.",
+    "content": "Use a red label to isolate an unsafe room, route, container, tool, food, water source, or electrical item until a competent review clears it.\n\nProcedure: Stop use and prevent casual access without touching or moving the hazard unnecessarily. Write the hazard, date, time, reporter, affected area, and required qualified reviewer on the tag. Copy the same information into the isolation log and tell every shift or household member. Remove the label only after the named condition is corrected and the clearance is recorded.\n\nSafety limits: A red label warns and isolates; it does not repair electricity, gas, structure, contamination, or spoiled food. Do not place a tag where doing so exposes you to live power, gas, smoke, unstable debris, or contaminated water.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Red tape or durable red tags",
+      "Permanent marker",
+      "Isolation log"
+    ],
+    "steps": [
+      "Stop use and prevent casual access without touching or moving the hazard unnecessarily.",
+      "Write the hazard, date, time, reporter, affected area, and required qualified reviewer on the tag.",
+      "Copy the same information into the isolation log and tell every shift or household member.",
+      "Remove the label only after the named condition is corrected and the clearance is recorded."
+    ],
+    "warnings": [
+      "A red label warns and isolates; it does not repair electricity, gas, structure, contamination, or spoiled food.",
+      "Do not place a tag where doing so exposes you to live power, gas, smoke, unstable debris, or contaminated water."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain red label rule” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain red label rule”: before closing the card, confirm completion of “Remove the label only after the named condition is corrected and the clearance is recorded.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain red label rule” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain red label rule” is: “Stop use and prevent casual access without touching or moving the hazard unnecessarily.”."
+    ],
+    "failure_signs": [
+      "People continue using the marked item or route.",
+      "The label lacks a reason, time, or responsible reviewer."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain red label rule” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain red label rule”: also follow this warning: “A red label warns and isolates; it does not repair electricity, gas, structure, contamination, or spoiled food.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain red label rule”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain red label rule”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain red label rule” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain red label rule”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0246",
+    "language": "English",
+    "title": "Rural Coastal Mountain two-person check",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Require two people for consequential checks so one observes the hazard while the other verifies, records, communicates, and can call for help.",
+    "content": "Require two people for consequential checks so one observes the hazard while the other verifies, records, communicates, and can call for help.\n\nProcedure: Define the exact check, boundary, and reason two people are required before approaching. Assign one observer and one recorder/communicator; both must understand the stop signal. Maintain line of sight or reliable contact and never allow both people to enter the same hazard zone. Compare observations, record disagreement, and choose the safer interpretation until qualified review.\n\nSafety limits: Two untrained people do not make live electrical, gas, structural, cliff, surf, flood, or fire entry safe. Never use the second person as a reason to exceed an official closure or evacuation order.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Shared checklist",
+      "Reliable communication method",
+      "Agreed stop signal"
+    ],
+    "steps": [
+      "Define the exact check, boundary, and reason two people are required before approaching.",
+      "Assign one observer and one recorder/communicator; both must understand the stop signal.",
+      "Maintain line of sight or reliable contact and never allow both people to enter the same hazard zone.",
+      "Compare observations, record disagreement, and choose the safer interpretation until qualified review."
+    ],
+    "warnings": [
+      "Two untrained people do not make live electrical, gas, structural, cliff, surf, flood, or fire entry safe.",
+      "Never use the second person as a reason to exceed an official closure or evacuation order."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain two-person check” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain two-person check”: before closing the card, confirm completion of “Compare observations, record disagreement, and choose the safer interpretation until qualified review.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain two-person check” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain two-person check” is: “Define the exact check, boundary, and reason two people are required before approaching.”."
+    ],
+    "failure_signs": [
+      "Contact between the two people is lost.",
+      "Roles, stop signal, or outside help route are unclear."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain two-person check” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain two-person check”: also follow this warning: “Two untrained people do not make live electrical, gas, structural, cliff, surf, flood, or fire entry safe.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain two-person check”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain two-person check”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain two-person check” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain two-person check”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0247",
+    "language": "English",
+    "title": "Rural Coastal Mountain quiet-hour plan",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Create a protected quiet period for sleep, concentration, children, older adults, and sensory needs while keeping essential watch and alerts active.",
+    "content": "Create a protected quiet period for sleep, concentration, children, older adults, and sensory needs while keeping essential watch and alerts active.\n\nProcedure: Choose a period based on heat, work shifts, children, medication, and the need for restorative sleep. Move conversations, charging, repairs, and food preparation away from the rest area where practical. Keep one alert receiver and responsible person active, with a visual or vibration method for people who need it. End quiet time immediately for an official warning, missing person, fire, gas, flooding, medical danger, or evacuation.\n\nSafety limits: Quiet hours must not silence smoke, carbon-monoxide, weather, evacuation, or medical alarms. Do not leave a single exhausted person responsible for overnight watch.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Posted quiet-hour notice",
+      "Low-volume alert method",
+      "Named watch person"
+    ],
+    "steps": [
+      "Choose a period based on heat, work shifts, children, medication, and the need for restorative sleep.",
+      "Move conversations, charging, repairs, and food preparation away from the rest area where practical.",
+      "Keep one alert receiver and responsible person active, with a visual or vibration method for people who need it.",
+      "End quiet time immediately for an official warning, missing person, fire, gas, flooding, medical danger, or evacuation."
+    ],
+    "warnings": [
+      "Quiet hours must not silence smoke, carbon-monoxide, weather, evacuation, or medical alarms.",
+      "Do not leave a single exhausted person responsible for overnight watch."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain quiet-hour plan” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain quiet-hour plan”: before closing the card, confirm completion of “End quiet time immediately for an official warning, missing person, fire, gas, flooding, medical danger, or evacuation.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain quiet-hour plan” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain quiet-hour plan” is: “Choose a period based on heat, work shifts, children, medication, and the need for restorative sleep.”."
+    ],
+    "failure_signs": [
+      "Essential alerts cannot be heard, seen, or felt in the rest area.",
+      "Noise and light continue to prevent vulnerable members from sleeping."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain quiet-hour plan” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain quiet-hour plan”: also follow this warning: “Quiet hours must not silence smoke, carbon-monoxide, weather, evacuation, or medical alarms.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain quiet-hour plan”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain quiet-hour plan”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain quiet-hour plan” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain quiet-hour plan”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0248",
+    "language": "English",
+    "title": "Rural Coastal Mountain fallback route",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Prepare and verify a fallback route that avoids the same fire, flood, landslide, coastal, snow, or road-closure exposure as the primary route.",
+    "content": "Prepare and verify a fallback route that avoids the same fire, flood, landslide, coastal, snow, or road-closure exposure as the primary route.\n\nProcedure: Mark destination, safe high ground, assembly points, fuel limits, walking alternatives, and places that may become choke points. Check whether both routes cross the same bridge, gorge, forest edge, drainage channel, cliff road, or low coastal section. Verify the fallback in safe conditions without entering closures and record travel time for vehicle and foot movement. Write objective triggers for switching early, then share the map with every driver and household member.\n\nSafety limits: Never cross moving floodwater, a closed road, active fire area, avalanche zone, rockfall, or dangerous surf to test a route. A route stored only on one phone may disappear with power, damage, or network loss.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Paper map with primary and fallback routes",
+      "Official road and hazard information",
+      "Route trigger card"
+    ],
+    "steps": [
+      "Mark destination, safe high ground, assembly points, fuel limits, walking alternatives, and places that may become choke points.",
+      "Check whether both routes cross the same bridge, gorge, forest edge, drainage channel, cliff road, or low coastal section.",
+      "Verify the fallback in safe conditions without entering closures and record travel time for vehicle and foot movement.",
+      "Write objective triggers for switching early, then share the map with every driver and household member."
+    ],
+    "warnings": [
+      "Never cross moving floodwater, a closed road, active fire area, avalanche zone, rockfall, or dangerous surf to test a route.",
+      "A route stored only on one phone may disappear with power, damage, or network loss."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain fallback route” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain fallback route”: before closing the card, confirm completion of “Write objective triggers for switching early, then share the map with every driver and household member.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain fallback route” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain fallback route” is: “Mark destination, safe high ground, assembly points, fuel limits, walking alternatives, and places that may become choke points.”."
+    ],
+    "failure_signs": [
+      "Primary and fallback routes share the same single failure point.",
+      "No one can state the switch trigger or destination without the phone."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain fallback route” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain fallback route”: also follow this warning: “Never cross moving floodwater, a closed road, active fire area, avalanche zone, rockfall, or dangerous surf to test a route.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain fallback route”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain fallback route”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain fallback route” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain fallback route”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0249",
+    "language": "English",
+    "title": "Rural Coastal Mountain small-kit setup",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Build a compact kit for one day of safe movement between village, coast, and mountain conditions without making it too heavy to carry.",
+    "content": "Build a compact kit for one day of safe movement between village, coast, and mountain conditions without making it too heavy to carry.\n\nProcedure: Choose the user and realistic route first; account for age, mobility, heat, cold, salt spray, rain, and steep ground. Pack safe water, simple food, prescribed medicines, basic first aid, light, whistle, map, charging cable, and a weather layer. Place urgent items where they can be reached without unpacking and protect paper and electronics from water. Walk briefly with the loaded kit, remove nonessential weight, and review expiry dates and batteries monthly.\n\nSafety limits: Do not include unprescribed medicines, leaking batteries, loose fuel, unknown chemicals, or food that spoils in vehicle heat. A kit does not justify delaying evacuation or entering hazardous terrain.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Small comfortable backpack",
+      "Water, weather layer, light, whistle, paper map, and power bank",
+      "Personal medicine list, identification copy, and emergency contacts"
+    ],
+    "steps": [
+      "Choose the user and realistic route first; account for age, mobility, heat, cold, salt spray, rain, and steep ground.",
+      "Pack safe water, simple food, prescribed medicines, basic first aid, light, whistle, map, charging cable, and a weather layer.",
+      "Place urgent items where they can be reached without unpacking and protect paper and electronics from water.",
+      "Walk briefly with the loaded kit, remove nonessential weight, and review expiry dates and batteries monthly."
+    ],
+    "warnings": [
+      "Do not include unprescribed medicines, leaking batteries, loose fuel, unknown chemicals, or food that spoils in vehicle heat.",
+      "A kit does not justify delaying evacuation or entering hazardous terrain."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain small-kit setup” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain small-kit setup”: before closing the card, confirm completion of “Walk briefly with the loaded kit, remove nonessential weight, and review expiry dates and batteries monthly.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain small-kit setup” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain small-kit setup” is: “Choose the user and realistic route first; account for age, mobility, heat, cold, salt spray, rain, and steep ground.”."
+    ],
+    "failure_signs": [
+      "The intended user cannot carry or open the kit.",
+      "Water, medicine, light, map, or emergency contacts are missing or expired."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain small-kit setup” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain small-kit setup”: also follow this warning: “Do not include unprescribed medicines, leaking batteries, loose fuel, unknown chemicals, or food that spoils in vehicle heat.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain small-kit setup”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain small-kit setup”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain small-kit setup” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain small-kit setup”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0250",
+    "language": "English",
+    "title": "Rural Coastal Mountain clean-dirty boundary",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Separate clean living and food areas from mud, saltwater, smoke residue, waste, wet gear, and cleanup tools to limit contamination.",
+    "content": "Separate clean living and food areas from mud, saltwater, smoke residue, waste, wet gear, and cleanup tools to limit contamination.\n\nProcedure: Choose an entry point and place the dirty zone downwind and downhill where it cannot drain toward food or drinking water. Remove wet or contaminated outer items at the boundary and store them in labelled containers. Wash hands before entering the clean zone and keep food, medicine, bedding, children, and animals away from cleanup waste. Move the boundary when wind, rain, drainage, or work location changes and record contaminated items needing disposal or professional cleaning.\n\nSafety limits: Do not mix cleaning chemicals, dry-sweep hazardous dust, or carry contaminated water through the clean zone. Floodwater, sewage, ash, mould, fuel, and unknown powders may require professional controls.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Tape or visible boundary markers",
+      "Separate containers for clean and dirty equipment",
+      "Handwashing supplies and protective equipment appropriate to the hazard"
+    ],
+    "steps": [
+      "Choose an entry point and place the dirty zone downwind and downhill where it cannot drain toward food or drinking water.",
+      "Remove wet or contaminated outer items at the boundary and store them in labelled containers.",
+      "Wash hands before entering the clean zone and keep food, medicine, bedding, children, and animals away from cleanup waste.",
+      "Move the boundary when wind, rain, drainage, or work location changes and record contaminated items needing disposal or professional cleaning."
+    ],
+    "warnings": [
+      "Do not mix cleaning chemicals, dry-sweep hazardous dust, or carry contaminated water through the clean zone.",
+      "Floodwater, sewage, ash, mould, fuel, and unknown powders may require professional controls."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain clean-dirty boundary” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain clean-dirty boundary”: before closing the card, confirm completion of “Move the boundary when wind, rain, drainage, or work location changes and record contaminated items needing disposal or professional cleaning.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain clean-dirty boundary” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain clean-dirty boundary” is: “Choose an entry point and place the dirty zone downwind and downhill where it cannot drain toward food or drinking water.”."
+    ],
+    "failure_signs": [
+      "Dirty footwear, tools, or waste repeatedly cross into sleeping or food areas.",
+      "The boundary receives runoff, smoke, or windblown debris from the contaminated side."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain clean-dirty boundary” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain clean-dirty boundary”: also follow this warning: “Do not mix cleaning chemicals, dry-sweep hazardous dust, or carry contaminated water through the clean zone.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain clean-dirty boundary”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain clean-dirty boundary”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain clean-dirty boundary” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain clean-dirty boundary”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0251",
+    "language": "English",
+    "title": "Rural Coastal Mountain storage map",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Map where water, food, medicine, tools, fuel, documents, keys, and emergency kits are stored so one local hazard cannot remove everything.",
+    "content": "Map where water, food, medicine, tools, fuel, documents, keys, and emergency kits are stored so one local hazard cannot remove everything.\n\nProcedure: Mark exits, shutoff points, high shelves, cool rooms, locked hazardous storage, and areas exposed to flood, fire, heat, salt, or collapse. List each critical stock with location, quantity, access person, expiry or inspection date, and minimum reserve. Split essential water, light, communication, documents, and medicine support between at least two suitable locations. Give trusted members a paper copy and update it whenever stock moves or access changes.\n\nSafety limits: Do not publish the location of medicines, fuel, valuables, personal records, or keys to people without a legitimate need. Fuel, chemicals, batteries, food, and medicines require different storage boundaries.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Simple building and property sketch",
+      "Inventory labels",
+      "Dry off-site copy of the map"
+    ],
+    "steps": [
+      "Mark exits, shutoff points, high shelves, cool rooms, locked hazardous storage, and areas exposed to flood, fire, heat, salt, or collapse.",
+      "List each critical stock with location, quantity, access person, expiry or inspection date, and minimum reserve.",
+      "Split essential water, light, communication, documents, and medicine support between at least two suitable locations.",
+      "Give trusted members a paper copy and update it whenever stock moves or access changes."
+    ],
+    "warnings": [
+      "Do not publish the location of medicines, fuel, valuables, personal records, or keys to people without a legitimate need.",
+      "Fuel, chemicals, batteries, food, and medicines require different storage boundaries."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain storage map” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain storage map”: before closing the card, confirm completion of “Give trusted members a paper copy and update it whenever stock moves or access changes.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain storage map” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain storage map” is: “Mark exits, shutoff points, high shelves, cool rooms, locked hazardous storage, and areas exposed to flood, fire, heat, salt, or collapse.”."
+    ],
+    "failure_signs": [
+      "The map points to moved, expired, inaccessible, or water-damaged stock.",
+      "All copies and all critical supplies remain in the same hazard zone."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain storage map” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain storage map”: also follow this warning: “Do not publish the location of medicines, fuel, valuables, personal records, or keys to people without a legitimate need.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain storage map”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain storage map”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain storage map” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain storage map”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0252",
+    "language": "English",
+    "title": "Rural Coastal Mountain handover note",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Use a short handover note so the next person knows current conditions, completed work, unresolved risks, resource levels, and the next decision time.",
+    "content": "Use a short handover note so the next person knows current conditions, completed work, unresolved risks, resource levels, and the next decision time.\n\nProcedure: Write date, time, outgoing and incoming names, location, and the official alert currently in force. Record people accounted for, urgent support needs, completed actions, active hazards, and isolated items or areas. State water, power, communications, medicine, transport, and staffing limits using measured or clearly labelled estimates. Read the note aloud, let the incoming person ask questions, and sign the exact next check or escalation time.\n\nSafety limits: Do not hide uncertainty, injury, missing stock, disagreement, or a missed task to make the shift look successful. Personal medical or identity details should be limited to what the receiver genuinely needs.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Standard handover card",
+      "Clock and pencil",
+      "Current alert and contact list"
+    ],
+    "steps": [
+      "Write date, time, outgoing and incoming names, location, and the official alert currently in force.",
+      "Record people accounted for, urgent support needs, completed actions, active hazards, and isolated items or areas.",
+      "State water, power, communications, medicine, transport, and staffing limits using measured or clearly labelled estimates.",
+      "Read the note aloud, let the incoming person ask questions, and sign the exact next check or escalation time."
+    ],
+    "warnings": [
+      "Do not hide uncertainty, injury, missing stock, disagreement, or a missed task to make the shift look successful.",
+      "Personal medical or identity details should be limited to what the receiver genuinely needs."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain handover note” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain handover note”: before closing the card, confirm completion of “Read the note aloud, let the incoming person ask questions, and sign the exact next check or escalation time.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain handover note” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain handover note” is: “Write date, time, outgoing and incoming names, location, and the official alert currently in force.”."
+    ],
+    "failure_signs": [
+      "The incoming person cannot repeat the top hazard and next action.",
+      "The note has no time, responsible name, or next review trigger."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain handover note” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain handover note”: also follow this warning: “Do not hide uncertainty, injury, missing stock, disagreement, or a missed task to make the shift look successful.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain handover note”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain handover note”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain handover note” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain handover note”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0253",
+    "language": "English",
+    "title": "Rural Coastal Mountain risk stop rule",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Define objective conditions that stop work and trigger shelter, evacuation, professional help, or a new plan before pressure leads to unsafe continuation.",
+    "content": "Define objective conditions that stop work and trigger shelter, evacuation, professional help, or a new plan before pressure leads to unsafe continuation.\n\nProcedure: List local hazards such as visible flame, dense smoke, rising water, rockfall, unstable walls, extreme heat, dangerous surf, lost contact, or medical deterioration. For each hazard, write one observable stop trigger and the immediate safe action. Give every member authority to call the stop without punishment and require a verbal acknowledgement. Resume only after the hazard is controlled, official restrictions allow it, and a new check is documented.\n\nSafety limits: A deadline, sunk cost, property concern, or senior person’s preference does not override a stop trigger. Do not invent measurements or claim a hazard is controlled when it has not been verified.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Written stop-rule card",
+      "Official warning source",
+      "Named decision authority and backup"
+    ],
+    "steps": [
+      "List local hazards such as visible flame, dense smoke, rising water, rockfall, unstable walls, extreme heat, dangerous surf, lost contact, or medical deterioration.",
+      "For each hazard, write one observable stop trigger and the immediate safe action.",
+      "Give every member authority to call the stop without punishment and require a verbal acknowledgement.",
+      "Resume only after the hazard is controlled, official restrictions allow it, and a new check is documented."
+    ],
+    "warnings": [
+      "A deadline, sunk cost, property concern, or senior person’s preference does not override a stop trigger.",
+      "Do not invent measurements or claim a hazard is controlled when it has not been verified."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain risk stop rule” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain risk stop rule”: before closing the card, confirm completion of “Resume only after the hazard is controlled, official restrictions allow it, and a new check is documented.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain risk stop rule” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain risk stop rule” is: “List local hazards such as visible flame, dense smoke, rising water, rockfall, unstable walls, extreme heat, dangerous surf, lost contact, or medical deterioration.”."
+    ],
+    "failure_signs": [
+      "Members cannot name the stop signal or immediate safe action.",
+      "Work continues after the written trigger occurs."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain risk stop rule” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain risk stop rule”: also follow this warning: “A deadline, sunk cost, property concern, or senior person’s preference does not override a stop trigger.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain risk stop rule”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain risk stop rule”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain risk stop rule” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain risk stop rule”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0254",
+    "language": "English",
+    "title": "Rural Coastal Mountain training card",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Turn one essential local task into a short training card with purpose, prerequisites, steps, stop rules, teach-back, and a review date.",
+    "content": "Turn one essential local task into a short training card with purpose, prerequisites, steps, stop rules, teach-back, and a review date.\n\nProcedure: Choose one bounded task, state who may perform it, and list prerequisites that cannot be learned from the card alone. Write three to seven observable steps in the order used locally, with a picture or landmark when language may fail. Add explicit stop conditions, prohibited shortcuts, and the qualified contact for faults outside the learner’s role. Have the learner explain and demonstrate the task safely; record reviewer, date, and next refresher.\n\nSafety limits: A card cannot qualify someone for live electrical, gas, structural, medical, rescue, chainsaw, climbing, boat, or hazardous-chemical work. Do not train with real exposure when a safe simulation is available.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "One-page card and waterproof sleeve",
+      "Real or safe practice equipment",
+      "Competent reviewer"
+    ],
+    "steps": [
+      "Choose one bounded task, state who may perform it, and list prerequisites that cannot be learned from the card alone.",
+      "Write three to seven observable steps in the order used locally, with a picture or landmark when language may fail.",
+      "Add explicit stop conditions, prohibited shortcuts, and the qualified contact for faults outside the learner’s role.",
+      "Have the learner explain and demonstrate the task safely; record reviewer, date, and next refresher."
+    ],
+    "warnings": [
+      "A card cannot qualify someone for live electrical, gas, structural, medical, rescue, chainsaw, climbing, boat, or hazardous-chemical work.",
+      "Do not train with real exposure when a safe simulation is available."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain training card” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain training card”: before closing the card, confirm completion of “Have the learner explain and demonstrate the task safely; record reviewer, date, and next refresher.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain training card” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain training card” is: “Choose one bounded task, state who may perform it, and list prerequisites that cannot be learned from the card alone.”."
+    ],
+    "failure_signs": [
+      "The learner cannot explain the stop rule or perform the safe sequence.",
+      "The card no longer matches local equipment, route, contact, or official guidance."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain training card” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain training card”: also follow this warning: “A card cannot qualify someone for live electrical, gas, structural, medical, rescue, chainsaw, climbing, boat, or hazardous-chemical work.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain training card”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain training card”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain training card” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain training card”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0255",
+    "language": "English",
+    "title": "Rural Coastal Mountain resource ledger",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Maintain a transparent ledger of critical supplies received, stored, issued, damaged, reserved, and remaining across dispersed rural, coastal, or mountain locations.",
+    "content": "Maintain a transparent ledger of critical supplies received, stored, issued, damaged, reserved, and remaining across dispersed rural, coastal, or mountain locations.\n\nProcedure: Define one counting unit for each item and record opening stock by location. For every receipt or issue, write date, quantity, source or recipient, purpose, recorder, and remaining balance. Separate usable, reserved, expired, damaged, contaminated, and unverified stock instead of combining totals. Reconcile physical counts on a schedule, investigate differences, and publish only non-sensitive totals needed for fair planning.\n\nSafety limits: Do not alter old entries silently; correct them with a dated line that preserves the audit trail. Do not publish household identities, medicine details, key locations, or security-sensitive stock positions.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Bound ledger with numbered pages",
+      "Inventory unit definitions",
+      "Two-person count sheet for high-value stock"
+    ],
+    "steps": [
+      "Define one counting unit for each item and record opening stock by location.",
+      "For every receipt or issue, write date, quantity, source or recipient, purpose, recorder, and remaining balance.",
+      "Separate usable, reserved, expired, damaged, contaminated, and unverified stock instead of combining totals.",
+      "Reconcile physical counts on a schedule, investigate differences, and publish only non-sensitive totals needed for fair planning."
+    ],
+    "warnings": [
+      "Do not alter old entries silently; correct them with a dated line that preserves the audit trail.",
+      "Do not publish household identities, medicine details, key locations, or security-sensitive stock positions."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain resource ledger” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain resource ledger”: before closing the card, confirm completion of “Reconcile physical counts on a schedule, investigate differences, and publish only non-sensitive totals needed for fair planning.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain resource ledger” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain resource ledger” is: “Define one counting unit for each item and record opening stock by location.”."
+    ],
+    "failure_signs": [
+      "The written balance differs from the physical count without explanation.",
+      "Stock is issued without date, quantity, purpose, or responsible recorder."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain resource ledger” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain resource ledger”: also follow this warning: “Do not alter old entries silently; correct them with a dated line that preserves the audit trail.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain resource ledger”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain resource ledger”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain resource ledger” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain resource ledger”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0256",
+    "language": "English",
+    "title": "Rural Coastal Mountain privacy note",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Limit personal information in rural, coastal, or mountain emergency records to what is necessary for safety, access, continuity, and lawful handover.",
+    "content": "Limit personal information in rural, coastal, or mountain emergency records to what is necessary for safety, access, continuity, and lawful handover.\n\nProcedure: For each field, state why it is needed, who may see it, how long it is kept, and what happens when the need ends. Use contact or support codes instead of unnecessary diagnoses, identity numbers, addresses, or family details. Separate public status boards from restricted medical, identity, location, and safeguarding records. Record consent or lawful emergency basis, log access, and securely destroy extra copies when continuity no longer requires them.\n\nSafety limits: Never post full names, medical details, live locations, keys, evacuation absences, or identity documents on a public board or open group. Emergency pressure does not justify collecting information that has no safety or continuity purpose.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Privacy note attached to each form",
+      "Locked or controlled record container",
+      "Deletion and handover schedule"
+    ],
+    "steps": [
+      "For each field, state why it is needed, who may see it, how long it is kept, and what happens when the need ends.",
+      "Use contact or support codes instead of unnecessary diagnoses, identity numbers, addresses, or family details.",
+      "Separate public status boards from restricted medical, identity, location, and safeguarding records.",
+      "Record consent or lawful emergency basis, log access, and securely destroy extra copies when continuity no longer requires them."
+    ],
+    "warnings": [
+      "Never post full names, medical details, live locations, keys, evacuation absences, or identity documents on a public board or open group.",
+      "Emergency pressure does not justify collecting information that has no safety or continuity purpose."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain privacy note” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain privacy note”: before closing the card, confirm completion of “Record consent or lawful emergency basis, log access, and securely destroy extra copies when continuity no longer requires them.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain privacy note” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain privacy note” is: “For each field, state why it is needed, who may see it, how long it is kept, and what happens when the need ends.”."
+    ],
+    "failure_signs": [
+      "People cannot learn who has accessed their restricted information.",
+      "Public copies contain more personal detail than the action requires."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain privacy note” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain privacy note”: also follow this warning: “Never post full names, medical details, live locations, keys, evacuation absences, or identity documents on a public board or open group.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain privacy note”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain privacy note”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain privacy note” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain privacy note”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0257",
+    "language": "English",
+    "title": "Rural Coastal Mountain low-power habit",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Use a scheduled low-power routine that preserves batteries for official alerts, essential communication, medical support, navigation, and safe lighting.",
+    "content": "Use a scheduled low-power routine that preserves batteries for official alerts, essential communication, medical support, navigation, and safe lighting.\n\nProcedure: List devices by life safety, medicine, official alerts, coordination, navigation, lighting, work, and convenience. Set brief communication and charging windows; keep one device powered down as a reserve where practical. Disable nonessential radios, brightness, background data, and repeated searching when no signal exists. Record battery levels and expected runtime, then reallocate power before a critical device reaches its minimum reserve.\n\nSafety limits: Do not charge swollen, leaking, overheated, punctured, wet, or otherwise damaged batteries. Never run a generator, charcoal device, or fuel-burning charger indoors or near openings.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Charging priority board",
+      "Battery level log",
+      "Low-power radio and phone settings"
+    ],
+    "steps": [
+      "List devices by life safety, medicine, official alerts, coordination, navigation, lighting, work, and convenience.",
+      "Set brief communication and charging windows; keep one device powered down as a reserve where practical.",
+      "Disable nonessential radios, brightness, background data, and repeated searching when no signal exists.",
+      "Record battery levels and expected runtime, then reallocate power before a critical device reaches its minimum reserve."
+    ],
+    "warnings": [
+      "Do not charge swollen, leaking, overheated, punctured, wet, or otherwise damaged batteries.",
+      "Never run a generator, charcoal device, or fuel-burning charger indoors or near openings."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain low-power habit” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain low-power habit”: before closing the card, confirm completion of “Record battery levels and expected runtime, then reallocate power before a critical device reaches its minimum reserve.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain low-power habit” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain low-power habit” is: “List devices by life safety, medicine, official alerts, coordination, navigation, lighting, work, and convenience.”."
+    ],
+    "failure_signs": [
+      "A critical communication or medical-support device reaches reserve level with no charged alternative.",
+      "Charging demand exceeds safe available power and no priority decision is recorded."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain low-power habit” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain low-power habit”: also follow this warning: “Do not charge swollen, leaking, overheated, punctured, wet, or otherwise damaged batteries.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain low-power habit”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain low-power habit”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain low-power habit” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain low-power habit”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0258",
+    "language": "English",
+    "title": "Rural Coastal Mountain child-safe version",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Adapt local emergency routines so children receive simple roles, clear physical boundaries, identity support, calm explanations, and reliable reunification.",
+    "content": "Adapt local emergency routines so children receive simple roles, clear physical boundaries, identity support, calm explanations, and reliable reunification.\n\nProcedure: Assign each child a known adult and a backup; practise the nearby and out-of-area meeting points. Explain the current action in short truthful sentences and give one safe task such as carrying a light item or checking a card. Mark no-go areas around roads, cliffs, water, machinery, cleanup zones, fuel, fire, and unstable ground. Count children at every movement and handover, record who released and received them, and preserve sleep, food, water, medicine, and comfort routines.\n\nSafety limits: Never give children watch, fire, fuel, electrical, water-crossing, cliff, vehicle-control, or hazardous-cleanup duties. Do not publish a child’s full identity, live location, or absence to an open channel.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Child contact card without unnecessary private detail",
+      "Visible safe-area marker",
+      "Age-appropriate comfort and activity items"
+    ],
+    "steps": [
+      "Assign each child a known adult and a backup; practise the nearby and out-of-area meeting points.",
+      "Explain the current action in short truthful sentences and give one safe task such as carrying a light item or checking a card.",
+      "Mark no-go areas around roads, cliffs, water, machinery, cleanup zones, fuel, fire, and unstable ground.",
+      "Count children at every movement and handover, record who released and received them, and preserve sleep, food, water, medicine, and comfort routines."
+    ],
+    "warnings": [
+      "Never give children watch, fire, fuel, electrical, water-crossing, cliff, vehicle-control, or hazardous-cleanup duties.",
+      "Do not publish a child’s full identity, live location, or absence to an open channel."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain child-safe version” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain child-safe version”: before closing the card, confirm completion of “Count children at every movement and handover, record who released and received them, and preserve sleep, food, water, medicine, and comfort routines.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain child-safe version” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain child-safe version” is: “Assign each child a known adult and a backup; practise the nearby and out-of-area meeting points.”."
+    ],
+    "failure_signs": [
+      "A child is moved without a named receiving adult or written count.",
+      "The child cannot state or show the safe meeting point appropriate to their age."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain child-safe version” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain child-safe version”: also follow this warning: “Never give children watch, fire, fuel, electrical, water-crossing, cliff, vehicle-control, or hazardous-cleanup duties.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain child-safe version”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain child-safe version”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain child-safe version” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain child-safe version”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0259",
+    "language": "English",
+    "title": "Rural Coastal Mountain elder support version",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Adapt village, coast, and mountain continuity plans for older adults by linking check-ins, medicine records, mobility, hearing, heat, cold, and transport support.",
+    "content": "Adapt village, coast, and mountain continuity plans for older adults by linking check-ins, medicine records, mobility, hearing, heat, cold, and transport support.\n\nProcedure: Ask the person what help they want and record communication, mobility, medicine, continence, food, temperature, and device needs. Set check-in times and a missed-check trigger, with a nearby helper and a backup who can access the home lawfully. Prepare safe transport for stairs, rough ground, heat, cold, ferry or road interruption without lifting methods beyond training. At every move, transfer the medicine list, mobility aids, glasses, hearing supplies, identification, contacts, water, and destination.\n\nSafety limits: Do not change prescribed doses, force assistance, remove decision-making, or use unsafe manual lifting. Heat, cold, dehydration, infection, confusion, falls, breathing difficulty, and missed medicine may require prompt professional assessment.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Individual support card",
+      "Medicine and clinician/pharmacy contact list",
+      "Mobility aid, spare sensory-device supplies, and transport plan"
+    ],
+    "steps": [
+      "Ask the person what help they want and record communication, mobility, medicine, continence, food, temperature, and device needs.",
+      "Set check-in times and a missed-check trigger, with a nearby helper and a backup who can access the home lawfully.",
+      "Prepare safe transport for stairs, rough ground, heat, cold, ferry or road interruption without lifting methods beyond training.",
+      "At every move, transfer the medicine list, mobility aids, glasses, hearing supplies, identification, contacts, water, and destination."
+    ],
+    "warnings": [
+      "Do not change prescribed doses, force assistance, remove decision-making, or use unsafe manual lifting.",
+      "Heat, cold, dehydration, infection, confusion, falls, breathing difficulty, and missed medicine may require prompt professional assessment."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain elder support version” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain elder support version”: before closing the card, confirm completion of “At every move, transfer the medicine list, mobility aids, glasses, hearing supplies, identification, contacts, water, and destination.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain elder support version” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain elder support version” is: “Ask the person what help they want and record communication, mobility, medicine, continence, food, temperature, and device needs.”."
+    ],
+    "failure_signs": [
+      "A scheduled check-in is missed and no backup confirms safety.",
+      "Transport, medicine, mobility aid, or communication support is unavailable when conditions worsen."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain elder support version” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain elder support version”: also follow this warning: “Do not change prescribed doses, force assistance, remove decision-making, or use unsafe manual lifting.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain elder support version”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain elder support version”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain elder support version” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain elder support version”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass85-0260",
+    "language": "English",
+    "title": "Rural Coastal Mountain Greek-English sign",
+    "category": "Rural · Coastal · Mountain",
+    "subcategory": "Rural · Coastal · Mountain · Routine",
+    "summary": "Post a concise Greek-English emergency sign that states the verified hazard, affected area, required action, direction, source, time, and next update.",
+    "content": "Post a concise Greek-English emergency sign that states the verified hazard, affected area, required action, direction, source, time, and next update.\n\nProcedure: Write the action first in Greek and English using short verbs such as leave, do not enter, boil water, shelter, or meeting point. Add the exact affected place, safe direction or destination, date and time, official source, and next expected update. Use large letters, high contrast, arrows, and a simple symbol; place copies at decision points without blocking exits. Have one Greek reader and one English reader independently explain the sign, then replace it when the instruction changes or expires.\n\nSafety limits: Do not invent authority, translate uncertain information as fact, or leave an expired instruction displayed. Avoid names, medical details, live household locations, or other private information on a public sign.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "village",
+      "coast",
+      "mountain",
+      "animals",
+      "weather",
+      "rural_coastal_mountain",
+      "rural_coastal_mountain_routine",
+      "pass85",
+      "offline",
+      "bilingual",
+      "pass97",
+      "semantic-repair",
+      "pass98-semantic-polish",
+      "pass98-semantic-repair",
+      "rural-coastal-mountain",
+      "continuity"
+    ],
+    "materials": [
+      "Large weather-resistant paper or board",
+      "Thick dark marker and directional arrows",
+      "Verified official message and clock"
+    ],
+    "steps": [
+      "Write the action first in Greek and English using short verbs such as leave, do not enter, boil water, shelter, or meeting point.",
+      "Add the exact affected place, safe direction or destination, date and time, official source, and next expected update.",
+      "Use large letters, high contrast, arrows, and a simple symbol; place copies at decision points without blocking exits.",
+      "Have one Greek reader and one English reader independently explain the sign, then replace it when the instruction changes or expires."
+    ],
+    "warnings": [
+      "Do not invent authority, translate uncertain information as fact, or leave an expired instruction displayed.",
+      "Avoid names, medical details, live household locations, or other private information on a public sign."
+    ],
+    "common_mistakes": [
+      "Starting “Rural Coastal Mountain Greek-English sign” without assigning a responsible person and review time.",
+      "Treating an estimate as verified fact instead of recording uncertainty and the source. Topic-specific verification for “Rural Coastal Mountain Greek-English sign”: before closing the card, confirm completion of “Have one Greek reader and one English reader independently explain the sign, then replace it when the instruction changes or expires.”."
+    ],
+    "alternatives": [
+      "If the full procedure for “Rural Coastal Mountain Greek-English sign” cannot be completed, perform only the first safe step and record what remains unresolved.",
+      "Use a paper note and direct verbal handover when power or networks are unavailable. The safest reduced starting action for “Rural Coastal Mountain Greek-English sign” is: “Write the action first in Greek and English using short verbs such as leave, do not enter, boil water, shelter, or meeting point.”."
+    ],
+    "failure_signs": [
+      "Greek and English readers understand different actions or destinations.",
+      "The sign has no time, source, affected area, or next-update point."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Rural Coastal Mountain Greek-English sign” in fire, dense smoke, rising water, gas, live electricity, unstable structures, violence, dangerous surf, or another uncontrolled hazard.",
+      "Official closure, evacuation, medical, fire-service, coast-guard, or civil-protection instructions override this card. Topic-specific stop check for “Rural Coastal Mountain Greek-English sign”: also follow this warning: “Do not invent authority, translate uncertain information as fact, or leave an expired instruction displayed.”."
+    ],
+    "short_term": "For the initial field cycle of “Rural Coastal Mountain Greek-English sign”, complete the first two steps, confirm the warning boundaries, and set a written time for the next check.",
+    "long_term": "For repeated use of “Rural Coastal Mountain Greek-English sign”, compare records with actual outcomes, practise the handover, maintain materials, and revise the card after route, season, population, equipment, or official-guidance changes.",
+    "if_method_fails": "If “Rural Coastal Mountain Greek-English sign” cannot produce a verified safe result, stop, mark the unresolved issue, protect people from the failure path, and transfer the decision to the competent authority or qualified professional.",
+    "environment_notes": "For “Rural Coastal Mountain Greek-English sign”, account for rapid changes in wind, heat, cold, rainfall, drainage, sea state, road access, slope stability, wildfire conditions, and seasonal population.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "Greek Civil Protection protection guidance: https://civilprotection.gov.gr/en/odigies-prostasias"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

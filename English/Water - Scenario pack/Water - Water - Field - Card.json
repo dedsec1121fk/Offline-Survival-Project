@@ -1,0 +1,218 @@
+[
+  {
+    "id": "pass97-0025-water-storage-rotation",
+    "language": "English",
+    "title": "Stored-water rotation and inspection",
+    "category": "Water · Scenario pack",
+    "subcategory": "Water · Water · Field · Card",
+    "summary": "Keep emergency water traceable, protected, and regularly inspected instead of discovering damaged or uncertain containers during a crisis.",
+    "content": "Keep emergency water traceable, protected, and regularly inspected instead of discovering damaged or uncertain containers during a crisis.\n\nPractical sequence: Number containers, record source and fill date, inspect seals and surroundings, rotate home-filled water on schedule, and reserve more for heat, illness, pregnancy, children, and animals. Identify the source, likely contamination, intended use, and current official advisory for “Stored-water rotation and inspection”. Keep raw, treated, and wastewater containers physically separate and clearly labelled for “Stored-water rotation and inspection”. Use only a treatment method appropriate to the suspected hazard; ordinary treatment does not remove every chemical or radioactive contaminant for “Stored-water rotation and inspection”. Protect the treated supply from hands, cups, animals, sunlight, leaks, and dirty caps for “Stored-water rotation and inspection”. Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Stored-water rotation and inspection”. Safety limits: Official instructions and emergency services override “Stored-water rotation and inspection”; do not delay evacuation or urgent help to complete the card. Never assume clear-looking water is safe, and never mix unknown treatment chemicals in “Stored-water rotation and inspection”. Do not use containers that previously held fuel, pesticides, solvents, or other toxic products in “Stored-water rotation and inspection”. Reduced fallback: If “food-grade water containers for “Stored-water rotation and inspection”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:water",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "water",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "food-grade water containers for “Stored-water rotation and inspection”",
+      "clean caps or lids for “Stored-water rotation and inspection”",
+      "labels and marker for “Stored-water rotation and inspection”",
+      "separate collection and treated-water tools for “Stored-water rotation and inspection”",
+      "written local advisory for “Stored-water rotation and inspection”"
+    ],
+    "steps": [
+      "Number containers, record source and fill date, inspect seals and surroundings, rotate home-filled water on schedule, and reserve more for heat, illness, pregnancy, children, and animals.",
+      "Identify the source, likely contamination, intended use, and current official advisory for “Stored-water rotation and inspection”.",
+      "Keep raw, treated, and wastewater containers physically separate and clearly labelled for “Stored-water rotation and inspection”.",
+      "Use only a treatment method appropriate to the suspected hazard; ordinary treatment does not remove every chemical or radioactive contaminant for “Stored-water rotation and inspection”.",
+      "Protect the treated supply from hands, cups, animals, sunlight, leaks, and dirty caps for “Stored-water rotation and inspection”.",
+      "Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Stored-water rotation and inspection”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Stored-water rotation and inspection”; do not delay evacuation or urgent help to complete the card.",
+      "Never assume clear-looking water is safe, and never mix unknown treatment chemicals in “Stored-water rotation and inspection”.",
+      "Do not use containers that previously held fuel, pesticides, solvents, or other toxic products in “Stored-water rotation and inspection”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Stored-water rotation and inspection” unreliable: Number containers, record source and fill date, inspect seals and surroundings, rotate home-filled water on schedule, and reserve more for heat, illness, pregnancy, children, and animals.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Stored-water rotation and inspection”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Stored-water rotation and inspection”."
+    ],
+    "alternatives": [
+      "If “food-grade water containers for “Stored-water rotation and inspection”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Stored-water rotation and inspection”, complete the first two verified actions—Number containers, record source and fill date, inspect seals and surroundings, rotate home-filled water on schedule, and reserve more for heat, illness, pregnancy, children, and animals. Identify the source, likely contamination, intended use, and current official advisory for “Stored-water rotation and inspection”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Stored-water rotation and inspection” when treated water develops an unusual smell, colour, taste, sediment, damaged seal, or uncertain history.",
+      "Stop and reassess “Stored-water rotation and inspection” when illness appears among users or the source becomes affected by floodwater, sewage, chemicals, or an official warning."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Stored-water rotation and inspection” while the source may contain sewage, fuel, pesticides, salt, floodwater, radioactive material, or another hazard that the chosen treatment cannot remove.",
+      "This card is not authorization to declare unknown water safe, mix treatment chemicals, or use a container that previously held toxic products. Topic-specific stop check for “Stored-water rotation and inspection”: also follow this warning: “Official instructions and emergency services override “Stored-water rotation and inspection”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Stored-water rotation and inspection”, carry out number containers, record source and fill date, inspect seals and surroundings, rotate home-filled water on schedule, and reserve more for heat, illness, pregnancy, children, and animals. Follow with identify the source, likely contamination, intended use, and current official advisory for “Stored-water rotation and inspection”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Stored-water rotation and inspection” when treated water develops an unusual smell, colour, taste, sediment, damaged seal, or uncertain history.",
+    "long_term": "For repeated use of “Stored-water rotation and inspection”, keep “clean caps or lids for “Stored-water rotation and inspection”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Stored-water rotation and inspection” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Separate collection, treatment, drinking, washing, and wastewater containers; follow local boil-water or do-not-use notices exactly. For “Stored-water rotation and inspection”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Boil-water advisory household station",
+      "Daily water-needs ledger"
+    ],
+    "sources": [
+      "https://www.cdc.gov/water-emergency/about/index.html"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass97-0026-water-advisory-station",
+    "language": "English",
+    "title": "Boil-water advisory household station",
+    "category": "Water · Scenario pack",
+    "subcategory": "Water · Water · Field · Card",
+    "summary": "Create one controlled point for drinking-water decisions while a boil-water or contamination advisory is active.",
+    "content": "Create one controlled point for drinking-water decisions while a boil-water or contamination advisory is active.\n\nWorking sequence: Post the exact advisory, separate untreated and safe water, cover toothbrushing and food uses, assign one operator, and record when authorities lift or change the notice. Identify the source, likely contamination, intended use, and current official advisory for “Boil-water advisory household station”. Keep raw, treated, and wastewater containers physically separate and clearly labelled for “Boil-water advisory household station”. Use only a treatment method appropriate to the suspected hazard; ordinary treatment does not remove every chemical or radioactive contaminant for “Boil-water advisory household station”. Protect the treated supply from hands, cups, animals, sunlight, leaks, and dirty caps for “Boil-water advisory household station”. Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Boil-water advisory household station”. Safety limits: Official instructions and emergency services override “Boil-water advisory household station”; do not delay evacuation or urgent help to complete the card. Never assume clear-looking water is safe, and never mix unknown treatment chemicals in “Boil-water advisory household station”. Do not use containers that previously held fuel, pesticides, solvents, or other toxic products in “Boil-water advisory household station”. Reduced fallback: If “food-grade water containers for “Boil-water advisory household station”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:water",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "water",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "food-grade water containers for “Boil-water advisory household station”",
+      "clean caps or lids for “Boil-water advisory household station”",
+      "labels and marker for “Boil-water advisory household station”",
+      "separate collection and treated-water tools for “Boil-water advisory household station”",
+      "written local advisory for “Boil-water advisory household station”"
+    ],
+    "steps": [
+      "Post the exact advisory, separate untreated and safe water, cover toothbrushing and food uses, assign one operator, and record when authorities lift or change the notice.",
+      "Identify the source, likely contamination, intended use, and current official advisory for “Boil-water advisory household station”.",
+      "Keep raw, treated, and wastewater containers physically separate and clearly labelled for “Boil-water advisory household station”.",
+      "Use only a treatment method appropriate to the suspected hazard; ordinary treatment does not remove every chemical or radioactive contaminant for “Boil-water advisory household station”.",
+      "Protect the treated supply from hands, cups, animals, sunlight, leaks, and dirty caps for “Boil-water advisory household station”.",
+      "Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Boil-water advisory household station”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Boil-water advisory household station”; do not delay evacuation or urgent help to complete the card.",
+      "Never assume clear-looking water is safe, and never mix unknown treatment chemicals in “Boil-water advisory household station”.",
+      "Do not use containers that previously held fuel, pesticides, solvents, or other toxic products in “Boil-water advisory household station”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Boil-water advisory household station” unreliable: Post the exact advisory, separate untreated and safe water, cover toothbrushing and food uses, assign one operator, and record when authorities lift or change the notice.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Boil-water advisory household station”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Boil-water advisory household station”."
+    ],
+    "alternatives": [
+      "If “food-grade water containers for “Boil-water advisory household station”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Boil-water advisory household station”, complete the first two verified actions—Post the exact advisory, separate untreated and safe water, cover toothbrushing and food uses, assign one operator, and record when authorities lift or change the notice. Identify the source, likely contamination, intended use, and current official advisory for “Boil-water advisory household station”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Boil-water advisory household station” when treated water develops an unusual smell, colour, taste, sediment, damaged seal, or uncertain history.",
+      "Stop and reassess “Boil-water advisory household station” when illness appears among users or the source becomes affected by floodwater, sewage, chemicals, or an official warning."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Boil-water advisory household station” while the source may contain sewage, fuel, pesticides, salt, floodwater, radioactive material, or another hazard that the chosen treatment cannot remove.",
+      "This card is not authorization to declare unknown water safe, mix treatment chemicals, or use a container that previously held toxic products. Topic-specific stop check for “Boil-water advisory household station”: also follow this warning: “Official instructions and emergency services override “Boil-water advisory household station”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Boil-water advisory household station”, carry out post the exact advisory, separate untreated and safe water, cover toothbrushing and food uses, assign one operator, and record when authorities lift or change the notice. Follow with identify the source, likely contamination, intended use, and current official advisory for “Boil-water advisory household station”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Boil-water advisory household station” when treated water develops an unusual smell, colour, taste, sediment, damaged seal, or uncertain history.",
+    "long_term": "For repeated use of “Boil-water advisory household station”, keep “clean caps or lids for “Boil-water advisory household station”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Boil-water advisory household station” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Separate collection, treatment, drinking, washing, and wastewater containers; follow local boil-water or do-not-use notices exactly. For “Boil-water advisory household station”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Stored-water rotation and inspection",
+      "Daily water-needs ledger"
+    ],
+    "sources": [
+      "https://www.cdc.gov/water-emergency/about/index.html"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass97-0030-water-daily-budget",
+    "language": "English",
+    "title": "Daily water-needs ledger",
+    "category": "Water · Scenario pack",
+    "subcategory": "Water · Water · Field · Card",
+    "summary": "Track drinking, cooking, medicine, hygiene, animals, and losses so rationing decisions are visible and vulnerable needs are protected.",
+    "content": "Track drinking, cooking, medicine, hygiene, animals, and losses so rationing decisions are visible and vulnerable needs are protected.\n\nWorking sequence: Record opening volume, protected reserve, each use, refill source, leakage, hot-weather adjustment, and verified closing balance rather than relying on memory. Identify the source, likely contamination, intended use, and current official advisory for “Daily water-needs ledger”. Keep raw, treated, and wastewater containers physically separate and clearly labelled for “Daily water-needs ledger”. Use only a treatment method appropriate to the suspected hazard; ordinary treatment does not remove every chemical or radioactive contaminant for “Daily water-needs ledger”. Protect the treated supply from hands, cups, animals, sunlight, leaks, and dirty caps for “Daily water-needs ledger”. Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Daily water-needs ledger”. Safety limits: Official instructions and emergency services override “Daily water-needs ledger”; do not delay evacuation or urgent help to complete the card. Never assume clear-looking water is safe, and never mix unknown treatment chemicals in “Daily water-needs ledger”. Do not use containers that previously held fuel, pesticides, solvents, or other toxic products in “Daily water-needs ledger”. Reduced fallback: If “food-grade water containers for “Daily water-needs ledger”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:water",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "water",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "food-grade water containers for “Daily water-needs ledger”",
+      "clean caps or lids for “Daily water-needs ledger”",
+      "labels and marker for “Daily water-needs ledger”",
+      "separate collection and treated-water tools for “Daily water-needs ledger”",
+      "written local advisory for “Daily water-needs ledger”"
+    ],
+    "steps": [
+      "Record opening volume, protected reserve, each use, refill source, leakage, hot-weather adjustment, and verified closing balance rather than relying on memory.",
+      "Identify the source, likely contamination, intended use, and current official advisory for “Daily water-needs ledger”.",
+      "Keep raw, treated, and wastewater containers physically separate and clearly labelled for “Daily water-needs ledger”.",
+      "Use only a treatment method appropriate to the suspected hazard; ordinary treatment does not remove every chemical or radioactive contaminant for “Daily water-needs ledger”.",
+      "Protect the treated supply from hands, cups, animals, sunlight, leaks, and dirty caps for “Daily water-needs ledger”.",
+      "Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Daily water-needs ledger”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Daily water-needs ledger”; do not delay evacuation or urgent help to complete the card.",
+      "Never assume clear-looking water is safe, and never mix unknown treatment chemicals in “Daily water-needs ledger”.",
+      "Do not use containers that previously held fuel, pesticides, solvents, or other toxic products in “Daily water-needs ledger”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Daily water-needs ledger” unreliable: Record opening volume, protected reserve, each use, refill source, leakage, hot-weather adjustment, and verified closing balance rather than relying on memory.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Daily water-needs ledger”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Daily water-needs ledger”."
+    ],
+    "alternatives": [
+      "If “food-grade water containers for “Daily water-needs ledger”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Daily water-needs ledger”, complete the first two verified actions—Record opening volume, protected reserve, each use, refill source, leakage, hot-weather adjustment, and verified closing balance rather than relying on memory. Identify the source, likely contamination, intended use, and current official advisory for “Daily water-needs ledger”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Daily water-needs ledger” when treated water develops an unusual smell, colour, taste, sediment, damaged seal, or uncertain history.",
+      "Stop and reassess “Daily water-needs ledger” when illness appears among users or the source becomes affected by floodwater, sewage, chemicals, or an official warning."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Daily water-needs ledger” while the source may contain sewage, fuel, pesticides, salt, floodwater, radioactive material, or another hazard that the chosen treatment cannot remove.",
+      "This card is not authorization to declare unknown water safe, mix treatment chemicals, or use a container that previously held toxic products. Topic-specific stop check for “Daily water-needs ledger”: also follow this warning: “Official instructions and emergency services override “Daily water-needs ledger”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Daily water-needs ledger”, carry out record opening volume, protected reserve, each use, refill source, leakage, hot-weather adjustment, and verified closing balance rather than relying on memory. Follow with identify the source, likely contamination, intended use, and current official advisory for “Daily water-needs ledger”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Daily water-needs ledger” when treated water develops an unusual smell, colour, taste, sediment, damaged seal, or uncertain history.",
+    "long_term": "For repeated use of “Daily water-needs ledger”, keep “clean caps or lids for “Daily water-needs ledger”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Daily water-needs ledger” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Separate collection, treatment, drinking, washing, and wastewater containers; follow local boil-water or do-not-use notices exactly. For “Daily water-needs ledger”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Stored-water rotation and inspection",
+      "Boil-water advisory household station"
+    ],
+    "sources": [
+      "https://www.cdc.gov/water-emergency/about/index.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

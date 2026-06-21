@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pass90-0018",
+    "language": "English",
+    "title": "Decision log for scarce resources",
+    "category": "Mobility · Communication · Records",
+    "subcategory": "Resource · Governance",
+    "summary": "A transparent log for allocating scarce water, food, fuel, batteries, medicine support, tools, and transport time.",
+    "content": "Scarcity turns small decisions into lasting conflict if nobody can explain them. The log records what existed, who was affected, what rule was used, who decided, when it will be reviewed, and how corrections can happen.",
+    "difficulty": "intermediate",
+    "urgency": "medium",
+    "priority": "high",
+    "tags": [
+      "governance",
+      "scarcity",
+      "fairness",
+      "records",
+      "community"
+    ],
+    "materials": [
+      "Decision notebook",
+      "Inventory sheet",
+      "Review time. Context: “Decision log for scarce resources”.",
+      "Witness initials"
+    ],
+    "steps": [
+      "Define the scarce item and amount.",
+      "State the rule before distribution.",
+      "Record vulnerable needs without unnecessary private details.",
+      "Write decision maker and witness.",
+      "Set a review time."
+    ],
+    "warnings": [
+      "Do not allocate medicines unless qualified; log support and referral instead.",
+      "Do not expose sensitive health details publicly.",
+      "Do not let threats control allocation."
+    ],
+    "common_mistakes": [
+      "Changing the rule after seeing who benefits.",
+      "Keeping decisions verbal only.",
+      "Reviewing only when powerful people complain."
+    ],
+    "alternatives": [
+      "Run a smaller version of Decision log for scarce resources with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Decision log for scarce resources if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Decision log for scarce resources and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Decision log for scarce resources or when the next check happens.",
+      "Supplies connected to Decision log for scarce resources are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Decision log for scarce resources”"
+    ],
+    "when_not_to_use": [
+      "Do not use Decision log for scarce resources as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Decision log for scarce resources when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Decision log for scarce resources."
+    ],
+    "short_term": "For the first hours of Decision log for scarce resources, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Decision log for scarce resources remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Decision log for scarce resources fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Decision log for scarce resources to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Offline map correction log"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

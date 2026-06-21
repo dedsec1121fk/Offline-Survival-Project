@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pass88-0007",
+    "language": "English",
+    "title": "Rain gutter first-flush barrel routine",
+    "category": "Civilization · Bootstrap · Materials",
+    "subcategory": "Water · Collection · Infrastructure",
+    "summary": "A routine for diverting dirty first roof runoff and keeping rain collection barrels cleaner and better documented.",
+    "content": "Rain gutter first-flush barrel routine is a practical improvement when roof runoff carries dust, bird waste, leaves, and other contaminants into storage water. The goal is to let the earliest dirty runoff go elsewhere before cleaner water enters the main barrel. Write down the roof material, nearby trees, bird pressure, and the size of the first-flush section so changes can be tracked across seasons. Clean leaves and obvious debris before rain when possible. After a storm, inspect the diverted waste section, the main barrel lid, insect barriers, and any overflow path. Keep clear labels showing that collected rainwater still needs treatment based on its use, because collection alone does not make it safe for all drinking purposes.",
+    "difficulty": "moderate",
+    "urgency": "seasonal",
+    "priority": "medium",
+    "tags": [
+      "rainwater",
+      "gutter",
+      "barrel",
+      "water",
+      "offline",
+      "bilingual",
+      "pass88"
+    ],
+    "materials": [
+      "Gutter",
+      "Diversion section",
+      "Barrel with lid",
+      "Screen or insect barrier",
+      "Brush. Context: “Rain gutter first-flush barrel routine”.",
+      "Notebook. Context: “Rain gutter first-flush barrel routine”."
+    ],
+    "steps": [
+      "Document the roof and collection setup.",
+      "Clean debris before rain when possible.",
+      "Let the first dirty runoff divert away from the main barrel.",
+      "Inspect the lid, screens, and overflow after storms.",
+      "Label the water by intended use and treatment need.",
+      "Review the system seasonally for contamination changes."
+    ],
+    "warnings": [
+      "Roof runoff can contain harmful contamination.",
+      "Do not assume barrel water is automatically drinking-safe.",
+      "Mosquito control matters in stored rainwater systems."
+    ],
+    "common_mistakes": [
+      "Skipping post-storm inspection.",
+      "Leaving barrels open.",
+      "Ignoring overflow routes near foundations or paths."
+    ],
+    "alternatives": [
+      "Use the water for washing or irrigation if drinking treatment is uncertain.",
+      "Collect from a cleaner roof section only.",
+      "Use smaller separate barrels instead of one large container."
+    ],
+    "failure_signs": [
+      "Bad smell or visible film in the barrel.",
+      "Screens clog or break repeatedly.",
+      "The diversion section never gets cleaned between rains."
+    ],
+    "when_not_to_use": [
+      "Do not use runoff from obviously toxic or contaminated roofs for drinking purposes.",
+      "Do not use the system where mosquito control cannot be maintained."
+    ],
+    "short_term": "Improve rainwater cleanliness before storage.",
+    "long_term": "Build a documented seasonal rain collection routine.",
+    "if_method_fails": "Bypass the barrel, clean the system, and reset labels and treatment assumptions.",
+    "environment_notes": "Roof type, windblown dust, bird pressure, and long dry periods change contamination level.",
+    "related_topics": [
+      "Earthen cool storage pit upkeep",
+      "Limewash mixing safety routine",
+      "Community apprenticeship ledger"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

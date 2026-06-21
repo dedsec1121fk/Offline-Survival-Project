@@ -1,0 +1,77 @@
+[
+  {
+    "id": "core-food-planning-002",
+    "language": "English",
+    "title": "Seed and crop notebook",
+    "category": "Food · Agriculture · Psychology · Planning · Daily operations",
+    "subcategory": "Agriculture · Records",
+    "summary": "A notebook structure for seed inventory, planting dates, water needs, failures, harvest, and seed saving.",
+    "content": "Small food production fails when people plant without records and then forget what worked. A seed and crop notebook turns gardens, pots, rooftops, yards, and village plots into learning systems. Record seed source, date, location, soil condition, watering, pests, weather, germination, harvest, taste, storage, and whether seed was saved. Keep experimental rows separate from dependable food rows. In a long disruption, saved local notes describe your actual soil, shade, water, insects, and season timing.",
+    "difficulty": "moderate",
+    "urgency": "low",
+    "priority": "high",
+    "tags": [
+      "seeds",
+      "agriculture",
+      "garden",
+      "records",
+      "food production",
+      "crop planning"
+    ],
+    "materials": [
+      "Notebook. Context: “Seed and crop notebook”.",
+      "Pencil. Context: “Seed and crop notebook”.",
+      "Seed packets or saved seed",
+      "Labels. Context: “Seed and crop notebook”.",
+      "Water log",
+      "Simple map of beds or pots"
+    ],
+    "steps": [
+      "Number each bed, pot, or row.",
+      "Record seed name, source, and date planted.",
+      "Track watering, weather, pests, and germination.",
+      "Mark failures clearly; failed notes prevent repeated waste.",
+      "Record harvest amount and storage result.",
+      "Save seed only from healthy plants when suitable."
+    ],
+    "warnings": [
+      "Do not eat unknown plants because they look similar to edible crops.",
+      "Do not depend on one crop or one seed source.",
+      "Do not save moldy or diseased seed."
+    ],
+    "common_mistakes": [
+      "Planting everything at once.",
+      "Forgetting which seed went where.",
+      "Throwing away failure notes."
+    ],
+    "alternatives": [
+      "Run a smaller version of Seed and crop notebook with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Seed and crop notebook if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Seed and crop notebook and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Seed and crop notebook or when the next check happens.",
+      "Supplies connected to Seed and crop notebook are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Seed and crop notebook”"
+    ],
+    "when_not_to_use": [
+      "Do not use Seed and crop notebook as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Seed and crop notebook when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Seed and crop notebook."
+    ],
+    "short_term": "For the first hours of Seed and crop notebook, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Seed and crop notebook remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Seed and crop notebook fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Seed and crop notebook to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Staple food ration board",
+      "Safe household water chain",
+      "Local incident and resource log"
+    ],
+    "sources": [
+      "https://www.fao.org/emergencies/en",
+      "https://www.fao.org/animal-health/en"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

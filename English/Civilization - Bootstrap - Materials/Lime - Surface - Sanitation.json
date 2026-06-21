@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pass88-0002",
+    "language": "English",
+    "title": "Limewash mixing safety routine",
+    "category": "Civilization · Bootstrap · Materials",
+    "subcategory": "Lime · Surface · Sanitation",
+    "summary": "A cautious routine for mixing and documenting limewash for wall brightening, insect discouragement, and simple washable surface maintenance.",
+    "content": "Limewash mixing safety routine is useful when a group wants a bright, cheap, mineral coating for walls, storage rooms, animal areas, or utility spaces. Begin by checking that the lime source is known and not mixed with unknown industrial waste. Use eye protection, gloves, and slow addition of water because dry lime and fresh wet lime can irritate skin, eyes, and lungs. Mix in a stable nonreactive bucket, stir patiently, and let the mixture settle before judging thickness. Test on a small section first to see how the surface absorbs it and whether dusting, peeling, or patchy color appears. Write down the ratio, date, wall type, and number of coats so the next batch is based on memory plus records, not memory alone. Keep children away from fresh mix and do not store unlabeled containers where they can be mistaken for drinking water.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "non_immediate",
+    "priority": "medium",
+    "tags": [
+      "limewash",
+      "sanitation",
+      "walls",
+      "surface",
+      "offline",
+      "bilingual",
+      "pass88"
+    ],
+    "materials": [
+      "Known lime source",
+      "Clean water. Context: “Limewash mixing safety routine”.",
+      "Bucket. Context: “Limewash mixing safety routine”.",
+      "Stirring stick",
+      "Gloves. Context: “Limewash mixing safety routine”.",
+      "Eye protection"
+    ],
+    "steps": [
+      "Confirm the lime source and label the batch.",
+      "Add water slowly and mix carefully.",
+      "Let the mix settle before adjusting thickness.",
+      "Test on a small patch first.",
+      "Write down the ratio and wall type.",
+      "Store tools and leftovers safely away from children."
+    ],
+    "warnings": [
+      "Fresh lime can burn skin and eyes.",
+      "Do not mix unlabeled powders from unknown sources.",
+      "Do not apply in poorly ventilated dust-heavy spaces without protection."
+    ],
+    "common_mistakes": [
+      "Adding water too fast.",
+      "Judging thickness immediately instead of after settling.",
+      "Skipping the small wall test."
+    ],
+    "alternatives": [
+      "Use a smaller batch for testing first.",
+      "Delay application until dry weather.",
+      "Choose ordinary cleaning if the surface is unsuitable for coating."
+    ],
+    "failure_signs": [
+      "The coating powders off heavily after drying.",
+      "It peels in sheets from the wall.",
+      "The batch separates badly and never stabilizes."
+    ],
+    "when_not_to_use": [
+      "Do not use where eye or chemical safety cannot be maintained.",
+      "Do not use over unstable painted layers that are already detaching badly."
+    ],
+    "short_term": "Brighten and refresh a usable surface safely.",
+    "long_term": "Create a documented wall-maintenance routine for shared spaces.",
+    "if_method_fails": "Stop coating, wash exposed skin, and review material quality before another batch.",
+    "environment_notes": "Humidity, absorbent walls, and dust level strongly affect the finish.",
+    "related_topics": [
+      "Clay brick drying rack routine",
+      "Ash-based soap making notes",
+      "Community apprenticeship ledger"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

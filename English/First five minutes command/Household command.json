@@ -1,0 +1,72 @@
+[
+  {
+    "id": "pass103-0001-first-five-minutes-household-command-reset",
+    "language": "English",
+    "title": "First five minutes household command reset",
+    "category": "First five minutes command",
+    "subcategory": "Household command",
+    "summary": "A short reset for the first five minutes after a shock, alarm, crash, smoke smell, violent weather, or unclear warning. It turns panic into a named caller, a safe meeting point, a head count, and one next action.",
+    "content": "A short reset for the first five minutes after a shock, alarm, crash, smoke smell, violent weather, or unclear warning. It turns panic into a named caller, a safe meeting point, a head count, and one next action.\n\nUse it when the situation is real but still manageable. Work slowly, keep one written decision log, and prefer the safest reversible action over a dramatic improvisation.\n\nCore sequence: 1) Say out loud what happened in one sentence and appoint one person to call or listen for official instructions. 2) Move everyone away from the immediate hazard before collecting bags, keys, shoes, or documents. 3) Count people, pets, mobility aids, essential medicines, and phones; write only missing items. 4) Choose one next action: shelter, leave, call 112, shut a safe utility, or wait for official instructions.\n\nStop point: Do not use this reset to override an evacuation order, official shelter instruction, or immediate order from emergency responders. Main warnings: Do not send several people to investigate the same hazard while others are uncounted. Do not delay a 112 call for perfect details when life, fire, collapse, water, or violence is involved.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "immediate",
+    "priority": "critical",
+    "tags": [
+      "pack:first30",
+      "pack:coordination",
+      "112",
+      "headcount",
+      "panic",
+      "household",
+      "pass103",
+      "offline",
+      "bilingual"
+    ],
+    "materials": [
+      "clock or phone timer marked for five minutes",
+      "paper head-count box with names",
+      "charged phone assigned to the caller",
+      "small torch placed at the meeting point"
+    ],
+    "steps": [
+      "Say out loud what happened in one sentence and appoint one person to call or listen for official instructions.",
+      "Move everyone away from the immediate hazard before collecting bags, keys, shoes, or documents.",
+      "Count people, pets, mobility aids, essential medicines, and phones; write only missing items.",
+      "Choose one next action: shelter, leave, call 112, shut a safe utility, or wait for official instructions.",
+      "After five minutes, hand the log to the calmest adult and repeat the count instead of arguing."
+    ],
+    "warnings": [
+      "Do not send several people to investigate the same hazard while others are uncounted.",
+      "Do not delay a 112 call for perfect details when life, fire, collapse, water, or violence is involved."
+    ],
+    "common_mistakes": [
+      "Letting the loudest person lead without assigning a caller leaves emergency communication unfinished.",
+      "Searching for documents before moving away from smoke, glass, water, or unstable walls wastes the safest minutes."
+    ],
+    "alternatives": [
+      "If voices are too loud, use fingers for the count and point to the exit or safe room instead of explaining.",
+      "If phones fail, send one written message with time, location, people present, and next planned move."
+    ],
+    "failure_signs": [
+      "The same person asks the same question repeatedly and nobody owns the next action.",
+      "A missing person, medicine, or mobility aid is mentioned but not written down."
+    ],
+    "when_not_to_use": [
+      "Do not use this reset to override an evacuation order, official shelter instruction, or immediate order from emergency responders.",
+      "Do not keep the household inside a dangerous structure just because the five-minute list is incomplete."
+    ],
+    "short_term": "Finish one count, one caller, one location, and one next action before any deeper planning.",
+    "long_term": "Practise the reset monthly with lights off and one simulated missing item so it becomes automatic under stress.",
+    "if_method_fails": "If the reset fails, stop discussion, move to the safest visible area, call 112 when danger is immediate, and restart with only names and location.",
+    "environment_notes": "In apartments, small villages, shops, camps, or ferries, the same reset works if the caller and meeting point are named clearly.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Local incident and resource log",
+      "One-page emergency plan"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/112",
+      "https://civilprotection.gov.gr/en/odigies-prostasias/genikes-odigies"
+    ],
+    "last_updated": "2026-06-21"
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "id": "pass94_medical_061",
+    "language": "English",
+    "title": "Vital signs trend sheet without diagnosis",
+    "category": "Medical and first · Aid · Disaster · Health",
+    "subcategory": "Records",
+    "summary": "Medical-heavy survival entry for recording time, breathing, pulse, temperature, blood pressure if available, pain, and mental state. It is designed for offline emergencies and does not replace professional care.",
+    "content": "Use this entry to organize recording time, breathing, pulse, temperature, blood pressure if available, pain, and mental state. Start with scene safety, hand hygiene, calm communication, and written timing. Keep the person comfortable, protect privacy, avoid risky experiments, and prepare a clear handover for a doctor, ambulance, clinic, pharmacist, or trained first-aider. Watch especially for: worsening trend, confusion, very fast breathing, fainting, low oxygen if measured, or no recheck. In a long emergency, review the person regularly instead of assuming they are stable.",
+    "difficulty": "intermediate",
+    "urgency": "high",
+    "priority": "high",
+    "tags": [
+      "medical",
+      "first aid",
+      "public health",
+      "care records",
+      "bilingual",
+      "pass94",
+      "records"
+    ],
+    "materials": [
+      "clean water if available. Context: “Vital signs trend sheet without diagnosis”.",
+      "soap or sanitizer if available — for «Vital signs trend sheet without diagnosis»",
+      "gloves or clean barrier if available — for «Vital signs trend sheet without diagnosis»",
+      "paper and pen. Context: “Vital signs trend sheet without diagnosis”.",
+      "phone or radio if available — for «Vital signs trend sheet without diagnosis»",
+      "labels for times and medicines — for «Vital signs trend sheet without diagnosis»"
+    ],
+    "steps": [
+      "Check that the place is safe for the helper and the injured or sick person. Apply it specifically within the “Vital signs trend sheet without diagnosis” procedure.",
+      "Call emergency help or send a reliable person for help when any red flag is present. Apply it specifically within the “Vital signs trend sheet without diagnosis” procedure.",
+      "Write the time the problem started, what changed, medicines taken, allergies, and known conditions. Apply it specifically within the “Vital signs trend sheet without diagnosis” procedure.",
+      "Use clean hands and clean barriers before touching wounds, body fluids, food, medicines, infants, or medical devices. Apply it specifically within the “Vital signs trend sheet without diagnosis” procedure.",
+      "Keep the person warm or cool as appropriate, still if trauma is possible, and protected from crowds. Apply it specifically within the “Vital signs trend sheet without diagnosis” procedure.",
+      "Recheck and record changes regularly so deterioration is noticed early. Apply it specifically within the “Vital signs trend sheet without diagnosis” procedure.",
+      "Prepare a short handover note with name, age, symptoms, times, medicines, allergies, and actions already taken. Apply it specifically within the “Vital signs trend sheet without diagnosis” procedure."
+    ],
+    "warnings": [
+      "Do not use this as a replacement for training, emergency services, a clinician, or local medical guidance. Treat this as a specific boundary while managing “Vital signs trend sheet without diagnosis”.",
+      "Do not guess medicine doses, mix medicines without label checking, share prescriptions, or perform invasive procedures. Treat this as a specific boundary while managing “Vital signs trend sheet without diagnosis”.",
+      "Escalate urgently if you see: worsening trend, confusion, very fast breathing, fainting, low oxygen if measured, or no recheck.",
+      "Keep children, elders, pregnancy, disability, immune weakness, and chronic illness in the high-risk group. Treat this as a specific boundary while managing “Vital signs trend sheet without diagnosis”."
+    ],
+    "common_mistakes": [
+      "Waiting too long after red flags appear while carrying out “Vital signs trend sheet without diagnosis”",
+      "Not writing times and medicines while carrying out “Vital signs trend sheet without diagnosis”",
+      "Touching wounds or fluids without hand hygiene while carrying out “Vital signs trend sheet without diagnosis”",
+      "Letting crowds block air, privacy, or transport while carrying out “Vital signs trend sheet without diagnosis”",
+      "Assuming a quiet person is stable without rechecking while carrying out “Vital signs trend sheet without diagnosis”"
+    ],
+    "alternatives": [
+      "Use official first-aid training when available as a fallback for “Vital signs trend sheet without diagnosis”",
+      "Use local emergency numbers and pharmacists for medicine questions as a fallback for “Vital signs trend sheet without diagnosis”",
+      "Use paper handover notes when phones are dead as a fallback for “Vital signs trend sheet without diagnosis”",
+      "Use a trusted translator if language blocks care as a fallback for “Vital signs trend sheet without diagnosis”"
+    ],
+    "failure_signs": [
+      "Red flags appear: worsening trend, confusion, very fast breathing, fainting, low oxygen if measured, or no recheck",
+      "The person becomes harder to wake, breathe, drink, speak, walk, or recognize during “Vital signs trend sheet without diagnosis”",
+      "Pain, bleeding, swelling, fever, confusion, or weakness gets worse during “Vital signs trend sheet without diagnosis”"
+    ],
+    "when_not_to_use": [
+      "Do not delay emergency care to complete the checklist when using the “Vital signs trend sheet without diagnosis” record",
+      "Do not move a trauma patient unless staying is more dangerous when using the “Vital signs trend sheet without diagnosis” record",
+      "Do not force care on a conscious person except immediate life safety situations under local rules when using the “Vital signs trend sheet without diagnosis” record"
+    ],
+    "short_term": "Stabilize the scene, reduce immediate harm, record key facts, and connect the person to trained help. This note applies specifically to Vital signs trend sheet without diagnosis.",
+    "long_term": "Keep medical records updated, train the group in certified first aid, maintain supplies, and practice respectful handovers. This note applies specifically to Vital signs trend sheet without diagnosis.",
+    "if_method_fails": "Escalate to emergency services, nearest clinic, pharmacist, radio medical consult, or evacuation route; document the failed step and time. This note applies specifically to Vital signs trend sheet without diagnosis.",
+    "environment_notes": "In apartments, heat, smoke, poor ventilation, crowds, no elevator, and water outages can make medical problems worse. Plan quiet space, clean water, light, and transport. This note applies specifically to Vital signs trend sheet without diagnosis.",
+    "related_topics": [
+      "emergency communication",
+      "hygiene",
+      "water safety",
+      "evacuation",
+      "medical records",
+      "vulnerable people"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass94_medical_062",
+    "language": "English",
+    "title": "SBAR emergency medical handover note",
+    "category": "Medical and first · Aid · Disaster · Health",
+    "subcategory": "Records",
+    "summary": "Medical-heavy survival entry for a short situation-background-assessment-request handover for ambulance, clinic, or radio consult. It is designed for offline emergencies and does not replace professional care.",
+    "content": "Use this entry to organize a short situation-background-assessment-request handover for ambulance, clinic, or radio consult. Start with scene safety, hand hygiene, calm communication, and written timing. Keep the person comfortable, protect privacy, avoid risky experiments, and prepare a clear handover for a doctor, ambulance, clinic, pharmacist, or trained first-aider. Watch especially for: chaotic transfer, language barrier, unknown medicine, multiple patients, or no written times. In a long emergency, review the person regularly instead of assuming they are stable.",
+    "difficulty": "intermediate",
+    "urgency": "high",
+    "priority": "high",
+    "tags": [
+      "medical",
+      "first aid",
+      "public health",
+      "care records",
+      "bilingual",
+      "pass94",
+      "records"
+    ],
+    "materials": [
+      "clean water if available. Context: “SBAR emergency medical handover note”.",
+      "soap or sanitizer if available — for «SBAR emergency medical handover note»",
+      "gloves or clean barrier if available — for «SBAR emergency medical handover note»",
+      "paper and pen. Context: “SBAR emergency medical handover note”.",
+      "phone or radio if available — for «SBAR emergency medical handover note»",
+      "labels for times and medicines — for «SBAR emergency medical handover note»"
+    ],
+    "steps": [
+      "Check that the place is safe for the helper and the injured or sick person. Apply it specifically within the “SBAR emergency medical handover note” procedure.",
+      "Call emergency help or send a reliable person for help when any red flag is present. Apply it specifically within the “SBAR emergency medical handover note” procedure.",
+      "Write the time the problem started, what changed, medicines taken, allergies, and known conditions. Apply it specifically within the “SBAR emergency medical handover note” procedure.",
+      "Use clean hands and clean barriers before touching wounds, body fluids, food, medicines, infants, or medical devices. Apply it specifically within the “SBAR emergency medical handover note” procedure.",
+      "Keep the person warm or cool as appropriate, still if trauma is possible, and protected from crowds. Apply it specifically within the “SBAR emergency medical handover note” procedure.",
+      "Recheck and record changes regularly so deterioration is noticed early. Apply it specifically within the “SBAR emergency medical handover note” procedure.",
+      "Prepare a short handover note with name, age, symptoms, times, medicines, allergies, and actions already taken. Apply it specifically within the “SBAR emergency medical handover note” procedure."
+    ],
+    "warnings": [
+      "Do not use this as a replacement for training, emergency services, a clinician, or local medical guidance. Treat this as a specific boundary while managing “SBAR emergency medical handover note”.",
+      "Do not guess medicine doses, mix medicines without label checking, share prescriptions, or perform invasive procedures. Treat this as a specific boundary while managing “SBAR emergency medical handover note”.",
+      "Escalate urgently if you see: chaotic transfer, language barrier, unknown medicine, multiple patients, or no written times.",
+      "Keep children, elders, pregnancy, disability, immune weakness, and chronic illness in the high-risk group. Treat this as a specific boundary while managing “SBAR emergency medical handover note”."
+    ],
+    "common_mistakes": [
+      "Waiting too long after red flags appear while carrying out “SBAR emergency medical handover note”",
+      "Not writing times and medicines while carrying out “SBAR emergency medical handover note”",
+      "Touching wounds or fluids without hand hygiene while carrying out “SBAR emergency medical handover note”",
+      "Letting crowds block air, privacy, or transport while carrying out “SBAR emergency medical handover note”",
+      "Assuming a quiet person is stable without rechecking while carrying out “SBAR emergency medical handover note”"
+    ],
+    "alternatives": [
+      "Use official first-aid training when available as a fallback for “SBAR emergency medical handover note”",
+      "Use local emergency numbers and pharmacists for medicine questions as a fallback for “SBAR emergency medical handover note”",
+      "Use paper handover notes when phones are dead as a fallback for “SBAR emergency medical handover note”",
+      "Use a trusted translator if language blocks care as a fallback for “SBAR emergency medical handover note”"
+    ],
+    "failure_signs": [
+      "Red flags appear: chaotic transfer, language barrier, unknown medicine, multiple patients, or no written times",
+      "The person becomes harder to wake, breathe, drink, speak, walk, or recognize during “SBAR emergency medical handover note”",
+      "Pain, bleeding, swelling, fever, confusion, or weakness gets worse during “SBAR emergency medical handover note”"
+    ],
+    "when_not_to_use": [
+      "Do not delay emergency care to complete the checklist when using the “SBAR emergency medical handover note” record",
+      "Do not move a trauma patient unless staying is more dangerous when using the “SBAR emergency medical handover note” record",
+      "Do not force care on a conscious person except immediate life safety situations under local rules when using the “SBAR emergency medical handover note” record"
+    ],
+    "short_term": "Stabilize the scene, reduce immediate harm, record key facts, and connect the person to trained help. This note applies specifically to SBAR emergency medical handover note.",
+    "long_term": "Keep medical records updated, train the group in certified first aid, maintain supplies, and practice respectful handovers. This note applies specifically to SBAR emergency medical handover note.",
+    "if_method_fails": "Escalate to emergency services, nearest clinic, pharmacist, radio medical consult, or evacuation route; document the failed step and time. This note applies specifically to SBAR emergency medical handover note.",
+    "environment_notes": "In apartments, heat, smoke, poor ventilation, crowds, no elevator, and water outages can make medical problems worse. Plan quiet space, clean water, light, and transport. This note applies specifically to SBAR emergency medical handover note.",
+    "related_topics": [
+      "emergency communication",
+      "hygiene",
+      "water safety",
+      "evacuation",
+      "medical records",
+      "vulnerable people"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass94_medical_063",
+    "language": "English",
+    "title": "Pain scale and symptom timeline map",
+    "category": "Medical and first · Aid · Disaster · Health",
+    "subcategory": "Records",
+    "summary": "Medical-heavy survival entry for tracking what changed, when it started, triggers, relief attempts, and function loss. It is designed for offline emergencies and does not replace professional care.",
+    "content": "Use this entry to organize tracking what changed, when it started, triggers, relief attempts, and function loss. Start with scene safety, hand hygiene, calm communication, and written timing. Keep the person comfortable, protect privacy, avoid risky experiments, and prepare a clear handover for a doctor, ambulance, clinic, pharmacist, or trained first-aider. Watch especially for: sudden worst pain, chest pain, neurological signs, belly rigidity, trauma, or pain with fever. In a long emergency, review the person regularly instead of assuming they are stable.",
+    "difficulty": "intermediate",
+    "urgency": "high",
+    "priority": "high",
+    "tags": [
+      "medical",
+      "first aid",
+      "public health",
+      "care records",
+      "bilingual",
+      "pass94",
+      "records"
+    ],
+    "materials": [
+      "clean water if available. Context: “Pain scale and symptom timeline map”.",
+      "soap or sanitizer if available — for «Pain scale and symptom timeline map»",
+      "gloves or clean barrier if available — for «Pain scale and symptom timeline map»",
+      "paper and pen. Context: “Pain scale and symptom timeline map”.",
+      "phone or radio if available — for «Pain scale and symptom timeline map»",
+      "labels for times and medicines — for «Pain scale and symptom timeline map»"
+    ],
+    "steps": [
+      "Check that the place is safe for the helper and the injured or sick person. Apply it specifically within the “Pain scale and symptom timeline map” procedure.",
+      "Call emergency help or send a reliable person for help when any red flag is present. Apply it specifically within the “Pain scale and symptom timeline map” procedure.",
+      "Write the time the problem started, what changed, medicines taken, allergies, and known conditions. Apply it specifically within the “Pain scale and symptom timeline map” procedure.",
+      "Use clean hands and clean barriers before touching wounds, body fluids, food, medicines, infants, or medical devices. Apply it specifically within the “Pain scale and symptom timeline map” procedure.",
+      "Keep the person warm or cool as appropriate, still if trauma is possible, and protected from crowds. Apply it specifically within the “Pain scale and symptom timeline map” procedure.",
+      "Recheck and record changes regularly so deterioration is noticed early. Apply it specifically within the “Pain scale and symptom timeline map” procedure.",
+      "Prepare a short handover note with name, age, symptoms, times, medicines, allergies, and actions already taken. Apply it specifically within the “Pain scale and symptom timeline map” procedure."
+    ],
+    "warnings": [
+      "Do not use this as a replacement for training, emergency services, a clinician, or local medical guidance. Treat this as a specific boundary while managing “Pain scale and symptom timeline map”.",
+      "Do not guess medicine doses, mix medicines without label checking, share prescriptions, or perform invasive procedures. Treat this as a specific boundary while managing “Pain scale and symptom timeline map”.",
+      "Escalate urgently if you see: sudden worst pain, chest pain, neurological signs, belly rigidity, trauma, or pain with fever.",
+      "Keep children, elders, pregnancy, disability, immune weakness, and chronic illness in the high-risk group. Treat this as a specific boundary while managing “Pain scale and symptom timeline map”."
+    ],
+    "common_mistakes": [
+      "Waiting too long after red flags appear while carrying out “Pain scale and symptom timeline map”",
+      "Not writing times and medicines while carrying out “Pain scale and symptom timeline map”",
+      "Touching wounds or fluids without hand hygiene while carrying out “Pain scale and symptom timeline map”",
+      "Letting crowds block air, privacy, or transport while carrying out “Pain scale and symptom timeline map”",
+      "Assuming a quiet person is stable without rechecking while carrying out “Pain scale and symptom timeline map”"
+    ],
+    "alternatives": [
+      "Use official first-aid training when available as a fallback for “Pain scale and symptom timeline map”",
+      "Use local emergency numbers and pharmacists for medicine questions as a fallback for “Pain scale and symptom timeline map”",
+      "Use paper handover notes when phones are dead as a fallback for “Pain scale and symptom timeline map”",
+      "Use a trusted translator if language blocks care as a fallback for “Pain scale and symptom timeline map”"
+    ],
+    "failure_signs": [
+      "Red flags appear: sudden worst pain, chest pain, neurological signs, belly rigidity, trauma, or pain with fever",
+      "The person becomes harder to wake, breathe, drink, speak, walk, or recognize during “Pain scale and symptom timeline map”",
+      "Pain, bleeding, swelling, fever, confusion, or weakness gets worse during “Pain scale and symptom timeline map”"
+    ],
+    "when_not_to_use": [
+      "Do not delay emergency care to complete the checklist when using the “Pain scale and symptom timeline map” record",
+      "Do not move a trauma patient unless staying is more dangerous when using the “Pain scale and symptom timeline map” record",
+      "Do not force care on a conscious person except immediate life safety situations under local rules when using the “Pain scale and symptom timeline map” record"
+    ],
+    "short_term": "Stabilize the scene, reduce immediate harm, record key facts, and connect the person to trained help. This note applies specifically to Pain scale and symptom timeline map.",
+    "long_term": "Keep medical records updated, train the group in certified first aid, maintain supplies, and practice respectful handovers. This note applies specifically to Pain scale and symptom timeline map.",
+    "if_method_fails": "Escalate to emergency services, nearest clinic, pharmacist, radio medical consult, or evacuation route; document the failed step and time. This note applies specifically to Pain scale and symptom timeline map.",
+    "environment_notes": "In apartments, heat, smoke, poor ventilation, crowds, no elevator, and water outages can make medical problems worse. Plan quiet space, clean water, light, and transport. This note applies specifically to Pain scale and symptom timeline map.",
+    "related_topics": [
+      "emergency communication",
+      "hygiene",
+      "water safety",
+      "evacuation",
+      "medical records",
+      "vulnerable people"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass94_medical_064",
+    "language": "English",
+    "title": "Tetanus vaccination and dirty wound record",
+    "category": "Medical and first · Aid · Disaster · Health",
+    "subcategory": "Records",
+    "summary": "Medical-heavy survival entry for writing the last tetanus date, wound type, contamination, and clinic follow-up need. It is designed for offline emergencies and does not replace professional care.",
+    "content": "Use this entry to organize writing the last tetanus date, wound type, contamination, and clinic follow-up need. Start with scene safety, hand hygiene, calm communication, and written timing. Keep the person comfortable, protect privacy, avoid risky experiments, and prepare a clear handover for a doctor, ambulance, clinic, pharmacist, or trained first-aider. Watch especially for: dirty puncture, crush wound, burn, animal bite, unknown vaccine, or delayed cleaning. In a long emergency, review the person regularly instead of assuming they are stable.",
+    "difficulty": "intermediate",
+    "urgency": "high",
+    "priority": "high",
+    "tags": [
+      "medical",
+      "first aid",
+      "public health",
+      "care records",
+      "bilingual",
+      "pass94",
+      "records"
+    ],
+    "materials": [
+      "clean water if available. Context: “Tetanus vaccination and dirty wound record”.",
+      "soap or sanitizer if available — for «Tetanus vaccination and dirty wound record»",
+      "gloves or clean barrier if available — for «Tetanus vaccination and dirty wound record»",
+      "paper and pen. Context: “Tetanus vaccination and dirty wound record”.",
+      "phone or radio if available — for «Tetanus vaccination and dirty wound record»",
+      "labels for times and medicines — for «Tetanus vaccination and dirty wound record»"
+    ],
+    "steps": [
+      "Check that the place is safe for the helper and the injured or sick person. Apply it specifically within the “Tetanus vaccination and dirty wound record” procedure.",
+      "Call emergency help or send a reliable person for help when any red flag is present. Apply it specifically within the “Tetanus vaccination and dirty wound record” procedure.",
+      "Write the time the problem started, what changed, medicines taken, allergies, and known conditions. Apply it specifically within the “Tetanus vaccination and dirty wound record” procedure.",
+      "Use clean hands and clean barriers before touching wounds, body fluids, food, medicines, infants, or medical devices. Apply it specifically within the “Tetanus vaccination and dirty wound record” procedure.",
+      "Keep the person warm or cool as appropriate, still if trauma is possible, and protected from crowds. Apply it specifically within the “Tetanus vaccination and dirty wound record” procedure.",
+      "Recheck and record changes regularly so deterioration is noticed early. Apply it specifically within the “Tetanus vaccination and dirty wound record” procedure.",
+      "Prepare a short handover note with name, age, symptoms, times, medicines, allergies, and actions already taken. Apply it specifically within the “Tetanus vaccination and dirty wound record” procedure."
+    ],
+    "warnings": [
+      "Do not use this as a replacement for training, emergency services, a clinician, or local medical guidance. Treat this as a specific boundary while managing “Tetanus vaccination and dirty wound record”.",
+      "Do not guess medicine doses, mix medicines without label checking, share prescriptions, or perform invasive procedures. Treat this as a specific boundary while managing “Tetanus vaccination and dirty wound record”.",
+      "Escalate urgently if you see: dirty puncture, crush wound, burn, animal bite, unknown vaccine, or delayed cleaning.",
+      "Keep children, elders, pregnancy, disability, immune weakness, and chronic illness in the high-risk group. Treat this as a specific boundary while managing “Tetanus vaccination and dirty wound record”."
+    ],
+    "common_mistakes": [
+      "Waiting too long after red flags appear while carrying out “Tetanus vaccination and dirty wound record”",
+      "Not writing times and medicines while carrying out “Tetanus vaccination and dirty wound record”",
+      "Touching wounds or fluids without hand hygiene while carrying out “Tetanus vaccination and dirty wound record”",
+      "Letting crowds block air, privacy, or transport while carrying out “Tetanus vaccination and dirty wound record”",
+      "Assuming a quiet person is stable without rechecking while carrying out “Tetanus vaccination and dirty wound record”"
+    ],
+    "alternatives": [
+      "Use official first-aid training when available as a fallback for “Tetanus vaccination and dirty wound record”",
+      "Use local emergency numbers and pharmacists for medicine questions as a fallback for “Tetanus vaccination and dirty wound record”",
+      "Use paper handover notes when phones are dead as a fallback for “Tetanus vaccination and dirty wound record”",
+      "Use a trusted translator if language blocks care as a fallback for “Tetanus vaccination and dirty wound record”"
+    ],
+    "failure_signs": [
+      "Red flags appear: dirty puncture, crush wound, burn, animal bite, unknown vaccine, or delayed cleaning",
+      "The person becomes harder to wake, breathe, drink, speak, walk, or recognize during “Tetanus vaccination and dirty wound record”",
+      "Pain, bleeding, swelling, fever, confusion, or weakness gets worse during “Tetanus vaccination and dirty wound record”"
+    ],
+    "when_not_to_use": [
+      "Do not delay emergency care to complete the checklist when using the “Tetanus vaccination and dirty wound record” record",
+      "Do not move a trauma patient unless staying is more dangerous when using the “Tetanus vaccination and dirty wound record” record",
+      "Do not force care on a conscious person except immediate life safety situations under local rules when using the “Tetanus vaccination and dirty wound record” record"
+    ],
+    "short_term": "Stabilize the scene, reduce immediate harm, record key facts, and connect the person to trained help. This note applies specifically to Tetanus vaccination and dirty wound record.",
+    "long_term": "Keep medical records updated, train the group in certified first aid, maintain supplies, and practice respectful handovers. This note applies specifically to Tetanus vaccination and dirty wound record.",
+    "if_method_fails": "Escalate to emergency services, nearest clinic, pharmacist, radio medical consult, or evacuation route; document the failed step and time. This note applies specifically to Tetanus vaccination and dirty wound record.",
+    "environment_notes": "In apartments, heat, smoke, poor ventilation, crowds, no elevator, and water outages can make medical problems worse. Plan quiet space, clean water, light, and transport. This note applies specifically to Tetanus vaccination and dirty wound record.",
+    "related_topics": [
+      "emergency communication",
+      "hygiene",
+      "water safety",
+      "evacuation",
+      "medical records",
+      "vulnerable people"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass94_medical_065",
+    "language": "English",
+    "title": "Telemedicine and radio medical consult prep",
+    "category": "Medical and first · Aid · Disaster · Health",
+    "subcategory": "Records",
+    "summary": "Medical-heavy survival entry for preparing concise symptoms, vital trends, photos if consented, medicine list, and question. It is designed for offline emergencies and does not replace professional care.",
+    "content": "Use this entry to organize preparing concise symptoms, vital trends, photos if consented, medicine list, and question. Start with scene safety, hand hygiene, calm communication, and written timing. Keep the person comfortable, protect privacy, avoid risky experiments, and prepare a clear handover for a doctor, ambulance, clinic, pharmacist, or trained first-aider. Watch especially for: poor signal, no consent, unclear times, missing age, language barrier, or patient worsening. In a long emergency, review the person regularly instead of assuming they are stable.",
+    "difficulty": "intermediate",
+    "urgency": "high",
+    "priority": "high",
+    "tags": [
+      "medical",
+      "first aid",
+      "public health",
+      "care records",
+      "bilingual",
+      "pass94",
+      "records"
+    ],
+    "materials": [
+      "clean water if available. Context: “Telemedicine and radio medical consult prep”.",
+      "soap or sanitizer if available — for «Telemedicine and radio medical consult prep»",
+      "gloves or clean barrier if available — for «Telemedicine and radio medical consult prep»",
+      "paper and pen. Context: “Telemedicine and radio medical consult prep”.",
+      "phone or radio if available — for «Telemedicine and radio medical consult prep»",
+      "labels for times and medicines — for «Telemedicine and radio medical consult prep»"
+    ],
+    "steps": [
+      "Check that the place is safe for the helper and the injured or sick person. Apply it specifically within the “Telemedicine and radio medical consult prep” procedure.",
+      "Call emergency help or send a reliable person for help when any red flag is present. Apply it specifically within the “Telemedicine and radio medical consult prep” procedure.",
+      "Write the time the problem started, what changed, medicines taken, allergies, and known conditions. Apply it specifically within the “Telemedicine and radio medical consult prep” procedure.",
+      "Use clean hands and clean barriers before touching wounds, body fluids, food, medicines, infants, or medical devices. Apply it specifically within the “Telemedicine and radio medical consult prep” procedure.",
+      "Keep the person warm or cool as appropriate, still if trauma is possible, and protected from crowds. Apply it specifically within the “Telemedicine and radio medical consult prep” procedure.",
+      "Recheck and record changes regularly so deterioration is noticed early. Apply it specifically within the “Telemedicine and radio medical consult prep” procedure.",
+      "Prepare a short handover note with name, age, symptoms, times, medicines, allergies, and actions already taken. Apply it specifically within the “Telemedicine and radio medical consult prep” procedure."
+    ],
+    "warnings": [
+      "Do not use this as a replacement for training, emergency services, a clinician, or local medical guidance. Treat this as a specific boundary while managing “Telemedicine and radio medical consult prep”.",
+      "Do not guess medicine doses, mix medicines without label checking, share prescriptions, or perform invasive procedures. Treat this as a specific boundary while managing “Telemedicine and radio medical consult prep”.",
+      "Escalate urgently if you see: poor signal, no consent, unclear times, missing age, language barrier, or patient worsening.",
+      "Keep children, elders, pregnancy, disability, immune weakness, and chronic illness in the high-risk group. Treat this as a specific boundary while managing “Telemedicine and radio medical consult prep”."
+    ],
+    "common_mistakes": [
+      "Waiting too long after red flags appear while carrying out “Telemedicine and radio medical consult prep”",
+      "Not writing times and medicines while carrying out “Telemedicine and radio medical consult prep”",
+      "Touching wounds or fluids without hand hygiene while carrying out “Telemedicine and radio medical consult prep”",
+      "Letting crowds block air, privacy, or transport while carrying out “Telemedicine and radio medical consult prep”",
+      "Assuming a quiet person is stable without rechecking while carrying out “Telemedicine and radio medical consult prep”"
+    ],
+    "alternatives": [
+      "Use official first-aid training when available as a fallback for “Telemedicine and radio medical consult prep”",
+      "Use local emergency numbers and pharmacists for medicine questions as a fallback for “Telemedicine and radio medical consult prep”",
+      "Use paper handover notes when phones are dead as a fallback for “Telemedicine and radio medical consult prep”",
+      "Use a trusted translator if language blocks care as a fallback for “Telemedicine and radio medical consult prep”"
+    ],
+    "failure_signs": [
+      "Red flags appear: poor signal, no consent, unclear times, missing age, language barrier, or patient worsening",
+      "The person becomes harder to wake, breathe, drink, speak, walk, or recognize during “Telemedicine and radio medical consult prep”",
+      "Pain, bleeding, swelling, fever, confusion, or weakness gets worse during “Telemedicine and radio medical consult prep”"
+    ],
+    "when_not_to_use": [
+      "Do not delay emergency care to complete the checklist when using the “Telemedicine and radio medical consult prep” record",
+      "Do not move a trauma patient unless staying is more dangerous when using the “Telemedicine and radio medical consult prep” record",
+      "Do not force care on a conscious person except immediate life safety situations under local rules when using the “Telemedicine and radio medical consult prep” record"
+    ],
+    "short_term": "Stabilize the scene, reduce immediate harm, record key facts, and connect the person to trained help. This note applies specifically to Telemedicine and radio medical consult prep.",
+    "long_term": "Keep medical records updated, train the group in certified first aid, maintain supplies, and practice respectful handovers. This note applies specifically to Telemedicine and radio medical consult prep.",
+    "if_method_fails": "Escalate to emergency services, nearest clinic, pharmacist, radio medical consult, or evacuation route; document the failed step and time. This note applies specifically to Telemedicine and radio medical consult prep.",
+    "environment_notes": "In apartments, heat, smoke, poor ventilation, crowds, no elevator, and water outages can make medical problems worse. Plan quiet space, clean water, light, and transport. This note applies specifically to Telemedicine and radio medical consult prep.",
+    "related_topics": [
+      "emergency communication",
+      "hygiene",
+      "water safety",
+      "evacuation",
+      "medical records",
+      "vulnerable people"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass94_medical_072",
+    "language": "English",
+    "title": "Medical records waterproof backup",
+    "category": "Medical and first · Aid · Disaster · Health",
+    "subcategory": "Records",
+    "summary": "Medical-heavy survival entry for protecting medication lists, allergies, diagnoses, device settings, contacts, and vaccination notes. It is designed for offline emergencies and does not replace professional care.",
+    "content": "Use this entry to organize protecting medication lists, allergies, diagnoses, device settings, contacts, and vaccination notes. Start with scene safety, hand hygiene, calm communication, and written timing. Keep the person comfortable, protect privacy, avoid risky experiments, and prepare a clear handover for a doctor, ambulance, clinic, pharmacist, or trained first-aider. Watch especially for: evacuation, flood, fire, lost phone, unconscious patient, child separated, or language barrier. In a long emergency, review the person regularly instead of assuming they are stable.",
+    "difficulty": "intermediate",
+    "urgency": "high",
+    "priority": "high",
+    "tags": [
+      "medical",
+      "first aid",
+      "public health",
+      "care records",
+      "bilingual",
+      "pass94",
+      "records"
+    ],
+    "materials": [
+      "clean water if available. Context: “Medical records waterproof backup”.",
+      "soap or sanitizer if available — for «Medical records waterproof backup»",
+      "gloves or clean barrier if available — for «Medical records waterproof backup»",
+      "paper and pen. Context: “Medical records waterproof backup”.",
+      "phone or radio if available — for «Medical records waterproof backup»",
+      "labels for times and medicines — for «Medical records waterproof backup»"
+    ],
+    "steps": [
+      "Check that the place is safe for the helper and the injured or sick person. Apply it specifically within the “Medical records waterproof backup” procedure.",
+      "Call emergency help or send a reliable person for help when any red flag is present. Apply it specifically within the “Medical records waterproof backup” procedure.",
+      "Write the time the problem started, what changed, medicines taken, allergies, and known conditions. Apply it specifically within the “Medical records waterproof backup” procedure.",
+      "Use clean hands and clean barriers before touching wounds, body fluids, food, medicines, infants, or medical devices. Apply it specifically within the “Medical records waterproof backup” procedure.",
+      "Keep the person warm or cool as appropriate, still if trauma is possible, and protected from crowds. Apply it specifically within the “Medical records waterproof backup” procedure.",
+      "Recheck and record changes regularly so deterioration is noticed early. Apply it specifically within the “Medical records waterproof backup” procedure.",
+      "Prepare a short handover note with name, age, symptoms, times, medicines, allergies, and actions already taken. Apply it specifically within the “Medical records waterproof backup” procedure."
+    ],
+    "warnings": [
+      "Do not use this as a replacement for training, emergency services, a clinician, or local medical guidance. Treat this as a specific boundary while managing “Medical records waterproof backup”.",
+      "Do not guess medicine doses, mix medicines without label checking, share prescriptions, or perform invasive procedures. Treat this as a specific boundary while managing “Medical records waterproof backup”.",
+      "Escalate urgently if you see: evacuation, flood, fire, lost phone, unconscious patient, child separated, or language barrier.",
+      "Keep children, elders, pregnancy, disability, immune weakness, and chronic illness in the high-risk group. Treat this as a specific boundary while managing “Medical records waterproof backup”."
+    ],
+    "common_mistakes": [
+      "Waiting too long after red flags appear while carrying out “Medical records waterproof backup”",
+      "Not writing times and medicines while carrying out “Medical records waterproof backup”",
+      "Touching wounds or fluids without hand hygiene while carrying out “Medical records waterproof backup”",
+      "Letting crowds block air, privacy, or transport while carrying out “Medical records waterproof backup”",
+      "Assuming a quiet person is stable without rechecking while carrying out “Medical records waterproof backup”"
+    ],
+    "alternatives": [
+      "Use official first-aid training when available as a fallback for “Medical records waterproof backup”",
+      "Use local emergency numbers and pharmacists for medicine questions as a fallback for “Medical records waterproof backup”",
+      "Use paper handover notes when phones are dead as a fallback for “Medical records waterproof backup”",
+      "Use a trusted translator if language blocks care as a fallback for “Medical records waterproof backup”"
+    ],
+    "failure_signs": [
+      "Red flags appear: evacuation, flood, fire, lost phone, unconscious patient, child separated, or language barrier",
+      "The person becomes harder to wake, breathe, drink, speak, walk, or recognize during “Medical records waterproof backup”",
+      "Pain, bleeding, swelling, fever, confusion, or weakness gets worse during “Medical records waterproof backup”"
+    ],
+    "when_not_to_use": [
+      "Do not delay emergency care to complete the checklist when using the “Medical records waterproof backup” record",
+      "Do not move a trauma patient unless staying is more dangerous when using the “Medical records waterproof backup” record",
+      "Do not force care on a conscious person except immediate life safety situations under local rules when using the “Medical records waterproof backup” record"
+    ],
+    "short_term": "Stabilize the scene, reduce immediate harm, record key facts, and connect the person to trained help. This note applies specifically to Medical records waterproof backup.",
+    "long_term": "Keep medical records updated, train the group in certified first aid, maintain supplies, and practice respectful handovers. This note applies specifically to Medical records waterproof backup.",
+    "if_method_fails": "Escalate to emergency services, nearest clinic, pharmacist, radio medical consult, or evacuation route; document the failed step and time. This note applies specifically to Medical records waterproof backup.",
+    "environment_notes": "In apartments, heat, smoke, poor ventilation, crowds, no elevator, and water outages can make medical problems worse. Plan quiet space, clean water, light, and transport. This note applies specifically to Medical records waterproof backup.",
+    "related_topics": [
+      "emergency communication",
+      "hygiene",
+      "water safety",
+      "evacuation",
+      "medical records",
+      "vulnerable people"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

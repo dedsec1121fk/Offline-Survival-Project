@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pass90-0016",
+    "language": "English",
+    "title": "Offline map correction log",
+    "category": "Mobility · Communication · Records",
+    "subcategory": "Navigation · Records",
+    "summary": "A paper log for marking blocked roads, unsafe bridges, water points, pharmacies, shelters, and changed landmarks.",
+    "content": "Offline maps become wrong after fire, flood, construction, landslide, police closure, or crowd movement. Every correction needs date, time, observer, exact place, type of change, confidence level, and whether it came from direct observation or another source.",
+    "difficulty": "intermediate",
+    "urgency": "medium",
+    "priority": "high",
+    "tags": [
+      "offline maps",
+      "navigation",
+      "routes",
+      "records",
+      "local knowledge"
+    ],
+    "materials": [
+      "Printed map",
+      "Pencil. Context: “Offline map correction log”.",
+      "Correction log",
+      "Landmark list"
+    ],
+    "steps": [
+      "Mark the date of the base map.",
+      "Use symbols for blocked, risky, useful, and unconfirmed points.",
+      "Never erase old marks without dates.",
+      "Separate direct observation from reports.",
+      "Update evacuation cards when routes change."
+    ],
+    "warnings": [
+      "Do not send people into danger just to verify a map.",
+      "Do not publish sensitive shelter or supply locations.",
+      "Do not treat unconfirmed road reports as safe."
+    ],
+    "common_mistakes": [
+      "Using one person's memory instead of written updates.",
+      "Mixing old and new closures without dates.",
+      "Marking rumors like confirmed observations."
+    ],
+    "alternatives": [
+      "Run a smaller version of Offline map correction log with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Offline map correction log if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Offline map correction log and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Offline map correction log or when the next check happens.",
+      "Supplies connected to Offline map correction log are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Offline map correction log”"
+    ],
+    "when_not_to_use": [
+      "Do not use Offline map correction log as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Offline map correction log when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Offline map correction log."
+    ],
+    "short_term": "For the first hours of Offline map correction log, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Offline map correction log remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Offline map correction log fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Offline map correction log to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Rumor control board"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pass97-0004-earthquake-status-message",
+    "language": "English",
+    "title": "Low-bandwidth family earthquake status message",
+    "category": "Earthquake · Scenario pack",
+    "subcategory": "Earthquake · Communications · Field · Card",
+    "summary": "Send one concise status message that reduces network load and tells contacts who is safe, where the group is, and when the next update is due.",
+    "content": "Send one concise status message that reduces network load and tells contacts who is safe, where the group is, and when the next update is due.\n\nSafe-use sequence: Use a fixed format: names accounted for, injuries or urgent need, current safe location, intended movement, and next check-in time. Define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Low-bandwidth family earthquake status message”. Write short messages with place, time, verified fact, requested action, deadline, and source for “Low-bandwidth family earthquake status message”. Schedule listening and transmission windows to preserve power and reduce congestion for “Low-bandwidth family earthquake status message”. Keep a paper copy of essential contacts, frequencies, codes, instructions, and last known status for “Low-bandwidth family earthquake status message”. Test understanding through read-back or demonstration, then archive the corrected version with date and version for “Low-bandwidth family earthquake status message”. Safety limits: Official instructions and emergency services override “Low-bandwidth family earthquake status message”; do not delay evacuation or urgent help to complete the card. Do not spread unverified casualty, route, threat, medicine, or evacuation information in “Low-bandwidth family earthquake status message”. Protect private information and do not rely on one device, one platform, one person, or one power source in “Low-bandwidth family earthquake status message”. Reduced fallback: If “paper contact tree for “Low-bandwidth family earthquake status message”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:earthquake",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "communications",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "paper contact tree for “Low-bandwidth family earthquake status message”",
+      "charged phone or radio when available for “Low-bandwidth family earthquake status message”",
+      "message forms for “Low-bandwidth family earthquake status message”",
+      "time source for “Low-bandwidth family earthquake status message”",
+      "offline copies and spare storage for “Low-bandwidth family earthquake status message”"
+    ],
+    "steps": [
+      "Use a fixed format: names accounted for, injuries or urgent need, current safe location, intended movement, and next check-in time.",
+      "Define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Low-bandwidth family earthquake status message”.",
+      "Write short messages with place, time, verified fact, requested action, deadline, and source for “Low-bandwidth family earthquake status message”.",
+      "Schedule listening and transmission windows to preserve power and reduce congestion for “Low-bandwidth family earthquake status message”.",
+      "Keep a paper copy of essential contacts, frequencies, codes, instructions, and last known status for “Low-bandwidth family earthquake status message”.",
+      "Test understanding through read-back or demonstration, then archive the corrected version with date and version for “Low-bandwidth family earthquake status message”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Low-bandwidth family earthquake status message”; do not delay evacuation or urgent help to complete the card.",
+      "Do not spread unverified casualty, route, threat, medicine, or evacuation information in “Low-bandwidth family earthquake status message”.",
+      "Protect private information and do not rely on one device, one platform, one person, or one power source in “Low-bandwidth family earthquake status message”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Low-bandwidth family earthquake status message” unreliable: Use a fixed format: names accounted for, injuries or urgent need, current safe location, intended movement, and next check-in time.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Low-bandwidth family earthquake status message”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Test understanding through read-back or demonstration, then archive the corrected version with date and version for “Low-bandwidth family earthquake status message”."
+    ],
+    "alternatives": [
+      "If “paper contact tree for “Low-bandwidth family earthquake status message”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Low-bandwidth family earthquake status message”, complete the first two verified actions—Use a fixed format: names accounted for, injuries or urgent need, current safe location, intended movement, and next check-in time. Define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Low-bandwidth family earthquake status message”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Low-bandwidth family earthquake status message” when messages arrive without time, source, location, requested action, or acknowledgement.",
+      "Stop and reassess “Low-bandwidth family earthquake status message” when different copies conflict and no version owner or correction process exists."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Low-bandwidth family earthquake status message” while there is live electricity, damaged wiring, water near circuits, battery swelling or heat, fuel vapour, poor ventilation, or an unknown connection.",
+      "This card is not authorization to back-feed a building, bypass protection, open an energized device, charge a damaged battery, or run fuel-burning equipment indoors. Topic-specific stop check for “Low-bandwidth family earthquake status message”: also follow this warning: “Official instructions and emergency services override “Low-bandwidth family earthquake status message”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Low-bandwidth family earthquake status message”, carry out use a fixed format: names accounted for, injuries or urgent need, current safe location, intended movement, and next check-in time. Follow with define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Low-bandwidth family earthquake status message”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Low-bandwidth family earthquake status message” when messages arrive without time, source, location, requested action, or acknowledgement.",
+    "long_term": "For repeated use of “Low-bandwidth family earthquake status message”, keep “charged phone or radio when available for “Low-bandwidth family earthquake status message”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Low-bandwidth family earthquake status message” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Prioritize lighting, 112 contact, medical devices, refrigeration decisions, radio, and short charging windows; protect equipment from heat and salt air. For “Low-bandwidth family earthquake status message”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Earthquake bedside safety kit",
+      "Aftershock waiting-zone selection",
+      "Post-earthquake stair and exit check"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/seismoi"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

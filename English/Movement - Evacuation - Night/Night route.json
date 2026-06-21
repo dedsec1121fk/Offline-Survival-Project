@@ -1,0 +1,70 @@
+[
+  {
+    "id": "pass103-0002-night-evacuation-without-street-lighting",
+    "language": "English",
+    "title": "Night evacuation without street lighting",
+    "category": "Movement · Evacuation · Night",
+    "subcategory": "Night route",
+    "summary": "A practical plan for leaving a home, camp, shop, or village at night when street lights are off, smoke is nearby, or power has failed.",
+    "content": "A practical plan for leaving a home, camp, shop, or village at night when street lights are off, smoke is nearby, or power has failed.\n\nUse it when the situation is real but still manageable. Work slowly, keep one written decision log, and prefer the safest reversible action over a dramatic improvisation.\n\nCore sequence: 1) Put the slowest person second, not last, so the group pace is set by the person most likely to fall. 2) Use one low light pointed at the ground; avoid shining into faces, windows, or drivers. 3) Stop at every turn and count the group before continuing to the next visible landmark. 4) Cross roads as one block only when the whole group can see and hear the lead person.\n\nStop point: Do not evacuate into visible fire, floodwater, downed wires, landslide debris, or areas named unsafe by authorities. Main warnings: Do not split the group to save minutes when visibility is poor or smoke is present. Do not use a phone screen as the only light if rain, low battery, or falls are likely.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:travel",
+      "pack:greece",
+      "night",
+      "evacuation",
+      "route",
+      "pass103",
+      "offline",
+      "bilingual"
+    ],
+    "materials": [
+      "headlamp with spare battery taped to the strap",
+      "reflective cloth or light-colored scarf for the rear person",
+      "paper route card with two turns and a stop point",
+      "closed shoes staged near the sleeping area"
+    ],
+    "steps": [
+      "Put the slowest person second, not last, so the group pace is set by the person most likely to fall.",
+      "Use one low light pointed at the ground; avoid shining into faces, windows, or drivers.",
+      "Stop at every turn and count the group before continuing to the next visible landmark.",
+      "Cross roads as one block only when the whole group can see and hear the lead person."
+    ],
+    "warnings": [
+      "Do not split the group to save minutes when visibility is poor or smoke is present.",
+      "Do not use a phone screen as the only light if rain, low battery, or falls are likely."
+    ],
+    "common_mistakes": [
+      "Walking with bags in both hands makes falls and loss of children more likely.",
+      "Following a familiar shortcut without checking obstacles can lead into a blocked alley or drainage ditch."
+    ],
+    "alternatives": [
+      "If the planned route is dark and noisy, return to the last safe doorway and wait for a clearer signal or escort.",
+      "If one person cannot walk safely, switch to shelter-in-place and call for transport support rather than dragging them."
+    ],
+    "failure_signs": [
+      "Someone disappears from sight between landmarks.",
+      "The lead person cannot hear the rear person when the group stops."
+    ],
+    "when_not_to_use": [
+      "Do not evacuate into visible fire, floodwater, downed wires, landslide debris, or areas named unsafe by authorities.",
+      "Do not force a night move if the safer official instruction is to shelter in place."
+    ],
+    "short_term": "Prepare shoes, one light, and a two-turn route card before sleeping during high-risk nights.",
+    "long_term": "Walk the route in daylight once per season and update obstacles, dogs, gates, and lighting changes.",
+    "if_method_fails": "If the night route fails, stop moving, make the group visible from a safe edge, and request help with exact location.",
+    "environment_notes": "Mountain villages, islands, camps, and apartment blocks need different landmarks; use what can be felt or heard, not only seen.",
+    "related_topics": [
+      "Pedestrian evacuation without a car",
+      "Village wildfire evacuation decision point",
+      "Low-power communications schedule"
+    ],
+    "sources": [
+      "https://www.ready.gov/plan",
+      "https://www.ready.gov/kit"
+    ],
+    "last_updated": "2026-06-21"
+  }
+]

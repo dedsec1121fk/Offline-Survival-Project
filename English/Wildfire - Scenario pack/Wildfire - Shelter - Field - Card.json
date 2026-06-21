@@ -1,0 +1,148 @@
+[
+  {
+    "id": "pass97-0009-wildfire-ember-check",
+    "language": "English",
+    "title": "Wildfire ember-entry check before leaving",
+    "category": "Wildfire · Scenario pack",
+    "subcategory": "Wildfire · Shelter · Field · Card",
+    "summary": "Perform only a brief, safe exterior and accessible-interior check for easy ember entry without delaying evacuation.",
+    "content": "Perform only a brief, safe exterior and accessible-interior check for easy ember entry without delaying evacuation.\n\nPractical sequence: Close accessible windows and doors, move combustible items from immediate openings, and leave at once if smoke, heat, flame, falling embers, or official orders increase. Identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Wildfire ember-entry check before leaving”. Inspect from a safe position for smoke, heat, water, gas odour, sparks, falling objects, cracks, unstable surfaces, and blocked routes for “Wildfire ember-entry check before leaving”. Move people early to the safer zone or leave when instructed; take medicines, communication, identification, water, and essential mobility aids for “Wildfire ember-entry check before leaving”. Control only hazards that can be handled without entering smoke, floodwater, live electricity, gas, fire, or an unstable structure for “Wildfire ember-entry check before leaving”. Mark unsafe areas, account for everyone, record changes, and reassess after every aftershock, weather shift, alarm, or utility change for “Wildfire ember-entry check before leaving”. Safety limits: Official instructions and emergency services override “Wildfire ember-entry check before leaving”; do not delay evacuation or urgent help to complete the card. Do not re-enter a restricted, burning, smoke-filled, flooded, gas-affected, electrically live, or structurally uncertain area in “Wildfire ember-entry check before leaving”. Generators, grills, and fuel-burning devices must never operate inside homes, garages, or other enclosed occupied spaces in “Wildfire ember-entry check before leaving”. Reduced fallback: If “flashlight and spare power for “Wildfire ember-entry check before leaving”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:wildfire",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "shelter",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "flashlight and spare power for “Wildfire ember-entry check before leaving”",
+      "weather and official alert source for “Wildfire ember-entry check before leaving”",
+      "utility shutoff information for “Wildfire ember-entry check before leaving”",
+      "smoke and carbon-monoxide alarms where applicable for “Wildfire ember-entry check before leaving”",
+      "marked exit routes and meeting point for “Wildfire ember-entry check before leaving”"
+    ],
+    "steps": [
+      "Close accessible windows and doors, move combustible items from immediate openings, and leave at once if smoke, heat, flame, falling embers, or official orders increase.",
+      "Identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Wildfire ember-entry check before leaving”.",
+      "Inspect from a safe position for smoke, heat, water, gas odour, sparks, falling objects, cracks, unstable surfaces, and blocked routes for “Wildfire ember-entry check before leaving”.",
+      "Move people early to the safer zone or leave when instructed; take medicines, communication, identification, water, and essential mobility aids for “Wildfire ember-entry check before leaving”.",
+      "Control only hazards that can be handled without entering smoke, floodwater, live electricity, gas, fire, or an unstable structure for “Wildfire ember-entry check before leaving”.",
+      "Mark unsafe areas, account for everyone, record changes, and reassess after every aftershock, weather shift, alarm, or utility change for “Wildfire ember-entry check before leaving”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Wildfire ember-entry check before leaving”; do not delay evacuation or urgent help to complete the card.",
+      "Do not re-enter a restricted, burning, smoke-filled, flooded, gas-affected, electrically live, or structurally uncertain area in “Wildfire ember-entry check before leaving”.",
+      "Generators, grills, and fuel-burning devices must never operate inside homes, garages, or other enclosed occupied spaces in “Wildfire ember-entry check before leaving”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Wildfire ember-entry check before leaving” unreliable: Close accessible windows and doors, move combustible items from immediate openings, and leave at once if smoke, heat, flame, falling embers, or official orders increase.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Wildfire ember-entry check before leaving”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Mark unsafe areas, account for everyone, record changes, and reassess after every aftershock, weather shift, alarm, or utility change for “Wildfire ember-entry check before leaving”."
+    ],
+    "alternatives": [
+      "If “flashlight and spare power for “Wildfire ember-entry check before leaving”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Wildfire ember-entry check before leaving”, complete the first two verified actions—Close accessible windows and doors, move combustible items from immediate openings, and leave at once if smoke, heat, flame, falling embers, or official orders increase. Identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Wildfire ember-entry check before leaving”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Wildfire ember-entry check before leaving” when the safe zone gains smoke, heat, water, gas odour, electrical signs, falling debris, new cracks, or a blocked exit.",
+      "Stop and reassess “Wildfire ember-entry check before leaving” when official instructions change, people cannot be accounted for, or anyone develops breathing trouble, confusion, collapse, or injury."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Wildfire ember-entry check before leaving” while the area has smoke, gas odour, rising water, unstable walls or roof, falling objects, blocked exits, extreme heat or cold, or an evacuation order.",
+      "This card is not authorization to re-enter a restricted structure, shelter in a flood-prone basement, use flame near fuel, or ignore an official evacuation route. Topic-specific stop check for “Wildfire ember-entry check before leaving”: also follow this warning: “Official instructions and emergency services override “Wildfire ember-entry check before leaving”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Wildfire ember-entry check before leaving”, carry out close accessible windows and doors, move combustible items from immediate openings, and leave at once if smoke, heat, flame, falling embers, or official orders increase. Follow with identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Wildfire ember-entry check before leaving”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Wildfire ember-entry check before leaving” when the safe zone gains smoke, heat, water, gas odour, electrical signs, falling debris, new cracks, or a blocked exit.",
+    "long_term": "For repeated use of “Wildfire ember-entry check before leaving”, keep “weather and official alert source for “Wildfire ember-entry check before leaving”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Wildfire ember-entry check before leaving” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Match the plan to building age, balcony and stair access, island or village isolation, wildfire vegetation, coastal exposure, heat, frost, and mobility needs. For “Wildfire ember-entry check before leaving”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Wildfire early-departure trigger",
+      "Wildfire vehicle loading order",
+      "Wildfire-smoke health red flags"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/dasikes-pyrkagies"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass97-0012-wildfire-return-check",
+    "language": "English",
+    "title": "Wildfire return and hot-spot boundary",
+    "category": "Wildfire · Scenario pack",
+    "subcategory": "Wildfire · Shelter · Field · Card",
+    "summary": "Prevent unsafe return while structures, ash, trees, utilities, air, and hidden hot spots remain hazardous.",
+    "content": "Prevent unsafe return while structures, ash, trees, utilities, air, and hidden hot spots remain hazardous.\n\nSafe-use sequence: Return only when authorities allow it, avoid damaged utilities and unstable trees or roofs, and do not disturb ash without appropriate official cleanup guidance. Identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Wildfire return and hot-spot boundary”. Inspect from a safe position for smoke, heat, water, gas odour, sparks, falling objects, cracks, unstable surfaces, and blocked routes for “Wildfire return and hot-spot boundary”. Move people early to the safer zone or leave when instructed; take medicines, communication, identification, water, and essential mobility aids for “Wildfire return and hot-spot boundary”. Control only hazards that can be handled without entering smoke, floodwater, live electricity, gas, fire, or an unstable structure for “Wildfire return and hot-spot boundary”. Mark unsafe areas, account for everyone, record changes, and reassess after every aftershock, weather shift, alarm, or utility change for “Wildfire return and hot-spot boundary”. Safety limits: Official instructions and emergency services override “Wildfire return and hot-spot boundary”; do not delay evacuation or urgent help to complete the card. Do not re-enter a restricted, burning, smoke-filled, flooded, gas-affected, electrically live, or structurally uncertain area in “Wildfire return and hot-spot boundary”. Generators, grills, and fuel-burning devices must never operate inside homes, garages, or other enclosed occupied spaces in “Wildfire return and hot-spot boundary”. Reduced fallback: If “flashlight and spare power for “Wildfire return and hot-spot boundary”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:wildfire",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "shelter",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "flashlight and spare power for “Wildfire return and hot-spot boundary”",
+      "weather and official alert source for “Wildfire return and hot-spot boundary”",
+      "utility shutoff information for “Wildfire return and hot-spot boundary”",
+      "smoke and carbon-monoxide alarms where applicable for “Wildfire return and hot-spot boundary”",
+      "marked exit routes and meeting point for “Wildfire return and hot-spot boundary”"
+    ],
+    "steps": [
+      "Return only when authorities allow it, avoid damaged utilities and unstable trees or roofs, and do not disturb ash without appropriate official cleanup guidance.",
+      "Identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Wildfire return and hot-spot boundary”.",
+      "Inspect from a safe position for smoke, heat, water, gas odour, sparks, falling objects, cracks, unstable surfaces, and blocked routes for “Wildfire return and hot-spot boundary”.",
+      "Move people early to the safer zone or leave when instructed; take medicines, communication, identification, water, and essential mobility aids for “Wildfire return and hot-spot boundary”.",
+      "Control only hazards that can be handled without entering smoke, floodwater, live electricity, gas, fire, or an unstable structure for “Wildfire return and hot-spot boundary”.",
+      "Mark unsafe areas, account for everyone, record changes, and reassess after every aftershock, weather shift, alarm, or utility change for “Wildfire return and hot-spot boundary”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Wildfire return and hot-spot boundary”; do not delay evacuation or urgent help to complete the card.",
+      "Do not re-enter a restricted, burning, smoke-filled, flooded, gas-affected, electrically live, or structurally uncertain area in “Wildfire return and hot-spot boundary”.",
+      "Generators, grills, and fuel-burning devices must never operate inside homes, garages, or other enclosed occupied spaces in “Wildfire return and hot-spot boundary”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Wildfire return and hot-spot boundary” unreliable: Return only when authorities allow it, avoid damaged utilities and unstable trees or roofs, and do not disturb ash without appropriate official cleanup guidance.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Wildfire return and hot-spot boundary”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Mark unsafe areas, account for everyone, record changes, and reassess after every aftershock, weather shift, alarm, or utility change for “Wildfire return and hot-spot boundary”."
+    ],
+    "alternatives": [
+      "If “flashlight and spare power for “Wildfire return and hot-spot boundary”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Wildfire return and hot-spot boundary”, complete the first two verified actions—Return only when authorities allow it, avoid damaged utilities and unstable trees or roofs, and do not disturb ash without appropriate official cleanup guidance. Identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Wildfire return and hot-spot boundary”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Wildfire return and hot-spot boundary” when the safe zone gains smoke, heat, water, gas odour, electrical signs, falling debris, new cracks, or a blocked exit.",
+      "Stop and reassess “Wildfire return and hot-spot boundary” when official instructions change, people cannot be accounted for, or anyone develops breathing trouble, confusion, collapse, or injury."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Wildfire return and hot-spot boundary” while the area has smoke, gas odour, rising water, unstable walls or roof, falling objects, blocked exits, extreme heat or cold, or an evacuation order.",
+      "This card is not authorization to re-enter a restricted structure, shelter in a flood-prone basement, use flame near fuel, or ignore an official evacuation route. Topic-specific stop check for “Wildfire return and hot-spot boundary”: also follow this warning: “Official instructions and emergency services override “Wildfire return and hot-spot boundary”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Wildfire return and hot-spot boundary”, carry out return only when authorities allow it, avoid damaged utilities and unstable trees or roofs, and do not disturb ash without appropriate official cleanup guidance. Follow with identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Wildfire return and hot-spot boundary”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Wildfire return and hot-spot boundary” when the safe zone gains smoke, heat, water, gas odour, electrical signs, falling debris, new cracks, or a blocked exit.",
+    "long_term": "For repeated use of “Wildfire return and hot-spot boundary”, keep “weather and official alert source for “Wildfire return and hot-spot boundary”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Wildfire return and hot-spot boundary” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Match the plan to building age, balcony and stair access, island or village isolation, wildfire vegetation, coastal exposure, heat, frost, and mobility needs. For “Wildfire return and hot-spot boundary”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Wildfire early-departure trigger",
+      "Wildfire vehicle loading order",
+      "Wildfire ember-entry check before leaving"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/dasikes-pyrkagies"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

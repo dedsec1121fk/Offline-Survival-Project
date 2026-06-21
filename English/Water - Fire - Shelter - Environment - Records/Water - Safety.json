@@ -1,0 +1,76 @@
+[
+  {
+    "id": "core-water-fire-shelter-001",
+    "language": "English",
+    "title": "Safe household water chain",
+    "category": "Water · Fire · Shelter · Environment · Records",
+    "subcategory": "Water · Safety",
+    "summary": "A complete chain for collecting, labeling, storing, treating, and using water without recontaminating it.",
+    "content": "Water safety is not one action. It is a chain. A clean source can become unsafe if carried in a dirty bottle, dipped with dirty hands, stored uncovered, or mixed with doubtful water. Separate water into clear labels: drinking water, cooking water, washing water, untreated water, and waste water. Keep the cleanest water for drinking, medicine, infant care, and wound cleaning. If water is doubtful, use a trusted treatment method suitable for the contamination risk, such as boiling when fuel is available or an approved disinfectant used exactly by its label. Do not treat chemical, fuel, sewage, or flood-contaminated water as safe just because it looks clear.",
+    "difficulty": "basic",
+    "urgency": "immediate",
+    "priority": "critical",
+    "tags": [
+      "water",
+      "storage",
+      "treatment",
+      "hygiene",
+      "labels",
+      "contamination"
+    ],
+    "materials": [
+      "Clean containers",
+      "Labels or tape",
+      "Cloth for pre-filtering debris",
+      "Pot and heat source if safe",
+      "Approved disinfectant if available"
+    ],
+    "steps": [
+      "Label every container before filling it.",
+      "Keep untreated and treated water physically separate.",
+      "Pour clean water instead of dipping cups or hands into the container.",
+      "Use the clearest and safest water for drinking, medicine, infants, and wounds.",
+      "Record the source and treatment time when possible.",
+      "Recheck containers daily for dirt, smell, leaks, insects, and loose lids."
+    ],
+    "warnings": [
+      "Do not drink water touched by floodwater, sewage, fuel, or unknown chemicals unless authorities confirm it is safe after proper treatment.",
+      "Do not store clean water in containers that held fuel, pesticides, strong cleaners, or unknown substances.",
+      "Do not assume clear water is safe."
+    ],
+    "common_mistakes": [
+      "Treating water and then touching it with dirty cups.",
+      "Mixing old untreated water with new treated water.",
+      "Forgetting to label containers."
+    ],
+    "alternatives": [
+      "Run a smaller version of Safe household water chain with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Safe household water chain if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Safe household water chain and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Safe household water chain or when the next check happens.",
+      "Supplies connected to Safe household water chain are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Safe household water chain”"
+    ],
+    "when_not_to_use": [
+      "Do not use Safe household water chain as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Safe household water chain when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Safe household water chain."
+    ],
+    "short_term": "For the first hours of Safe household water chain, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Safe household water chain remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Safe household water chain fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Safe household water chain to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Neighborhood water point rules",
+      "Community sanitation corner",
+      "Household first 72 hours command sheet"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

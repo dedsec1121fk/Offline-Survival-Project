@@ -1,0 +1,73 @@
+[
+  {
+    "id": "pass90-0007",
+    "language": "English",
+    "title": "Refrigerator power-outage food triage",
+    "category": "Food · Shelter · Health · Operations",
+    "subcategory": "Food · Safety · Power · Outage",
+    "summary": "A food-safety routine for keeping cold doors closed, recording outage time, and avoiding unsafe tasting after power loss.",
+    "content": "Food safety during power loss depends on time, temperature, food type, and whether doors stayed closed. The first action is not sorting with the door open. Record the outage start, tape a note to the fridge, plan shelf-stable meals first, and discard food exposed to floodwater, sewage, leaking chemicals, or unsafe temperatures.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "tags": [
+      "food safety",
+      "power outage",
+      "refrigerator",
+      "household"
+    ],
+    "materials": [
+      "Outage log",
+      "Tape sign",
+      "Cooler if available",
+      "Thermometer if available. Context: “Refrigerator power-outage food triage”."
+    ],
+    "steps": [
+      "Write the outage start time or best estimate.",
+      "Tape do-not-open notes on cold doors.",
+      "Plan meals without repeatedly opening the fridge.",
+      "Assess food after power returns using official guidance and temperature evidence.",
+      "Record discarded food so nobody retrieves it."
+    ],
+    "warnings": [
+      "Never taste questionable food to decide safety.",
+      "Do not feed risky leftovers to vulnerable people or pets.",
+      "Do not keep food that contacted floodwater."
+    ],
+    "common_mistakes": [
+      "Opening the fridge many times.",
+      "Saving risky food because it was expensive.",
+      "Mixing discarded food with sealed dry food."
+    ],
+    "alternatives": [
+      "Run a smaller version of Refrigerator power-outage food triage with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Refrigerator power-outage food triage if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Refrigerator power-outage food triage and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Refrigerator power-outage food triage or when the next check happens.",
+      "Supplies connected to Refrigerator power-outage food triage are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Refrigerator power-outage food triage”"
+    ],
+    "when_not_to_use": [
+      "Do not use Refrigerator power-outage food triage as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Refrigerator power-outage food triage when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Refrigerator power-outage food triage."
+    ],
+    "short_term": "For the first hours of Refrigerator power-outage food triage, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Refrigerator power-outage food triage remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Refrigerator power-outage food triage fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Refrigerator power-outage food triage to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Dry-store pest barrier",
+      "Community meal ration board",
+      "Smoke-free indoor cooking rule",
+      "Heatwave cool-room plan"
+    ],
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

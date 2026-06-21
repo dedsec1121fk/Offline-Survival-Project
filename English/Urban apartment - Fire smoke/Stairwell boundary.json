@@ -1,0 +1,70 @@
+[
+  {
+    "id": "pass103-0003-apartment-stairwell-smoke-decision",
+    "language": "English",
+    "title": "Apartment stairwell smoke decision",
+    "category": "Urban apartment · Fire smoke",
+    "subcategory": "Stairwell boundary",
+    "summary": "Helps a resident decide whether a stairwell is usable when smoke, heat, alarms, or fire smell appear in a block of flats.",
+    "content": "Helps a resident decide whether a stairwell is usable when smoke, heat, alarms, or fire smell appear in a block of flats.\n\nUse it when the situation is real but still manageable. Work slowly, keep one written decision log, and prefer the safest reversible action over a dramatic improvisation.\n\nCore sequence: 1) Feel the door and handle with the back of the hand before opening even a few centimeters. 2) If smoke enters from the stairwell, close the door, block gaps, move to a window or balcony, and call 112. 3) If the stairwell is clear, descend calmly without using lifts and close doors behind you. 4) Mark the flat as occupied only if it can be done without entering smoke.\n\nStop point: Do not enter a smoky stairwell to rescue belongings, pets, chargers, or documents. Main warnings: Do not open a hot door to look; heat behind the door is already useful information. Do not use a lift during a fire alarm or smoke event.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "immediate",
+    "priority": "critical",
+    "tags": [
+      "pack:utilities",
+      "pack:greece",
+      "fire",
+      "smoke",
+      "apartment",
+      "pass103",
+      "offline",
+      "bilingual"
+    ],
+    "materials": [
+      "damp cloth for door gaps",
+      "keys carried on the body",
+      "phone with emergency numbers visible",
+      "torch kept away from smoke"
+    ],
+    "steps": [
+      "Feel the door and handle with the back of the hand before opening even a few centimeters.",
+      "If smoke enters from the stairwell, close the door, block gaps, move to a window or balcony, and call 112.",
+      "If the stairwell is clear, descend calmly without using lifts and close doors behind you.",
+      "Mark the flat as occupied only if it can be done without entering smoke."
+    ],
+    "warnings": [
+      "Do not open a hot door to look; heat behind the door is already useful information.",
+      "Do not use a lift during a fire alarm or smoke event."
+    ],
+    "common_mistakes": [
+      "Running downstairs into smoke can trap the resident below the fire floor.",
+      "Leaving the flat unlocked without keys can prevent re-entry if the stairwell becomes unusable."
+    ],
+    "alternatives": [
+      "If voice calls fail, send a short message with floor, side of building, number of people, smoke level, and visible window.",
+      "If balcony air is also smoky, stay low, seal the room, and wait for official direction."
+    ],
+    "failure_signs": [
+      "Coughing, heat on the door, dark smoke under the frame, or confusion appear.",
+      "The stairwell light fails and the smell becomes stronger between floors."
+    ],
+    "when_not_to_use": [
+      "Do not enter a smoky stairwell to rescue belongings, pets, chargers, or documents.",
+      "Do not break windows unless responders instruct it or smoke makes staying impossible."
+    ],
+    "short_term": "Keep keys, shoes, phone, and a cloth reachable from the sleeping area.",
+    "long_term": "Learn two exits, floor numbering, and the safest window or balcony signal point before any fire.",
+    "if_method_fails": "If the decision fails, close the last safe door, call 112, describe smoke and floor, and stop self-evacuation attempts.",
+    "environment_notes": "Older buildings may lack alarms or clear floor signs; use doors, light wells, balconies, and known neighbors as reference points.",
+    "related_topics": [
+      "Household first 72 hours command sheet",
+      "Emergency call script for 112",
+      "Night evacuation without street lighting"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/112",
+      "https://civilprotection.gov.gr/en/odigies-prostasias/genikes-odigies"
+    ],
+    "last_updated": "2026-06-21"
+  }
+]

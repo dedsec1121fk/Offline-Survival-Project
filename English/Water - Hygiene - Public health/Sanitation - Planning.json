@@ -1,0 +1,73 @@
+[
+  {
+    "id": "pass90-0004",
+    "language": "English",
+    "title": "Latrine location risk map",
+    "category": "Water · Hygiene · Public health",
+    "subcategory": "Sanitation · Planning",
+    "summary": "A rough map for placing emergency toilet areas away from water, kitchens, sleeping spaces, child paths, and flood flow.",
+    "content": "Sanitation failure can poison a camp or building faster than discomfort. Before improvising a toilet area, draw water sources, food storage, sleeping spaces, drainage direction, children’s routes, animal areas, and flood-prone spots. The aim is to keep waste away from mouths, wounds, kitchens, and drinking water.",
+    "difficulty": "intermediate",
+    "urgency": "high",
+    "priority": "high",
+    "tags": [
+      "sanitation",
+      "latrine",
+      "mapping",
+      "water protection"
+    ],
+    "materials": [
+      "Paper map. Context: “Latrine location risk map”.",
+      "Marker. Context: “Latrine location risk map”.",
+      "Rope or tape",
+      "Handwashing supplies. Context: “Latrine location risk map”."
+    ],
+    "steps": [
+      "Mark water and food first.",
+      "Mark where rainwater flows.",
+      "Choose the farthest practical toilet area from clean zones.",
+      "Create a handwashing point on the exit path.",
+      "Review after rain or crowd changes."
+    ],
+    "warnings": [
+      "Do not place waste uphill from water.",
+      "Do not let toilet paper or waste scatter in wind.",
+      "Do not dig near buried utilities or unstable ground."
+    ],
+    "common_mistakes": [
+      "Choosing privacy while ignoring runoff.",
+      "Forgetting handwashing at the exit.",
+      "Moving kitchens closer later because the layout feels inconvenient."
+    ],
+    "alternatives": [
+      "Run a smaller version of Latrine location risk map with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Latrine location risk map if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Latrine location risk map and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Latrine location risk map or when the next check happens.",
+      "Supplies connected to Latrine location risk map are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Latrine location risk map”"
+    ],
+    "when_not_to_use": [
+      "Do not use Latrine location risk map as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Latrine location risk map when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Latrine location risk map."
+    ],
+    "short_term": "For the first hours of Latrine location risk map, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Latrine location risk map remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Latrine location risk map fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Latrine location risk map to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Diarrhea watch and hydration record"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

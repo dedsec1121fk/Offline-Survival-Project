@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pass90-0003",
+    "language": "English",
+    "title": "Emergency handwashing station",
+    "category": "Water · Hygiene · Public health",
+    "subcategory": "Hygiene · Station",
+    "summary": "A low-water handwashing point for food, toilet, patient care, animal contact, and water-container handling.",
+    "content": "When water is limited, handwashing often disappears exactly when infection risk rises. A station can be simple: a clean pour container, soap, catch basin, drying plan, and reminder card. Place it where people naturally pass after toilet use and before food handling.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "high",
+    "tags": [
+      "hygiene",
+      "handwashing",
+      "infection prevention",
+      "sanitation"
+    ],
+    "materials": [
+      "Pour container",
+      "Soap. Context: “Emergency handwashing station”.",
+      "Catch basin",
+      "Clean towel or air-dry area",
+      "Reminder card"
+    ],
+    "steps": [
+      "Place it between dirty and clean zones.",
+      "Use pouring, not shared dipping.",
+      "Tie or place soap so it cannot fall into wastewater.",
+      "Collect wastewater away from food and sleeping spaces.",
+      "Check soap and water twice daily."
+    ],
+    "warnings": [
+      "Shared dirty towels can spread illness.",
+      "Hand sanitizer is not enough when hands are visibly dirty.",
+      "Do not let wastewater run toward food storage."
+    ],
+    "common_mistakes": [
+      "Putting the station too far away while carrying out “Emergency handwashing station”",
+      "Using an open bucket everyone touches.",
+      "Forgetting handwashing before touching safe water."
+    ],
+    "alternatives": [
+      "Run a smaller version of Emergency handwashing station with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Emergency handwashing station if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Emergency handwashing station and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Emergency handwashing station or when the next check happens.",
+      "Supplies connected to Emergency handwashing station are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Emergency handwashing station”"
+    ],
+    "when_not_to_use": [
+      "Do not use Emergency handwashing station as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Emergency handwashing station when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Emergency handwashing station."
+    ],
+    "short_term": "For the first hours of Emergency handwashing station, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Emergency handwashing station remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Emergency handwashing station fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Emergency handwashing station to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Latrine location risk map",
+      "Diarrhea watch and hydration record"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

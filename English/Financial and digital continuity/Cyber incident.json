@@ -1,0 +1,70 @@
+[
+  {
+    "id": "pass100-0024",
+    "language": "English",
+    "title": "Household ransomware isolation and trusted recovery",
+    "category": "Financial and digital continuity",
+    "subcategory": "Cyber incident",
+    "summary": "A non-technical containment sequence to disconnect affected devices, preserve information, use a clean device for account protection, and obtain trusted help without spreading the infection.",
+    "content": "A non-technical containment sequence to disconnect affected devices, preserve information, use a clean device for account protection, and obtain trusted help without spreading the infection.\n\nUse the materials as a compact field kit. Work through the steps in order, pause whenever a warning or stop condition applies, and write down the outcome so another person can continue safely.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "urgent",
+    "priority": "high",
+    "tags": [
+      "account-security",
+      "bilingual",
+      "cyber-incident",
+      "financial-and-digital-continuity",
+      "isolation",
+      "offline",
+      "pass100",
+      "ransomware",
+      "pack:continuity"
+    ],
+    "materials": [
+      "paper incident sheet",
+      "known-clean phone or computer",
+      "offline backup inventory",
+      "official support contacts"
+    ],
+    "steps": [
+      "Disconnect the suspected device from wired and wireless networks and external drives without exploring files or attaching new storage.",
+      "Photograph or write the message, time, device, recent actions, affected accounts, and any unusual alerts; preserve the device state for qualified help.",
+      "From a known-clean device, contact official organizational support, bank, email provider, or competent cyber authority and protect critical accounts with new unique credentials and multi-factor security.",
+      "Check offline backups before restoration, follow trusted recovery guidance, and monitor financial and identity accounts for secondary abuse."
+    ],
+    "warnings": [
+      "Do not pay, negotiate, run random cleanup tools, or follow contact details supplied by the attacker without qualified advice.",
+      "Do not reconnect a restored device until containment and update steps are complete."
+    ],
+    "common_mistakes": [
+      "Starting Household ransomware isolation and trusted recovery without first checking immediate danger and official instructions.",
+      "Failing to record time, location, responsible person, and unresolved risks for Household ransomware isolation and trusted recovery."
+    ],
+    "alternatives": [
+      "Use a paper-only version of Household ransomware isolation and trusted recovery when power or connectivity is unavailable.",
+      "Assign one trained helper to simplify Household ransomware isolation and trusted recovery when the group is stressed or short-handed."
+    ],
+    "failure_signs": [
+      "Conditions become more dangerous while carrying out Household ransomware isolation and trusted recovery.",
+      "Critical information cannot be confirmed or the assigned helper cannot continue Household ransomware isolation and trusted recovery safely."
+    ],
+    "when_not_to_use": [
+      "Do not continue Household ransomware isolation and trusted recovery when it requires entering an unstable, contaminated, flooded, burning, electrically hazardous, or officially closed area.",
+      "Do not improvise medical, electrical, structural, or rescue actions beyond your training while using Household ransomware isolation and trusted recovery."
+    ],
+    "short_term": "['Within the first operational period, Household ransomware isolation and trusted recovery should produce a dated status, one responsible person, and a safe next action.', 'Repeat the essential check for Household ransomware isolation and trusted recovery whenever conditions, official advice, or available resources change.']",
+    "long_term": "['Include lessons from Household ransomware isolation and trusted recovery in the household or community emergency plan and resupply list.', 'Review the records from Household ransomware isolation and trusted recovery after the event and correct gaps before the next emergency.']",
+    "if_method_fails": "['If Household ransomware isolation and trusted recovery cannot be completed, move to the safest verified location, notify the responsible contact, and record what remains unresolved.', 'Use official emergency services or qualified specialists when the limits of Household ransomware isolation and trusted recovery are reached.']",
+    "environment_notes": "['Adapt Household ransomware isolation and trusted recovery to local terrain, weather, building type, transport access, language, disability needs, and official restrictions.', 'In Greece, use 112 for urgent emergencies and follow Civil Protection or local-authority instructions relevant to Household ransomware isolation and trusted recovery.']",
+    "related_topics": [
+      "Offline backup validation",
+      "Lost phone account recovery"
+    ],
+    "sources": [
+      "https://www.cisa.gov/stopransomware/ransomware-guide",
+      "https://www.cisa.gov/stopransomware/ive-been-hit-ransomware"
+    ],
+    "last_updated": "2026-06-19"
+  }
+]

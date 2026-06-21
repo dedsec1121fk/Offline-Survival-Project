@@ -1,0 +1,69 @@
+[
+  {
+    "id": "pass100-0014",
+    "language": "English",
+    "title": "Emergency cleaning of infant feeding items",
+    "category": "Unsafe water and infant continuity",
+    "subcategory": "Infant hygiene",
+    "summary": "A safe sequence for cleaning bottles, cups, pump parts, and preparation surfaces when water, power, or normal kitchen facilities are disrupted.",
+    "content": "A safe sequence for cleaning bottles, cups, pump parts, and preparation surfaces when water, power, or normal kitchen facilities are disrupted.\n\nUse the materials as a compact field kit. Work through the steps in order, pause whenever a warning or stop condition applies, and write down the outcome so another person can continue safely.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "urgent",
+    "priority": "high",
+    "tags": [
+      "bilingual",
+      "cleaning",
+      "feeding-items",
+      "infant",
+      "infant-hygiene",
+      "offline",
+      "pass100",
+      "unsafe-water-and-infant-continuity",
+      "pack:water"
+    ],
+    "materials": [
+      "verified safe water",
+      "soap",
+      "clean basin used only for feeding items",
+      "air-drying rack or clean protected surface"
+    ],
+    "steps": [
+      "Wash hands with safe water and soap or use an appropriate hand-cleaning fallback before touching feeding items.",
+      "Disassemble every removable part and wash it in a dedicated clean basin rather than directly in a potentially contaminated sink.",
+      "Rinse with safe water and sanitize when recommended for the infant’s age or risk, using the current official method and correct product concentration.",
+      "Allow items to air-dry completely in a protected place; do not dry internally with a used towel and do not reassemble while wet."
+    ],
+    "warnings": [
+      "Do not use floodwater, advisory water, or an unclean shared basin.",
+      "Do not mix cleaning chemicals or guess disinfectant concentration."
+    ],
+    "common_mistakes": [
+      "Starting Emergency cleaning of infant feeding items without first checking immediate danger and official instructions.",
+      "Failing to record time, location, responsible person, and unresolved risks for Emergency cleaning of infant feeding items."
+    ],
+    "alternatives": [
+      "Use a paper-only version of Emergency cleaning of infant feeding items when power or connectivity is unavailable.",
+      "Assign one trained helper to simplify Emergency cleaning of infant feeding items when the group is stressed or short-handed."
+    ],
+    "failure_signs": [
+      "Conditions become more dangerous while carrying out Emergency cleaning of infant feeding items.",
+      "Critical information cannot be confirmed or the assigned helper cannot continue Emergency cleaning of infant feeding items safely."
+    ],
+    "when_not_to_use": [
+      "Do not continue Emergency cleaning of infant feeding items when it requires entering an unstable, contaminated, flooded, burning, electrically hazardous, or officially closed area.",
+      "Do not improvise medical, electrical, structural, or rescue actions beyond your training while using Emergency cleaning of infant feeding items."
+    ],
+    "short_term": "['Within the first operational period, Emergency cleaning of infant feeding items should produce a dated status, one responsible person, and a safe next action.', 'Repeat the essential check for Emergency cleaning of infant feeding items whenever conditions, official advice, or available resources change.']",
+    "long_term": "['Include lessons from Emergency cleaning of infant feeding items in the household or community emergency plan and resupply list.', 'Review the records from Emergency cleaning of infant feeding items after the event and correct gaps before the next emergency.']",
+    "if_method_fails": "['If Emergency cleaning of infant feeding items cannot be completed, move to the safest verified location, notify the responsible contact, and record what remains unresolved.', 'Use official emergency services or qualified specialists when the limits of Emergency cleaning of infant feeding items are reached.']",
+    "environment_notes": "['Adapt Emergency cleaning of infant feeding items to local terrain, weather, building type, transport access, language, disability needs, and official restrictions.', 'In Greece, use 112 for urgent emergencies and follow Civil Protection or local-authority instructions relevant to Emergency cleaning of infant feeding items.']",
+    "related_topics": [
+      "Infant formula continuity",
+      "Hand hygiene with limited water"
+    ],
+    "sources": [
+      "https://www.cdc.gov/infant-toddler-nutrition/emergencies/cleaning-infant-feeding-items-during-emergencies.html"
+    ],
+    "last_updated": "2026-06-19"
+  }
+]

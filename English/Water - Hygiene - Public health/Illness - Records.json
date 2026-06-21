@@ -1,0 +1,73 @@
+[
+  {
+    "id": "pass90-0005",
+    "language": "English",
+    "title": "Diarrhea watch and hydration record",
+    "category": "Water · Hygiene · Public health",
+    "subcategory": "Illness · Records",
+    "summary": "A non-diagnostic record for noticing dehydration risk, protecting others, and communicating clearly with medical help.",
+    "content": "Diarrhea after unsafe water, spoiled food, heat, or stress can become dangerous quickly, especially for infants, elderly people, pregnant people, and anyone already ill. Record time, fluids tolerated, urine, fever, blood, vomiting, confusion, weakness, and possible shared exposure. The record supports care; it is not a diagnosis.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "critical",
+    "tags": [
+      "health records",
+      "diarrhea",
+      "hydration",
+      "public health"
+    ],
+    "materials": [
+      "Notebook. Context: “Diarrhea watch and hydration record”.",
+      "Clock. Context: “Diarrhea watch and hydration record”.",
+      "Separate cup",
+      "Handwashing supplies. Context: “Diarrhea watch and hydration record”."
+    ],
+    "steps": [
+      "Start immediately for vulnerable people or after repeated episodes.",
+      "Record fluids and urine changes.",
+      "Separate towels, cups, and cleaning tools when possible.",
+      "Note shared food or water exposure.",
+      "Seek medical help early for severe signs."
+    ],
+    "warnings": [
+      "Do not give random antibiotics or anti-diarrhea drugs without qualified advice.",
+      "Do not let a sick food handler cook shared meals.",
+      "Do not hide blood, confusion, fainting, or dehydration signs."
+    ],
+    "common_mistakes": [
+      "Arguing about the cause instead of writing facts.",
+      "Sharing one towel in a crowded shelter.",
+      "Stopping all fluids because vomiting happened once."
+    ],
+    "alternatives": [
+      "Run a smaller version of Diarrhea watch and hydration record with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Diarrhea watch and hydration record if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Diarrhea watch and hydration record and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Diarrhea watch and hydration record or when the next check happens.",
+      "Supplies connected to Diarrhea watch and hydration record are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Diarrhea watch and hydration record”"
+    ],
+    "when_not_to_use": [
+      "Do not use Diarrhea watch and hydration record as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Diarrhea watch and hydration record when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Diarrhea watch and hydration record."
+    ],
+    "short_term": "For the first hours of Diarrhea watch and hydration record, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Diarrhea watch and hydration record remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Diarrhea watch and hydration record fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Diarrhea watch and hydration record to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Household water priority board",
+      "Boil advisory kitchen routine",
+      "Emergency handwashing station",
+      "Latrine location risk map"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

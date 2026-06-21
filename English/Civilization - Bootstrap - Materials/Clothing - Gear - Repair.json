@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pass88-0009",
+    "language": "English",
+    "title": "Leather patch stitching routine",
+    "category": "Civilization · Bootstrap · Materials",
+    "subcategory": "Clothing · Gear · Repair",
+    "summary": "A repair routine for extending the life of leather belts, straps, sheaths, and small load-bearing items through careful patching and testing.",
+    "content": "Leather patch stitching routine is useful when replacement gear is scarce and small failures can spread into major loss. Begin by cleaning the area and checking whether the leather is merely worn or already rotten beyond safe repair. Cut a patch that extends past the damaged area in all directions and round the patch corners so they resist peeling. Plan the stitch line before punching or piercing anything, because random holes weaken the area further. After stitching, test under gradually increasing load rather than trusting the repair immediately for full strain. Write down what item was repaired, what material was used, and whether the repair is only temporary.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "medium",
+    "tags": [
+      "leather",
+      "repair",
+      "clothing",
+      "gear",
+      "offline",
+      "bilingual",
+      "pass88"
+    ],
+    "materials": [
+      "Leather item",
+      "Patch leather",
+      "Awl or punch",
+      "Thread or cord",
+      "Knife",
+      "Repair notes"
+    ],
+    "steps": [
+      "Clean and inspect the damaged area.",
+      "Cut a patch larger than the damaged zone.",
+      "Round the patch corners.",
+      "Plan and pierce the stitch line carefully.",
+      "Stitch and test under light load first.",
+      "Mark the repair as temporary or full-service after testing."
+    ],
+    "warnings": [
+      "Do not trust rotten leather for critical loads.",
+      "Random piercing weakens the material.",
+      "Stop if the item fails during light testing."
+    ],
+    "common_mistakes": [
+      "Using too small a patch.",
+      "Skipping load testing.",
+      "Repairing over hidden rot or tearing."
+    ],
+    "alternatives": [
+      "Reassign the item to lighter duty.",
+      "Make a new strap if materials allow.",
+      "Use cloth reinforcement only for noncritical use."
+    ],
+    "failure_signs": [
+      "New tearing appears near stitch holes.",
+      "The patch peels at corners.",
+      "The item stretches unevenly under light load."
+    ],
+    "when_not_to_use": [
+      "Do not use patched leather for climbing, rescue, or other life-critical load tasks.",
+      "Do not use when the base leather is already brittle or rotten."
+    ],
+    "short_term": "Keep a useful item working a little longer.",
+    "long_term": "Extend local repair capability for clothing and field gear.",
+    "if_method_fails": "Downgrade the item to noncritical use or retire it completely.",
+    "environment_notes": "Heat, repeated wetting, and sun damage can shorten the repair life.",
+    "related_topics": [
+      "Small tool handle refitting guide",
+      "Seed saving dry storage checklist",
+      "Community apprenticeship ledger"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

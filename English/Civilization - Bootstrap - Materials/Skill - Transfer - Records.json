@@ -1,0 +1,76 @@
+[
+  {
+    "id": "pass88-0010",
+    "language": "English",
+    "title": "Community apprenticeship ledger",
+    "category": "Civilization · Bootstrap · Materials",
+    "subcategory": "Skill · Transfer · Records",
+    "summary": "A written method for tracking who can teach, who is learning, what was practiced, and what still needs supervision.",
+    "content": "Community apprenticeship ledger helps a group avoid losing practical skills when one capable person becomes ill, leaves, or dies. The ledger should list each skill area, the people who can perform it, the people still learning it, the tools required, the main safety limits, and the last date of supervised practice. Keep the language simple enough that another household can understand it if the original teacher is missing. Record real practice, not just claims of experience. A short honest entry saying a learner can clean tools safely but not yet repair them is more useful than vague praise. Review the ledger regularly and use it to plan paired training instead of waiting for emergencies to reveal knowledge gaps.",
+    "difficulty": "basic",
+    "urgency": "non_immediate",
+    "priority": "high",
+    "tags": [
+      "records",
+      "training",
+      "skills",
+      "community",
+      "offline",
+      "bilingual",
+      "pass88"
+    ],
+    "materials": [
+      "Notebook or ledger",
+      "Pencils. Context: “Community apprenticeship ledger”.",
+      "Simple symbols or status marks",
+      "Date list",
+      "Skill categories"
+    ],
+    "steps": [
+      "List each skill area and the current teachers.",
+      "Mark who is learning and under what supervision.",
+      "Record the tools and main safety limits.",
+      "Write the date of real practice, not just discussion.",
+      "Review gaps regularly and plan paired teaching.",
+      "Update status honestly after each supervised task."
+    ],
+    "warnings": [
+      "Do not exaggerate competence in the ledger.",
+      "Do not keep only one person for a vital skill if cross-training is possible.",
+      "Do not let the ledger replace direct supervision for dangerous tasks."
+    ],
+    "common_mistakes": [
+      "Recording vague praise instead of actual skill status.",
+      "Failing to update after practice.",
+      "Keeping the ledger where only one person can access it."
+    ],
+    "alternatives": [
+      "Use wall charts if notebooks are scarce.",
+      "Split one master ledger into household copies.",
+      "Use symbols for literacy-limited contexts."
+    ],
+    "failure_signs": [
+      "Nobody knows who can safely do a task.",
+      "The same mistake repeats across households.",
+      "Vital skills still belong to only one exhausted person."
+    ],
+    "when_not_to_use": [
+      "Do not rely on the ledger alone during immediate emergencies.",
+      "Do not store sensitive personal details when simple skill status is enough."
+    ],
+    "short_term": "Make hidden skill gaps visible.",
+    "long_term": "Preserve and spread practical knowledge across the whole community.",
+    "if_method_fails": "Simplify the record format and restart with the most vital skills first.",
+    "environment_notes": "The best format is the one people will actually update under stress and limited time.",
+    "related_topics": [
+      "Small tool handle refitting guide",
+      "Seed saving dry storage checklist",
+      "Hand-powered grain grinding station notes"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

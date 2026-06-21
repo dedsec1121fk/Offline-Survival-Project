@@ -1,0 +1,69 @@
+[
+  {
+    "id": "pass81-care-002",
+    "language": "English",
+    "title": "Symptom and illness cluster log",
+    "category": "Medicine · Records · Care",
+    "subcategory": "Public health · Records",
+    "summary": "A non-diagnostic way to track symptoms, timing, contacts, food, water, and shared spaces.",
+    "content": "A symptom log helps notice patterns without guessing diagnoses. Record person, age group, main symptoms, start time, temperature if known, food and water exposures, shared spaces, and whether medical help was contacted. Keep privacy. Look for clusters after shared meals, water changes, cleanup work, smoke exposure, or close contact. The log supports decisions about hygiene, separation, safer food, and asking for help.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "tags": [
+      "illness",
+      "symptom log",
+      "public health"
+    ],
+    "materials": [
+      "Notebook. Context: “Symptom and illness cluster log”.",
+      "Pencil. Context: “Symptom and illness cluster log”.",
+      "Labels. Context: “Symptom and illness cluster log”.",
+      "Clean storage space. Context: “Symptom and illness cluster log”."
+    ],
+    "steps": [
+      "Record symptoms with date and time.",
+      "Keep names private where possible.",
+      "Look for shared food, water, room, or task exposure.",
+      "Increase hygiene and reduce shared items when symptoms cluster.",
+      "Seek qualified help for severe, unusual, or worsening symptoms."
+    ],
+    "warnings": [
+      "Do not use the log to shame people.",
+      "Do not delay emergency care while trying to complete records."
+    ],
+    "common_mistakes": [
+      "Treating Symptom and illness cluster log as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Symptom and illness cluster log without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Symptom and illness cluster log because labels, dates, or responsible names were not written down."
+    ],
+    "alternatives": [
+      "Run a smaller version of Symptom and illness cluster log with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Symptom and illness cluster log if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Symptom and illness cluster log and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Symptom and illness cluster log or when the next check happens.",
+      "Supplies connected to Symptom and illness cluster log are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Symptom and illness cluster log”"
+    ],
+    "when_not_to_use": [
+      "Do not use Symptom and illness cluster log as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Symptom and illness cluster log when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Symptom and illness cluster log."
+    ],
+    "short_term": "For the first hours of Symptom and illness cluster log, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Symptom and illness cluster log remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Symptom and illness cluster log fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Symptom and illness cluster log to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Community sanitation corner",
+      "Food safety after refrigerator failure"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

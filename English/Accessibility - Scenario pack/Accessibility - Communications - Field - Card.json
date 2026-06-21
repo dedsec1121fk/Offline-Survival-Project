@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pass97-0032-accessibility-sensory-card",
+    "language": "English",
+    "title": "Sensory and communication support card",
+    "category": "Accessibility · Scenario pack",
+    "subcategory": "Accessibility · Communications · Field · Card",
+    "summary": "Give responders and helpers a concise, consent-based description of how a person communicates and what reduces distress.",
+    "content": "Give responders and helpers a concise, consent-based description of how a person communicates and what reduces distress.\n\nSafe-use sequence: Record preferred name, communication method, hearing or vision needs, sensory triggers, calming supports, essential devices, medicine plan, contact, and privacy boundary. Define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Sensory and communication support card”. Write short messages with place, time, verified fact, requested action, deadline, and source for “Sensory and communication support card”. Schedule listening and transmission windows to preserve power and reduce congestion for “Sensory and communication support card”. Keep a paper copy of essential contacts, frequencies, codes, instructions, and last known status for “Sensory and communication support card”. Test understanding through read-back or demonstration, then archive the corrected version with date and version for “Sensory and communication support card”. Safety limits: Official instructions and emergency services override “Sensory and communication support card”; do not delay evacuation or urgent help to complete the card. Do not spread unverified casualty, route, threat, medicine, or evacuation information in “Sensory and communication support card”. Protect private information and do not rely on one device, one platform, one person, or one power source in “Sensory and communication support card”. Reduced fallback: If “paper contact tree for “Sensory and communication support card”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:accessibility",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "communications",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "paper contact tree for “Sensory and communication support card”",
+      "charged phone or radio when available for “Sensory and communication support card”",
+      "message forms for “Sensory and communication support card”",
+      "time source for “Sensory and communication support card”",
+      "offline copies and spare storage for “Sensory and communication support card”"
+    ],
+    "steps": [
+      "Record preferred name, communication method, hearing or vision needs, sensory triggers, calming supports, essential devices, medicine plan, contact, and privacy boundary.",
+      "Define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Sensory and communication support card”.",
+      "Write short messages with place, time, verified fact, requested action, deadline, and source for “Sensory and communication support card”.",
+      "Schedule listening and transmission windows to preserve power and reduce congestion for “Sensory and communication support card”.",
+      "Keep a paper copy of essential contacts, frequencies, codes, instructions, and last known status for “Sensory and communication support card”.",
+      "Test understanding through read-back or demonstration, then archive the corrected version with date and version for “Sensory and communication support card”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Sensory and communication support card”; do not delay evacuation or urgent help to complete the card.",
+      "Do not spread unverified casualty, route, threat, medicine, or evacuation information in “Sensory and communication support card”.",
+      "Protect private information and do not rely on one device, one platform, one person, or one power source in “Sensory and communication support card”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Sensory and communication support card” unreliable: Record preferred name, communication method, hearing or vision needs, sensory triggers, calming supports, essential devices, medicine plan, contact, and privacy boundary.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Sensory and communication support card”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Test understanding through read-back or demonstration, then archive the corrected version with date and version for “Sensory and communication support card”."
+    ],
+    "alternatives": [
+      "If “paper contact tree for “Sensory and communication support card”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Sensory and communication support card”, complete the first two verified actions—Record preferred name, communication method, hearing or vision needs, sensory triggers, calming supports, essential devices, medicine plan, contact, and privacy boundary. Define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Sensory and communication support card”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Sensory and communication support card” when messages arrive without time, source, location, requested action, or acknowledgement.",
+      "Stop and reassess “Sensory and communication support card” when different copies conflict and no version owner or correction process exists."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Sensory and communication support card” while breathing, alertness, circulation, major bleeding, severe pain, seizure, poisoning, chest symptoms, pregnancy danger signs, or rapid deterioration is present.",
+      "This card is not authorization to diagnose, prescribe, change a dose, perform an invasive procedure, force care, or delay 112 and qualified medical help. Topic-specific stop check for “Sensory and communication support card”: also follow this warning: “Official instructions and emergency services override “Sensory and communication support card”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Sensory and communication support card”, carry out record preferred name, communication method, hearing or vision needs, sensory triggers, calming supports, essential devices, medicine plan, contact, and privacy boundary. Follow with define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Sensory and communication support card”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Sensory and communication support card” when messages arrive without time, source, location, requested action, or acknowledgement.",
+    "long_term": "For repeated use of “Sensory and communication support card”, keep “charged phone or radio when available for “Sensory and communication support card”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Sensory and communication support card” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Use consent, privacy, infection-control barriers, the person’s established care plan, written medicines and allergies, and early referral when transport is difficult. For “Sensory and communication support card”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Mobility-support stair evacuation plan",
+      "Child reunification packet",
+      "Older-adult medicine and support copy"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/genikes-odigies"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

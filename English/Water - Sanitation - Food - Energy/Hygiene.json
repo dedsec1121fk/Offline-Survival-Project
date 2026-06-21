@@ -1,0 +1,69 @@
+[
+  {
+    "id": "pass81-ops-003",
+    "language": "English",
+    "title": "Two-bucket handwashing station",
+    "category": "Water · Sanitation · Food · Energy",
+    "subcategory": "Hygiene",
+    "summary": "A low-water handwashing station that separates clean water from dirty runoff.",
+    "content": "Hand hygiene often fails when the only water source is a shared bucket. A two-bucket station keeps clean water above and dirty water below. Use a small pour spout, cup, or tap so hands do not enter the clean bucket. Place soap or an acceptable substitute beside it. Put it where people actually pass before food, after toilet use, after cleaning, and after helping sick people.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "tags": [
+      "handwashing",
+      "sanitation",
+      "low water"
+    ],
+    "materials": [
+      "Two buckets",
+      "Cup or tap",
+      "Soap. Context: “Two-bucket handwashing station”.",
+      "Sign. Context: “Two-bucket handwashing station”.",
+      "Raised surface"
+    ],
+    "steps": [
+      "Raise or mark the clean-water bucket.",
+      "Do not dip hands into clean water.",
+      "Catch runoff in a second bucket or safe drain area.",
+      "Empty dirty water away from food and drinking water.",
+      "Refill and clean the station daily."
+    ],
+    "warnings": [
+      "Do not let the dirty bucket overflow.",
+      "Do not place the station beside stored drinking water."
+    ],
+    "common_mistakes": [
+      "Treating Two-bucket handwashing station as finished after the first attempt instead of writing the next review time.",
+      "Moving people or supplies for Two-bucket handwashing station without checking vulnerable people, exits, and safe limits first.",
+      "Mixing clean and unsafe items during Two-bucket handwashing station because labels, dates, or responsible names were not written down."
+    ],
+    "alternatives": [
+      "Run a smaller version of Two-bucket handwashing station with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Two-bucket handwashing station if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Two-bucket handwashing station and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Two-bucket handwashing station or when the next check happens.",
+      "Supplies connected to Two-bucket handwashing station are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Two-bucket handwashing station”"
+    ],
+    "when_not_to_use": [
+      "Do not use Two-bucket handwashing station as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Two-bucket handwashing station when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Two-bucket handwashing station."
+    ],
+    "short_term": "For the first hours of Two-bucket handwashing station, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Two-bucket handwashing station remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Two-bucket handwashing station fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Two-bucket handwashing station to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Community sanitation corner"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

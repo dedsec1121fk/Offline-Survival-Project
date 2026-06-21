@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pass97-0016-flood-well-hold",
+    "language": "English",
+    "title": "Flooded-well hold and testing plan",
+    "category": "Flood · Scenario pack",
+    "subcategory": "Flood · Water · Field · Card",
+    "summary": "Stop drinking-water use from a well affected by floodwater until appropriate inspection, disinfection, testing, and local clearance are completed.",
+    "content": "Stop drinking-water use from a well affected by floodwater until appropriate inspection, disinfection, testing, and local clearance are completed.\n\nSafe-use sequence: Label the source as not for drinking, protect users from accidental collection, arrange an alternative safe supply, and record all official testing and clearance. Identify the source, likely contamination, intended use, and current official advisory for “Flooded-well hold and testing plan”. Keep raw, treated, and wastewater containers physically separate and clearly labelled for “Flooded-well hold and testing plan”. Use only a treatment method appropriate to the suspected hazard; ordinary treatment does not remove every chemical or radioactive contaminant for “Flooded-well hold and testing plan”. Protect the treated supply from hands, cups, animals, sunlight, leaks, and dirty caps for “Flooded-well hold and testing plan”. Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Flooded-well hold and testing plan”. Safety limits: Official instructions and emergency services override “Flooded-well hold and testing plan”; do not delay evacuation or urgent help to complete the card. Never assume clear-looking water is safe, and never mix unknown treatment chemicals in “Flooded-well hold and testing plan”. Do not use containers that previously held fuel, pesticides, solvents, or other toxic products in “Flooded-well hold and testing plan”. Reduced fallback: If “food-grade water containers for “Flooded-well hold and testing plan”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:flood",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "water",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "food-grade water containers for “Flooded-well hold and testing plan”",
+      "clean caps or lids for “Flooded-well hold and testing plan”",
+      "labels and marker for “Flooded-well hold and testing plan”",
+      "separate collection and treated-water tools for “Flooded-well hold and testing plan”",
+      "written local advisory for “Flooded-well hold and testing plan”"
+    ],
+    "steps": [
+      "Label the source as not for drinking, protect users from accidental collection, arrange an alternative safe supply, and record all official testing and clearance.",
+      "Identify the source, likely contamination, intended use, and current official advisory for “Flooded-well hold and testing plan”.",
+      "Keep raw, treated, and wastewater containers physically separate and clearly labelled for “Flooded-well hold and testing plan”.",
+      "Use only a treatment method appropriate to the suspected hazard; ordinary treatment does not remove every chemical or radioactive contaminant for “Flooded-well hold and testing plan”.",
+      "Protect the treated supply from hands, cups, animals, sunlight, leaks, and dirty caps for “Flooded-well hold and testing plan”.",
+      "Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Flooded-well hold and testing plan”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Flooded-well hold and testing plan”; do not delay evacuation or urgent help to complete the card.",
+      "Never assume clear-looking water is safe, and never mix unknown treatment chemicals in “Flooded-well hold and testing plan”.",
+      "Do not use containers that previously held fuel, pesticides, solvents, or other toxic products in “Flooded-well hold and testing plan”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Flooded-well hold and testing plan” unreliable: Label the source as not for drinking, protect users from accidental collection, arrange an alternative safe supply, and record all official testing and clearance.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Flooded-well hold and testing plan”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Log the fill date, treatment, users, remaining volume, and next rotation or inspection for “Flooded-well hold and testing plan”."
+    ],
+    "alternatives": [
+      "If “food-grade water containers for “Flooded-well hold and testing plan”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Flooded-well hold and testing plan”, complete the first two verified actions—Label the source as not for drinking, protect users from accidental collection, arrange an alternative safe supply, and record all official testing and clearance. Identify the source, likely contamination, intended use, and current official advisory for “Flooded-well hold and testing plan”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Flooded-well hold and testing plan” when treated water develops an unusual smell, colour, taste, sediment, damaged seal, or uncertain history.",
+      "Stop and reassess “Flooded-well hold and testing plan” when illness appears among users or the source becomes affected by floodwater, sewage, chemicals, or an official warning."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Flooded-well hold and testing plan” while the source may contain sewage, fuel, pesticides, salt, floodwater, radioactive material, or another hazard that the chosen treatment cannot remove.",
+      "This card is not authorization to declare unknown water safe, mix treatment chemicals, or use a container that previously held toxic products. Topic-specific stop check for “Flooded-well hold and testing plan”: also follow this warning: “Official instructions and emergency services override “Flooded-well hold and testing plan”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Flooded-well hold and testing plan”, carry out label the source as not for drinking, protect users from accidental collection, arrange an alternative safe supply, and record all official testing and clearance. Follow with identify the source, likely contamination, intended use, and current official advisory for “Flooded-well hold and testing plan”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Flooded-well hold and testing plan” when treated water develops an unusual smell, colour, taste, sediment, damaged seal, or uncertain history.",
+    "long_term": "For repeated use of “Flooded-well hold and testing plan”, keep “clean caps or lids for “Flooded-well hold and testing plan”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Flooded-well hold and testing plan” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Separate collection, treatment, drinking, washing, and wastewater containers; follow local boil-water or do-not-use notices exactly. For “Flooded-well hold and testing plan”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Flooded-road turn-around rule",
+      "Flooded-basement no-entry boundary",
+      "Floodwater food discard station"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/plimmyres"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

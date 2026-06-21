@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pass97-0014-flood-basement-boundary",
+    "language": "English",
+    "title": "Flooded-basement no-entry boundary",
+    "category": "Flood · Scenario pack",
+    "subcategory": "Flood · Shelter · Field · Card",
+    "summary": "Treat a flooded basement as a combined electrical, structural, sewage, chemical, and drowning hazard.",
+    "content": "Treat a flooded basement as a combined electrical, structural, sewage, chemical, and drowning hazard.\n\nWorking sequence: Keep people out, isolate utilities only from a dry safe location if authorised and competent, and wait for qualified assessment and pumping guidance. Identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Flooded-basement no-entry boundary”. Inspect from a safe position for smoke, heat, water, gas odour, sparks, falling objects, cracks, unstable surfaces, and blocked routes for “Flooded-basement no-entry boundary”. Move people early to the safer zone or leave when instructed; take medicines, communication, identification, water, and essential mobility aids for “Flooded-basement no-entry boundary”. Control only hazards that can be handled without entering smoke, floodwater, live electricity, gas, fire, or an unstable structure for “Flooded-basement no-entry boundary”. Mark unsafe areas, account for everyone, record changes, and reassess after every aftershock, weather shift, alarm, or utility change for “Flooded-basement no-entry boundary”. Safety limits: Official instructions and emergency services override “Flooded-basement no-entry boundary”; do not delay evacuation or urgent help to complete the card. Do not re-enter a restricted, burning, smoke-filled, flooded, gas-affected, electrically live, or structurally uncertain area in “Flooded-basement no-entry boundary”. Generators, grills, and fuel-burning devices must never operate inside homes, garages, or other enclosed occupied spaces in “Flooded-basement no-entry boundary”. Reduced fallback: If “flashlight and spare power for “Flooded-basement no-entry boundary”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:flood",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "shelter",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "flashlight and spare power for “Flooded-basement no-entry boundary”",
+      "weather and official alert source for “Flooded-basement no-entry boundary”",
+      "utility shutoff information for “Flooded-basement no-entry boundary”",
+      "smoke and carbon-monoxide alarms where applicable for “Flooded-basement no-entry boundary”",
+      "marked exit routes and meeting point for “Flooded-basement no-entry boundary”"
+    ],
+    "steps": [
+      "Keep people out, isolate utilities only from a dry safe location if authorised and competent, and wait for qualified assessment and pumping guidance.",
+      "Identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Flooded-basement no-entry boundary”.",
+      "Inspect from a safe position for smoke, heat, water, gas odour, sparks, falling objects, cracks, unstable surfaces, and blocked routes for “Flooded-basement no-entry boundary”.",
+      "Move people early to the safer zone or leave when instructed; take medicines, communication, identification, water, and essential mobility aids for “Flooded-basement no-entry boundary”.",
+      "Control only hazards that can be handled without entering smoke, floodwater, live electricity, gas, fire, or an unstable structure for “Flooded-basement no-entry boundary”.",
+      "Mark unsafe areas, account for everyone, record changes, and reassess after every aftershock, weather shift, alarm, or utility change for “Flooded-basement no-entry boundary”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Flooded-basement no-entry boundary”; do not delay evacuation or urgent help to complete the card.",
+      "Do not re-enter a restricted, burning, smoke-filled, flooded, gas-affected, electrically live, or structurally uncertain area in “Flooded-basement no-entry boundary”.",
+      "Generators, grills, and fuel-burning devices must never operate inside homes, garages, or other enclosed occupied spaces in “Flooded-basement no-entry boundary”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Flooded-basement no-entry boundary” unreliable: Keep people out, isolate utilities only from a dry safe location if authorised and competent, and wait for qualified assessment and pumping guidance.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Flooded-basement no-entry boundary”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Mark unsafe areas, account for everyone, record changes, and reassess after every aftershock, weather shift, alarm, or utility change for “Flooded-basement no-entry boundary”."
+    ],
+    "alternatives": [
+      "If “flashlight and spare power for “Flooded-basement no-entry boundary”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Flooded-basement no-entry boundary”, complete the first two verified actions—Keep people out, isolate utilities only from a dry safe location if authorised and competent, and wait for qualified assessment and pumping guidance. Identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Flooded-basement no-entry boundary”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Flooded-basement no-entry boundary” when the safe zone gains smoke, heat, water, gas odour, electrical signs, falling debris, new cracks, or a blocked exit.",
+      "Stop and reassess “Flooded-basement no-entry boundary” when official instructions change, people cannot be accounted for, or anyone develops breathing trouble, confusion, collapse, or injury."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Flooded-basement no-entry boundary” while the area has smoke, gas odour, rising water, unstable walls or roof, falling objects, blocked exits, extreme heat or cold, or an evacuation order.",
+      "This card is not authorization to re-enter a restricted structure, shelter in a flood-prone basement, use flame near fuel, or ignore an official evacuation route. Topic-specific stop check for “Flooded-basement no-entry boundary”: also follow this warning: “Official instructions and emergency services override “Flooded-basement no-entry boundary”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Flooded-basement no-entry boundary”, carry out keep people out, isolate utilities only from a dry safe location if authorised and competent, and wait for qualified assessment and pumping guidance. Follow with identify the active hazard, official instruction, safest usable zone, exits, utilities, and people needing assistance for “Flooded-basement no-entry boundary”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Flooded-basement no-entry boundary” when the safe zone gains smoke, heat, water, gas odour, electrical signs, falling debris, new cracks, or a blocked exit.",
+    "long_term": "For repeated use of “Flooded-basement no-entry boundary”, keep “weather and official alert source for “Flooded-basement no-entry boundary”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Flooded-basement no-entry boundary” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Match the plan to building age, balcony and stair access, island or village isolation, wildfire vegetation, coastal exposure, heat, frost, and mobility needs. For “Flooded-basement no-entry boundary”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Flooded-road turn-around rule",
+      "Floodwater food discard station",
+      "Flooded-well hold and testing plan"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/plimmyres"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

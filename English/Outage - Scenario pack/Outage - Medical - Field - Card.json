@@ -1,0 +1,76 @@
+[
+  {
+    "id": "pass97-0022-outage-medicine-coldchain",
+    "language": "English",
+    "title": "Medicine cold-chain outage plan",
+    "category": "Outage · Scenario pack",
+    "subcategory": "Outage · Medical · Field · Card",
+    "summary": "Protect temperature-sensitive medicines without guessing whether an overheated or frozen product remains usable.",
+    "content": "Protect temperature-sensitive medicines without guessing whether an overheated or frozen product remains usable.\n\nWorking sequence: Keep the container closed, log time and temperature, avoid direct contact with loose ice, use the established storage plan, and contact a pharmacist or manufacturer for product-specific decisions. Make the scene safe, use consent where possible, and call emergency services for immediate threats for “Medicine cold-chain outage plan”. Observe breathing, alertness, major bleeding, severe pain, temperature exposure, and rapid change without inventing a diagnosis for “Medicine cold-chain outage plan”. Give only low-risk care within training and follow the person’s established professional plan for medicines or chronic needs for “Medicine cold-chain outage plan”. Record time, observations, actions, medicines already taken, allergies, response, and who was contacted for “Medicine cold-chain outage plan”. Reassess frequently and arrange qualified help early when danger signs, uncertainty, or deterioration are present for “Medicine cold-chain outage plan”. Safety limits: Official instructions and emergency services override “Medicine cold-chain outage plan”; do not delay evacuation or urgent help to complete the card. Do not diagnose, prescribe, improvise dosing, perform invasive procedures, or delay emergency help in “Medicine cold-chain outage plan”. Protect privacy and infection-control boundaries, but never let paperwork delay lifesaving action in “Medicine cold-chain outage plan”. Reduced fallback: If “gloves or clean barrier for “Medicine cold-chain outage plan”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:outage",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "medical",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "gloves or clean barrier for “Medicine cold-chain outage plan”",
+      "clean water and basic first-aid supplies for “Medicine cold-chain outage plan”",
+      "written medicine and allergy list for “Medicine cold-chain outage plan”",
+      "watch or clock for “Medicine cold-chain outage plan”",
+      "care and escalation log for “Medicine cold-chain outage plan”"
+    ],
+    "steps": [
+      "Keep the container closed, log time and temperature, avoid direct contact with loose ice, use the established storage plan, and contact a pharmacist or manufacturer for product-specific decisions.",
+      "Make the scene safe, use consent where possible, and call emergency services for immediate threats for “Medicine cold-chain outage plan”.",
+      "Observe breathing, alertness, major bleeding, severe pain, temperature exposure, and rapid change without inventing a diagnosis for “Medicine cold-chain outage plan”.",
+      "Give only low-risk care within training and follow the person’s established professional plan for medicines or chronic needs for “Medicine cold-chain outage plan”.",
+      "Record time, observations, actions, medicines already taken, allergies, response, and who was contacted for “Medicine cold-chain outage plan”.",
+      "Reassess frequently and arrange qualified help early when danger signs, uncertainty, or deterioration are present for “Medicine cold-chain outage plan”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Medicine cold-chain outage plan”; do not delay evacuation or urgent help to complete the card.",
+      "Do not diagnose, prescribe, improvise dosing, perform invasive procedures, or delay emergency help in “Medicine cold-chain outage plan”.",
+      "Protect privacy and infection-control boundaries, but never let paperwork delay lifesaving action in “Medicine cold-chain outage plan”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Medicine cold-chain outage plan” unreliable: Keep the container closed, log time and temperature, avoid direct contact with loose ice, use the established storage plan, and contact a pharmacist or manufacturer for product-specific decisions.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Medicine cold-chain outage plan”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Reassess frequently and arrange qualified help early when danger signs, uncertainty, or deterioration are present for “Medicine cold-chain outage plan”."
+    ],
+    "alternatives": [
+      "If “gloves or clean barrier for “Medicine cold-chain outage plan”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Medicine cold-chain outage plan”, complete the first two verified actions—Keep the container closed, log time and temperature, avoid direct contact with loose ice, use the established storage plan, and contact a pharmacist or manufacturer for product-specific decisions. Make the scene safe, use consent where possible, and call emergency services for immediate threats for “Medicine cold-chain outage plan”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Medicine cold-chain outage plan” when breathing, alertness, circulation, pain, temperature, bleeding, or behaviour worsens.",
+      "Stop and reassess “Medicine cold-chain outage plan” when the person cannot keep fluids down, develops severe allergic signs, chest symptoms, seizure, confusion, or another urgent red flag."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Medicine cold-chain outage plan” while breathing, alertness, circulation, major bleeding, severe pain, seizure, poisoning, chest symptoms, pregnancy danger signs, or rapid deterioration is present.",
+      "This card is not authorization to diagnose, prescribe, change a dose, perform an invasive procedure, force care, or delay 112 and qualified medical help. Topic-specific stop check for “Medicine cold-chain outage plan”: also follow this warning: “Official instructions and emergency services override “Medicine cold-chain outage plan”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Medicine cold-chain outage plan”, carry out keep the container closed, log time and temperature, avoid direct contact with loose ice, use the established storage plan, and contact a pharmacist or manufacturer for product-specific decisions. Follow with make the scene safe, use consent where possible, and call emergency services for immediate threats for “Medicine cold-chain outage plan”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Medicine cold-chain outage plan” when breathing, alertness, circulation, pain, temperature, bleeding, or behaviour worsens.",
+    "long_term": "For repeated use of “Medicine cold-chain outage plan”, keep “clean water and basic first-aid supplies for “Medicine cold-chain outage plan”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Medicine cold-chain outage plan” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Use consent, privacy, infection-control barriers, the person’s established care plan, written medicines and allergies, and early referral when transport is difficult. For “Medicine cold-chain outage plan”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Power-outage critical-load budget",
+      "Generator carbon-monoxide boundary",
+      "Refrigerator and freezer outage log"
+    ],
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/safety/index.html",
+      "https://www.cdc.gov/food-safety/about/index.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

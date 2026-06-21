@@ -1,0 +1,67 @@
+[
+  {
+    "id": "pass93-0018",
+    "language": "English",
+    "title": "Leak repair triage for scarce water",
+    "category": "Water systems · Engineering · Deepening",
+    "subcategory": "Leak · Control",
+    "summary": "Prioritizes leaks so stored water is not lost during outages or drought.",
+    "content": "Leak repair triage for scarce water is a practical offline routine for leak control. Check storage containers, caps, taps, hoses, toilet tanks, roof tanks, and carrying containers on a schedule. Mark leaks as dripping, steady, spraying, structural, or unknown. Capture leaking water for non-drinking use if it has not touched contamination. Prioritize leaks threatening drinking water, medicine, baby care, or structural damage. Do only low-risk tightening or isolation; avoid pressurized, electrical, gas, or structural hazards. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "bilingual",
+      "leaks",
+      "offline",
+      "pass93",
+      "repair",
+      "water",
+      "weak_area_deepening"
+    ],
+    "materials": [
+      "Dry cloth",
+      "Labels. Context: “Leak repair triage for scarce water”.",
+      "Bucket. Context: “Leak repair triage for scarce water”.",
+      "Notebook. Context: “Leak repair triage for scarce water”."
+    ],
+    "steps": [
+      "Check storage containers, caps, taps, hoses, toilet tanks, roof tanks, and carrying containers on a schedule.",
+      "Mark leaks as dripping, steady, spraying, structural, or unknown.",
+      "Capture leaking water for non-drinking use if it has not touched contamination.",
+      "Prioritize leaks threatening drinking water, medicine, baby care, or structural damage.",
+      "Do only low-risk tightening or isolation; avoid pressurized, electrical, gas, or structural hazards."
+    ],
+    "warnings": [
+      "Use Leak repair triage for scarce water as practical support, not as a replacement for official guidance, trained help, or evacuation when needed.",
+      "Filtering alone does not make chemically contaminated, fuel-contaminated, sewage-contaminated, or floodwater safe. Treat this as a specific boundary while managing “Leak repair triage for scarce water”."
+    ],
+    "common_mistakes": [
+      "Starting from memory instead of written notes while carrying out “Leak repair triage for scarce water”",
+      "Letting one tired person control the whole process while carrying out “Leak repair triage for scarce water”",
+      "Ignoring the review time while carrying out “Leak repair triage for scarce water”"
+    ],
+    "alternatives": [
+      "Use a wall board when many people are involved as a fallback for “Leak repair triage for scarce water”",
+      "Use pocket cards when movement is required as a fallback for “Leak repair triage for scarce water”"
+    ],
+    "failure_signs": [
+      "People disagree about the facts, the plan is not being followed, or the situation worsens after the first review during “Leak repair triage for scarce water”"
+    ],
+    "when_not_to_use": [
+      "Do not use Leak repair triage for scarce water to delay emergency care, evacuation, fire response, or official instructions."
+    ],
+    "short_term": "Write the first safe action, responsible person, materials, and next review time. This note applies specifically to Leak repair triage for scarce water.",
+    "long_term": "Convert the routine into a repeatable checklist with handover notes and backups. This note applies specifically to Leak repair triage for scarce water.",
+    "if_method_fails": "Reduce complexity, stop unsafe work, and switch to the safest available fallback. This note applies specifically to Leak repair triage for scarce water.",
+    "environment_notes": "Adapt the routine to heat, cold, crowding, darkness, limited water, and local hazards. This note applies specifically to Leak repair triage for scarce water.",
+    "related_topics": [
+      "household_water_priority_board"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

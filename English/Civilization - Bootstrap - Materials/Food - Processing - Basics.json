@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pass88-0005",
+    "language": "English",
+    "title": "Hand-powered grain grinding station notes",
+    "category": "Civilization · Bootstrap · Materials",
+    "subcategory": "Food · Processing · Basics",
+    "summary": "Notes for setting up a low-tech grain grinding station with attention to dust, cleaning order, spare parts, and labor pacing.",
+    "content": "Hand-powered grain grinding station notes are useful when a community needs repeatable flour or meal production without electricity. Start by choosing a stable location with enough light, sweepable floors, and a place to separate clean grain, waiting grain, finished flour, and sweep waste. Check the grinding surfaces for cracks, looseness, or metal fragments before each session. Assign one person to feed grain, one to catch output, and one to watch dust, fatigue, and contamination. Record what grain was processed, how much effort it took, and whether the meal quality changed across the session. Clean in a fixed order from cleanest area to dirtiest so yesterday’s residue does not silently become today’s contamination.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "medium",
+    "tags": [
+      "grain",
+      "milling",
+      "food",
+      "low-tech",
+      "offline",
+      "bilingual",
+      "pass88"
+    ],
+    "materials": [
+      "Hand mill or grinding stones",
+      "Brush. Context: “Hand-powered grain grinding station notes”.",
+      "Containers. Context: “Hand-powered grain grinding station notes”.",
+      "Cloth cover",
+      "Notebook. Context: “Hand-powered grain grinding station notes”.",
+      "Repair wedges or simple tools"
+    ],
+    "steps": [
+      "Inspect the grinder before each session.",
+      "Separate clean grain from flour and waste zones.",
+      "Assign roles for feeding, collecting, and monitoring.",
+      "Control dust and stop when fatigue harms quality.",
+      "Record output and maintenance needs.",
+      "Clean from the cleanest zone toward the dirtiest."
+    ],
+    "warnings": [
+      "Do not ignore stone or metal fragments in food equipment.",
+      "Dust can irritate lungs and contaminate food.",
+      "Stop if the grinder becomes unstable or unsafe."
+    ],
+    "common_mistakes": [
+      "Grinding in a dirty shared area.",
+      "Mixing sweep waste with usable flour.",
+      "Running the station until exhaustion."
+    ],
+    "alternatives": [
+      "Process smaller batches more often.",
+      "Use coarser meal if fine flour takes too much labor.",
+      "Trade milling labor with another household if that is safer."
+    ],
+    "failure_signs": [
+      "Output contains grit or fragments.",
+      "The meal quality changes sharply during the session.",
+      "The workers lose clean separation between zones."
+    ],
+    "when_not_to_use": [
+      "Do not use damaged grinders for human food until repaired.",
+      "Do not use when cleaning water or dry cleaning tools are unavailable."
+    ],
+    "short_term": "Produce usable meal while keeping contamination low.",
+    "long_term": "Maintain a repeatable community food-processing station.",
+    "if_method_fails": "Stop production, inspect the grinder, discard contaminated output, and reset the station.",
+    "environment_notes": "Dust, humidity, and rodent pressure strongly affect sanitation discipline.",
+    "related_topics": [
+      "Seed saving dry storage checklist",
+      "Ash-based soap making notes",
+      "Small tool handle refitting guide"
+    ],
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+      "https://www.who.int/health-topics/food-safety"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pass88-0003",
+    "language": "English",
+    "title": "Ash-based soap making notes",
+    "category": "Civilization · Bootstrap · Materials",
+    "subcategory": "Cleaning · Sanitation · Basics",
+    "summary": "Basic notes for documenting small-batch ash-based cleaning soap experiments with emphasis on labeling, safety, and cautious testing.",
+    "content": "Ash-based soap making notes are useful for long-term low-tech cleaning experiments, but they require patience and labeling because caustic solutions can harm skin and eyes. Start with clean ash from untreated wood only, not painted, glued, pressure-treated, or plastic-contaminated burn waste. Filter the ash liquid, label it clearly, and keep test batches small. If any fat or oil is used, write down the source, smell, storage condition, and whether the material shows spoilage. Test the final soap on tools, cloth, or dirty hands in a controlled way before relying on it for regular hygiene. Keep separate notes on skin irritation, cleaning strength, and storage stability so the next batch becomes safer instead of repeating the same uncertainty.",
+    "difficulty": "moderate",
+    "urgency": "non_immediate",
+    "priority": "medium",
+    "tags": [
+      "soap",
+      "ash",
+      "sanitation",
+      "cleaning",
+      "offline",
+      "bilingual",
+      "pass88"
+    ],
+    "materials": [
+      "Clean wood ash",
+      "Water. Context: “Ash-based soap making notes”.",
+      "Filter cloth",
+      "Labeled container",
+      "Stir stick",
+      "Gloves. Context: “Ash-based soap making notes”."
+    ],
+    "steps": [
+      "Use only clean untreated wood ash.",
+      "Filter the ash solution and label it.",
+      "Keep the batch small and documented.",
+      "Test the result on low-risk cleaning tasks first.",
+      "Write down any skin reaction or failure.",
+      "Store it away from children and food containers."
+    ],
+    "warnings": [
+      "Caustic liquids can injure skin and eyes.",
+      "Do not use ash from contaminated fires.",
+      "Do not store caustic mixtures in drink bottles."
+    ],
+    "common_mistakes": [
+      "Using unknown ash.",
+      "Making a large batch before testing.",
+      "Skipping labels and date records."
+    ],
+    "alternatives": [
+      "Use ordinary hot water cleaning when soap quality is uncertain.",
+      "Reserve experimental soap for tools or laundry testing first.",
+      "Trade for a known soap if available."
+    ],
+    "failure_signs": [
+      "Strong burning sensation on brief contact.",
+      "A rancid smell develops quickly.",
+      "The soap separates badly and never stabilizes."
+    ],
+    "when_not_to_use": [
+      "Do not use on infants, damaged skin, or eyes.",
+      "Do not use when the source materials are uncertain or contaminated."
+    ],
+    "short_term": "Produce a documented cleaning experiment without risking a large batch.",
+    "long_term": "Build a safer local cleaning record that improves over time.",
+    "if_method_fails": "Discard unsafe material, wash exposure areas, and return to simpler cleaning methods.",
+    "environment_notes": "Water quality, ash source, and oil freshness strongly change the result.",
+    "related_topics": [
+      "Limewash mixing safety routine",
+      "Seed saving dry storage checklist",
+      "Community apprenticeship ledger"
+    ],
+    "sources": [
+      "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

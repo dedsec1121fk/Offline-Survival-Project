@@ -1,0 +1,77 @@
+[
+  {
+    "id": "2026-04-25-pass79-004",
+    "language": "English",
+    "title": "Medicine continuity sheet",
+    "category": "Medicine · Sanitation · Public health",
+    "subcategory": "Chronic · Care",
+    "summary": "A non-diagnostic record for medication names, timing, allergies, storage needs, supply, and refill routes during disruption.",
+    "content": "Disasters hurt people with chronic conditions early. A medicine continuity sheet is not a prescription and must not replace medical advice. It is a memory and communication tool for doctors, pharmacists, responders, and caregivers. Copy medication names exactly from boxes, record dose and timing as prescribed, mark allergies clearly, note storage needs such as cooling, count remaining supply, and write the normal refill route. Keep one copy with the medicines and one smaller copy in a bag. Never change doses, stop essential medicine, or substitute unknown pills from rumor.",
+    "difficulty": "basic",
+    "urgency": "high",
+    "priority": "critical",
+    "tags": [
+      "medicine",
+      "chronic illness",
+      "allergy",
+      "caregiver",
+      "pharmacy",
+      "records"
+    ],
+    "materials": [
+      "Paper",
+      "Pen. Context: “Medicine continuity sheet”.",
+      "Original boxes or labels",
+      "Small waterproof bag",
+      "Phone photo backup if battery allows"
+    ],
+    "steps": [
+      "Copy names exactly from labels.",
+      "Write dose, time, route, reason, clinician if known, and remaining quantity.",
+      "Mark allergies and severe reactions at the top.",
+      "Mark medicines needing cooling or special storage.",
+      "Write refill options: pharmacy, doctor, clinic, family contact, official help point.",
+      "Update after every refill, change, hospital visit, or major symptom change."
+    ],
+    "warnings": [
+      "This entry does not give dosing instructions.",
+      "Some medicines are dangerous to stop suddenly; seek qualified help when possible.",
+      "Do not share prescription medicines unless a qualified professional directs it."
+    ],
+    "common_mistakes": [
+      "Writing pill color instead of medicine name.",
+      "Keeping the only list on a phone.",
+      "Mixing old discontinued medicines with active ones."
+    ],
+    "alternatives": [
+      "Run a smaller version of Medicine continuity sheet with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Medicine continuity sheet if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Medicine continuity sheet and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Medicine continuity sheet or when the next check happens.",
+      "Supplies connected to Medicine continuity sheet are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Medicine continuity sheet”"
+    ],
+    "when_not_to_use": [
+      "Do not use Medicine continuity sheet as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Medicine continuity sheet when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Medicine continuity sheet."
+    ],
+    "short_term": "For the first hours of Medicine continuity sheet, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Medicine continuity sheet remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Medicine continuity sheet fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Medicine continuity sheet to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "household first 72 hours command sheet",
+      "community sanitation corner",
+      "heat control in blackout apartments",
+      "caregiver rotation"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

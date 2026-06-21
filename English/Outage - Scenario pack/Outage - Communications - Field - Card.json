@@ -1,0 +1,76 @@
+[
+  {
+    "id": "pass97-0023-outage-checkin-window",
+    "language": "English",
+    "title": "Low-power household check-in windows",
+    "category": "Outage · Scenario pack",
+    "subcategory": "Outage · Communications · Field · Card",
+    "summary": "Use scheduled communication windows so phones and radios remain available for urgent messages during a prolonged outage.",
+    "content": "Use scheduled communication windows so phones and radios remain available for urgent messages during a prolonged outage.\n\nField sequence: Agree on exact listening times, one primary and one backup channel, message priority, acknowledgement, and a missed-check escalation rule. Define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Low-power household check-in windows”. Write short messages with place, time, verified fact, requested action, deadline, and source for “Low-power household check-in windows”. Schedule listening and transmission windows to preserve power and reduce congestion for “Low-power household check-in windows”. Keep a paper copy of essential contacts, frequencies, codes, instructions, and last known status for “Low-power household check-in windows”. Test understanding through read-back or demonstration, then archive the corrected version with date and version for “Low-power household check-in windows”. Safety limits: Official instructions and emergency services override “Low-power household check-in windows”; do not delay evacuation or urgent help to complete the card. Do not spread unverified casualty, route, threat, medicine, or evacuation information in “Low-power household check-in windows”. Protect private information and do not rely on one device, one platform, one person, or one power source in “Low-power household check-in windows”. Reduced fallback: If “paper contact tree for “Low-power household check-in windows”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:outage",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "communications",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "paper contact tree for “Low-power household check-in windows”",
+      "charged phone or radio when available for “Low-power household check-in windows”",
+      "message forms for “Low-power household check-in windows”",
+      "time source for “Low-power household check-in windows”",
+      "offline copies and spare storage for “Low-power household check-in windows”"
+    ],
+    "steps": [
+      "Agree on exact listening times, one primary and one backup channel, message priority, acknowledgement, and a missed-check escalation rule.",
+      "Define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Low-power household check-in windows”.",
+      "Write short messages with place, time, verified fact, requested action, deadline, and source for “Low-power household check-in windows”.",
+      "Schedule listening and transmission windows to preserve power and reduce congestion for “Low-power household check-in windows”.",
+      "Keep a paper copy of essential contacts, frequencies, codes, instructions, and last known status for “Low-power household check-in windows”.",
+      "Test understanding through read-back or demonstration, then archive the corrected version with date and version for “Low-power household check-in windows”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Low-power household check-in windows”; do not delay evacuation or urgent help to complete the card.",
+      "Do not spread unverified casualty, route, threat, medicine, or evacuation information in “Low-power household check-in windows”.",
+      "Protect private information and do not rely on one device, one platform, one person, or one power source in “Low-power household check-in windows”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Low-power household check-in windows” unreliable: Agree on exact listening times, one primary and one backup channel, message priority, acknowledgement, and a missed-check escalation rule.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Low-power household check-in windows”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Test understanding through read-back or demonstration, then archive the corrected version with date and version for “Low-power household check-in windows”."
+    ],
+    "alternatives": [
+      "If “paper contact tree for “Low-power household check-in windows”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Low-power household check-in windows”, complete the first two verified actions—Agree on exact listening times, one primary and one backup channel, message priority, acknowledgement, and a missed-check escalation rule. Define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Low-power household check-in windows”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Low-power household check-in windows” when messages arrive without time, source, location, requested action, or acknowledgement.",
+      "Stop and reassess “Low-power household check-in windows” when different copies conflict and no version owner or correction process exists."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Low-power household check-in windows” while there is live electricity, damaged wiring, water near circuits, battery swelling or heat, fuel vapour, poor ventilation, or an unknown connection.",
+      "This card is not authorization to back-feed a building, bypass protection, open an energized device, charge a damaged battery, or run fuel-burning equipment indoors. Topic-specific stop check for “Low-power household check-in windows”: also follow this warning: “Official instructions and emergency services override “Low-power household check-in windows”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Low-power household check-in windows”, carry out agree on exact listening times, one primary and one backup channel, message priority, acknowledgement, and a missed-check escalation rule. Follow with define the audience, purpose, urgency, channel, backup channel, sender identity, and acknowledgement rule for “Low-power household check-in windows”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Low-power household check-in windows” when messages arrive without time, source, location, requested action, or acknowledgement.",
+    "long_term": "For repeated use of “Low-power household check-in windows”, keep “charged phone or radio when available for “Low-power household check-in windows”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Low-power household check-in windows” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Prioritize lighting, 112 contact, medical devices, refrigeration decisions, radio, and short charging windows; protect equipment from heat and salt air. For “Low-power household check-in windows”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Power-outage critical-load budget",
+      "Generator carbon-monoxide boundary",
+      "Refrigerator and freezer outage log"
+    ],
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/safety/index.html",
+      "https://www.cdc.gov/food-safety/about/index.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

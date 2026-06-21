@@ -1,0 +1,73 @@
+[
+  {
+    "id": "pass93-0002",
+    "language": "English",
+    "title": "Wound cleaning and infection watch routine",
+    "category": "Medical · Dentistry · Birth care · Deepening",
+    "subcategory": "Wound · Care · Records",
+    "summary": "A conservative routine for keeping minor wounds clean and watching for danger signs while seeking help for serious wounds.",
+    "content": "Wound cleaning and infection watch routine is a practical offline routine for wound care records. Wash hands or use the cleanest available method before touching the wound. Rinse visible dirt from a minor wound with clean running water; do not scrub deep tissue. Cover with the cleanest dressing available and change it when wet, dirty, or loose. Circle redness lightly on skin or draw its size in the notebook with date and time. Watch for spreading redness, swelling, heat, pus, fever, red streaks, numbness, increasing pain, or bad smell. Seek medical help urgently for deep wounds, bites, dirty punctures, face/eye/genital wounds, heavy bleeding, or any worsening. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "bilingual",
+      "hygiene",
+      "infection",
+      "medical",
+      "offline",
+      "pass93",
+      "weak_area_deepening",
+      "wounds"
+    ],
+    "materials": [
+      "Clean water. Context: “Wound cleaning and infection watch routine”.",
+      "Soap. Context: “Wound cleaning and infection watch routine”.",
+      "Clean cloth or sterile gauze if available",
+      "Tape or bandage",
+      "Notebook. Context: “Wound cleaning and infection watch routine”."
+    ],
+    "steps": [
+      "Wash hands or use the cleanest available method before touching the wound.",
+      "Rinse visible dirt from a minor wound with clean running water; do not scrub deep tissue.",
+      "Cover with the cleanest dressing available and change it when wet, dirty, or loose.",
+      "Circle redness lightly on skin or draw its size in the notebook with date and time.",
+      "Watch for spreading redness, swelling, heat, pus, fever, red streaks, numbness, increasing pain, or bad smell.",
+      "Seek medical help urgently for deep wounds, bites, dirty punctures, face/eye/genital wounds, heavy bleeding, or any worsening."
+    ],
+    "warnings": [
+      "Do not pour harsh chemicals into wounds.",
+      "Do not close deep or dirty wounds with glue, tape, or improvised stitches."
+    ],
+    "common_mistakes": [
+      "Reusing dirty dressings.",
+      "Ignoring a wound because bleeding stopped.",
+      "Covering the wound without checking circulation and sensation nearby."
+    ],
+    "alternatives": [
+      "Use freshly boiled-and-cooled cloth only when sterile supplies are unavailable.",
+      "Use a clean food bag as an outer moisture barrier, not directly as a dirty inner dressing."
+    ],
+    "failure_signs": [
+      "Redness grows past the marked border.",
+      "Pain increases instead of decreasing.",
+      "The person develops fever, confusion, weakness, or red streaks."
+    ],
+    "when_not_to_use": [
+      "Do not treat at home when the wound is severe, contaminated, caused by an animal/human bite, or bleeding heavily."
+    ],
+    "short_term": "Clean, cover, label the time, and watch for danger signs.",
+    "long_term": "Keep a dressing-change log and plan professional review if healing stalls or infection signs appear.",
+    "if_method_fails": "If clean materials run out, prioritize handwashing, clean water, and covering only wounds at highest contamination risk.",
+    "environment_notes": "Dust, floodwater, sewage, animal areas, and crowded shelters raise infection risk.",
+    "related_topics": [
+      "red_flag_medical_triage_notebook",
+      "emergency_handwashing_station"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "pass90-0017",
+    "language": "English",
+    "title": "Rumor control board",
+    "category": "Mobility · Communication · Records",
+    "subcategory": "Information · Discipline",
+    "summary": "A board that separates confirmed instructions, unverified reports, questions, and actions so panic does not spread.",
+    "content": "Rumors fill silence. A rumor control board gives fear a place to be checked without shaming people. Use four columns: confirmed, unverified, questions, actions. Every item needs time and source, and old disproved items should be archived.",
+    "difficulty": "basic",
+    "urgency": "medium",
+    "priority": "high",
+    "tags": [
+      "rumor control",
+      "communications",
+      "community",
+      "records"
+    ],
+    "materials": [
+      "Board or wall paper",
+      "Marker. Context: “Rumor control board”.",
+      "Source list",
+      "Update schedule"
+    ],
+    "steps": [
+      "Create confirmed, unverified, questions, and actions columns.",
+      "Write source and time for every claim.",
+      "Move items only after confirmation or rejection.",
+      "Translate important updates if needed.",
+      "Archive old items."
+    ],
+    "warnings": [
+      "Do not post private accusations or names without need.",
+      "Do not replace official alerts.",
+      "Do not punish people for reporting uncertainty."
+    ],
+    "common_mistakes": [
+      "Writing 'someone said' as a source.",
+      "Leaving frightening rumors visible after disproval.",
+      "Letting the loudest person decide truth."
+    ],
+    "alternatives": [
+      "Run a smaller version of Rumor control board with one responsible person, one helper, and one visible paper note.",
+      "Use a safer fallback location or method for Rumor control board if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
+      "Pause Rumor control board and verify the written record with a second person before moving scarce supplies."
+    ],
+    "failure_signs": [
+      "People cannot explain who is responsible for Rumor control board or when the next check happens.",
+      "Supplies connected to Rumor control board are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
+      "The routine ignores clear records, verified messages, offline copies, and review times and starts creating new risk instead of reducing existing risk during “Rumor control board”"
+    ],
+    "when_not_to_use": [
+      "Do not use Rumor control board as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
+      "Do not use Rumor control board when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
+      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Rumor control board."
+    ],
+    "short_term": "For the first hours of Rumor control board, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
+    "long_term": "If Rumor control board remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
+    "if_method_fails": "If Rumor control board fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
+    "environment_notes": "Adapt Rumor control board to the real environment: check clear records, verified messages, offline copies, and review times, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
+    "related_topics": [
+      "Two-route evacuation card",
+      "Family reunification paper plan",
+      "Low-battery radio listening schedule",
+      "Offline map correction log"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias",
+      "https://www.ready.gov/plan"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "id": "pass97-0019-outage-critical-load",
+    "language": "English",
+    "title": "Power-outage critical-load budget",
+    "category": "Outage · Scenario pack",
+    "subcategory": "Outage · Power · Field · Card",
+    "summary": "Allocate limited battery or generator capacity to communication, medical needs, safe lighting, and essential cooling before comfort loads.",
+    "content": "Allocate limited battery or generator capacity to communication, medical needs, safe lighting, and essential cooling before comfort loads.\n\nField sequence: List each device’s purpose, power demand, duty cycle, remaining energy, charging priority, and manual fallback, then protect an emergency reserve. Define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Power-outage critical-load budget”. Inspect plugs, insulation, batteries, fuel, ventilation, moving parts, guards, moisture, and structural support for “Power-outage critical-load budget”. Disconnect or isolate the source before adjustment; use the correct tool, rating, polarity, protection, and dry working area for “Power-outage critical-load budget”. Test one small reversible step under observation before depending on the repair or power arrangement for “Power-outage critical-load budget”. Label status, limits, last test, remaining capacity, fault signs, and the next inspection for “Power-outage critical-load budget”. Safety limits: Official instructions and emergency services override “Power-outage critical-load budget”; do not delay evacuation or urgent help to complete the card. Do not work on live mains electricity, gas systems, pressurised vessels, damaged lithium batteries, or unstable structures without qualified help in “Power-outage critical-load budget”. Stop immediately for heat, swelling, smoke, sparks, burning smell, fuel leak, unusual noise, vibration, or repeated protective-device trips in “Power-outage critical-load budget”. Reduced fallback: If “load and battery inventory for “Power-outage critical-load budget”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:outage",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "power",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "load and battery inventory for “Power-outage critical-load budget”",
+      "insulated dry storage for “Power-outage critical-load budget”",
+      "correct fuses, cables, and chargers for “Power-outage critical-load budget”",
+      "manual backup tools for “Power-outage critical-load budget”",
+      "fault and maintenance log for “Power-outage critical-load budget”"
+    ],
+    "steps": [
+      "List each device’s purpose, power demand, duty cycle, remaining energy, charging priority, and manual fallback, then protect an emergency reserve.",
+      "Define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Power-outage critical-load budget”.",
+      "Inspect plugs, insulation, batteries, fuel, ventilation, moving parts, guards, moisture, and structural support for “Power-outage critical-load budget”.",
+      "Disconnect or isolate the source before adjustment; use the correct tool, rating, polarity, protection, and dry working area for “Power-outage critical-load budget”.",
+      "Test one small reversible step under observation before depending on the repair or power arrangement for “Power-outage critical-load budget”.",
+      "Label status, limits, last test, remaining capacity, fault signs, and the next inspection for “Power-outage critical-load budget”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Power-outage critical-load budget”; do not delay evacuation or urgent help to complete the card.",
+      "Do not work on live mains electricity, gas systems, pressurised vessels, damaged lithium batteries, or unstable structures without qualified help in “Power-outage critical-load budget”.",
+      "Stop immediately for heat, swelling, smoke, sparks, burning smell, fuel leak, unusual noise, vibration, or repeated protective-device trips in “Power-outage critical-load budget”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Power-outage critical-load budget” unreliable: List each device’s purpose, power demand, duty cycle, remaining energy, charging priority, and manual fallback, then protect an emergency reserve.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Power-outage critical-load budget”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Label status, limits, last test, remaining capacity, fault signs, and the next inspection for “Power-outage critical-load budget”."
+    ],
+    "alternatives": [
+      "If “load and battery inventory for “Power-outage critical-load budget”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Power-outage critical-load budget”, complete the first two verified actions—List each device’s purpose, power demand, duty cycle, remaining energy, charging priority, and manual fallback, then protect an emergency reserve. Define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Power-outage critical-load budget”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Power-outage critical-load budget” when the repair exceeds its rating, heats, loosens, leaks, trips protection, or changes behaviour under load.",
+      "Stop and reassess “Power-outage critical-load budget” when the manual fallback is unavailable or the fault cannot be isolated and explained."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Power-outage critical-load budget” while there is live electricity, damaged wiring, water near circuits, battery swelling or heat, fuel vapour, poor ventilation, or an unknown connection.",
+      "This card is not authorization to back-feed a building, bypass protection, open an energized device, charge a damaged battery, or run fuel-burning equipment indoors. Topic-specific stop check for “Power-outage critical-load budget”: also follow this warning: “Official instructions and emergency services override “Power-outage critical-load budget”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Power-outage critical-load budget”, carry out list each device’s purpose, power demand, duty cycle, remaining energy, charging priority, and manual fallback, then protect an emergency reserve. Follow with define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Power-outage critical-load budget”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Power-outage critical-load budget” when the repair exceeds its rating, heats, loosens, leaks, trips protection, or changes behaviour under load.",
+    "long_term": "For repeated use of “Power-outage critical-load budget”, keep “insulated dry storage for “Power-outage critical-load budget”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Power-outage critical-load budget” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Prioritize lighting, 112 contact, medical devices, refrigeration decisions, radio, and short charging windows; protect equipment from heat and salt air. For “Power-outage critical-load budget”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Generator carbon-monoxide boundary",
+      "Refrigerator and freezer outage log",
+      "Medicine cold-chain outage plan"
+    ],
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/safety/index.html",
+      "https://www.cdc.gov/food-safety/about/index.html"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass97-0020-outage-generator-boundary",
+    "language": "English",
+    "title": "Portable generator carbon-monoxide exclusion zone",
+    "category": "Outage · Scenario pack",
+    "subcategory": "Outage · Power · Field · Card",
+    "summary": "Prevent carbon-monoxide poisoning by keeping portable fuel-burning equipment outdoors and away from occupied openings.",
+    "content": "Prevent carbon-monoxide poisoning by keeping portable fuel-burning equipment outdoors and away from occupied openings.\n\nSafe-use sequence: Never run a generator in a home, garage, shed, balcony enclosure, stairwell, or near doors, windows, or vents; use alarms and manufacturer instructions. Define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Portable generator carbon-monoxide exclusion zone”. Inspect plugs, insulation, batteries, fuel, ventilation, moving parts, guards, moisture, and structural support for “Portable generator carbon-monoxide exclusion zone”. Disconnect or isolate the source before adjustment; use the correct tool, rating, polarity, protection, and dry working area for “Portable generator carbon-monoxide exclusion zone”. Test one small reversible step under observation before depending on the repair or power arrangement for “Portable generator carbon-monoxide exclusion zone”. Label status, limits, last test, remaining capacity, fault signs, and the next inspection for “Portable generator carbon-monoxide exclusion zone”. Safety limits: Official instructions and emergency services override “Portable generator carbon-monoxide exclusion zone”; do not delay evacuation or urgent help to complete the card. Do not work on live mains electricity, gas systems, pressurised vessels, damaged lithium batteries, or unstable structures without qualified help in “Portable generator carbon-monoxide exclusion zone”. Stop immediately for heat, swelling, smoke, sparks, burning smell, fuel leak, unusual noise, vibration, or repeated protective-device trips in “Portable generator carbon-monoxide exclusion zone”. Reduced fallback: If “load and battery inventory for “Portable generator carbon-monoxide exclusion zone”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:outage",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "power",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "load and battery inventory for “Portable generator carbon-monoxide exclusion zone”",
+      "insulated dry storage for “Portable generator carbon-monoxide exclusion zone”",
+      "correct fuses, cables, and chargers for “Portable generator carbon-monoxide exclusion zone”",
+      "manual backup tools for “Portable generator carbon-monoxide exclusion zone”",
+      "fault and maintenance log for “Portable generator carbon-monoxide exclusion zone”"
+    ],
+    "steps": [
+      "Never run a generator in a home, garage, shed, balcony enclosure, stairwell, or near doors, windows, or vents; use alarms and manufacturer instructions.",
+      "Define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Portable generator carbon-monoxide exclusion zone”.",
+      "Inspect plugs, insulation, batteries, fuel, ventilation, moving parts, guards, moisture, and structural support for “Portable generator carbon-monoxide exclusion zone”.",
+      "Disconnect or isolate the source before adjustment; use the correct tool, rating, polarity, protection, and dry working area for “Portable generator carbon-monoxide exclusion zone”.",
+      "Test one small reversible step under observation before depending on the repair or power arrangement for “Portable generator carbon-monoxide exclusion zone”.",
+      "Label status, limits, last test, remaining capacity, fault signs, and the next inspection for “Portable generator carbon-monoxide exclusion zone”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Portable generator carbon-monoxide exclusion zone”; do not delay evacuation or urgent help to complete the card.",
+      "Do not work on live mains electricity, gas systems, pressurised vessels, damaged lithium batteries, or unstable structures without qualified help in “Portable generator carbon-monoxide exclusion zone”.",
+      "Stop immediately for heat, swelling, smoke, sparks, burning smell, fuel leak, unusual noise, vibration, or repeated protective-device trips in “Portable generator carbon-monoxide exclusion zone”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Portable generator carbon-monoxide exclusion zone” unreliable: Never run a generator in a home, garage, shed, balcony enclosure, stairwell, or near doors, windows, or vents; use alarms and manufacturer instructions.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Portable generator carbon-monoxide exclusion zone”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Label status, limits, last test, remaining capacity, fault signs, and the next inspection for “Portable generator carbon-monoxide exclusion zone”."
+    ],
+    "alternatives": [
+      "If “load and battery inventory for “Portable generator carbon-monoxide exclusion zone”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Portable generator carbon-monoxide exclusion zone”, complete the first two verified actions—Never run a generator in a home, garage, shed, balcony enclosure, stairwell, or near doors, windows, or vents; use alarms and manufacturer instructions. Define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Portable generator carbon-monoxide exclusion zone”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Portable generator carbon-monoxide exclusion zone” when the repair exceeds its rating, heats, loosens, leaks, trips protection, or changes behaviour under load.",
+      "Stop and reassess “Portable generator carbon-monoxide exclusion zone” when the manual fallback is unavailable or the fault cannot be isolated and explained."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Portable generator carbon-monoxide exclusion zone” while there is live electricity, damaged wiring, water near circuits, battery swelling or heat, fuel vapour, poor ventilation, or an unknown connection.",
+      "This card is not authorization to back-feed a building, bypass protection, open an energized device, charge a damaged battery, or run fuel-burning equipment indoors. Topic-specific stop check for “Portable generator carbon-monoxide exclusion zone”: also follow this warning: “Official instructions and emergency services override “Portable generator carbon-monoxide exclusion zone”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Portable generator carbon-monoxide exclusion zone”, carry out never run a generator in a home, garage, shed, balcony enclosure, stairwell, or near doors, windows, or vents; use alarms and manufacturer instructions. Follow with define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Portable generator carbon-monoxide exclusion zone”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Portable generator carbon-monoxide exclusion zone” when the repair exceeds its rating, heats, loosens, leaks, trips protection, or changes behaviour under load.",
+    "long_term": "For repeated use of “Portable generator carbon-monoxide exclusion zone”, keep “insulated dry storage for “Portable generator carbon-monoxide exclusion zone”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Portable generator carbon-monoxide exclusion zone” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Prioritize lighting, 112 contact, medical devices, refrigeration decisions, radio, and short charging windows; protect equipment from heat and salt air. For “Portable generator carbon-monoxide exclusion zone”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Power-outage critical-load budget",
+      "Refrigerator and freezer outage log",
+      "Medicine cold-chain outage plan"
+    ],
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/safety/index.html",
+      "https://www.cdc.gov/food-safety/about/index.html"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass97-0024-outage-night-lighting",
+    "language": "English",
+    "title": "Safe night-lighting hierarchy",
+    "category": "Outage · Scenario pack",
+    "subcategory": "Outage · Power · Field · Card",
+    "summary": "Provide enough light for exits, stairs, toilets, medicines, and hazards without introducing flame, trip, glare, or battery-waste risks.",
+    "content": "Provide enough light for exits, stairs, toilets, medicines, and hazards without introducing flame, trip, glare, or battery-waste risks.\n\nSafe-use sequence: Place low-power lights at route changes and task points, preserve one emergency light, and keep candles away from children, animals, fabrics, sleep, and unattended areas. Define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Safe night-lighting hierarchy”. Inspect plugs, insulation, batteries, fuel, ventilation, moving parts, guards, moisture, and structural support for “Safe night-lighting hierarchy”. Disconnect or isolate the source before adjustment; use the correct tool, rating, polarity, protection, and dry working area for “Safe night-lighting hierarchy”. Test one small reversible step under observation before depending on the repair or power arrangement for “Safe night-lighting hierarchy”. Label status, limits, last test, remaining capacity, fault signs, and the next inspection for “Safe night-lighting hierarchy”. Safety limits: Official instructions and emergency services override “Safe night-lighting hierarchy”; do not delay evacuation or urgent help to complete the card. Do not work on live mains electricity, gas systems, pressurised vessels, damaged lithium batteries, or unstable structures without qualified help in “Safe night-lighting hierarchy”. Stop immediately for heat, swelling, smoke, sparks, burning smell, fuel leak, unusual noise, vibration, or repeated protective-device trips in “Safe night-lighting hierarchy”. Reduced fallback: If “load and battery inventory for “Safe night-lighting hierarchy”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:outage",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "power",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "load and battery inventory for “Safe night-lighting hierarchy”",
+      "insulated dry storage for “Safe night-lighting hierarchy”",
+      "correct fuses, cables, and chargers for “Safe night-lighting hierarchy”",
+      "manual backup tools for “Safe night-lighting hierarchy”",
+      "fault and maintenance log for “Safe night-lighting hierarchy”"
+    ],
+    "steps": [
+      "Place low-power lights at route changes and task points, preserve one emergency light, and keep candles away from children, animals, fabrics, sleep, and unattended areas.",
+      "Define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Safe night-lighting hierarchy”.",
+      "Inspect plugs, insulation, batteries, fuel, ventilation, moving parts, guards, moisture, and structural support for “Safe night-lighting hierarchy”.",
+      "Disconnect or isolate the source before adjustment; use the correct tool, rating, polarity, protection, and dry working area for “Safe night-lighting hierarchy”.",
+      "Test one small reversible step under observation before depending on the repair or power arrangement for “Safe night-lighting hierarchy”.",
+      "Label status, limits, last test, remaining capacity, fault signs, and the next inspection for “Safe night-lighting hierarchy”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Safe night-lighting hierarchy”; do not delay evacuation or urgent help to complete the card.",
+      "Do not work on live mains electricity, gas systems, pressurised vessels, damaged lithium batteries, or unstable structures without qualified help in “Safe night-lighting hierarchy”.",
+      "Stop immediately for heat, swelling, smoke, sparks, burning smell, fuel leak, unusual noise, vibration, or repeated protective-device trips in “Safe night-lighting hierarchy”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Safe night-lighting hierarchy” unreliable: Place low-power lights at route changes and task points, preserve one emergency light, and keep candles away from children, animals, fabrics, sleep, and unattended areas.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Safe night-lighting hierarchy”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Label status, limits, last test, remaining capacity, fault signs, and the next inspection for “Safe night-lighting hierarchy”."
+    ],
+    "alternatives": [
+      "If “load and battery inventory for “Safe night-lighting hierarchy”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Safe night-lighting hierarchy”, complete the first two verified actions—Place low-power lights at route changes and task points, preserve one emergency light, and keep candles away from children, animals, fabrics, sleep, and unattended areas. Define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Safe night-lighting hierarchy”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Safe night-lighting hierarchy” when the repair exceeds its rating, heats, loosens, leaks, trips protection, or changes behaviour under load.",
+      "Stop and reassess “Safe night-lighting hierarchy” when the manual fallback is unavailable or the fault cannot be isolated and explained."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Safe night-lighting hierarchy” while there is live electricity, damaged wiring, water near circuits, battery swelling or heat, fuel vapour, poor ventilation, or an unknown connection.",
+      "This card is not authorization to back-feed a building, bypass protection, open an energized device, charge a damaged battery, or run fuel-burning equipment indoors. Topic-specific stop check for “Safe night-lighting hierarchy”: also follow this warning: “Official instructions and emergency services override “Safe night-lighting hierarchy”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Safe night-lighting hierarchy”, carry out place low-power lights at route changes and task points, preserve one emergency light, and keep candles away from children, animals, fabrics, sleep, and unattended areas. Follow with define the essential function, available energy, rated limits, hazards, and a manual fallback before connecting equipment for “Safe night-lighting hierarchy”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Safe night-lighting hierarchy” when the repair exceeds its rating, heats, loosens, leaks, trips protection, or changes behaviour under load.",
+    "long_term": "For repeated use of “Safe night-lighting hierarchy”, keep “insulated dry storage for “Safe night-lighting hierarchy”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Safe night-lighting hierarchy” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Prioritize lighting, 112 contact, medical devices, refrigeration decisions, radio, and short charging windows; protect equipment from heat and salt air. For “Safe night-lighting hierarchy”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Power-outage critical-load budget",
+      "Generator carbon-monoxide boundary",
+      "Refrigerator and freezer outage log"
+    ],
+    "sources": [
+      "https://www.cdc.gov/natural-disasters/safety/index.html",
+      "https://www.cdc.gov/food-safety/about/index.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "pass97-0027-food-no-cook-ladder",
+    "language": "English",
+    "title": "No-cook meal priority ladder",
+    "category": "Food · Scenario pack",
+    "subcategory": "Food · Food · Field · Card",
+    "summary": "Plan safe meals during fuel or power loss by using foods in an order that protects nutrition and reduces spoilage.",
+    "content": "Plan safe meals during fuel or power loss by using foods in an order that protects nutrition and reduces spoilage.\n\nField sequence: Use safe perishables first only while storage remains acceptable, then ready-to-eat shelf-stable foods, while reserving allergy-safe, infant, medical, and high-energy items for their intended users. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “No-cook meal priority ladder”. Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “No-cook meal priority ladder”. Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “No-cook meal priority ladder”. Label portions with contents, preparation time, priority users, and discard or review time for “No-cook meal priority ladder”. Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “No-cook meal priority ladder”. Safety limits: Official instructions and emergency services override “No-cook meal priority ladder”; do not delay evacuation or urgent help to complete the card. Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “No-cook meal priority ladder”. Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “No-cook meal priority ladder”. Reduced fallback: If “dated food labels for “No-cook meal priority ladder”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:food",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "food",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "dated food labels for “No-cook meal priority ladder”",
+      "clean utensils for “No-cook meal priority ladder”",
+      "covered food-grade containers for “No-cook meal priority ladder”",
+      "temperature or outage log when relevant for “No-cook meal priority ladder”",
+      "separate discard container for “No-cook meal priority ladder”"
+    ],
+    "steps": [
+      "Use safe perishables first only while storage remains acceptable, then ready-to-eat shelf-stable foods, while reserving allergy-safe, infant, medical, and high-energy items for their intended users.",
+      "Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “No-cook meal priority ladder”.",
+      "Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “No-cook meal priority ladder”.",
+      "Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “No-cook meal priority ladder”.",
+      "Label portions with contents, preparation time, priority users, and discard or review time for “No-cook meal priority ladder”.",
+      "Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “No-cook meal priority ladder”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “No-cook meal priority ladder”; do not delay evacuation or urgent help to complete the card.",
+      "Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “No-cook meal priority ladder”.",
+      "Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “No-cook meal priority ladder”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “No-cook meal priority ladder” unreliable: Use safe perishables first only while storage remains acceptable, then ready-to-eat shelf-stable foods, while reserving allergy-safe, infant, medical, and high-energy items for their intended users.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “No-cook meal priority ladder”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “No-cook meal priority ladder”."
+    ],
+    "alternatives": [
+      "If “dated food labels for “No-cook meal priority ladder”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “No-cook meal priority ladder”, complete the first two verified actions—Use safe perishables first only while storage remains acceptable, then ready-to-eat shelf-stable foods, while reserving allergy-safe, infant, medical, and high-energy items for their intended users. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “No-cook meal priority ladder”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “No-cook meal priority ladder” when temperature history, seal integrity, source, or contamination status cannot be established.",
+      "Stop and reassess “No-cook meal priority ladder” when users develop vomiting, diarrhoea, severe abdominal symptoms, allergic reaction, or unusual clustering of illness."
+    ],
+    "when_not_to_use": [
+      "Do not continue “No-cook meal priority ladder” while temperature history, allergen status, flood contact, packaging integrity, or the origin of the food cannot be established.",
+      "This card is not authorization to taste questionable food to test it, hide spoilage with cooking, or serve an unknown ingredient to someone with a serious allergy. Topic-specific stop check for “No-cook meal priority ladder”: also follow this warning: “Official instructions and emergency services override “No-cook meal priority ladder”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “No-cook meal priority ladder”, carry out use safe perishables first only while storage remains acceptable, then ready-to-eat shelf-stable foods, while reserving allergy-safe, infant, medical, and high-energy items for their intended users. Follow with check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “No-cook meal priority ladder”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “No-cook meal priority ladder” when temperature history, seal integrity, source, or contamination status cannot be established.",
+    "long_term": "For repeated use of “No-cook meal priority ladder”, keep “clean utensils for “No-cook meal priority ladder”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “No-cook meal priority ladder” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Plan for Greek summer heat, refrigerator outages, limited clean water, shared kitchens, infants, older adults, allergies, and culturally acceptable meals. For “No-cook meal priority ladder”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Emergency allergy-safe food map",
+      "Community meal clean-flow line"
+    ],
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass97-0028-food-allergy-map",
+    "language": "English",
+    "title": "Emergency allergy-safe food map",
+    "category": "Food · Scenario pack",
+    "subcategory": "Food · Food · Field · Card",
+    "summary": "Prevent dangerous substitutions by clearly mapping allergens, safe stock, preparation tools, and individual emergency plans.",
+    "content": "Prevent dangerous substitutions by clearly mapping allergens, safe stock, preparation tools, and individual emergency plans.\n\nSafe-use sequence: Label each person’s allergens, safe brands or ingredients, separate utensils and storage, medicine location, expiry, and the urgent-response instructions provided by professionals. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Emergency allergy-safe food map”. Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “Emergency allergy-safe food map”. Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “Emergency allergy-safe food map”. Label portions with contents, preparation time, priority users, and discard or review time for “Emergency allergy-safe food map”. Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Emergency allergy-safe food map”. Safety limits: Official instructions and emergency services override “Emergency allergy-safe food map”; do not delay evacuation or urgent help to complete the card. Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “Emergency allergy-safe food map”. Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “Emergency allergy-safe food map”. Reduced fallback: If “dated food labels for “Emergency allergy-safe food map”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:food",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "food",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "dated food labels for “Emergency allergy-safe food map”",
+      "clean utensils for “Emergency allergy-safe food map”",
+      "covered food-grade containers for “Emergency allergy-safe food map”",
+      "temperature or outage log when relevant for “Emergency allergy-safe food map”",
+      "separate discard container for “Emergency allergy-safe food map”"
+    ],
+    "steps": [
+      "Label each person’s allergens, safe brands or ingredients, separate utensils and storage, medicine location, expiry, and the urgent-response instructions provided by professionals.",
+      "Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Emergency allergy-safe food map”.",
+      "Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “Emergency allergy-safe food map”.",
+      "Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “Emergency allergy-safe food map”.",
+      "Label portions with contents, preparation time, priority users, and discard or review time for “Emergency allergy-safe food map”.",
+      "Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Emergency allergy-safe food map”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Emergency allergy-safe food map”; do not delay evacuation or urgent help to complete the card.",
+      "Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “Emergency allergy-safe food map”.",
+      "Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “Emergency allergy-safe food map”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Emergency allergy-safe food map” unreliable: Label each person’s allergens, safe brands or ingredients, separate utensils and storage, medicine location, expiry, and the urgent-response instructions provided by professionals.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Emergency allergy-safe food map”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Emergency allergy-safe food map”."
+    ],
+    "alternatives": [
+      "If “dated food labels for “Emergency allergy-safe food map”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Emergency allergy-safe food map”, complete the first two verified actions—Label each person’s allergens, safe brands or ingredients, separate utensils and storage, medicine location, expiry, and the urgent-response instructions provided by professionals. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Emergency allergy-safe food map”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Emergency allergy-safe food map” when temperature history, seal integrity, source, or contamination status cannot be established.",
+      "Stop and reassess “Emergency allergy-safe food map” when users develop vomiting, diarrhoea, severe abdominal symptoms, allergic reaction, or unusual clustering of illness."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Emergency allergy-safe food map” while temperature history, allergen status, flood contact, packaging integrity, or the origin of the food cannot be established.",
+      "This card is not authorization to taste questionable food to test it, hide spoilage with cooking, or serve an unknown ingredient to someone with a serious allergy. Topic-specific stop check for “Emergency allergy-safe food map”: also follow this warning: “Official instructions and emergency services override “Emergency allergy-safe food map”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Emergency allergy-safe food map”, carry out label each person’s allergens, safe brands or ingredients, separate utensils and storage, medicine location, expiry, and the urgent-response instructions provided by professionals. Follow with check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Emergency allergy-safe food map”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Emergency allergy-safe food map” when temperature history, seal integrity, source, or contamination status cannot be established.",
+    "long_term": "For repeated use of “Emergency allergy-safe food map”, keep “clean utensils for “Emergency allergy-safe food map”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Emergency allergy-safe food map” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Plan for Greek summer heat, refrigerator outages, limited clean water, shared kitchens, infants, older adults, allergies, and culturally acceptable meals. For “Emergency allergy-safe food map”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "No-cook meal priority ladder",
+      "Community meal clean-flow line"
+    ],
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass97-0029-food-community-serving",
+    "language": "English",
+    "title": "Community meal clean-flow line",
+    "category": "Food · Scenario pack",
+    "subcategory": "Food · Food · Field · Card",
+    "summary": "Organise receiving, preparation, cooking, serving, leftovers, and waste so dirty movement does not cross ready-to-eat food.",
+    "content": "Organise receiving, preparation, cooking, serving, leftovers, and waste so dirty movement does not cross ready-to-eat food.\n\nPractical sequence: Assign separate zones and tools, handwashing transitions, allergen labels, batch times, portion records, and a clear discard rule for uncertain leftovers. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Community meal clean-flow line”. Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “Community meal clean-flow line”. Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “Community meal clean-flow line”. Label portions with contents, preparation time, priority users, and discard or review time for “Community meal clean-flow line”. Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Community meal clean-flow line”. Safety limits: Official instructions and emergency services override “Community meal clean-flow line”; do not delay evacuation or urgent help to complete the card. Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “Community meal clean-flow line”. Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “Community meal clean-flow line”. Reduced fallback: If “dated food labels for “Community meal clean-flow line”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "scenario_dependent",
+    "priority": "high",
+    "tags": [
+      "pack:food",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "food",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "dated food labels for “Community meal clean-flow line”",
+      "clean utensils for “Community meal clean-flow line”",
+      "covered food-grade containers for “Community meal clean-flow line”",
+      "temperature or outage log when relevant for “Community meal clean-flow line”",
+      "separate discard container for “Community meal clean-flow line”"
+    ],
+    "steps": [
+      "Assign separate zones and tools, handwashing transitions, allergen labels, batch times, portion records, and a clear discard rule for uncertain leftovers.",
+      "Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Community meal clean-flow line”.",
+      "Separate raw, cooked, ready-to-eat, allergen-sensitive, and questionable items for “Community meal clean-flow line”.",
+      "Use the safest available water, clean hands and tools, adequate cooking, and protected serving for “Community meal clean-flow line”.",
+      "Label portions with contents, preparation time, priority users, and discard or review time for “Community meal clean-flow line”.",
+      "Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Community meal clean-flow line”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Community meal clean-flow line”; do not delay evacuation or urgent help to complete the card.",
+      "Do not taste food to decide whether contamination, spoilage, or flood exposure made it unsafe in “Community meal clean-flow line”.",
+      "Keep fuel, pesticides, cleaning chemicals, waste, animals, and dirty water away from food areas in “Community meal clean-flow line”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Community meal clean-flow line” unreliable: Assign separate zones and tools, handwashing transitions, allergen labels, batch times, portion records, and a clear discard rule for uncertain leftovers.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Community meal clean-flow line”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Record consumption and losses so the next meal plan protects nutrition without hiding unsafe food for “Community meal clean-flow line”."
+    ],
+    "alternatives": [
+      "If “dated food labels for “Community meal clean-flow line”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Community meal clean-flow line”, complete the first two verified actions—Assign separate zones and tools, handwashing transitions, allergen labels, batch times, portion records, and a clear discard rule for uncertain leftovers. Check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Community meal clean-flow line”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Community meal clean-flow line” when temperature history, seal integrity, source, or contamination status cannot be established.",
+      "Stop and reassess “Community meal clean-flow line” when users develop vomiting, diarrhoea, severe abdominal symptoms, allergic reaction, or unusual clustering of illness."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Community meal clean-flow line” while temperature history, allergen status, flood contact, packaging integrity, or the origin of the food cannot be established.",
+      "This card is not authorization to taste questionable food to test it, hide spoilage with cooking, or serve an unknown ingredient to someone with a serious allergy. Topic-specific stop check for “Community meal clean-flow line”: also follow this warning: “Official instructions and emergency services override “Community meal clean-flow line”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Community meal clean-flow line”, carry out assign separate zones and tools, handwashing transitions, allergen labels, batch times, portion records, and a clear discard rule for uncertain leftovers. Follow with check packaging, date, storage history, allergens, pests, water exposure, and temperature control before use for “Community meal clean-flow line”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Community meal clean-flow line” when temperature history, seal integrity, source, or contamination status cannot be established.",
+    "long_term": "For repeated use of “Community meal clean-flow line”, keep “clean utensils for “Community meal clean-flow line”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Community meal clean-flow line” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Plan for Greek summer heat, refrigerator outages, limited clean water, shared kitchens, infants, older adults, allergies, and culturally acceptable meals. For “Community meal clean-flow line”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "No-cook meal priority ladder",
+      "Emergency allergy-safe food map"
+    ],
+    "sources": [
+      "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

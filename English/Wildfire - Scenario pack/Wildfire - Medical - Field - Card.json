@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pass97-0010-wildfire-smoke-redflags",
+    "language": "English",
+    "title": "Wildfire-smoke health red flags",
+    "category": "Wildfire · Scenario pack",
+    "subcategory": "Wildfire · Medical · Field · Card",
+    "summary": "Recognise when smoke exposure requires urgent movement to cleaner air and professional help, especially for vulnerable people.",
+    "content": "Recognise when smoke exposure requires urgent movement to cleaner air and professional help, especially for vulnerable people.\n\nWorking sequence: Escalate for severe breathing difficulty, chest symptoms, confusion, fainting, blue or grey colour, inability to speak normally, or rapidly worsening established disease. Make the scene safe, use consent where possible, and call emergency services for immediate threats for “Wildfire-smoke health red flags”. Observe breathing, alertness, major bleeding, severe pain, temperature exposure, and rapid change without inventing a diagnosis for “Wildfire-smoke health red flags”. Give only low-risk care within training and follow the person’s established professional plan for medicines or chronic needs for “Wildfire-smoke health red flags”. Record time, observations, actions, medicines already taken, allergies, response, and who was contacted for “Wildfire-smoke health red flags”. Reassess frequently and arrange qualified help early when danger signs, uncertainty, or deterioration are present for “Wildfire-smoke health red flags”. Safety limits: Official instructions and emergency services override “Wildfire-smoke health red flags”; do not delay evacuation or urgent help to complete the card. Do not diagnose, prescribe, improvise dosing, perform invasive procedures, or delay emergency help in “Wildfire-smoke health red flags”. Protect privacy and infection-control boundaries, but never let paperwork delay lifesaving action in “Wildfire-smoke health red flags”. Reduced fallback: If “gloves or clean barrier for “Wildfire-smoke health red flags”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:wildfire",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "medical",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "gloves or clean barrier for “Wildfire-smoke health red flags”",
+      "clean water and basic first-aid supplies for “Wildfire-smoke health red flags”",
+      "written medicine and allergy list for “Wildfire-smoke health red flags”",
+      "watch or clock for “Wildfire-smoke health red flags”",
+      "care and escalation log for “Wildfire-smoke health red flags”"
+    ],
+    "steps": [
+      "Escalate for severe breathing difficulty, chest symptoms, confusion, fainting, blue or grey colour, inability to speak normally, or rapidly worsening established disease.",
+      "Make the scene safe, use consent where possible, and call emergency services for immediate threats for “Wildfire-smoke health red flags”.",
+      "Observe breathing, alertness, major bleeding, severe pain, temperature exposure, and rapid change without inventing a diagnosis for “Wildfire-smoke health red flags”.",
+      "Give only low-risk care within training and follow the person’s established professional plan for medicines or chronic needs for “Wildfire-smoke health red flags”.",
+      "Record time, observations, actions, medicines already taken, allergies, response, and who was contacted for “Wildfire-smoke health red flags”.",
+      "Reassess frequently and arrange qualified help early when danger signs, uncertainty, or deterioration are present for “Wildfire-smoke health red flags”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Wildfire-smoke health red flags”; do not delay evacuation or urgent help to complete the card.",
+      "Do not diagnose, prescribe, improvise dosing, perform invasive procedures, or delay emergency help in “Wildfire-smoke health red flags”.",
+      "Protect privacy and infection-control boundaries, but never let paperwork delay lifesaving action in “Wildfire-smoke health red flags”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Wildfire-smoke health red flags” unreliable: Escalate for severe breathing difficulty, chest symptoms, confusion, fainting, blue or grey colour, inability to speak normally, or rapidly worsening established disease.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Wildfire-smoke health red flags”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Reassess frequently and arrange qualified help early when danger signs, uncertainty, or deterioration are present for “Wildfire-smoke health red flags”."
+    ],
+    "alternatives": [
+      "If “gloves or clean barrier for “Wildfire-smoke health red flags”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Wildfire-smoke health red flags”, complete the first two verified actions—Escalate for severe breathing difficulty, chest symptoms, confusion, fainting, blue or grey colour, inability to speak normally, or rapidly worsening established disease. Make the scene safe, use consent where possible, and call emergency services for immediate threats for “Wildfire-smoke health red flags”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Wildfire-smoke health red flags” when breathing, alertness, circulation, pain, temperature, bleeding, or behaviour worsens.",
+      "Stop and reassess “Wildfire-smoke health red flags” when the person cannot keep fluids down, develops severe allergic signs, chest symptoms, seizure, confusion, or another urgent red flag."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Wildfire-smoke health red flags” while breathing, alertness, circulation, major bleeding, severe pain, seizure, poisoning, chest symptoms, pregnancy danger signs, or rapid deterioration is present.",
+      "This card is not authorization to diagnose, prescribe, change a dose, perform an invasive procedure, force care, or delay 112 and qualified medical help. Topic-specific stop check for “Wildfire-smoke health red flags”: also follow this warning: “Official instructions and emergency services override “Wildfire-smoke health red flags”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Wildfire-smoke health red flags”, carry out escalate for severe breathing difficulty, chest symptoms, confusion, fainting, blue or grey colour, inability to speak normally, or rapidly worsening established disease. Follow with make the scene safe, use consent where possible, and call emergency services for immediate threats for “Wildfire-smoke health red flags”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Wildfire-smoke health red flags” when breathing, alertness, circulation, pain, temperature, bleeding, or behaviour worsens.",
+    "long_term": "For repeated use of “Wildfire-smoke health red flags”, keep “clean water and basic first-aid supplies for “Wildfire-smoke health red flags”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Wildfire-smoke health red flags” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Use consent, privacy, infection-control barriers, the person’s established care plan, written medicines and allergies, and early referral when transport is difficult. For “Wildfire-smoke health red flags”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Wildfire early-departure trigger",
+      "Wildfire vehicle loading order",
+      "Wildfire ember-entry check before leaving"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/dasikes-pyrkagies"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

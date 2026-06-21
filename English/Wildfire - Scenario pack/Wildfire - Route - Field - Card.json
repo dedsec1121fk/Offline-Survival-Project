@@ -1,0 +1,148 @@
+[
+  {
+    "id": "pass97-0007-wildfire-early-departure",
+    "language": "English",
+    "title": "Wildfire early-departure trigger",
+    "category": "Wildfire · Scenario pack",
+    "subcategory": "Wildfire · Route · Field · Card",
+    "summary": "Define departure triggers before smoke, congestion, nightfall, heat, or road closures remove safe options.",
+    "content": "Define departure triggers before smoke, congestion, nightfall, heat, or road closures remove safe options.\n\nField sequence: Link an official warning, nearby fire behaviour, falling ash, visibility loss, vulnerable-person need, or route deterioration to immediate movement on the preselected route. Confirm the reason for movement, official instruction, destination, primary route, fallback route, weather, daylight, and transport limits for “Wildfire early-departure trigger”. Mark hazards such as fire, smoke, floodwater, damaged bridges, unstable slopes, crowds, poor visibility, and restricted areas for “Wildfire early-departure trigger”. Match pace, load, rest, assistance, and transport to children, older adults, disability, illness, animals, and the slowest safe member for “Wildfire early-departure trigger”. Leave a departure time, route, destination, group list, check-in schedule, and missed-contact rule with a trusted person for “Wildfire early-departure trigger”. Stop at planned checkpoints, compare real conditions with the map, and turn back or divert before the route becomes trapping or irreversible for “Wildfire early-departure trigger”. Safety limits: Official instructions and emergency services override “Wildfire early-departure trigger”; do not delay evacuation or urgent help to complete the card. Never enter moving floodwater, wildfire closure, smoke-obscured road, unstable slope, damaged structure, or officially restricted route in “Wildfire early-departure trigger”. Do not split the group without a written destination, communication rule, responsible adults, and reunification plan in “Wildfire early-departure trigger”. Reduced fallback: If “paper map and pencil for “Wildfire early-departure trigger”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:wildfire",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "route",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "paper map and pencil for “Wildfire early-departure trigger”",
+      "official alert and route information for “Wildfire early-departure trigger”",
+      "contact and meeting-point card for “Wildfire early-departure trigger”",
+      "light, water, and essential medicine for “Wildfire early-departure trigger”",
+      "mobility and visibility aids for “Wildfire early-departure trigger”"
+    ],
+    "steps": [
+      "Link an official warning, nearby fire behaviour, falling ash, visibility loss, vulnerable-person need, or route deterioration to immediate movement on the preselected route.",
+      "Confirm the reason for movement, official instruction, destination, primary route, fallback route, weather, daylight, and transport limits for “Wildfire early-departure trigger”.",
+      "Mark hazards such as fire, smoke, floodwater, damaged bridges, unstable slopes, crowds, poor visibility, and restricted areas for “Wildfire early-departure trigger”.",
+      "Match pace, load, rest, assistance, and transport to children, older adults, disability, illness, animals, and the slowest safe member for “Wildfire early-departure trigger”.",
+      "Leave a departure time, route, destination, group list, check-in schedule, and missed-contact rule with a trusted person for “Wildfire early-departure trigger”.",
+      "Stop at planned checkpoints, compare real conditions with the map, and turn back or divert before the route becomes trapping or irreversible for “Wildfire early-departure trigger”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Wildfire early-departure trigger”; do not delay evacuation or urgent help to complete the card.",
+      "Never enter moving floodwater, wildfire closure, smoke-obscured road, unstable slope, damaged structure, or officially restricted route in “Wildfire early-departure trigger”.",
+      "Do not split the group without a written destination, communication rule, responsible adults, and reunification plan in “Wildfire early-departure trigger”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Wildfire early-departure trigger” unreliable: Link an official warning, nearby fire behaviour, falling ash, visibility loss, vulnerable-person need, or route deterioration to immediate movement on the preselected route.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Wildfire early-departure trigger”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Stop at planned checkpoints, compare real conditions with the map, and turn back or divert before the route becomes trapping or irreversible for “Wildfire early-departure trigger”."
+    ],
+    "alternatives": [
+      "If “paper map and pencil for “Wildfire early-departure trigger”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Wildfire early-departure trigger”, complete the first two verified actions—Link an official warning, nearby fire behaviour, falling ash, visibility loss, vulnerable-person need, or route deterioration to immediate movement on the preselected route. Confirm the reason for movement, official instruction, destination, primary route, fallback route, weather, daylight, and transport limits for “Wildfire early-departure trigger”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Wildfire early-departure trigger” when the route loses a safe exit, visibility, communications, daylight margin, water margin, or physical capacity.",
+      "Stop and reassess “Wildfire early-departure trigger” when a member is missing, distressed, injured, exhausted, confused, or unable to continue safely."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Wildfire early-departure trigger” while the area has smoke, gas odour, rising water, unstable walls or roof, falling objects, blocked exits, extreme heat or cold, or an evacuation order.",
+      "This card is not authorization to re-enter a restricted structure, shelter in a flood-prone basement, use flame near fuel, or ignore an official evacuation route. Topic-specific stop check for “Wildfire early-departure trigger”: also follow this warning: “Official instructions and emergency services override “Wildfire early-departure trigger”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Wildfire early-departure trigger”, carry out link an official warning, nearby fire behaviour, falling ash, visibility loss, vulnerable-person need, or route deterioration to immediate movement on the preselected route. Follow with confirm the reason for movement, official instruction, destination, primary route, fallback route, weather, daylight, and transport limits for “Wildfire early-departure trigger”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Wildfire early-departure trigger” when the route loses a safe exit, visibility, communications, daylight margin, water margin, or physical capacity.",
+    "long_term": "For repeated use of “Wildfire early-departure trigger”, keep “official alert and route information for “Wildfire early-departure trigger”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Wildfire early-departure trigger” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Match the plan to building age, balcony and stair access, island or village isolation, wildfire vegetation, coastal exposure, heat, frost, and mobility needs. For “Wildfire early-departure trigger”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Wildfire vehicle loading order",
+      "Wildfire ember-entry check before leaving",
+      "Wildfire-smoke health red flags"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/dasikes-pyrkagies"
+    ],
+    "last_updated": "2026-06-18"
+  },
+  {
+    "id": "pass97-0008-wildfire-vehicle-load",
+    "language": "English",
+    "title": "Wildfire vehicle loading order",
+    "category": "Wildfire · Scenario pack",
+    "subcategory": "Wildfire · Route · Field · Card",
+    "summary": "Load the vehicle so people, medicines, animals, identification, communication, water, and mobility aids leave without dangerous delay.",
+    "content": "Load the vehicle so people, medicines, animals, identification, communication, water, and mobility aids leave without dangerous delay.\n\nSafe-use sequence: Keep the driver’s view, exits, seat belts, animal containment, and essential grab items clear; never delay departure to pack replaceable property. Confirm the reason for movement, official instruction, destination, primary route, fallback route, weather, daylight, and transport limits for “Wildfire vehicle loading order”. Mark hazards such as fire, smoke, floodwater, damaged bridges, unstable slopes, crowds, poor visibility, and restricted areas for “Wildfire vehicle loading order”. Match pace, load, rest, assistance, and transport to children, older adults, disability, illness, animals, and the slowest safe member for “Wildfire vehicle loading order”. Leave a departure time, route, destination, group list, check-in schedule, and missed-contact rule with a trusted person for “Wildfire vehicle loading order”. Stop at planned checkpoints, compare real conditions with the map, and turn back or divert before the route becomes trapping or irreversible for “Wildfire vehicle loading order”. Safety limits: Official instructions and emergency services override “Wildfire vehicle loading order”; do not delay evacuation or urgent help to complete the card. Never enter moving floodwater, wildfire closure, smoke-obscured road, unstable slope, damaged structure, or officially restricted route in “Wildfire vehicle loading order”. Do not split the group without a written destination, communication rule, responsible adults, and reunification plan in “Wildfire vehicle loading order”. Reduced fallback: If “paper map and pencil for “Wildfire vehicle loading order”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+    "difficulty": "basic_to_intermediate",
+    "urgency": "urgent",
+    "priority": "critical",
+    "tags": [
+      "pack:wildfire",
+      "pass97",
+      "scenario",
+      "greece",
+      "offline",
+      "bilingual",
+      "route",
+      "semantic-repair",
+      "pass98-semantic-polish"
+    ],
+    "materials": [
+      "paper map and pencil for “Wildfire vehicle loading order”",
+      "official alert and route information for “Wildfire vehicle loading order”",
+      "contact and meeting-point card for “Wildfire vehicle loading order”",
+      "light, water, and essential medicine for “Wildfire vehicle loading order”",
+      "mobility and visibility aids for “Wildfire vehicle loading order”"
+    ],
+    "steps": [
+      "Keep the driver’s view, exits, seat belts, animal containment, and essential grab items clear; never delay departure to pack replaceable property.",
+      "Confirm the reason for movement, official instruction, destination, primary route, fallback route, weather, daylight, and transport limits for “Wildfire vehicle loading order”.",
+      "Mark hazards such as fire, smoke, floodwater, damaged bridges, unstable slopes, crowds, poor visibility, and restricted areas for “Wildfire vehicle loading order”.",
+      "Match pace, load, rest, assistance, and transport to children, older adults, disability, illness, animals, and the slowest safe member for “Wildfire vehicle loading order”.",
+      "Leave a departure time, route, destination, group list, check-in schedule, and missed-contact rule with a trusted person for “Wildfire vehicle loading order”.",
+      "Stop at planned checkpoints, compare real conditions with the map, and turn back or divert before the route becomes trapping or irreversible for “Wildfire vehicle loading order”."
+    ],
+    "warnings": [
+      "Official instructions and emergency services override “Wildfire vehicle loading order”; do not delay evacuation or urgent help to complete the card.",
+      "Never enter moving floodwater, wildfire closure, smoke-obscured road, unstable slope, damaged structure, or officially restricted route in “Wildfire vehicle loading order”.",
+      "Do not split the group without a written destination, communication rule, responsible adults, and reunification plan in “Wildfire vehicle loading order”."
+    ],
+    "common_mistakes": [
+      "Skipping the opening control makes “Wildfire vehicle loading order” unreliable: Keep the driver’s view, exits, seat belts, animal containment, and essential grab items clear; never delay departure to pack replaceable property.",
+      "Treating the result as safe while ignoring this limit is a serious error: Official instructions and emergency services override “Wildfire vehicle loading order”; do not delay evacuation or urgent help to complete the card.",
+      "Failing to document the final handover action leaves the next person without a trustworthy starting point: Stop at planned checkpoints, compare real conditions with the map, and turn back or divert before the route becomes trapping or irreversible for “Wildfire vehicle loading order”."
+    ],
+    "alternatives": [
+      "If “paper map and pencil for “Wildfire vehicle loading order”” is unavailable, use only a clean, labelled substitute that performs the same function; otherwise mark the missing capability and pause that step.",
+      "For a reduced version of “Wildfire vehicle loading order”, complete the first two verified actions—Keep the driver’s view, exits, seat belts, animal containment, and essential grab items clear; never delay departure to pack replaceable property. Confirm the reason for movement, official instruction, destination, primary route, fallback route, weather, daylight, and transport limits for “Wildfire vehicle loading order”.—then stop at the first uncertainty and request appropriate help."
+    ],
+    "failure_signs": [
+      "Stop and reassess “Wildfire vehicle loading order” when the route loses a safe exit, visibility, communications, daylight margin, water margin, or physical capacity.",
+      "Stop and reassess “Wildfire vehicle loading order” when a member is missing, distressed, injured, exhausted, confused, or unable to continue safely."
+    ],
+    "when_not_to_use": [
+      "Do not continue “Wildfire vehicle loading order” while the area has smoke, gas odour, rising water, unstable walls or roof, falling objects, blocked exits, extreme heat or cold, or an evacuation order.",
+      "This card is not authorization to re-enter a restricted structure, shelter in a flood-prone basement, use flame near fuel, or ignore an official evacuation route. Topic-specific stop check for “Wildfire vehicle loading order”: also follow this warning: “Official instructions and emergency services override “Wildfire vehicle loading order”; do not delay evacuation or urgent help to complete the card.”."
+    ],
+    "short_term": "For the first operating cycle of “Wildfire vehicle loading order”, carry out keep the driver’s view, exits, seat belts, animal containment, and essential grab items clear; never delay departure to pack replaceable property. Follow with confirm the reason for movement, official instruction, destination, primary route, fallback route, weather, daylight, and transport limits for “Wildfire vehicle loading order”. Before repeating the procedure, verify that this failure sign is absent: Stop and reassess “Wildfire vehicle loading order” when the route loses a safe exit, visibility, communications, daylight margin, water margin, or physical capacity.",
+    "long_term": "For repeated use of “Wildfire vehicle loading order”, keep “official alert and route information for “Wildfire vehicle loading order”” serviceable, rehearse the handover described in the final step, compare records with real outcomes, and revise the card whenever local conditions or official instructions change.",
+    "if_method_fails": "If “Wildfire vehicle loading order” does not produce a verifiable result, stop using that result, label or isolate anything uncertain, protect people from the identified failure path, record what happened, and change to the safest official, professionally supported, or previously tested fallback.",
+    "environment_notes": "Match the plan to building age, balcony and stair access, island or village isolation, wildfire vegetation, coastal exposure, heat, frost, and mobility needs. For “Wildfire vehicle loading order”, also account for the people, animals, tools, transport, communications, and qualified help that are actually available at the location.",
+    "related_topics": [
+      "Wildfire early-departure trigger",
+      "Wildfire ember-entry check before leaving",
+      "Wildfire-smoke health red flags"
+    ],
+    "sources": [
+      "https://civilprotection.gov.gr/en/odigies-prostasias/dasikes-pyrkagies"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

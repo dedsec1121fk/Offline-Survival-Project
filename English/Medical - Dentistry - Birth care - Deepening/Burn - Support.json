@@ -1,0 +1,71 @@
+[
+  {
+    "id": "pass93-0003",
+    "language": "English",
+    "title": "Burn cooling and covering decision card",
+    "category": "Medical · Dentistry · Birth care · Deepening",
+    "subcategory": "Burn · Support",
+    "summary": "A safe first-response card for minor burns and danger signs that need urgent medical help.",
+    "content": "Burn cooling and covering decision card is a practical offline routine for burn support. Stop the burning source and move the person away from heat, electricity, chemicals, or smoke if it is safe. Cool a small thermal burn with cool running water; remove tight jewelry or clothing near the area if not stuck. Cover loosely with a clean non-stick material and keep the person warm overall. Record burn location, approximate size, cause, time, pain, and any smoke inhalation risk. Get urgent help for burns on face, hands, feet, genitals, large areas, deep burns, chemical/electrical burns, breathing problems, or babies/elderly people. Do not break blisters or apply butter, oils, toothpaste, powders, or dirty creams. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "bilingual",
+      "burns",
+      "fire",
+      "first_aid",
+      "medical",
+      "offline",
+      "pass93",
+      "weak_area_deepening"
+    ],
+    "materials": [
+      "Cool clean running water if available",
+      "Clean non-fluffy cloth",
+      "Loose clean covering",
+      "Clock. Context: “Burn cooling and covering decision card”.",
+      "Notebook. Context: “Burn cooling and covering decision card”."
+    ],
+    "steps": [
+      "Stop the burning source and move the person away from heat, electricity, chemicals, or smoke if it is safe.",
+      "Cool a small thermal burn with cool running water; remove tight jewelry or clothing near the area if not stuck.",
+      "Cover loosely with a clean non-stick material and keep the person warm overall.",
+      "Record burn location, approximate size, cause, time, pain, and any smoke inhalation risk.",
+      "Get urgent help for burns on face, hands, feet, genitals, large areas, deep burns, chemical/electrical burns, breathing problems, or babies/elderly people.",
+      "Do not break blisters or apply butter, oils, toothpaste, powders, or dirty creams."
+    ],
+    "warnings": [
+      "Chemical and electrical burns can be dangerous even when the skin looks small.",
+      "Smoke inhalation signs need urgent help even if the skin burn seems minor."
+    ],
+    "common_mistakes": [
+      "Putting ice directly on the burn.",
+      "Wrapping tightly around swelling skin.",
+      "Leaving rings on fingers that may swell."
+    ],
+    "alternatives": [
+      "If running water is unavailable, use clean cool water changed often.",
+      "If no dressing exists, use the cleanest smooth cloth and seek help."
+    ],
+    "failure_signs": [
+      "Increasing swelling, severe pain, numbness, white/charred skin, fever, spreading redness, or trouble breathing."
+    ],
+    "when_not_to_use": [
+      "Do not manage at home when the burn is large, deep, chemical, electrical, on a critical body area, or linked to smoke inhalation."
+    ],
+    "short_term": "Stop heat, cool safely, cover loosely, and record danger signs.",
+    "long_term": "Plan dressing checks and infection watch; protect healing skin from dirt, sun, and friction.",
+    "if_method_fails": "If cooling water is scarce, use it first for burns with highest risk and move the person to a cool shaded area.",
+    "environment_notes": "Kitchen fires, generators, candles, wildfire ash, and hot metal surfaces are common disaster burn sources.",
+    "related_topics": [
+      "smoke_free_indoor_cooking_rule",
+      "wildfire_ember_watch"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pass93-0001",
+    "language": "English",
+    "title": "Red-flag medical triage notebook",
+    "category": "Medical · Dentistry · Birth care · Deepening",
+    "subcategory": "Medical · Triage · Records",
+    "summary": "A simple record system for deciding who needs urgent outside medical help first without pretending to diagnose.",
+    "content": "Red-flag medical triage notebook is a practical offline routine for medical triage records. Create one page per person with name, age, known conditions, medicines, allergies, and emergency contact. Record time, main complaint, breathing, consciousness, bleeding, pain location, temperature if available, fluids taken, urine, and changes. Mark red flags: severe breathing trouble, chest pressure, stroke signs, uncontrolled bleeding, confusion, seizure, severe dehydration, severe allergic reaction, or worsening after injury. Put red-flag people at the top of the help list and keep someone watching them until professional help is reached. Update the page every 30 to 60 minutes during active illness or injury, and every shift during stable waiting. Write only facts observed, not guesses or blame. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "context_dependent",
+    "priority": "high",
+    "tags": [
+      "bilingual",
+      "care",
+      "first_aid",
+      "medical",
+      "offline",
+      "pass93",
+      "records",
+      "triage",
+      "weak_area_deepening"
+    ],
+    "materials": [
+      "Notebook. Context: “Red-flag medical triage notebook”.",
+      "Pencil. Context: “Red-flag medical triage notebook”.",
+      "Clock. Context: “Red-flag medical triage notebook”.",
+      "Thermometer if available. Context: “Red-flag medical triage notebook”.",
+      "Phone or radio if available — for «Red-flag medical triage notebook»"
+    ],
+    "steps": [
+      "Create one page per person with name, age, known conditions, medicines, allergies, and emergency contact.",
+      "Record time, main complaint, breathing, consciousness, bleeding, pain location, temperature if available, fluids taken, urine, and changes.",
+      "Mark red flags: severe breathing trouble, chest pressure, stroke signs, uncontrolled bleeding, confusion, seizure, severe dehydration, severe allergic reaction, or worsening after injury.",
+      "Put red-flag people at the top of the help list and keep someone watching them until professional help is reached.",
+      "Update the page every 30 to 60 minutes during active illness or injury, and every shift during stable waiting.",
+      "Write only facts observed, not guesses or blame."
+    ],
+    "warnings": [
+      "This is not a diagnosis tool; call emergency services when red flags appear.",
+      "Do not delay evacuation, ambulance contact, poison control, or medical care because the notebook looks organized."
+    ],
+    "common_mistakes": [
+      "Writing only names without times.",
+      "Letting the loudest person receive attention before the most dangerous symptoms.",
+      "Using memory instead of written updates."
+    ],
+    "alternatives": [
+      "Use a wall chart if many people are affected.",
+      "Use numbered cards if names must be protected."
+    ],
+    "failure_signs": [
+      "No one knows when a symptom started.",
+      "Two helpers disagree about who is worse because there is no written record.",
+      "The same question is asked repeatedly while the person worsens."
+    ],
+    "when_not_to_use": [
+      "Do not keep writing instead of acting when someone cannot breathe, is unconscious, has heavy bleeding, or needs immediate rescue."
+    ],
+    "short_term": "Start with the sickest or most injured person and record only the facts needed to explain the situation to rescuers.",
+    "long_term": "Turn the notebook into a shift handover system so each helper can continue care without losing important details.",
+    "if_method_fails": "If records become chaotic, assign one calm recorder and one care lead; do not let everyone write on every page.",
+    "environment_notes": "Useful in shelters, apartments, schools, rural groups, and any place where professional help is delayed.",
+    "related_topics": [
+      "medication_continuity_bag",
+      "diarrhea_watch_and_hydration_record"
+    ],
+    "sources": [
+      "https://www.who.int/emergencies",
+      "https://www.redcross.org/take-a-class/first-aid"
+    ],
+    "last_updated": "2026-06-18"
+  }
+]
