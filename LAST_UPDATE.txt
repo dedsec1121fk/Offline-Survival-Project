@@ -1,6 +1,13 @@
-Offline Survival — Pass 103
+Offline Survival — Pass 104
 Date: 2026-06-21
 
-Expanded the project from 1,712 to 1,752 bilingual entries. Added 40 daily-operations cards covering first-five-minute command reset, night evacuation, apartment stairwell smoke, phone-battery triage, shared generator carbon-monoxide logging, sewer backup, water queues, greywater boundaries, trash disruption, laundry hygiene, food rationing with allergies, diabetes and asthma continuity, offline map correction, pet heat stress, cash envelopes, return-home inspection, volunteer fatigue, shelter conflict, manual access, island medicine delays, heat-work buddy checks, glass cleanup, shared radio listening, and bilingual shelter notices.
+Restored the complete English and Greek field-manual TXT exports so the repository contains the full readable manual files again, while preserving all Pass 103 content and keeping every individual repository file under GitHub's 40 MB limit.
 
-Updated urgent-helper choices, browser quick buttons, scenario-pack labels, documentation, validation reports, and compact search index. All prior Pass 102 knowledge was preserved. The full validation suite passes with zero duplicate topics, zero repeated core instructions, zero missing translations, zero English leakage in Greek fields, zero source-less entries, and zero files at or above 40 MB.
+Status:
+- Entries: 1752
+- JSON database files: 75
+- Categories: 182
+- Complete English export: 13.8 MB
+- Complete Greek export: 28.2 MB
+- Largest repository file: 28,174,037 bytes (Offline Survival Exports/COMPLETE_GREEK_FIELD_MANUAL_EXPORT.txt)
+- Files over 40 MB: 0

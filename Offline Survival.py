@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Offline Survival — Pass 103 practical daily-operations expansion and usability polish."""
+"""Offline Survival — Pass 104 complete exports restored, GitHub-safe repository package."""
 
 import hashlib
 import json
@@ -29,8 +29,8 @@ SEARCH_INDEX_FILE = os.path.join(BASE_DIR, "Offline Survival Search Index.sqlite
 WEB_HOST = "127.0.0.1"
 WEB_PORT_START = 8765
 WEB_PORT_END = 8775
-APP_VERSION = "103.0"
-RELEASE_NAME = "Pass 103"
+APP_VERSION = "104.0"
+RELEASE_NAME = "Pass 104"
 MAX_REPOSITORY_FILE_BYTES = 40_000_000
 BROWSE_PAGE_SIZE = 20
 
