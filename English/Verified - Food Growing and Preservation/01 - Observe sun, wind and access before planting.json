@@ -1,0 +1,74 @@
+[
+  {
+    "id": "verified-food-001",
+    "language": "English",
+    "title": "Observe sun, wind and access before planting",
+    "category": "Food growing · Planning",
+    "subcategory": "Observe sun, wind and access before planting",
+    "summary": "Map the growing area before spending seed or labour.",
+    "content": "Map the growing area before spending seed or labour.\n\nUse this as an offline field guide: verify the crop variety, local weather, water quality, soil history and product labels before acting. Complete the steps in order, record the result, and stop when contamination, an unidentified plant, uncontrolled disease or unsafe preservation conditions are suspected.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "planning",
+    "priority": "high",
+    "materials": [
+      "notebook or garden log",
+      "simple calendar",
+      "labels and permanent marker",
+      "measuring tape"
+    ],
+    "steps": [
+      "Observe the site at morning, midday and late afternoon; note direct sun, reflected heat and deep shade.",
+      "Mark strong-wind corridors, roof runoff, animal access, trip hazards and places that remain waterlogged.",
+      "Place frequently harvested crops near safe daily access and water.",
+      "Start with one small test bed or two containers and record results for two weeks.",
+      "Expand only where plants receive suitable light and drainage."
+    ],
+    "warnings": [
+      "Treat planting dates as local starting points, not guarantees; altitude, wind, shade and unusual weather can shift them.",
+      "Do not commit all seed, water or space to one crop or one sowing date."
+    ],
+    "common_mistakes": [
+      "Planting or processing the entire supply before a small trial.",
+      "Changing several variables at once, making failure impossible to diagnose.",
+      "Relying on appearance alone instead of labels, dates, measurements and records."
+    ],
+    "alternatives": [
+      "Reduce the operation to one test container or one small batch.",
+      "Use fresh produce immediately instead of attempting preservation when safe equipment or a tested method is unavailable."
+    ],
+    "failure_signs": [
+      "Continued wilting, rot, mould, abnormal odour, contamination evidence, uncontrolled pest spread or results that contradict the tested method."
+    ],
+    "when_not_to_use": [
+      "Do not use this guide to override an official recall, plant-health order, pesticide label, water restriction, food-safety notice or professional diagnosis."
+    ],
+    "short_term": "Protect the current crop or food batch, label the uncertainty, separate it from safe stock and record what happened.",
+    "long_term": "Build a seasonal log with varieties, water use, soil inputs, yields, pest observations, processing methods and losses.",
+    "if_method_fails": "Stop scaling up. Isolate the affected plants or food, return to a verified small trial and seek local agricultural or food-safety advice.",
+    "environment_notes": "Adapt for Mediterranean heat, local frost, wind exposure, water scarcity, balcony load limits and the actual microclimate.",
+    "related_topics": [
+      "garden planning",
+      "safe water for crops",
+      "soil and compost",
+      "integrated pest management",
+      "harvest and food preservation"
+    ],
+    "tags": [
+      "verified",
+      "food growing",
+      "garden",
+      "agriculture",
+      "food preservation",
+      "offline",
+      "Greece",
+      "Mediterranean",
+      "plan"
+    ],
+    "sources": [
+      "https://www.nal.usda.gov/plant-production-gardening/vegetable-gardening",
+      "https://www.fao.org/4/i1118e/i1118e07.htm",
+      "https://www.fao.org/4/a0218e/A0218E09.htm"
+    ],
+    "last_updated": "2026-07-26"
+  }
+]

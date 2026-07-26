@@ -1056,7 +1056,7 @@
     "category": "Community governance · Learning",
     "subcategory": "Community · Operations",
     "summary": "Practical guidance for “Basic hygiene teaching script” within “Community governance · Learning”. It supports safe collection, separation, treatment limits, storage, and conservation of water, produces a visible result, and states when to stop or move to a safer fallback.",
-    "content": "Practical guidance for “Basic hygiene teaching script” within “Community governance · Learning”. It supports safe collection, separation, treatment limits, storage, and conservation of water, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Basic hygiene teaching script” in “Community governance · Learning”.\n\nStop condition: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Basic hygiene teaching script” in “Community governance · Learning”.\n\nReduced fallback: If “Basic hygiene teaching script” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use a protected supply confirmed safe by the competent authority.",
+    "content": "Practical guidance for “Basic hygiene teaching script” within “Community governance · Learning”. It supports safe collection, separation, treatment limits, storage, and conservation of water, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Basic hygiene teaching script” in “Community governance · Learning”.\n\nStop condition: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Basic hygiene teaching script” in “Community governance · Learning”.\n\nReduced fallback: If “Basic hygiene teaching script” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use a protected supply confirmed safe by the competent authority.",
     "difficulty": "basic_to_moderate",
     "urgency": "varies_by_context",
     "priority": "high",
@@ -1087,12 +1087,12 @@
       "Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Include the outcome of “Basic hygiene teaching script” in the handover for “Community governance · Learning”."
     ],
     "warnings": [
-      "Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Basic hygiene teaching script” in “Community governance · Learning”.",
+      "Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Basic hygiene teaching script” in “Community governance · Learning”.",
       "Keep children, food, drinking water, wounds, and animals away from waste, sewage, sharps, and cleaning chemicals. Apply this boundary to “Basic hygiene teaching script” in “Community governance · Learning”."
     ],
     "common_mistakes": [
       "Skipping the opening control makes “Basic hygiene teaching script” unreliable: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. Apply this boundary to “Basic hygiene teaching script” in “Community governance · Learning”.",
-      "Treating the result as safe while ignoring this limit is a serious error: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Basic hygiene teaching script” in “Community governance · Learning”.",
+      "Treating the result as safe while ignoring this limit is a serious error: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Basic hygiene teaching script” in “Community governance · Learning”.",
       "Failing to document the final handover action leaves the next person without a trustworthy starting point: Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Apply this boundary to “Basic hygiene teaching script” in “Community governance · Learning”."
     ],
     "alternatives": [
@@ -1120,9 +1120,10 @@
     ],
     "sources": [
       "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/environmental-health-in-emergencies/technical-notes-on-wash-in-emergencies",
-      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html"
+      "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+      "https://www.cdc.gov/chemical-emergencies/index.html"
     ],
-    "last_updated": "2026-06-18"
+    "last_updated": "2026-07-26"
   },
   {
     "id": "pass83-136",

@@ -2,9 +2,9 @@
 
 # Offline Survival Project
 
-**Bilingual, fully offline emergency-preparedness knowledge base and terminal reader.**
+**Bilingual offline emergency-preparedness reference and terminal reader for English and Greek.**
 
-**Δίγλωσση, πλήρως εκτός σύνδεσης βάση γνώσεων προετοιμασίας και εφαρμογή ανάγνωσης τερματικού.**
+**Δίγλωσση βάση αναφοράς έκτακτης ανάγκης και εφαρμογή τερματικού, πλήρως εκτός σύνδεσης.**
 
 [English](#english) • [Ελληνικά](#ελληνικά)
 
@@ -14,35 +14,97 @@
 
 # English
 
-## Overview
+## What it is
 
-Offline Survival Project is a structured English and Greek reference for emergency preparation, immediate response, continuity, recovery, and long-term disruption. The repository includes two mirrored JSON databases and a dependency-free Python application that can search, find, browse, validate, and read the information entirely offline.
+Offline Survival Project is a dependency-free Python application with mirrored English and Greek JSON knowledge bases. It is designed for Termux on Android, Linux, Windows, macOS, offline storage, and devices kept as emergency references.
 
-It is designed for Termux on Android, Linux, Windows, macOS, GitHub browsing, offline storage, and devices kept as emergency references. After the project is downloaded, the knowledge base does not need an account, API key, server, or internet connection.
+After download, the application does not require an account, API key, server, analytics service, or internet connection.
+
+## Important correction
+
+The project now has **one Python script only**:
+
+```text
+Offline Survival.py
+```
+
+The former `main.py` and compatibility launcher were merged. The Greek database folder was also corrected from an encoded folder name to the real `Ελληνικά` name.
+
+## Current database
+
+Each language contains:
+
+- **2,378 records**
+- **703 JSON files**
+- **260 category folders**
+- **10 mirrored, manually reviewed emergency-essential cards**
+- **60 mirrored food-growing and safe-preservation guides**
+
+The complete project therefore contains **4,756 language-specific records** across the mirrored English and Greek databases.
 
 ## Main features
 
-- **Fully offline:** no sign-in, API key, server, tracking, or network connection.
-- **Bilingual database:** complete English and Greek record sets with matching IDs and mirrored file paths.
-- **Bilingual interface:** Settings switches both the application language and active database.
-- **Relevant search:** checks titles, categories, summaries, tags, IDs, and paths first, then searches every field when needed.
-- **Accent-insensitive matching:** Greek searches work with or without written accent marks.
-- **Category browser:** lists or filters all categories and keeps the current list open after reading a record.
-- **File finder:** searches JSON names, paths, titles, and all content stored in each file. Pressing Enter lists every file.
-- **Paged reader:** long records and raw JSON are split into readable pages instead of flooding a small terminal.
-- **Record-ID lookup:** accepts a complete or partial record ID.
-- **Random topic:** useful for study, practice, and discovering unfamiliar material.
-- **Built-in integrity check:** validates both databases and confirms that files and record IDs remain mirrored.
-- **No third-party packages:** only the Python standard library is used.
-- **Persistent local settings:** language, list size, and screen-clearing preference are saved outside the repository.
+- Fully offline operation
+- Complete English and Greek interface
+- Mirrored English and Greek database paths and record IDs
+- Accent-insensitive Greek search
+- Search across titles, summaries, categories, IDs, tags, paths, steps, warnings, sources, and all other fields
+- Category and file browser
+- Direct record-ID lookup
+- Random topic reader
+- Small-terminal pagination
+- Local settings with no activity logging
+- Dedicated **Verified emergency essentials** menu
+- Dedicated **Food growing and safe preservation** menu
+- Strong database and source validator
+- No third-party Python packages
+
+## Verified emergency essentials
+
+The dedicated menu contains concise cards for:
+
+1. Greece emergency calls and 112 alerts
+2. Household emergency planning and supply kits
+3. Earthquake immediate actions
+4. Flood-route and electrical safety
+5. Wildfire warning and evacuation readiness
+6. Emergency drinking-water safety
+7. Food safety during power outages
+8. Generator and carbon-monoxide safety
+9. Heat-illness recognition and escalation
+10. Poisoning response and the Greek Poison Centre
+
+These cards were cross-checked against current official guidance from Greek Civil Protection, the Greek Ministry of Health, CDC/NIOSH, and Ready.gov on **July 26, 2026**.
+
+## Food growing and safe preservation
+
+Menu option **7** opens 60 detailed, mirrored guides designed for household, balcony, container, raised-bed, and small-garden use. They are grouped into:
+
+- 7 planning and season-management guides
+- 7 soil, compost, mulch, salinity, and raised-bed guides
+- 9 container, irrigation, rainwater, wastewater, heat, balcony, and drought guides
+- 7 seed inventory, germination, propagation, seed-saving, and storage guides
+- 11 crop and pollination guides
+- 6 integrated pest and disease-management guides
+- 13 harvesting, cooling, freezing, drying, pickling, fermenting, canning, sprout-safety, and botulism guides
+
+The material emphasizes conservative small trials, reliable water, correct plant identity, clean tools, product-label compliance, and current tested food-preservation recipes. It does not present exact planting dates as universal: Mediterranean heat, altitude, frost, wind, shade, local restrictions, and the actual microclimate must be considered.
+
+The new collection was reviewed against official material from FAO, USDA/NAL/NRCS/ARS, EPA, WHO, CDC, Greece's Ministry of Rural Development and Food, and the National Center for Home Food Preservation. Important safety boundaries include:
+
+- Roof-collected rainwater is not automatically suitable for edible crops; verified safe water is preferred and local health guidance takes priority.
+- Untreated sewage, floodwater, and chemically contaminated water must not be improvised as irrigation water.
+- Raw sprouts carry a foodborne-illness risk; higher-risk people should choose thoroughly cooked sprouts or another cooked crop.
+- Low-acid vegetables require a current tested pressure-canning process, not boiling-water canning.
+- Pickling, fermenting, drying, freezing, and canning instructions must come from a current tested recipe for the exact product and method.
 
 ## Repository structure
 
 ```text
 Offline-Survival-Project-main/
-├── main.py                 # Recommended application launcher
-├── Offline Survival.py     # Compatibility launcher for the original name
+├── Offline Survival.py
 ├── README.md
+├── VALIDATION.md
 ├── English/
 │   └── Category folder/
 │       └── JSON knowledge files
@@ -51,18 +113,6 @@ Offline-Survival-Project-main/
         └── Matching Greek JSON knowledge files
 ```
 
-`main.py` is the primary launcher. `Offline Survival.py` remains available so older commands and shortcuts continue to work.
-
-## Database size and integrity
-
-Each language currently contains:
-
-- **2,308 records**
-- **642 JSON files**
-- **258 category folders**
-
-The English and Greek trees have matching relative paths, matching record counts, matching record IDs, and matching IDs inside each corresponding file. Every JSON file has been checked for valid syntax, required fields, empty required values, duplicate IDs, and duplicate titles.
-
 ## Quick start
 
 ### Termux
@@ -70,346 +120,285 @@ The English and Greek trees have matching relative paths, matching record counts
 ```bash
 pkg update -y && pkg install python -y
 cd ~/Offline-Survival-Project-main
-python main.py
+python "Offline Survival.py"
 ```
-
-If the folder is stored elsewhere, replace the `cd` path with its actual location.
 
 ### Linux or macOS
 
-Install Python 3.9 or newer, open a terminal in the extracted project folder, and run:
-
 ```bash
-python3 main.py
+python3 "Offline Survival.py"
 ```
 
 ### Windows
 
-Install Python 3.9 or newer, open Command Prompt or PowerShell in the extracted project folder, and run:
-
 ```powershell
-python main.py
-```
-
-The compatibility command also remains available:
-
-```bash
 python "Offline Survival.py"
 ```
 
-## Controls
+Python 3.9 or newer is recommended.
 
-- Enter a **number** to open a visible menu or list item.
-- Press **n** or **Enter** for the next page.
-- Press **p** for the previous page.
-- Enter **0** or **q** to go back or exit.
-- `next`, `previous`, `back`, and their supported Greek equivalents also work.
-- `Ctrl+C` exits safely from any input prompt.
+## Command-line validation
 
-List numbers always refer to the items currently visible on the screen. After a record is closed, the application returns to the same results page instead of discarding the search.
+Run the complete non-interactive validation:
+
+```bash
+python "Offline Survival.py" --check
+```
+
+The command prints a JSON report and returns:
+
+- Exit code `0` when every check passes
+- Exit code `2` when any database, parity, date, source, language, or type check fails
+
+Show only database totals:
+
+```bash
+python "Offline Survival.py" --stats
+```
+
+Show command help:
+
+```bash
+python "Offline Survival.py" --help
+```
 
 ## Main menu
 
-1. **Search the knowledge base** — searches the active language database.
-2. **Browse categories** — shows all categories or filters them using one or more words.
-3. **Find and read a JSON file** — locates files, browses their records, or reads raw JSON.
-4. **Open a record by ID** — finds complete, beginning, or partial ID matches.
-5. **Read a random topic** — opens a random record and optionally another one.
-6. **Settings** — changes language, results per page, or screen clearing.
-7. **Help and controls** — shows usage and safety information inside the application.
-8. **Check database integrity** — validates every JSON file in both languages.
-0. **Exit** — closes the application.
+1. Search the knowledge base
+2. Browse categories
+3. Find and read a JSON file
+4. Open a record by ID
+5. Read a random topic
+6. Verified emergency essentials
+7. Food growing and safe preservation
+8. Settings
+9. Help and controls
+10. Check database integrity
+0. Exit
 
-## Search behavior
+## Controls
 
-Search is case-insensitive and accent-insensitive. It first prioritizes matches in:
+- Enter a visible number to open an item.
+- Use `n` or Enter for the next page.
+- Use `p` for the previous page.
+- Use `0` or `q` to return.
+- `Ctrl+C` exits safely.
 
-- title
-- category and subcategory
-- summary
-- tags
-- record ID
-- file name and path
+## What the validator checks
 
-When the complete search phrase is not found in those high-relevance fields, the application searches all remaining fields, including full guidance, materials, steps, warnings, alternatives, failure signs, related topics, and sources.
+Every record in both languages is checked for:
+
+- Valid JSON syntax and list structure
+- Required fields and non-empty required values
+- Correct field data types
+- Unique record IDs and titles
+- Correct English or Greek language value
+- Valid ISO update dates that are not in the future
+- Non-empty source lists
+- Plain HTTPS source URLs
+- Sources restricted to approved official domains
+- Matching English and Greek file paths
+- Matching bilingual record IDs
+- Matching record IDs inside corresponding files
+
+The latest packaged version passes all checks with zero reported errors. Details and validation limits are documented in `VALIDATION.md`.
 
 ## Settings and privacy
 
-The application stores only local preferences in:
+Only these local preferences are stored:
 
 ```text
 ~/.offline_survival_project/settings.json
 ```
 
-The file is outside the repository. It contains only the selected language, results-per-page value, and screen-clearing preference. Searches, viewed records, and personal information are not logged, transmitted, or collected.
-
-To show the first-launch language screen again, delete that settings file and restart the application.
-
-## Knowledge coverage
-
-The databases include material related to:
-
-- immediate response and the first minutes of an emergency
-- earthquakes and structural safety
-- wildfire, fire, smoke, flood, storm, heat, cold, and air hazards
-- water collection, storage, treatment, quality, and distribution
-- food safety, cooking, preservation, rationing, and production
-- health continuity, medicine storage, first aid support, hygiene, and sanitation
-- shelter, ventilation, power, lighting, utilities, and outage planning
-- communication, radio routines, records, maps, and navigation
-- evacuation, transport, accessibility, children, and older adults
-- pets, livestock, agriculture, soil, seeds, and animal care
-- community coordination, welfare checks, fairness, morale, and conflict reduction
-- financial, document, and digital continuity
-- Greece-specific conditions, apartments, islands, ferries, and local emergencies
-- repair, cleanup, recovery, rebuilding, and long-term continuity
-
-## JSON record format
-
-A record contains structured fields such as:
-
-```text
-id
-language
-title
-category
-subcategory
-summary
-content
-difficulty
-urgency
-priority
-tags
-materials
-steps
-warnings
-common_mistakes
-alternatives
-failure_signs
-when_not_to_use
-short_term
-long_term
-if_method_fails
-environment_notes
-related_topics
-sources
-last_updated
-```
-
-The reader automatically handles text, lists, and structured JSON values.
-
-## Troubleshooting
-
-- **`python: command not found`** — install Python, or try `python3 main.py`.
-- **Language folder missing** — keep `main.py`, `English`, and `Ελληνικά` in the same project folder.
-- **Unreadable or crowded terminal** — reduce Results per list page or disable/enable screen clearing in Settings.
-- **Settings do not save** — confirm that the current user can write to their home directory.
-- **Damaged data suspected** — run option **8. Check database integrity** from the main menu.
+The file contains the selected language, results-per-page value, and screen-clearing preference. Searches, viewed records, personal details, and usage history are not collected or transmitted.
 
 ## Safety notice
 
-This project is an offline preparation and reference aid. It does not replace emergency services or qualified medical, engineering, electrical, utility, fire, police, coast guard, veterinary, agricultural, or civil-protection guidance.
+This project is a preparation and reference aid. It does not replace emergency services, official alerts, or qualified medical, engineering, electrical, utility, fire, police, coast-guard, veterinary, agricultural, or civil-protection guidance.
 
-During a real emergency, follow official instructions and use qualified assistance whenever it is available. Do not attempt a method when the situation, equipment, materials, environment, or your training makes it unsafe.
+For an immediate emergency in Greece or elsewhere in the European Union, call **112**. For suspected poisoning in Greece, the Ministry of Health lists the Poison Centre at **210 7793777**, operating 24 hours a day, 7 days a week.
+
+Follow live official instructions whenever they differ from stored offline material.
 
 ---
 
 # Ελληνικά
 
-## Επισκόπηση
+## Τι είναι
 
-Το Offline Survival Project είναι μια οργανωμένη πηγή αναφοράς στα Αγγλικά και στα Ελληνικά για προετοιμασία έκτακτης ανάγκης, άμεση αντίδραση, συνέχεια βασικών λειτουργιών, αποκατάσταση και μακροχρόνιες διακοπές. Το αποθετήριο περιλαμβάνει δύο κατοπτρισμένες βάσεις JSON και μια αυτόνομη εφαρμογή Python που αναζητά, εντοπίζει, περιηγείται, ελέγχει και διαβάζει τις πληροφορίες πλήρως εκτός σύνδεσης.
+Το Offline Survival Project είναι μια αυτόνομη εφαρμογή Python με κατοπτρισμένες βάσεις γνώσεων JSON στα Αγγλικά και στα Ελληνικά. Έχει σχεδιαστεί για Termux σε Android, Linux, Windows, macOS, αποθήκευση χωρίς σύνδεση και συσκευές που διατηρούνται ως πηγές αναφοράς έκτακτης ανάγκης.
 
-Έχει σχεδιαστεί για Termux σε Android, Linux, Windows, macOS, περιήγηση μέσω GitHub, αποθήκευση χωρίς σύνδεση και συσκευές που διατηρούνται ως πηγές αναφοράς έκτακτης ανάγκης. Μετά τη λήψη του έργου, η βάση γνώσεων δεν χρειάζεται λογαριασμό, κλειδί API, διακομιστή ή σύνδεση στο διαδίκτυο.
+Μετά τη λήψη δεν χρειάζεται λογαριασμό, κλειδί API, διακομιστή, analytics ή σύνδεση στο διαδίκτυο.
+
+## Σημαντική διόρθωση
+
+Το έργο έχει πλέον **μόνο ένα Python script**:
+
+```text
+Offline Survival.py
+```
+
+Το παλιό `main.py` και ο compatibility launcher ενώθηκαν. Διορθώθηκε επίσης ο κωδικοποιημένος φάκελος της ελληνικής βάσης στο πραγματικό όνομα `Ελληνικά`.
+
+## Τρέχουσα βάση
+
+Κάθε γλώσσα περιέχει:
+
+- **2.378 εγγραφές**
+- **703 αρχεία JSON**
+- **260 φακέλους κατηγοριών**
+- **10 κατοπτρισμένες και χειροκίνητα ελεγμένες κάρτες βασικών ενεργειών**
+- **60 κατοπτρισμένους οδηγούς καλλιέργειας και ασφαλούς διατήρησης τροφίμων**
+
+Συνολικά το έργο περιέχει **4.756 γλωσσικές εγγραφές** στις κατοπτρισμένες αγγλικές και ελληνικές βάσεις.
 
 ## Κύριες δυνατότητες
 
-- **Πλήρης λειτουργία εκτός σύνδεσης:** χωρίς σύνδεση χρήστη, κλειδί API, διακομιστή, παρακολούθηση ή δίκτυο.
-- **Δίγλωσση βάση δεδομένων:** πλήρη σύνολα εγγραφών στα Αγγλικά και στα Ελληνικά, με ίδια IDs και κατοπτρισμένες διαδρομές.
-- **Δίγλωσσο περιβάλλον:** οι Ρυθμίσεις αλλάζουν ταυτόχρονα τη γλώσσα της εφαρμογής και την ενεργή βάση.
-- **Σχετική αναζήτηση:** ελέγχει πρώτα τίτλους, κατηγορίες, συνόψεις, ετικέτες, IDs και διαδρομές και, όταν χρειάζεται, όλα τα πεδία.
-- **Αναζήτηση χωρίς εξάρτηση από τόνους:** οι ελληνικές αναζητήσεις λειτουργούν με ή χωρίς γραμμένους τόνους.
-- **Περιήγηση κατηγοριών:** εμφανίζει ή φιλτράρει όλες τις κατηγορίες και διατηρεί ανοιχτή την τρέχουσα λίστα μετά την ανάγνωση.
-- **Εύρεση αρχείων:** αναζητά ονόματα JSON, διαδρομές, τίτλους και όλο το περιεχόμενο κάθε αρχείου. Με Enter εμφανίζονται όλα τα αρχεία.
-- **Ανάγνωση σε σελίδες:** οι μεγάλες εγγραφές και το αρχικό JSON χωρίζονται σε αναγνώσιμες σελίδες αντί να γεμίζουν το τερματικό.
-- **Εύρεση με ID:** δέχεται ολόκληρο ή μέρος του ID μιας εγγραφής.
-- **Τυχαίο θέμα:** χρήσιμο για μελέτη, εξάσκηση και ανακάλυψη άγνωστου υλικού.
-- **Ενσωματωμένος έλεγχος ακεραιότητας:** ελέγχει και τις δύο βάσεις και επιβεβαιώνει ότι αρχεία και IDs παραμένουν κατοπτρισμένα.
-- **Χωρίς εξωτερικά πακέτα:** χρησιμοποιείται μόνο η τυπική βιβλιοθήκη της Python.
-- **Μόνιμες τοπικές ρυθμίσεις:** η γλώσσα, το μέγεθος λίστας και ο καθαρισμός οθόνης αποθηκεύονται έξω από το αποθετήριο.
+- Πλήρης λειτουργία εκτός σύνδεσης
+- Πλήρες αγγλικό και ελληνικό περιβάλλον
+- Κατοπτρισμένες διαδρομές και IDs
+- Ελληνική αναζήτηση με ή χωρίς τόνους
+- Αναζήτηση σε τίτλους, συνόψεις, κατηγορίες, IDs, ετικέτες, διαδρομές, βήματα, προειδοποιήσεις, πηγές και όλα τα υπόλοιπα πεδία
+- Περιήγηση κατηγοριών και αρχείων
+- Άμεση αναζήτηση με ID
+- Τυχαίο θέμα
+- Σελιδοποίηση για μικρές οθόνες τερματικού
+- Τοπικές ρυθμίσεις χωρίς καταγραφή δραστηριότητας
+- Ξεχωριστό μενού **Επαληθευμένα βασικά έκτακτης ανάγκης**
+- Ξεχωριστό μενού **Καλλιέργεια και ασφαλής διατήρηση τροφίμων**
+- Ενισχυμένος έλεγχος βάσης και πηγών
+- Χωρίς πακέτα τρίτων
 
-## Δομή αποθετηρίου
+## Επαληθευμένα βασικά έκτακτης ανάγκης
+
+Το ειδικό μενού περιλαμβάνει κάρτες για:
+
+1. Κλήσεις έκτακτης ανάγκης και ειδοποιήσεις 112
+2. Οικιακό σχέδιο και κιτ προετοιμασίας
+3. Άμεσες ενέργειες σε σεισμό
+4. Ασφάλεια διαδρομής και ηλεκτρισμού σε πλημμύρα
+5. Ετοιμότητα για δασική πυρκαγιά και εκκένωση
+6. Ασφάλεια πόσιμου νερού
+7. Ασφάλεια τροφίμων σε διακοπή ρεύματος
+8. Γεννήτριες και μονοξείδιο του άνθρακα
+9. Αναγνώριση θερμικής νόσου
+10. Δηλητηρίαση και Κέντρο Δηλητηριάσεων
+
+Οι κάρτες διασταυρώθηκαν με τρέχουσες επίσημες οδηγίες της Ελληνικής Πολιτικής Προστασίας, του Υπουργείου Υγείας, του CDC/NIOSH και του Ready.gov στις **26 Ιουλίου 2026**.
+
+## Καλλιέργεια και ασφαλής διατήρηση τροφίμων
+
+Η επιλογή **7** ανοίγει 60 αναλυτικούς και κατοπτρισμένους οδηγούς για οικιακή καλλιέργεια, μπαλκόνια, δοχεία, υπερυψωμένα παρτέρια και μικρούς κήπους. Περιλαμβάνονται:
+
+- 7 οδηγοί σχεδιασμού και εποχών
+- 7 οδηγοί εδάφους, κομπόστ, εδαφοκάλυψης, αλατότητας και υπερυψωμένων παρτεριών
+- 9 οδηγοί δοχείων, άρδευσης, βρόχινου νερού, λυμάτων, ζέστης, μπαλκονιού και ξηρασίας
+- 7 οδηγοί αποθέματος σπόρων, βλάστησης, πολλαπλασιασμού, διατήρησης και αποθήκευσης σπόρων
+- 11 οδηγοί καλλιεργειών και επικονίασης
+- 6 οδηγοί ολοκληρωμένης φυτοπροστασίας
+- 13 οδηγοί συγκομιδής, ψύξης, κατάψυξης, ξήρανσης, τουρσιών, ζύμωσης, κονσερβοποίησης, ασφάλειας φύτρων και αλλαντίασης
+
+Το υλικό δίνει έμφαση σε μικρές ελεγχόμενες δοκιμές, αξιόπιστο νερό, σωστή αναγνώριση φυτών, καθαρά εργαλεία, τήρηση ετικετών και σύγχρονες δοκιμασμένες συνταγές διατήρησης. Δεν παρουσιάζει ακριβείς ημερομηνίες φύτευσης ως καθολικές: πρέπει να λαμβάνονται υπόψη μεσογειακή ζέστη, υψόμετρο, παγετός, άνεμος, σκιά, τοπικοί περιορισμοί και πραγματικό μικροκλίμα.
+
+Η νέα συλλογή ελέγχθηκε με επίσημο υλικό από FAO, USDA/NAL/NRCS/ARS, EPA, WHO, CDC, το ελληνικό Υπουργείο Αγροτικής Ανάπτυξης και Τροφίμων και το National Center for Home Food Preservation. Βασικά όρια ασφάλειας:
+
+- Το βρόχινο νερό στέγης δεν είναι αυτόματα κατάλληλο για βρώσιμες καλλιέργειες· προτιμάται επαληθευμένα ασφαλές νερό και υπερισχύουν οι τοπικές υγειονομικές οδηγίες.
+- Ανεπεξέργαστα λύματα, νερά πλημμύρας και χημικά μολυσμένο νερό δεν χρησιμοποιούνται αυτοσχέδια για άρδευση.
+- Τα ωμά φύτρα έχουν κίνδυνο τροφιμογενούς νόσου· άτομα υψηλότερου κινδύνου πρέπει να προτιμούν καλά μαγειρεμένα φύτρα ή άλλη μαγειρεμένη καλλιέργεια.
+- Τα λαχανικά χαμηλής οξύτητας απαιτούν σύγχρονη δοκιμασμένη κονσερβοποίηση υπό πίεση, όχι επεξεργασία μόνο σε βραστό νερό.
+- Τουρσιά, ζύμωση, ξήρανση, κατάψυξη και κονσερβοποίηση πρέπει να βασίζονται σε σύγχρονη δοκιμασμένη συνταγή για το ακριβές προϊόν και τη συγκεκριμένη μέθοδο.
+
+## Δομή
 
 ```text
 Offline-Survival-Project-main/
-├── main.py                 # Προτεινόμενο κύριο αρχείο εκκίνησης
-├── Offline Survival.py     # Συμβατότητα με το αρχικό όνομα
+├── Offline Survival.py
 ├── README.md
+├── VALIDATION.md
 ├── English/
 │   └── Φάκελος κατηγορίας/
 │       └── Αρχεία γνώσεων JSON
 └── Ελληνικά/
     └── Αντίστοιχος φάκελος κατηγορίας/
-        └── Αντίστοιχα ελληνικά αρχεία JSON
+        └── Αντίστοιχα ελληνικά JSON
 ```
 
-Το `main.py` είναι το κύριο αρχείο εκκίνησης. Το `Offline Survival.py` παραμένει διαθέσιμο ώστε παλιότερες εντολές και συντομεύσεις να συνεχίσουν να λειτουργούν.
-
-## Μέγεθος και ακεραιότητα βάσης
-
-Κάθε γλώσσα περιλαμβάνει αυτή τη στιγμή:
-
-- **2.308 εγγραφές**
-- **642 αρχεία JSON**
-- **258 φακέλους κατηγοριών**
-
-Οι αγγλικές και ελληνικές δομές έχουν ίδιες σχετικές διαδρομές, ίδιο αριθμό εγγραφών, ίδια IDs και ίδια IDs μέσα σε κάθε αντίστοιχο αρχείο. Όλα τα JSON έχουν ελεγχθεί για έγκυρη σύνταξη, υποχρεωτικά πεδία, κενές υποχρεωτικές τιμές, διπλότυπα IDs και διπλότυπους τίτλους.
-
-## Γρήγορη εκκίνηση
-
-### Termux
+## Γρήγορη εκκίνηση στο Termux
 
 ```bash
 pkg update -y && pkg install python -y
 cd ~/Offline-Survival-Project-main
-python main.py
-```
-
-Αν ο φάκελος βρίσκεται αλλού, αντικατάστησε τη διαδρομή της εντολής `cd` με την πραγματική του θέση.
-
-### Linux ή macOS
-
-Εγκατέστησε Python 3.9 ή νεότερη, άνοιξε τερματικό μέσα στον αποσυμπιεσμένο φάκελο του έργου και εκτέλεσε:
-
-```bash
-python3 main.py
-```
-
-### Windows
-
-Εγκατέστησε Python 3.9 ή νεότερη, άνοιξε Command Prompt ή PowerShell μέσα στον αποσυμπιεσμένο φάκελο και εκτέλεσε:
-
-```powershell
-python main.py
-```
-
-Παραμένει διαθέσιμη και η εντολή συμβατότητας:
-
-```bash
 python "Offline Survival.py"
 ```
 
-## Χειρισμός
+## Έλεγχος από τη γραμμή εντολών
 
-- Γράψε έναν **αριθμό** για να ανοίξεις μια ορατή επιλογή μενού ή λίστας.
-- Πάτησε **n** ή **Enter** για την επόμενη σελίδα.
-- Πάτησε **p** για την προηγούμενη σελίδα.
-- Γράψε **0** ή **q** για επιστροφή ή έξοδο.
-- Λειτουργούν επίσης τα `next`, `previous`, `back` και οι υποστηριζόμενες ελληνικές ισοδύναμες εντολές.
-- Το `Ctrl+C` κλείνει με ασφάλεια από οποιοδήποτε πεδίο εισαγωγής.
+Πλήρης μη διαδραστικός έλεγχος:
 
-Οι αριθμοί λίστας αντιστοιχούν πάντα στα στοιχεία που φαίνονται εκείνη τη στιγμή στην οθόνη. Μετά το κλείσιμο μιας εγγραφής, η εφαρμογή επιστρέφει στην ίδια σελίδα αποτελεσμάτων αντί να διαγράφει την αναζήτηση.
+```bash
+python "Offline Survival.py" --check
+```
+
+Σύνολα βάσης:
+
+```bash
+python "Offline Survival.py" --stats
+```
+
+Βοήθεια:
+
+```bash
+python "Offline Survival.py" --help
+```
 
 ## Κεντρικό μενού
 
-1. **Αναζήτηση στη βάση γνώσεων** — αναζητά στην ενεργή γλωσσική βάση.
-2. **Περιήγηση στις κατηγορίες** — εμφανίζει όλες τις κατηγορίες ή τις φιλτράρει με λέξεις.
-3. **Εύρεση και ανάγνωση αρχείου JSON** — εντοπίζει αρχεία, εμφανίζει εγγραφές ή διαβάζει το αρχικό JSON.
-4. **Άνοιγμα εγγραφής με ID** — βρίσκει πλήρεις, αρχικές ή μερικές αντιστοιχίες ID.
-5. **Ανάγνωση τυχαίου θέματος** — ανοίγει τυχαία εγγραφή και προαιρετικά άλλη μία.
-6. **Ρυθμίσεις** — αλλάζει γλώσσα, αποτελέσματα ανά σελίδα ή καθαρισμό οθόνης.
-7. **Βοήθεια και χειρισμός** — εμφανίζει πληροφορίες χρήσης και ασφάλειας.
-8. **Έλεγχος ακεραιότητας βάσης** — ελέγχει κάθε αρχείο JSON και στις δύο γλώσσες.
-0. **Έξοδος** — κλείνει την εφαρμογή.
+1. Αναζήτηση στη βάση γνώσεων
+2. Περιήγηση κατηγοριών
+3. Εύρεση και ανάγνωση JSON
+4. Άνοιγμα εγγραφής με ID
+5. Τυχαίο θέμα
+6. Επαληθευμένα βασικά έκτακτης ανάγκης
+7. Καλλιέργεια και ασφαλής διατήρηση τροφίμων
+8. Ρυθμίσεις
+9. Βοήθεια και χειρισμός
+10. Έλεγχος ακεραιότητας
+0. Έξοδος
 
-## Λειτουργία αναζήτησης
+## Τι ελέγχει ο validator
 
-Η αναζήτηση δεν επηρεάζεται από πεζά ή κεφαλαία και δεν απαιτεί τόνους. Δίνει πρώτα προτεραιότητα σε αντιστοιχίες στα εξής:
+Κάθε εγγραφή και στις δύο γλώσσες ελέγχεται για:
 
-- τίτλος
-- κατηγορία και υποκατηγορία
-- σύνοψη
-- ετικέτες
-- ID εγγραφής
-- όνομα και διαδρομή αρχείου
+- Έγκυρη σύνταξη JSON
+- Υποχρεωτικά και μη κενά πεδία
+- Σωστούς τύπους δεδομένων
+- Μοναδικά IDs και τίτλους
+- Σωστή τιμή γλώσσας
+- Έγκυρες ημερομηνίες ISO που δεν βρίσκονται στο μέλλον
+- Μη κενές λίστες πηγών
+- Καθαρά HTTPS URLs
+- Πηγές μόνο από εγκεκριμένους επίσημους τομείς
+- Ίδιες αγγλικές και ελληνικές διαδρομές
+- Ίδια IDs στις δύο γλώσσες
+- Ίδια IDs μέσα στα αντίστοιχα αρχεία
 
-Όταν η πλήρης φράση δεν υπάρχει σε αυτά τα πεδία υψηλής σχετικότητας, η εφαρμογή ελέγχει όλα τα υπόλοιπα πεδία, όπως πλήρεις οδηγίες, υλικά, βήματα, προειδοποιήσεις, εναλλακτικές, ενδείξεις αποτυχίας, σχετικά θέματα και πηγές.
+Η τελευταία συσκευασμένη έκδοση περνά όλους τους ελέγχους χωρίς αναφερόμενο σφάλμα. Οι λεπτομέρειες και τα όρια του ελέγχου βρίσκονται στο `VALIDATION.md`.
 
 ## Ρυθμίσεις και ιδιωτικότητα
 
-Η εφαρμογή αποθηκεύει μόνο τοπικές προτιμήσεις στη διαδρομή:
+Αποθηκεύονται μόνο τοπικές προτιμήσεις στο:
 
 ```text
 ~/.offline_survival_project/settings.json
 ```
 
-Το αρχείο βρίσκεται έξω από το αποθετήριο. Περιέχει μόνο την επιλεγμένη γλώσσα, τον αριθμό αποτελεσμάτων ανά σελίδα και την προτίμηση καθαρισμού οθόνης. Οι αναζητήσεις, οι εγγραφές που διαβάζονται και τα προσωπικά δεδομένα δεν καταγράφονται, δεν αποστέλλονται και δεν συλλέγονται.
-
-Για να εμφανιστεί ξανά η επιλογή γλώσσας πρώτης εκκίνησης, διέγραψε αυτό το αρχείο ρυθμίσεων και επανεκκίνησε την εφαρμογή.
-
-## Θεματολογία γνώσεων
-
-Οι βάσεις περιλαμβάνουν υλικό σχετικό με:
-
-- άμεση αντίδραση και τα πρώτα λεπτά μιας έκτακτης ανάγκης
-- σεισμούς και δομική ασφάλεια
-- δασικές πυρκαγιές, φωτιά, καπνό, πλημμύρες, καταιγίδες, ζέστη, κρύο και κινδύνους αέρα
-- συλλογή, αποθήκευση, επεξεργασία, ποιότητα και διανομή νερού
-- ασφάλεια τροφίμων, μαγείρεμα, συντήρηση, δελτίο και παραγωγή
-- συνέχεια υγειονομικής φροντίδας, αποθήκευση φαρμάκων, υποστήριξη πρώτων βοηθειών, υγιεινή και αποχέτευση
-- καταφύγιο, αερισμό, ενέργεια, φωτισμό, βασικά δίκτυα και σχεδιασμό διακοπών
-- επικοινωνία, ραδιοφωνικές ρουτίνες, αρχεία, χάρτες και πλοήγηση
-- εκκένωση, μεταφορά, προσβασιμότητα, παιδιά και ηλικιωμένους
-- κατοικίδια, κτηνοτροφία, γεωργία, χώμα, σπόρους και φροντίδα ζώων
-- συντονισμό κοινότητας, ελέγχους ευημερίας, δικαιοσύνη, ηθικό και μείωση συγκρούσεων
-- οικονομική, εγγράφων και ψηφιακή συνέχεια
-- ειδικές συνθήκες της Ελλάδας, πολυκατοικίες, νησιά, πλοία και τοπικές έκτακτες ανάγκες
-- επισκευή, καθαρισμό, αποκατάσταση, ανασυγκρότηση και μακροχρόνια συνέχεια
-
-## Μορφή εγγραφής JSON
-
-Μια εγγραφή περιλαμβάνει οργανωμένα πεδία όπως:
-
-```text
-id
-language
-title
-category
-subcategory
-summary
-content
-difficulty
-urgency
-priority
-tags
-materials
-steps
-warnings
-common_mistakes
-alternatives
-failure_signs
-when_not_to_use
-short_term
-long_term
-if_method_fails
-environment_notes
-related_topics
-sources
-last_updated
-```
-
-Η εφαρμογή ανάγνωσης διαχειρίζεται αυτόματα κείμενο, λίστες και οργανωμένες τιμές JSON.
-
-## Αντιμετώπιση προβλημάτων
-
-- **`python: command not found`** — εγκατέστησε Python ή δοκίμασε `python3 main.py`.
-- **Λείπει φάκελος γλώσσας** — κράτησε τα `main.py`, `English` και `Ελληνικά` στον ίδιο φάκελο έργου.
-- **Δυσανάγνωστο ή γεμάτο τερματικό** — μείωσε τα αποτελέσματα ανά σελίδα ή άλλαξε τον καθαρισμό οθόνης στις Ρυθμίσεις.
-- **Οι ρυθμίσεις δεν αποθηκεύονται** — επιβεβαίωσε ότι ο τρέχων χρήστης μπορεί να γράψει στον προσωπικό του φάκελο.
-- **Υποψία κατεστραμμένων δεδομένων** — εκτέλεσε την επιλογή **8. Έλεγχος ακεραιότητας βάσης**.
+Δεν καταγράφονται ή μεταδίδονται αναζητήσεις, αναγνωσμένες εγγραφές, προσωπικά στοιχεία ή ιστορικό χρήσης.
 
 ## Σημείωση ασφάλειας
 
-Το έργο αποτελεί βοήθημα προετοιμασίας και αναφοράς εκτός σύνδεσης. Δεν αντικαθιστά τις υπηρεσίες έκτακτης ανάγκης ούτε την καθοδήγηση αρμόδιων επαγγελματιών υγείας, μηχανικών, ηλεκτρολόγων, τεχνικών δικτύων, πυροσβεστικής, αστυνομίας, λιμενικού, κτηνιάτρων, γεωπόνων ή πολιτικής προστασίας.
+Το έργο είναι βοήθημα προετοιμασίας και αναφοράς. Δεν αντικαθιστά υπηρεσίες έκτακτης ανάγκης, ζωντανές επίσημες ειδοποιήσεις ή εξειδικευμένη ιατρική, τεχνική και επιχειρησιακή καθοδήγηση.
 
-Σε πραγματική κατάσταση έκτακτης ανάγκης, ακολούθησε τις επίσημες οδηγίες και χρησιμοποίησε ειδικευμένη βοήθεια όταν είναι διαθέσιμη. Μην επιχειρείς μια μέθοδο όταν η κατάσταση, ο εξοπλισμός, τα υλικά, το περιβάλλον ή η εκπαίδευσή σου δεν την καθιστούν ασφαλή.
+Για άμεση έκτακτη ανάγκη στην Ελλάδα ή στην Ευρωπαϊκή Ένωση κάλεσε **112**. Για πιθανή δηλητηρίαση στην Ελλάδα, το Υπουργείο Υγείας αναφέρει το Κέντρο Δηλητηριάσεων στο **210 7793777**, με λειτουργία 24 ώρες το 24ωρο, 7 ημέρες την εβδομάδα.
+
+Όταν οι ζωντανές επίσημες οδηγίες διαφέρουν από το αποθηκευμένο υλικό, ακολούθησε τις επίσημες οδηγίες.

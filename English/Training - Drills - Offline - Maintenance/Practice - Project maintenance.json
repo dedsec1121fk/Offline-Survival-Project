@@ -696,7 +696,7 @@
     "category": "Training · Drills · Offline · Maintenance",
     "subcategory": "Practice · Project maintenance",
     "summary": "Practical guidance for “Duplicate topic cleanup” within “Training · Drills · Offline · Maintenance”. It supports clear responsibilities, verified information, visible records, fair priorities, stop conditions, and a workable handover, produces a visible result, and states when to stop or move to a safer fallback.",
-    "content": "Practical guidance for “Duplicate topic cleanup” within “Training · Drills · Offline · Maintenance”. It supports clear responsibilities, verified information, visible records, fair priorities, stop conditions, and a workable handover, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”.\n\nStop condition: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”.\n\nReduced fallback: If “Duplicate topic cleanup” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use a smaller documented task with one owner, one deadline, and one independent check.",
+    "content": "Practical guidance for “Duplicate topic cleanup” within “Training · Drills · Offline · Maintenance”. It supports clear responsibilities, verified information, visible records, fair priorities, stop conditions, and a workable handover, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”.\n\nStop condition: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”.\n\nReduced fallback: If “Duplicate topic cleanup” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use a smaller documented task with one owner, one deadline, and one independent check.",
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
@@ -731,12 +731,12 @@
       "Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Include the outcome of “Duplicate topic cleanup” in the handover for “Training · Drills · Offline · Maintenance”."
     ],
     "warnings": [
-      "Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”.",
+      "Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”.",
       "Keep children, food, drinking water, wounds, and animals away from waste, sewage, sharps, and cleaning chemicals. Apply this boundary to “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”."
     ],
     "common_mistakes": [
       "Skipping the opening control makes “Duplicate topic cleanup” unreliable: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. Apply this boundary to “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”.",
-      "Treating the result as safe while ignoring this limit is a serious error: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”.",
+      "Treating the result as safe while ignoring this limit is a serious error: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”.",
       "Failing to document the final handover action leaves the next person without a trustworthy starting point: Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Apply this boundary to “Duplicate topic cleanup” in “Training · Drills · Offline · Maintenance”."
     ],
     "alternatives": [
@@ -762,9 +762,10 @@
     ],
     "sources": [
       "https://civilprotection.gov.gr/en/odigies-prostasias",
-      "https://www.ready.gov/plan"
+      "https://www.ready.gov/plan",
+      "https://www.cdc.gov/chemical-emergencies/index.html"
     ],
-    "last_updated": "2026-06-18"
+    "last_updated": "2026-07-26"
   },
   {
     "id": "pass84-training-drills-offline-maintenance-011",

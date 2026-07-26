@@ -1,0 +1,74 @@
+[
+  {
+    "id": "verified-food-034",
+    "language": "English",
+    "title": "Weekly crop scouting routine",
+    "category": "Food growing · Pest and disease control",
+    "subcategory": "Weekly crop scouting routine",
+    "summary": "Find small problems before they become crop-wide failures.",
+    "content": "Find small problems before they become crop-wide failures.\n\nUse this as an offline field guide: verify the crop variety, local weather, water quality, soil history and product labels before acting. Complete the steps in order, record the result, and stop when contamination, an unidentified plant, uncontrolled disease or unsafe preservation conditions are suspected.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "planning",
+    "priority": "high",
+    "materials": [
+      "hand lens if available",
+      "inspection notes",
+      "clean pruners",
+      "physical barriers",
+      "product label when a product is used"
+    ],
+    "steps": [
+      "Inspect the same route at least weekly and more often during rapid growth or outbreaks.",
+      "Check new growth, leaf undersides, stems, soil line, flowers and fruit.",
+      "Record affected crop, exact location, pattern, weather and number of plants.",
+      "Photograph or isolate a sample for identification before choosing treatment.",
+      "Recheck after any action and stop ineffective treatment rather than repeating it blindly."
+    ],
+    "warnings": [
+      "Identify the problem before treating it; nutrient stress, heat and watering errors can resemble pest or disease damage.",
+      "Use pesticides only when legal and necessary, exactly according to the label, including crop, dose, protective equipment and pre-harvest interval."
+    ],
+    "common_mistakes": [
+      "Planting or processing the entire supply before a small trial.",
+      "Changing several variables at once, making failure impossible to diagnose.",
+      "Relying on appearance alone instead of labels, dates, measurements and records."
+    ],
+    "alternatives": [
+      "Reduce the operation to one test container or one small batch.",
+      "Use fresh produce immediately instead of attempting preservation when safe equipment or a tested method is unavailable."
+    ],
+    "failure_signs": [
+      "Continued wilting, rot, mould, abnormal odour, contamination evidence, uncontrolled pest spread or results that contradict the tested method."
+    ],
+    "when_not_to_use": [
+      "Do not use this guide to override an official recall, plant-health order, pesticide label, water restriction, food-safety notice or professional diagnosis."
+    ],
+    "short_term": "Protect the current crop or food batch, label the uncertainty, separate it from safe stock and record what happened.",
+    "long_term": "Build a seasonal log with varieties, water use, soil inputs, yields, pest observations, processing methods and losses.",
+    "if_method_fails": "Stop scaling up. Isolate the affected plants or food, return to a verified small trial and seek local agricultural or food-safety advice.",
+    "environment_notes": "Adapt for Mediterranean heat, local frost, wind exposure, water scarcity, balcony load limits and the actual microclimate.",
+    "related_topics": [
+      "garden planning",
+      "safe water for crops",
+      "soil and compost",
+      "integrated pest management",
+      "harvest and food preservation"
+    ],
+    "tags": [
+      "verified",
+      "food growing",
+      "garden",
+      "agriculture",
+      "food preservation",
+      "offline",
+      "Greece",
+      "Mediterranean",
+      "pest"
+    ],
+    "sources": [
+      "https://www.fao.org/agriculture/crops/thematic-sitemap/theme/spi/scpi-home/managing-ecosystems/integrated-pest-management",
+      "https://www.minagric.gr/for-farmer-2/crop-production/fytoprostasiamenu/fytoygeia"
+    ],
+    "last_updated": "2026-07-26"
+  }
+]

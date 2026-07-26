@@ -1,0 +1,69 @@
+[
+  {
+    "id": "verified-food-052",
+    "language": "English",
+    "title": "Collect rainwater for garden irrigation",
+    "category": "Food growing · Containers and water",
+    "subcategory": "Collect rainwater for garden irrigation",
+    "summary": "Treat roof runoff as non-potable water; prefer verified safe water for edible crops and follow current local health guidance.",
+    "content": "Treat roof runoff as non-potable water; prefer verified safe water for edible crops and follow current local health guidance. Use the steps as a conservative offline checklist, then follow current local rules, official alerts, product labels and competent agricultural or food-safety advice.",
+    "difficulty": "basic_to_moderate",
+    "urgency": "planning",
+    "priority": "high",
+    "materials": [
+      "notebook and permanent labels",
+      "clean dedicated containers or tools appropriate to the task",
+      "current local guidance when available"
+    ],
+    "steps": [
+      "Check local rules, roof materials, gutters and the previous use of every tank or barrel before collection.",
+      "Fit a secure cover and screened openings so children, animals, debris and mosquitoes cannot enter.",
+      "Divert the dirtiest initial roof runoff where practical and keep fuel, pesticide, lead-painted or chemically treated surfaces out of the collection path.",
+      "Prefer public-system or otherwise verified safe water for edible crops. If current local guidance permits collected rainwater, apply it at soil level and avoid splashing edible parts.",
+      "Inspect after storms for odour, algae, sediment, leaks and mosquito breeding; clean and isolate questionable water."
+    ],
+    "warnings": [
+      "Rainwater is not automatically safe. CDC advises using public-system tap water or bottled water, when possible, for watering plants you plan to eat.",
+      "Never connect a rain barrel directly to drinking-water plumbing or allow backflow into it."
+    ],
+    "common_mistakes": [
+      "Scaling up before a small controlled trial.",
+      "Using an unidentified material, water source, seed lot or crop.",
+      "Ignoring weather, local rules, product labels or signs of contamination."
+    ],
+    "alternatives": [
+      "Reduce the plan to one small test batch or container.",
+      "Use a safer established water, seed, crop or food method when any critical condition is uncertain."
+    ],
+    "failure_signs": [
+      "Unexpected odour, slime, mould, contamination, structural movement, uncontrolled pests, crop collapse or results that contradict the verified method."
+    ],
+    "when_not_to_use": [
+      "Do not use this guide to override an emergency order, food recall, pesticide label, building restriction, water restriction or professional diagnosis."
+    ],
+    "short_term": "Protect people, drinking water and uncontaminated food first; isolate the uncertain material and record what happened.",
+    "long_term": "Keep a seasonal record of materials, varieties, water, weather, yields, losses and corrections.",
+    "if_method_fails": "Stop scaling up, isolate the problem and return to a verified small trial or qualified local advice.",
+    "environment_notes": "Adapt for Mediterranean heat, wind, drought, local frost, balcony exposure and the actual microclimate.",
+    "related_topics": [
+      "garden planning",
+      "safe irrigation water",
+      "seed security",
+      "integrated pest management",
+      "safe food preservation"
+    ],
+    "tags": [
+      "verified",
+      "food growing",
+      "garden",
+      "Mediterranean",
+      "offline",
+      "collect rainwater for garden irrigation"
+    ],
+    "sources": [
+      "https://www.epa.gov/soakuptherain/soak-rain-rain-barrels",
+      "https://www.cdc.gov/drinking-water/about/collecting-rainwater-and-your-health-an-overview.html"
+    ],
+    "last_updated": "2026-07-26"
+  }
+]

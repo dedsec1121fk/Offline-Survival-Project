@@ -6,7 +6,7 @@
     "category": "Medicine · Sanitation · Public health",
     "subcategory": "Non · Diagnostic · Health",
     "summary": "Practical guidance for “Health note: symptom start and change record” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.",
-    "content": "Practical guidance for “Health note: symptom start and change record” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: symptom start and change record” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
+    "content": "Practical guidance for “Health note: symptom start and change record” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: symptom start and change record” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
@@ -36,12 +36,12 @@
       "Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Include the outcome of “Health note: symptom start and change record” in the handover for “Medicine · Sanitation · Public health”."
     ],
     "warnings": [
-      "Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”.",
+      "Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”.",
       "Keep children, food, drinking water, wounds, and animals away from waste, sewage, sharps, and cleaning chemicals. Apply this boundary to “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”."
     ],
     "common_mistakes": [
       "Skipping the opening control makes “Health note: symptom start and change record” unreliable: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. Apply this boundary to “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”.",
-      "Treating the result as safe while ignoring this limit is a serious error: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”.",
+      "Treating the result as safe while ignoring this limit is a serious error: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”.",
       "Failing to document the final handover action leaves the next person without a trustworthy starting point: Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Apply this boundary to “Health note: symptom start and change record” in “Medicine · Sanitation · Public health”."
     ],
     "alternatives": [
@@ -67,9 +67,10 @@
     ],
     "sources": [
       "https://www.who.int/emergencies",
-      "https://www.redcross.org/take-a-class/first-aid"
+      "https://www.redcross.org/take-a-class/first-aid",
+      "https://www.cdc.gov/chemical-emergencies/index.html"
     ],
-    "last_updated": "2026-06-18"
+    "last_updated": "2026-07-26"
   },
   {
     "id": "pass86-080",
@@ -78,7 +79,7 @@
     "category": "Medicine · Sanitation · Public health",
     "subcategory": "Non · Diagnostic · Health",
     "summary": "Practical guidance for “Health note: medicines allergies and dose record” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.",
-    "content": "Practical guidance for “Health note: medicines allergies and dose record” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: medicines allergies and dose record” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
+    "content": "Practical guidance for “Health note: medicines allergies and dose record” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: medicines allergies and dose record” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
@@ -108,12 +109,12 @@
       "Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Include the outcome of “Health note: medicines allergies and dose record” in the handover for “Medicine · Sanitation · Public health”."
     ],
     "warnings": [
-      "Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”.",
+      "Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”.",
       "Keep children, food, drinking water, wounds, and animals away from waste, sewage, sharps, and cleaning chemicals. Apply this boundary to “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”."
     ],
     "common_mistakes": [
       "Skipping the opening control makes “Health note: medicines allergies and dose record” unreliable: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. Apply this boundary to “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”.",
-      "Treating the result as safe while ignoring this limit is a serious error: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”.",
+      "Treating the result as safe while ignoring this limit is a serious error: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”.",
       "Failing to document the final handover action leaves the next person without a trustworthy starting point: Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Apply this boundary to “Health note: medicines allergies and dose record” in “Medicine · Sanitation · Public health”."
     ],
     "alternatives": [
@@ -139,9 +140,10 @@
     ],
     "sources": [
       "https://www.who.int/emergencies",
-      "https://www.redcross.org/take-a-class/first-aid"
+      "https://www.redcross.org/take-a-class/first-aid",
+      "https://www.cdc.gov/chemical-emergencies/index.html"
     ],
-    "last_updated": "2026-06-18"
+    "last_updated": "2026-07-26"
   },
   {
     "id": "pass86-086",
@@ -150,7 +152,7 @@
     "category": "Medicine · Sanitation · Public health",
     "subcategory": "Non · Diagnostic · Health",
     "summary": "Practical guidance for “Health note: hydration intake and output record” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.",
-    "content": "Practical guidance for “Health note: hydration intake and output record” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: hydration intake and output record” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
+    "content": "Practical guidance for “Health note: hydration intake and output record” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: hydration intake and output record” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
@@ -180,12 +182,12 @@
       "Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Include the outcome of “Health note: hydration intake and output record” in the handover for “Medicine · Sanitation · Public health”."
     ],
     "warnings": [
-      "Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”.",
+      "Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”.",
       "Keep children, food, drinking water, wounds, and animals away from waste, sewage, sharps, and cleaning chemicals. Apply this boundary to “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”."
     ],
     "common_mistakes": [
       "Skipping the opening control makes “Health note: hydration intake and output record” unreliable: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. Apply this boundary to “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”.",
-      "Treating the result as safe while ignoring this limit is a serious error: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”.",
+      "Treating the result as safe while ignoring this limit is a serious error: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”.",
       "Failing to document the final handover action leaves the next person without a trustworthy starting point: Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Apply this boundary to “Health note: hydration intake and output record” in “Medicine · Sanitation · Public health”."
     ],
     "alternatives": [
@@ -211,9 +213,10 @@
     ],
     "sources": [
       "https://www.who.int/emergencies",
-      "https://www.redcross.org/take-a-class/first-aid"
+      "https://www.redcross.org/take-a-class/first-aid",
+      "https://www.cdc.gov/chemical-emergencies/index.html"
     ],
-    "last_updated": "2026-06-18"
+    "last_updated": "2026-07-26"
   },
   {
     "id": "pass86-092",
@@ -222,7 +225,7 @@
     "category": "Medicine · Sanitation · Public health",
     "subcategory": "Non · Diagnostic · Health",
     "summary": "Practical guidance for “Health note: breathing and consciousness observation” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.",
-    "content": "Practical guidance for “Health note: breathing and consciousness observation” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: breathing and consciousness observation” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
+    "content": "Practical guidance for “Health note: breathing and consciousness observation” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: breathing and consciousness observation” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
@@ -252,12 +255,12 @@
       "Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Include the outcome of “Health note: breathing and consciousness observation” in the handover for “Medicine · Sanitation · Public health”."
     ],
     "warnings": [
-      "Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”.",
+      "Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”.",
       "Keep children, food, drinking water, wounds, and animals away from waste, sewage, sharps, and cleaning chemicals. Apply this boundary to “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”."
     ],
     "common_mistakes": [
       "Skipping the opening control makes “Health note: breathing and consciousness observation” unreliable: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. Apply this boundary to “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”.",
-      "Treating the result as safe while ignoring this limit is a serious error: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”.",
+      "Treating the result as safe while ignoring this limit is a serious error: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”.",
       "Failing to document the final handover action leaves the next person without a trustworthy starting point: Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Apply this boundary to “Health note: breathing and consciousness observation” in “Medicine · Sanitation · Public health”."
     ],
     "alternatives": [
@@ -283,9 +286,10 @@
     ],
     "sources": [
       "https://www.who.int/emergencies",
-      "https://www.redcross.org/take-a-class/first-aid"
+      "https://www.redcross.org/take-a-class/first-aid",
+      "https://www.cdc.gov/chemical-emergencies/index.html"
     ],
-    "last_updated": "2026-06-18"
+    "last_updated": "2026-07-26"
   },
   {
     "id": "pass86-098",
@@ -294,7 +298,7 @@
     "category": "Medicine · Sanitation · Public health",
     "subcategory": "Non · Diagnostic · Health",
     "summary": "Practical guidance for “Health note: wound and fever observation” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.",
-    "content": "Practical guidance for “Health note: wound and fever observation” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: wound and fever observation” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
+    "content": "Practical guidance for “Health note: wound and fever observation” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: wound and fever observation” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
@@ -324,12 +328,12 @@
       "Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Include the outcome of “Health note: wound and fever observation” in the handover for “Medicine · Sanitation · Public health”."
     ],
     "warnings": [
-      "Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”.",
+      "Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”.",
       "Keep children, food, drinking water, wounds, and animals away from waste, sewage, sharps, and cleaning chemicals. Apply this boundary to “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”."
     ],
     "common_mistakes": [
       "Skipping the opening control makes “Health note: wound and fever observation” unreliable: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. Apply this boundary to “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”.",
-      "Treating the result as safe while ignoring this limit is a serious error: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”.",
+      "Treating the result as safe while ignoring this limit is a serious error: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”.",
       "Failing to document the final handover action leaves the next person without a trustworthy starting point: Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Apply this boundary to “Health note: wound and fever observation” in “Medicine · Sanitation · Public health”."
     ],
     "alternatives": [
@@ -355,9 +359,10 @@
     ],
     "sources": [
       "https://www.who.int/emergencies",
-      "https://www.redcross.org/take-a-class/first-aid"
+      "https://www.redcross.org/take-a-class/first-aid",
+      "https://www.cdc.gov/chemical-emergencies/index.html"
     ],
-    "last_updated": "2026-06-18"
+    "last_updated": "2026-07-26"
   },
   {
     "id": "pass86-104",
@@ -366,7 +371,7 @@
     "category": "Medicine · Sanitation · Public health",
     "subcategory": "Non · Diagnostic · Health",
     "summary": "Practical guidance for “Health note: clinician handover summary” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.",
-    "content": "Practical guidance for “Health note: clinician handover summary” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: clinician handover summary” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
+    "content": "Practical guidance for “Health note: clinician handover summary” within “Medicine · Sanitation · Public health”. It supports recognition of danger signs, clean supportive care, accurate records, and timely escalation, produces a visible result, and states when to stop or move to a safer fallback.\n\nStart with: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. This is the opening check for “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”.\n\nStop condition: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”.\n\nReduced fallback: If “Health note: clinician handover summary” cannot be completed, do only the first verified step, mark the remaining capability unavailable, and use emergency services, a clinician, pharmacist, poison centre, or trained first-aid provider as appropriate.",
     "difficulty": "moderate",
     "urgency": "medium",
     "priority": "high",
@@ -396,12 +401,12 @@
       "Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Include the outcome of “Health note: clinician handover summary” in the handover for “Medicine · Sanitation · Public health”."
     ],
     "warnings": [
-      "Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”.",
+      "Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”.",
       "Keep children, food, drinking water, wounds, and animals away from waste, sewage, sharps, and cleaning chemicals. Apply this boundary to “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”."
     ],
     "common_mistakes": [
       "Skipping the opening control makes “Health note: clinician handover summary” unreliable: Use a written trigger, one accountable owner, a visible result, and a scheduled review for this exact task. Apply this boundary to “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”.",
-      "Treating the result as safe while ignoring this limit is a serious error: Never mix cleaning chemicals unless the product instructions explicitly permit it and ventilation is adequate. Apply this boundary to “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”.",
+      "Treating the result as safe while ignoring this limit is a serious error: Never mix different cleaning products or add bleach to another cleaner. Use one product at a time and follow its label for dilution, contact time, protective equipment, and ventilation. Apply this boundary to “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”.",
       "Failing to document the final handover action leaves the next person without a trustworthy starting point: Inspect water flow, odour, insects, rodents, overflow, supplies, and illness reports daily and correct the source rather than masking it. Apply this boundary to “Health note: clinician handover summary” in “Medicine · Sanitation · Public health”."
     ],
     "alternatives": [
@@ -427,8 +432,9 @@
     ],
     "sources": [
       "https://www.who.int/emergencies",
-      "https://www.redcross.org/take-a-class/first-aid"
+      "https://www.redcross.org/take-a-class/first-aid",
+      "https://www.cdc.gov/chemical-emergencies/index.html"
     ],
-    "last_updated": "2026-06-18"
+    "last_updated": "2026-07-26"
   }
 ]
