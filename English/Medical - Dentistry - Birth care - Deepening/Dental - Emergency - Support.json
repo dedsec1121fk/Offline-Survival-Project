@@ -6,7 +6,7 @@
     "category": "Medical · Dentistry · Birth care · Deepening",
     "subcategory": "Dental · Emergency · Support",
     "summary": "A non-invasive dental emergency guide for tracking pain and recognizing when swelling becomes dangerous.",
-    "content": "Dental pain and swelling danger board is a practical offline routine for dental emergency support. Record the tooth area, pain level, swelling location, fever, swallowing, breathing, injury, and when symptoms started. Use clean-water mouth rinsing for comfort; avoid inserting sharp tools into gums or teeth. Switch to soft foods and avoid chewing on the painful side. Watch for facial swelling, swelling under the jaw, fever, pus, trouble opening the mouth, trouble swallowing, or trouble breathing. Seek urgent dental/medical help for swelling, fever, spreading pain, trauma, or breathing/swallowing problems. Keep medicines in original labels and do not share antibiotics or pain medicines between people. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "content": "Dental pain and swelling danger board is a practical offline routine for dental emergency support. Record the tooth area, pain level, swelling location, fever, swallowing, breathing, injury, and when symptoms started. Use clean-water mouth rinsing for comfort; avoid inserting sharp tools into gums or teeth. Switch to soft foods and avoid chewing on the painful side. Watch for facial swelling, swelling under the jaw, fever, pus, trouble opening the mouth, trouble swallowing, or trouble breathing. Seek urgent dental/medical help for swelling, fever, spreading pain, trauma, or breathing/swallowing problems. Keep medicines in original labels and do not share antibiotics or pain medicines between people.",
     "difficulty": "basic_to_moderate",
     "urgency": "context_dependent",
     "priority": "high",
@@ -17,23 +17,16 @@
       "medical",
       "offline",
       "pain",
-      "pass93",
       "weak_area_deepening"
     ],
     "materials": [
-      "Notebook. Context: “Dental pain and swelling danger board”.",
-      "Clean water. Context: “Dental pain and swelling danger board”.",
+      "Clean water",
       "Salt if available",
       "Soft food list",
-      "Emergency contact list. Context: “Dental pain and swelling danger board”."
+      "Emergency contact list"
     ],
     "steps": [
-      "Record the tooth area, pain level, swelling location, fever, swallowing, breathing, injury, and when symptoms started.",
-      "Use clean-water mouth rinsing for comfort; avoid inserting sharp tools into gums or teeth.",
-      "Switch to soft foods and avoid chewing on the painful side.",
-      "Watch for facial swelling, swelling under the jaw, fever, pus, trouble opening the mouth, trouble swallowing, or trouble breathing.",
-      "Seek urgent dental/medical help for swelling, fever, spreading pain, trauma, or breathing/swallowing problems.",
-      "Keep medicines in original labels and do not share antibiotics or pain medicines between people."
+      "Switch to soft foods and avoid chewing on the painful side."
     ],
     "warnings": [
       "Dental swelling can become life-threatening when it affects breathing or swallowing.",

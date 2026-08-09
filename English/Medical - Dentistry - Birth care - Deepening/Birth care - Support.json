@@ -6,7 +6,7 @@
     "category": "Medical · Dentistry · Birth care · Deepening",
     "subcategory": "Birth care · Support",
     "summary": "A safe preparation station for unexpected birth while prioritizing emergency medical help and warmth, cleanliness, and records.",
-    "content": "Emergency childbirth support station is a practical offline routine for birthcare support. Call emergency medical help early when labor may be starting and transport is uncertain. Choose a warm, private, clean space with clear path for rescuers. Wash hands, keep unnecessary people out, and prepare clean towels for drying and warmth. Record contraction timing, waters breaking, bleeding, severe headache, seizures, fever, baby movement concerns, and previous pregnancy risks. After birth, keep baby skin-to-skin if possible, dry and warm, and do not pull the cord or placenta. Seek urgent help for heavy bleeding, seizure, unconsciousness, baby not breathing/crying, premature birth, abnormal presentation, or severe pain. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "content": "Emergency childbirth support station is a practical offline routine for birthcare support. Call emergency medical help early when labor may be starting and transport is uncertain. Choose a warm, private, clean space with clear path for rescuers. Wash hands, keep unnecessary people out, and prepare clean towels for drying and warmth. Record contraction timing, waters breaking, bleeding, severe headache, seizures, fever, baby movement concerns, and previous pregnancy risks. After birth, keep baby skin-to-skin if possible, dry and warm, and do not pull the cord or placenta. Seek urgent help for heavy bleeding, seizure, unconsciousness, baby not breathing/crying, premature birth, abnormal presentation, or severe pain.",
     "difficulty": "basic_to_moderate",
     "urgency": "context_dependent",
     "priority": "high",
@@ -17,24 +17,15 @@
       "medical",
       "newborn",
       "offline",
-      "pass93",
       "weak_area_deepening"
     ],
     "materials": [
       "Clean towels or cloths",
       "Clean water and soap",
-      "Blankets. Context: “Emergency childbirth support station”.",
+      "Blankets",
       "Plastic sheet or clean surface cover",
       "Notebook and clock",
-      "Emergency contact list. Context: “Emergency childbirth support station”."
-    ],
-    "steps": [
-      "Call emergency medical help early when labor may be starting and transport is uncertain.",
-      "Choose a warm, private, clean space with clear path for rescuers.",
-      "Wash hands, keep unnecessary people out, and prepare clean towels for drying and warmth.",
-      "Record contraction timing, waters breaking, bleeding, severe headache, seizures, fever, baby movement concerns, and previous pregnancy risks.",
-      "After birth, keep baby skin-to-skin if possible, dry and warm, and do not pull the cord or placenta.",
-      "Seek urgent help for heavy bleeding, seizure, unconsciousness, baby not breathing/crying, premature birth, abnormal presentation, or severe pain."
+      "Emergency contact list"
     ],
     "warnings": [
       "This entry is preparation support, not a substitute for a midwife, doctor, or emergency service.",

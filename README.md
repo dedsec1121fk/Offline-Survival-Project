@@ -1,404 +1,193 @@
-<div align="center">
+# Offline Survival Project — Ultimate Operations Edition v7
 
-# Offline Survival Project
+Offline Survival Project is a bilingual, offline-first survival knowledge and household-operations environment for English and Greek users. V7 combines a curated survival database, a 32-section local Command Center, operational ledgers and calculators, a searchable Offline Library, a 220-subject Knowledge Compendium, and a completely standalone single-file reader.
 
-**Bilingual offline emergency-preparedness reference and terminal reader for English and Greek.**
+The core uses only the Python standard library, binds to `127.0.0.1` by default, needs no account or cloud service, and is designed to remain useful when ordinary internet access is unavailable.
 
-**Δίγλωσση βάση αναφοράς έκτακτης ανάγκης και εφαρμογή τερματικού, πλήρως εκτός σύνδεσης.**
+## Survival knowledge depth
 
-[English](#english) • [Ελληνικά](#ελληνικά)
+The V7 Knowledge Compendium contains **220 distinct subjects plus one index in each language**. The subject chapters contain approximately **65,638 English words and 65,302 Greek words**, excluding the indexes. Coverage includes immediate emergency priorities, water, sanitation, food, first-aid boundaries and medical continuity, fire and smoke, heat and cold, earthquake/tsunami/flood/wildfire, severe and coastal weather, evacuation, navigation, shelter, electrical and battery safety, solar and generator operations, transport, communications, children and accessibility, animals, recovery, contamination, boating, avalanche/rip-current hazards, search-and-rescue signaling, and long-duration household continuity.
 
-</div>
+Safety-sensitive chapters use dated authoritative source anchors. The manuals paraphrase and organize that material for offline use rather than copying source text.
 
----
+The curated database remains deliberately smaller than older releases: **871 substantive records per language**. Records that failed the stricter anti-template/narrative-quality rules were removed instead of being retained to inflate the count.
 
-# English
+## Offline Library
 
-## What it is
+The Library currently contains **732 files**, including **365 paired English documents and 365 paired Greek documents** across 10 bilingual collections. Its release gate rejects exact duplicate payloads, repeated substantive paragraphs, inherited boilerplate and suspicious template-similarity pairs.
 
-Offline Survival Project is a dependency-free Python application with mirrored English and Greek JSON knowledge bases. It is designed for Termux on Android, Linux, Windows, macOS, offline storage, and devices kept as emergency references.
+The Command Center can search readable Library material locally. Large binary/Kiwix material is discoverable without being scanned as ordinary text.
 
-After download, the application does not require an account, API key, server, analytics service, or internet connection.
+## Standalone Survival Reader
 
-## Important correction
+`Offline Survival Reader.html` is a self-contained fallback containing all **220 English + 220 Greek Knowledge Compendium chapters**. It has:
 
-The project now has **one Python script only**:
+- full local text search;
+- subject/domain filters;
+- English/Greek switching;
+- favorites and reviewed-state tracking using browser-local storage;
+- mobile navigation;
+- print support;
+- no CDN, remote font, external JavaScript or external stylesheet;
+- no runtime `fetch`, XHR or WebSocket network dependency.
 
-```text
-Offline Survival.py
-```
-
-The former `main.py` and compatibility launcher were merged. The Greek database folder was also corrected from an encoded folder name to the real `Ελληνικά` name.
-
-## Current database
-
-Each language contains:
-
-- **2,378 records**
-- **703 JSON files**
-- **260 category folders**
-- **10 mirrored, manually reviewed emergency-essential cards**
-- **60 mirrored food-growing and safe-preservation guides**
-
-The complete project therefore contains **4,756 language-specific records** across the mirrored English and Greek databases.
-
-## Main features
-
-- Fully offline operation
-- Complete English and Greek interface
-- Mirrored English and Greek database paths and record IDs
-- Accent-insensitive Greek search
-- Search across titles, summaries, categories, IDs, tags, paths, steps, warnings, sources, and all other fields
-- Category and file browser
-- Direct record-ID lookup
-- Random topic reader
-- Small-terminal pagination
-- Local settings with no activity logging
-- Dedicated **Verified emergency essentials** menu
-- Dedicated **Food growing and safe preservation** menu
-- Strong database and source validator
-- No third-party Python packages
-
-## Verified emergency essentials
-
-The dedicated menu contains concise cards for:
-
-1. Greece emergency calls and 112 alerts
-2. Household emergency planning and supply kits
-3. Earthquake immediate actions
-4. Flood-route and electrical safety
-5. Wildfire warning and evacuation readiness
-6. Emergency drinking-water safety
-7. Food safety during power outages
-8. Generator and carbon-monoxide safety
-9. Heat-illness recognition and escalation
-10. Poisoning response and the Greek Poison Centre
-
-These cards were cross-checked against current official guidance from Greek Civil Protection, the Greek Ministry of Health, CDC/NIOSH, and Ready.gov on **July 26, 2026**.
-
-## Food growing and safe preservation
-
-Menu option **7** opens 60 detailed, mirrored guides designed for household, balcony, container, raised-bed, and small-garden use. They are grouped into:
-
-- 7 planning and season-management guides
-- 7 soil, compost, mulch, salinity, and raised-bed guides
-- 9 container, irrigation, rainwater, wastewater, heat, balcony, and drought guides
-- 7 seed inventory, germination, propagation, seed-saving, and storage guides
-- 11 crop and pollination guides
-- 6 integrated pest and disease-management guides
-- 13 harvesting, cooling, freezing, drying, pickling, fermenting, canning, sprout-safety, and botulism guides
-
-The material emphasizes conservative small trials, reliable water, correct plant identity, clean tools, product-label compliance, and current tested food-preservation recipes. It does not present exact planting dates as universal: Mediterranean heat, altitude, frost, wind, shade, local restrictions, and the actual microclimate must be considered.
-
-The new collection was reviewed against official material from FAO, USDA/NAL/NRCS/ARS, EPA, WHO, CDC, Greece's Ministry of Rural Development and Food, and the National Center for Home Food Preservation. Important safety boundaries include:
-
-- Roof-collected rainwater is not automatically suitable for edible crops; verified safe water is preferred and local health guidance takes priority.
-- Untreated sewage, floodwater, and chemically contaminated water must not be improvised as irrigation water.
-- Raw sprouts carry a foodborne-illness risk; higher-risk people should choose thoroughly cooked sprouts or another cooked crop.
-- Low-acid vegetables require a current tested pressure-canning process, not boiling-water canning.
-- Pickling, fermenting, drying, freezing, and canning instructions must come from a current tested recipe for the exact product and method.
-
-## Repository structure
-
-```text
-Offline-Survival-Project-main/
-├── Offline Survival.py
-├── README.md
-├── VALIDATION.md
-├── English/
-│   └── Category folder/
-│       └── JSON knowledge files
-└── Ελληνικά/
-    └── Matching category folder/
-        └── Matching Greek JSON knowledge files
-```
-
-## Quick start
-
-### Termux
+Open it through the launcher with:
 
 ```bash
-pkg update -y && pkg install python -y
-cd ~/Offline-Survival-Project-main
-python "Offline Survival.py"
+python "Offline Survival.py" --reader
 ```
 
-### Linux or macOS
+It can also be opened directly as an HTML file when the phone browser permits local-file access.
+
+## Installed/default phone browser
+
+The web launcher does **not** select a particular browser engine. On Android/Termux it asks Android to open the local URL in the phone's installed/default browser. The launcher prefers `termux-open-url` and falls back to the Android VIEW intent when available.
+
+Run the full Command Center:
 
 ```bash
-python3 "Offline Survival.py"
+python "Offline Survival.py" --web
 ```
 
-### Windows
+Run diagnostics inside the phone browser you actually use:
 
-```powershell
-python "Offline Survival.py"
+```bash
+python "Offline Survival.py" --phone-browser-test
 ```
 
-Python 3.9 or newer is recommended.
+The diagnostics page checks localhost API access, local storage, service-worker support, shell assets, download APIs, touch/viewport behavior and relevant browser capabilities. The report stays local and can be exported as JSON; it is not uploaded.
 
-## Command-line validation
+Convenience scripts are also included:
 
-Run the complete non-interactive validation:
+- `start-phone-browser.sh`
+- `phone-browser-diagnostics.sh`
+- `open-standalone-reader.sh`
+- `Phone Browser Diagnostics.bat`
+- `Open Standalone Reader.bat`
+
+## Command Center
+
+V7 retains the 32-section operational interface: emergency search, essentials, food and supplies, inventory, communications, planning, health, navigation, training, resources, accountability, transport, shelter, water operations, recovery, skills, decisions, shift handover, sanitation, power, dependents/accessibility, recovery costs, Knowledge Atlas, Offline Library and diagnostics among the integrated workflows.
+
+The Knowledge Atlas adds collection-scoped local search, risk-derived reading suggestions and local review progress. Operational state remains on the local device unless the user explicitly exports it.
+
+## Quality and audit commands
 
 ```bash
 python "Offline Survival.py" --check
+python "Offline Survival.py" --quality
+python "Offline Survival.py" --translations
+python "Offline Survival.py" --library-quality
+python "Offline Survival.py" --self-test
+python "Offline Survival.py" --api-test
+python "Offline Survival.py" --ui-test
+python "Offline Survival.py" --audit
 ```
 
-The command prints a JSON report and returns:
+V7 additionally ships permanent static QA for the installed-phone-browser route and the standalone reader. Interactive browser diagnostics are intentionally executed on the target phone rather than simulated by selecting a desktop browser engine in the release environment.
 
-- Exit code `0` when every check passes
-- Exit code `2` when any database, parity, date, source, language, or type check fails
+## Safety boundary
 
-Show only database totals:
+This project is an offline preparedness and reference system, not a replacement for emergency services, official warnings, professional rescue, medical diagnosis or individualized treatment. Where live official instructions are available, they take precedence over cached reference material. The guide deliberately gives escalation boundaries for hazards that should not be handled at household level.
 
-```bash
-python "Offline Survival.py" --stats
-```
+## Why V7 differs from Project NOMAD
 
-Show command help:
-
-```bash
-python "Offline Survival.py" --help
-```
-
-## Main menu
-
-1. Search the knowledge base
-2. Browse categories
-3. Find and read a JSON file
-4. Open a record by ID
-5. Read a random topic
-6. Verified emergency essentials
-7. Food growing and safe preservation
-8. Settings
-9. Help and controls
-10. Check database integrity
-0. Exit
-
-## Controls
-
-- Enter a visible number to open an item.
-- Use `n` or Enter for the next page.
-- Use `p` for the previous page.
-- Use `0` or `q` to return.
-- `Ctrl+C` exits safely.
-
-## What the validator checks
-
-Every record in both languages is checked for:
-
-- Valid JSON syntax and list structure
-- Required fields and non-empty required values
-- Correct field data types
-- Unique record IDs and titles
-- Correct English or Greek language value
-- Valid ISO update dates that are not in the future
-- Non-empty source lists
-- Plain HTTPS source URLs
-- Sources restricted to approved official domains
-- Matching English and Greek file paths
-- Matching bilingual record IDs
-- Matching record IDs inside corresponding files
-
-The latest packaged version passes all checks with zero reported errors. Details and validation limits are documented in `VALIDATION.md`.
-
-## Settings and privacy
-
-Only these local preferences are stored:
-
-```text
-~/.offline_survival_project/settings.json
-```
-
-The file contains the selected language, results-per-page value, and screen-clearing preference. Searches, viewed records, personal details, and usage history are not collected or transmitted.
-
-## Safety notice
-
-This project is a preparation and reference aid. It does not replace emergency services, official alerts, or qualified medical, engineering, electrical, utility, fire, police, coast-guard, veterinary, agricultural, or civil-protection guidance.
-
-For an immediate emergency in Greece or elsewhere in the European Union, call **112**. For suspected poisoning in Greece, the Ministry of Health lists the Poison Centre at **210 7793777**, operating 24 hours a day, 7 days a week.
-
-Follow live official instructions whenever they differ from stored offline material.
+The supplied Project NOMAD codebase is a broad offline-server platform with a larger service stack. Offline Survival Project intentionally takes a different path: it stays lightweight and survival-specific, uses a standard-library local server rather than requiring a containerized server stack, includes a deep bilingual survival compendium and operational state tools, and can fall back to one standalone HTML reader. The goal is not to duplicate every general-purpose NOMAD service; it is to be the more useful package when the primary problem is **surviving and operating without internet**.
 
 ---
 
-# Ελληνικά
+# Offline Survival Project — Ultimate Operations Edition v7 (Ελληνικά)
 
-## Τι είναι
+Το Offline Survival Project είναι ένα δίγλωσσο, offline-first περιβάλλον γνώσης επιβίωσης και επιχειρησιακής οργάνωσης νοικοκυριού για αγγλικά και ελληνικά. Η V7 συνδυάζει επιμελημένη βάση επιβίωσης, τοπικό Command Center 32 ενοτήτων, επιχειρησιακά μητρώα και υπολογιστές, αναζητήσιμη Offline Library, συλλογή γνώσης 220 θεμάτων και έναν πλήρως αυτόνομο αναγνώστη ενός αρχείου.
 
-Το Offline Survival Project είναι μια αυτόνομη εφαρμογή Python με κατοπτρισμένες βάσεις γνώσεων JSON στα Αγγλικά και στα Ελληνικά. Έχει σχεδιαστεί για Termux σε Android, Linux, Windows, macOS, αποθήκευση χωρίς σύνδεση και συσκευές που διατηρούνται ως πηγές αναφοράς έκτακτης ανάγκης.
+Ο βασικός πυρήνας χρησιμοποιεί μόνο την τυπική βιβλιοθήκη της Python, συνδέεται από προεπιλογή στο `127.0.0.1`, δεν χρειάζεται λογαριασμό ή υπηρεσία cloud και έχει σχεδιαστεί ώστε να παραμένει χρήσιμος όταν δεν υπάρχει κανονική πρόσβαση στο διαδίκτυο.
 
-Μετά τη λήψη δεν χρειάζεται λογαριασμό, κλειδί API, διακομιστή, analytics ή σύνδεση στο διαδίκτυο.
+## Βάθος γνώσης επιβίωσης
 
-## Σημαντική διόρθωση
+Η συλλογή γνώσης V7 περιέχει **220 διαφορετικά θέματα και ένα ευρετήριο σε κάθε γλώσσα**. Τα θεματικά κεφάλαια περιέχουν περίπου **65.638 αγγλικές λέξεις και 65.302 ελληνικές λέξεις**, χωρίς τα ευρετήρια. Η κάλυψη περιλαμβάνει άμεσες προτεραιότητες έκτακτης ανάγκης, νερό, υγιεινή, τρόφιμα, όρια πρώτων βοηθειών και ιατρική συνέχεια, φωτιά και καπνό, ζέστη και κρύο, σεισμό, τσουνάμι, πλημμύρα, δασική πυρκαγιά, ακραία και παράκτια καιρικά φαινόμενα, εκκένωση, πλοήγηση, καταφύγιο, ηλεκτρική ασφάλεια και μπαταρίες, ηλιακή ενέργεια και γεννήτριες, μεταφορές, επικοινωνίες, παιδιά και προσβασιμότητα, ζώα, αποκατάσταση, μόλυνση, ασφάλεια σε σκάφη, χιονοστιβάδες, ρεύματα θάλασσας, σήματα διάσωσης και μακροχρόνια συνέχεια νοικοκυριού.
 
-Το έργο έχει πλέον **μόνο ένα Python script**:
+Τα κεφάλαια υψηλής κρισιμότητας χρησιμοποιούν χρονολογημένες αναφορές σε έγκυρες επίσημες πηγές. Τα εγχειρίδια οργανώνουν και παραφράζουν το υλικό για χρήση χωρίς σύνδεση αντί να αντιγράφουν το αρχικό κείμενο.
 
-```text
-Offline Survival.py
-```
+Η επιμελημένη βάση παραμένει σκόπιμα μικρότερη από παλαιότερες εκδόσεις: **871 ουσιαστικές εγγραφές ανά γλώσσα**. Εγγραφές που δεν πέρασαν τους αυστηρότερους ελέγχους κατά των templates και της επαναλαμβανόμενης αφήγησης αφαιρέθηκαν αντί να διατηρηθούν μόνο για μεγαλύτερο αριθμό.
 
-Το παλιό `main.py` και ο compatibility launcher ενώθηκαν. Διορθώθηκε επίσης ο κωδικοποιημένος φάκελος της ελληνικής βάσης στο πραγματικό όνομα `Ελληνικά`.
+## Offline Library
 
-## Τρέχουσα βάση
+Η Library περιέχει σήμερα **732 αρχεία**, μεταξύ των οποίων **365 ζευγαρωμένα αγγλικά και 365 ζευγαρωμένα ελληνικά έγγραφα** σε 10 δίγλωσσες συλλογές. Ο έλεγχος έκδοσης απορρίπτει ακριβή διπλότυπα payloads, επαναλαμβανόμενες ουσιαστικές παραγράφους, παλιό boilerplate και ύποπτα πολύ παρόμοια templates.
 
-Κάθε γλώσσα περιέχει:
+Το Command Center μπορεί να αναζητεί τοπικά το αναγνώσιμο περιεχόμενο της Library. Μεγάλα δυαδικά/Kiwix αρχεία εντοπίζονται χωρίς να σαρώνονται σαν απλό κείμενο.
 
-- **2.378 εγγραφές**
-- **703 αρχεία JSON**
-- **260 φακέλους κατηγοριών**
-- **10 κατοπτρισμένες και χειροκίνητα ελεγμένες κάρτες βασικών ενεργειών**
-- **60 κατοπτρισμένους οδηγούς καλλιέργειας και ασφαλούς διατήρησης τροφίμων**
+## Αυτόνομος αναγνώστης επιβίωσης
 
-Συνολικά το έργο περιέχει **4.756 γλωσσικές εγγραφές** στις κατοπτρισμένες αγγλικές και ελληνικές βάσεις.
+Το `Offline Survival Reader.html` είναι ένα αυτοτελές εφεδρικό αρχείο που περιλαμβάνει και τα **220 αγγλικά + 220 ελληνικά κεφάλαια** της συλλογής γνώσης. Προσφέρει:
 
-## Κύριες δυνατότητες
+- πλήρη τοπική αναζήτηση κειμένου,
+- φίλτρα θεμάτων και περιοχών γνώσης,
+- εναλλαγή αγγλικών/ελληνικών,
+- αγαπημένα και κατάσταση μελέτης σε τοπική αποθήκευση του browser,
+- πλοήγηση για κινητό,
+- εκτύπωση,
+- χωρίς CDN, απομακρυσμένες γραμματοσειρές, εξωτερικό JavaScript ή εξωτερικό stylesheet,
+- χωρίς εξάρτηση από `fetch`, XHR ή WebSocket κατά την εκτέλεση.
 
-- Πλήρης λειτουργία εκτός σύνδεσης
-- Πλήρες αγγλικό και ελληνικό περιβάλλον
-- Κατοπτρισμένες διαδρομές και IDs
-- Ελληνική αναζήτηση με ή χωρίς τόνους
-- Αναζήτηση σε τίτλους, συνόψεις, κατηγορίες, IDs, ετικέτες, διαδρομές, βήματα, προειδοποιήσεις, πηγές και όλα τα υπόλοιπα πεδία
-- Περιήγηση κατηγοριών και αρχείων
-- Άμεση αναζήτηση με ID
-- Τυχαίο θέμα
-- Σελιδοποίηση για μικρές οθόνες τερματικού
-- Τοπικές ρυθμίσεις χωρίς καταγραφή δραστηριότητας
-- Ξεχωριστό μενού **Επαληθευμένα βασικά έκτακτης ανάγκης**
-- Ξεχωριστό μενού **Καλλιέργεια και ασφαλής διατήρηση τροφίμων**
-- Ενισχυμένος έλεγχος βάσης και πηγών
-- Χωρίς πακέτα τρίτων
-
-## Επαληθευμένα βασικά έκτακτης ανάγκης
-
-Το ειδικό μενού περιλαμβάνει κάρτες για:
-
-1. Κλήσεις έκτακτης ανάγκης και ειδοποιήσεις 112
-2. Οικιακό σχέδιο και κιτ προετοιμασίας
-3. Άμεσες ενέργειες σε σεισμό
-4. Ασφάλεια διαδρομής και ηλεκτρισμού σε πλημμύρα
-5. Ετοιμότητα για δασική πυρκαγιά και εκκένωση
-6. Ασφάλεια πόσιμου νερού
-7. Ασφάλεια τροφίμων σε διακοπή ρεύματος
-8. Γεννήτριες και μονοξείδιο του άνθρακα
-9. Αναγνώριση θερμικής νόσου
-10. Δηλητηρίαση και Κέντρο Δηλητηριάσεων
-
-Οι κάρτες διασταυρώθηκαν με τρέχουσες επίσημες οδηγίες της Ελληνικής Πολιτικής Προστασίας, του Υπουργείου Υγείας, του CDC/NIOSH και του Ready.gov στις **26 Ιουλίου 2026**.
-
-## Καλλιέργεια και ασφαλής διατήρηση τροφίμων
-
-Η επιλογή **7** ανοίγει 60 αναλυτικούς και κατοπτρισμένους οδηγούς για οικιακή καλλιέργεια, μπαλκόνια, δοχεία, υπερυψωμένα παρτέρια και μικρούς κήπους. Περιλαμβάνονται:
-
-- 7 οδηγοί σχεδιασμού και εποχών
-- 7 οδηγοί εδάφους, κομπόστ, εδαφοκάλυψης, αλατότητας και υπερυψωμένων παρτεριών
-- 9 οδηγοί δοχείων, άρδευσης, βρόχινου νερού, λυμάτων, ζέστης, μπαλκονιού και ξηρασίας
-- 7 οδηγοί αποθέματος σπόρων, βλάστησης, πολλαπλασιασμού, διατήρησης και αποθήκευσης σπόρων
-- 11 οδηγοί καλλιεργειών και επικονίασης
-- 6 οδηγοί ολοκληρωμένης φυτοπροστασίας
-- 13 οδηγοί συγκομιδής, ψύξης, κατάψυξης, ξήρανσης, τουρσιών, ζύμωσης, κονσερβοποίησης, ασφάλειας φύτρων και αλλαντίασης
-
-Το υλικό δίνει έμφαση σε μικρές ελεγχόμενες δοκιμές, αξιόπιστο νερό, σωστή αναγνώριση φυτών, καθαρά εργαλεία, τήρηση ετικετών και σύγχρονες δοκιμασμένες συνταγές διατήρησης. Δεν παρουσιάζει ακριβείς ημερομηνίες φύτευσης ως καθολικές: πρέπει να λαμβάνονται υπόψη μεσογειακή ζέστη, υψόμετρο, παγετός, άνεμος, σκιά, τοπικοί περιορισμοί και πραγματικό μικροκλίμα.
-
-Η νέα συλλογή ελέγχθηκε με επίσημο υλικό από FAO, USDA/NAL/NRCS/ARS, EPA, WHO, CDC, το ελληνικό Υπουργείο Αγροτικής Ανάπτυξης και Τροφίμων και το National Center for Home Food Preservation. Βασικά όρια ασφάλειας:
-
-- Το βρόχινο νερό στέγης δεν είναι αυτόματα κατάλληλο για βρώσιμες καλλιέργειες· προτιμάται επαληθευμένα ασφαλές νερό και υπερισχύουν οι τοπικές υγειονομικές οδηγίες.
-- Ανεπεξέργαστα λύματα, νερά πλημμύρας και χημικά μολυσμένο νερό δεν χρησιμοποιούνται αυτοσχέδια για άρδευση.
-- Τα ωμά φύτρα έχουν κίνδυνο τροφιμογενούς νόσου· άτομα υψηλότερου κινδύνου πρέπει να προτιμούν καλά μαγειρεμένα φύτρα ή άλλη μαγειρεμένη καλλιέργεια.
-- Τα λαχανικά χαμηλής οξύτητας απαιτούν σύγχρονη δοκιμασμένη κονσερβοποίηση υπό πίεση, όχι επεξεργασία μόνο σε βραστό νερό.
-- Τουρσιά, ζύμωση, ξήρανση, κατάψυξη και κονσερβοποίηση πρέπει να βασίζονται σε σύγχρονη δοκιμασμένη συνταγή για το ακριβές προϊόν και τη συγκεκριμένη μέθοδο.
-
-## Δομή
-
-```text
-Offline-Survival-Project-main/
-├── Offline Survival.py
-├── README.md
-├── VALIDATION.md
-├── English/
-│   └── Φάκελος κατηγορίας/
-│       └── Αρχεία γνώσεων JSON
-└── Ελληνικά/
-    └── Αντίστοιχος φάκελος κατηγορίας/
-        └── Αντίστοιχα ελληνικά JSON
-```
-
-## Γρήγορη εκκίνηση στο Termux
+Άνοιξέ τον με:
 
 ```bash
-pkg update -y && pkg install python -y
-cd ~/Offline-Survival-Project-main
-python "Offline Survival.py"
+python "Offline Survival.py" --reader
 ```
 
-## Έλεγχος από τη γραμμή εντολών
+Μπορεί επίσης να ανοιχτεί απευθείας σαν αρχείο HTML όταν ο browser του τηλεφώνου επιτρέπει τοπικά αρχεία.
 
-Πλήρης μη διαδραστικός έλεγχος:
+## Εγκατεστημένος/προεπιλεγμένος browser τηλεφώνου
+
+Ο web launcher **δεν επιλέγει συγκεκριμένο κινητήρα browser**. Σε Android/Termux ζητά από το Android να ανοίξει το τοπικό URL στον εγκατεστημένο/προεπιλεγμένο browser του τηλεφώνου. Προτιμά το `termux-open-url` και, όταν είναι διαθέσιμο, χρησιμοποιεί ως εναλλακτική το Android VIEW intent.
+
+Εκτέλεση πλήρους Command Center:
+
+```bash
+python "Offline Survival.py" --web
+```
+
+Διαγνωστικά μέσα στον browser που χρησιμοποιείς πραγματικά στο τηλέφωνο:
+
+```bash
+python "Offline Survival.py" --phone-browser-test
+```
+
+Η σελίδα διαγνωστικών ελέγχει πρόσβαση στο localhost API, τοπική αποθήκευση, service worker, βασικά αρχεία εφαρμογής, δυνατότητες λήψης, αφή/viewport και σχετικές δυνατότητες του browser. Η αναφορά παραμένει τοπική και μπορεί να εξαχθεί ως JSON· δεν αποστέλλεται πουθενά.
+
+Περιλαμβάνονται επίσης scripts ευκολίας:
+
+- `start-phone-browser.sh`
+- `phone-browser-diagnostics.sh`
+- `open-standalone-reader.sh`
+- `Phone Browser Diagnostics.bat`
+- `Open Standalone Reader.bat`
+
+## Command Center
+
+Η V7 διατηρεί την επιχειρησιακή διεπαφή 32 ενοτήτων: αναζήτηση έκτακτης ανάγκης, βασικές ανάγκες, τρόφιμα και αποθέματα, inventory, επικοινωνίες, σχεδιασμό, υγεία, πλοήγηση, εκπαίδευση, πόρους, λογοδοσία ομάδας, μεταφορές, καταφύγιο, λειτουργίες νερού, αποκατάσταση, δεξιότητες, αποφάσεις, παράδοση βάρδιας, υγιεινή, ενέργεια, εξαρτώμενα άτομα/προσβασιμότητα, κόστη αποκατάστασης, Άτλαντα Γνώσης, Offline Library και διαγνωστικά, μαζί με τις υπόλοιπες ενσωματωμένες ροές.
+
+Ο Άτλας Γνώσης προσθέτει τοπική αναζήτηση περιορισμένη ανά συλλογή, προτάσεις μελέτης που προκύπτουν από τους δηλωμένους κινδύνους και τοπική κατάσταση μελέτης. Η επιχειρησιακή κατάσταση παραμένει στη συσκευή εκτός αν ο χρήστης επιλέξει ρητά εξαγωγή.
+
+## Εντολές ποιότητας και ελέγχου
 
 ```bash
 python "Offline Survival.py" --check
+python "Offline Survival.py" --quality
+python "Offline Survival.py" --translations
+python "Offline Survival.py" --library-quality
+python "Offline Survival.py" --self-test
+python "Offline Survival.py" --api-test
+python "Offline Survival.py" --ui-test
+python "Offline Survival.py" --audit
 ```
 
-Σύνολα βάσης:
+Η V7 περιλαμβάνει επιπλέον μόνιμο στατικό έλεγχο για τη διαδρομή προς τον εγκατεστημένο browser τηλεφώνου και για τον αυτόνομο αναγνώστη. Τα διαδραστικά διαγνωστικά browser εκτελούνται σκόπιμα στο πραγματικό τηλέφωνο και δεν προσομοιώνονται με επιλογή κινητήρα desktop browser στο περιβάλλον δημιουργίας.
 
-```bash
-python "Offline Survival.py" --stats
-```
+## Όριο ασφάλειας
 
-Βοήθεια:
+Το έργο είναι σύστημα ετοιμότητας και αναφοράς χωρίς σύνδεση και δεν αντικαθιστά υπηρεσίες έκτακτης ανάγκης, επίσημες προειδοποιήσεις, επαγγελματική διάσωση, ιατρική διάγνωση ή εξατομικευμένη θεραπεία. Όταν υπάρχουν ζωντανές επίσημες οδηγίες, έχουν προτεραιότητα έναντι αποθηκευμένου υλικού. Ο οδηγός δίνει σκόπιμα όρια κλιμάκωσης για κινδύνους που δεν πρέπει να αντιμετωπίζονται σε επίπεδο νοικοκυριού.
 
-```bash
-python "Offline Survival.py" --help
-```
+## Γιατί η V7 διαφέρει από το Project NOMAD
 
-## Κεντρικό μενού
-
-1. Αναζήτηση στη βάση γνώσεων
-2. Περιήγηση κατηγοριών
-3. Εύρεση και ανάγνωση JSON
-4. Άνοιγμα εγγραφής με ID
-5. Τυχαίο θέμα
-6. Επαληθευμένα βασικά έκτακτης ανάγκης
-7. Καλλιέργεια και ασφαλής διατήρηση τροφίμων
-8. Ρυθμίσεις
-9. Βοήθεια και χειρισμός
-10. Έλεγχος ακεραιότητας
-0. Έξοδος
-
-## Τι ελέγχει ο validator
-
-Κάθε εγγραφή και στις δύο γλώσσες ελέγχεται για:
-
-- Έγκυρη σύνταξη JSON
-- Υποχρεωτικά και μη κενά πεδία
-- Σωστούς τύπους δεδομένων
-- Μοναδικά IDs και τίτλους
-- Σωστή τιμή γλώσσας
-- Έγκυρες ημερομηνίες ISO που δεν βρίσκονται στο μέλλον
-- Μη κενές λίστες πηγών
-- Καθαρά HTTPS URLs
-- Πηγές μόνο από εγκεκριμένους επίσημους τομείς
-- Ίδιες αγγλικές και ελληνικές διαδρομές
-- Ίδια IDs στις δύο γλώσσες
-- Ίδια IDs μέσα στα αντίστοιχα αρχεία
-
-Η τελευταία συσκευασμένη έκδοση περνά όλους τους ελέγχους χωρίς αναφερόμενο σφάλμα. Οι λεπτομέρειες και τα όρια του ελέγχου βρίσκονται στο `VALIDATION.md`.
-
-## Ρυθμίσεις και ιδιωτικότητα
-
-Αποθηκεύονται μόνο τοπικές προτιμήσεις στο:
-
-```text
-~/.offline_survival_project/settings.json
-```
-
-Δεν καταγράφονται ή μεταδίδονται αναζητήσεις, αναγνωσμένες εγγραφές, προσωπικά στοιχεία ή ιστορικό χρήσης.
-
-## Σημείωση ασφάλειας
-
-Το έργο είναι βοήθημα προετοιμασίας και αναφοράς. Δεν αντικαθιστά υπηρεσίες έκτακτης ανάγκης, ζωντανές επίσημες ειδοποιήσεις ή εξειδικευμένη ιατρική, τεχνική και επιχειρησιακή καθοδήγηση.
-
-Για άμεση έκτακτη ανάγκη στην Ελλάδα ή στην Ευρωπαϊκή Ένωση κάλεσε **112**. Για πιθανή δηλητηρίαση στην Ελλάδα, το Υπουργείο Υγείας αναφέρει το Κέντρο Δηλητηριάσεων στο **210 7793777**, με λειτουργία 24 ώρες το 24ωρο, 7 ημέρες την εβδομάδα.
-
-Όταν οι ζωντανές επίσημες οδηγίες διαφέρουν από το αποθηκευμένο υλικό, ακολούθησε τις επίσημες οδηγίες.
+Το παρεχόμενο Project NOMAD είναι μια ευρύτερη πλατφόρμα τοπικού server με μεγαλύτερο σύνολο υπηρεσιών. Το Offline Survival Project ακολουθεί σκόπιμα διαφορετική κατεύθυνση: παραμένει ελαφρύ και ειδικά σχεδιασμένο για επιβίωση, χρησιμοποιεί τοπικό server βασισμένο στην τυπική βιβλιοθήκη αντί να απαιτεί containerized server stack, περιλαμβάνει βαθιά δίγλωσση συλλογή επιβίωσης και επιχειρησιακά εργαλεία και μπορεί να υποχωρήσει σε έναν μόνο αυτόνομο HTML αναγνώστη. Στόχος δεν είναι να αντιγράψει κάθε γενικής χρήσης υπηρεσία του NOMAD· στόχος είναι να είναι πιο χρήσιμο όταν το βασικό πρόβλημα είναι **η επιβίωση και η οργάνωση χωρίς διαδίκτυο**.

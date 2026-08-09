@@ -22,9 +22,9 @@
     "materials": [
       "Notebook and pencil",
       "Clean water containers",
-      "Flashlight. Context: “Household first 72 hours command sheet”.",
+      "Flashlight",
       "Phone power bank",
-      "Trash bags. Context: “Household first 72 hours command sheet”.",
+      "Trash bags",
       "Basic first aid kit"
     ],
     "steps": [
@@ -45,25 +45,6 @@
       "Using all battery before knowing the duration.",
       "Ignoring toilets, trash, and vulnerable neighbors until they become urgent."
     ],
-    "alternatives": [
-      "Run a smaller version of Household first 72 hours command sheet with one responsible person, one helper, and one visible paper note.",
-      "Use a safer fallback location or method for Household first 72 hours command sheet if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
-      "Pause Household first 72 hours command sheet and verify the written record with a second person before moving scarce supplies."
-    ],
-    "failure_signs": [
-      "People cannot explain who is responsible for Household first 72 hours command sheet or when the next check happens.",
-      "Supplies connected to Household first 72 hours command sheet are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Household first 72 hours command sheet”"
-    ],
-    "when_not_to_use": [
-      "Do not use Household first 72 hours command sheet as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
-      "Do not use Household first 72 hours command sheet when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
-      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Household first 72 hours command sheet."
-    ],
-    "short_term": "For the first hours of Household first 72 hours command sheet, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
-    "long_term": "If Household first 72 hours command sheet remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
-    "if_method_fails": "If Household first 72 hours command sheet fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
-    "environment_notes": "Adapt Household first 72 hours command sheet to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
     "related_topics": [
       "medicine continuity sheet",
       "low-power communications schedule",

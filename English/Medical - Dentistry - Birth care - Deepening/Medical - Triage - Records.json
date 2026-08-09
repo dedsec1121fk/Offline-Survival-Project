@@ -16,24 +16,16 @@
       "first_aid",
       "medical",
       "offline",
-      "pass93",
       "records",
       "triage",
       "weak_area_deepening"
     ],
     "materials": [
-      "Notebook. Context: “Red-flag medical triage notebook”.",
-      "Pencil. Context: “Red-flag medical triage notebook”.",
-      "Clock. Context: “Red-flag medical triage notebook”.",
-      "Thermometer if available. Context: “Red-flag medical triage notebook”.",
-      "Phone or radio if available — for «Red-flag medical triage notebook»"
+      "Clock",
+      "Thermometer if available",
+      "Phone or radio if available"
     ],
     "steps": [
-      "Create one page per person with name, age, known conditions, medicines, allergies, and emergency contact.",
-      "Record time, main complaint, breathing, consciousness, bleeding, pain location, temperature if available, fluids taken, urine, and changes.",
-      "Mark red flags: severe breathing trouble, chest pressure, stroke signs, uncontrolled bleeding, confusion, seizure, severe dehydration, severe allergic reaction, or worsening after injury.",
-      "Put red-flag people at the top of the help list and keep someone watching them until professional help is reached.",
-      "Update the page every 30 to 60 minutes during active illness or injury, and every shift during stable waiting.",
       "Write only facts observed, not guesses or blame."
     ],
     "warnings": [

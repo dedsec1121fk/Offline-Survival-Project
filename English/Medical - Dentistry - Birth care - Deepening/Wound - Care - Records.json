@@ -6,7 +6,7 @@
     "category": "Medical · Dentistry · Birth care · Deepening",
     "subcategory": "Wound · Care · Records",
     "summary": "A conservative routine for keeping minor wounds clean and watching for danger signs while seeking help for serious wounds.",
-    "content": "Wound cleaning and infection watch routine is a practical offline routine for wound care records. Wash hands or use the cleanest available method before touching the wound. Rinse visible dirt from a minor wound with clean running water; do not scrub deep tissue. Cover with the cleanest dressing available and change it when wet, dirty, or loose. Circle redness lightly on skin or draw its size in the notebook with date and time. Watch for spreading redness, swelling, heat, pus, fever, red streaks, numbness, increasing pain, or bad smell. Seek medical help urgently for deep wounds, bites, dirty punctures, face/eye/genital wounds, heavy bleeding, or any worsening. The goal is to make the action repeatable by a tired person, visible to helpers, and safe enough to stop when official help or a safer option appears.",
+    "content": "Wound cleaning and infection watch routine is a practical offline routine for wound care records. Wash hands or use the cleanest available method before touching the wound. Rinse visible dirt from a minor wound with clean running water; do not scrub deep tissue. Cover with the cleanest dressing available and change it when wet, dirty, or loose. Circle redness lightly on skin or draw its size in the notebook with date and time. Watch for spreading redness, swelling, heat, pus, fever, red streaks, numbness, increasing pain, or bad smell. Seek medical help urgently for deep wounds, bites, dirty punctures, face/eye/genital wounds, heavy bleeding, or any worsening.",
     "difficulty": "basic_to_moderate",
     "urgency": "context_dependent",
     "priority": "high",
@@ -16,24 +16,14 @@
       "infection",
       "medical",
       "offline",
-      "pass93",
       "weak_area_deepening",
       "wounds"
     ],
     "materials": [
-      "Clean water. Context: “Wound cleaning and infection watch routine”.",
-      "Soap. Context: “Wound cleaning and infection watch routine”.",
+      "Clean water",
+      "Soap",
       "Clean cloth or sterile gauze if available",
-      "Tape or bandage",
-      "Notebook. Context: “Wound cleaning and infection watch routine”."
-    ],
-    "steps": [
-      "Wash hands or use the cleanest available method before touching the wound.",
-      "Rinse visible dirt from a minor wound with clean running water; do not scrub deep tissue.",
-      "Cover with the cleanest dressing available and change it when wet, dirty, or loose.",
-      "Circle redness lightly on skin or draw its size in the notebook with date and time.",
-      "Watch for spreading redness, swelling, heat, pus, fever, red streaks, numbness, increasing pain, or bad smell.",
-      "Seek medical help urgently for deep wounds, bites, dirty punctures, face/eye/genital wounds, heavy bleeding, or any worsening."
+      "Tape or bandage"
     ],
     "warnings": [
       "Do not pour harsh chemicals into wounds.",

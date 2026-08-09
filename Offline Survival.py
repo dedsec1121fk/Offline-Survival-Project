@@ -353,12 +353,13 @@ DISPLAY_ORDER = [
     "if_method_fails",
     "environment_notes",
     "related_topics",
-    "tags",
     "sources",
     "last_updated",
 ]
 
-REQUIRED_FIELDS = tuple(["title", *DISPLAY_ORDER])
+REQUIRED_FIELDS = ("title", "id", "language", "category", "sources", "last_updated")
+# Optional display sections are validated when present, but are no longer mandatory.
+# This prevents generic filler from being inserted merely to satisfy the schema.
 FLEXIBLE_TEXT_FIELDS = {"short_term", "long_term", "if_method_fails", "environment_notes"}
 LIST_FIELDS = {
     "tags",
@@ -1452,6 +1453,26 @@ def print_cli_help() -> None:
     print('  python "Offline Survival.py" --check')
     print('\nShow database counts:')
     print('  python "Offline Survival.py" --stats')
+    print('\nLaunch the local browser Command Center:')
+    print('  python "Offline Survival.py" --web')
+    print('\nRun the repeatable v7 engineering self-test:')
+    print('  python "Offline Survival.py" --self-test')
+    print('\nRun the isolated localhost API/security smoke test:')
+    print('  python "Offline Survival.py" --api-test')
+    print('\nRun the line-by-line deep source/content audit:')
+    print('  python "Offline Survival.py" --audit')
+    print('\nRun the narrative/template quality gate:')
+    print('  python "Offline Survival.py" --quality')
+    print('\nAudit Offline Library duplicates, repeated paragraphs and template similarity:')
+    print('  python "Offline Survival.py" --library-quality')
+    print('\nAudit bilingual database, Library and user-visible translation coverage:')
+    print('  python "Offline Survival.py" --translations')
+    print('\nRun deterministic browser UI/state logic tests with Node.js:')
+    print('  python "Offline Survival.py" --ui-test')
+    print('\nOpen on-device diagnostics in the installed/default phone browser:')
+    print('  python "Offline Survival.py" --phone-browser-test')
+    print('\nOpen the standalone 220-chapter bilingual survival reader:')
+    print('  python "Offline Survival.py" --reader')
 
 
 def main() -> int:
@@ -1475,6 +1496,80 @@ def main() -> int:
                         f"{values['category_folders']} category folders"
                     )
                 return 0 if report["ok"] else 2
+            if command in {"--web", "--command-center"}:
+                import subprocess
+                web_app = PROJECT_ROOT / "Offline Survival Web.py"
+                if not web_app.is_file():
+                    print(f"Missing Command Center: {web_app}", file=sys.stderr)
+                    return 2
+                return subprocess.call([sys.executable, str(web_app), *sys.argv[2:]])
+            if command in {"--self-test", "--test"}:
+                import subprocess
+                test_app = PROJECT_ROOT / "tools" / "self_test.py"
+                if not test_app.is_file():
+                    print(f"Missing self-test: {test_app}", file=sys.stderr)
+                    return 2
+                return subprocess.call([sys.executable, str(test_app)])
+            if command in {"--api-test", "--api-smoke"}:
+                import subprocess
+                test_app = PROJECT_ROOT / "tools" / "api_smoke_test.py"
+                if not test_app.is_file():
+                    print(f"Missing API smoke test: {test_app}", file=sys.stderr)
+                    return 2
+                return subprocess.call([sys.executable, str(test_app)])
+            if command in {"--audit", "--deep-audit"}:
+                import subprocess
+                audit_app = PROJECT_ROOT / "tools" / "deep_audit.py"
+                if not audit_app.is_file():
+                    print(f"Missing deep audit: {audit_app}", file=sys.stderr)
+                    return 2
+                return subprocess.call([sys.executable, str(audit_app)])
+            if command in {"--quality", "--content-quality"}:
+                import subprocess
+                audit_app = PROJECT_ROOT / "tools" / "content_quality.py"
+                if not audit_app.is_file():
+                    print(f"Missing content quality audit: {audit_app}", file=sys.stderr)
+                    return 2
+                return subprocess.call([sys.executable, str(audit_app)])
+            if command in {"--translations", "--translation-audit"}:
+                import subprocess
+                audit_app = PROJECT_ROOT / "tools" / "translation_audit.py"
+                if not audit_app.is_file():
+                    print(f"Missing translation audit: {audit_app}", file=sys.stderr)
+                    return 2
+                return subprocess.call([sys.executable, str(audit_app)])
+            if command in {"--library-quality", "--library-audit"}:
+                import subprocess
+                audit_app = PROJECT_ROOT / "tools" / "library_quality.py"
+                if not audit_app.is_file():
+                    print(f"Missing Library quality audit: {audit_app}", file=sys.stderr)
+                    return 2
+                return subprocess.call([sys.executable, str(audit_app)])
+            if command in {"--ui-test", "--ui-logic-test"}:
+                import subprocess
+                test_app = PROJECT_ROOT / "tools" / "ui_logic_test.js"
+                if not test_app.is_file():
+                    print(f"Missing UI logic test: {test_app}", file=sys.stderr)
+                    return 2
+                node = shutil.which("node")
+                if not node:
+                    print("Node.js is required for --ui-test", file=sys.stderr)
+                    return 2
+                return subprocess.call([node, str(test_app)])
+            if command in {"--reader", "--standalone-reader"}:
+                import subprocess
+                web_app = PROJECT_ROOT / "Offline Survival Web.py"
+                if not web_app.is_file():
+                    print(f"Missing local web app: {web_app}", file=sys.stderr)
+                    return 2
+                return subprocess.call([sys.executable, str(web_app), "--reader"])
+            if command in {"--phone-browser-test", "--browser-test", "--local-browser-test"}:
+                import subprocess
+                web_app = PROJECT_ROOT / "Offline Survival Web.py"
+                if not web_app.is_file():
+                    print(f"Missing local web app: {web_app}", file=sys.stderr)
+                    return 2
+                return subprocess.call([sys.executable, str(web_app), "--phone-test"])
             print(f"Unknown option: {sys.argv[1]}", file=sys.stderr)
             print_cli_help()
             return 2

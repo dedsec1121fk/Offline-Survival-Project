@@ -19,11 +19,10 @@
       "records"
     ],
     "materials": [
-      "Clean water. Context: “Basic wound cleaning decision path”.",
+      "Clean water",
       "Soap for hands",
       "Clean cloth or gauze",
-      "Gloves if available. Context: “Basic wound cleaning decision path”.",
-      "Notebook. Context: “Basic wound cleaning decision path”."
+      "Gloves if available"
     ],
     "steps": [
       "Check for severe bleeding and seek emergency help if present.",
@@ -38,30 +37,6 @@
       "Do not close deep dirty wounds yourself.",
       "Do not use fuel, bleach, strong cleaners, soil, ash, or unknown powders in a wound."
     ],
-    "common_mistakes": [
-      "Treating Basic wound cleaning decision path as finished after the first attempt instead of writing the next review time.",
-      "Moving people or supplies for Basic wound cleaning decision path without checking vulnerable people, exits, and safe limits first.",
-      "Mixing clean and unsafe items during Basic wound cleaning decision path because labels, dates, or responsible names were not written down."
-    ],
-    "alternatives": [
-      "Run a smaller version of Basic wound cleaning decision path with one responsible person, one helper, and one visible paper note.",
-      "Use a safer fallback location or method for Basic wound cleaning decision path if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
-      "Pause Basic wound cleaning decision path and verify the written record with a second person before moving scarce supplies."
-    ],
-    "failure_signs": [
-      "People cannot explain who is responsible for Basic wound cleaning decision path or when the next check happens.",
-      "Supplies connected to Basic wound cleaning decision path are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores non-diagnostic care, warning signs, records, and referral to qualified help and starts creating new risk instead of reducing existing risk during “Basic wound cleaning decision path”"
-    ],
-    "when_not_to_use": [
-      "Do not use Basic wound cleaning decision path as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
-      "Do not use Basic wound cleaning decision path when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
-      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Basic wound cleaning decision path."
-    ],
-    "short_term": "For the first hours of Basic wound cleaning decision path, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
-    "long_term": "If Basic wound cleaning decision path remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
-    "if_method_fails": "If Basic wound cleaning decision path fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
-    "environment_notes": "Adapt Basic wound cleaning decision path to the real environment: check non-diagnostic care, warning signs, records, and referral to qualified help, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
     "related_topics": [
       "Medicine continuity sheet",
       "Community sanitation corner",

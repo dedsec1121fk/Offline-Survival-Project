@@ -6,7 +6,7 @@
     "category": "Movement · Evacuation · Night",
     "subcategory": "Night route",
     "summary": "A practical plan for leaving a home, camp, shop, or village at night when street lights are off, smoke is nearby, or power has failed.",
-    "content": "A practical plan for leaving a home, camp, shop, or village at night when street lights are off, smoke is nearby, or power has failed.\n\nUse it when the situation is real but still manageable. Work slowly, keep one written decision log, and prefer the safest reversible action over a dramatic improvisation.\n\nCore sequence: 1) Put the slowest person second, not last, so the group pace is set by the person most likely to fall. 2) Use one low light pointed at the ground; avoid shining into faces, windows, or drivers. 3) Stop at every turn and count the group before continuing to the next visible landmark. 4) Cross roads as one block only when the whole group can see and hear the lead person.\n\nStop point: Do not evacuate into visible fire, floodwater, downed wires, landslide debris, or areas named unsafe by authorities. Main warnings: Do not split the group to save minutes when visibility is poor or smoke is present. Do not use a phone screen as the only light if rain, low battery, or falls are likely.",
+    "content": "Core sequence: 1) Put the slowest person second, not last, so the group pace is set by the person most likely to fall. 2) Use one low light pointed at the ground; avoid shining into faces, windows, or drivers. 3) Stop at every turn and count the group before continuing to the next visible landmark. 4) Cross roads as one block only when the whole group can see and hear the lead person. Stop point: Do not evacuate into visible fire, floodwater, downed wires, landslide debris, or areas named unsafe by authorities. Main warnings: Do not split the group to save minutes when visibility is poor or smoke is present. Do not use a phone screen as the only light if rain, low battery, or falls are likely.",
     "difficulty": "basic_to_moderate",
     "urgency": "context_dependent",
     "priority": "high",
@@ -16,7 +16,6 @@
       "night",
       "evacuation",
       "route",
-      "pass103",
       "offline",
       "bilingual"
     ],
@@ -33,8 +32,7 @@
       "Cross roads as one block only when the whole group can see and hear the lead person."
     ],
     "warnings": [
-      "Do not split the group to save minutes when visibility is poor or smoke is present.",
-      "Do not use a phone screen as the only light if rain, low battery, or falls are likely."
+      "Do not split the group to save minutes when visibility is poor or smoke is present."
     ],
     "common_mistakes": [
       "Walking with bags in both hands makes falls and loss of children more likely.",

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#111111">
+  <title>Phone Browser Diagnostics — Offline Survival Project</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    body{max-width:920px;margin:0 auto;padding:18px;min-height:100vh}
+    .diag-head{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px}
+    .diag-actions{display:flex;gap:8px;flex-wrap:wrap}
+    .diag-card{border:1px solid currentColor;border-radius:14px;padding:14px;margin:12px 0;overflow-wrap:anywhere}
+    .diag-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+    .diag-result{display:grid;grid-template-columns:minmax(130px,.7fr) minmax(80px,.35fr) minmax(0,2fr);gap:8px;padding:8px 0;border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent)}
+    .diag-result:last-child{border-bottom:0}
+    .pass{font-weight:700}.fail{font-weight:700}.warn{font-weight:700}
+    code{white-space:pre-wrap;word-break:break-word}
+    pre{overflow:auto;max-height:330px;padding:10px;border:1px solid color-mix(in srgb,currentColor 25%,transparent);border-radius:10px}
+    @media(max-width:560px){body{padding:12px}.diag-result{grid-template-columns:1fr}.diag-actions>*{flex:1 1 140px}}
+  </style>
+</head>
+<body>
+  <header class="diag-head">
+    <div>
+      <p id="eyebrow">OFFLINE SURVIVAL PROJECT · V7</p>
+      <h1 id="title">Phone Browser Diagnostics</h1>
+      <p id="intro">Run this page inside the browser actually installed on your phone. Results stay on this device and are not uploaded.</p>
+    </div>
+    <div class="diag-actions">
+      <button id="langBtn" type="button">Ελληνικά</button>
+      <a href="/" id="openApp">Open Command Center</a>
+    </div>
+  </header>
+
+  <section class="diag-card">
+    <h2 id="deviceHeading">This browser</h2>
+    <div class="diag-grid">
+      <div><strong id="uaLabel">User agent</strong><br><code id="ua"></code></div>
+      <div><strong id="viewportLabel">Viewport</strong><br><code id="viewport"></code></div>
+      <div><strong id="touchLabel">Touch points</strong><br><code id="touch"></code></div>
+      <div><strong id="onlineLabel">Browser network flag</strong><br><code id="online"></code></div>
+    </div>
+  </section>
+
+  <section class="diag-card">
+    <div class="diag-head">
+      <div>
+        <h2 id="checksHeading">Local capability checks</h2>
+        <p id="checksHelp">A failure here does not contact the internet; it identifies a browser/device feature that may limit a local function.</p>
+      </div>
+      <div class="diag-actions">
+        <button id="runBtn" type="button">Run diagnostics</button>
+        <button id="exportBtn" type="button">Export report</button>
+      </div>
+    </div>
+    <div id="results" aria-live="polite"></div>
+  </section>
+
+  <section class="diag-card">
+    <h2 id="offlineHeading">Offline-use interpretation</h2>
+    <p id="offlineText">The core project is served only from this phone/computer. A green result means the installed browser can use that local feature. Service-worker support improves shell caching, but the local Python server remains the source of database, state and Library content.</p>
+    <p id="privacyText"><strong>Privacy:</strong> the diagnostic report contains browser/device capability information and the local app version. It is generated locally and is downloaded only if you choose Export.</p>
+  </section>
+
+  <section class="diag-card">
+    <details>
+      <summary id="rawHeading">Raw local report</summary>
+      <pre id="raw">{}</pre>
+    </details>
+  </section>
+  <script src="/phone-test.js"></script>
+</body>
+</html>

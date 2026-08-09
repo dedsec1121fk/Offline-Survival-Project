@@ -6,7 +6,7 @@
     "category": "Rebuilding · Long-term · Resilience",
     "subcategory": "Foot · Care",
     "summary": "A shared foot-care station helps people inspect feet, dry footwear, change socks, and identify problems before walking ability is lost. It must separate clean and used items, protect privacy, and refer wounds or high-risk feet rather than performing invasive treatment.",
-    "content": "A shared foot-care station helps people inspect feet, dry footwear, change socks, and identify problems before walking ability is lost. It must separate clean and used items, protect privacy, and refer wounds or high-risk feet rather than performing invasive treatment.\n\nCore procedure:\n1. Divide the station into clean seating, used-footwear drop, washing or wiping area, drying rack, and waste zone so traffic moves in one direction.\n2. Admit one person per inspection place, explain the limits of the service, provide privacy, and clean hands before touching supplies or assisting another person.\n3. Ask the person to remove one shoe and sock at a time; inspect the foot and shoe together for moisture, grit, pressure marks, wounds, swelling, odour, drainage, or damaged linings.\n4. Provide clean socks, adjust or exchange footwear, and place reusable wet items in a clearly labelled drying route without mixing them with ready-to-issue stock.\n5. Cover only minor wounds with appropriate clean materials; separate and refer anyone with infection signs, impaired circulation, severe pain, deep injury, or high-risk foot disease.\n6. After each user, discard or segregate contaminated items, clean the seat and inspection surface, update stock and referral records, and reset the clean zone.\n\nPrimary safety boundary: Do not let the station become a clinic for cutting calluses, opening blisters, treating deep wounds, or changing prescribed care; its role is inspection, hygiene, fit correction, simple protection, and referral.\n\nFallback: When a full station cannot be separated, use individual kits at spaced seats and move sealed used items to a separate collection point.",
+    "content": "Core procedure:\n1. Divide the station into clean seating, used-footwear drop, washing or wiping area, drying rack, and waste zone so traffic moves in one direction. 2. Admit one person per inspection place, explain the limits of the service, provide privacy, and clean hands before touching supplies or assisting another person. 3. Ask the person to remove one shoe and sock at a time; inspect the foot and shoe together for moisture, grit, pressure marks, wounds, swelling, odour, drainage, or damaged linings. 4. Provide clean socks, adjust or exchange footwear, and place reusable wet items in a clearly labelled drying route without mixing them with ready-to-issue stock. 5. Cover only minor wounds with appropriate clean materials; separate and refer anyone with infection signs, impaired circulation, severe pain, deep injury, or high-risk foot disease. 6. After each user, discard or segregate contaminated items, clean the seat and inspection surface, update stock and referral records, and reset the clean zone. Primary safety boundary: Do not let the station become a clinic for cutting calluses, opening blisters, treating deep wounds, or changing prescribed care; its role is inspection, hygiene, fit correction, simple protection, and referral. Fallback: When a full station cannot be separated, use individual kits at spaced seats and move sealed used items to a separate collection point.",
     "difficulty": "basic",
     "urgency": "medium",
     "priority": "high",
@@ -17,8 +17,7 @@
       "footwear",
       "mobility",
       "hygiene",
-      "bilingual",
-      "pass99-verified"
+      "bilingual"
     ],
     "materials": [
       "two-zone table for clean and used items",
@@ -27,14 +26,6 @@
       "assorted clean socks and labelled footwear bins",
       "single-person foot inspection light and mirror",
       "sealed waste container and referral log"
-    ],
-    "steps": [
-      "Divide the station into clean seating, used-footwear drop, washing or wiping area, drying rack, and waste zone so traffic moves in one direction.",
-      "Admit one person per inspection place, explain the limits of the service, provide privacy, and clean hands before touching supplies or assisting another person.",
-      "Ask the person to remove one shoe and sock at a time; inspect the foot and shoe together for moisture, grit, pressure marks, wounds, swelling, odour, drainage, or damaged linings.",
-      "Provide clean socks, adjust or exchange footwear, and place reusable wet items in a clearly labelled drying route without mixing them with ready-to-issue stock.",
-      "Cover only minor wounds with appropriate clean materials; separate and refer anyone with infection signs, impaired circulation, severe pain, deep injury, or high-risk foot disease.",
-      "After each user, discard or segregate contaminated items, clean the seat and inspection surface, update stock and referral records, and reset the clean zone."
     ],
     "warnings": [
       "Do not let the station become a clinic for cutting calluses, opening blisters, treating deep wounds, or changing prescribed care; its role is inspection, hygiene, fit correction, simple protection, and referral.",

@@ -1,0 +1,12 @@
+{
+  "name": "Offline Survival Project — Command Center",
+  "short_name": "Survival CC",
+  "description": "Local-first bilingual preparedness, continuity, Knowledge Atlas and offline survival reference center.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#06100c",
+  "theme_color": "#07110d",
+  "lang": "en",
+  "categories": ["utilities", "education", "productivity"]
+}

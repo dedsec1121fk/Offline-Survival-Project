@@ -6,7 +6,7 @@
     "category": "First five minutes command",
     "subcategory": "Household command",
     "summary": "A short reset for the first five minutes after a shock, alarm, crash, smoke smell, violent weather, or unclear warning. It turns panic into a named caller, a safe meeting point, a head count, and one next action.",
-    "content": "A short reset for the first five minutes after a shock, alarm, crash, smoke smell, violent weather, or unclear warning. It turns panic into a named caller, a safe meeting point, a head count, and one next action.\n\nUse it when the situation is real but still manageable. Work slowly, keep one written decision log, and prefer the safest reversible action over a dramatic improvisation.\n\nCore sequence: 1) Say out loud what happened in one sentence and appoint one person to call or listen for official instructions. 2) Move everyone away from the immediate hazard before collecting bags, keys, shoes, or documents. 3) Count people, pets, mobility aids, essential medicines, and phones; write only missing items. 4) Choose one next action: shelter, leave, call 112, shut a safe utility, or wait for official instructions.\n\nStop point: Do not use this reset to override an evacuation order, official shelter instruction, or immediate order from emergency responders. Main warnings: Do not send several people to investigate the same hazard while others are uncounted. Do not delay a 112 call for perfect details when life, fire, collapse, water, or violence is involved.",
+    "content": "Use it when the situation is real but still manageable. Work slowly, keep one written decision log, and prefer the safest reversible action over a dramatic improvisation. Core sequence: 1) Say out loud what happened in one sentence and appoint one person to call or listen for official instructions. 2) Move everyone away from the immediate hazard before collecting bags, keys, shoes, or documents. 3) Count people, pets, mobility aids, essential medicines, and phones; write only missing items. 4) Choose one next action: shelter, leave, call 112, shut a safe utility, or wait for official instructions. Stop point: Do not use this reset to override an evacuation order, official shelter instruction, or immediate order from emergency responders. Main warnings: Do not send several people to investigate the same hazard while others are uncounted. Do not delay a 112 call for perfect details when life, fire, collapse, water, or violence is involved.",
     "difficulty": "basic_to_moderate",
     "urgency": "immediate",
     "priority": "critical",
@@ -17,7 +17,6 @@
       "headcount",
       "panic",
       "household",
-      "pass103",
       "offline",
       "bilingual"
     ],
@@ -35,8 +34,7 @@
       "After five minutes, hand the log to the calmest adult and repeat the count instead of arguing."
     ],
     "warnings": [
-      "Do not send several people to investigate the same hazard while others are uncounted.",
-      "Do not delay a 112 call for perfect details when life, fire, collapse, water, or violence is involved."
+      "Do not send several people to investigate the same hazard while others are uncounted."
     ],
     "common_mistakes": [
       "Letting the loudest person lead without assigning a caller leaves emergency communication unfinished.",

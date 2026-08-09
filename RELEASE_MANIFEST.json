@@ -1,0 +1,113 @@
+{
+  "release_date": "2026-08-09",
+  "name": "Offline Survival Project — Ultimate Operations Edition v7",
+  "command_center_version": 7,
+  "state_schema": 7,
+  "database": {
+    "english_records": 871,
+    "greek_records": 871,
+    "total_language_records": 1742,
+    "json_files_per_language": 476,
+    "populated_category_folders_per_language": 154,
+    "verified_food_guides_per_language": 60,
+    "bilingual_paths_ids_file_ids_match": true,
+    "detected_template_or_repeated_narrative_units": 0,
+    "exact_substantive_duplicate_narrative_groups": 0,
+    "repeated_substantive_sentence_groups": 0,
+    "records_below_minimum_narrative_threshold": 0,
+    "paired_field_presence_mismatches": 0,
+    "paired_list_length_mismatches": 0
+  },
+  "offline_library": {
+    "files_total": 732,
+    "paired_documents_per_language": 365,
+    "paired_collections": 10,
+    "v7_knowledge_subjects_per_language": 220,
+    "v7_knowledge_files_per_language_including_index": 221,
+    "bundled_kiwix_zim": true,
+    "exact_duplicate_payload_groups": 0,
+    "repeated_substantive_paragraph_groups": 0,
+    "legacy_boilerplate_hits": 0,
+    "template_like_similarity_pairs": 0,
+    "readable_full_text_search": true,
+    "collection_scoped_full_text_search": true,
+    "v7_subject_words_english": 65638,
+    "v7_subject_words_greek": 65302
+  },
+  "standalone_reader": {
+    "file": "Offline Survival Reader.html",
+    "chapters_per_language": 220,
+    "external_runtime_assets": 0,
+    "runtime_network_dependencies": 0,
+    "local_search": true,
+    "local_progress": true,
+    "print_support": true,
+    "qa": "13/13 PASS"
+  },
+  "phone_browser": {
+    "strategy": "delegate localhost URL to the operating system installed/default browser",
+    "android_primary": "termux-open-url",
+    "android_fallback": "Android VIEW intent",
+    "browser_engine_selection": false,
+    "browser_engine_automation": false,
+    "on_device_diagnostics": "--phone-browser-test",
+    "static_route_qa": "11/11 PASS",
+    "interactive_target_phone_result": "RUN ON TARGET PHONE — not fabricated by build environment"
+  },
+  "interfaces": [
+    "Terminal CLI",
+    "Local browser Command Center v7",
+    "Standalone bilingual Offline Survival Reader"
+  ],
+  "web_sections": 32,
+  "core_third_party_python_dependencies": 0,
+  "default_web_bind": "127.0.0.1:8765",
+  "v7_major_additions": [
+    "Knowledge Atlas with 220 distinct bilingual survival subjects plus index",
+    "about 65.6k English and 65.3k Greek subject words in the V7 Knowledge Compendium",
+    "single-file standalone reader embedding all 220 bilingual chapters with no runtime network dependency",
+    "installed/default phone browser launcher for Android/Termux instead of browser-engine selection",
+    "on-device bilingual phone-browser diagnostics with local-only report export",
+    "global hazard supplement covering tornado, hurricane, storm surge, flash flood, rip current, avalanche, dust storm, severe storm, vehicle, boating and signaling scenarios",
+    "expanded medical-recognition, fire, electrical, battery, solar, water, sanitation, food, shelter and navigation chapters",
+    "risk-derived reading queue and review tracking stored locally",
+    "collection-scoped full-text Library search with traversal rejection",
+    "sentence-level narrative duplicate detection in the curated database",
+    "dated authoritative source anchors for safety-sensitive V7 chapters"
+  ],
+  "engineering_commands": [
+    "--check",
+    "--self-test",
+    "--api-test",
+    "--audit",
+    "--quality",
+    "--library-quality",
+    "--translations",
+    "--ui-test",
+    "--phone-browser-test",
+    "--reader"
+  ],
+  "qa": {
+    "database_validator": "PASS",
+    "content_quality": "PASS",
+    "translation_audit": "PASS",
+    "library_quality": "PASS",
+    "self_test": "62/62 PASS",
+    "api_security_smoke": "33/33 PASS",
+    "deterministic_ui_logic": "46/46 PASS",
+    "phone_browser_static_qa": "11/11 PASS",
+    "standalone_reader": "13/13 PASS",
+    "deep_audit": "PASS",
+    "deep_audit_active_files": 31,
+    "deep_audit_active_lines": 6692,
+    "json_files_parsed": 953,
+    "library_files_hashed": 732
+  },
+  "residual_security_notes": [
+    "The app-shell CSP still permits unsafe-inline for legacy inline handlers/styles.",
+    "State and full exported backups are plaintext unless protected by device/filesystem encryption.",
+    "No built-in user authentication is provided; localhost is the intended default trust boundary.",
+    "Interactive phone-browser diagnostics must be run on the target phone to validate that phone/browser combination."
+  ],
+  "package_files": 1730
+}

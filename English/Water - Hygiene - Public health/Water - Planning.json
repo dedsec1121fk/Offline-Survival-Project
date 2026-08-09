@@ -18,8 +18,8 @@
     ],
     "materials": [
       "Cardboard or notebook",
-      "Marker. Context: “Household water priority board”.",
-      "Tape. Context: “Household water priority board”.",
+      "Marker",
+      "Tape",
       "Container labels"
     ],
     "steps": [
@@ -39,25 +39,6 @@
       "Letting people refill containers without updating the board.",
       "Mixing drinking and cleaning containers."
     ],
-    "alternatives": [
-      "Run a smaller version of Household water priority board with one responsible person, one helper, and one visible paper note.",
-      "Use a safer fallback location or method for Household water priority board if the first choice becomes wet, crowded, contaminated, dark, unstable, or unsafe.",
-      "Pause Household water priority board and verify the written record with a second person before moving scarce supplies."
-    ],
-    "failure_signs": [
-      "People cannot explain who is responsible for Household water priority board or when the next check happens.",
-      "Supplies connected to Household water priority board are unlabelled, damp, contaminated, damaged, missing, or being used for the wrong purpose.",
-      "The routine ignores water, hygiene, food contact, and waste boundaries and starts creating new risk instead of reducing existing risk during “Household water priority board”"
-    ],
-    "when_not_to_use": [
-      "Do not use Household water priority board as a reason to delay evacuation, emergency calls, medical care, fire response, or official local instructions.",
-      "Do not use Household water priority board when the location is structurally unsafe, chemically suspicious, smoky, flooded, violent, or otherwise immediately dangerous.",
-      "Do not improvise hazardous repairs, dosing, chemical handling, weapon use, or electrical/gas work under the label of Household water priority board."
-    ],
-    "short_term": "For the first hours of Household water priority board, keep the action small, visible, and reversible: write the goal, assign one owner, protect vulnerable people, separate safe from unsafe supplies, and set a review time.",
-    "long_term": "If Household water priority board remains necessary for days or weeks, rotate roles, preserve written lessons, replace fragile supplies, and train another person so the group does not depend on one expert.",
-    "if_method_fails": "If Household water priority board fails, stop escalation, move to the safest fallback, record what failed, protect people first, and restart only with a simpler written plan.",
-    "environment_notes": "Adapt Household water priority board to the real environment: check water, hygiene, food contact, and waste boundaries, local weather, building condition, water access, light, noise, animals, neighbours, and safe exits before repeating the routine.",
     "related_topics": [
       "Boil advisory kitchen routine",
       "Emergency handwashing station",
