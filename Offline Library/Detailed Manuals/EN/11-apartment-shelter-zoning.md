@@ -1,7 +1,7 @@
 # Apartment shelter-zoning manual
 
 ## Think in zones, not rooms
-A room can be usable for one purpose and unsuitable for another. Map sleeping, clean food/water, charging, cooking, waste, medical/accessibility support, animal area, smoke isolation and damaged/avoid zones separately. The v6 Shelter board records operational use; it is not a structural inspection.
+A room can be usable for one purpose and unsuitable for another. Map sleeping, clean food/water, charging, cooking, waste, medical/accessibility support, animal area, smoke isolation and damaged/avoid zones separately. The Shelter board records operational use; it is not a structural inspection.
 
 ## Interior migration
 During heat, smoke, broken windows or localized damage, the best operating area may move. Record the current primary sleeping area and a fallback. Keep evacuation paths free even if furniture is moved to create a cleaner or cooler zone. Do not create a barricade that prevents rapid exit.

@@ -1,45 +1,115 @@
-# Command Center v7
+# Command Center
 
-The local Command Center is the operational interface for Offline Survival Project. It contains 32 integrated sections spanning immediate emergency lookup, planning, household state, health continuity, navigation, training, resources, accountability, transport, shelter, water, food, sanitation, power, communications, dependents/accessibility, recovery, costs, decisions, Knowledge Atlas, Offline Library and diagnostics.
+The Command Center is the local operational interface for Offline Survival Project.
+
+## Main Areas
+
+- emergency lookup and verified essentials;
+- household planning and readiness;
+- inventory, food, water, sanitation, and power operations;
+- medical continuity and dependent/accessibility records;
+- navigation, routes, vehicles, kits, and evacuation planning;
+- communications, accountability, decisions, and shift handovers;
+- shelter zoning, damage/recovery, costs, and maintenance;
+- drills, incident logs, field observations, and trend viewing;
+- Knowledge Atlas and Offline Library search;
+- local diagnostics, backup, restore, and redacted template export.
 
 ## Knowledge Atlas
 
-The V7 Knowledge Atlas indexes **220 bilingual survival subjects** and searches their local text without requiring an external search service. It supports domain shortcuts, collection-scoped full-text search, review/review-later state and a risk-derived reading queue. Search requests remain on localhost.
+- indexes 220 bilingual survival subjects;
+- searches the local Knowledge Compendium without an external search service;
+- supports domain shortcuts and full-text search;
+- tracks reviewed and review-later chapters locally;
+- can derive a reading queue from the hazards selected in the Risk Board.
 
-## Phone browser workflow
+## Phone Browser Workflow
 
-`python "Offline Survival.py" --web` starts the localhost Command Center and delegates URL opening to the operating system. On Android/Termux, the launcher uses the phone's installed/default browser rather than selecting a browser engine.
+Run:
 
-`python "Offline Survival.py" --phone-browser-test` opens an on-device diagnostics page in the same way. The page tests the browser actually in use for API access, local storage, service worker, downloads, shell assets, touch and viewport behavior. Diagnostic data stays local.
+```bash
+python "Offline Survival.py" --web
+```
 
-## Standalone reader
+On Android/Termux, the launcher delegates the local URL to the installed/default phone browser. It does not choose Chromium or another browser engine.
 
-`python "Offline Survival.py" --reader` opens `Offline Survival Reader.html`. The reader embeds all 220 English and 220 Greek Knowledge Compendium chapters in one file and has no runtime network dependency. It is intended as a fallback when the full Command Center is unnecessary or undesirable.
+For on-device browser checks:
 
-## Operational privacy
+```bash
+python "Offline Survival.py" --phone-browser-test
+```
 
-The Command Center stores operational state locally. Full backups can contain sensitive household information and should be protected like other private files. The redacted/template export contains a blank schema rather than a partially scrubbed copy of personal state.
+The diagnostic page checks the browser actually in use. Results stay local.
+
+## Standalone Reader
+
+```bash
+python "Offline Survival.py" --reader
+```
+
+`Offline Survival Reader.html` embeds all 220 English and 220 Greek Knowledge Compendium chapters in one file and has no runtime network dependency.
+
+## Operational Privacy
+
+- operational state is stored locally;
+- full backups can contain sensitive household information;
+- redacted/template export starts from a blank schema instead of partially copying personal state;
+- localhost remains the default trust boundary.
 
 ---
 
-# Command Center v7 — Ελληνικά
+# Command Center — Ελληνικά
 
-Το τοπικό Command Center είναι η επιχειρησιακή διεπαφή του Offline Survival Project. Περιλαμβάνει 32 ενσωματωμένες ενότητες για άμεση αναζήτηση έκτακτης ανάγκης, σχεδιασμό, κατάσταση νοικοκυριού, συνέχεια υγείας, πλοήγηση, εκπαίδευση, πόρους, λογοδοσία ομάδας, μεταφορές, καταφύγιο, νερό, τρόφιμα, υγιεινή, ενέργεια, επικοινωνίες, εξαρτώμενα άτομα/προσβασιμότητα, αποκατάσταση, κόστη, αποφάσεις, Άτλαντα Γνώσης, Offline Library και διαγνωστικά.
+Το Command Center είναι η τοπική επιχειρησιακή διεπαφή του Offline Survival Project.
+
+## Βασικές Περιοχές
+
+- αναζήτηση έκτακτης ανάγκης και επαληθευμένα βασικά θέματα,
+- σχεδιασμός νοικοκυριού και ετοιμότητα,
+- inventory, τρόφιμα, νερό, υγιεινή και ενέργεια,
+- ιατρική συνέχεια και εξαρτώμενα άτομα/προσβασιμότητα,
+- πλοήγηση, διαδρομές, οχήματα, κιτ και εκκένωση,
+- επικοινωνίες, λογοδοσία, αποφάσεις και παράδοση βάρδιας,
+- ζώνες καταφυγίου, ζημιές/αποκατάσταση, κόστη και συντήρηση,
+- ασκήσεις, incident logs, παρατηρήσεις πεδίου και τάσεις,
+- Άτλας Γνώσης και αναζήτηση Offline Library,
+- τοπικά diagnostics, backup, restore και κενό redacted template.
 
 ## Άτλας Γνώσης
 
-Ο Άτλας Γνώσης V7 ευρετηριάζει **220 δίγλωσσα θέματα επιβίωσης** και αναζητεί το τοπικό τους κείμενο χωρίς εξωτερική υπηρεσία αναζήτησης. Υποστηρίζει θεματικές συντομεύσεις, αναζήτηση πλήρους κειμένου περιορισμένη ανά συλλογή, κατάσταση μελέτης/μελέτης αργότερα και προτεινόμενη σειρά μελέτης που προκύπτει από τους δηλωμένους κινδύνους. Τα αιτήματα αναζήτησης μένουν στο localhost.
+- ευρετηριάζει 220 δίγλωσσα θέματα επιβίωσης,
+- αναζητεί τοπικά τη Συλλογή Γνώσης χωρίς εξωτερική υπηρεσία,
+- υποστηρίζει θεματικές συντομεύσεις και πλήρη αναζήτηση κειμένου,
+- αποθηκεύει τοπικά κατάσταση μελέτης/μελέτης αργότερα,
+- μπορεί να δημιουργήσει σειρά μελέτης από τους κινδύνους του Risk Board.
 
-## Ροή browser τηλεφώνου
+## Ροή Browser Τηλεφώνου
 
-Η εντολή `python "Offline Survival.py" --web` ξεκινά το τοπικό Command Center και αναθέτει στο λειτουργικό σύστημα το άνοιγμα του URL. Σε Android/Termux, ο launcher χρησιμοποιεί τον εγκατεστημένο/προεπιλεγμένο browser του τηλεφώνου χωρίς να επιλέγει κινητήρα browser.
+```bash
+python "Offline Survival.py" --web
+```
 
-Η εντολή `python "Offline Survival.py" --phone-browser-test` ανοίγει με τον ίδιο τρόπο μια σελίδα διαγνωστικών πάνω στη συσκευή. Η σελίδα ελέγχει τον browser που χρησιμοποιείται πραγματικά για πρόσβαση API, τοπική αποθήκευση, service worker, λήψεις, βασικά αρχεία εφαρμογής, αφή και viewport. Τα διαγνωστικά δεδομένα παραμένουν τοπικά.
+Σε Android/Termux, ο launcher παραδίδει το τοπικό URL στον εγκατεστημένο/default browser. Δεν επιλέγει Chromium ή άλλον browser engine.
 
-## Αυτόνομος αναγνώστης
+Για διαγνωστικά πάνω στη συσκευή:
 
-Η εντολή `python "Offline Survival.py" --reader` ανοίγει το `Offline Survival Reader.html`. Ο αναγνώστης ενσωματώνει και τα 220 αγγλικά και τα 220 ελληνικά κεφάλαια της συλλογής γνώσης σε ένα αρχείο και δεν έχει εξάρτηση από δίκτυο κατά την εκτέλεση. Προορίζεται ως εφεδρική λύση όταν δεν χρειάζεται ή δεν είναι επιθυμητό το πλήρες Command Center.
+```bash
+python "Offline Survival.py" --phone-browser-test
+```
 
-## Επιχειρησιακή ιδιωτικότητα
+Η σελίδα ελέγχει τον browser που χρησιμοποιείται πραγματικά. Τα αποτελέσματα παραμένουν τοπικά.
 
-Το Command Center αποθηκεύει την επιχειρησιακή κατάσταση τοπικά. Τα πλήρη αντίγραφα ασφαλείας μπορεί να περιέχουν ευαίσθητες πληροφορίες νοικοκυριού και πρέπει να προστατεύονται σαν άλλα ιδιωτικά αρχεία. Η redacted/template εξαγωγή περιέχει κενό schema και όχι μερικώς καθαρισμένο αντίγραφο προσωπικών δεδομένων.
+## Αυτόνομος Αναγνώστης
+
+```bash
+python "Offline Survival.py" --reader
+```
+
+Το `Offline Survival Reader.html` ενσωματώνει 220 αγγλικά και 220 ελληνικά κεφάλαια της Συλλογής Γνώσης σε ένα αρχείο και δεν χρειάζεται δίκτυο κατά την εκτέλεση.
+
+## Επιχειρησιακή Ιδιωτικότητα
+
+- η επιχειρησιακή κατάσταση αποθηκεύεται τοπικά,
+- τα πλήρη backups μπορεί να περιέχουν ευαίσθητες πληροφορίες,
+- το redacted/template export ξεκινά από κενό schema και όχι από μερικώς καθαρισμένα προσωπικά δεδομένα,
+- το localhost παραμένει το προεπιλεγμένο όριο εμπιστοσύνης.

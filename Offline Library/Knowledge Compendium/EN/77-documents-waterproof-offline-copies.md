@@ -16,6 +16,6 @@ Do not rely on cloud-only links. Export essential documents in common formats an
 A five-year-old insurance number or discontinued medication is worse than no quick-reference card because it appears authoritative. Put a review date on the packet and update after a move, policy change, new prescription or vehicle change.
 
 ## Redact what you share
-For shelter registration, mutual aid or a repair contractor, provide only the necessary page/data. The v6/v7 redacted schema template should contain no personal operational data; use that kind of blank structure when demonstrating the project publicly.
+For shelter registration, mutual aid or a repair contractor, provide only the necessary page/data. The redacted schema template should contain no personal operational data; use that kind of blank structure when demonstrating the project publicly.
 
 Evidence IDs: READY-KIT-1, READY-PLAN-1, READY-DISABILITY-1.

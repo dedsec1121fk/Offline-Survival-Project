@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- MAINTENANCE: Keep section IDs unique and keep every visible label represented in both language dictionaries. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -7,7 +8,7 @@
 <link rel="manifest" href="/manifest.webmanifest">
 <meta name="application-name" content="Offline Survival Project">
 <meta name="mobile-web-app-capable" content="yes">
-<title>Offline Survival Project — Command Center v7</title>
+<title>Offline Survival Project — Command Center</title>
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -318,13 +319,13 @@
     </section>
 
     <section id="knowledge" class="section">
-      <div class="card hero"><div><h2 data-t="knowledgeTitle">Knowledge Atlas</h2><p data-t="knowledgeText">Navigate the deep bilingual V7 compendium by operational domain, search its full text locally, and track what your household has actually reviewed.</p></div><div class="quick"><button onclick="openCompendiumIndex()" data-t="openKnowledgeIndex">Open compendium index</button><button onclick="location.href='/reader.html'" data-t="standaloneReader">Standalone offline reader</button><button onclick="refreshKnowledgeAtlas()" data-t="refreshKnowledge">Refresh atlas</button><button onclick="exportKnowledgeQueue()" data-t="exportKnowledgeQueue">Export reading queue</button></div></div>
+      <div class="card hero"><div><h2 data-t="knowledgeTitle">Knowledge Atlas</h2><p data-t="knowledgeText">Navigate the deep bilingual Knowledge Compendium by operational domain, search its full text locally, and track what your household has actually reviewed.</p></div><div class="quick"><button onclick="openCompendiumIndex()" data-t="openKnowledgeIndex">Open compendium index</button><button onclick="location.href='/reader.html'" data-t="standaloneReader">Standalone offline reader</button><button onclick="refreshKnowledgeAtlas()" data-t="refreshKnowledge">Refresh atlas</button><button onclick="exportKnowledgeQueue()" data-t="exportKnowledgeQueue">Export reading queue</button></div></div>
       <div class="grid stats" id="knowledgeStats"></div>
       <div class="title-row"><div><h3 data-t="knowledgeDomainsTitle">Operational domains</h3><p data-t="knowledgeDomainsText">Start with the hazard or capability you need; every result remains on this device.</p></div></div>
       <div class="grid quick-grid" id="knowledgeDomains"></div>
       <div class="title-row"><div><h3 data-t="knowledgeRecommendedTitle">Recommended from your Risk Board</h3><p data-t="knowledgeRecommendedText">A local reading queue derived from the hazards you selected. It never sends the risk profile anywhere.</p></div></div>
       <div class="card panel-pad" id="knowledgeRecommended"><div class="empty">—</div></div>
-      <div class="title-row"><div><h3 data-t="knowledgeSearchTitle">Search the compendium</h3><p data-t="knowledgeSearchText">Full-text search covers the V7 manuals in the selected language.</p></div></div>
+      <div class="title-row"><div><h3 data-t="knowledgeSearchTitle">Search the compendium</h3><p data-t="knowledgeSearchText">Full-text search covers the Knowledge Compendium manuals in the selected language.</p></div></div>
       <div class="card panel-pad"><div class="toolbar"><input class="grow" id="knowledgeQuery" data-ph="knowledgeSearchPlaceholder" placeholder="Search water, wildfire, evacuation, power..."><button class="btn primary" onclick="searchKnowledgeAtlas()" data-t="searchKnowledge">Search knowledge</button></div><div id="knowledgeResults" style="margin-top:12px"><div class="empty">—</div></div></div>
       <div class="title-row"><div><h3 data-t="knowledgeProgressTitle">Review progress</h3><p data-t="knowledgeProgressText">Mark chapters reviewed or set them aside for a later drill. Status is stored only in the local state file.</p></div></div>
       <div class="card panel-pad" id="knowledgeProgress"><div class="empty">—</div></div>
@@ -343,7 +344,7 @@
       <div class="grid two-col"><div class="card panel-pad"><h3 data-t="systemTitle">System status</h3><div class="system-list" id="systemList"></div></div><div class="card panel-pad"><h3 data-t="integrityTitle">Database integrity</h3><div id="integrityPanel" class="muted" data-t="loading">Loading…</div></div></div>
       <div class="grid two-col section-gap">
         <div class="card panel-pad"><h3 data-t="universalBaseline">Universal safety baseline</h3><p class="muted" data-t="baselineText">Shared principles are stored once instead of being duplicated across hundreds of records.</p><button class="btn" onclick="openUniversalBaseline()" data-t="openBaseline">Open baseline</button></div>
-        <div class="card panel-pad"><h3 data-t="qualityTitle">Content quality</h3><p class="muted" data-t="qualityText">The current release rejects known template filler, high-frequency repeated guidance blocks and internal generation tags.</p><div class="callout good" data-t="contentQualityPass">Narrative quality gate passed</div></div>
+        <div class="card panel-pad"><h3 data-t="qualityTitle">Content quality</h3><p class="muted" data-t="qualityText">The current project rejects known template filler, high-frequency repeated guidance blocks and internal generation tags.</p><div class="callout good" data-t="contentQualityPass">Narrative quality gate passed</div></div>
       </div>
       <div class="title-row"><div><h2 data-t="privacyTitle">Privacy model</h2></div></div>
       <div class="card panel-pad"><p data-t="privacyText">The Command Center binds to 127.0.0.1 by default. It uses no analytics, account, remote API or telemetry. Favorites, notes and checklist state are stored in ~/.offline_survival_project on the same device.</p></div>
@@ -359,8 +360,8 @@
 <div class="modal" id="viewerModal" onclick="modalBackdrop(event,'viewerModal')"><div class="modal-card"><div class="modal-head"><h2 id="viewerTitle" data-t="viewerLabel">Viewer</h2><button class="btn" onclick="closeModal('viewerModal')">✕</button></div><div class="modal-body" id="viewerBody"></div></div></div>
 <div class="toast" id="toast"></div>
 <script src="/app.js" defer></script>
-<script src="/v5.js" defer></script>
-<script src="/v6.js" defer></script>
-<script src="/v7.js" defer></script>
+<script src="/field-operations.js" defer></script>
+<script src="/continuity-operations.js" defer></script>
+<script src="/knowledge-atlas.js" defer></script>
 </body>
 </html>

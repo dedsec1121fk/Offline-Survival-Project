@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# MAINTENANCE: Validate the installed/default-browser route statically; never launch or require a specific browser engine.
 """Static QA for the on-device browser diagnostics.
 
 This test deliberately does not launch or automate a browser engine. The actual

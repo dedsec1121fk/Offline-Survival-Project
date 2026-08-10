@@ -1,5 +1,6 @@
-const CACHE='offline-survival-v7-shell';
-const SHELL=['/','/styles.css','/app.js','/v5.js','/v6.js','/v7.js','/phone-test.html','/phone-test.js','/reader.html','/manifest.webmanifest'];
+/* MAINTENANCE: Cache only the local app shell. API and Library content must stay outside runtime cache writes. */
+const CACHE='offline-survival-shell';
+const SHELL=['/','/styles.css','/app.js','/field-operations.js','/continuity-operations.js','/knowledge-atlas.js','/phone-test.html','/phone-test.js','/reader.html','/manifest.webmanifest'];
 const SHELL_PATHS=new Set(SHELL);
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

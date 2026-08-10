@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# MAINTENANCE: Keep the local server bound to loopback by default; preserve state-schema backward compatibility and same-origin protections.
 """Offline Survival Project local Command Center.
 
 A zero-third-party-dependency local web interface for the bundled bilingual
@@ -38,7 +39,6 @@ STATE_DIR = Path.home() / ".offline_survival_project"
 STATE_FILE = STATE_DIR / "user_state.json"
 STATE_PREVIOUS_FILE = STATE_DIR / "user_state.previous.json"
 SCHEMA_VERSION = 7
-COMMAND_CENTER_VERSION = 7
 MAX_POST_BYTES = 4_000_000
 DEFAULT_PORT = 8765
 KIWIX_PORT = 8766
@@ -1172,7 +1172,8 @@ def start_kiwix(path: Path) -> dict[str, Any]:
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = "OfflineSurvivalCommandCenter/7.0"
+    server_version = "OfflineSurvivalCommandCenter"
+    sys_version = ""
 
     def log_message(self, format: str, *args: Any) -> None:
         # Local request log only; nothing leaves the device.
@@ -1262,9 +1263,9 @@ class Handler(BaseHTTPRequestHandler):
             static_assets = {
                 "/styles.css": WEB_ROOT / "styles.css",
                 "/app.js": WEB_ROOT / "app.js",
-                "/v5.js": WEB_ROOT / "v5.js",
-                "/v6.js": WEB_ROOT / "v6.js",
-                "/v7.js": WEB_ROOT / "v7.js",
+                "/field-operations.js": WEB_ROOT / "field-operations.js",
+                "/continuity-operations.js": WEB_ROOT / "continuity-operations.js",
+                "/knowledge-atlas.js": WEB_ROOT / "knowledge-atlas.js",
                 "/phone-test.html": WEB_ROOT / "phone-test.html",
                 "/phone-test.js": WEB_ROOT / "phone-test.js",
                 "/manifest.webmanifest": WEB_ROOT / "manifest.webmanifest",
@@ -1393,7 +1394,6 @@ class Handler(BaseHTTPRequestHandler):
         self.send_json({
             "app": "Offline Survival Project",
             "mode": "Ultimate Operations Command Center",
-            "command_center_version": COMMAND_CENTER_VERSION,
             "state_schema_version": SCHEMA_VERSION,
             "report": report,
             "verified_essentials": essentials_count,
@@ -1519,9 +1519,9 @@ class Handler(BaseHTTPRequestHandler):
         add("web_index", INDEX_FILE.is_file(), str(INDEX_FILE))
         add("web_styles", (WEB_ROOT / "styles.css").is_file(), str(WEB_ROOT / "styles.css"))
         add("web_script", (WEB_ROOT / "app.js").is_file(), str(WEB_ROOT / "app.js"))
-        add("web_v5_script", (WEB_ROOT / "v5.js").is_file(), str(WEB_ROOT / "v5.js"))
-        add("web_v6_script", (WEB_ROOT / "v6.js").is_file(), str(WEB_ROOT / "v6.js"))
-        add("web_v7_script", (WEB_ROOT / "v7.js").is_file(), str(WEB_ROOT / "v7.js"))
+        add("web_field_operations_script", (WEB_ROOT / "field-operations.js").is_file(), str(WEB_ROOT / "field-operations.js"))
+        add("web_continuity_operations_script", (WEB_ROOT / "continuity-operations.js").is_file(), str(WEB_ROOT / "continuity-operations.js"))
+        add("web_knowledge_atlas_script", (WEB_ROOT / "knowledge-atlas.js").is_file(), str(WEB_ROOT / "knowledge-atlas.js"))
         add("phone_browser_diagnostics", (WEB_ROOT / "phone-test.html").is_file() and (WEB_ROOT / "phone-test.js").is_file(), str(WEB_ROOT / "phone-test.html"))
         add("standalone_reader", (PROJECT_ROOT / "Offline Survival Reader.html").is_file(), str(PROJECT_ROOT / "Offline Survival Reader.html"))
         for code in ("en", "el"):
@@ -1541,7 +1541,7 @@ class Handler(BaseHTTPRequestHandler):
             add("database_integrity", bool(report.get("ok")), "validator report")
         except Exception as error:
             add("database_integrity", False, str(error))
-        self.send_json({"ok": all(x["ok"] for x in checks), "checks": checks, "version": COMMAND_CENTER_VERSION, "schema": SCHEMA_VERSION})
+        self.send_json({"ok": all(x["ok"] for x in checks), "checks": checks})
 
     def api_library_file(self, raw: str) -> None:
         path = safe_library_path(raw)

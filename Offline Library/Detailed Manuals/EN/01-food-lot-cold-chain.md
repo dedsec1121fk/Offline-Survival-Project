@@ -13,7 +13,7 @@ Treat door opening as a resource decision. Retrieve several planned items at onc
 Use intact shelf-stable items with the nearest practical review date first, unless a diet, allergy or medical requirement changes priority. Mark opened packages and record what can realistically be consumed before quality declines. Do not mix an isolated lot back into normal stock just because another person thinks it “looks fine.” The decision should have a reason that the next shift can understand.
 
 ## Energy accounting
-Calories are useful for endurance planning but do not describe nutritional adequacy. Track total energy only as one operational dimension. Also keep notes about infant food, allergy-safe food, texture requirements, pet food, hydration needs and any medically directed diet. The v6 Food Operations module deliberately asks you to choose your own kcal assumption instead of prescribing one.
+Calories are useful for endurance planning but do not describe nutritional adequacy. Track total energy only as one operational dimension. Also keep notes about infant food, allergy-safe food, texture requirements, pet food, hydration needs and any medically directed diet. The Food Operations module deliberately asks you to choose your own kcal assumption instead of prescribing one.
 
 ## Sources to verify when conditions change
 Ready.gov food guidance; CDC natural-disaster food safety; local public-health and civil-protection instructions.

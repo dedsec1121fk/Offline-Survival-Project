@@ -1,4 +1,4 @@
-# V7 Knowledge Compendium: how to use this offline reference
+# Knowledge Compendium: how to use this offline reference
 
 This collection is designed as a decision-support library for household and small-group preparedness. It is not a replacement for emergency services, a clinician, a licensed engineer, an electrician, a utility operator, local law, or a current evacuation order. The material is intentionally organized around operational questions: what changes the decision, what can fail, what should be recorded, and when a problem exceeds household capability.
 
@@ -39,7 +39,7 @@ Chapters 108–118 add infection-control/sick-room organization, older-adult iso
 Chapters 119–127 cover an emergency handwashing station, menstrual and incontinence continuity, separation of contaminated laundry, dry/warm bedding zones, clothing layers in wet weather, foot/blister prevention for evacuation mobility, high-rise utility loss, apartment stairwell/fire-smoke decisions, and water storage under apartment space/load limits. They are meant to turn basic supplies into maintainable routines during multi-day disruption.
 
 ## Source method
-Safety-critical claims were checked against authoritative sources available during the v7 build, especially CDC, EPA, WHO, Ready.gov/FEMA, the US National Weather Service, the American Red Cross and the Greek Ministry for Climate Crisis and Civil Protection. The documents paraphrase guidance rather than reproducing source pages. Because official advice can change, every chapter names its source anchors so a future maintainer can re-verify it.
+Safety-critical claims were checked against authoritative sources available during the project knowledge audit, especially CDC, EPA, WHO, Ready.gov/FEMA, the US National Weather Service, the American Red Cross and the Greek Ministry for Climate Crisis and Civil Protection. The documents paraphrase guidance rather than reproducing source pages. Because official advice can change, every chapter names its source anchors so a future maintainer can re-verify it.
 
 ## Suggested offline workflow
 1. Read the chapters that match local hazards before an emergency.

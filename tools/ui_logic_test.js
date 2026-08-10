@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// MAINTENANCE: Exercise UI/state/export logic deterministically without binding the project to a desktop browser engine.
 'use strict';
 const fs=require('fs'),vm=require('vm'),path=require('path');
 const ROOT=path.resolve(__dirname,'..');
@@ -23,13 +24,13 @@ const box={console,document,window:{scrollTo(){},print(){},location:{origin:'htt
   decodeURIComponent,encodeURIComponent,setTimeout:()=>0,clearTimeout(){},fetch:async()=>{throw new Error('network disabled in UI logic test')}};
 vm.createContext(box);
 let app=fs.readFileSync(path.join(ROOT,'web','app.js'),'utf8').replace(/\ninit\(\);\s*$/,'');
-let v5=fs.readFileSync(path.join(ROOT,'web','v5.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
-let v6=fs.readFileSync(path.join(ROOT,'web','v6.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
-let v7=fs.readFileSync(path.join(ROOT,'web','v7.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
+let fieldOps=fs.readFileSync(path.join(ROOT,'web','field-operations.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
+let continuityOps=fs.readFileSync(path.join(ROOT,'web','continuity-operations.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
+let knowledgeAtlas=fs.readFileSync(path.join(ROOT,'web','knowledge-atlas.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
 vm.runInContext(app,box,{filename:'app.js'});
-vm.runInContext(v5,box,{filename:'v5.js'});
-vm.runInContext(v6,box,{filename:'v6.js'});
-vm.runInContext(v7,box,{filename:'v7.js'});
+vm.runInContext(fieldOps,box,{filename:'field-operations.js'});
+vm.runInContext(continuityOps,box,{filename:'continuity-operations.js'});
+vm.runInContext(knowledgeAtlas,box,{filename:'knowledge-atlas.js'});
 vm.runInContext('saveState=async()=>state; state=mergeState({}); lang="en";',box);
 const checks=[];
 function check(name,condition,detail=''){checks.push([name,!!condition,detail]);console.log(`[${condition?'PASS':'FAIL'}] ${name}${detail?' — '+detail:''}`)}
@@ -58,64 +59,64 @@ try{
   check('decision-add',run('state.decision_board.length===1'));
   check('decision-render',element('decisionTable').innerHTML.includes('Primary route blocked'));
 
-  run('lang="el"; renderV5();');
+  run('lang="el"; renderFieldOperations();');
   check('greek-shelter-status',element('shelterTable').innerHTML.includes('Χρήσιμη'));
   check('greek-water-status',element('waterBatchTable').innerHTML.includes('Αποδεκτό'));
   check('greek-decision-status',element('decisionTable').innerHTML.includes('Ενεργή'));
-  check('nav-v5-sections',run('["shelter","waterops","recovery","skills","decisions"].every(id=>NAV.some(x=>x[0]===id))'));
-  check('schema-v7',run('DEFAULT_STATE.schema_version===7'));
-  check('nav-v7-section',run('NAV.some(x=>x[0]==="knowledge") && MOBILE_NAV.includes("knowledge")'));
-  run(`libraryCache=[{path:'V7 Knowledge Compendium/EN/00-compendium-index-and-use.md',name:'00-compendium-index-and-use.md',size_human:'3 KB',readable:true},{path:'V7 Knowledge Compendium/EN/01-emergency-water-reserve.md',name:'01-emergency-water-reserve.md',size_human:'4 KB',readable:true},{path:'V7 Knowledge Compendium/EN/112-blackout-movement-emergency-lighting.md',name:'112-blackout-movement-emergency-lighting.md',size_human:'4 KB',readable:true},{path:'V7 Knowledge Compendium/GR/00-compendium-index-and-use.md',name:'00-compendium-index-and-use.md',size_human:'3 KB',readable:true}]; lang='en'; state.risk_flags=['outage']; renderKnowledgeDomains(); renderKnowledgeStats(); renderKnowledgeRecommended(); renderKnowledgeProgress();`);
-  check('v7-knowledge-stats',element('knowledgeStats').innerHTML.includes('3'));
-  check('v7-knowledge-domains',element('knowledgeDomains').innerHTML.includes('Water'));
-  check('v7-risk-reading-queue',element('knowledgeRecommended').innerHTML.includes('112-blackout-movement-emergency-lighting'));
-  run(`setKnowledgeStatus('V7 Knowledge Compendium/EN/01-emergency-water-reserve.md','reviewed'); renderKnowledgeStats(); renderKnowledgeProgress();`);
-  check('v7-knowledge-progress',run('state.knowledge_progress.length===1 && state.knowledge_progress[0].status==="reviewed"') && element('knowledgeProgress').innerHTML.includes('01-emergency-water-reserve'));
+  check('nav-field-sections',run('["shelter","waterops","recovery","skills","decisions"].every(id=>NAV.some(x=>x[0]===id))'));
+  check('state-schema',run('DEFAULT_STATE.schema_version===7'));
+  check('nav-knowledge-section',run('NAV.some(x=>x[0]==="knowledge") && MOBILE_NAV.includes("knowledge")'));
+  run(`libraryCache=[{path:'Knowledge Compendium/EN/00-compendium-index-and-use.md',name:'00-compendium-index-and-use.md',size_human:'3 KB',readable:true},{path:'Knowledge Compendium/EN/01-emergency-water-reserve.md',name:'01-emergency-water-reserve.md',size_human:'4 KB',readable:true},{path:'Knowledge Compendium/EN/112-blackout-movement-emergency-lighting.md',name:'112-blackout-movement-emergency-lighting.md',size_human:'4 KB',readable:true},{path:'Knowledge Compendium/GR/00-compendium-index-and-use.md',name:'00-compendium-index-and-use.md',size_human:'3 KB',readable:true}]; lang='en'; state.risk_flags=['outage']; renderKnowledgeDomains(); renderKnowledgeStats(); renderKnowledgeRecommended(); renderKnowledgeProgress();`);
+  check('knowledge-stats',element('knowledgeStats').innerHTML.includes('3'));
+  check('knowledge-domains',element('knowledgeDomains').innerHTML.includes('Water'));
+  check('knowledge-risk-reading-queue',element('knowledgeRecommended').innerHTML.includes('112-blackout-movement-emergency-lighting'));
+  run(`setKnowledgeStatus('Knowledge Compendium/EN/01-emergency-water-reserve.md','reviewed'); renderKnowledgeStats(); renderKnowledgeProgress();`);
+  check('knowledge-progress',run('state.knowledge_progress.length===1 && state.knowledge_progress[0].status==="reviewed"') && element('knowledgeProgress').innerHTML.includes('01-emergency-water-reserve'));
   run(`downloadBlob=(text,name,type)=>{globalThis.__knowledgeDownload={text,name,type}};exportKnowledgeQueue();`);
-  check('v7-risk-queue-export',run('__knowledgeDownload.name.startsWith("offline-survival-knowledge-queue-") && __knowledgeDownload.text.includes("112-blackout-movement-emergency-lighting")'));
+  check('knowledge-risk-queue-export',run('__knowledgeDownload.name.startsWith("offline-survival-knowledge-queue-") && __knowledgeDownload.text.includes("112-blackout-movement-emergency-lighting")'));
   run(`lang='el'; renderKnowledgeDomains(); renderKnowledgeStats();`);
-  check('v7-knowledge-greek',element('knowledgeDomains').innerHTML.includes('Νερό'));
+  check('knowledge-greek',element('knowledgeDomains').innerHTML.includes('Νερό'));
   run(`lang='en';`);
-  check('nav-v6-sections',run('["briefing","foodops","sanitationops","powerops","commsops","dependents","financeops"].every(id=>NAV.some(x=>x[0]===id))'));
+  check('nav-continuity-sections',run('["briefing","foodops","sanitationops","powerops","commsops","dependents","financeops"].every(id=>NAV.some(x=>x[0]===id))'));
 
   run(`lang='en';state=mergeState({profile:{adults:2,children:1,battery_wh:1200},water_batches:[{id:'w',source:'Tank',volume_l:20,status:'ready'},{id:'u',source:'Rain',volume_l:5,status:'untreated'}]});`);
   set('foodLotName','Rice reserve');set('foodLotCategory','staple');set('foodLotQty',5);set('foodLotUnit','kg');set('foodLotKcal',18000);set('foodLotLocation','Pantry');element('foodLotStatus').value='use-first';run('addFoodLot()');
-  check('v6-food-add',run('state.food_lots.length===1 && state.food_lots[0].kcal_total===18000'));
-  set('foodOpsKcalDay',2000);run('calculateFoodOpsCoverage()');check('v6-food-coverage',element('foodCoverageOutput').innerHTML.includes('3'));
+  check('food-add',run('state.food_lots.length===1 && state.food_lots[0].kcal_total===18000'));
+  set('foodOpsKcalDay',2000);run('calculateFoodOpsCoverage()');check('food-coverage',element('foodCoverageOutput').innerHTML.includes('3'));
 
   set('sanName','Handwash A');element('sanKind').value='handwash';element('sanStatus').value='service';set('sanCapacity',12);set('sanUnit','L');set('sanOwner','Alex');run('addSanitationPoint()');
-  check('v6-sanitation-add',run('state.sanitation_points.length===1 && state.sanitation_points[0].status==="service"'));
+  check('sanitation-add',run('state.sanitation_points.length===1 && state.sanitation_points[0].status==="service"'));
 
   set('powerName','Radio');set('powerLoadWatts',10);set('powerLoadHours',4);element('powerPriority').value='critical';set('powerSource','battery');run('addPowerLoad()');
   set('powerName','Lamp');set('powerLoadWatts',5);set('powerLoadHours',2);element('powerPriority').value='optional';run('addPowerLoad()');
-  check('v6-power-add',run('state.power_loads.length===2 && loadWh(state.power_loads[0])===40'));
-  set('powerRecharge',0);run('calculatePowerEndurance()');check('v6-power-endurance',element('powerEnduranceOutput').innerHTML.includes('24'));
+  check('power-add',run('state.power_loads.length===2 && loadWh(state.power_loads[0])===40'));
+  set('powerRecharge',0);run('calculatePowerEndurance()');check('power-endurance',element('powerEnduranceOutput').innerHTML.includes('24'));
 
   set('commsWindowName','Evening');set('commsWindowMethod','radio');set('commsWindowChannel','CH3');set('commsWindowParticipants','Team');element('commsWindowStatus').value='missed';run('addCommsWindow()');
-  check('v6-comms-add',run('state.comms_windows.length===1 && state.comms_windows[0].status==="missed"'));
+  check('comms-add',run('state.comms_windows.length===1 && state.comms_windows[0].status==="missed"'));
 
   set('depName','Service dog');element('depKind').value='service-animal';set('depNeeds','food and water');set('depCaregiver','Alex');set('depSupplies','3 day kit');run('addDependent()');
-  check('v6-dependent-add',run('state.dependents.length===1 && state.dependents[0].kind==="service-animal"'));
+  check('dependent-add',run('state.dependents.length===1 && state.dependents[0].kind==="service-animal"'));
 
   set('expenseCategory','transport');set('expenseDescription','Emergency fuel');set('expenseAmount',30);set('expenseCurrency','EUR');element('expenseStatus').value='claim-ready';run('addExpense()');
-  check('v6-expense-add',run('state.expense_log.length===1 && state.expense_log[0].amount===30'));
+  check('expense-add',run('state.expense_log.length===1 && state.expense_log[0].amount===30'));
 
   run(`state.checkins=[{name:'Nina',status:'needs-help'}];renderSituationBrief();`);
-  check('v6-situation-brief',element('briefingTextOutput').textContent.includes('18,000') && element('briefingActions').innerHTML.includes('communication'));
-  run(`lang='el';renderV6();renderSituationBrief();`);
-  check('v6-greek-render',element('foodOpsSummary').innerHTML.includes('Χρήσιμη') && element('briefingTextOutput').textContent.includes('Σύνοψη κατάστασης'));
+  check('situation-brief',element('briefingTextOutput').textContent.includes('18,000') && element('briefingActions').innerHTML.includes('communication'));
+  run(`lang='el';renderContinuityOperations();renderSituationBrief();`);
+  check('continuity-greek-render',element('foodOpsSummary').innerHTML.includes('Χρήσιμη') && element('briefingTextOutput').textContent.includes('Σύνοψη κατάστασης'));
 
   run(`downloadBlob=(text,name,type)=>{globalThis.__lastDownload={text,name,type}};
        state.routes=[{name:'North',source:'test',notes:'',points:[[40,22],[40.1,22.1]]}];
        exportRoutesGeoJSON();`);
   check('route-export-argument-order',run('__lastDownload.name==="offline-survival-routes.geojson" && __lastDownload.text.includes("FeatureCollection")'));
-  run(`lang='en';exportFoodLotsCSV();`);check('v6-food-export',run('__lastDownload.name==="offline-survival-food-lots.csv" && __lastDownload.text.includes("Rice reserve")'));
-  run(`exportSanitationCSV();`);check('v6-sanitation-export',run('__lastDownload.name==="offline-survival-sanitation.csv" && __lastDownload.text.includes("Handwash A")'));
-  run(`exportPowerLoadsCSV();`);check('v6-power-export',run('__lastDownload.name==="offline-survival-power-loads.csv" && __lastDownload.text.includes("Radio")'));
-  run(`downloadCommsSchedule();`);check('v6-comms-export',run('__lastDownload.name.startsWith("offline-survival-comms-") && __lastDownload.text.includes("Evening")'));
-  run(`exportDependentsCSV();`);check('v6-dependents-export',run('__lastDownload.name==="offline-survival-dependents.csv" && __lastDownload.text.includes("Service dog")'));
-  run(`exportExpensesCSV();`);check('v6-expenses-export',run('__lastDownload.name==="offline-survival-recovery-costs.csv" && __lastDownload.text.includes("Emergency fuel")'));
-  run(`downloadSituationBrief();`);check('v6-brief-export',run('__lastDownload.name.startsWith("offline-survival-situation-brief-") && __lastDownload.text.includes("Situation brief")'));
+  run(`lang='en';exportFoodLotsCSV();`);check('food-export',run('__lastDownload.name==="offline-survival-food-lots.csv" && __lastDownload.text.includes("Rice reserve")'));
+  run(`exportSanitationCSV();`);check('sanitation-export',run('__lastDownload.name==="offline-survival-sanitation.csv" && __lastDownload.text.includes("Handwash A")'));
+  run(`exportPowerLoadsCSV();`);check('power-export',run('__lastDownload.name==="offline-survival-power-loads.csv" && __lastDownload.text.includes("Radio")'));
+  run(`downloadCommsSchedule();`);check('comms-export',run('__lastDownload.name.startsWith("offline-survival-comms-") && __lastDownload.text.includes("Evening")'));
+  run(`exportDependentsCSV();`);check('dependents-export',run('__lastDownload.name==="offline-survival-dependents.csv" && __lastDownload.text.includes("Service dog")'));
+  run(`exportExpensesCSV();`);check('expenses-export',run('__lastDownload.name==="offline-survival-recovery-costs.csv" && __lastDownload.text.includes("Emergency fuel")'));
+  run(`downloadSituationBrief();`);check('brief-export',run('__lastDownload.name.startsWith("offline-survival-situation-brief-") && __lastDownload.text.includes("Situation brief")'));
   run(`state.field_logs=[{time:'2026-08-09T00:00:00Z',label:'Battery voltage',value:'12.4',unit:'V',notes:'stable'}];
        exportFieldLogCSV();`);
   check('field-log-export-argument-order',run('__lastDownload.name==="offline-survival-field-log.csv" && __lastDownload.text.includes("Battery voltage")'));

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# MAINTENANCE: Keep the CLI standard-library only, preserve bilingual parity, and keep database reads tolerant of optional narrative fields.
 """Offline Survival Project terminal browser.
 
 A dependency-free, bilingual terminal application for searching, finding,
@@ -1455,7 +1456,7 @@ def print_cli_help() -> None:
     print('  python "Offline Survival.py" --stats')
     print('\nLaunch the local browser Command Center:')
     print('  python "Offline Survival.py" --web')
-    print('\nRun the repeatable v7 engineering self-test:')
+    print('\nRun the repeatable engineering self-test:')
     print('  python "Offline Survival.py" --self-test')
     print('\nRun the isolated localhost API/security smoke test:')
     print('  python "Offline Survival.py" --api-test')

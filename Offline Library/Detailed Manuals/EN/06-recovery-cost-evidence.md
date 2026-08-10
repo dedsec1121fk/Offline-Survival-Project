@@ -10,7 +10,7 @@ Wide images establish the room or area; closer images show individual damage and
 Keep emergency accommodation, transport, cleanup, temporary repairs, replacement of essential items, professional inspections, storage, animal care and other costs distinct. The category helps later review but does not determine whether an insurer or assistance program will accept the expense.
 
 ## Currency discipline
-Do not add euro and foreign-currency amounts into one meaningless total. The v6 ledger groups totals by the currency entered. If a payment card later converts the amount, keep the original receipt amount and separately keep the statement showing the conversion.
+Do not add euro and foreign-currency amounts into one meaningless total. The Recovery Cost Ledger groups totals by the currency entered. If a payment card later converts the amount, keep the original receipt amount and separately keep the statement showing the conversion.
 
 ## Claim status
 “Recorded” means the event exists in your local ledger. “Claim-ready” means the supporting evidence is organized. “Submitted” should include a real case or claim reference where available. “Reimbursed” is not the same as “approved”; record the actual outcome so the ledger remains an evidence trail rather than a wish list.

@@ -4,7 +4,7 @@
 Write down every device you expect to power, its measured or rated watts, and realistic daily runtime. Separate medical or safety-critical loads from communications, lighting, food preservation, comfort and convenience. A list forces the household to see that “the generator runs the house” and “the battery can charge everything” are not engineering statements.
 
 ## Daily energy
-For a steady load, watts multiplied by hours gives watt-hours. That energy number is different from peak watts. Refrigerators, pumps, compressors and some power tools may draw a larger starting surge than their ordinary running load. The v6 manager therefore treats its result as an energy ledger, not proof that a particular inverter, battery or generator can start a device.
+For a steady load, watts multiplied by hours gives watt-hours. That energy number is different from peak watts. Refrigerators, pumps, compressors and some power tools may draw a larger starting surge than their ordinary running load. The Power Operations manager therefore treats its result as an energy ledger, not proof that a particular inverter, battery or generator can start a device.
 
 ## Shed loads deliberately
 When energy is scarce, disable optional loads first, then reduce runtime for important loads while preserving critical functions. Write the chosen schedule: for example, a communications charging window may be more efficient than leaving many adapters energized all day. If a refrigerator is being operated intermittently, food safety still depends on actual safe temperature history rather than on the number of hours you powered it.

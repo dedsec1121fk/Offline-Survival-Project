@@ -1,21 +1,67 @@
-# Offline Library — v7
+# Offline Library
 
-The Offline Library is the local document collection used by the Command Center and Knowledge Atlas. V7 contains **732 files** with **365 paired English documents and 365 paired Greek documents** across 10 bilingual collections.
+The Offline Library is the local document collection used by the Command Center and Knowledge Atlas.
 
-The V7 Knowledge Compendium contributes **220 distinct subject chapters plus one index per language**. Readable documents can be full-text searched locally. Large binary/Kiwix material is discovered but excluded from ordinary text scanning. User-added symlinks are ignored, and untrusted browser-renderable Library files are not served as trusted application pages.
+## Contents
 
-The Library quality audit rejects exact duplicate payloads, repeated substantive paragraphs, inherited boilerplate and suspicious template-similarity pairs. A larger Library is not considered an improvement unless it remains clean under those gates.
+- 732 local Library files;
+- 365 paired English documents;
+- 365 paired Greek documents;
+- 10 bilingual collections;
+- 220 Knowledge Compendium chapters plus one index per language;
+- optional binary/Kiwix reference material.
 
-`Offline Survival Reader.html` is generated from the Knowledge Compendium as a separate one-file fallback. The reader embeds the chapter text and does not load this Library through the network at runtime.
+## Local Search
+
+- readable documents can be searched locally by full text;
+- large binary/Kiwix material is discovered but excluded from ordinary text scanning;
+- collection-scoped search prevents unrelated folders from flooding Knowledge Atlas results.
+
+## Quality Rules
+
+- exact duplicate payloads are rejected;
+- repeated substantive paragraphs are rejected;
+- inherited boilerplate is rejected;
+- suspicious template-similarity pairs are rejected;
+- a larger Library is not considered an improvement unless it remains clean under those checks.
+
+## Trust Boundary
+
+- user-added symlinks are ignored;
+- browser-renderable user files are not served as trusted application pages;
+- the standalone reader embeds the Knowledge Compendium and does not need to load Library content over a network at runtime.
 
 ---
 
-# Offline Library — v7 (Ελληνικά)
+# Offline Library — Ελληνικά
 
-Η Offline Library είναι η τοπική συλλογή εγγράφων που χρησιμοποιούν το Command Center και ο Άτλας Γνώσης. Η V7 περιέχει **732 αρχεία** με **365 ζευγαρωμένα αγγλικά και 365 ζευγαρωμένα ελληνικά έγγραφα** σε 10 δίγλωσσες συλλογές.
+Η Offline Library είναι η τοπική συλλογή εγγράφων που χρησιμοποιούν το Command Center και ο Άτλας Γνώσης.
 
-Η συλλογή γνώσης V7 προσθέτει **220 διαφορετικά θεματικά κεφάλαια και ένα ευρετήριο ανά γλώσσα**. Τα αναγνώσιμα έγγραφα μπορούν να αναζητηθούν τοπικά σε πλήρες κείμενο. Μεγάλα δυαδικά/Kiwix αρχεία εντοπίζονται αλλά εξαιρούνται από τη συνηθισμένη σάρωση κειμένου. Symlinks που προσθέτει ο χρήστης αγνοούνται και μη έμπιστα αρχεία της Library που μπορεί να αποδώσει browser δεν σερβίρονται σαν έμπιστες σελίδες εφαρμογής.
+## Περιεχόμενα
 
-Ο έλεγχος ποιότητας Library απορρίπτει ακριβή διπλότυπα payloads, επαναλαμβανόμενες ουσιαστικές παραγράφους, παλιό boilerplate και ύποπτα template-similarity ζεύγη. Μια μεγαλύτερη Library δεν θεωρείται βελτίωση αν δεν παραμένει καθαρή κάτω από αυτούς τους ελέγχους.
+- 732 τοπικά αρχεία Library,
+- 365 ζευγαρωμένα αγγλικά έγγραφα,
+- 365 ζευγαρωμένα ελληνικά έγγραφα,
+- 10 δίγλωσσες συλλογές,
+- 220 κεφάλαια Συλλογής Γνώσης και ένα ευρετήριο ανά γλώσσα,
+- προαιρετικό δυαδικό/Kiwix υλικό αναφοράς.
 
-Το `Offline Survival Reader.html` παράγεται από τη συλλογή γνώσης σαν ξεχωριστή εφεδρική λύση ενός αρχείου. Ο αναγνώστης ενσωματώνει το κείμενο των κεφαλαίων και δεν φορτώνει τη Library μέσω δικτύου κατά την εκτέλεση.
+## Τοπική Αναζήτηση
+
+- τα αναγνώσιμα έγγραφα αναζητούνται τοπικά σε πλήρες κείμενο,
+- μεγάλα δυαδικά/Kiwix αρχεία εντοπίζονται αλλά εξαιρούνται από τη συνηθισμένη σάρωση κειμένου,
+- η αναζήτηση ανά συλλογή εμποδίζει άσχετους φακέλους να γεμίζουν τα αποτελέσματα του Άτλαντα Γνώσης.
+
+## Κανόνες Ποιότητας
+
+- απορρίπτονται ακριβή διπλότυπα payloads,
+- απορρίπτονται επαναλαμβανόμενες ουσιαστικές παράγραφοι,
+- απορρίπτεται παλιό boilerplate,
+- απορρίπτονται ύποπτα template-similarity ζεύγη,
+- μεγαλύτερη Library δεν θεωρείται βελτίωση αν δεν παραμένει καθαρή κάτω από αυτούς τους ελέγχους.
+
+## Όριο Εμπιστοσύνης
+
+- symlinks που προσθέτει ο χρήστης αγνοούνται,
+- αρχεία χρήστη που μπορεί να αποδώσει browser δεν σερβίρονται σαν έμπιστες σελίδες εφαρμογής,
+- ο standalone reader ενσωματώνει τη Συλλογή Γνώσης και δεν χρειάζεται να φορτώσει Library περιεχόμενο από δίκτυο κατά την εκτέλεση.

@@ -13,7 +13,7 @@ For overnight monitoring or care, define who is responsible during each block an
 Write the time a 112 alert, utility notice or evacuation instruction was received. A later update can reverse or supersede it. Keeping both timestamps prevents the household from acting on an older instruction because it was printed or screenshotted.
 
 ## Track duration explicitly
-Instead of saying “the freezer has been off all day,” calculate from the recorded outage start. For batteries/fuel, log runtime. Duration estimates become more accurate after each event and improve v6/v7 calculators.
+Instead of saying “the freezer has been off all day,” calculate from the recorded outage start. For batteries/fuel, log runtime. Duration estimates become more accurate after each event and improve the local planning calculators.
 
 ## Reset when normal time sources return
 Compare the reference clock to restored network/broadcast time and note any difference before correcting old records. This preserves the meaning of the incident timeline.

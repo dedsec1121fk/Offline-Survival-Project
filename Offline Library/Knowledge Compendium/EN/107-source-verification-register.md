@@ -1,7 +1,7 @@
-# V7 source-verification register and maintenance method
+# Source-verification register and maintenance method
 
 ## Why this register exists
-An offline survival library can remain readable for years while the official guidance behind it changes. V7 therefore treats sources as maintenance anchors rather than decorative citations. A chapter should state which authority controls the safety-critical claim, avoid copying long passages, and be rechecked before a future release changes numeric thresholds, medical instructions, evacuation behavior, or water-treatment procedures.
+An offline survival library can remain readable for years while the official guidance behind it changes. The project therefore treats sources as maintenance anchors rather than decorative citations. A chapter should state which authority controls the safety-critical claim, avoid copying long passages, and be rechecked before a future release changes numeric thresholds, medical instructions, evacuation behavior, or water-treatment procedures.
 
 ## Primary public-health anchors
 **CDC** — disaster health, floodwater, wildfire smoke, chronic-disease continuity, infant feeding, radiation emergencies, food safety, vector exposure, and selected first-aid/public-health boundaries. Start at https://www.cdc.gov and prefer current topic pages over archived documents when both exist.

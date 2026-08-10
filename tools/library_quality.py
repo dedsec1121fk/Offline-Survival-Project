@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Offline Library anti-duplication/template audit for Offline Survival Project v7.
+# MAINTENANCE: Keep duplicate/template detection strict across paired Library collections.
+"""Offline Library anti-duplication/template audit for Offline Survival Project.
 
 Standard-library only. The checks are deliberately stricter than exact-file hashing:
 - no exact duplicate payloads;
@@ -123,7 +124,7 @@ def main() -> int:
                         f"{a.relative_to(LIB)} | {b.relative_to(LIB)}"
                     )
 
-    print("Offline Survival Project — v7 Library quality audit")
+    print("Offline Survival Project — Library quality audit")
     print("=" * 72)
     print(f"Library files checked: {len(files)}")
     print(f"Exact duplicate payload groups: {len(duplicate_payloads)}")

@@ -1,17 +1,71 @@
-# Security notes — v7
+# Security Notes
 
-The default server binds to `127.0.0.1`. State-changing requests require same-origin checks and localhost mode restricts Host headers. Library paths are normalized and traversal is rejected. User-added Library HTML/SVG is delivered as an attachment with restrictive content security policy rather than trusted application content. User-added Library symlinks are ignored. State collections are bounded and sanitized before persistence. The service worker caches the application shell but excludes API and Library data.
+## Local Trust Boundary
 
-The phone-browser diagnostics page is local-only. It reads browser capability information and performs local API/storage/service-worker/download/viewport checks; it does not upload the diagnostic report. The standalone reader contains no external JavaScript/CSS/font dependency and its generated code contains no runtime `fetch`, XHR or WebSocket network path.
+- The default server binds to `127.0.0.1`.
+- State-changing requests require same-origin checks.
+- Localhost mode restricts accepted Host headers.
+- Wildcard/LAN binding is an explicit advanced trust decision.
 
-Residual limits: local operational state and full backups are plaintext unless the device/filesystem encrypts them; there is no built-in user authentication; the application shell retains legacy inline handlers/styles allowed by its CSP. Wildcard/LAN binding is therefore an explicit advanced trust decision rather than the default. A standalone HTML file can still be copied, modified or replaced by anyone who can alter the file on disk, so device/file integrity remains part of the trust model.
+## Offline Library
+
+- Library paths are normalized and traversal attempts are rejected.
+- User-added symlinks are ignored.
+- User-added HTML/SVG is delivered as an attachment with restrictive content security policy rather than trusted application content.
+- Large binary Library items are not treated as ordinary text-search content.
+
+## State And Backups
+
+- State collections are bounded and sanitized before persistence.
+- Full backups can contain sensitive household data.
+- Local state/backups are plaintext unless protected by device or filesystem encryption.
+- The project does not include built-in user authentication.
+
+## Browser And Offline Shell
+
+- The service worker caches only the application shell and excludes API/Library data.
+- Phone-browser diagnostics remain local and do not upload reports.
+- The standalone reader has no external JavaScript, CSS, font, fetch, XHR, or WebSocket dependency at runtime.
+
+## Residual Limitations
+
+- The application shell retains legacy inline handlers/styles permitted by its CSP.
+- Anyone who can modify local project files can also alter the standalone reader or source code.
+- Device and filesystem integrity remain part of the trust model.
 
 ---
 
-# Σημειώσεις ασφάλειας — v7
+# Σημειώσεις Ασφάλειας
 
-Ο προεπιλεγμένος server συνδέεται στο `127.0.0.1`. Τα αιτήματα που αλλάζουν κατάσταση περνούν same-origin έλεγχο και η λειτουργία localhost περιορίζει τα αποδεκτά Host headers. Οι διαδρομές της Library κανονικοποιούνται και απορρίπτεται path traversal. Αρχεία HTML/SVG που προσθέτει ο χρήστης παραδίδονται ως συνημμένα με περιοριστική πολιτική ασφάλειας περιεχομένου αντί να θεωρούνται έμπιστο μέρος της εφαρμογής. Symlinks που προσθέτει ο χρήστης αγνοούνται. Οι συλλογές κατάστασης έχουν όρια και καθαρίζονται πριν την αποθήκευση. Ο service worker αποθηκεύει το application shell αλλά εξαιρεί API και δεδομένα Library.
+## Τοπικό Όριο Εμπιστοσύνης
 
-Η σελίδα διαγνωστικών browser τηλεφώνου είναι μόνο τοπική. Διαβάζει πληροφορίες δυνατοτήτων του browser και εκτελεί τοπικούς ελέγχους API, αποθήκευσης, service worker, λήψεων και viewport· δεν ανεβάζει την αναφορά. Ο αυτόνομος αναγνώστης δεν έχει εξωτερική εξάρτηση JavaScript/CSS/γραμματοσειρών και ο παραγόμενος κώδικάς του δεν περιέχει διαδρομή δικτύου `fetch`, XHR ή WebSocket κατά την εκτέλεση.
+- Ο προεπιλεγμένος server συνδέεται στο `127.0.0.1`.
+- Τα αιτήματα που αλλάζουν κατάσταση περνούν same-origin έλεγχο.
+- Η λειτουργία localhost περιορίζει τα αποδεκτά Host headers.
+- Η σύνδεση σε wildcard/LAN είναι ρητή προχωρημένη επιλογή εμπιστοσύνης.
 
-Υπολειπόμενα όρια: η τοπική επιχειρησιακή κατάσταση και τα πλήρη backups είναι απλό κείμενο εκτός αν κρυπτογραφούνται από τη συσκευή ή το σύστημα αρχείων, δεν υπάρχει ενσωματωμένη αυθεντικοποίηση χρηστών και το application shell διατηρεί παλιότερους inline handlers/styles που επιτρέπει η CSP. Επομένως η σύνδεση σε wildcard/LAN είναι ρητή προχωρημένη επιλογή εμπιστοσύνης και όχι προεπιλογή. Ένα αυτόνομο HTML αρχείο μπορεί να αντιγραφεί, τροποποιηθεί ή αντικατασταθεί από όποιον μπορεί να αλλάξει το αρχείο στον δίσκο, επομένως η ακεραιότητα της συσκευής/αρχείου παραμένει μέρος του μοντέλου εμπιστοσύνης.
+## Offline Library
+
+- Οι διαδρομές κανονικοποιούνται και απορρίπτεται path traversal.
+- Symlinks που προσθέτει ο χρήστης αγνοούνται.
+- HTML/SVG που προσθέτει ο χρήστης παραδίδονται ως συνημμένα με περιοριστική CSP και όχι σαν έμπιστο περιεχόμενο εφαρμογής.
+- Μεγάλα δυαδικά αρχεία δεν αντιμετωπίζονται ως συνηθισμένο περιεχόμενο αναζήτησης κειμένου.
+
+## Κατάσταση Και Backups
+
+- Οι συλλογές κατάστασης έχουν όρια και καθαρίζονται πριν την αποθήκευση.
+- Τα πλήρη backups μπορεί να περιέχουν ευαίσθητα δεδομένα νοικοκυριού.
+- Η τοπική κατάσταση και τα backups είναι plaintext εκτός αν προστατεύονται από κρυπτογράφηση συσκευής ή filesystem.
+- Δεν υπάρχει ενσωματωμένη αυθεντικοποίηση χρηστών.
+
+## Browser Και Offline Shell
+
+- Ο service worker αποθηκεύει μόνο το application shell και εξαιρεί API/Library δεδομένα.
+- Τα διαγνωστικά browser παραμένουν τοπικά και δεν ανεβάζουν αναφορές.
+- Ο αυτόνομος αναγνώστης δεν χρειάζεται εξωτερικό JavaScript, CSS, γραμματοσειρά, fetch, XHR ή WebSocket κατά την εκτέλεση.
+
+## Υπολειπόμενοι Περιορισμοί
+
+- Το application shell διατηρεί legacy inline handlers/styles που επιτρέπει η CSP.
+- Όποιος μπορεί να τροποποιήσει τα τοπικά αρχεία μπορεί να αλλάξει και τον standalone reader ή τον source code.
+- Η ακεραιότητα συσκευής και filesystem παραμένει μέρος του μοντέλου εμπιστοσύνης.

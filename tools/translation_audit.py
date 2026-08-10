@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Bilingual completeness audit for Offline Survival Project v7."""
+# MAINTENANCE: Treat EN/GR parity as a release invariant for all user-visible content.
+"""Bilingual completeness audit for Offline Survival Project."""
 from __future__ import annotations
 
 import json
@@ -127,7 +128,7 @@ def main() -> int:
         "json", "gpx", "geojson", "sha", "gps", "kiwix", "serve", "csv", "zim", "kcal",
         "docker", "api", "pin", "termux", "linux", "windows", "android",
     }
-    for js_name in ("app.js", "v5.js", "v6.js", "v7.js"):
+    for js_name in ("app.js", "field-operations.js", "continuity-operations.js", "knowledge-atlas.js"):
         js_text = (ROOT / "web" / js_name).read_text(encoding="utf-8")
         for value in re.findall(r"\b\w+:'([^'\\]*(?:\\.[^'\\]*)*)'", js_text):
             if not GREEK_RE.search(value):
@@ -140,12 +141,9 @@ def main() -> int:
     if ui_mixed_language:
         issues.append("mixed English prose in Greek UI translations: " + repr(ui_mixed_language[:20]))
 
-    # Current release documentation must itself be bilingual. Historical versioned files are
-    # intentionally excluded because they are immutable release records.
+    # MAINTENANCE: Current user-facing documentation must itself be bilingual.
     current_docs = (
-        "README.md", "COMMAND_CENTER.md", "SECURITY.md", "UPGRADE_NOTES.md",
-        "VALIDATION.md", "V7_OPERATIONS_GUIDE.md", "V7_AUDIT_REPORT.md",
-        "Offline Library/README.md",
+        "README.md", "COMMAND_CENTER.md", "SECURITY.md", "THIRD_PARTY_NOTICES.md", "Offline Library/README.md",
     )
     current_doc_translation_failures: list[str] = []
     for rel in current_docs:
@@ -168,7 +166,7 @@ def main() -> int:
     if record_order_match and "'tags'" in record_order_match.group(1):
         issues.append("record modal still exposes internal/untranslated tag taxonomy")
 
-    print("Offline Survival Project — v7 translation audit")
+    print("Offline Survival Project — translation audit")
     print("=" * 72)
     print(f"Database pair: EN {len(en)} / EL {len(el)} records")
     print(f"Paired Library collections: {paired_collections}")

@@ -8,5 +8,10 @@
   "background_color": "#06100c",
   "theme_color": "#07110d",
   "lang": "en",
-  "categories": ["utilities", "education", "productivity"]
+  "categories": [
+    "utilities",
+    "education",
+    "productivity"
+  ],
+  "_maintenance_comment": "Keep this manifest dependency-free. When shell assets are renamed, update web/sw.js and the server static-asset map together."
 }

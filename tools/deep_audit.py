@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Deep static/content audit for Offline Survival Project v7.
+# MAINTENANCE: Audit active source/config/docs line-by-line and keep the source list synchronized with shipped files.
+"""Deep static/content audit for Offline Survival Project.
 
 This is intentionally standard-library only. It complements --self-test by
 scanning active source/config/current-documentation files line-by-line and validating project-wide JSON and
@@ -32,21 +33,18 @@ SOURCE_FILES = [
     ROOT / "web" / "index.html",
     ROOT / "web" / "styles.css",
     ROOT / "web" / "app.js",
-    ROOT / "web" / "v5.js",
-    ROOT / "web" / "v6.js",
-    ROOT / "web" / "v7.js",
+    ROOT / "web" / "field-operations.js",
+    ROOT / "web" / "continuity-operations.js",
+    ROOT / "web" / "knowledge-atlas.js",
     ROOT / "web" / "phone-test.html",
     ROOT / "web" / "phone-test.js",
     ROOT / "web" / "sw.js",
     ROOT / "web" / "manifest.webmanifest",
+    ROOT / "MAINTENANCE.json",
     ROOT / "README.md",
     ROOT / "COMMAND_CENTER.md",
     ROOT / "SECURITY.md",
-    ROOT / "UPGRADE_NOTES.md",
-    ROOT / "VALIDATION.md",
-    ROOT / "V7_OPERATIONS_GUIDE.md",
-    ROOT / "V7_AUDIT_REPORT.md",
-    ROOT / "RELEASE_MANIFEST.json",
+    ROOT / "THIRD_PARTY_NOTICES.md",
     ROOT / "Offline Library" / "README.md",
 ]
 MARKER_RE = re.compile(r"\b(?:TODO|FIXME|HACK|XXX)\b", re.I)
@@ -92,9 +90,6 @@ def main() -> int:
                 issues.append(f"trailing whitespace: {rel}:{number}")
             if MARKER_RE.search(line) and path.name != "deep_audit.py":
                 issues.append(f"unfinished marker: {rel}:{number}: {line.strip()[:120]}")
-            # Disallow stale active schema/version markers in executable browser/server code.
-            if rel.as_posix() in {"web/app.js", "Offline Survival Web.py"} and re.search(r"(?:schema\s*:\s*[3456]\b|SCHEMA_VERSION\s*=\s*[3456]\b|COMMAND_CENTER_VERSION\s*=\s*[3456]\b)", line):
-                issues.append(f"stale pre-v7 schema/version: {rel}:{number}")
         if path.suffix in {".py", ".js"}:
             for label, pattern in DANGEROUS.items():
                 for match in pattern.finditer(text):
@@ -165,7 +160,7 @@ def main() -> int:
 
     total_lines = sum(lines for _, lines, _ in stats)
     total_bytes = sum(size for _, _, size in stats)
-    print("Offline Survival Project — v7 deep audit")
+    print("Offline Survival Project — deep audit")
     print("=" * 72)
     for rel, lines, size in stats:
         print(f"[SOURCE] {rel}: {lines} lines, {size} bytes")

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# MAINTENANCE: Keep the standalone reader network-free, bilingual, self-contained, and synchronized with the compendium.
 """QA for the generated single-file Offline Survival Reader."""
 from __future__ import annotations
 import json,re,subprocess,shutil,tempfile,sys

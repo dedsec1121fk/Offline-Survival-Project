@@ -1,7 +1,7 @@
 # Temporary power, cords and load boundaries: avoid turning an outage into an electrical incident
 
 ## Start with the load, not with the available socket
-List the devices that actually need power and their rated input. Separate life/safety or communications loads from comfort loads. The v6 Power Operations ledger can calculate energy demand, but it cannot determine whether a particular cord, outlet, inverter or circuit is safe for that load. Use manufacturer ratings and qualified electrical guidance for that decision.
+List the devices that actually need power and their rated input. Separate life/safety or communications loads from comfort loads. The Power Operations ledger can calculate energy demand, but it cannot determine whether a particular cord, outlet, inverter or circuit is safe for that load. Use manufacturer ratings and qualified electrical guidance for that decision.
 
 ## Do not improvise building wiring
 An extension cord is temporary equipment, not a replacement for fixed wiring. Do not route cords through standing water, across door pinch points, under rugs where damage can be hidden, or through an evacuation path where they create a trip hazard. Do not modify plugs, defeat grounding features, or connect a generator to household wiring through an improvised backfeed. Generator connection to building circuits requires approved equipment and competent installation.

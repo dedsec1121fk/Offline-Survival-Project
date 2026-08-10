@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# MAINTENANCE: Tighten quality rules when needed; do not weaken gates just to preserve record counts.
 """Strict bilingual narrative-quality gate and curation tool.
 
 This tool rejects mass-generated prose rather than merely detecting byte-identical files.

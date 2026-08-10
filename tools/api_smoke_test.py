@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Repeatable localhost API/security smoke test for Offline Survival Project v7.
+# MAINTENANCE: Exercise real loopback API/security behavior without touching the user's persistent state.
+"""Repeatable localhost API/security smoke test for Offline Survival Project.
 
 Uses only the Python standard library. A temporary HOME keeps the user's real
 Command Center state untouched.
@@ -31,7 +32,7 @@ def free_port() -> int:
 def main() -> int:
     port = free_port()
     base = f"http://127.0.0.1:{port}"
-    temp_home = tempfile.mkdtemp(prefix="offline-survival-v7-qa-")
+    temp_home = tempfile.mkdtemp(prefix="offline-survival-qa-")
     env = os.environ.copy()
     env["HOME"] = temp_home
     proc = subprocess.Popen(
@@ -73,19 +74,19 @@ def main() -> int:
 
         status, headers, raw = call("/api/meta")
         meta = json.loads(raw)
-        check("meta-version", status == 200 and meta.get("command_center_version") == 7 and meta.get("state_schema_version") == 7)
+        check("meta-state-schema", status == 200 and isinstance(meta.get("state_schema_version"), int))
         check("library-discovery", meta.get("system", {}).get("library_files", 0) >= MIN_LIBRARY_FILES, str(meta.get("system", {}).get("library_files")))
         status, _, raw = call("/api/library")
         library = json.loads(raw) if status == 200 else {}
-        v7_files = [x for x in library.get("files", []) if str(x.get("path", "")).startswith("V7 Knowledge Compendium/")] if status == 200 else []
-        expected_v7 = sum(1 for f in (ROOT / "Offline Library" / "V7 Knowledge Compendium").rglob("*.md") if f.is_file())
-        check("v7-compendium-discovery", status == 200 and len(v7_files) == expected_v7, f"{len(v7_files)}/{expected_v7}")
-        prefix = parse.quote("V7 Knowledge Compendium/EN", safe="")
+        knowledge_files = [x for x in library.get("files", []) if str(x.get("path", "")).startswith("Knowledge Compendium/")] if status == 200 else []
+        expected_knowledge = sum(1 for f in (ROOT / "Offline Library" / "Knowledge Compendium").rglob("*.md") if f.is_file())
+        check("knowledge-compendium-discovery", status == 200 and len(knowledge_files) == expected_knowledge, f"{len(knowledge_files)}/{expected_knowledge}")
+        prefix = parse.quote("Knowledge Compendium/EN", safe="")
         query = parse.quote("water", safe="")
         status, _, raw = call(f"/api/library/search?q={query}&limit=250&prefix={prefix}")
         scoped = json.loads(raw) if status == 200 else {}
         scoped_rows = scoped.get("results", [])
-        check("library-prefix-search", status == 200 and bool(scoped_rows) and all(str(x.get("path", "")).startswith("V7 Knowledge Compendium/EN/") for x in scoped_rows), str(len(scoped_rows)))
+        check("library-prefix-search", status == 200 and bool(scoped_rows) and all(str(x.get("path", "")).startswith("Knowledge Compendium/EN/") for x in scoped_rows), str(len(scoped_rows)))
         bad_prefix = parse.quote("../", safe="")
         status, _, _ = call(f"/api/library/search?q={query}&prefix={bad_prefix}")
         check("library-prefix-traversal-rejected", status == 400, str(status))
@@ -108,7 +109,7 @@ def main() -> int:
         status, _, raw = call("/api/state/restore-previous", "POST", {})
         restored = json.loads(raw)
         check("previous-state-restore", status == 200 and restored.get("profile", {}).get("adults") == 2)
-        check("v7-progress-restore", status == 200 and len(restored.get("knowledge_progress", [])) == 1 and restored.get("knowledge_progress", [{}])[0].get("status") == "reviewed")
+        check("knowledge-progress-restore", status == 200 and len(restored.get("knowledge_progress", [])) == 1 and restored.get("knowledge_progress", [{}])[0].get("status") == "reviewed")
 
         status, _, _ = call("/api/state", "POST", state_a, {"Origin": "https://example.invalid"})
         check("cross-origin-write-rejected", status == 403, str(status))
@@ -139,10 +140,10 @@ def main() -> int:
 
         status, _, raw = call("/api/library/search?q=water&limit=100")
         v7_search = json.loads(raw) if status == 200 else {}
-        v7_search_rows = [x for x in v7_search.get("results", []) if str(x.get("path", "")).startswith("V7 Knowledge Compendium/EN/")] if status == 200 else []
-        check("v7-full-text-search", status == 200 and len(v7_search_rows) > 0, str(len(v7_search_rows)))
+        knowledge_search_rows = [x for x in v7_search.get("results", []) if str(x.get("path", "")).startswith("Knowledge Compendium/EN/")] if status == 200 else []
+        check("knowledge-full-text-search", status == 200 and len(knowledge_search_rows) > 0, str(len(knowledge_search_rows)))
 
-        assets = {"/": "text/html", "/styles.css": "text/css", "/app.js": "javascript", "/v5.js": "javascript", "/v6.js": "javascript", "/v7.js": "javascript", "/phone-test.html": "text/html", "/phone-test.js": "javascript", "/reader.html": "text/html", "/manifest.webmanifest": "manifest", "/sw.js": "javascript"}
+        assets = {"/": "text/html", "/styles.css": "text/css", "/app.js": "javascript", "/field-operations.js": "javascript", "/continuity-operations.js": "javascript", "/knowledge-atlas.js": "javascript", "/phone-test.html": "text/html", "/phone-test.js": "javascript", "/reader.html": "text/html", "/manifest.webmanifest": "manifest", "/sw.js": "javascript"}
         for path, expected in assets.items():
             status, asset_headers, raw = call(path)
             check(f"asset:{path}", status == 200 and len(raw) > 100 and expected in asset_headers.get("Content-Type", ""))
