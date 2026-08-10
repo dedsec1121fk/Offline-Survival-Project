@@ -8,26 +8,34 @@ It combines a curated survival database, a phone-friendly local Command Center, 
 
 ---
 
+## Quick Actions
+
+* ▶ **[Install / Start Here](#installation-and-first-use)**
+* ▶ **[Open The Command Center](#option-3-open-the-full-command-center)**
+* ▶ **[See Main Commands](#main-commands)**
+* ▶ **[Browse The Offline Library](#offline-library)**
+* ▶ **[Read In Greek](#offline-survival-project--ελληνικά)**
+
 ## Table of Contents
 
-* [What The Project Includes](#what-the-project-includes)
-* [Requirements](#requirements)
-* [Before You Start](#before-you-start)
-* [Installation And First Use](#installation-and-first-use)
-* [Main Commands](#main-commands)
-* [One Python Script](#one-python-script)
-* [One Consolidated JSON Database](#one-consolidated-json-database)
-* [Survival Knowledge](#survival-knowledge)
-* [Command Center](#command-center)
-* [Knowledge Compendium](#knowledge-compendium)
-* [Offline Library](#offline-library)
-* [Standalone Survival Reader](#standalone-survival-reader)
-* [Phone Browser Support](#phone-browser-support)
-* [Operational Tools](#operational-tools)
-* [Privacy And Local Storage](#privacy-and-local-storage)
-* [Maintenance](#maintenance)
-* [Important Safety Notes](#important-safety-notes)
-* [Offline Survival Project — Ελληνικά](#offline-survival-project--ελληνικά)
+* ▶ [What The Project Includes](#what-the-project-includes)
+* ▶ [Requirements](#requirements)
+* ▶ [Before You Start](#before-you-start)
+* ▶ [Installation And First Use](#installation-and-first-use)
+* ▶ [Main Commands](#main-commands)
+* ▶ [One Python Script](#one-python-script)
+* ▶ [One Consolidated JSON Database](#one-consolidated-json-database)
+* ▶ [Survival Knowledge](#survival-knowledge)
+* ▶ [Command Center](#command-center)
+* ▶ [Knowledge Compendium](#knowledge-compendium)
+* ▶ [Offline Library](#offline-library)
+* ▶ [Standalone Survival Reader](#standalone-survival-reader)
+* ▶ [Phone Browser Support](#phone-browser-support)
+* ▶ [Operational Tools](#operational-tools)
+* ▶ [Privacy And Local Storage](#privacy-and-local-storage)
+* ▶ [Maintenance](#maintenance)
+* ▶ [Important Safety Notes](#important-safety-notes)
+* ▶ [Offline Survival Project — Ελληνικά](#offline-survival-project--ελληνικά)
 
 ## What The Project Includes
 
@@ -72,6 +80,12 @@ Android | Termux is recommended for the Python launcher and local Command Center
 * Keep live official instructions as the priority whenever official communications are available.
 
 ## Installation And First Use
+
+Choose the path you want:
+
+* ▶ **[Clone From GitHub](#option-1-clone-from-github)** — best when Git is available and you want easy updates.
+* ▶ **[Use A Downloaded ZIP](#option-2-use-a-downloaded-zip)** — best when you already have the project archive.
+* ▶ **[Open The Full Command Center](#option-3-open-the-full-command-center)** — launch the complete local browser interface.
 
 ### Option 1: Clone From GitHub
 
@@ -118,19 +132,19 @@ What this does:
 
 ## Main Commands
 
-* `python "Offline Survival.py"` — open the lightweight terminal knowledge browser.
-* `python "Offline Survival.py" --web` — start the full local Command Center.
-* `python "Offline Survival.py" --reader` — open the standalone bilingual survival reader.
-* `python "Offline Survival.py" --phone-browser-test` — open diagnostics in the phone's installed/default browser.
-* `python "Offline Survival.py" --check` — validate both languages inside the consolidated database and verify mirrored IDs/source groups.
-* `python "Offline Survival.py" --stats` — show database counts.
-* `python "Offline Survival.py" --quality` — detect template filler and repeated narrative patterns.
-* `python "Offline Survival.py" --translations` — verify English/Greek parity.
-* `python "Offline Survival.py" --library-quality` — inspect Library duplication, repeated content, and suspicious similarity.
-* `python "Offline Survival.py" --self-test` — run structural project checks.
-* `python "Offline Survival.py" --api-test` — run localhost API/security smoke tests.
-* `python "Offline Survival.py" --ui-test` — run deterministic UI/state/export logic tests when Node.js is available.
-* `python "Offline Survival.py" --audit` — run the deep source/config/content audit.
+* ▶ `python "Offline Survival.py"` — open the lightweight terminal knowledge browser.
+* ▶ `python "Offline Survival.py" --web` — start the full local Command Center.
+* ▶ `python "Offline Survival.py" --reader` — open the standalone bilingual survival reader.
+* ▶ `python "Offline Survival.py" --phone-browser-test` — open diagnostics in the phone's installed/default browser.
+* ▶ `python "Offline Survival.py" --check` — validate both languages inside the consolidated database and verify mirrored IDs/source groups.
+* ▶ `python "Offline Survival.py" --stats` — show database counts.
+* ▶ `python "Offline Survival.py" --quality` — detect template filler and repeated narrative patterns.
+* ▶ `python "Offline Survival.py" --translations` — verify English/Greek parity.
+* ▶ `python "Offline Survival.py" --library-quality` — inspect Library duplication, repeated content, and suspicious similarity.
+* ▶ `python "Offline Survival.py" --self-test` — run structural project checks.
+* ▶ `python "Offline Survival.py" --api-test` — run localhost API/security smoke tests.
+* ▶ `python "Offline Survival.py" --ui-test` — run deterministic UI/state/export logic tests when Node.js is available.
+* ▶ `python "Offline Survival.py" --audit` — run the deep source/config/content audit.
 
 ## One Python Script
 
@@ -454,24 +468,33 @@ python "Offline Survival.py" --audit
 
 ---
 
+## Γρήγορες Επιλογές
+
+* ▶ **[Εγκατάσταση / Ξεκίνα Εδώ](#εγκατάσταση-και-πρώτη-χρήση)**
+* ▶ **[Άνοιξε Το Command Center](#επιλογή-3-πλήρες-command-center)**
+* ▶ **[Δες Τις Βασικές Εντολές](#βασικές-εντολές)**
+* ▶ **[Άνοιξε Την Offline Library](#offline-library-1)**
+* ▶ **[Επιστροφή Στα Αγγλικά](#offline-survival-project)**
+
 ## Περιεχόμενα
 
-* [Τι Περιλαμβάνει Το Project](#τι-περιλαμβάνει-το-project)
-* [Απαιτήσεις](#απαιτήσεις)
-* [Πριν Ξεκινήσεις](#πριν-ξεκινήσεις)
-* [Εγκατάσταση Και Πρώτη Χρήση](#εγκατάσταση-και-πρώτη-χρήση)
-* [Βασικές Εντολές](#βασικές-εντολές)
-* [Ένα Python Script](#ένα-python-script)
-* [Γνώση Επιβίωσης](#γνώση-επιβίωσης)
-* [Command Center](#command-center-1)
-* [Knowledge Compendium](#knowledge-compendium-1)
-* [Offline Library](#offline-library-1)
-* [Αυτόνομος Survival Reader](#αυτόνομος-survival-reader)
-* [Υποστήριξη Browser Κινητού](#υποστήριξη-browser-κινητού)
-* [Επιχειρησιακά Εργαλεία](#επιχειρησιακά-εργαλεία)
-* [Ιδιωτικότητα Και Τοπική Αποθήκευση](#ιδιωτικότητα-και-τοπική-αποθήκευση)
-* [Συντήρηση](#συντήρηση)
-* [Σημαντικές Σημειώσεις Ασφάλειας](#σημαντικές-σημειώσεις-ασφάλειας)
+* ▶ [Τι Περιλαμβάνει Το Project](#τι-περιλαμβάνει-το-project)
+* ▶ [Απαιτήσεις](#απαιτήσεις)
+* ▶ [Πριν Ξεκινήσεις](#πριν-ξεκινήσεις)
+* ▶ [Εγκατάσταση Και Πρώτη Χρήση](#εγκατάσταση-και-πρώτη-χρήση)
+* ▶ [Βασικές Εντολές](#βασικές-εντολές)
+* ▶ [Ένα Python Script](#ένα-python-script)
+* ▶ [Μία Ενοποιημένη JSON Βάση](#μία-ενοποιημένη-json-βάση)
+* ▶ [Γνώση Επιβίωσης](#γνώση-επιβίωσης)
+* ▶ [Command Center](#command-center-1)
+* ▶ [Knowledge Compendium](#knowledge-compendium-1)
+* ▶ [Offline Library](#offline-library-1)
+* ▶ [Αυτόνομος Survival Reader](#αυτόνομος-survival-reader)
+* ▶ [Υποστήριξη Browser Κινητού](#υποστήριξη-browser-κινητού)
+* ▶ [Επιχειρησιακά Εργαλεία](#επιχειρησιακά-εργαλεία)
+* ▶ [Ιδιωτικότητα Και Τοπική Αποθήκευση](#ιδιωτικότητα-και-τοπική-αποθήκευση)
+* ▶ [Συντήρηση](#συντήρηση)
+* ▶ [Σημαντικές Σημειώσεις Ασφάλειας](#σημαντικές-σημειώσεις-ασφάλειας)
 
 ## Τι Περιλαμβάνει Το Project
 
@@ -516,6 +539,12 @@ Android | Προτείνεται Termux για τον Python launcher και τ�
 * Όταν υπάρχουν ζωντανές επίσημες οδηγίες, αυτές έχουν προτεραιότητα.
 
 ## Εγκατάσταση Και Πρώτη Χρήση
+
+Διάλεξε τη διαδρομή που θέλεις:
+
+* ▶ **[Clone Από GitHub](#επιλογή-1-clone-από-github)** — η καλύτερη επιλογή όταν υπάρχει Git και θέλεις εύκολες ενημερώσεις.
+* ▶ **[Χρήση ZIP](#επιλογή-2-χρήση-zip)** — για όταν έχεις ήδη κατεβάσει το archive του project.
+* ▶ **[Πλήρες Command Center](#επιλογή-3-πλήρες-command-center)** — ανοίγει το πλήρες τοπικό browser interface.
 
 ### Επιλογή 1: Clone Από GitHub
 
@@ -562,19 +591,19 @@ python "Offline Survival.py" --web
 
 ## Βασικές Εντολές
 
-* `python "Offline Survival.py"` — άνοιγμα του ελαφρού terminal knowledge browser.
-* `python "Offline Survival.py" --web` — εκκίνηση του πλήρους τοπικού Command Center.
-* `python "Offline Survival.py" --reader` — άνοιγμα του αυτόνομου δίγλωσσου Survival Reader.
-* `python "Offline Survival.py" --phone-browser-test` — diagnostics μέσα στον εγκατεστημένο/default browser του κινητού.
-* `python "Offline Survival.py" --check` — έλεγχος και των δύο βάσεων και των mirrored IDs/paths.
-* `python "Offline Survival.py" --stats` — εμφάνιση μετρήσεων βάσης.
-* `python "Offline Survival.py" --quality` — εντοπισμός template filler και επαναλαμβανόμενων narrative patterns.
-* `python "Offline Survival.py" --translations` — έλεγχος αντιστοιχίας Αγγλικών/Ελληνικών.
-* `python "Offline Survival.py" --library-quality` — έλεγχος διπλοτύπων και επαναλαμβανόμενου περιεχομένου Library.
-* `python "Offline Survival.py" --self-test` — structural checks του project.
-* `python "Offline Survival.py" --api-test` — localhost API/security smoke tests.
-* `python "Offline Survival.py" --ui-test` — deterministic UI/state/export tests όταν υπάρχει Node.js.
-* `python "Offline Survival.py" --audit` — deep source/config/content audit.
+* ▶ `python "Offline Survival.py"` — άνοιγμα του ελαφρού terminal knowledge browser.
+* ▶ `python "Offline Survival.py" --web` — εκκίνηση του πλήρους τοπικού Command Center.
+* ▶ `python "Offline Survival.py" --reader` — άνοιγμα του αυτόνομου δίγλωσσου Survival Reader.
+* ▶ `python "Offline Survival.py" --phone-browser-test` — diagnostics μέσα στον εγκατεστημένο/default browser του κινητού.
+* ▶ `python "Offline Survival.py" --check` — έλεγχος και των δύο βάσεων και των mirrored IDs/paths.
+* ▶ `python "Offline Survival.py" --stats` — εμφάνιση μετρήσεων βάσης.
+* ▶ `python "Offline Survival.py" --quality` — εντοπισμός template filler και επαναλαμβανόμενων narrative patterns.
+* ▶ `python "Offline Survival.py" --translations` — έλεγχος αντιστοιχίας Αγγλικών/Ελληνικών.
+* ▶ `python "Offline Survival.py" --library-quality` — έλεγχος διπλοτύπων και επαναλαμβανόμενου περιεχομένου Library.
+* ▶ `python "Offline Survival.py" --self-test` — structural checks του project.
+* ▶ `python "Offline Survival.py" --api-test` — localhost API/security smoke tests.
+* ▶ `python "Offline Survival.py" --ui-test` — deterministic UI/state/export tests όταν υπάρχει Node.js.
+* ▶ `python "Offline Survival.py" --audit` — deep source/config/content audit.
 
 ## Ένα Python Script
 
