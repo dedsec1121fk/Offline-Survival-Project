@@ -17,6 +17,7 @@
 ## State And Backups
 
 - State collections are bounded and sanitized before persistence.
+- Concurrent Command Center state-file reads, writes, and backup restores are serialized with a process-local re-entrant lock; writes still use atomic replacement.
 - Full backups can contain sensitive household data.
 - Local state/backups are plaintext unless protected by device or filesystem encryption.
 - The project does not include built-in user authentication.
@@ -54,6 +55,7 @@
 ## Κατάσταση Και Backups
 
 - Οι συλλογές κατάστασης έχουν όρια και καθαρίζονται πριν την αποθήκευση.
+- Οι ταυτόχρονες αναγνώσεις, εγγραφές και επαναφορές αντιγράφων της τοπικής κατάστασης σειριοποιούνται με επανεισερχόμενο κλείδωμα διεργασίας, ενώ οι εγγραφές εξακολουθούν να χρησιμοποιούν ατομική αντικατάσταση αρχείου.
 - Τα πλήρη backups μπορεί να περιέχουν ευαίσθητα δεδομένα νοικοκυριού.
 - Η τοπική κατάσταση και τα backups είναι plaintext εκτός αν προστατεύονται από κρυπτογράφηση συσκευής ή filesystem.
 - Δεν υπάρχει ενσωματωμένη αυθεντικοποίηση χρηστών.

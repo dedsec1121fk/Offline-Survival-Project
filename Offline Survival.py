@@ -1601,10 +1601,10 @@ def main() -> int:
         return 1
 
 # ---------------------------------------------------------------------------
-# Integrated local web server and maintenance/audit helpers.
-# MAINTENANCE: These helpers intentionally live in this file so the project
-# ships exactly one Python script. Keep feature-specific browser code in /web
-# and keep user knowledge in the bilingual JSON/Markdown data stores.
+# Integrated local web server and maintenance/audit components.
+# MAINTENANCE: The component source stays bundled so the repository ships one
+# Python script, while _IntegratedComponentRuntime executes each component in a
+# separate interpreter. Keep browser code in /web and knowledge in data stores.
 # ---------------------------------------------------------------------------
 
 import os as _osp_os
@@ -1702,7 +1702,12 @@ def _consolidated_embedded_tool_source(name: str, source: str) -> str:
 
 
 def _consolidated_web_source(source: str) -> str:
-    """Point Command Center diagnostics at the monolithic database file."""
+    """Adapt the bundled Command Center to the consolidated release layout.
+
+    The server source is kept embedded so the repository still ships one Python
+    file, but runtime concerns are patched centrally here before the component is
+    launched in its own interpreter.
+    """
     old = """        for code in ("en", "el"):
             root = DATABASE.language_root(code)
             add(f"database_{code}", root.is_dir(), str(root))
@@ -1718,19 +1723,199 @@ def _consolidated_web_source(source: str) -> str:
 """
     if old not in source:
         raise RuntimeError("Could not adapt Command Center diagnostics to consolidated database")
-    return source.replace(old, new, 1)
+    source = source.replace(old, new, 1)
+
+    lock_anchor = "_KIWIX_LOCK = threading.Lock()\n_INTEGRITY_LOCK = threading.Lock()\n"
+    if lock_anchor not in source:
+        raise RuntimeError("Could not install Command Center state lock")
+    source = source.replace(
+        lock_anchor,
+        lock_anchor + "_STATE_LOCK = threading.RLock()\n",
+        1,
+    )
+
+    old_load = """def load_state() -> dict[str, Any]:
+    saved = safe_json_read(STATE_FILE, {})
+    if not isinstance(saved, dict):
+        saved = {}
+    # Run old and new state through one sanitizer so schema upgrades stay safe.
+    try:
+        return sanitize_state(saved)
+    except ValueError:
+        return sanitize_state({})
+"""
+    new_load = """def load_state() -> dict[str, Any]:
+    # ThreadingHTTPServer can serve multiple browser requests concurrently.
+    # Serialize state-file access so readers never race an atomic replacement.
+    with _STATE_LOCK:
+        saved = safe_json_read(STATE_FILE, {})
+    if not isinstance(saved, dict):
+        saved = {}
+    # Run old and new state through one sanitizer so schema upgrades stay safe.
+    try:
+        return sanitize_state(saved)
+    except ValueError:
+        return sanitize_state({})
+"""
+    if old_load not in source:
+        raise RuntimeError("Could not harden Command Center state reads")
+    source = source.replace(old_load, new_load, 1)
+
+    old_save = """def save_state(candidate: Any) -> dict[str, Any]:
+    state = sanitize_state(candidate)
+    state["schema_version"] = SCHEMA_VERSION
+    state["updated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    temp = STATE_FILE.with_suffix(".tmp")
+    temp.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    if STATE_FILE.is_file():
+        try:
+            shutil.copy2(STATE_FILE, STATE_PREVIOUS_FILE)
+        except OSError:
+            pass
+    temp.replace(STATE_FILE)
+    return state
 
 
-def _exec_embedded(source: str, label: str, fake_path: Path) -> dict[str, Any]:
-    """Execute a bundled maintenance component in an isolated module namespace."""
-    import types
-    module_name = f"_offline_survival_{label}"
-    module = types.ModuleType(module_name)
-    module.__file__ = str(fake_path)
-    module.__package__ = None
-    sys.modules[module_name] = module
-    exec(compile(source, f"<embedded:{label}>", "exec"), module.__dict__, module.__dict__)
-    return module.__dict__
+def restore_previous_state() -> dict[str, Any]:
+    if not STATE_PREVIOUS_FILE.is_file():
+        raise ValueError("No previous state backup is available")
+    return save_state(safe_json_read(STATE_PREVIOUS_FILE, {}))
+"""
+    new_save = """def save_state(candidate: Any) -> dict[str, Any]:
+    state = sanitize_state(candidate)
+    state["schema_version"] = SCHEMA_VERSION
+    state["updated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    with _STATE_LOCK:
+        STATE_DIR.mkdir(parents=True, exist_ok=True)
+        temp = STATE_FILE.with_suffix(".tmp")
+        temp.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+        if STATE_FILE.is_file():
+            try:
+                shutil.copy2(STATE_FILE, STATE_PREVIOUS_FILE)
+            except OSError:
+                pass
+        temp.replace(STATE_FILE)
+    return state
+
+
+def restore_previous_state() -> dict[str, Any]:
+    # RLock permits restore_previous_state() to reuse save_state() safely.
+    with _STATE_LOCK:
+        if not STATE_PREVIOUS_FILE.is_file():
+            raise ValueError("No previous state backup is available")
+        previous = safe_json_read(STATE_PREVIOUS_FILE, {})
+        return save_state(previous)
+"""
+    if old_save not in source:
+        raise RuntimeError("Could not harden Command Center state writes")
+    return source.replace(old_save, new_save, 1)
+
+
+class _IntegratedComponentRuntime:
+    """Run bundled Python components without injecting them into this process.
+
+    The release intentionally contains one Python file. Maintenance tools and the
+    local server therefore remain embedded as source text, but each component is
+    executed by a fresh Python interpreter over stdin. This keeps imports, globals,
+    failures, argparse state, and server lifetime isolated from the terminal app.
+    No temporary .py files are created in the repository.
+    """
+
+    ROOT_ENV = "OFFLINE_SURVIVAL_PROJECT_ROOT"
+    PARENT_ENV = "OFFLINE_SURVIVAL_PARENT_PID"
+
+    @classmethod
+    def prepare_source(cls, source: str, *, long_running: bool = False) -> str:
+        source, root_count = re.subn(
+            r"(?m)^ROOT\s*=\s*Path\(__file__\)\.resolve\(\)\.parents\[1\]\s*$",
+            f'ROOT = Path(__import__("os").environ["{cls.ROOT_ENV}"])',
+            source,
+            count=1,
+        )
+        source, project_count = re.subn(
+            r"(?m)^PROJECT_ROOT\s*=\s*Path\(__file__\)\.resolve\(\)\.parent\s*$",
+            f'PROJECT_ROOT = Path(__import__("os").environ["{cls.ROOT_ENV}"])',
+            source,
+            count=1,
+        )
+        if not (root_count or project_count):
+            raise RuntimeError("Integrated component has no recognized project-root declaration")
+
+        if long_running:
+            source += f'''\n\n# If the launcher is killed externally, do not leave an orphan local server.\ndef _osp_runtime_watch_parent() -> None:\n    _os = __import__("os")\n    _time = __import__("time")\n    try:\n        expected = int(_os.environ.get("{cls.PARENT_ENV}", "0"))\n    except ValueError:\n        expected = 0\n    if expected <= 0:\n        return\n    while _os.getppid() == expected:\n        _time.sleep(0.25)\n    _os._exit(0)\n\n__import__("threading").Thread(target=_osp_runtime_watch_parent, daemon=True).start()\n'''
+
+        if re.search(r"(?m)^def main\s*\(", source) and not re.search(
+            r"if\s+__name__\s*==\s*['\"]__main__['\"]", source
+        ):
+            source += '\nif __name__ == "__main__":\n    raise SystemExit(main())\n'
+        return source
+
+    @classmethod
+    def run(
+        cls,
+        label: str,
+        source: str,
+        argv: Sequence[str] = (),
+        *,
+        long_running: bool = False,
+    ) -> int:
+        prepared = cls.prepare_source(source, long_running=long_running)
+        env = _osp_os.environ.copy()
+        env[cls.ROOT_ENV] = str(PROJECT_ROOT)
+        # The web component imports the core script for OfflineDatabase. Never let
+        # that runtime-only import create __pycache__ inside the distribution.
+        env["PYTHONDONTWRITEBYTECODE"] = "1"
+        command = [sys.executable, "-", *map(str, argv)]
+
+        if not long_running:
+            completed = _osp_subprocess.run(
+                command,
+                input=prepared,
+                text=True,
+                cwd=PROJECT_ROOT,
+                env=env,
+            )
+            return int(completed.returncode)
+
+        env[cls.PARENT_ENV] = str(_osp_os.getpid())
+        popen_kwargs: dict[str, Any] = {
+            "stdin": _osp_subprocess.PIPE,
+            "text": True,
+            "cwd": PROJECT_ROOT,
+            "env": env,
+        }
+        if _osp_os.name != "nt":
+            popen_kwargs["start_new_session"] = True
+        process = _osp_subprocess.Popen(command, **popen_kwargs)
+        assert process.stdin is not None
+        try:
+            process.stdin.write(prepared)
+            process.stdin.close()
+            return int(process.wait())
+        except KeyboardInterrupt:
+            if process.poll() is None:
+                try:
+                    if _osp_os.name != "nt":
+                        import signal
+                        _osp_os.killpg(process.pid, signal.SIGINT)
+                    else:
+                        process.terminate()
+                except (OSError, ProcessLookupError):
+                    pass
+            try:
+                return int(process.wait(timeout=3))
+            except _osp_subprocess.TimeoutExpired:
+                process.kill()
+                return int(process.wait())
+        finally:
+            if process.poll() is None:
+                process.terminate()
+                try:
+                    process.wait(timeout=2)
+                except _osp_subprocess.TimeoutExpired:
+                    process.kill()
+                    process.wait()
 
 
 def run_embedded_tool(name: str) -> int:
@@ -1738,34 +1923,20 @@ def run_embedded_tool(name: str) -> int:
     if source is None:
         print(f"Unknown integrated tool: {name}", file=sys.stderr)
         return 2
-    source = _consolidated_embedded_tool_source(name, source)
-    namespace = _exec_embedded(source, name, PROJECT_ROOT / "tools" / f"{name}.embedded")
-    entry = namespace.get("main")
-    if not callable(entry):
-        print(f"Integrated tool has no entry point: {name}", file=sys.stderr)
-        return 2
-    previous_argv = sys.argv[:]
-    try:
-        sys.argv = [str(PROJECT_ROOT / "Offline Survival.py")]
-        try:
-            result = entry()
-        except SystemExit as exc:
-            result = exc.code
-    finally:
-        sys.argv = previous_argv
-    return int(result or 0)
+    return _IntegratedComponentRuntime.run(
+        name,
+        _consolidated_embedded_tool_source(name, source),
+    )
 
 
 def run_local_command_center(argv: list[str] | None = None) -> int:
-    """Run the bundled localhost server from this single Python file."""
-    web_source = _consolidated_web_source(_EMBEDDED_WEB_SOURCE)
-    namespace = _exec_embedded(web_source, "local_web", PROJECT_ROOT / "Offline Survival.py")
-    entry = namespace.get("main")
-    if not callable(entry):
-        print("The integrated local Command Center could not start.", file=sys.stderr)
-        return 2
-    return int(entry(list(argv or [])) or 0)
-
+    """Run the bundled localhost server in an isolated Python interpreter."""
+    return _IntegratedComponentRuntime.run(
+        "local_web",
+        _consolidated_web_source(_EMBEDDED_WEB_SOURCE),
+        list(argv or []),
+        long_running=True,
+    )
 
 def _phone_assets_test() -> tuple[bool, str]:
     """Static checks for the Android/default-browser path with no shell launchers."""
@@ -1831,7 +2002,6 @@ def _standalone_reader_test() -> int:
 
 def integrated_self_test() -> int:
     """Structural release gate for the single-script distribution."""
-    import py_compile
     results: list[tuple[str, bool, str]] = []
     def check(name: str, ok: bool, detail: str = "") -> None:
         results.append((name, bool(ok), detail))
@@ -1864,10 +2034,19 @@ def integrated_self_test() -> int:
     json_files = sorted(PROJECT_ROOT.rglob("*.json"))
     check("single-json-database", json_files == [PROJECT_ROOT / "Offline Survival Database.json"], ", ".join(str(p.relative_to(PROJECT_ROOT)) for p in json_files))
     try:
-        py_compile.compile(str(PROJECT_ROOT / "Offline Survival.py"), doraise=True)
+        script_path = PROJECT_ROOT / "Offline Survival.py"
+        compile(script_path.read_text(encoding="utf-8"), str(script_path), "exec")
         check("python-syntax", True)
     except Exception as exc:
         check("python-syntax", False, str(exc))
+
+    generated_bytecode = sorted(PROJECT_ROOT.rglob("*.pyc"))
+    cache_dirs = sorted(path for path in PROJECT_ROOT.rglob("__pycache__") if path.is_dir())
+    check(
+        "no-generated-python-bytecode",
+        not generated_bytecode and not cache_dirs,
+        ", ".join(str(path.relative_to(PROJECT_ROOT)) for path in [*cache_dirs, *generated_bytecode]),
+    )
 
     report = OfflineDatabase().integrity_report()
     check("database-integrity", bool(report.get("ok")), f"EN {report['languages']['en']['records']} / EL {report['languages']['el']['records']}")
@@ -1990,6 +2169,13 @@ def integrated_deep_audit() -> int:
     py_files=sorted(PROJECT_ROOT.rglob("*.py"))
     if py_files != [PROJECT_ROOT / "Offline Survival.py"]:
         findings.append("Expected exactly one Python script: Offline Survival.py")
+    generated_bytecode = sorted(PROJECT_ROOT.rglob("*.pyc"))
+    cache_dirs = sorted(path for path in PROJECT_ROOT.rglob("__pycache__") if path.is_dir())
+    if generated_bytecode or cache_dirs:
+        findings.append(
+            "Generated Python bytecode/cache should not ship: "
+            + ", ".join(str(path.relative_to(PROJECT_ROOT)) for path in [*cache_dirs, *generated_bytecode])
+        )
     sh_files=sorted(PROJECT_ROOT.rglob("*.sh"))
     if sh_files:
         findings.append("Shell launchers should be integrated into Offline Survival.py: "+", ".join(str(p.relative_to(PROJECT_ROOT)) for p in sh_files))

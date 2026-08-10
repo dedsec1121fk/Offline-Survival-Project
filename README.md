@@ -202,6 +202,8 @@ That single Python script contains the Python-side functionality for:
 * deep audit checks;
 * standalone-reader QA support.
 
+Bundled Python maintenance/server components are launched in isolated child interpreters instead of being injected into the terminal application's interpreter. This keeps their imports, globals, command-line parsing, failures, and long-running server lifecycle separated while preserving the one-script repository layout. Runtime component imports also disable Python bytecode output so normal QA/server use does not create `__pycache__` in the project.
+
 Browser interface code remains in normal HTML, CSS, and JavaScript assets so it stays maintainable and can be inspected independently.
 
 
