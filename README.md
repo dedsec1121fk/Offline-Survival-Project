@@ -45,7 +45,9 @@ It combines a curated survival database, a phone-friendly local Command Center, 
 * **English + Greek support** across the main database, interface, Knowledge Compendium, paired Library collections, and current documentation.
 * **250 detailed Knowledge Compendium subjects per language.**
 * **871 curated database records per language.**
-* **792 Offline Library files** with paired bilingual collections and local full-text search.
+* **792 Offline Library files** with paired bilingual collections and ranked local full-text search.
+* **Smart offline search** with weighted relevance, natural-language queries, bilingual aliases, Greek accent/transliteration handling, concept synonyms, typo tolerance, quoted phrases, exclusions, and `category:`, `tag:`, `priority:`, `urgency:`, `difficulty:`, and `id:` filters.
+* **Detailed record maps** generated from each record’s existing evidence: available guidance sections, action points, risk/stop signals, fallbacks, source domains, key concepts, and section counts without inventing filler.
 * **32+ Command Center sections** for practical household emergency operations.
 * **Standalone Survival Reader** containing the complete bilingual Knowledge Compendium in one local HTML file.
 * **One Python script only:** `Offline Survival.py`.
@@ -172,6 +174,28 @@ What this does:
 * `python "Offline Survival.py" --api-test` — run localhost API/security smoke tests.
 * `python "Offline Survival.py" --ui-test` — run deterministic UI/state/export logic tests when Node.js is available.
 * `python "Offline Survival.py" --audit` — run the deep source/config/content audit.
+
+
+</details>
+
+<a id="smart-search"></a>
+<details>
+<summary><strong>Smart Search</strong></summary>
+
+
+The terminal browser, Command Center database search, Library full-text search, and standalone Reader now use ranked local search instead of simple literal matching. Everything remains offline.
+
+Examples:
+
+* `how do I store drinking water safely` — natural-language ranking.
+* `waterr storag` — typo-tolerant search.
+* `"carbon monoxide" outage` — require an exact quoted phrase.
+* `priority:high blackout` — restrict results by metadata.
+* `tag:outage -generator` — search a tag while excluding records containing a term.
+* `category:"Water · Storage" rotation` — combine a structured filter and free text.
+* In Greek mode, English queries can use the paired English record as a secondary alias, while Greek accents and common Latin transliterations are normalized for matching.
+
+Search ranking gives the strongest weight to IDs and titles, then category/subcategory/tags/summary, followed by detailed guidance fields and source paths. Browser results show why a result matched when useful.
 
 
 </details>
@@ -608,7 +632,9 @@ python "Offline Survival.py" --audit
 * **Πλήρη υποστήριξη Αγγλικών + Ελληνικών** στη βασική βάση, στο interface, στο Knowledge Compendium, στις ζευγαρωμένες συλλογές της Library και στην τρέχουσα τεκμηρίωση.
 * **250 αναλυτικά θέματα Knowledge Compendium ανά γλώσσα.**
 * **871 επιμελημένες εγγραφές βάσης ανά γλώσσα.**
-* **792 αρχεία Offline Library** με δίγλωσσα ζεύγη και τοπική αναζήτηση πλήρους κειμένου.
+* **792 αρχεία Offline Library** με δίγλωσσα ζεύγη και ταξινομημένη τοπική αναζήτηση πλήρους κειμένου.
+* **Έξυπνη offline αναζήτηση** με σταθμισμένη συνάφεια, φυσικές ερωτήσεις, δίγλωσσα aliases, χειρισμό ελληνικών τόνων/μεταγραφής, συνώνυμα εννοιών, ανοχή σε ορθογραφικά λάθη, φράσεις σε εισαγωγικά, εξαιρέσεις και φίλτρα `category:`, `tag:`, `priority:`, `urgency:`, `difficulty:` και `id:`.
+* **Αναλυτικός χάρτης για κάθε εγγραφή** από τα ήδη υπάρχοντα στοιχεία της: διαθέσιμες ενότητες, βασικά σημεία, κίνδυνοι/σημεία διακοπής, εναλλακτικές, domains πηγών, βασικές έννοιες και μετρήσεις ενοτήτων χωρίς τεχνητό filler.
 * **32+ ενότητες Command Center** για πραγματική οργάνωση έκτακτης ανάγκης.
 * **Standalone Survival Reader** με ολόκληρο το δίγλωσσο Knowledge Compendium σε ένα τοπικό HTML αρχείο.
 * **Μόνο ένα Python script:** `Offline Survival.py`.
@@ -735,6 +761,27 @@ python "Offline Survival.py" --web
 * `python "Offline Survival.py" --api-test` — localhost API/security smoke tests.
 * `python "Offline Survival.py" --ui-test` — deterministic UI/state/export tests όταν υπάρχει Node.js.
 * `python "Offline Survival.py" --audit` — deep source/config/content audit.
+
+
+</details>
+
+<a id="έξυπνη-αναζήτηση"></a>
+<details>
+<summary><strong>Έξυπνη Αναζήτηση</strong></summary>
+
+
+Το terminal browser, η αναζήτηση βάσης του Command Center, η πλήρης αναζήτηση του Offline Library και ο αυτόνομος Reader χρησιμοποιούν πλέον ταξινομημένη τοπική αναζήτηση αντί για απλή κυριολεκτική αντιστοίχιση. Όλα παραμένουν offline.
+
+Παραδείγματα:
+
+* `πως αποθηκευω ποσιμο νερο με ασφαλεια` — αναζήτηση φυσικής γλώσσας.
+* `nero apothikefsi` — κοινή λατινική μεταγραφή ελληνικών.
+* `"μονοξείδιο άνθρακα" διακοπή` — υποχρεωτική ακριβής φράση.
+* `priority:high διακοπη` — περιορισμός βάσει metadata.
+* `tag:outage -generator` — φίλτρο ετικέτας με εξαίρεση όρου.
+* Στην ελληνική λειτουργία μπορούν επίσης να χρησιμοποιούνται αγγλικοί όροι μέσω της αντιστοιχισμένης αγγλικής εγγραφής.
+
+Η κατάταξη δίνει μεγαλύτερο βάρος σε ID και τίτλο, μετά σε κατηγορία/υποκατηγορία/ετικέτες/σύνοψη και στη συνέχεια στα αναλυτικά πεδία και στις διαδρομές πηγών. Στο browser εμφανίζεται, όπου είναι χρήσιμο, και ο λόγος αντιστοίχισης.
 
 
 </details>

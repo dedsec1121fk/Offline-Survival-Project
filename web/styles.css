@@ -42,3 +42,6 @@ button,input,textarea{font:inherit}button{cursor:pointer}.shell{display:grid;gri
 
 /* MAINTENANCE: operational summaries */
 .mini-stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;min-width:0}.mini-stat small{display:block;color:var(--muted);font-size:.78rem}.mini-stat strong{display:block;margin-top:4px;font-size:1.35rem;overflow-wrap:anywhere}
+
+/* Detailed record map: derived only from fields already present in each record. */
+.detail-grid{display:grid;gap:10px}.detail-item{border:1px solid var(--line);border-radius:10px;padding:10px;background:color-mix(in srgb,var(--panel) 94%,transparent)}.detail-item>strong{display:block;margin-bottom:6px;text-transform:capitalize}.detail-item p{margin:4px 0}.detail-item ol{margin:6px 0 0;padding-left:22px}
