@@ -152,3 +152,8 @@ Safety-critical claims were checked against authoritative sources available duri
 - 218. Urban debris: protective footwear, overhead hazards, glass/nails, and safer foot routes
 - 219. Evacuation-center arrival: registration, medicines, accessibility, identity privacy, and daily review
 - 220. Offline knowledge maintenance: quarterly drills, authoritative refresh, backups, and anti-filler release rules
+
+## 221–250 — Trauma boundaries, field movement, community operations, and long recovery
+Chapters 221–230 deepen bite/sting follow-up, head and spinal injury boundaries, concussion observation, electrical shock, smoke exposure, circulatory shock, collapsed structures, damaged-building re-entry, and rapid evacuation after dam or levee failure. Chapters 231–245 cover drought water budgeting, dense fog, ice storms, volcanic hazards, high surf, lost-person decisions, campsite selection, emergency bivouac, wilderness fire control, stream crossings, mountain thunderstorms, whiteout navigation, desert heat travel, backcountry water, and wildlife attractant control. Chapters 246–250 extend the guide into privacy-aware welfare checks, volunteer accountability, relief distribution, long-outage cleaning, and disciplined long-term recovery.
+
+These chapters use explicit stop rules and escalation boundaries because field failures often begin when a group continues moving, entering, cleaning, repairing, or rescuing after its information or competence has become inadequate. Local authorities, emergency services, qualified clinicians, utilities, engineers, and current hazard orders remain authoritative for decisions that exceed household capability.

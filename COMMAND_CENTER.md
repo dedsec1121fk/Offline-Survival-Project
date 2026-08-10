@@ -2,6 +2,13 @@
 
 The Command Center is the local operational interface for Offline Survival Project.
 
+## Simplified Project Structure
+
+- `Offline Survival.py` is the only Python script and handles startup, reader launch, phone-browser diagnostics, validation, and the local server;
+- there are no `.sh` launchers;
+- `Offline Survival Database.json` is the only repository `.json` file and contains both language datasets plus maintenance metadata;
+- the old category/file organization is preserved internally as virtual source groups.
+
 ## Main Areas
 
 - emergency lookup and verified essentials;
@@ -17,7 +24,7 @@ The Command Center is the local operational interface for Offline Survival Proje
 
 ## Knowledge Atlas
 
-- indexes 220 bilingual survival subjects;
+- indexes 250 bilingual survival subjects;
 - searches the local Knowledge Compendium without an external search service;
 - supports domain shortcuts and full-text search;
 - tracks reviewed and review-later chapters locally;
@@ -47,7 +54,7 @@ The diagnostic page checks the browser actually in use. Results stay local.
 python "Offline Survival.py" --reader
 ```
 
-`Offline Survival Reader.html` embeds all 220 English and 220 Greek Knowledge Compendium chapters in one file and has no runtime network dependency.
+`Offline Survival Reader.html` embeds all 250 English and 250 Greek Knowledge Compendium chapters in one file and has no runtime network dependency.
 
 ## Operational Privacy
 
@@ -61,6 +68,13 @@ python "Offline Survival.py" --reader
 # Command Center — Ελληνικά
 
 Το Command Center είναι η τοπική επιχειρησιακή διεπαφή του Offline Survival Project.
+
+## Απλοποιημένη Δομή Project
+
+- το `Offline Survival.py` είναι το μοναδικό Python script και χειρίζεται εκκίνηση, Reader, phone-browser diagnostics, validation και local server,
+- δεν υπάρχουν `.sh` launchers,
+- το `Offline Survival Database.json` είναι το μοναδικό `.json` αρχείο του repository και περιέχει και τις δύο γλώσσες μαζί με maintenance metadata,
+- η παλιά οργάνωση κατηγοριών/αρχείων διατηρείται εσωτερικά ως virtual source groups.
 
 ## Βασικές Περιοχές
 
@@ -77,7 +91,7 @@ python "Offline Survival.py" --reader
 
 ## Άτλας Γνώσης
 
-- ευρετηριάζει 220 δίγλωσσα θέματα επιβίωσης,
+- ευρετηριάζει 250 δίγλωσσα θέματα επιβίωσης,
 - αναζητεί τοπικά τη Συλλογή Γνώσης χωρίς εξωτερική υπηρεσία,
 - υποστηρίζει θεματικές συντομεύσεις και πλήρη αναζήτηση κειμένου,
 - αποθηκεύει τοπικά κατάσταση μελέτης/μελέτης αργότερα,
@@ -105,7 +119,7 @@ python "Offline Survival.py" --phone-browser-test
 python "Offline Survival.py" --reader
 ```
 
-Το `Offline Survival Reader.html` ενσωματώνει 220 αγγλικά και 220 ελληνικά κεφάλαια της Συλλογής Γνώσης σε ένα αρχείο και δεν χρειάζεται δίκτυο κατά την εκτέλεση.
+Το `Offline Survival Reader.html` ενσωματώνει 250 αγγλικά και 250 ελληνικά κεφάλαια της Συλλογής Γνώσης σε ένα αρχείο και δεν χρειάζεται δίκτυο κατά την εκτέλεση.
 
 ## Επιχειρησιακή Ιδιωτικότητα
 

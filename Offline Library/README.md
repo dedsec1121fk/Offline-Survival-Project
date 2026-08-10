@@ -4,11 +4,11 @@ The Offline Library is the local document collection used by the Command Center 
 
 ## Contents
 
-- 732 local Library files;
-- 365 paired English documents;
-- 365 paired Greek documents;
+- 792 local Library files;
+- 395 paired English documents;
+- 395 paired Greek documents;
 - 10 bilingual collections;
-- 220 Knowledge Compendium chapters plus one index per language;
+- 250 Knowledge Compendium chapters plus one index per language;
 - optional binary/Kiwix reference material.
 
 ## Local Search
@@ -39,11 +39,11 @@ The Offline Library is the local document collection used by the Command Center 
 
 ## Περιεχόμενα
 
-- 732 τοπικά αρχεία Library,
-- 365 ζευγαρωμένα αγγλικά έγγραφα,
-- 365 ζευγαρωμένα ελληνικά έγγραφα,
+- 792 τοπικά αρχεία Library,
+- 395 ζευγαρωμένα αγγλικά έγγραφα,
+- 395 ζευγαρωμένα ελληνικά έγγραφα,
 - 10 δίγλωσσες συλλογές,
-- 220 κεφάλαια Συλλογής Γνώσης και ένα ευρετήριο ανά γλώσσα,
+- 250 κεφάλαια Συλλογής Γνώσης και ένα ευρετήριο ανά γλώσσα,
 - προαιρετικό δυαδικό/Kiwix υλικό αναφοράς.
 
 ## Τοπική Αναζήτηση
