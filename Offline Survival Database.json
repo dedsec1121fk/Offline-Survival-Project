@@ -37122,6 +37122,827 @@
               "last_updated": "2026-06-18"
             }
           ]
+        },
+        {
+          "path": "Resilience - Failure modes/Failure mode response cards.json",
+          "records": [
+            {
+              "id": "failuremode-0001-grid-power-cascade",
+              "language": "English",
+              "title": "Cascading grid-power failure",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "A short outage has become a wider unstable loss of power that affects several unrelated household systems at once.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "grid-power-cascade"
+              ],
+              "materials": [
+                "local record for backup load",
+                "fallback reference for manual release"
+              ],
+              "steps": [
+                "Compare breaker with power bank and record the first confirmed change.",
+                "Move the affected task to the fallback represented by manual release, then set a review point using backup load."
+              ],
+              "related_topics": [
+                "breaker",
+                "manual release",
+                "restart"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0002-mobile-network-loss",
+              "language": "English",
+              "title": "Mobile-network loss",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Calls, messages and mobile data are no longer dependable enough to carry accountability, routing and official updates.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "mobile-network-loss"
+              ],
+              "materials": [
+                "local record for contact card",
+                "fallback reference for radio bulletin"
+              ],
+              "steps": [
+                "Use mobile data and check-in window to verify that the original assumption has failed.",
+                "Protect battery reserve while testing the alternate path through radio bulletin; document the outcome beside accountability."
+              ],
+              "related_topics": [
+                "voice call",
+                "radio bulletin",
+                "accountability"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0003-water-pressure-loss",
+              "language": "English",
+              "title": "Loss of water pressure",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Normal tap flow has failed, so ordinary household water use must switch to measured stored water and verified alternatives.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "water-pressure-loss"
+              ],
+              "materials": [
+                "local record for flush guidance",
+                "fallback reference for sanitation reserve"
+              ],
+              "steps": [
+                "Mark tap pressure unavailable when its condition can be confirmed without entering the hazard.",
+                "Reassign the immediate objective around boil notice and main break, then verify the new dependency at discoloured water."
+              ],
+              "related_topics": [
+                "tap pressure",
+                "sanitation reserve",
+                "alternate source"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0004-refrigeration-loss",
+              "language": "English",
+              "title": "Refrigeration loss",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "The refrigerator or freezer can no longer maintain controlled cold conditions for food or temperature-sensitive supplies.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "refrigeration-loss"
+              ],
+              "materials": [
+                "local record for temperature log",
+                "fallback reference for discard list"
+              ],
+              "steps": [
+                "Reconcile the latest observation of outage clock with the record for cooler.",
+                "Choose the safest independent substitute involving discard list and note what must be rechecked at leak cleanup."
+              ],
+              "related_topics": [
+                "appliance thermometer",
+                "discard list",
+                "leak cleanup"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0005-elevator-access-loss",
+              "language": "English",
+              "title": "Elevator and powered-access loss",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "A lift, powered gate or other assisted access point is unavailable and the normal route may no longer work for every household member.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "elevator-access-loss"
+              ],
+              "materials": [
+                "local record for alternate entrance",
+                "fallback reference for responder access"
+              ],
+              "steps": [
+                "Separate confirmed facts about lift landing from assumptions about accessible exit before changing the plan.",
+                "After activating mobility device, update alternate entrance so another person can understand why the fallback is in use."
+              ],
+              "related_topics": [
+                "lift landing",
+                "responder access",
+                "meeting point"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0006-battery-reserve-exhaustion",
+              "language": "English",
+              "title": "Battery-reserve exhaustion",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Stored electrical energy is being consumed faster than planned and cannot support every communication and monitoring device.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "battery-reserve-exhaustion"
+              ],
+              "materials": [
+                "local record for runtime note",
+                "fallback reference for radio window"
+              ],
+              "steps": [
+                "Check whether cable match has changed the availability of power bank and low-power mode.",
+                "If the primary path is lost, shift to radio window and schedule a fresh verification around spare adapter."
+              ],
+              "related_topics": [
+                "power bank",
+                "radio window",
+                "spare adapter"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0007-generator-unavailable",
+              "language": "English",
+              "title": "Generator unavailable or unusable",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "The generator expected in the backup plan cannot be started, reached or operated safely under current conditions.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "generator-unavailable"
+              ],
+              "materials": [
+                "local record for weather exposure",
+                "fallback reference for transfer equipment"
+              ],
+              "steps": [
+                "Compare generator fault with outdoor position and record the first confirmed change.",
+                "Move the affected task to the fallback represented by transfer equipment, then set a review point using weather exposure."
+              ],
+              "related_topics": [
+                "generator fault",
+                "transfer equipment",
+                "backup load"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0008-fuel-supply-loss",
+              "language": "English",
+              "title": "Fuel-supply loss",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Fuel assumed for transport or approved backup equipment is unavailable or below the quantity used by the continuity plan.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "fuel-supply-loss"
+              ],
+              "materials": [
+                "local record for vehicle range",
+                "fallback reference for ventilation"
+              ],
+              "steps": [
+                "Use fuel type and route distance to verify that the original assumption has failed.",
+                "Protect ignition source while testing the alternate path through ventilation; document the outcome beside storage check."
+              ],
+              "related_topics": [
+                "station outage",
+                "ventilation",
+                "storage check"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0009-primary-route-blocked",
+              "language": "English",
+              "title": "Primary evacuation route blocked",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "The normal path to leave or reach a meeting point is blocked, officially closed or exposed to a current hazard.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "primary-route-blocked"
+              ],
+              "materials": [
+                "local record for debris field",
+                "fallback reference for meeting point"
+              ],
+              "steps": [
+                "Mark road closure unavailable when its condition can be confirmed without entering the hazard.",
+                "Reassign the immediate objective around smoke corridor and route timestamp, then verify the new dependency at accessibility check."
+              ],
+              "related_topics": [
+                "road closure",
+                "meeting point",
+                "official detour"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0010-vehicle-disabled",
+              "language": "English",
+              "title": "Planned vehicle disabled",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "The vehicle assigned to evacuation, resupply or dependent transport cannot be used safely or cannot leave its location.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "vehicle-disabled"
+              ],
+              "materials": [
+                "local record for load limit",
+                "fallback reference for alternate driver"
+              ],
+              "steps": [
+                "Reconcile the latest observation of starter fault with the record for fuel gauge.",
+                "Choose the safest independent substitute involving alternate driver and note what must be rechecked at departure check."
+              ],
+              "related_topics": [
+                "vehicle key",
+                "alternate driver",
+                "departure check"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0011-shelter-overcapacity",
+              "language": "English",
+              "title": "Shelter overcapacity",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "The planned shelter or host site cannot safely accommodate the people, dependents, accessibility needs or supplies now arriving.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "shelter-overcapacity"
+              ],
+              "materials": [
+                "local record for sleeping area",
+                "fallback reference for accountability list"
+              ],
+              "steps": [
+                "Separate confirmed facts about capacity notice from assumptions about accessible space before changing the plan.",
+                "After activating host contact, update sleeping area so another person can understand why the fallback is in use."
+              ],
+              "related_topics": [
+                "capacity notice",
+                "accountability list",
+                "intake desk"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0012-smoke-infiltration",
+              "language": "English",
+              "title": "Smoke infiltration into shelter",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Outdoor smoke is entering the occupied building and the assumed shelter-in-place room is losing separation from the hazard.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "smoke-infiltration"
+              ],
+              "materials": [
+                "local record for filter status",
+                "fallback reference for air-quality alert"
+              ],
+              "steps": [
+                "Check whether clean room has changed the availability of smoke odour and air cleaner.",
+                "If the primary path is lost, shift to air-quality alert and schedule a fresh verification around breathing symptom."
+              ],
+              "related_topics": [
+                "smoke odour",
+                "air-quality alert",
+                "breathing symptom"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0013-extreme-heat-shelter-failure",
+              "language": "English",
+              "title": "Shelter overheating during extreme heat",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "The indoor refuge is accumulating heat and no longer provides dependable relief for the people who must remain there.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "extreme-heat-shelter-failure"
+              ],
+              "materials": [
+                "local record for water access",
+                "fallback reference for heat symptom"
+              ],
+              "steps": [
+                "Compare indoor thermometer with shade room and record the first confirmed change.",
+                "Move the affected task to the fallback represented by heat symptom, then set a review point using water access."
+              ],
+              "related_topics": [
+                "indoor thermometer",
+                "heat symptom",
+                "vulnerable person"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0014-extreme-cold-heating-loss",
+              "language": "English",
+              "title": "Heating loss during extreme cold",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "The primary heating system has failed while outdoor conditions continue to cool the occupied building and its utilities.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "extreme-cold-heating-loss"
+              ],
+              "materials": [
+                "local record for blanket layer",
+                "fallback reference for approved heater"
+              ],
+              "steps": [
+                "Use warm room and pipe freeze to verify that the original assumption has failed.",
+                "Protect ventilation while testing the alternate path through approved heater; document the outcome beside utility status."
+              ],
+              "related_topics": [
+                "heating fault",
+                "approved heater",
+                "utility status"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0015-flood-isolation",
+              "language": "English",
+              "title": "Flood isolation",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Persistent floodwater has cut ordinary road or foot access and the location must now be managed as an isolated site.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "flood-isolation"
+              ],
+              "materials": [
+                "local record for water depth",
+                "fallback reference for rescue instruction"
+              ],
+              "steps": [
+                "Mark flooded road unavailable when its condition can be confirmed without entering the hazard.",
+                "Reassign the immediate objective around route record and contamination, then verify the new dependency at access reopening."
+              ],
+              "related_topics": [
+                "flooded road",
+                "rescue instruction",
+                "isolated site"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0016-aftershock-damage",
+              "language": "English",
+              "title": "New damage after an aftershock",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "A later shock has changed the condition of a building or room that had been treated as usable after the first earthquake.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "aftershock-damage"
+              ],
+              "materials": [
+                "local record for door change",
+                "fallback reference for aftershock"
+              ],
+              "steps": [
+                "Reconcile the latest observation of fallen contents with the record for blocked stair.",
+                "Choose the safest independent substitute involving aftershock and note what must be rechecked at falling material."
+              ],
+              "related_topics": [
+                "fresh crack",
+                "aftershock",
+                "falling material"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0017-landslide-route-threat",
+              "language": "English",
+              "title": "Landslide threat on a route",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "A road or path near unstable ground now shows movement, falling material or an official closure that invalidates the familiar route.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "landslide-route-threat"
+              ],
+              "materials": [
+                "local record for leaning object",
+                "fallback reference for alternate corridor"
+              ],
+              "steps": [
+                "Separate confirmed facts about slope crack from assumptions about mud flow before changing the plan.",
+                "After activating rainfall, update leaning object so another person can understand why the fallback is in use."
+              ],
+              "related_topics": [
+                "slope crack",
+                "alternate corridor",
+                "reopening notice"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0018-wildfire-route-shift",
+              "language": "English",
+              "title": "Wildfire forces a route shift",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Fire, smoke, wind or a revised evacuation instruction makes the original departure route inappropriate even if it still appears open.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "wildfire-route-shift"
+              ],
+              "materials": [
+                "local record for departure time",
+                "fallback reference for alternate destination"
+              ],
+              "steps": [
+                "Check whether wind change has changed the availability of evacuation zone and traffic closure.",
+                "If the primary path is lost, shift to alternate destination and schedule a fresh verification around responder lane."
+              ],
+              "related_topics": [
+                "evacuation zone",
+                "alternate destination",
+                "responder lane"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0019-sewage-backup",
+              "language": "English",
+              "title": "Sewage backup",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Wastewater is backing up through a drain or fixture and ordinary sanitation routines can no longer continue in the affected area.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "sewage-backup"
+              ],
+              "materials": [
+                "local record for cleanup zone",
+                "fallback reference for sewer notice"
+              ],
+              "steps": [
+                "Compare floor drain with toilet backup and record the first confirmed change.",
+                "Move the affected task to the fallback represented by sewer notice, then set a review point using cleanup zone."
+              ],
+              "related_topics": [
+                "floor drain",
+                "sewer notice",
+                "service repair"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0020-toilet-system-loss",
+              "language": "English",
+              "title": "Toilet system unavailable",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Normal toilet flushing or wastewater removal is unavailable while the living area itself may still be occupied.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "toilet-system-loss"
+              ],
+              "materials": [
+                "local record for disposal route",
+                "fallback reference for waste label"
+              ],
+              "steps": [
+                "Use waste bag and handwashing point to verify that the original assumption has failed.",
+                "Protect public-health notice while testing the alternate path through waste label; document the outcome beside sanitation kit."
+              ],
+              "related_topics": [
+                "flush failure",
+                "waste label",
+                "sanitation kit"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0021-handwashing-water-shortage",
+              "language": "English",
+              "title": "Handwashing-water shortage",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "The water reserved for hand hygiene is being depleted or has become unusable while high-contact tasks continue.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "handwashing-water-shortage"
+              ],
+              "materials": [
+                "local record for hand station",
+                "fallback reference for caregiving"
+              ],
+              "steps": [
+                "Mark hygiene container unavailable when its condition can be confirmed without entering the hazard.",
+                "Reassign the immediate objective around food area and clean-water reserve, then verify the new dependency at usage log."
+              ],
+              "related_topics": [
+                "hygiene container",
+                "caregiving",
+                "contamination break"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0022-food-reserve-contamination",
+              "language": "English",
+              "title": "Food reserve contamination",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "Food counted as emergency reserve has been exposed to water, pests, chemicals or damaged packaging and some stock may no longer be safe.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "food-reserve-contamination"
+              ],
+              "materials": [
+                "local record for swollen container",
+                "fallback reference for discard record"
+              ],
+              "steps": [
+                "Reconcile the latest observation of flood exposure with the record for chemical spill.",
+                "Choose the safest independent substitute involving discard record and note what must be rechecked at cross-contamination."
+              ],
+              "related_topics": [
+                "damaged package",
+                "discard record",
+                "cross-contamination"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0023-medication-storage-loss",
+              "language": "English",
+              "title": "Medication storage conditions lost",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "A medicine or medical supply can no longer be kept under the storage conditions specified for it, creating uncertainty about continued use.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "medication-storage-loss"
+              ],
+              "materials": [
+                "local record for device battery",
+                "fallback reference for dose record"
+              ],
+              "steps": [
+                "Separate confirmed facts about medicine label from assumptions about pharmacist contact before changing the plan.",
+                "After activating expiry date, update device battery so another person can understand why the fallback is in use."
+              ],
+              "related_topics": [
+                "medicine label",
+                "dose record",
+                "manufacturer guidance"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0024-caregiver-unavailable",
+              "language": "English",
+              "title": "Primary caregiver unavailable",
+              "category": "Resilience · Failure modes",
+              "subcategory": "Contingency response",
+              "summary": "The person who normally performs essential care is absent, unreachable or unable to continue, so knowledge and responsibilities must transfer immediately.",
+              "difficulty": "basic_to_moderate",
+              "urgency": "context_dependent",
+              "priority": "high",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "caregiver-unavailable"
+              ],
+              "materials": [
+                "local record for appointment note",
+                "fallback reference for contact sheet"
+              ],
+              "steps": [
+                "Check whether mobility aid has changed the availability of care plan and feeding routine.",
+                "If the primary path is lost, shift to contact sheet and schedule a fresh verification around handover."
+              ],
+              "related_topics": [
+                "care plan",
+                "contact sheet",
+                "handover"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            }
+          ]
         }
       ]
     },
@@ -74216,6 +75037,827 @@
                 "https://www.redcross.org/take-a-class/first-aid"
               ],
               "last_updated": "2026-06-18"
+            }
+          ]
+        },
+        {
+          "path": "Resilience - Failure modes/Failure mode response cards.json",
+          "records": [
+            {
+              "id": "failuremode-0001-grid-power-cascade",
+              "language": "Ελληνικά",
+              "title": "Κλιμακούμενη αστοχία ηλεκτρικού δικτύου",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Μια σύντομη διακοπή έχει εξελιχθεί σε ευρύτερη ασταθή απώλεια ρεύματος που επηρεάζει ταυτόχρονα πολλά άσχετα οικιακά συστήματα.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "grid-power-cascade"
+              ],
+              "materials": [
+                "τοπική καταγραφή για εφεδρικό φορτίο",
+                "αναφορά εφεδρείας για χειροκίνητη απασφάλιση"
+              ],
+              "steps": [
+                "Σύγκρινε ασφάλεια πίνακα με φορητή μπαταρία και κατέγραψε την πρώτη επιβεβαιωμένη αλλαγή.",
+                "Μετέφερε την επηρεασμένη εργασία στην εφεδρεία που αντιπροσωπεύει χειροκίνητη απασφάλιση και όρισε επανέλεγχο με εφεδρικό φορτίο."
+              ],
+              "related_topics": [
+                "ασφάλεια πίνακα",
+                "χειροκίνητη απασφάλιση",
+                "επανεκκίνηση"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0002-mobile-network-loss",
+              "language": "Ελληνικά",
+              "title": "Απώλεια δικτύου κινητής",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Κλήσεις, μηνύματα και δεδομένα κινητής δεν είναι πλέον αρκετά αξιόπιστα για λογοδοσία, διαδρομές και επίσημες ενημερώσεις.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "mobile-network-loss"
+              ],
+              "materials": [
+                "τοπική καταγραφή για κάρτα επαφών",
+                "αναφορά εφεδρείας για ραδιοφωνική ανακοίνωση"
+              ],
+              "steps": [
+                "Χρησιμοποίησε δεδομένα κινητής και παράθυρο επικοινωνίας για να επιβεβαιώσεις ότι απέτυχε η αρχική υπόθεση.",
+                "Προστάτευσε εφεδρεία μπαταρίας ενώ δοκιμάζεις την εναλλακτική μέσω ραδιοφωνική ανακοίνωση και κατέγραψε το αποτέλεσμα δίπλα σε λογοδοσία."
+              ],
+              "related_topics": [
+                "φωνητική κλήση",
+                "ραδιοφωνική ανακοίνωση",
+                "λογοδοσία"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0003-water-pressure-loss",
+              "language": "Ελληνικά",
+              "title": "Απώλεια πίεσης νερού",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Η κανονική ροή βρύσης έχει αποτύχει, άρα η συνηθισμένη χρήση νερού πρέπει να περάσει σε μετρημένο αποθηκευμένο νερό και επιβεβαιωμένες εναλλακτικές.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "water-pressure-loss"
+              ],
+              "materials": [
+                "τοπική καταγραφή για οδηγία έκπλυσης",
+                "αναφορά εφεδρείας για εφεδρεία υγιεινής"
+              ],
+              "steps": [
+                "Σήμανε πίεση βρύσης ως μη διαθέσιμο όταν η κατάστασή του επιβεβαιώνεται χωρίς είσοδο στον κίνδυνο.",
+                "Ανάθεσε ξανά τον άμεσο στόχο γύρω από οδηγία βρασμού και σπάσιμο αγωγού και έλεγξε τη νέα εξάρτηση σε αλλοιωμένο νερό."
+              ],
+              "related_topics": [
+                "πίεση βρύσης",
+                "εφεδρεία υγιεινής",
+                "εναλλακτική πηγή"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0004-refrigeration-loss",
+              "language": "Ελληνικά",
+              "title": "Απώλεια ψύξης",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Το ψυγείο ή ο καταψύκτης δεν μπορεί πλέον να διατηρήσει ελεγχόμενες ψυχρές συνθήκες για τρόφιμα ή ευαίσθητα εφόδια.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "refrigeration-loss"
+              ],
+              "materials": [
+                "τοπική καταγραφή για καταγραφή θερμοκρασίας",
+                "αναφορά εφεδρείας για λίστα απόρριψης"
+              ],
+              "steps": [
+                "Συμφώνησε την τελευταία παρατήρηση για ώρα διακοπής με την καταγραφή για φορητό ψυγείο.",
+                "Διάλεξε την ασφαλέστερη ανεξάρτητη εναλλακτική που περιλαμβάνει λίστα απόρριψης και σημείωσε τι πρέπει να επανελεγχθεί σε καθαρισμός διαρροής."
+              ],
+              "related_topics": [
+                "θερμόμετρο συσκευής",
+                "λίστα απόρριψης",
+                "καθαρισμός διαρροής"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0005-elevator-access-loss",
+              "language": "Ελληνικά",
+              "title": "Απώλεια ασανσέρ και ηλεκτρικής πρόσβασης",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Ασανσέρ, ηλεκτρική αυλόπορτα ή άλλο υποβοηθούμενο σημείο πρόσβασης δεν λειτουργεί και η κανονική διαδρομή μπορεί να μην είναι πλέον χρησιμοποιήσιμη από όλους.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "elevator-access-loss"
+              ],
+              "materials": [
+                "τοπική καταγραφή για εναλλακτική είσοδος",
+                "αναφορά εφεδρείας για πρόσβαση διασωστών"
+              ],
+              "steps": [
+                "Χώρισε τα επιβεβαιωμένα στοιχεία για όροφος ασανσέρ από τις υποθέσεις για προσβάσιμη έξοδος πριν αλλάξεις το σχέδιο.",
+                "Μετά την ενεργοποίηση του βοήθημα κινητικότητας, ενημέρωσε εναλλακτική είσοδος ώστε άλλο άτομο να καταλαβαίνει γιατί χρησιμοποιείται η εφεδρεία."
+              ],
+              "related_topics": [
+                "όροφος ασανσέρ",
+                "πρόσβαση διασωστών",
+                "σημείο συνάντησης"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0006-battery-reserve-exhaustion",
+              "language": "Ελληνικά",
+              "title": "Εξάντληση εφεδρείας μπαταριών",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Η αποθηκευμένη ηλεκτρική ενέργεια καταναλώνεται γρηγορότερα από το σχέδιο και δεν μπορεί να υποστηρίζει κάθε συσκευή επικοινωνίας και παρακολούθησης.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "battery-reserve-exhaustion"
+              ],
+              "materials": [
+                "τοπική καταγραφή για σημείωση διάρκειας",
+                "αναφορά εφεδρείας για παράθυρο ραδιοφώνου"
+              ],
+              "steps": [
+                "Έλεγξε αν σωστό καλώδιο άλλαξε τη διαθεσιμότητα του φορητή μπαταρία και του λειτουργία εξοικονόμησης.",
+                "Αν χαθεί η κύρια λύση, πέρασε σε παράθυρο ραδιοφώνου και προγραμμάτισε νέα επιβεβαίωση γύρω από εφεδρικός αντάπτορας."
+              ],
+              "related_topics": [
+                "φορητή μπαταρία",
+                "παράθυρο ραδιοφώνου",
+                "εφεδρικός αντάπτορας"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0007-generator-unavailable",
+              "language": "Ελληνικά",
+              "title": "Γεννήτρια μη διαθέσιμη ή ακατάλληλη",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Η γεννήτρια του εφεδρικού σχεδίου δεν μπορεί να ξεκινήσει, να προσεγγιστεί ή να λειτουργήσει με ασφάλεια στις τρέχουσες συνθήκες.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "generator-unavailable"
+              ],
+              "materials": [
+                "τοπική καταγραφή για έκθεση στον καιρό",
+                "αναφορά εφεδρείας για εξοπλισμός μεταγωγής"
+              ],
+              "steps": [
+                "Σύγκρινε βλάβη γεννήτριας με εξωτερική θέση και κατέγραψε την πρώτη επιβεβαιωμένη αλλαγή.",
+                "Μετέφερε την επηρεασμένη εργασία στην εφεδρεία που αντιπροσωπεύει εξοπλισμός μεταγωγής και όρισε επανέλεγχο με έκθεση στον καιρό."
+              ],
+              "related_topics": [
+                "βλάβη γεννήτριας",
+                "εξοπλισμός μεταγωγής",
+                "εφεδρικό φορτίο"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0008-fuel-supply-loss",
+              "language": "Ελληνικά",
+              "title": "Απώλεια προμήθειας καυσίμου",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Το καύσιμο που είχε υπολογιστεί για μεταφορά ή εγκεκριμένο εφεδρικό εξοπλισμό δεν είναι διαθέσιμο ή βρίσκεται κάτω από την ποσότητα του σχεδίου συνέχειας.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "fuel-supply-loss"
+              ],
+              "materials": [
+                "τοπική καταγραφή για αυτονομία οχήματος",
+                "αναφορά εφεδρείας για αερισμός"
+              ],
+              "steps": [
+                "Χρησιμοποίησε τύπος καυσίμου και απόσταση διαδρομής για να επιβεβαιώσεις ότι απέτυχε η αρχική υπόθεση.",
+                "Προστάτευσε πηγή ανάφλεξης ενώ δοκιμάζεις την εναλλακτική μέσω αερισμός και κατέγραψε το αποτέλεσμα δίπλα σε έλεγχος αποθήκευσης."
+              ],
+              "related_topics": [
+                "κλειστό πρατήριο",
+                "αερισμός",
+                "έλεγχος αποθήκευσης"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0009-primary-route-blocked",
+              "language": "Ελληνικά",
+              "title": "Μπλοκαρισμένη κύρια διαδρομή εκκένωσης",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Η κανονική πορεία για αποχώρηση ή σημείο συνάντησης είναι μπλοκαρισμένη, επίσημα κλειστή ή εκτεθειμένη σε τρέχοντα κίνδυνο.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "primary-route-blocked"
+              ],
+              "materials": [
+                "τοπική καταγραφή για πεδίο συντριμμιών",
+                "αναφορά εφεδρείας για σημείο συνάντησης"
+              ],
+              "steps": [
+                "Σήμανε κλείσιμο δρόμου ως μη διαθέσιμο όταν η κατάστασή του επιβεβαιώνεται χωρίς είσοδο στον κίνδυνο.",
+                "Ανάθεσε ξανά τον άμεσο στόχο γύρω από διάδρομος καπνού και ώρα διαδρομής και έλεγξε τη νέα εξάρτηση σε έλεγχος προσβασιμότητας."
+              ],
+              "related_topics": [
+                "κλείσιμο δρόμου",
+                "σημείο συνάντησης",
+                "επίσημη παράκαμψη"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0010-vehicle-disabled",
+              "language": "Ελληνικά",
+              "title": "Ακινητοποιημένο προγραμματισμένο όχημα",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Το όχημα που είχε οριστεί για εκκένωση, ανεφοδιασμό ή μεταφορά εξαρτώμενου ατόμου δεν μπορεί να χρησιμοποιηθεί με ασφάλεια ή να φύγει από τη θέση του.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "vehicle-disabled"
+              ],
+              "materials": [
+                "τοπική καταγραφή για όριο φορτίου",
+                "αναφορά εφεδρείας για εναλλακτικός οδηγός"
+              ],
+              "steps": [
+                "Συμφώνησε την τελευταία παρατήρηση για βλάβη εκκίνησης με την καταγραφή για δείκτης καυσίμου.",
+                "Διάλεξε την ασφαλέστερη ανεξάρτητη εναλλακτική που περιλαμβάνει εναλλακτικός οδηγός και σημείωσε τι πρέπει να επανελεγχθεί σε έλεγχος αναχώρησης."
+              ],
+              "related_topics": [
+                "κλειδί οχήματος",
+                "εναλλακτικός οδηγός",
+                "έλεγχος αναχώρησης"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0011-shelter-overcapacity",
+              "language": "Ελληνικά",
+              "title": "Υπερπλήρες καταφύγιο",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Το προβλεπόμενο καταφύγιο ή σημείο φιλοξενίας δεν μπορεί να δεχτεί με ασφάλεια τα άτομα, τις ανάγκες προσβασιμότητας και τα εφόδια που φτάνουν.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "shelter-overcapacity"
+              ],
+              "materials": [
+                "τοπική καταγραφή για χώρος ύπνου",
+                "αναφορά εφεδρείας για λίστα λογοδοσίας"
+              ],
+              "steps": [
+                "Χώρισε τα επιβεβαιωμένα στοιχεία για ειδοποίηση χωρητικότητας από τις υποθέσεις για προσβάσιμος χώρος πριν αλλάξεις το σχέδιο.",
+                "Μετά την ενεργοποίηση του επαφή φιλοξενίας, ενημέρωσε χώρος ύπνου ώστε άλλο άτομο να καταλαβαίνει γιατί χρησιμοποιείται η εφεδρεία."
+              ],
+              "related_topics": [
+                "ειδοποίηση χωρητικότητας",
+                "λίστα λογοδοσίας",
+                "σημείο υποδοχής"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0012-smoke-infiltration",
+              "language": "Ελληνικά",
+              "title": "Διείσδυση καπνού στο καταφύγιο",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Εξωτερικός καπνός μπαίνει στο κατοικημένο κτίριο και ο προβλεπόμενος χώρος παραμονής χάνει την απομόνωσή του από τον κίνδυνο.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "smoke-infiltration"
+              ],
+              "materials": [
+                "τοπική καταγραφή για κατάσταση φίλτρου",
+                "αναφορά εφεδρείας για ειδοποίηση ποιότητας αέρα"
+              ],
+              "steps": [
+                "Έλεγξε αν καθαρός χώρος άλλαξε τη διαθεσιμότητα του μυρωδιά καπνού και του καθαριστής αέρα.",
+                "Αν χαθεί η κύρια λύση, πέρασε σε ειδοποίηση ποιότητας αέρα και προγραμμάτισε νέα επιβεβαίωση γύρω από σύμπτωμα αναπνοής."
+              ],
+              "related_topics": [
+                "μυρωδιά καπνού",
+                "ειδοποίηση ποιότητας αέρα",
+                "σύμπτωμα αναπνοής"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0013-extreme-heat-shelter-failure",
+              "language": "Ελληνικά",
+              "title": "Υπερθέρμανση καταφυγίου σε ακραία ζέστη",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Ο εσωτερικός χώρος παραμονής συσσωρεύει θερμότητα και δεν προσφέρει πλέον αξιόπιστη ανακούφιση για όσους πρέπει να μείνουν εκεί.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "extreme-heat-shelter-failure"
+              ],
+              "materials": [
+                "τοπική καταγραφή για πρόσβαση νερού",
+                "αναφορά εφεδρείας για σύμπτωμα ζέστης"
+              ],
+              "steps": [
+                "Σύγκρινε εσωτερικό θερμόμετρο με σκιερό δωμάτιο και κατέγραψε την πρώτη επιβεβαιωμένη αλλαγή.",
+                "Μετέφερε την επηρεασμένη εργασία στην εφεδρεία που αντιπροσωπεύει σύμπτωμα ζέστης και όρισε επανέλεγχο με πρόσβαση νερού."
+              ],
+              "related_topics": [
+                "εσωτερικό θερμόμετρο",
+                "σύμπτωμα ζέστης",
+                "ευάλωτο άτομο"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0014-extreme-cold-heating-loss",
+              "language": "Ελληνικά",
+              "title": "Απώλεια θέρμανσης σε ακραίο κρύο",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Το κύριο σύστημα θέρμανσης έχει αποτύχει ενώ οι εξωτερικές συνθήκες συνεχίζουν να ψύχουν το κατοικημένο κτίριο και τις παροχές του.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "extreme-cold-heating-loss"
+              ],
+              "materials": [
+                "τοπική καταγραφή για στρώση κουβέρτας",
+                "αναφορά εφεδρείας για εγκεκριμένη θερμάστρα"
+              ],
+              "steps": [
+                "Χρησιμοποίησε θερμό δωμάτιο και πάγωμα σωλήνα για να επιβεβαιώσεις ότι απέτυχε η αρχική υπόθεση.",
+                "Προστάτευσε αερισμός ενώ δοκιμάζεις την εναλλακτική μέσω εγκεκριμένη θερμάστρα και κατέγραψε το αποτέλεσμα δίπλα σε κατάσταση παροχής."
+              ],
+              "related_topics": [
+                "βλάβη θέρμανσης",
+                "εγκεκριμένη θερμάστρα",
+                "κατάσταση παροχής"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0015-flood-isolation",
+              "language": "Ελληνικά",
+              "title": "Απομόνωση από πλημμύρα",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Επίμονο νερό πλημμύρας έχει κόψει τη συνηθισμένη οδική ή πεζή πρόσβαση και η θέση πρέπει πλέον να αντιμετωπίζεται ως απομονωμένο σημείο.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "flood-isolation"
+              ],
+              "materials": [
+                "τοπική καταγραφή για βάθος νερού",
+                "αναφορά εφεδρείας για οδηγία διάσωσης"
+              ],
+              "steps": [
+                "Σήμανε πλημμυρισμένος δρόμος ως μη διαθέσιμο όταν η κατάστασή του επιβεβαιώνεται χωρίς είσοδο στον κίνδυνο.",
+                "Ανάθεσε ξανά τον άμεσο στόχο γύρω από αρχείο διαδρομής και μόλυνση και έλεγξε τη νέα εξάρτηση σε άνοιγμα πρόσβασης."
+              ],
+              "related_topics": [
+                "πλημμυρισμένος δρόμος",
+                "οδηγία διάσωσης",
+                "απομονωμένη θέση"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0016-aftershock-damage",
+              "language": "Ελληνικά",
+              "title": "Νέα ζημιά μετά από μετασεισμό",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Νέα δόνηση έχει αλλάξει την κατάσταση κτιρίου ή δωματίου που θεωρούνταν χρησιμοποιήσιμο μετά τον πρώτο σεισμό.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "aftershock-damage"
+              ],
+              "materials": [
+                "τοπική καταγραφή για αλλαγή πόρτας",
+                "αναφορά εφεδρείας για μετασεισμός"
+              ],
+              "steps": [
+                "Συμφώνησε την τελευταία παρατήρηση για πεσμένα αντικείμενα με την καταγραφή για μπλοκαρισμένη σκάλα.",
+                "Διάλεξε την ασφαλέστερη ανεξάρτητη εναλλακτική που περιλαμβάνει μετασεισμός και σημείωσε τι πρέπει να επανελεγχθεί σε πτώση υλικού."
+              ],
+              "related_topics": [
+                "νέα ρωγμή",
+                "μετασεισμός",
+                "πτώση υλικού"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0017-landslide-route-threat",
+              "language": "Ελληνικά",
+              "title": "Απειλή κατολίσθησης σε διαδρομή",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Δρόμος ή μονοπάτι κοντά σε ασταθές έδαφος εμφανίζει μετακίνηση, πτώση υλικών ή επίσημο κλείσιμο που ακυρώνει τη γνωστή διαδρομή.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "landslide-route-threat"
+              ],
+              "materials": [
+                "τοπική καταγραφή για γερμένο αντικείμενο",
+                "αναφορά εφεδρείας για εναλλακτικός διάδρομος"
+              ],
+              "steps": [
+                "Χώρισε τα επιβεβαιωμένα στοιχεία για ρωγμή πλαγιάς από τις υποθέσεις για ροή λάσπης πριν αλλάξεις το σχέδιο.",
+                "Μετά την ενεργοποίηση του βροχόπτωση, ενημέρωσε γερμένο αντικείμενο ώστε άλλο άτομο να καταλαβαίνει γιατί χρησιμοποιείται η εφεδρεία."
+              ],
+              "related_topics": [
+                "ρωγμή πλαγιάς",
+                "εναλλακτικός διάδρομος",
+                "ανακοίνωση ανοίγματος"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0018-wildfire-route-shift",
+              "language": "Ελληνικά",
+              "title": "Πυρκαγιά αναγκάζει αλλαγή διαδρομής",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Φωτιά, καπνός, άνεμος ή αναθεωρημένη οδηγία εκκένωσης κάνει ακατάλληλη την αρχική διαδρομή παρότι μπορεί να φαίνεται ακόμη ανοιχτή.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "wildfire-route-shift"
+              ],
+              "materials": [
+                "τοπική καταγραφή για ώρα αναχώρησης",
+                "αναφορά εφεδρείας για εναλλακτικός προορισμός"
+              ],
+              "steps": [
+                "Έλεγξε αν αλλαγή ανέμου άλλαξε τη διαθεσιμότητα του ζώνη εκκένωσης και του κλείσιμο κυκλοφορίας.",
+                "Αν χαθεί η κύρια λύση, πέρασε σε εναλλακτικός προορισμός και προγραμμάτισε νέα επιβεβαίωση γύρω από λωρίδα διασωστών."
+              ],
+              "related_topics": [
+                "ζώνη εκκένωσης",
+                "εναλλακτικός προορισμός",
+                "λωρίδα διασωστών"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0019-sewage-backup",
+              "language": "Ελληνικά",
+              "title": "Επιστροφή λυμάτων",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Λύματα επιστρέφουν από αποχέτευση ή άλλο σημείο και οι συνηθισμένες διαδικασίες υγιεινής δεν μπορούν πλέον να συνεχιστούν στην επηρεασμένη περιοχή.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "sewage-backup"
+              ],
+              "materials": [
+                "τοπική καταγραφή για ζώνη καθαρισμού",
+                "αναφορά εφεδρείας για ανακοίνωση αποχέτευσης"
+              ],
+              "steps": [
+                "Σύγκρινε σιφόνι δαπέδου με επιστροφή τουαλέτας και κατέγραψε την πρώτη επιβεβαιωμένη αλλαγή.",
+                "Μετέφερε την επηρεασμένη εργασία στην εφεδρεία που αντιπροσωπεύει ανακοίνωση αποχέτευσης και όρισε επανέλεγχο με ζώνη καθαρισμού."
+              ],
+              "related_topics": [
+                "σιφόνι δαπέδου",
+                "ανακοίνωση αποχέτευσης",
+                "επισκευή υπηρεσίας"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0020-toilet-system-loss",
+              "language": "Ελληνικά",
+              "title": "Μη διαθέσιμο σύστημα τουαλέτας",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Η κανονική έκπλυση ή απομάκρυνση λυμάτων δεν λειτουργεί ενώ ο χώρος διαμονής μπορεί ακόμη να κατοικείται.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "toilet-system-loss"
+              ],
+              "materials": [
+                "τοπική καταγραφή για διαδρομή απόρριψης",
+                "αναφορά εφεδρείας για σήμανση αποβλήτων"
+              ],
+              "steps": [
+                "Χρησιμοποίησε σακούλα αποβλήτων και σημείο πλυσίματος για να επιβεβαιώσεις ότι απέτυχε η αρχική υπόθεση.",
+                "Προστάτευσε οδηγία δημόσιας υγείας ενώ δοκιμάζεις την εναλλακτική μέσω σήμανση αποβλήτων και κατέγραψε το αποτέλεσμα δίπλα σε κιτ υγιεινής."
+              ],
+              "related_topics": [
+                "αδυναμία έκπλυσης",
+                "σήμανση αποβλήτων",
+                "κιτ υγιεινής"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0021-handwashing-water-shortage",
+              "language": "Ελληνικά",
+              "title": "Έλλειψη νερού για πλύσιμο χεριών",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Το νερό που είχε δεσμευτεί για υγιεινή χεριών εξαντλείται ή έγινε ακατάλληλο ενώ συνεχίζονται εργασίες με συχνή επαφή.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "handwashing-water-shortage"
+              ],
+              "materials": [
+                "τοπική καταγραφή για σημείο χεριών",
+                "αναφορά εφεδρείας για φροντίδα"
+              ],
+              "steps": [
+                "Σήμανε δοχείο υγιεινής ως μη διαθέσιμο όταν η κατάστασή του επιβεβαιώνεται χωρίς είσοδο στον κίνδυνο.",
+                "Ανάθεσε ξανά τον άμεσο στόχο γύρω από χώρος τροφίμων και εφεδρεία καθαρού νερού και έλεγξε τη νέα εξάρτηση σε ημερολόγιο χρήσης."
+              ],
+              "related_topics": [
+                "δοχείο υγιεινής",
+                "φροντίδα",
+                "διακοπή μόλυνσης"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0022-food-reserve-contamination",
+              "language": "Ελληνικά",
+              "title": "Μόλυνση αποθέματος τροφίμων",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Τρόφιμα που μετρούσαν ως εφεδρεία έχουν εκτεθεί σε νερό, παράσιτα, χημικά ή κατεστραμμένη συσκευασία και μέρος τους μπορεί να μην είναι πλέον ασφαλές.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "food-reserve-contamination"
+              ],
+              "materials": [
+                "τοπική καταγραφή για φουσκωμένο δοχείο",
+                "αναφορά εφεδρείας για καταγραφή απόρριψης"
+              ],
+              "steps": [
+                "Συμφώνησε την τελευταία παρατήρηση για έκθεση σε πλημμύρα με την καταγραφή για χημική διαρροή.",
+                "Διάλεξε την ασφαλέστερη ανεξάρτητη εναλλακτική που περιλαμβάνει καταγραφή απόρριψης και σημείωσε τι πρέπει να επανελεγχθεί σε διασταυρούμενη μόλυνση."
+              ],
+              "related_topics": [
+                "κατεστραμμένη συσκευασία",
+                "καταγραφή απόρριψης",
+                "διασταυρούμενη μόλυνση"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0023-medication-storage-loss",
+              "language": "Ελληνικά",
+              "title": "Απώλεια συνθηκών φύλαξης φαρμάκων",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Φάρμακο ή ιατρικό εφόδιο δεν μπορεί πλέον να διατηρηθεί στις προβλεπόμενες συνθήκες φύλαξης, δημιουργώντας αβεβαιότητα για τη συνέχιση της χρήσης του.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "medication-storage-loss"
+              ],
+              "materials": [
+                "τοπική καταγραφή για μπαταρία συσκευής",
+                "αναφορά εφεδρείας για καταγραφή δόσης"
+              ],
+              "steps": [
+                "Χώρισε τα επιβεβαιωμένα στοιχεία για ετικέτα φαρμάκου από τις υποθέσεις για επαφή φαρμακοποιού πριν αλλάξεις το σχέδιο.",
+                "Μετά την ενεργοποίηση του ημερομηνία λήξης, ενημέρωσε μπαταρία συσκευής ώστε άλλο άτομο να καταλαβαίνει γιατί χρησιμοποιείται η εφεδρεία."
+              ],
+              "related_topics": [
+                "ετικέτα φαρμάκου",
+                "καταγραφή δόσης",
+                "οδηγία κατασκευαστή"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
+            },
+            {
+              "id": "failuremode-0024-caregiver-unavailable",
+              "language": "Ελληνικά",
+              "title": "Κύριος φροντιστής μη διαθέσιμος",
+              "category": "Ανθεκτικότητα · Τρόποι αστοχίας",
+              "subcategory": "Αντιμετώπιση εφεδρείας",
+              "summary": "Το άτομο που εκτελεί συνήθως κρίσιμη φροντίδα απουσιάζει, δεν επικοινωνεί ή δεν μπορεί να συνεχίσει, άρα γνώση και ευθύνες πρέπει να μεταφερθούν άμεσα.",
+              "difficulty": "βασικό έως μέτριο",
+              "urgency": "εξαρτάται από το πλαίσιο",
+              "priority": "υψηλή",
+              "tags": [
+                "pack:resilience",
+                "pack:failure-mode",
+                "caregiver-unavailable"
+              ],
+              "materials": [
+                "τοπική καταγραφή για σημείωση ραντεβού",
+                "αναφορά εφεδρείας για φύλλο επαφών"
+              ],
+              "steps": [
+                "Έλεγξε αν βοήθημα κινητικότητας άλλαξε τη διαθεσιμότητα του σχέδιο φροντίδας και του ρουτίνα σίτισης.",
+                "Αν χαθεί η κύρια λύση, πέρασε σε φύλλο επαφών και προγραμμάτισε νέα επιβεβαίωση γύρω από παράδοση ευθύνης."
+              ],
+              "related_topics": [
+                "σχέδιο φροντίδας",
+                "φύλλο επαφών",
+                "παράδοση ευθύνης"
+              ],
+              "sources": [
+                "https://www.ready.gov/plan",
+                "https://www.ready.gov/kit"
+              ],
+              "last_updated": "2026-08-25"
             }
           ]
         }

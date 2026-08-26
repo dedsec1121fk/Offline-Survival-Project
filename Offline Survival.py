@@ -1806,6 +1806,271 @@ class Application:
                 self.pause()
 
 
+
+def _parse_noninteractive_args(args: Sequence[str]) -> tuple[str, int, list[str]]:
+    """Parse language/limit switches shared by quick non-interactive commands."""
+    settings, _ = load_settings()
+    language = str(settings.get("language", "en"))
+    limit = 10
+    positional: list[str] = []
+    index = 0
+    while index < len(args):
+        token = str(args[index])
+        if token in {"--lang", "--language"}:
+            if index + 1 >= len(args):
+                raise ValueError("--lang requires en or el")
+            raw = normalize(args[index + 1])
+            aliases = {"en": "en", "english": "en", "el": "el", "gr": "el", "greek": "el", "ελληνικα": "el"}
+            if raw not in aliases:
+                raise ValueError("Language must be en or el")
+            language = aliases[raw]
+            index += 2
+            continue
+        if token == "--limit":
+            if index + 1 >= len(args):
+                raise ValueError("--limit requires a number")
+            try:
+                limit = max(1, min(50, int(args[index + 1])))
+            except ValueError as error:
+                raise ValueError("--limit must be an integer between 1 and 50") from error
+            index += 2
+            continue
+        positional.append(token)
+        index += 1
+    return language, limit, positional
+
+
+def _record_plain_lines(item: dict[str, Any], language: str) -> list[str]:
+    record = item.get("record", item)
+    labels = FIELD_LABELS[language]
+    title = str(record.get("title") or TEXT[language]["untitled"])
+    lines = [title, "=" * min(72, max(16, len(title))), f"ID: {record.get('id', '—')}"]
+    path = str(item.get("relative_path", "")).strip()
+    if path:
+        lines.append(f"{TEXT[language]['source_file']}: {path}")
+    ordered = (
+        "category", "subcategory", "summary", "content", "difficulty", "urgency", "priority", "tags",
+        "materials", "steps", "warnings", "common_mistakes", "alternatives", "failure_signs",
+        "when_not_to_use", "short_term", "long_term", "if_method_fails", "environment_notes",
+        "related_topics", "sources", "last_updated",
+    )
+    for key in ordered:
+        value = record.get(key)
+        if value in (None, "", []):
+            continue
+        label = labels.get(key, key.replace("_", " ").title())
+        lines.extend(["", f"{label}:"])
+        if isinstance(value, list):
+            lines.extend(f"- {entry}" for entry in value)
+        elif isinstance(value, dict):
+            lines.append(json.dumps(value, ensure_ascii=False, indent=2))
+        else:
+            lines.extend(str(value).splitlines() or [str(value)])
+    return lines
+
+
+def _print_ranked_records(rows: Sequence[dict[str, Any]], language: str, limit: int) -> int:
+    if not rows:
+        print(TEXT[language]["no_results"])
+        return 1
+    for number, item in enumerate(rows[:limit], start=1):
+        record = item["record"]
+        meta = item.get("search_meta", {})
+        score = meta.get("score")
+        score_text = f" · score {score}" if score is not None else ""
+        print(f"{number}. {record.get('title', TEXT[language]['untitled'])}")
+        print(f"   ID: {record.get('id', '—')}")
+        print(f"   {record.get('category', TEXT[language]['uncategorized'])}{score_text}")
+        summary = str(record.get("summary", "")).strip()
+        if summary:
+            for line in textwrap.wrap(summary, width=max(50, min(100, terminal_width() - 3))):
+                print(f"   {line}")
+        matched = meta.get("matched_fields") if isinstance(meta, dict) else None
+        if matched:
+            print(f"   matched: {', '.join(map(str, matched))}")
+        print()
+    return 0
+
+
+def cli_search(args: Sequence[str]) -> int:
+    language, limit, positional = _parse_noninteractive_args(args)
+    query = " ".join(positional).strip()
+    if not query:
+        raise ValueError("--search requires a query")
+    database = OfflineDatabase()
+    rows = database.search(language, query)
+    print(f"{APP_NAME} — {LANGUAGES[language]['name']} search")
+    print(f"Query: {query} · Results: {min(len(rows), limit)}/{len(rows)}\n")
+    return _print_ranked_records(rows, language, limit)
+
+
+def cli_open_record(args: Sequence[str]) -> int:
+    language, _, positional = _parse_noninteractive_args(args)
+    query = " ".join(positional).strip()
+    if not query:
+        raise ValueError("--open requires a complete or partial record ID")
+    database = OfflineDatabase()
+    rows = database.find_by_id(language, query)
+    if not rows:
+        print(TEXT[language]["no_results"])
+        return 1
+    exact = [item for item in rows if normalize(item["record"].get("id", "")) == normalize(query)]
+    if len(exact) == 1:
+        print("\n".join(_record_plain_lines(exact[0], language)))
+        return 0
+    if len(rows) == 1:
+        print("\n".join(_record_plain_lines(rows[0], language)))
+        return 0
+    print(f"{len(rows)} matching record IDs. Use a longer ID:\n")
+    for item in rows[:30]:
+        record = item["record"]
+        print(f"- {record.get('id')} — {record.get('title')}")
+    return 1
+
+
+def cli_emergency(args: Sequence[str]) -> int:
+    language, limit, positional = _parse_noninteractive_args(args)
+    query = " ".join(positional).strip()
+    if not query:
+        raise ValueError("--emergency requires a situation such as wildfire, outage, flood, water, injury, or evacuation")
+    database = OfflineDatabase()
+    rows = database.search(language, query)
+    priority_weight = {"critical": 140, "high": 90, "medium": 35, "moderate": 35, "low": 0}
+    urgency_weight = {"immediate": 80, "urgent": 60, "high": 50, "context_dependent": 20}
+    def score(item: dict[str, Any]) -> float:
+        record = item["record"]
+        base = float(item.get("search_meta", {}).get("score", 0))
+        priority = normalize(record.get("priority", ""))
+        urgency = normalize(record.get("urgency", ""))
+        verified = 75 if normalize(record.get("category", "")) in {normalize("Verified Emergency Essentials"), normalize("Επαληθευμένα βασικά έκτακτης ανάγκης")} else 0
+        return base + priority_weight.get(priority, 0) + urgency_weight.get(urgency, 0) + verified
+    rows = sorted(rows, key=lambda item: (-score(item), normalize(item["record"].get("title", ""))))
+    safety = (
+        "Emergency quick reference only. Follow official alerts and emergency services first."
+        if language == "en" else
+        "Μόνο γρήγορη αναφορά έκτακτης ανάγκης. Προτεραιότητα έχουν οι επίσημες ειδοποιήσεις και οι υπηρεσίες έκτακτης ανάγκης."
+    )
+    print(f"{APP_NAME} — {'Emergency quick mode' if language == 'en' else 'Γρήγορη λειτουργία έκτακτης ανάγκης'}")
+    print(safety)
+    print(f"Query: {query}\n")
+    return _print_ranked_records(rows, language, min(limit, 12))
+
+
+def _library_language_allowed(path: Path, language: str) -> bool:
+    parts = {part.casefold() for part in path.parts}
+    if "en" in parts:
+        return language == "en"
+    if "gr" in parts or "el" in parts:
+        return language == "el"
+    return True
+
+
+def library_search_rows(language: str, query: str, limit: int = 20) -> list[dict[str, Any]]:
+    root = PROJECT_ROOT / "Offline Library"
+    ranked: list[tuple[float, str, dict[str, Any]]] = []
+    if not root.is_dir():
+        return []
+    for path in root.rglob("*"):
+        if not path.is_file() or path.suffix.casefold() not in {".md", ".txt", ".csv", ".log"}:
+            continue
+        relative = path.relative_to(root)
+        if not _library_language_allowed(relative, language):
+            continue
+        try:
+            if path.stat().st_size > 2_000_000:
+                continue
+            text = path.read_text(encoding="utf-8", errors="replace")
+        except OSError:
+            continue
+        meta = rank_search_fields(query, {"name": path.stem, "path": relative.as_posix(), "body": text})
+        if meta is None:
+            continue
+        excerpt = ""
+        for line in text.splitlines():
+            candidate = line.lstrip("#>- ").strip()
+            if len(candidate) >= 40:
+                excerpt = candidate
+                break
+        row = {"path": relative.as_posix(), "name": path.name, "excerpt": excerpt[:300], "search_meta": meta}
+        ranked.append((float(meta["score"]), normalize(relative.as_posix()), row))
+    ranked.sort(key=lambda item: (-item[0], item[1]))
+    return [item[2] for item in ranked[:max(1, min(50, limit))]]
+
+
+def cli_library_search(args: Sequence[str]) -> int:
+    language, limit, positional = _parse_noninteractive_args(args)
+    query = " ".join(positional).strip()
+    if not query:
+        raise ValueError("--library-search requires a query")
+    rows = library_search_rows(language, query, limit)
+    if not rows:
+        print(TEXT[language]["no_results"])
+        return 1
+    print(f"{APP_NAME} — {'Offline Library search' if language == 'en' else 'Αναζήτηση Offline Library'}")
+    print(f"Query: {query}\n")
+    for number, row in enumerate(rows, start=1):
+        print(f"{number}. {row['path']} · score {row['search_meta']['score']}")
+        if row.get("excerpt"):
+            for line in textwrap.wrap(str(row["excerpt"]), width=max(50, min(100, terminal_width() - 3))):
+                print(f"   {line}")
+        print()
+    return 0
+
+
+def cli_failure_mode(args: Sequence[str]) -> int:
+    """Search only the curated failure-mode response cards."""
+    language, limit, positional = _parse_noninteractive_args(args)
+    query = " ".join(positional).strip()
+    if not query:
+        raise ValueError("--failure-mode requires a situation or failed capability")
+    ranked: list[tuple[float, str, dict[str, Any]]] = []
+    for item in OfflineDatabase().load(language):
+        record = item["record"]
+        if not str(record.get("id", "")).startswith("failuremode-"):
+            continue
+        fields = dict(record)
+        fields["path"] = item.get("relative_path", "")
+        meta = rank_search_fields(query, fields, aliases=item.get("cross_language_aliases", ""))
+        if meta is None:
+            continue
+        result = dict(item)
+        result["search_meta"] = meta
+        ranked.append((float(meta["score"]), normalize(record.get("title", "")), result))
+    ranked.sort(key=lambda row: (-row[0], row[1]))
+    if ranked:
+        floor = max(28.0, ranked[0][0] * 0.38)
+        ranked = [row for row in ranked if row[0] >= floor]
+    rows = [row[2] for row in ranked[:max(1, min(24, limit))]]
+    if not rows:
+        print(TEXT[language]["no_results"])
+        return 1
+    print(f"{APP_NAME} — {'Failure-mode response' if language == 'en' else 'Αντιμετώπιση τρόπου αστοχίας'}")
+    print(f"Query: {query}\n")
+    return _print_ranked_records(rows, language, min(limit, 12))
+
+
+def cli_categories(args: Sequence[str]) -> int:
+    language, _, positional = _parse_noninteractive_args(args)
+    if positional:
+        raise ValueError("--list-categories accepts only --lang")
+    categories = OfflineDatabase().categories(language, TEXT[language]["uncategorized"])
+    print(f"{LANGUAGES[language]['name']} — {len(categories)} categories")
+    for name, rows in categories.items():
+        print(f"{len(rows):4}  {name}")
+    return 0
+
+
+def cli_random_topic(args: Sequence[str]) -> int:
+    language, _, positional = _parse_noninteractive_args(args)
+    if positional:
+        raise ValueError("--random-topic accepts only --lang")
+    rows = OfflineDatabase().load(language)
+    if not rows:
+        print(TEXT[language]["no_results"])
+        return 1
+    print("\n".join(_record_plain_lines(random.choice(rows), language)))
+    return 0
+
 def print_cli_help() -> None:
     print(f"{APP_NAME}\n")
     print('Run the interactive application:')
@@ -1830,6 +2095,19 @@ def print_cli_help() -> None:
     print('  python "Offline Survival.py" --translations')
     print('\nRun deterministic browser UI/state logic tests with Node.js:')
     print('  python "Offline Survival.py" --ui-test')
+    print('\nSearch the database without opening the interactive UI:')
+    print('  python "Offline Survival.py" --search "water storage" --lang en --limit 8')
+    print('\nOpen a record directly by complete or partial ID:')
+    print('  python "Offline Survival.py" --open RECORD_ID --lang en')
+    print('\nGet prioritized quick-reference results for an emergency situation:')
+    print('  python "Offline Survival.py" --emergency wildfire --lang en --limit 5')
+    print('\nSearch readable Offline Library documents from the terminal:')
+    print('  python "Offline Survival.py" --library-search "route failure" --lang en --limit 10')
+    print('\nSearch only the curated failure-mode response cards:')
+    print('  python "Offline Survival.py" --failure-mode "generator unavailable" --lang en --limit 6')
+    print('\nList database categories or print one random topic:')
+    print('  python "Offline Survival.py" --list-categories --lang en')
+    print('  python "Offline Survival.py" --random-topic --lang el')
     print('\nOpen on-device diagnostics in the installed/default phone browser:')
     print('  python "Offline Survival.py" --phone-browser-test')
     print('\nOpen the standalone 250-chapter bilingual survival reader:')
@@ -1857,6 +2135,20 @@ def main() -> int:
                         f"{values['category_folders']} category folders"
                     )
                 return 0 if report["ok"] else 2
+            if command == "--search":
+                return cli_search(sys.argv[2:])
+            if command in {"--open", "--record"}:
+                return cli_open_record(sys.argv[2:])
+            if command in {"--emergency", "--quick-emergency"}:
+                return cli_emergency(sys.argv[2:])
+            if command in {"--library-search", "--search-library"}:
+                return cli_library_search(sys.argv[2:])
+            if command in {"--failure-mode", "--failure", "--contingency"}:
+                return cli_failure_mode(sys.argv[2:])
+            if command in {"--list-categories", "--categories"}:
+                return cli_categories(sys.argv[2:])
+            if command in {"--random-topic", "--random-record"}:
+                return cli_random_topic(sys.argv[2:])
             if command in {"--web", "--command-center"}:
                 return run_local_command_center(sys.argv[2:])
             if command in {"--self-test", "--test"}:
@@ -1880,7 +2172,7 @@ def main() -> int:
                 # repository does not need a separate tools directory just for QA.
                 with _osp_tempfile.TemporaryDirectory(prefix="offline-survival-ui-") as tmp:
                     test_app = Path(tmp) / "ui_logic_test.js"
-                    test_app.write_text(_EMBEDDED_UI_LOGIC_TEST_SOURCE, encoding="utf-8")
+                    test_app.write_text(_expanded_ui_logic_test_source(), encoding="utf-8")
                     env = _osp_os.environ.copy()
                     env["OSP_ROOT"] = str(PROJECT_ROOT)
                     return _osp_subprocess.call([node, str(test_app)], env=env)
@@ -1925,6 +2217,61 @@ _EMBEDDED_WEB_SOURCE = '# MAINTENANCE: Keep the local server bound to loopback b
 
 # MAINTENANCE: Embedded deterministic UI/state test; kept here to preserve the one-script repository structure.
 _EMBEDDED_UI_LOGIC_TEST_SOURCE = '#!/usr/bin/env node\n// MAINTENANCE: Exercise UI/state/export logic deterministically without binding the project to a desktop browser engine.\n\'use strict\';\nconst fs=require(\'fs\'),vm=require(\'vm\'),path=require(\'path\');\nconst ROOT=process.env.OSP_ROOT?path.resolve(process.env.OSP_ROOT):path.resolve(__dirname,\'..\');\nconst elements=new Map();\nfunction element(id=\'\'){\n  if(elements.has(id))return elements.get(id);\n  const e={id,value:\'\',innerHTML:\'\',textContent:\'\',dataset:{},style:{},checked:false,files:[],\n    classList:{add(){},remove(){},toggle(){},contains(){return false}},\n    addEventListener(){},setAttribute(){},removeAttribute(){},focus(){},click(){},\n    appendChild(){},querySelector(){return null},querySelectorAll(){return []}};\n  elements.set(id,e);return e;\n}\nconst document={\n  documentElement:{lang:\'en\',classList:{toggle(){}}},activeElement:null,title:\'\',\n  querySelector(sel){if(sel.startsWith(\'#\'))return element(sel.slice(1));return element(sel)},\n  querySelectorAll(){return []},createElement(){return element(\'created-\'+Math.random())},body:element(\'body\')\n};\nconst localStore=new Map();\nconst box={console,document,window:{scrollTo(){},print(){},location:{origin:\'http://127.0.0.1\'}},navigator:{},\n  localStorage:{getItem:k=>localStore.get(k)||null,setItem:(k,v)=>localStore.set(k,String(v))},\n  structuredClone:global.structuredClone,URL,Blob,Date,Math,JSON,Number,String,Array,Object,Set,Map,Intl,\n  decodeURIComponent,encodeURIComponent,setTimeout:()=>0,clearTimeout(){},fetch:async()=>{throw new Error(\'network disabled in UI logic test\')}};\nvm.createContext(box);\nlet app=fs.readFileSync(path.join(ROOT,\'web\',\'app.js\'),\'utf8\').replace(/\\ninit\\(\\);\\s*$/,\'\');\nlet fieldOps=fs.readFileSync(path.join(ROOT,\'web\',\'field-operations.js\'),\'utf8\').replace(/\\napplyLang\\(\\);\\s*$/,\'\');\nlet continuityOps=fs.readFileSync(path.join(ROOT,\'web\',\'continuity-operations.js\'),\'utf8\').replace(/\\napplyLang\\(\\);\\s*$/,\'\');\nlet knowledgeAtlas=fs.readFileSync(path.join(ROOT,\'web\',\'knowledge-atlas.js\'),\'utf8\').replace(/\\napplyLang\\(\\);\\s*$/,\'\');\nvm.runInContext(app,box,{filename:\'app.js\'});\nvm.runInContext(fieldOps,box,{filename:\'field-operations.js\'});\nvm.runInContext(continuityOps,box,{filename:\'continuity-operations.js\'});\nvm.runInContext(knowledgeAtlas,box,{filename:\'knowledge-atlas.js\'});\nvm.runInContext(\'saveState=async()=>state; state=mergeState({}); lang="en";\',box);\nconst checks=[];\nfunction check(name,condition,detail=\'\'){checks.push([name,!!condition,detail]);console.log(`[${condition?\'PASS\':\'FAIL\'}] ${name}${detail?\' — \'+detail:\'\'}`)}\nfunction set(id,value){element(id).value=String(value)}\nfunction run(code){return vm.runInContext(code,box)}\n\ntry{\n  set(\'zoneName\',\'Main room\');set(\'zoneStatus\',\'safe\');set(\'zoneOccupants\',3);set(\'zoneUtilities\',\'battery light\');set(\'zoneNotes\',\'dry access\');run(\'addShelterZone()\');\n  check(\'shelter-add\',run(\'state.shelter_zones.length===1 && state.shelter_zones[0].occupants===3\'));\n  check(\'shelter-render\',element(\'shelterTable\').innerHTML.includes(\'Main room\'));\n\n  set(\'waterSource\',\'sealed storage\');set(\'waterVolume\',18);set(\'waterMethod\',\'logged handling\');set(\'waterStatus\',\'ready\');set(\'waterContainer\',\'blue can\');run(\'addWaterBatch()\');\n  check(\'water-add\',run(\'state.water_batches.length===1 && state.water_batches[0].volume_l===18\'));\n  check(\'water-summary\',element(\'waterBatchSummary\').innerHTML.includes(\'18\'));\n\n  set(\'recoveryArea\',\'South door\');set(\'recoverySeverity\',\'major\');set(\'recoveryStatus\',\'isolated\');set(\'recoveryOwner\',\'Alex\');set(\'recoveryAction\',\'keep closed\');set(\'recoveryNotes\',\'frame moved\');run(\'addRecoveryItem()\');\n  check(\'recovery-add\',run(\'state.recovery_items.length===1 && state.recovery_items[0].severity==="major"\'));\n  check(\'recovery-render\',element(\'recoveryTable\').innerHTML.includes(\'South door\'));\n\n  set(\'skillPerson\',\'Alex\');set(\'skillName\',\'Radio check\');set(\'skillLevel\',\'practiced\');set(\'skillLast\',\'2026-08-01\');set(\'skillNext\',\'2026-09-01\');run(\'addSkill()\');\n  set(\'skillPerson\',\'Maria\');set(\'skillName\',\'Radio check\');set(\'skillLevel\',\'confident\');set(\'skillLast\',\'2026-08-02\');set(\'skillNext\',\'2026-09-02\');run(\'addSkill()\');\n  check(\'skills-add\',run(\'state.skill_matrix.length===2\'));\n  check(\'skills-backup-detected\',element(\'skillsSummary\').innerHTML.includes(\'1\'));\n\n  set(\'decisionIssue\',\'Primary route blocked\');set(\'decisionValue\',\'Use north route\');set(\'decisionReason\',\'bridge closed\');set(\'decisionOwner\',\'Alex\');set(\'decisionStatus\',\'active\');set(\'decisionNext\',\'2026-08-09T01:00\');run(\'addDecision()\');\n  check(\'decision-add\',run(\'state.decision_board.length===1\'));\n  check(\'decision-render\',element(\'decisionTable\').innerHTML.includes(\'Primary route blocked\'));\n\n  run(\'lang="el"; renderFieldOperations();\');\n  check(\'greek-shelter-status\',element(\'shelterTable\').innerHTML.includes(\'Χρήσιμη\'));\n  check(\'greek-water-status\',element(\'waterBatchTable\').innerHTML.includes(\'Αποδεκτό\'));\n  check(\'greek-decision-status\',element(\'decisionTable\').innerHTML.includes(\'Ενεργή\'));\n  check(\'nav-field-sections\',run(\'["shelter","waterops","recovery","skills","decisions"].every(id=>NAV.some(x=>x[0]===id))\'));\n  check(\'state-schema\',run(\'DEFAULT_STATE.schema_version===7\'));\n  check(\'nav-knowledge-section\',run(\'NAV.some(x=>x[0]==="knowledge") && MOBILE_NAV.includes("knowledge")\'));\n  run(`libraryCache=[{path:\'Knowledge Compendium/EN/00-compendium-index-and-use.md\',name:\'00-compendium-index-and-use.md\',size_human:\'3 KB\',readable:true},{path:\'Knowledge Compendium/EN/01-emergency-water-reserve.md\',name:\'01-emergency-water-reserve.md\',size_human:\'4 KB\',readable:true},{path:\'Knowledge Compendium/EN/112-blackout-movement-emergency-lighting.md\',name:\'112-blackout-movement-emergency-lighting.md\',size_human:\'4 KB\',readable:true},{path:\'Knowledge Compendium/GR/00-compendium-index-and-use.md\',name:\'00-compendium-index-and-use.md\',size_human:\'3 KB\',readable:true}]; lang=\'en\'; state.risk_flags=[\'outage\']; renderKnowledgeDomains(); renderKnowledgeStats(); renderKnowledgeRecommended(); renderKnowledgeProgress();`);\n  check(\'knowledge-stats\',element(\'knowledgeStats\').innerHTML.includes(\'3\'));\n  check(\'knowledge-domains\',element(\'knowledgeDomains\').innerHTML.includes(\'Water\'));\n  check(\'knowledge-risk-reading-queue\',element(\'knowledgeRecommended\').innerHTML.includes(\'112-blackout-movement-emergency-lighting\'));\n  run(`setKnowledgeStatus(\'Knowledge Compendium/EN/01-emergency-water-reserve.md\',\'reviewed\'); renderKnowledgeStats(); renderKnowledgeProgress();`);\n  check(\'knowledge-progress\',run(\'state.knowledge_progress.length===1 && state.knowledge_progress[0].status==="reviewed"\') && element(\'knowledgeProgress\').innerHTML.includes(\'01-emergency-water-reserve\'));\n  run(`downloadBlob=(text,name,type)=>{globalThis.__knowledgeDownload={text,name,type}};exportKnowledgeQueue();`);\n  check(\'knowledge-risk-queue-export\',run(\'__knowledgeDownload.name.startsWith("offline-survival-knowledge-queue-") && __knowledgeDownload.text.includes("112-blackout-movement-emergency-lighting")\'));\n  run(`lang=\'el\'; renderKnowledgeDomains(); renderKnowledgeStats();`);\n  check(\'knowledge-greek\',element(\'knowledgeDomains\').innerHTML.includes(\'Νερό\'));\n  run(`lang=\'en\';`);\n  check(\'nav-continuity-sections\',run(\'["briefing","foodops","sanitationops","powerops","commsops","dependents","financeops"].every(id=>NAV.some(x=>x[0]===id))\'));\n\n  run(`lang=\'en\';state=mergeState({profile:{adults:2,children:1,battery_wh:1200},water_batches:[{id:\'w\',source:\'Tank\',volume_l:20,status:\'ready\'},{id:\'u\',source:\'Rain\',volume_l:5,status:\'untreated\'}]});`);\n  set(\'foodLotName\',\'Rice reserve\');set(\'foodLotCategory\',\'staple\');set(\'foodLotQty\',5);set(\'foodLotUnit\',\'kg\');set(\'foodLotKcal\',18000);set(\'foodLotLocation\',\'Pantry\');element(\'foodLotStatus\').value=\'use-first\';run(\'addFoodLot()\');\n  check(\'food-add\',run(\'state.food_lots.length===1 && state.food_lots[0].kcal_total===18000\'));\n  set(\'foodOpsKcalDay\',2000);run(\'calculateFoodOpsCoverage()\');check(\'food-coverage\',element(\'foodCoverageOutput\').innerHTML.includes(\'3\'));\n\n  set(\'sanName\',\'Handwash A\');element(\'sanKind\').value=\'handwash\';element(\'sanStatus\').value=\'service\';set(\'sanCapacity\',12);set(\'sanUnit\',\'L\');set(\'sanOwner\',\'Alex\');run(\'addSanitationPoint()\');\n  check(\'sanitation-add\',run(\'state.sanitation_points.length===1 && state.sanitation_points[0].status==="service"\'));\n\n  set(\'powerName\',\'Radio\');set(\'powerLoadWatts\',10);set(\'powerLoadHours\',4);element(\'powerPriority\').value=\'critical\';set(\'powerSource\',\'battery\');run(\'addPowerLoad()\');\n  set(\'powerName\',\'Lamp\');set(\'powerLoadWatts\',5);set(\'powerLoadHours\',2);element(\'powerPriority\').value=\'optional\';run(\'addPowerLoad()\');\n  check(\'power-add\',run(\'state.power_loads.length===2 && loadWh(state.power_loads[0])===40\'));\n  set(\'powerRecharge\',0);run(\'calculatePowerEndurance()\');check(\'power-endurance\',element(\'powerEnduranceOutput\').innerHTML.includes(\'24\'));\n\n  set(\'commsWindowName\',\'Evening\');set(\'commsWindowMethod\',\'radio\');set(\'commsWindowChannel\',\'CH3\');set(\'commsWindowParticipants\',\'Team\');element(\'commsWindowStatus\').value=\'missed\';run(\'addCommsWindow()\');\n  check(\'comms-add\',run(\'state.comms_windows.length===1 && state.comms_windows[0].status==="missed"\'));\n\n  set(\'depName\',\'Service dog\');element(\'depKind\').value=\'service-animal\';set(\'depNeeds\',\'food and water\');set(\'depCaregiver\',\'Alex\');set(\'depSupplies\',\'3 day kit\');run(\'addDependent()\');\n  check(\'dependent-add\',run(\'state.dependents.length===1 && state.dependents[0].kind==="service-animal"\'));\n\n  set(\'expenseCategory\',\'transport\');set(\'expenseDescription\',\'Emergency fuel\');set(\'expenseAmount\',30);set(\'expenseCurrency\',\'EUR\');element(\'expenseStatus\').value=\'claim-ready\';run(\'addExpense()\');\n  check(\'expense-add\',run(\'state.expense_log.length===1 && state.expense_log[0].amount===30\'));\n\n  run(`state.checkins=[{name:\'Nina\',status:\'needs-help\'}];renderSituationBrief();`);\n  check(\'situation-brief\',element(\'briefingTextOutput\').textContent.includes(\'18,000\') && element(\'briefingActions\').innerHTML.includes(\'communication\'));\n  run(`lang=\'el\';renderContinuityOperations();renderSituationBrief();`);\n  check(\'continuity-greek-render\',element(\'foodOpsSummary\').innerHTML.includes(\'Χρήσιμη\') && element(\'briefingTextOutput\').textContent.includes(\'Σύνοψη κατάστασης\'));\n\n  run(`downloadBlob=(text,name,type)=>{globalThis.__lastDownload={text,name,type}};\n       state.routes=[{name:\'North\',source:\'test\',notes:\'\',points:[[40,22],[40.1,22.1]]}];\n       exportRoutesGeoJSON();`);\n  check(\'route-export-argument-order\',run(\'__lastDownload.name==="offline-survival-routes.geojson" && __lastDownload.text.includes("FeatureCollection")\'));\n  run(`lang=\'en\';exportFoodLotsCSV();`);check(\'food-export\',run(\'__lastDownload.name==="offline-survival-food-lots.csv" && __lastDownload.text.includes("Rice reserve")\'));\n  run(`exportSanitationCSV();`);check(\'sanitation-export\',run(\'__lastDownload.name==="offline-survival-sanitation.csv" && __lastDownload.text.includes("Handwash A")\'));\n  run(`exportPowerLoadsCSV();`);check(\'power-export\',run(\'__lastDownload.name==="offline-survival-power-loads.csv" && __lastDownload.text.includes("Radio")\'));\n  run(`downloadCommsSchedule();`);check(\'comms-export\',run(\'__lastDownload.name.startsWith("offline-survival-comms-") && __lastDownload.text.includes("Evening")\'));\n  run(`exportDependentsCSV();`);check(\'dependents-export\',run(\'__lastDownload.name==="offline-survival-dependents.csv" && __lastDownload.text.includes("Service dog")\'));\n  run(`exportExpensesCSV();`);check(\'expenses-export\',run(\'__lastDownload.name==="offline-survival-recovery-costs.csv" && __lastDownload.text.includes("Emergency fuel")\'));\n  run(`downloadSituationBrief();`);check(\'brief-export\',run(\'__lastDownload.name.startsWith("offline-survival-situation-brief-") && __lastDownload.text.includes("Situation brief")\'));\n  run(`state.field_logs=[{time:\'2026-08-09T00:00:00Z\',label:\'Battery voltage\',value:\'12.4\',unit:\'V\',notes:\'stable\'}];\n       exportFieldLogCSV();`);\n  check(\'field-log-export-argument-order\',run(\'__lastDownload.name==="offline-survival-field-log.csv" && __lastDownload.text.includes("Battery voltage")\'));\n  run(`state.inventory=[{name:\'=1+1\',category:\'test\',qty:1,unit:\'pc\',expiry:\'\',notes:\'\'}];exportInventoryCSV();`);\n  check(\'csv-formula-hardening\',run("csvCell(\'=1+1\').charCodeAt(1)===39"));\n  run(`state.contacts=[{name:\'Private\'}];state.routes=[{name:\'Private route\',points:[[1,2],[3,4]]}];state.medical_card={person:\'Private\'};state.decision_board=[{issue:\'Private\',decision:\'Private\'}];exportRedactedState();`);\n  check(\'redacted-template-empty\',run(`(()=>{const x=JSON.parse(__lastDownload.text).state;return x.contacts.length===0&&x.routes.length===0&&Object.keys(x.medical_card).length===0&&x.decision_board.length===0&&x.inventory.length===0})()`));\n  run(`lang=\'en\';state.checkins=[{name:\'Nina\',status:\'needs-help\',location:\'North room\',next:\'2026-08-09T01:30\'}];\n       state.shelter_zones.push({id:\'z2\',name:\'Garage\',status:\'avoid\',occupants:0,utilities:\'\',notes:\'smoke\'});\n       state.water_batches.push({id:\'w2\',source:\'roof barrel\',volume_l:7,status:\'untreated\',container:\'can\',notes:\'\'});\n       generateHandoverBrief();`);\n  check(\'handover-derived-state\',element(\'handoverOutput\').textContent.includes(\'Nina\') && element(\'handoverOutput\').textContent.includes(\'Garage\') && element(\'handoverOutput\').textContent.includes(\'roof barrel\'));\n  run(`lang=\'el\';generateHandoverBrief();`);\n  check(\'handover-greek\',element(\'handoverOutput\').textContent.includes(\'Σύνοψη παράδοσης βάρδιας\'));\n}catch(error){\n  check(\'runtime-exception\',false,error&&error.stack?error.stack:String(error));\n}\nconst passed=checks.filter(x=>x[1]).length;\nconsole.log(\'=\'.repeat(64));\nconsole.log(`${passed}/${checks.length} UI logic checks passed`);\nprocess.exit(passed===checks.length?0:2);\n'
+
+
+def _expanded_ui_logic_test_source() -> str:
+    """Extend the embedded browser-logic harness for resilience schema v8."""
+    source = _EMBEDDED_UI_LOGIC_TEST_SOURCE
+    old_load = r"""let continuityOps=fs.readFileSync(path.join(ROOT,'web','continuity-operations.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
+let knowledgeAtlas="""
+    new_load = r"""let continuityOps=fs.readFileSync(path.join(ROOT,'web','continuity-operations.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
+let resilienceOps=fs.readFileSync(path.join(ROOT,'web','resilience-operations.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
+let decisionSupport=fs.readFileSync(path.join(ROOT,'web','decision-support.js'),'utf8').replace(/\napplyLang\(\);\s*$/,'');
+let knowledgeAtlas="""
+    if old_load not in source:
+        raise RuntimeError("Could not extend UI harness module loading")
+    source = source.replace(old_load, new_load, 1)
+
+    old_run = """vm.runInContext(continuityOps,box,{filename:'continuity-operations.js'});
+vm.runInContext(knowledgeAtlas,box,{filename:'knowledge-atlas.js'});"""
+    new_run = """vm.runInContext(continuityOps,box,{filename:'continuity-operations.js'});
+vm.runInContext(resilienceOps,box,{filename:'resilience-operations.js'});
+vm.runInContext(decisionSupport,box,{filename:'decision-support.js'});
+vm.runInContext(knowledgeAtlas,box,{filename:'knowledge-atlas.js'});"""
+    if old_run not in source:
+        raise RuntimeError("Could not execute resilience module in UI harness")
+    source = source.replace(old_run, new_run, 1)
+    source = source.replace("DEFAULT_STATE.schema_version===7", "DEFAULT_STATE.schema_version===8", 1)
+
+    test_anchor = """  check('nav-continuity-sections',run('["briefing","foodops","sanitationops","powerops","commsops","dependents","financeops"].every(id=>NAV.some(x=>x[0]===id))'));
+"""
+    if test_anchor not in source:
+        raise RuntimeError("Could not locate UI resilience test insertion point")
+    tests = """  check('nav-resilience-sections',run('["resilience","dependencies","triggers","consumption","mutualaid"].every(id=>NAV.some(x=>x[0]===id))'));
+  set('dependencySystem','Water pump');set('dependencyOn','Grid power');set('dependencyImpact','No pumping');set('dependencyFallback','Manual reserve');set('dependencyOwner','Alex');element('dependencyStatus').value='degraded';set('dependencyNotes','review daily');run('addDependency()');
+  check('dependency-register',run('state.dependencies.length===1 && state.dependencies[0].status==="degraded"') && element('dependenciesTable').innerHTML.includes('Water pump'));
+  set('triggerName','Leave early');set('triggerSignal','Official evacuation warning');set('triggerThreshold','Warning applies to our zone');set('triggerAction','Use prepared route');set('triggerOwner','Alex');element('triggerStatus').value='met';run('addActionTrigger()');
+  check('action-trigger-register',run('state.action_triggers.length===1 && state.action_triggers[0].status==="met"') && element('triggersTable').innerHTML.includes('Leave early'));
+  set('resourceName','Battery pack');set('resourceAmount',2);set('resourceUnit','units');element('resourceDirection').value='use';set('resourceContext','Radio charging');run('addConsumption()');
+  check('resource-movement-log',run('state.consumption_log.length===1 && state.consumption_log[0].amount===2') && element('consumptionTable').innerHTML.includes('Battery pack'));
+  set('mutualParty','Neighbour group');set('mutualCapability','Transport');element('mutualDirection').value='need';set('mutualQuantity','one vehicle');set('mutualContact','radio');element('mutualStatus').value='open';run('addMutualAid()');
+  check('mutual-aid-register',run('state.mutual_aid.length===1 && state.mutual_aid[0].direction==="need"') && element('mutualAidTable').innerHTML.includes('Transport'));
+  run(`renderResilienceDashboard();`);
+  check('resilience-dashboard',element('resilienceAlertsList').innerHTML.includes('Water pump') && element('resilienceAlertsList').innerHTML.includes('Transport'));
+  check('nav-decision-support-sections',run('["missioncontrol","gapmatrix","first24","sustainment","afteraction"].every(id=>NAV.some(x=>x[0]===id))'));
+  run(`renderDecisionSupport();`);
+  check('mission-control-derived-priorities',element('missionControlPriorities').innerHTML.includes('Water pump') && element('missionControlPriorities').innerHTML.includes('Transport'));
+  check('gap-matrix-derived-priorities',element('gapMatrixTable').innerHTML.includes('Leave early') && element('gapMatrixTable').innerHTML.includes('Water pump'));
+  check('first24-derived-sequence',element('first24Phases').innerHTML.includes('Leave early'));
+  check('sustainment-derived-movement',element('sustainmentTable').innerHTML.includes('Battery pack'));
+  run(`lang='el';renderDecisionSupport();`);
+  check('decision-support-greek-render',element('missionControlSummary').innerHTML.includes('Ανοιχτά κενά'));
+  run(`lang='el';renderResilienceOperations();`);
+  check('resilience-greek-render',element('dependenciesTable').innerHTML.includes('Υποβαθμισμένο') && element('mutualAidTable').innerHTML.includes('Ανάγκη'));
+  run(`lang='en';`);
+"""
+    source = source.replace(test_anchor, test_anchor + tests, 1)
+    return source
 
 
 def _consolidated_embedded_tool_source(name: str, source: str) -> str:
@@ -2003,6 +2350,28 @@ def _consolidated_embedded_tool_source(name: str, source: str) -> str:
         if old not in source:
             raise RuntimeError("Could not adapt translation loader to consolidated database")
         source = source.replace(old, new, 1)
+    if name == "api_smoke_test":
+        source = source.replace('saved_a.get("schema_version") == 7', 'saved_a.get("schema_version") == 8', 1)
+        state_old = '''"knowledge_progress": [{"path": "01-emergency-water-reserve.md", "status": "reviewed", "last_review": "2026-08-09", "notes": "checked"}]}'''
+        state_new = '''"knowledge_progress": [{"path": "01-emergency-water-reserve.md", "status": "reviewed", "last_review": "2026-08-09", "notes": "checked"}], "dependencies": [{"system": "Water pump", "dependency": "Grid power", "fallback": "Stored reserve", "status": "degraded"}], "action_triggers": [{"name": "Leave early", "signal": "Official warning", "threshold": "Our zone", "action": "Use prepared route", "status": "met"}], "consumption_log": [{"resource": "Battery pack", "amount": 2, "unit": "units", "direction": "use"}], "mutual_aid": [{"party": "Neighbour group", "capability": "Transport", "direction": "need", "status": "open"}]}'''
+        if state_old not in source:
+            raise RuntimeError("Could not extend API smoke state fixture")
+        source = source.replace(state_old, state_new, 1)
+        save_tail = 'and len(saved_a.get("knowledge_progress", [])) == 1)'
+        save_new = 'and len(saved_a.get("knowledge_progress", [])) == 1 and len(saved_a.get("dependencies", [])) == 1 and len(saved_a.get("action_triggers", [])) == 1 and len(saved_a.get("consumption_log", [])) == 1 and len(saved_a.get("mutual_aid", [])) == 1)'
+        if save_tail not in source:
+            raise RuntimeError("Could not extend API smoke state assertion")
+        source = source.replace(save_tail, save_new, 1)
+        restore_anchor = 'check("knowledge-progress-restore", status == 200 and len(restored.get("knowledge_progress", [])) == 1 and restored.get("knowledge_progress", [{}])[0].get("status") == "reviewed")'
+        restore_insert = restore_anchor + '\n        check("resilience-state-restore", status == 200 and len(restored.get("dependencies", [])) == 1 and len(restored.get("action_triggers", [])) == 1 and len(restored.get("consumption_log", [])) == 1 and len(restored.get("mutual_aid", [])) == 1)'
+        if restore_anchor not in source:
+            raise RuntimeError("Could not extend API restore assertion")
+        source = source.replace(restore_anchor, restore_insert, 1)
+        assets_old = '"/continuity-operations.js": "javascript", "/knowledge-atlas.js": "javascript"'
+        assets_new = '"/continuity-operations.js": "javascript", "/resilience-operations.js": "javascript", "/decision-support.js": "javascript", "/knowledge-atlas.js": "javascript"'
+        if assets_old not in source:
+            raise RuntimeError("Could not extend API asset checks")
+        source = source.replace(assets_old, assets_new, 1)
     return source
 
 
@@ -2029,6 +2398,185 @@ def _consolidated_web_source(source: str) -> str:
     if old not in source:
         raise RuntimeError("Could not adapt Command Center diagnostics to consolidated database")
     source = source.replace(old, new, 1)
+
+    # Release schema v8: preserve the new resilience-operation registers through
+    # the same strict local state sanitizer used by the rest of the Command Center.
+    if "SCHEMA_VERSION = 7" not in source:
+        raise RuntimeError("Could not upgrade Command Center state schema")
+    source = source.replace("SCHEMA_VERSION = 7", "SCHEMA_VERSION = 8", 1)
+
+    state_anchor = '''    "knowledge_progress": [],
+    "settings": {"low_power": False},
+'''
+    state_insert = '''    "knowledge_progress": [],
+    "dependencies": [],
+    "action_triggers": [],
+    "consumption_log": [],
+    "mutual_aid": [],
+    "settings": {"low_power": False},
+'''
+    if state_anchor not in source:
+        raise RuntimeError("Could not extend Command Center default state")
+    source = source.replace(state_anchor, state_insert, 1)
+
+    variable_anchor = '''    knowledge_progress = candidate.get("knowledge_progress", [])
+    settings = candidate.get("settings", {})
+'''
+    variable_insert = '''    knowledge_progress = candidate.get("knowledge_progress", [])
+    dependencies = candidate.get("dependencies", [])
+    action_triggers = candidate.get("action_triggers", [])
+    consumption_log = candidate.get("consumption_log", [])
+    mutual_aid = candidate.get("mutual_aid", [])
+    settings = candidate.get("settings", {})
+'''
+    if variable_anchor not in source:
+        raise RuntimeError("Could not read resilience state fields")
+    source = source.replace(variable_anchor, variable_insert, 1)
+
+    sanitize_anchor = '''    clean_settings = {"low_power": bool(settings.get("low_power", False))} if isinstance(settings, dict) else {"low_power": False}
+'''
+    sanitize_insert = '''    if not isinstance(dependencies, list) or len(dependencies) > 2000:
+        raise ValueError("Invalid dependencies")
+    clean_dependencies: list[dict[str, Any]] = []
+    for item in dependencies:
+        if not isinstance(item, dict):
+            continue
+        system = _clean_text(item.get("system"), 180)
+        dependency = _clean_text(item.get("dependency"), 240)
+        if not system or not dependency:
+            continue
+        status = _clean_text(item.get("status"), 40)
+        if status not in {"active", "degraded", "failed", "restored"}:
+            status = "active"
+        clean_dependencies.append({
+            "id": _clean_text(item.get("id"), 80) or f"dependency-{len(clean_dependencies)+1}",
+            "system": system,
+            "dependency": dependency,
+            "impact": _clean_text(item.get("impact"), 800),
+            "fallback": _clean_text(item.get("fallback"), 800),
+            "owner": _clean_text(item.get("owner"), 140),
+            "status": status,
+            "notes": _clean_text(item.get("notes"), 1200),
+        })
+
+    if not isinstance(action_triggers, list) or len(action_triggers) > 2000:
+        raise ValueError("Invalid action triggers")
+    clean_action_triggers: list[dict[str, Any]] = []
+    for item in action_triggers:
+        if not isinstance(item, dict):
+            continue
+        name = _clean_text(item.get("name"), 180)
+        signal = _clean_text(item.get("signal"), 600)
+        action = _clean_text(item.get("action"), 1200)
+        if not name or not signal or not action:
+            continue
+        status = _clean_text(item.get("status"), 40)
+        if status not in {"watch", "met", "acted", "closed"}:
+            status = "watch"
+        clean_action_triggers.append({
+            "id": _clean_text(item.get("id"), 80) or f"trigger-{len(clean_action_triggers)+1}",
+            "name": name,
+            "signal": signal,
+            "threshold": _clean_text(item.get("threshold"), 800),
+            "action": action,
+            "owner": _clean_text(item.get("owner"), 140),
+            "review": _clean_datetime(item.get("review")),
+            "status": status,
+            "notes": _clean_text(item.get("notes"), 1200),
+        })
+
+    if not isinstance(consumption_log, list) or len(consumption_log) > 5000:
+        raise ValueError("Invalid resource movement log")
+    clean_consumption_log: list[dict[str, Any]] = []
+    for item in consumption_log:
+        if not isinstance(item, dict):
+            continue
+        resource = _clean_text(item.get("resource"), 180)
+        if not resource:
+            continue
+        direction = _clean_text(item.get("direction"), 40)
+        if direction not in {"use", "restock", "loss", "transfer"}:
+            direction = "use"
+        clean_consumption_log.append({
+            "id": _clean_text(item.get("id"), 80) or f"movement-{len(clean_consumption_log)+1}",
+            "time": _clean_datetime(item.get("time")),
+            "resource": resource,
+            "amount": _bounded_float(item.get("amount"), 0, 0, 1_000_000_000),
+            "unit": _clean_text(item.get("unit"), 40),
+            "direction": direction,
+            "context": _clean_text(item.get("context"), 400),
+            "notes": _clean_text(item.get("notes"), 1200),
+        })
+
+    if not isinstance(mutual_aid, list) or len(mutual_aid) > 2000:
+        raise ValueError("Invalid mutual aid register")
+    clean_mutual_aid: list[dict[str, Any]] = []
+    for item in mutual_aid:
+        if not isinstance(item, dict):
+            continue
+        capability = _clean_text(item.get("capability"), 240)
+        if not capability:
+            continue
+        direction = _clean_text(item.get("direction"), 40)
+        if direction not in {"offer", "need", "exchange"}:
+            direction = "need"
+        status = _clean_text(item.get("status"), 40)
+        if status not in {"open", "matched", "completed", "cancelled"}:
+            status = "open"
+        clean_mutual_aid.append({
+            "id": _clean_text(item.get("id"), 80) or f"mutual-{len(clean_mutual_aid)+1}",
+            "party": _clean_text(item.get("party"), 180),
+            "capability": capability,
+            "direction": direction,
+            "quantity": _clean_text(item.get("quantity"), 180),
+            "contact": _clean_text(item.get("contact"), 180),
+            "status": status,
+            "notes": _clean_text(item.get("notes"), 1200),
+        })
+
+    clean_settings = {"low_power": bool(settings.get("low_power", False))} if isinstance(settings, dict) else {"low_power": False}
+'''
+    if sanitize_anchor not in source:
+        raise RuntimeError("Could not install resilience state sanitizer")
+    source = source.replace(sanitize_anchor, sanitize_insert, 1)
+
+    return_anchor = '''        "knowledge_progress": clean_knowledge_progress,
+        "settings": clean_settings,
+'''
+    return_insert = '''        "knowledge_progress": clean_knowledge_progress,
+        "dependencies": clean_dependencies,
+        "action_triggers": clean_action_triggers,
+        "consumption_log": clean_consumption_log,
+        "mutual_aid": clean_mutual_aid,
+        "settings": clean_settings,
+'''
+    if return_anchor not in source:
+        raise RuntimeError("Could not return resilience state fields")
+    source = source.replace(return_anchor, return_insert, 1)
+
+    static_anchor = '''                "/continuity-operations.js": WEB_ROOT / "continuity-operations.js",
+                "/knowledge-atlas.js": WEB_ROOT / "knowledge-atlas.js",
+'''
+    static_insert = '''                "/continuity-operations.js": WEB_ROOT / "continuity-operations.js",
+                "/resilience-operations.js": WEB_ROOT / "resilience-operations.js",
+                "/decision-support.js": WEB_ROOT / "decision-support.js",
+                "/knowledge-atlas.js": WEB_ROOT / "knowledge-atlas.js",
+'''
+    if static_anchor not in source:
+        raise RuntimeError("Could not expose resilience module from local Command Center")
+    source = source.replace(static_anchor, static_insert, 1)
+
+    diagnostics_anchor = """        add("web_continuity_operations_script", (WEB_ROOT / "continuity-operations.js").is_file(), str(WEB_ROOT / "continuity-operations.js"))
+        add("web_knowledge_atlas_script", (WEB_ROOT / "knowledge-atlas.js").is_file(), str(WEB_ROOT / "knowledge-atlas.js"))
+"""
+    diagnostics_insert = """        add("web_continuity_operations_script", (WEB_ROOT / "continuity-operations.js").is_file(), str(WEB_ROOT / "continuity-operations.js"))
+        add("web_resilience_operations_script", (WEB_ROOT / "resilience-operations.js").is_file(), str(WEB_ROOT / "resilience-operations.js"))
+        add("web_decision_support_script", (WEB_ROOT / "decision-support.js").is_file(), str(WEB_ROOT / "decision-support.js"))
+        add("web_knowledge_atlas_script", (WEB_ROOT / "knowledge-atlas.js").is_file(), str(WEB_ROOT / "knowledge-atlas.js"))
+"""
+    if diagnostics_anchor not in source:
+        raise RuntimeError("Could not extend Command Center diagnostics for resilience module")
+    source = source.replace(diagnostics_anchor, diagnostics_insert, 1)
 
     lock_anchor = "_KIWIX_LOCK = threading.Lock()\n_INTEGRITY_LOCK = threading.Lock()\n"
     if lock_anchor not in source:
@@ -2324,6 +2872,8 @@ def integrated_self_test() -> int:
         PROJECT_ROOT / "web" / "app.js",
         PROJECT_ROOT / "web" / "field-operations.js",
         PROJECT_ROOT / "web" / "continuity-operations.js",
+        PROJECT_ROOT / "web" / "resilience-operations.js",
+        PROJECT_ROOT / "web" / "decision-support.js",
         PROJECT_ROOT / "web" / "knowledge-atlas.js",
         PROJECT_ROOT / "web" / "phone-test.html",
         PROJECT_ROOT / "web" / "phone-test.js",
@@ -2368,6 +2918,8 @@ def integrated_self_test() -> int:
     check("smart-search-filters-exclusions", bool(filtered_rows) and all(normalize(item["record"].get("priority", "")) == "high" and "generator" not in normalize(flatten(item["record"])) for item in filtered_rows), f"{len(filtered_rows)} results")
     detail_probe = record_detail_profile(typo_rows[0]["record"]) if typo_rows else {}
     check("detailed-record-map", all(key in detail_probe for key in ("operational_profile", "available_guidance_sections", "key_points_from_record", "source_domains", "key_concepts")))
+    library_probe = library_search_rows("en", "route failure", 3)
+    check("direct-library-search", bool(library_probe) and any("route" in normalize(row.get("name", "") + " " + row.get("snippet", "")) for row in library_probe), f"{len(library_probe)} results")
 
     for label, tool in (("content-quality", "content_quality"), ("translation-audit", "translation_audit"), ("library-quality", "library_quality")):
         try:
@@ -2399,19 +2951,23 @@ def integrated_self_test() -> int:
         check("standalone-reader", False, str(exc))
 
     html = (PROJECT_ROOT / "web" / "index.html").read_text(encoding="utf-8")
-    scripts = "\n".join((PROJECT_ROOT / "web" / name).read_text(encoding="utf-8") for name in ("app.js","field-operations.js","continuity-operations.js","knowledge-atlas.js"))
+    scripts = "\n".join((PROJECT_ROOT / "web" / name).read_text(encoding="utf-8") for name in ("app.js","field-operations.js","continuity-operations.js","resilience-operations.js","decision-support.js","knowledge-atlas.js"))
     ids = re.findall(r'\bid="([^"]+)"', html)
     duplicates = sorted({x for x in ids if ids.count(x) > 1})
     check("html-unique-ids", not duplicates, ", ".join(duplicates[:10]))
     sections = re.findall(r'<section[^>]*\bid="([^"]+)"', html)
-    check("command-center-sections", len(sections) >= 32, str(len(sections)))
+    check("command-center-sections", len(sections) >= 42, str(len(sections)))
+    resilience_sections={"resilience","dependencies","triggers","consumption","mutualaid"}
+    check("command-center-resilience-sections", resilience_sections.issubset(set(sections)), ", ".join(sorted(resilience_sections-set(sections))))
+    decision_sections={"missioncontrol","gapmatrix","first24","sustainment","afteraction"}
+    check("command-center-decision-support-sections", decision_sections.issubset(set(sections)), ", ".join(sorted(decision_sections-set(sections))))
     handlers = set(re.findall(r'\bonclick="\s*([A-Za-z_$][\w$]*)\s*\(', html))
     functions = set(re.findall(r'(?<![\w$])(?:async\s+)?function\s+([A-Za-z_$][\w$]*)\s*\(', scripts))
     check("inline-handler-targets", not (handlers-functions), ", ".join(sorted(handlers-functions)))
 
     node = shutil.which("node")
     if node:
-        js_files = [PROJECT_ROOT / "web" / x for x in ("app.js","field-operations.js","continuity-operations.js","knowledge-atlas.js","phone-test.js","sw.js")]
+        js_files = [PROJECT_ROOT / "web" / x for x in ("app.js","field-operations.js","continuity-operations.js","resilience-operations.js","decision-support.js","knowledge-atlas.js","phone-test.js","sw.js")]
         ok = True; detail_parts=[]
         for js in js_files:
             proc=_osp_subprocess.run([node,"--check",str(js)],capture_output=True,text=True)

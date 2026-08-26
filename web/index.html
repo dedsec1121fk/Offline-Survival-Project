@@ -318,6 +318,72 @@
       <div id="financeOpsTable" style="margin-top:12px"></div>
     </section>
 
+    <section id="missioncontrol" class="section">
+      <div class="card hero"><div><h2 data-t="missioncontrolTitle">Mission control</h2><p data-t="missioncontrolText">A derived view of unresolved operational exceptions.</p></div><div class="quick"><button onclick="go('gapmatrix')" data-t="openGapMatrix">Open gap matrix</button><button onclick="go('first24')" data-t="openFirst24">Open first 24 hours</button><button onclick="go('sustainment')" data-t="openSustainment">Open sustainment review</button><button onclick="go('afteraction')" data-t="openAfterAction">Open after-action review</button><button onclick="exportDecisionBrief()" data-t="exportBrief">Export brief</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="decisionSafety">Decision support summarizes your records and does not override official or professional guidance.</p></div>
+      <div class="grid stats" id="missionControlSummary"></div><div class="title-row"><div><h3 data-t="decisionCurrent">Current priorities</h3></div></div><div class="card panel-pad" id="missionControlPriorities"></div>
+    </section>
+
+    <section id="gapmatrix" class="section">
+      <div class="card hero"><div><h2 data-t="gapmatrixTitle">Prioritized gap matrix</h2><p data-t="gapmatrixText">Rank unresolved exceptions using transparent local rules.</p></div><div class="quick"><button onclick="go('missioncontrol')" data-t="missioncontrol">Mission control</button><button onclick="exportGapMatrixCSV()" data-t="exportCsv">Export CSV</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="decisionSafety">Decision support summarizes your records and does not override official or professional guidance.</p></div><div id="gapMatrixTable"></div>
+    </section>
+
+    <section id="first24" class="section">
+      <div class="card hero"><div><h2 data-t="first24Title">First-24-hours sequence</h2><p data-t="first24Text">Group current exceptions into visible review windows.</p></div><div class="quick"><button onclick="go('missioncontrol')" data-t="missioncontrol">Mission control</button><button onclick="exportFirst24Text()" data-t="exportSequence">Export sequence</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="decisionSafety">Decision support summarizes your records and does not override official or professional guidance.</p></div><div class="grid" id="first24Phases"></div>
+    </section>
+
+    <section id="sustainment" class="section">
+      <div class="card hero"><div><h2 data-t="sustainmentTitle">Sustainment review</h2><p data-t="sustainmentText">Review observed resource movement and unresolved support needs.</p></div><div class="quick"><button onclick="go('consumption')" data-t="openConsumption">Open resource movement log</button><button onclick="exportSustainmentCSV()" data-t="exportCsv">Export CSV</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="decisionSafety">Decision support summarizes your records and does not override official or professional guidance.</p></div><div class="grid stats" id="sustainmentSummary"></div><div class="title-row"><div><h3 data-t="resourceBalance">Observed resource movement</h3></div></div><div class="card panel-pad" id="sustainmentTable"></div>
+    </section>
+
+    <section id="afteraction" class="section">
+      <div class="card hero"><div><h2 data-t="afteractionTitle">After-action review</h2><p data-t="afteractionText">Use existing evidence to capture what recovered and what still needs a permanent change.</p></div><div class="quick"><button onclick="go('missioncontrol')" data-t="missioncontrol">Mission control</button><button onclick="exportAfterActionText()" data-t="exportAfterAction">Export review</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="decisionSafety">Decision support summarizes your records and does not override official or professional guidance.</p></div><div class="grid stats" id="afterActionSummary"></div><div class="title-row"><div><h3 data-t="afterEvidence">Evidence for review</h3></div></div><div class="card panel-pad" id="afterActionEvidence"></div>
+    </section>
+
+    <section id="resilience" class="section">
+      <div class="card hero"><div><h2 data-t="resilienceTitle">Resilience operations</h2><p data-t="resilienceText">A local continuity layer for dependencies, triggers, resource movement and mutual aid.</p></div><div class="quick"><button onclick="go('dependencies')" data-t="openDependencies">Open dependency map</button><button onclick="go('triggers')" data-t="openTriggers">Open trigger matrix</button><button onclick="go('consumption')" data-t="openConsumption">Open resource movement log</button><button onclick="go('mutualaid')" data-t="openMutualAid">Open mutual-aid board</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="resilienceSafety">These registers support coordination and documentation. They do not override official or qualified guidance.</p></div>
+      <div class="grid stats" id="resilienceSummary"></div>
+      <div class="title-row"><div><h3 data-t="resilienceAlerts">Current exceptions</h3></div></div>
+      <div class="card panel-pad" id="resilienceAlertsList"><div class="empty">—</div></div>
+    </section>
+
+    <section id="dependencies" class="section">
+      <div class="card hero"><div><h2 data-t="dependenciesTitle">Critical dependency register</h2><p data-t="dependenciesText">Make hidden single points of failure visible before they become urgent.</p></div><div class="quick"><button onclick="go('resilience')" data-t="resilience">Resilience</button><button onclick="exportDependenciesCSV()" data-t="exportCsv">Export CSV</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="dependencySafety">Record only what is safely known; do not test hazards just to update the register.</p></div>
+      <div class="grid stats" id="dependenciesSummary"></div>
+      <div class="card panel-pad"><div class="inline-form"><div class="field"><label data-t="dependencySystem">System / capability</label><input id="dependencySystem"></div><div class="field"><label data-t="dependencyOn">Depends on</label><input id="dependencyOn"></div><div class="field"><label data-t="dependencyImpact">Impact if unavailable</label><input id="dependencyImpact"></div><div class="field"><label data-t="dependencyFallback">Fallback / substitute</label><input id="dependencyFallback"></div><div class="field"><label data-t="dependencyOwner">Owner</label><input id="dependencyOwner"></div><div class="field"><label data-t="dependencyStatus">Status</label><select id="dependencyStatus"><option value="active" data-t="depActive">Available</option><option value="degraded" data-t="depDegraded">Degraded</option><option value="failed" data-t="depFailed">Unavailable</option><option value="restored" data-t="depRestored">Restored</option></select></div><div class="field"><label data-t="notes">Notes</label><input id="dependencyNotes"></div><button class="btn primary" onclick="addDependency()" data-t="add">Add</button></div></div>
+      <div id="dependenciesTable" style="margin-top:12px"></div>
+    </section>
+
+    <section id="triggers" class="section">
+      <div class="card hero"><div><h2 data-t="triggersTitle">Action trigger matrix</h2><p data-t="triggersText">Turn vague “if it gets worse” plans into observable conditions and pre-agreed actions.</p></div><div class="quick"><button onclick="go('resilience')" data-t="resilience">Resilience</button><button onclick="exportTriggersCSV()" data-t="exportCsv">Export CSV</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="triggerSafety">Use observable conditions you can verify safely and never delay urgent action to update this matrix.</p></div>
+      <div class="grid stats" id="triggersSummary"></div>
+      <div class="card panel-pad"><div class="inline-form"><div class="field"><label data-t="triggerName">Trigger name</label><input id="triggerName"></div><div class="field"><label data-t="triggerSignal">Observable signal</label><input id="triggerSignal"></div><div class="field"><label data-t="triggerThreshold">Threshold / condition</label><input id="triggerThreshold"></div><div class="field"><label data-t="triggerAction">Pre-agreed action</label><textarea id="triggerAction"></textarea></div><div class="field"><label data-t="triggerOwner">Owner</label><input id="triggerOwner"></div><div class="field"><label data-t="triggerReview">Review time</label><input id="triggerReview" type="datetime-local"></div><div class="field"><label data-t="triggerStatus">Status</label><select id="triggerStatus"><option value="watch" data-t="triggerWatch">Watching</option><option value="met" data-t="triggerMet">Met — action due</option><option value="acted" data-t="triggerActed">Action taken</option><option value="closed" data-t="triggerClosed">Closed</option></select></div><div class="field"><label data-t="notes">Notes</label><input id="triggerNotes"></div><button class="btn primary" onclick="addActionTrigger()" data-t="add">Add</button></div></div>
+      <div id="triggersTable" style="margin-top:12px"></div>
+    </section>
+
+    <section id="consumption" class="section">
+      <div class="card hero"><div><h2 data-t="consumptionTitle">Resource movement log</h2><p data-t="consumptionText">Compare planning assumptions with actual use, restock, loss and transfers.</p></div><div class="quick"><button onclick="go('resources')" data-t="resources">Resources</button><button onclick="go('inventory')" data-t="inventory">Inventory</button><button onclick="exportConsumptionCSV()" data-t="exportCsv">Export CSV</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="consumptionSafety">The log records your measured quantities and does not define safe rationing or consumption requirements.</p></div>
+      <div class="grid stats" id="consumptionSummary"></div>
+      <div class="card panel-pad"><div class="inline-form"><div class="field"><label data-t="resourceName">Resource</label><input id="resourceName"></div><div class="field"><label data-t="resourceAmount">Amount</label><input id="resourceAmount" type="number" min="0" step="any"></div><div class="field"><label data-t="unit">Unit</label><input id="resourceUnit"></div><div class="field"><label data-t="resourceDirection">Movement</label><select id="resourceDirection"><option value="use" data-t="resourceUse">Used</option><option value="restock" data-t="resourceRestock">Restocked</option><option value="loss" data-t="resourceLoss">Lost / discarded</option><option value="transfer" data-t="resourceTransfer">Transferred</option></select></div><div class="field"><label data-t="resourceContext">Context / destination</label><input id="resourceContext"></div><div class="field"><label data-t="notes">Notes</label><input id="resourceNotes"></div><button class="btn primary" onclick="addConsumption()" data-t="add">Add</button></div></div>
+      <div id="consumptionTable" style="margin-top:12px"></div>
+    </section>
+
+    <section id="mutualaid" class="section">
+      <div class="card hero"><div><h2 data-t="mutualaidTitle">Mutual-aid board</h2><p data-t="mutualaidText">Track practical offers, needs and exchanges with minimal contact information.</p></div><div class="quick"><button onclick="go('skills')" data-t="skills">Skills</button><button onclick="go('resilience')" data-t="resilience">Resilience</button><button onclick="exportMutualAidCSV()" data-t="exportCsv">Export CSV</button></div></div>
+      <div class="card panel-pad danger-card"><p data-t="mutualSafety">Treat this board as sensitive and avoid storing unnecessary secrets or identity data.</p></div>
+      <div class="grid stats" id="mutualAidSummary"></div>
+      <div class="card panel-pad"><div class="inline-form"><div class="field"><label data-t="mutualParty">Person / group label</label><input id="mutualParty"></div><div class="field"><label data-t="mutualCapability">Skill / item / capability</label><input id="mutualCapability"></div><div class="field"><label data-t="mutualDirection">Type</label><select id="mutualDirection"><option value="offer" data-t="mutualOffer">Offer</option><option value="need" data-t="mutualNeed">Need</option><option value="exchange" data-t="mutualExchange">Exchange</option></select></div><div class="field"><label data-t="mutualQuantity">Quantity / scope</label><input id="mutualQuantity"></div><div class="field"><label data-t="mutualContact">Contact method</label><input id="mutualContact"></div><div class="field"><label data-t="mutualStatus">Status</label><select id="mutualStatus"><option value="open" data-t="mutualOpen">Open</option><option value="matched" data-t="mutualMatched">Matched</option><option value="completed" data-t="mutualCompleted">Completed</option><option value="cancelled" data-t="mutualCancelled">Cancelled</option></select></div><div class="field"><label data-t="notes">Notes</label><input id="mutualNotes"></div><button class="btn primary" onclick="addMutualAid()" data-t="add">Add</button></div></div>
+      <div id="mutualAidTable" style="margin-top:12px"></div>
+    </section>
+
     <section id="knowledge" class="section">
       <div class="card hero"><div><h2 data-t="knowledgeTitle">Knowledge Atlas</h2><p data-t="knowledgeText">Navigate the deep bilingual Knowledge Compendium by operational domain, search its full text locally, and track what your household has actually reviewed.</p></div><div class="quick"><button onclick="openCompendiumIndex()" data-t="openKnowledgeIndex">Open compendium index</button><button onclick="location.href='/reader.html'" data-t="standaloneReader">Standalone offline reader</button><button onclick="refreshKnowledgeAtlas()" data-t="refreshKnowledge">Refresh atlas</button><button onclick="exportKnowledgeQueue()" data-t="exportKnowledgeQueue">Export reading queue</button></div></div>
       <div class="grid stats" id="knowledgeStats"></div>
@@ -362,6 +428,8 @@
 <script src="/app.js" defer></script>
 <script src="/field-operations.js" defer></script>
 <script src="/continuity-operations.js" defer></script>
+<script src="/resilience-operations.js" defer></script>
+<script src="/decision-support.js" defer></script>
 <script src="/knowledge-atlas.js" defer></script>
 </body>
 </html>

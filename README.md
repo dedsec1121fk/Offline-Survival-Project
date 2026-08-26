@@ -44,11 +44,11 @@ It combines a curated survival database, a phone-friendly local Command Center, 
 
 * **English + Greek support** across the main database, interface, Knowledge Compendium, paired Library collections, and current documentation.
 * **250 detailed Knowledge Compendium subjects per language.**
-* **871 curated database records per language.**
-* **792 Offline Library files** with paired bilingual collections and ranked local full-text search.
+* **895 curated database records per language.**
+* **904 Offline Library files** with paired bilingual collections and ranked local full-text search.
 * **Smart offline search** with weighted relevance, natural-language queries, bilingual aliases, Greek accent/transliteration handling, concept synonyms, typo tolerance, quoted phrases, exclusions, and `category:`, `tag:`, `priority:`, `urgency:`, `difficulty:`, and `id:` filters.
 * **Detailed record maps** generated from each record’s existing evidence: available guidance sections, action points, risk/stop signals, fallbacks, source domains, key concepts, and section counts without inventing filler.
-* **32+ Command Center sections** for practical household emergency operations.
+* **42 Command Center sections** for practical household emergency operations.
 * **Standalone Survival Reader** containing the complete bilingual Knowledge Compendium in one local HTML file.
 * **One Python script only:** `Offline Survival.py`.
 * **One repository JSON database only:** `Offline Survival Database.json`, containing both English and Greek records plus maintenance metadata.
@@ -162,6 +162,13 @@ What this does:
 
 
 * `python "Offline Survival.py"` — open the lightweight terminal knowledge browser.
+* `python "Offline Survival.py" --search "water storage" --lang en --limit 8` — ranked database search directly from the shell.
+* `python "Offline Survival.py" --open RECORD_ID --lang en` — print one full database record without entering the menu.
+* `python "Offline Survival.py" --emergency wildfire --lang en` — jump straight to prioritized emergency guidance for a scenario or phrase.
+* `python "Offline Survival.py" --library-search "route failure" --lang en --limit 8` — search readable Offline Library files directly.
+* `python "Offline Survival.py" --failure-mode "generator unavailable" --lang en --limit 6` — search the dedicated contingency/failure-mode response cards.
+* `python "Offline Survival.py" --list-categories --lang en` — print the category tree and record counts.
+* `python "Offline Survival.py" --random-topic --lang en` — open a random curated topic for practice or review.
 * `python "Offline Survival.py" --web` — start the full local Command Center.
 * `python "Offline Survival.py" --reader` — open the standalone bilingual survival reader.
 * `python "Offline Survival.py" --phone-browser-test` — open diagnostics in the phone's installed/default browser.
@@ -359,6 +366,16 @@ It can help you:
 * track vehicles and kits;
 * maintain household skill coverage;
 * maintain a decision board;
+* map critical dependencies and independent fallbacks;
+* define observable action triggers with owners and review times;
+* log real resource use, restock, loss, and transfers;
+* coordinate minimal-data mutual-aid offers and needs;
+* surface resilience exceptions in one dashboard;
+* derive a **Mission Control** priority list from existing registers;
+* rank unresolved items in a transparent **Gap Matrix**;
+* sequence current exceptions across a **First 24 Hours** view;
+* review observed resource movement in **Sustainment**;
+* generate an evidence-based **After-Action Review** without creating duplicate trackers;
 * create incident and field logs;
 * view numeric field trends;
 * run training drills and record debriefs;
@@ -404,6 +421,8 @@ It includes:
 * worksheets;
 * scenario drills;
 * pocket references;
+* a paired **Resilience Operations** collection covering dependency mapping, trigger matrices, resource movement, mutual aid, redundancy, restoration, substitution, shared equipment, local information, recovery checkpoints, drills, and assumption review;
+* a paired **Failure Modes** collection with **44 EN + 44 GR** guides for cascade failures across power, water, communications, access, transport, shelter, sanitation, food, medical continuity, information integrity, mutual aid and resupply;
 * long-form Knowledge Compendium chapters;
 * local Library search;
 * readable-document previews;
@@ -508,6 +527,10 @@ The project includes practical offline tools for:
 * dependents/accessibility planning;
 * damage/recovery tracking;
 * decision tracking;
+* critical-dependency and fallback mapping;
+* action-trigger matrices;
+* resource-movement logging;
+* minimal-data mutual-aid coordination;
 * recovery costs;
 * drills and debriefs;
 * Situation Brief generation;
@@ -631,11 +654,11 @@ python "Offline Survival.py" --audit
 
 * **Πλήρη υποστήριξη Αγγλικών + Ελληνικών** στη βασική βάση, στο interface, στο Knowledge Compendium, στις ζευγαρωμένες συλλογές της Library και στην τρέχουσα τεκμηρίωση.
 * **250 αναλυτικά θέματα Knowledge Compendium ανά γλώσσα.**
-* **871 επιμελημένες εγγραφές βάσης ανά γλώσσα.**
-* **792 αρχεία Offline Library** με δίγλωσσα ζεύγη και ταξινομημένη τοπική αναζήτηση πλήρους κειμένου.
+* **895 επιμελημένες εγγραφές βάσης ανά γλώσσα.**
+* **904 αρχεία Offline Library** με δίγλωσσα ζεύγη και ταξινομημένη τοπική αναζήτηση πλήρους κειμένου.
 * **Έξυπνη offline αναζήτηση** με σταθμισμένη συνάφεια, φυσικές ερωτήσεις, δίγλωσσα aliases, χειρισμό ελληνικών τόνων/μεταγραφής, συνώνυμα εννοιών, ανοχή σε ορθογραφικά λάθη, φράσεις σε εισαγωγικά, εξαιρέσεις και φίλτρα `category:`, `tag:`, `priority:`, `urgency:`, `difficulty:` και `id:`.
 * **Αναλυτικός χάρτης για κάθε εγγραφή** από τα ήδη υπάρχοντα στοιχεία της: διαθέσιμες ενότητες, βασικά σημεία, κίνδυνοι/σημεία διακοπής, εναλλακτικές, domains πηγών, βασικές έννοιες και μετρήσεις ενοτήτων χωρίς τεχνητό filler.
-* **32+ ενότητες Command Center** για πραγματική οργάνωση έκτακτης ανάγκης.
+* **42 ενότητες Command Center** για πραγματική οργάνωση έκτακτης ανάγκης.
 * **Standalone Survival Reader** με ολόκληρο το δίγλωσσο Knowledge Compendium σε ένα τοπικό HTML αρχείο.
 * **Μόνο ένα Python script:** `Offline Survival.py`.
 * **Μόνο ένα repository JSON database:** `Offline Survival Database.json`, με Αγγλικά, Ελληνικά και maintenance metadata στο ίδιο αρχείο.
@@ -749,6 +772,13 @@ python "Offline Survival.py" --web
 
 
 * `python "Offline Survival.py"` — άνοιγμα του ελαφρού terminal knowledge browser.
+* `python "Offline Survival.py" --search "αποθήκευση νερού" --lang el --limit 8` — ταξινομημένη αναζήτηση βάσης απευθείας από το shell.
+* `python "Offline Survival.py" --open RECORD_ID --lang el` — πλήρης προβολή μίας εγγραφής χωρίς είσοδο στο menu.
+* `python "Offline Survival.py" --emergency wildfire --lang el` — άμεση μετάβαση σε προτεραιοποιημένη καθοδήγηση για σενάριο ή φράση.
+* `python "Offline Survival.py" --library-search "αποτυχία διαδρομής" --lang el --limit 8` — άμεση αναζήτηση στα αναγνώσιμα αρχεία Offline Library.
+* `python "Offline Survival.py" --failure-mode "απώλεια ρεύματος" --lang el --limit 6` — αναζήτηση μόνο στις επιμελημένες κάρτες τρόπων αστοχίας και εφεδρείας.
+* `python "Offline Survival.py" --list-categories --lang el` — εμφάνιση κατηγοριών και πλήθους εγγραφών.
+* `python "Offline Survival.py" --random-topic --lang el` — τυχαίο επιμελημένο θέμα για εξάσκηση ή επανάληψη.
 * `python "Offline Survival.py" --web` — εκκίνηση του πλήρους τοπικού Command Center.
 * `python "Offline Survival.py" --reader` — άνοιγμα του αυτόνομου δίγλωσσου Survival Reader.
 * `python "Offline Survival.py" --phone-browser-test` — diagnostics μέσα στον εγκατεστημένο/default browser του κινητού.
@@ -939,6 +969,16 @@ python "Offline Survival.py" --web
 * vehicles και kits;
 * skill coverage;
 * decision board;
+* critical-dependency mapping και ανεξάρτητες εφεδρείες;
+* observable action triggers με υπεύθυνους και χρόνους επανελέγχου;
+* resource movement για χρήση, αναπλήρωση, απώλεια και μεταφορά;
+* mutual-aid board με ελάχιστα απαραίτητα προσωπικά δεδομένα;
+* ενιαίο resilience dashboard για ανοιχτές εξαιρέσεις;
+* παράγωγο **Κέντρο αποστολής** από τα ήδη υπάρχοντα μητρώα;
+* ιεραρχημένο **Πίνακα κενών** με διαφανείς κανόνες;
+* ακολουθία **Πρώτων 24 ωρών** για τα τρέχοντα ανοικτά θέματα;
+* ανασκόπηση **Διατήρησης** από τις πραγματικές κινήσεις πόρων;
+* **Αποτίμηση μετά το συμβάν** από υπάρχοντα στοιχεία χωρίς διπλότυπα trackers;
 * incident και field logs;
 * numeric field trends;
 * training drills και debriefs;
@@ -982,6 +1022,8 @@ python "Offline Survival.py" --web
 * worksheets;
 * scenario drills;
 * pocket references;
+* ζευγαρωμένη συλλογή **Resilience Operations** για εξαρτήσεις, triggers, κίνηση πόρων, αλληλοβοήθεια, εφεδρείες, αποκατάσταση, υποκαταστάσεις, κοινόχρηστο εξοπλισμό, τοπική πληροφόρηση, recovery checkpoints, ασκήσεις και έλεγχο υποθέσεων;
+* ζευγαρωμένη συλλογή **Τρόπων Αστοχίας** με **44 Αγγλικά + 44 Ελληνικά** guides για αλυσιδωτές αστοχίες ρεύματος, νερού, επικοινωνιών, πρόσβασης, μεταφοράς, καταφυγίου, υγιεινής, τροφίμων, ιατρικής συνέχειας, πληροφορίας, αλληλοβοήθειας και ανεφοδιασμού;
 * long-form κεφάλαια Knowledge Compendium;
 * τοπική αναζήτηση Library;
 * readable-document previews;
@@ -1083,6 +1125,10 @@ python "Offline Survival.py" --phone-browser-test
 * dependents/accessibility;
 * damage/recovery;
 * decision tracking;
+* critical-dependency και fallback mapping;
+* action-trigger matrices;
+* resource-movement logging;
+* mutual-aid coordination με ελάχιστα δεδομένα;
 * recovery costs;
 * drills και debriefs;
 * Situation Brief;
